@@ -1,0 +1,188 @@
+#armortable {
+	margin:1px auto;
+	background-color:#18100B;
+	color:#ded2b2;
+	text-align:center;
+}
+#armortable td {
+	font-size: 14px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+}
+.armorname {
+	text-align:right;
+	padding-right:10px;
+	width:200px;
+}
+.armorskill {
+	text-align:left;
+	padding-left:10px;
+	width:325px;
+}
+.type0 {
+	color:#8aff2b;
+}
+.type1 {
+	color:#5cbcfe;
+}
+.armorpiccell {
+	width:40px;
+	height:40px;
+	position:relative;
+	background-image: url("../images/itembg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	text-align:center;
+	vertical-align: middle;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.armorpic {
+	position:relative;
+	top:4px;
+	left:4px;
+}
+.matpic {
+	position:relative;
+	top:4px;
+	left:4px;
+}
+table.armorinfo {
+	padding:0px;
+	border:1px solid white;
+	width:200px;
+}
+.armorpiecename {
+	text-align:center;
+	font-size: 18px !important;
+	color:white;
+}
+.level {
+	color:#fd935b;
+}
+.skillamount {
+	text-align:left;
+	width:30%;
+}
+.list {
+	list-style:none;
+	display:inline;
+}
+.item {/*box-shadow: h-shadow v-shadow blur spread color inset;*/
+	height: 40px;
+	text-align:center;
+	float:left;
+}
+.item:hover + .info {
+	display:block;
+}
+.info {
+	position:absolute;
+	top:10px;
+	left:50px;
+	width:200px;
+	background-color:#18100b;
+	margin-top:0px;
+	margin-left:0px;
+	float:left;
+	display:none;
+	z-index: 5;
+	text-align:left;
+	padding-left:0px;
+}
+.info td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.item:hover + .info, .info:hover {
+    display:block;
+}
+.list2 {
+	list-style:none;
+	display:inline;
+}
+.item2:hover + .info2 {
+	display:block;
+}
+.info2 {
+	position:absolute;
+	bottom:2px;
+	right:2px;
+	width:40px;
+	height:40px;
+	background-image: url("../images/itembg.png");
+	margin-top:0px;
+	margin-left:0px;
+	float:left;
+	display:none;
+	z-index: 5;
+}
+.item2:hover + .info2, .info2:hover {
+    display:block;
+}
+.attrib00000 {
+	display:none;
+}
+.water0 {
+	display:none;
+}
+.fire0 {
+	display:none;
+}
+.thunder0 {
+	display:none;
+}
+.dragon0 {
+	display:none;
+}
+.ice0 {
+	display:none;
+}
+.noskill {
+	display:none;
+}
+.nomat {
+	display:none;
+}
+.skill1 {
+	color:green;
+}
+.skill2 {
+	color:green;
+}
+.skill3 {
+	color:green;
+}
+.skill4 {
+	color:green;
+}
+.skill5 {
+	color:green;
+}
+.skill-1 {
+	color:red;
+}
+.skill-2 {
+	color:red;
+}
+.skill-3 {
+	color:red;
+}
+.skill-4 {
+	color:red;
+}
+.skill-5 {
+	color:red;
+}
+.white {
+	color:white;
+}
+hr {
+	color:#241C17;
+	background-color:#241C17;
+	text-align:center;
+	margin: 0 auto;
+	width:100%;
+	height:1px;
+}
