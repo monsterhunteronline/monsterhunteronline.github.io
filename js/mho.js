@@ -455,7 +455,7 @@ function materialsContent(arr) {
     var out = "";
     var i;
     for(i = 0; i < arr.length; i ++) {
-		out += '<tr><td><img src="../images/' + arr[i].data[4] + '.png"></td><td>' + arr[i].data[1] + '</td><td>' + arr[i].data[2] + '</td><td>' + arr[i].data[8] + '</td></tr>';
+		out += '<tr name="' + arr[i].data[0] + '"><td><img src="../images/' + arr[i].data[4] + '.png"></td><td>' + arr[i].data[1] + '</td><td>' + arr[i].data[2] + '</td><td>' + arr[i].data[8] + '</td></tr>';
     }
     document.getElementById("materialtable").innerHTML = out;
 
