@@ -1,3 +1,77 @@
+body {
+	background-image: url(../images/bg1.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #f5f5f5;
+	font-size: 15px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+}
+#pagecontainer {
+	background-image: url(../images/bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+	top:450px;
+}
+#pagecontent {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#pagetitle {
+	font-size: 25px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+}
+#navbar {
+	background:white;
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+	height: 31px;
+}
+.nav li {
+	display:inline-block;
+	padding:6px;
+	font-size: 12px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+}
+.nav a {
+	text-decoration: none;
+	color:black;
+	padding: 5px 5px 5px 5px;
+}
+.nav a:hover {
+	border-bottom: 2px solid #49201E;
+	background:#C1C1BF;
+}
+#materialtable table{
+	margin: 3px auto;
+	padding: 1px;
+	border-spacing:0px;
+	background: #ccc;
+}
+#materialtable td{
+	padding: 2px;
+	border-collapse: separate;
+	border: 1px solid #ccc;
+	background-color:white;
+}
+#footer {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:1200px;
+	text-align:center;
+	font-size: 12px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	border-top: 2px solid #272822;
+}
+.container {
+
+}
 #armortable {
 	margin:1px auto;
 	background-color:#18100B;

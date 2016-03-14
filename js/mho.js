@@ -1,21 +1,34 @@
+function navbarContent(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i ++) {
+		out += '<li class="navbar"><a class="navlink" href="http://monsterhunteronline.in' + arr[i].url + '">' + arr[i].pagename + '</a></li>';
+    }
+    document.getElementById("navlist").innerHTML = out;
+
+}
+function footerContent() {
+	//because I am lazy
+    document.getElementById("footer").innerHTML = 'This page is maintained by @Reaver01.'
+}
 function armorContent(arr) {
     var out = "";
     var i;
-    for(i = 0; i < arr.length; i += 5) {		
+    for(i = 0; i < arr.length; i += 5) {
+    	//Level
 		out += '<tr><td><span class="level">Lv.' +
 		levelArray[i].level +
+		//Name
 		'</span></td><td class="armorname">' + 
 		arr[i].data[2] + 
 		' Armor <span class="type' + 
 		arr[i].data[3] + '">' + 
 		typeArray[arr[i].data[3]].type + 
-		'</span></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="images/' + 
+		//First column
+		'</span></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="../images/' + 
 		arr[i].data[13] + 
 		'.png" class="armorpic"></li>' +
-		
-		
-		
-		
+		//First column hover
 		'<li class="info"><table class="armorinfo"><tr><td class="armorpiecename" colspan="2">' + 
 		arr[i].data[1] + 
 		'<hr /></td></tr><tr><td colspan="2">Defense: <span class="white">' +
@@ -95,17 +108,11 @@ function armorContent(arr) {
 		'"><td colspan="2">' +
 		arr[i].data[36] + 'x' + arr[i].data[37] +
 		'</td></tr></table></li>' +
-		
-		
-		
-		
-		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="images/' + 
+		//Second column
+		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="../images/' + 
 		arr[i+1].data[13] + 
 		'.png" class="armorpic"></li>' +
-		
-		
-		
-		
+		//Second column hover
 		'<li class="info"><table class="armorinfo"><tr><td class="armorpiecename" colspan="2">' + 
 		arr[i+1].data[1] + 
 		'<hr /></td></tr><tr><td colspan="2">Defense: <span class="white">' +
@@ -185,17 +192,11 @@ function armorContent(arr) {
 		'"><td colspan="2">' +
 		arr[i+1].data[36] + 'x' + arr[i+1].data[37] +
 		'</td></tr></table></li>' +
-		
-		
-		
-		
-		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="images/' + 
+		//Third column
+		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="../images/' + 
 		arr[i+2].data[13] + 
 		'.png" class="armorpic"></li>' +
-		
-		
-		
-		
+		//Third column hover
 		'<li class="info"><table class="armorinfo"><tr><td class="armorpiecename" colspan="2">' + 
 		arr[i+2].data[1] + 
 		'<hr /></td></tr><tr><td colspan="2">Defense: <span class="white">' +
@@ -275,17 +276,11 @@ function armorContent(arr) {
 		'"><td colspan="2">' +
 		arr[i+2].data[36] + 'x' + arr[i+2].data[37] +
 		'</td></tr></table></li>' +
-		
-		
-		
-		
-		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="images/' + 
+		//Fourth column
+		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="../images/' + 
 		arr[i+3].data[13] + 
 		'.png" class="armorpic"></li>' +
-		
-		
-		
-		
+		//Fourth column hover
 		'<li class="info"><table class="armorinfo"><tr><td class="armorpiecename" colspan="2">' + 
 		arr[i+3].data[1] + 
 		'<hr /></td></tr><tr><td colspan="2">Defense: <span class="white">' +
@@ -365,18 +360,11 @@ function armorContent(arr) {
 		'"><td colspan="2">' +
 		arr[i+3].data[36] + 'x' + arr[i+3].data[37] +
 		'</td></tr></table></li>' +
-		
-		
-		
-		
-		
-		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="images/' + 
+		//Fifth column
+		'</ul></td><td class="armorpiccell"><ul class="list"><li class="item"><img src="../images/' + 
 		arr[i+4].data[13] + 
 		'.png" class="armorpic"></li>' +
-		
-		
-		
-		
+		//Fifth column hover
 		'<li class="info"><table class="armorinfo"><tr><td class="armorpiecename" colspan="2">' + 
 		arr[i+4].data[1] + 
 		'<hr /></td></tr><tr><td colspan="2">Defense: <span class="white">' +
@@ -456,13 +444,19 @@ function armorContent(arr) {
 		'"><td colspan="2">' +
 		arr[i+4].data[36] + 'x' + arr[i+4].data[37] +
 		'</td></tr></table></li>' +
-		
-		
-		
-		
+		//Skills
 		'</ul></td><td class="armorskill">' + 
 		arr[i].data[56] + '</td></tr>';
     }
     document.getElementById("armortable").innerHTML = out;
+
+}
+function materialsContent(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i ++) {
+		out += '<tr><td><img src="../images/' + arr[i].data[4] + '.png"></td><td>' + arr[i].data[1] + '</td><td>' + arr[i].data[2] + '</td><td>' + arr[i].data[8] + '</td></tr>';
+    }
+    document.getElementById("materialtable").innerHTML = out;
 
 }
