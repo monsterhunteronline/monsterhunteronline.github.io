@@ -48,16 +48,18 @@ body {
 	background:#C1C1BF;
 }
 #materialtable table{
-	margin: 3px auto;
-	padding: 1px;
-	border-spacing:0px;
-	background: #ccc;
+	margin:1px auto;
+	background-color:#222;
+	color:#ded2b2;
+	text-align:center;
 }
 #materialtable td{
 	padding: 2px;
+	font-size: 14px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
 	border-collapse: separate;
-	border: 1px solid #ccc;
-	background-color:white;
+	background-color:#18100B;
+	color:#ded2b2;
 }
 #footer {
 	position:absolute;
@@ -72,25 +74,78 @@ body {
 .container {
 
 }
+#monstertable {
+	margin:0px auto;
+	text-align:center;
+	font-size: 15px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	background: black
+}
+#monstertable td {
+	background: white;
+}
 #armortable {
 	margin:1px auto;
-	background-color:#18100B;
+	background-color:#222;
 	color:#ded2b2;
 	text-align:center;
 }
 #armortable td {
 	font-size: 14px;
 	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	border-collapse: separate;
+	background-color:#18100B;
+}
+#weapons {
+	margin:1px auto;
+	background-color:#18100B;
+	color:#ded2b2;
+	text-align:center;
+}
+#weapons td {
+	font-size: 14px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	border-collapse: separate;
+	background-color:#18100B;
+	align-content: center;
+	text-align: left;
+}
+#weapons div {
+	display: block;
+	margin: 0px auto;
+}
+#jewelrytable {
+	margin:1px auto;
+	background-color:#222;
+	color:#ded2b2;
+	text-align:center;
+}
+.sharpbar {
+	width: 245px;
+	height: 14px;
+	background-image: url(../images/sharpnessbg.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#jewelrytable td {
+	font-size: 14px;
+	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	border-collapse: separate;
+	background-color:#18100B;
+}
+.weaponpic {
+	position: relative;
+	top: 5px;
+	left: 3px;
+	margin: 0px auto;
 }
 .armorname {
 	text-align:right;
 	padding-right:10px;
-	width:200px;
 }
 .armorskill {
 	text-align:left;
 	padding-left:10px;
-	width:325px;
 }
 .type0 {
 	color:#8aff2b;
@@ -107,10 +162,24 @@ body {
     background-position: center;
 	text-align:center;
 	vertical-align: middle;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-left:15px;
-	padding-right:15px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.matpiccell {
+	width:40px;
+	height:40px;
+	position:relative;
+	background-image: url("../images/itembg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	text-align:center;
+	vertical-align: middle;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
 }
 .armorpic {
 	position:relative;
@@ -126,6 +195,12 @@ table.armorinfo {
 	padding:0px;
 	border:1px solid white;
 	width:200px;
+}
+table.weaponinfo {
+	padding:0px;
+	border:1px solid white;
+	width:247px;
+	background:#18100B ;
 }
 .armorpiecename {
 	text-align:center;
@@ -154,7 +229,7 @@ table.armorinfo {
 .info {
 	position:absolute;
 	top:10px;
-	left:50px;
+	left:36px;
 	width:200px;
 	background-color:#18100b;
 	margin-top:0px;

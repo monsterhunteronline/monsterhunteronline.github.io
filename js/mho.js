@@ -9,7 +9,13 @@ function navbarContent(arr) {
 }
 function footerContent() {
 	//because I am lazy
-    document.getElementById("footer").innerHTML = 'This page is maintained by @Reaver01.'
+    document.getElementById("footer").innerHTML = 'This page is maintained and paid for by @Reaver01. If you would like to buy me a beer please click below.<br>' +
+'<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">' +
+'<input type="hidden" name="cmd" value="_s-xclick">' +
+'<input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">' +
+'<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' +
+'<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">' +
+'</form>'
 }
 function armorContent(arr) {
     var out = "";
@@ -455,8 +461,84 @@ function materialsContent(arr) {
     var out = "";
     var i;
     for(i = 0; i < arr.length; i ++) {
-		out += '<tr name="' + arr[i].data[0] + '"><td><img src="../images/' + arr[i].data[4] + '.png"></td><td>' + arr[i].data[1] + '</td><td>' + arr[i].data[2] + '</td><td>' + arr[i].data[8] + '</td></tr>';
+		out += '<tr><td class="matpiccell"><img src="../images/' + arr[i].data[4] + '.png"></td><td>' + arr[i].data[1] + '</td><td>' + arr[i].data[2] + '</td><td>' + arr[i].data[8] + '</td></tr>';
     }
     document.getElementById("materialtable").innerHTML = out;
+}
+function monsterContent(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i ++) {
+		out += '<tr><td>' + arr[i].data[0] + '</td><td>' + arr[i].data[1] + '</td><td>' + arr[i].data[2] + '</td><td>' + arr[i].data[3] + '</td><td>' + arr[i].data[4] + '</td><td>' + arr[i].data[5] + '</td><td>' + arr[i].data[6] + '</td><td>' + arr[i].data[7] + '</td><td>' + arr[i].data[8] + '</td></tr>';
+    }
+    document.getElementById("monstertable").innerHTML = out;
+}
+function weaponContent(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i ++) {
+		out = '<div class="matpiccell weapon"><div class="weaponpic"><ul class="list"><li class="item"><img src="../../images/' + arr[i].data[4] + '.png"></li>' +
+		//First column hover
 
+		'<li class="info"><table class="weaponinfo"><tr><td class="armorpiecename" colspan="2">' + 
+		arr[i].data[1] + 
+		'<hr /></td></tr><tr><td colspan="2">Character Level: <span class="white">' +
+		arr[i].data[7] + 
+		'</span><hr /></td></tr><tr class="attrib' +
+		arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + 
+		'"><td colspan="2">[Attributes]</td></tr>' +
+		'<tr><td colspan="2">Sharpness</td></tr><tr><td class="sharpbar" colspan="2"></td></tr>' + 
+
+
+		'<tr><td colspan="2">[Passive Skills]</td></tr><tr class="' +
+		arr[i].data[38] + ' skill' + arr[i].data[39] +
+		'"><td>' +
+		arr[i].data[38] + 
+		':</td><td class="skillamount">' +
+		arr[i].data[39] + 
+		'</td></tr><tr class="' +
+		arr[i].data[40] + ' skill' + arr[i].data[41] +
+		'"><td>' +
+		arr[i].data[40] + 
+		':</td><td class="skillamount">' +
+		arr[i].data[41] + 
+		'</td></tr><tr class="' +
+		arr[i].data[42] + ' skill' + arr[i].data[43] +
+		'"><td>' +
+		arr[i].data[42] + 
+		':</td><td class="skillamount">' +
+		arr[i].data[43] + 
+		'</td></tr><tr class="' +
+		arr[i].data[44] + ' skill' + arr[i].data[45] +
+		'"><td>' +
+		arr[i].data[44] + 
+		':</td><td class="skillamount">' +
+		arr[i].data[45] + 
+		'</td></tr><tr><td colspan="2"><hr />[Forging Material]</td></tr><tr class="white nomat' + 
+		arr[i].data[21] +
+		'"><td colspan="2">' +
+		arr[i].data[21] + 'x' + arr[i].data[22] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[24] +
+		'"><td colspan="2">' +
+		arr[i].data[24] + 'x' + arr[i].data[25] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[27] +
+		'"><td colspan="2">' +
+		arr[i].data[27] + 'x' + arr[i].data[28] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[30] +
+		'"><td colspan="2">' +
+		arr[i].data[30] + 'x' + arr[i].data[31] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[33] +
+		'"><td colspan="2">' +
+		arr[i].data[33] + 'x' + arr[i].data[34] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[37] +
+		'"><td colspan="2">' +
+		arr[i].data[36] + 'x' + arr[i].data[37] +
+		'</td></tr></table></li></div><div>';
+    document.getElementById('id' + arr[i].data[0]).innerHTML = out;
+    }
 }

@@ -1,0 +1,3875 @@
+var bulldromeArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Whole Body",
+					"★",
+					"★",
+					"★",
+					"★",
+					"★",
+					"★",
+					"★",
+					"◎",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"◎",
+					"◎",
+					"×",
+					"No",
+				]
+			}];
+var velocidromeArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"◎",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"◎",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"◎",
+					"◎",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"◎",
+					"◎",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"◎",
+					"◎",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"×",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"◎",
+					"◎",
+					"×",
+					"No",
+				]
+			}];
+var caeserberArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"★",
+					"★",
+					"★",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Whole Body",
+					"◎",
+					"◎",
+					"◎",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"★",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"No",
+				]
+			}];
+var yiankutkuArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"★",
+					"★",
+					"×",
+					"○",
+					"○",
+					"○",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"★",
+					"◎",
+					"◎",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"○",
+					"◎",
+					"○",
+					"×",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"◎",
+					"○",
+					"○",
+					"×",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"×",
+					"○",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"×",
+					"○",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"After angry Sonic Bomb has no effect.",
+				]
+			}];
+var gendromeArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"○",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"△",
+					"△",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"×",
+					"◎",
+					"×",
+					"◎",
+					"×",
+					"◎",
+					"◎",
+					"×",
+					"No",
+				]
+			}];
+var baelidaeArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Abdomen",
+					"○",
+					"○",
+					"○",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"◎",
+					"○",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Hind Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Hind Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"△",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"△",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"×",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"◎",
+					"×",
+					"×",
+					"No",
+				]
+			}];
+var yellowcaeserberArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"★",
+					"★",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Whole Body",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"◎",
+					"◎",
+					"○",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"○",
+					"×",
+					"○",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"★",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"No",
+				]
+			}];
+var gypcerosArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"★",
+					"★",
+					"◎",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"○",
+					"◎",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"★",
+					"○",
+					"△",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"★",
+					"★",
+					"★",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"◎",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"◎",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"Paralysis Trap has no effect.",
+				]
+			}];
+var congalalaArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"△",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"★",
+					"◎",
+					"○",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"△",
+					"×",
+					"×",
+					"×",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"×",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"Meat in force",
+				]
+			}];
+var chramineArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"★",
+					"★",
+					"×",
+					"○",
+					"×",
+					"○",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"★",
+					"×",
+					"○",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"◎",
+					"◎",
+					"×",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"◎",
+					"○",
+					"×",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"○",
+					"○",
+					"○",
+					"×",
+					"△",
+					"○",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"○",
+					"○",
+					"○",
+					"×",
+					"△",
+					"○",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"×",
+					"No",
+				]
+			}];
+var cephadromeArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"◎",
+					"◎",
+					"×",
+					"×",
+					"△",
+					"○",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"×",
+					"△",
+					"×",
+					"△",
+					"×",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Wings",
+					"○",
+					"◎",
+					"◎",
+					"x",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"★",
+					"★",
+					"★",
+					"x",
+					"x",
+					"△",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"◎",
+					"x",
+					"◎",
+					"No",
+				]
+			}];
+var daimyohermitaurArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Shell",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"◎",
+					"○",
+					"△",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"△",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"△",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"◎",
+					"x",
+					"x",
+					"Defensive eat sonic boom",
+				]
+			}];
+var blueyiankutkuArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"◎",
+					"○",
+					"x",
+					"○",
+					"○",
+					"○",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"○",
+					"◎",
+					"x",
+					"★",
+					"★",
+					"◎",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"○",
+					"◎",
+					"○",
+					"x",
+					"△",
+					"△",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"◎",
+					"◎",
+					"x",
+					"△",
+					"△",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"△",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"○",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"○",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"No",
+				]
+			}];
+var khezuArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"◎",
+					"△",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"◎",
+					"★",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"◎",
+					"◎",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Wings",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"△",
+					"△",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"x",
+					"No",
+				]
+			}];
+var basariosArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"△",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"△",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"△",
+					"△",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Abdomen",
+					"○",
+					"○",
+					"○",
+					"△",
+					"△",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"△",
+					"△",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"×",
+					" ",
+					" ",
+					" ",
+					" ",
+					" ",
+					" ",
+					" ",
+					"No",
+				]
+			}];
+var hypnocatriceArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"◎",
+					"◎",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Wings",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"No",
+				]
+			}];
+var goldcongalalaArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"◎",
+					"x",
+					"★",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"◎",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"Meat in force",
+				]
+			}];
+var dreadbaelidaeArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Abdomen",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"○",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"○",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hind Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hind Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"△",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"○",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"△",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"○",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"◎",
+					"x",
+					"x",
+					"No",
+				]
+			}];
+var  purplegypcerosArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"★",
+					"★",
+					"◎",
+					"△",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"○",
+					"◎",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"★",
+					"○",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"★",
+					"★",
+					"★",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"◎",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"◎",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"x",
+					"x",
+					"◎",
+					"◎",
+					"x",
+					"x",
+					"x",
+					"No",
+				]
+			}];
+var shogunceanataurArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Shell",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Wrist",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Wrist",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"◎",
+					"○",
+					"x",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"◎",
+					"x",
+					"x",
+					"No",
+				]
+			}];
+var Array = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"△",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"★",
+					"◎",
+					"◎",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"No",
+				]
+			}];
+var Array = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"△",
+					"x",
+					"△",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"△",
+					"△",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"△",
+					"○",
+					"△",
+					"x",
+					"△",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"△",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"△",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"△",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"◎",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"△",
+					"x",
+					"△",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"x",
+					"◎",
+					"x",
+					"x",
+					"◎",
+					"x",
+					"Can only damage tail in stage A",
+				]
+			}];
+var icechramineArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"★",
+					"★",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"◎",
+					"◎",
+					"★",
+					"x",
+					"○",
+					"x",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"◎",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"○",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"No",
+				]
+			}];
+var silverhypnocatriceArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"◎",
+					"◎",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"△",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Wings",
+					"○",
+					"○",
+					"○",
+					"△",
+					"x",
+					"△",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"No",
+				]
+			}];
+var akuravashimuArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Left Hand",
+					"△",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Hand",
+					"△",
+					"○",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"△",
+					"◎",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"◎",
+					"◎",
+					"○",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"◎",
+					"★",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Foot",
+					"◎",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Foot",
+					"◎",
+					"△",
+					"△",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+					"x",
+					"No",
+				]
+			}];
+var yiangarugaArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Back",
+					"x",
+					"x",
+					"x",
+					"x",
+					"★",
+					"x",
+					"△",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"○",
+					"○",
+					"◎",
+					"△",
+					"○",
+					"△",
+					"○",
+					"○",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"○",
+					"○",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Wing",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Wing",
+					"○",
+					"○",
+					"x",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Face",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Chest",
+					"○",
+					"○",
+					"◎",
+					"△",
+					"○",
+					"△",
+					"○",
+					"○",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"○",
+					"△",
+					"x",
+					"x",
+					"○",
+					"x",
+					"△",
+					"△",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"After angry Pitfall Trap has no effect.",
+				]
+			}];
+var redkhezuArray = [
+			{
+				"data": [
+					"Body Part",
+					"Cut",
+					"Impact",
+					"Projectile",
+					"Fire",
+					"Water",
+					"Thunder",
+					"Ice",
+					"Dragon",
+				]
+			},
+			{
+				"data": [
+					"Torso",
+					"◎",
+					"◎",
+					"△",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Head",
+					"○",
+					"◎",
+					"★",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Neck",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"○",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Wings",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Left Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Right Leg",
+					"○",
+					"○",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Tail",
+					"△",
+					"△",
+					"○",
+					"x",
+					"△",
+					"x",
+					"x",
+					"x",
+				]
+			},
+			{
+				"data": [
+					"Stun",
+					"Poison",
+					"Paralyze",
+					"Sleep",
+					"Pitfall Trap",
+					"Shock Trap",
+					"Flash Bomb",
+					"Sonic Bomb",
+					"Remarks",
+				]
+			},
+			{
+				"data": [
+					"x",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"◎",
+					"x",
+					"x",
+					"No",
+				]
+			}];
