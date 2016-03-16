@@ -1,11 +1,31 @@
 function navbarContent(arr) {
-    var out = "";
-    var i;
-    for(i = 0; i < arr.length; i ++) {
-		out += '<li class="navbar"><a class="navlink" href="http://monsterhunteronline.in' + arr[i].url + '">' + arr[i].pagename + '</a></li>';
-    }
-    document.getElementById("navlist").innerHTML = out;
-
+    document.getElementById("navlist").innerHTML = '' +
+    '<li><a href="http://monsterhunteronline.in">FAQ</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/armor/">Armor</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/jewelry/">Jewelry</a></li>' +
+    '<li><a href="#">Weapons</a>' +
+    '<ul>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/lance">Lance</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/gunlance">Gunlance</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/sword-and-shield">Sword and Shield</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/greatsword">Greatsword</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/longsword">Longsword</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/hammer">Hammer</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/dual-blades">Dual Blades</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/bowgun">Bowgun</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/bow">Bow</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/weapons/hunting-horn">Hunting Horn</a></li>' +
+    '</ul></li>' +
+    '<li><a href="http://monsterhunteronline.in/monsters/">Monsters</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/quests/">Quests</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/cats/">Cats</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/gathering/">Gathering</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/food/">Food</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/vip/">VIP</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/grouping/">Grouping</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/crafting/">Crafting</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/materials/">Materials</a></li>' +
+    '<li><a href="http://monsterhunteronline.in/translation/">Translation</a></li>'
 }
 function armorContent(arr) {
     var out = "";

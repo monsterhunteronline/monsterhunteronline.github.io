@@ -24,28 +24,79 @@ body {
 	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
 }
 #navbar {
-	background:white;
-	width:1200px;
-	margin:0 auto;
-	position: relative;
-	height: 31px;
+	margin-top:15px;
+	width: 1200px;
 }
-.nav li {
-	display:inline-block;
-	padding:6px;
-	font-size: 12px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
-	text-transform: uppercase;
-	border-bottom: 2px solid transparent;
+#navbar ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	background: #191D22;
 }
-.nav a {
-	text-decoration: none;
-	color:black;
-	padding: 5px 5px 5px 5px;
+#navbar ul a {
+	display:block;
+	color:#F8F764;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.nav a:hover {
-	border-bottom: 2px solid #49201E;
-	background:#C1C1BF;
+#navbar ul a:hover {
+	color: #191D22;
+}
+#navbar ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#navbar ul li.current-menu-item {
+	background:#ddd;
+}
+
+#navbar ul li:hover {
+	background:#ccc;
+}
+
+#navbar ul ul li:hover {
+	background:#191D22;
+}
+
+#navbar ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#ccc;
+	padding:0;
+}
+
+#navbar ul ul li {
+	float:none;
+	width:200px;
+}
+
+#navbar ul ul a {
+	line-height:120%;
+	padding:10px 15px;
+	color:#191D22;
+}
+#navbar ul ul a:hover {
+	color: #F8F764;
+}
+
+#navbar ul ul ul {
+	top:0;
+	left:100%;
+}
+
+#navbar ul li:hover > ul {
+	display:block;
 }
 #materialtable table{
 	margin:1px auto;
