@@ -24,8 +24,9 @@ body {
 	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
 }
 #navbar {
-	margin-top:15px;
+	margin:15px auto;
 	width: 1200px;
+	z-index: 1;
 }
 #navbar ul {
 	list-style:none;
@@ -74,6 +75,7 @@ body {
 	left:0;
 	background:#ccc;
 	padding:0;
+	z-index: 10;
 }
 
 #navbar ul ul li {
