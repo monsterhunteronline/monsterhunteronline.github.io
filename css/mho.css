@@ -179,7 +179,7 @@ body {
     width: 16px;
     height: 16px;
     background: url(../images/forgeicon.png) 0 0 no-repeat;
-    z-index: 9;
+    z-index: 4;
 }
 .noicon {
 	display: none;
