@@ -7,16 +7,6 @@ function navbarContent(arr) {
     document.getElementById("navlist").innerHTML = out;
 
 }
-function footerContent() {
-	//because I am lazy
-    document.getElementById("footer").innerHTML = 'This page is maintained and paid for by @Reaver01. If you would like to buy me a beer please click below.<br>' +
-'<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">' +
-'<input type="hidden" name="cmd" value="_s-xclick">' +
-'<input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">' +
-'<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' +
-'<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">' +
-'</form>'
-}
 function armorContent(arr) {
     var out = "";
     var i;
@@ -477,6 +467,15 @@ function weaponContent(arr) {
     var out = "";
     var i;
     for(i = 0; i < arr.length; i ++) {
+    	var width = ["0", "0", "0", "0", "0", "0", "0", "0"]
+    	width[0] = arr[i].data[17] * 100 / 4000000;
+		width[1] = (arr[i].data[18] - arr[i].data[17]) * 100 / 4000000;
+		width[2] = (arr[i].data[19] - arr[i].data[18]) * 100 / 4000000;
+		width[3] = (arr[i].data[20] - arr[i].data[19]) * 100 / 4000000;
+		width[4] = (arr[i].data[21] - arr[i].data[20]) * 100 / 4000000;
+		width[5] = (arr[i].data[22] - arr[i].data[21]) * 100 / 4000000;
+		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 4000000;
+		width[6] = 100 - arr[i].data[16] * 100 / 4000000;
 		out = '<div class="matpiccell weapon"><div class="weaponpic"><ul class="list"><li class="item"><img src="../../images/' + arr[i].data[4] + '.png"></li>' +
 		//First column hover
 
@@ -487,58 +486,134 @@ function weaponContent(arr) {
 		'</span><hr /></td></tr><tr class="attrib' +
 		arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + 
 		'"><td colspan="2">[Attributes]</td></tr>' +
-		'<tr><td colspan="2">Sharpness</td></tr><tr><td class="sharpbar" colspan="2"></td></tr>' + 
-
-
-		'<tr><td colspan="2">[Passive Skills]</td></tr><tr class="' +
-		arr[i].data[38] + ' skill' + arr[i].data[39] +
-		'"><td>' +
-		arr[i].data[38] + 
-		':</td><td class="skillamount">' +
-		arr[i].data[39] + 
-		'</td></tr><tr class="' +
-		arr[i].data[40] + ' skill' + arr[i].data[41] +
-		'"><td>' +
-		arr[i].data[40] + 
-		':</td><td class="skillamount">' +
-		arr[i].data[41] + 
-		'</td></tr><tr class="' +
-		arr[i].data[42] + ' skill' + arr[i].data[43] +
-		'"><td>' +
-		arr[i].data[42] + 
-		':</td><td class="skillamount">' +
-		arr[i].data[43] + 
-		'</td></tr><tr class="' +
-		arr[i].data[44] + ' skill' + arr[i].data[45] +
-		'"><td>' +
-		arr[i].data[44] + 
-		':</td><td class="skillamount">' +
-		arr[i].data[45] + 
-		'</td></tr><tr><td colspan="2"><hr />[Forging Material]</td></tr><tr class="white nomat' + 
-		arr[i].data[21] +
+		'<tr><td colspan="2">Sharpness</td></tr><tr><td class="sharpbar" colspan="2">' +
+		'<div class="basePro clearfix"><div class="barWidth"><span class="colorBar bar-1" style="width:' +
+		width[0] +
+		'%"></span><span class="colorBar bar-2" style="width:' +
+		width[1] +
+		'%"></span><span class="colorBar bar-3" style="width:' +
+		width[2] +
+		'%"></span><span class="colorBar bar-4" style="width:' +
+		width[3] +
+		'%"></span><span class="colorBar bar-5" style="width:' +
+		width[4] +
+		'%"></span><span class="colorBar bar-6" style="width:' +
+		width[5] +
+		'%"></span><span class="colorBar bar-7" style="width:' +
+		width[7] +
+		'%"></span><span class="leaveBar" style="width:' +
+		width[6] +
+		'%"></span></div></div></td></tr><tr><td>Attack:</td><td class="white">' +
+		arr[i].data[5] +
+		'<tr><td>Critical Rate:</td><td class="white">' +
+		arr[i].data[6] +
+		'</td></tr><tr class="water' +
+		arr[i].data[8] +
+		'"><td>Water Attack:</td><td class="white">' +
+		arr[i].data[8] +
+		'</td></tr><tr class="fire' +
+		arr[i].data[9] +
+		'"><td>Fire Attack:</td><td class="white">' +
+		arr[i].data[9] +
+		'</td></tr><tr class="thunder' +
+		arr[i].data[10] +
+		'"><td>Thunder Attack:</td><td class="white">' +
+		arr[i].data[10] +
+		'</td></tr><tr class="dragon' +
+		arr[i].data[11] +
+		'"><td>Dragon Attack:</td><td class="white">' +
+		arr[i].data[11] +
+		'</td></tr><tr class="ice' +
+		arr[i].data[12] +
+		'"><td>Ice Attack:</td><td class="white">' +
+		arr[i].data[12] +
+		'</td></tr><tr class="poison poison' +
+		arr[i].data[13] +
+		'"><td>Poison+:</td><td>' +
+		arr[i].data[13] +
+		'</td></tr><tr class="paralysis paralysis' +
+		arr[i].data[15] +
+		'"><td>Paralysis+:</td><td>' +
+		arr[i].data[15] +
+		'</td></tr><tr class="sleep sleep' +
+		arr[i].data[14] +
+		'"><td>Sleep+:</td><td>' +
+		arr[i].data[14] +
+		'</td></tr><tr class="nomat' +
+		arr[i].data[137] +
+		'"><td colspan="2"><hr />[Shelling Properties]</td></tr><tr class="nomat' +
+		arr[i].data[137] +
+		'"><td>Shelling Type:</td><td class="white">' +
+		arr[i].data[137] +
+		'</tr><tr class="nomat' +
+		arr[i].data[138] +
+		'"><td>Shelling Rating:</td><td class="white">' +
+		arr[i].data[138] +
+		'</td></tr>' +
+		'<tr class="nomat' + 
+		arr[i].data[94] +
+		'"><td colspan="2"><hr />[Forging Material]</td></tr><tr class="white nomat' + 
+		arr[i].data[94] +
 		'"><td colspan="2">' +
-		arr[i].data[21] + 'x' + arr[i].data[22] +
+		arr[i].data[94] + 'x' + arr[i].data[95] +
 		'</td></tr><tr class="white nomat' + 
-		arr[i].data[24] +
+		arr[i].data[97] +
 		'"><td colspan="2">' +
-		arr[i].data[24] + 'x' + arr[i].data[25] +
+		arr[i].data[97] + 'x' + arr[i].data[98] +
 		'</td></tr><tr class="white nomat' + 
-		arr[i].data[27] +
+		arr[i].data[100] +
 		'"><td colspan="2">' +
-		arr[i].data[27] + 'x' + arr[i].data[28] +
+		arr[i].data[100] + 'x' + arr[i].data[101] +
 		'</td></tr><tr class="white nomat' + 
-		arr[i].data[30] +
+		arr[i].data[103] +
 		'"><td colspan="2">' +
-		arr[i].data[30] + 'x' + arr[i].data[31] +
+		arr[i].data[103] + 'x' + arr[i].data[104] +
 		'</td></tr><tr class="white nomat' + 
-		arr[i].data[33] +
+		arr[i].data[106] +
 		'"><td colspan="2">' +
-		arr[i].data[33] + 'x' + arr[i].data[34] +
+		arr[i].data[106] + 'x' + arr[i].data[107] +
 		'</td></tr><tr class="white nomat' + 
-		arr[i].data[37] +
+		arr[i].data[109] +
 		'"><td colspan="2">' +
-		arr[i].data[36] + 'x' + arr[i].data[37] +
+		arr[i].data[109] + 'x' + arr[i].data[110] +
+		'</td></tr><tr class="nomat' + 
+		arr[i].data[113] +
+		'"><td colspan="2"><hr />[Upgrade Material]</td></tr><tr class="white nomat' + 
+		arr[i].data[117] +
+		'"><td colspan="2">' +
+		arr[i].data[117] + 'x' + arr[i].data[116] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[120] +
+		'"><td colspan="2">' +
+		arr[i].data[120] + 'x' + arr[i].data[119] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[123] +
+		'"><td colspan="2">' +
+		arr[i].data[123] + 'x' + arr[i].data[122] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[126] +
+		'"><td colspan="2">' +
+		arr[i].data[126] + 'x' + arr[i].data[125] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[129] +
+		'"><td colspan="2">' +
+		arr[i].data[129] + 'x' + arr[i].data[128] +
+		'</td></tr><tr class="white nomat' + 
+		arr[i].data[132] +
+		'"><td colspan="2">' +
+		arr[i].data[132] + 'x' + arr[i].data[131] +
 		'</td></tr></table></li></div><div>';
     document.getElementById('id' + arr[i].data[0]).innerHTML = out;
     }
+}
+
+function footerContent() {
+	//because I am lazy
+    document.getElementById("footer").innerHTML = '<table style="margin: 0px auto; width: 1200px;"><tr><td class="footerspacing"></td></tr><tr><td class="footertop">This page is maintained and paid for by @Reaver01. If you would like to buy me a beer please click below.<br>' +
+'<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">' +
+'<input type="hidden" name="cmd" value="_s-xclick">' +
+'<input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">' +
+'<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' +
+'<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">' +
+'</form></td></tr></table>'
 }

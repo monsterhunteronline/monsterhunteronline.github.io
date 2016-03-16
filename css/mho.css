@@ -62,17 +62,18 @@ body {
 	color:#ded2b2;
 }
 #footer {
-	position:absolute;
-	left:0px;
-	bottom:0px;
-	width:1200px;
+	display: inline-block;
+	width: 1200px;
+	margin: 0px auto;
 	text-align:center;
 	font-size: 12px;
 	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+}
+.footertop {
 	border-top: 2px solid #272822;
 }
-.container {
-
+.footerspacing {
+	height: 450px;
 }
 #monstertable {
 	margin:0px auto;
@@ -89,10 +90,15 @@ body {
 	background-color:#222;
 	color:#ded2b2;
 	text-align:center;
+	border-spacing: 2px;
+	border-collapse: separate;
 }
 #armortable td {
 	font-size: 14px;
 	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+<<<<<<< HEAD
+	padding: 5px;
+=======
 	border-collapse: separate;
 	background-color:#18100B;
 }
@@ -107,12 +113,54 @@ body {
 	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
 	border-collapse: separate;
 	background-color:#18100B;
-	align-content: center;
-	text-align: left;
 }
 #weapons div {
 	display: block;
 	margin: 0px auto;
+}
+.basePro {
+	background: url(../images/sharpnessbg.gif) 0 center no-repeat;
+	width: 214px;
+	height: 6px;
+	padding: 3px 17px 5px 14px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.basePro .barWidth {
+	position: relative;
+}
+.basePro .colorBar {
+	float: left;
+	height: 6px;
+}
+.basePro .leaveBar {
+	float: right;
+	height: 6px;
+	background-color: #353334;
+	position: absolute;
+	right: 0;
+}
+.basePro .bar-1 {
+	background-color: #9f2e10;
+}
+.basePro .bar-2 {
+	background-color: #bb7a27;
+}
+.basePro .bar-3 {
+	background-color: #ccd52a;
+}
+.basePro .bar-4 {
+	background-color: #01af14;
+}
+.basePro .bar-5 {
+	background-color: #304ecf;
+}
+.basePro .bar-6 {
+	background-color: #fff;
+}
+.basePro .bar-7 {
+	background-color: #6009b8;
 }
 #jewelrytable {
 	margin:1px auto;
@@ -121,9 +169,8 @@ body {
 	text-align:center;
 }
 .sharpbar {
-	width: 245px;
+	position: relative;
 	height: 14px;
-	background-image: url(../images/sharpnessbg.gif);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -138,6 +185,7 @@ body {
 	top: 5px;
 	left: 3px;
 	margin: 0px auto;
+>>>>>>> refs/remotes/origin/master
 }
 .armorname {
 	text-align:right;
@@ -199,7 +247,7 @@ table.armorinfo {
 table.weaponinfo {
 	padding:0px;
 	border:1px solid white;
-	width:247px;
+	width:250px;
 	background:#18100B ;
 }
 .armorpiecename {
@@ -216,7 +264,8 @@ table.weaponinfo {
 }
 .list {
 	list-style:none;
-	display:inline;
+	padding: 0;
+	margin: 0;
 }
 .item {/*box-shadow: h-shadow v-shadow blur spread color inset;*/
 	height: 40px;
@@ -229,7 +278,7 @@ table.weaponinfo {
 .info {
 	position:absolute;
 	top:10px;
-	left:36px;
+	left:31px;
 	width:200px;
 	background-color:#18100b;
 	margin-top:0px;
@@ -286,6 +335,24 @@ table.weaponinfo {
 	display:none;
 }
 .ice0 {
+	display:none;
+}
+.poison {
+	color:#b722ff;
+}
+.paralysis {
+	color:#ffdc19;
+}
+.sleep {
+	color:#179dce;
+}
+.poison0 {
+	display:none;
+}
+.paralysis0 {
+	display:none;
+}
+.sleep0 {
 	display:none;
 }
 .noskill {
