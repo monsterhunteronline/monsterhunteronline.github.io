@@ -171,6 +171,19 @@ body {
 	display: block;
 	margin: 0px auto;
 }
+.forgeicon {
+    display: inline-block;
+    position: absolute;
+    bottom: -39px;
+    right: -2px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/forgeicon.png) 0 0 no-repeat;
+    z-index: 9;
+}
+.noicon {
+	display: none;
+}
 .basePro {
 	background: url(../images/sharpnessbg.gif) 0 center no-repeat;
 	width: 214px;

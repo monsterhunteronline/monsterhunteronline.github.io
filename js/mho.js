@@ -496,7 +496,9 @@ function weaponContent(arr) {
 		width[5] = (arr[i].data[22] - arr[i].data[21]) * 100 / 4000000;
 		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 4000000;
 		width[6] = 100 - arr[i].data[16] * 100 / 4000000;
-		out = '<div class="matpiccell weapon"><div class="weaponpic"><ul class="list"><li class="item"><img src="../../images/' + arr[i].data[4] + '.png"></li>' +
+		out = '<div class="matpiccell weapon"><div class="weaponpic"><ul class="list"><li class="item"><span class="forgeicon noicon' +
+		arr[i].data[94] +
+		'"></span><img src="../../images/' + arr[i].data[4] + '.png"></li>' +
 		//First column hover
 
 		'<li class="info"><table class="weaponinfo"><tr><td class="armorpiecename" colspan="2">' + 
