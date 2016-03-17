@@ -2,3 +2,5 @@ bowgun.json
 "速射2发" > "Rapid-fire 2"
 "速射3发" > "Rapid-fire 3"
 "蓄力" > "Charge "
+
+"#N/A" > "noskill"
