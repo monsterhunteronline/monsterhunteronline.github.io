@@ -1,32 +1,32 @@
 body {
-	background-image: url(../images/bg1.png);
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-color: #f5f5f5;
-	font-size: 15px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	background-image:url(../images/bg1.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-color:#f5f5f5;
+	font-size:15px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 }
 #pagecontainer {
-	background-image: url(../images/bg.png);
-	background-position: left top;
-	background-repeat: repeat;
+	background-image:url(../images/bg.png);
+	background-position:left top;
+	background-repeat:repeat;
 	width:1200px;
 	margin:0 auto;
-	position: relative;
+	position:relative;
 	top:450px;
 }
 #pagecontent {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left:50px;
+	padding-right:50px;
 }
 #pagetitle {
-	font-size: 25px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	font-size:25px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 }
 #navbar {
 	margin:15px auto;
-	width: 1200px;
-	z-index: 1;
+	width:1200px;
+	z-index:1;
 }
 #navbar ul {
 	list-style:none;
@@ -34,7 +34,7 @@ body {
 	float:left;
 	margin:0;
 	padding:0;
-	background: #191D22;
+	background:#191D22;
 }
 #navbar ul a {
 	display:block;
@@ -47,7 +47,7 @@ body {
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #navbar ul a:hover {
-	color: #191D22;
+	color:#191D22;
 }
 #navbar ul li {
 	position:relative;
@@ -75,7 +75,7 @@ body {
 	left:0;
 	background:#ccc;
 	padding:0;
-	z-index: 10;
+	z-index:10;
 }
 
 #navbar ul ul li {
@@ -89,7 +89,7 @@ body {
 	color:#191D22;
 }
 #navbar ul ul a:hover {
-	color: #F8F764;
+	color:#F8F764;
 }
 
 #navbar ul ul ul {
@@ -107,52 +107,52 @@ body {
 	text-align:center;
 }
 #materialtable td{
-	padding: 2px;
-	font-size: 14px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
-	border-collapse: separate;
+	padding:2px;
+	font-size:14px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+	border-collapse:collapse;
 	background-color:#18100B;
 	color:#ded2b2;
 }
 #footer {
-	display: inline-block;
-	width: 1200px;
-	margin: 0px auto;
+	display:inline-block;
+	width:1200px;
+	margin:0px auto;
 	text-align:center;
-	font-size: 12px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	font-size:12px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 }
 .footertop {
-	border-top: 2px solid #272822;
+	border-top:2px solid #272822;
 }
 .footerspacing {
-	height: 450px;
+	height:450px;
 }
 #monstertable {
 	margin:0px auto;
 	text-align:center;
-	font-size: 15px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
-	background: black
+	font-size:15px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+	background:black
 }
 #monstertable td {
-	background: white;
+	background:white;
 }
 #armortable {
 	margin:1px auto;
 	background-color:#222;
 	color:#ded2b2;
 	text-align:center;
-	border-spacing: 2px;
-	border-collapse: separate;
+	border-spacing:2px;
+	border-collapse:collapse;
 }
 #armortable td {
-	font-size: 14px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
+	font-size:14px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 <<<<<<< HEAD
-	padding: 5px;
+	padding:5px;
 =======
-	border-collapse: separate;
+	border-collapse:collapse;
 	background-color:#18100B;
 }
 #weapons {
@@ -162,71 +162,68 @@ body {
 	text-align:center;
 }
 #weapons td {
-	font-size: 14px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
-	border-collapse: separate;
+	font-size:14px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+	border-collapse:collapse;
 	background-color:#18100B;
 }
 #weapons div {
-	display: block;
-	margin: 0px auto;
+	display:block;
+	margin:0px auto;
 }
 .forgeicon {
-    display: inline-block;
-    position: absolute;
-    bottom: -39px;
-    right: -2px;
-    width: 16px;
-    height: 16px;
-    background: url(../images/forgeicon.png) 0 0 no-repeat;
-    z-index: 4;
-}
-.noicon {
-	display: none;
+    display:inline-block;
+    position:absolute;
+    bottom:-39px;
+    right:-2px;
+    width:16px;
+    height:16px;
+    background:url(../images/forgeicon.png) 0 0 no-repeat;
+    z-index:4;
 }
 .basePro {
-	background: url(../images/sharpnessbg.gif) 0 center no-repeat;
-	width: 214px;
-	height: 6px;
-	padding: 3px 17px 5px 14px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	background:url(../images/sharpnessbg.gif) 0 center no-repeat;
+	width:214px;
+	height:6px;
+	padding:3px 17px 5px 14px;
+	position:absolute;
+	top:0px;
+	left:0px;
 }
 .basePro .barWidth {
-	position: relative;
+	position:relative;
 }
 .basePro .colorBar {
-	float: left;
-	height: 6px;
+	float:left;
+	height:6px;
 }
 .basePro .leaveBar {
-	float: right;
-	height: 6px;
-	background-color: #353334;
-	position: absolute;
-	right: 0;
+	float:right;
+	height:6px;
+	background-color:#353334;
+	position:absolute;
+	right:0;
 }
 .basePro .bar-1 {
-	background-color: #9f2e10;
+	background-color:#9f2e10;
 }
 .basePro .bar-2 {
-	background-color: #bb7a27;
+	background-color:#bb7a27;
 }
 .basePro .bar-3 {
-	background-color: #ccd52a;
+	background-color:#ccd52a;
 }
 .basePro .bar-4 {
-	background-color: #01af14;
+	background-color:#01af14;
 }
 .basePro .bar-5 {
-	background-color: #304ecf;
+	background-color:#304ecf;
 }
 .basePro .bar-6 {
-	background-color: #fff;
+	background-color:#fff;
 }
 .basePro .bar-7 {
-	background-color: #6009b8;
+	background-color:#6009b8;
 }
 #jewelrytable {
 	margin:1px auto;
@@ -235,22 +232,22 @@ body {
 	text-align:center;
 }
 .sharpbar {
-	position: relative;
-	height: 14px;
-    background-repeat: no-repeat;
-    background-position: left;
+	position:relative;
+	height:14px;
+    background-repeat:no-repeat;
+    background-position:left;
 }
 #jewelrytable td {
-	font-size: 14px;
-	font-family: '\5FAE\8F6F\96C5\9ED1','Arial';
-	border-collapse: separate;
+	font-size:14px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+	border-collapse:collapse;
 	background-color:#18100B;
 }
 .weaponpic {
-	position: relative;
-	top: 5px;
-	left: 3px;
-	margin: 0px auto;
+	position:relative;
+	top:5px;
+	left:3px;
+	margin:0px auto;
 >>>>>>> refs/remotes/origin/master
 }
 .armorname {
@@ -271,11 +268,11 @@ body {
 	width:40px;
 	height:40px;
 	position:relative;
-	background-image: url("../images/itembg.png");
-    background-repeat: no-repeat;
-    background-position: center;
+	background-image:url("../images/itembg.png");
+    background-repeat:no-repeat;
+    background-position:center;
 	text-align:center;
-	vertical-align: middle;
+	vertical-align:middle;
 	padding-top:0px;
 	padding-bottom:0px;
 	padding-left:0px;
@@ -285,11 +282,11 @@ body {
 	width:40px;
 	height:40px;
 	position:relative;
-	background-image: url("../images/itembg.png");
-    background-repeat: no-repeat;
-    background-position: center;
+	background-image:url("../images/itembg.png");
+    background-repeat:no-repeat;
+    background-position:center;
 	text-align:center;
-	vertical-align: middle;
+	vertical-align:middle;
 	padding-top:0px;
 	padding-bottom:0px;
 	padding-left:0px;
@@ -316,9 +313,21 @@ table.weaponinfo {
 	width:250px;
 	background:#18100B ;
 }
+table.weapon弩 {
+	padding:0px;
+	border:1px solid white;
+	width:320px;
+	background:#18100B ;
+}
+table.innertable {
+	padding:0px;
+}
+table.innertable td {
+	padding:0px;
+}
 .armorpiecename {
 	text-align:center;
-	font-size: 18px !important;
+	font-size:18px !important;
 	color:white;
 }
 .level {
@@ -330,11 +339,11 @@ table.weaponinfo {
 }
 .list {
 	list-style:none;
-	padding: 0;
-	margin: 0;
+	padding:0;
+	margin:0;
 }
-.item {/*box-shadow: h-shadow v-shadow blur spread color inset;*/
-	height: 40px;
+.item {/*box-shadow:h-shadow v-shadow blur spread color inset;*/
+	height:40px;
 	text-align:center;
 	float:left;
 }
@@ -351,13 +360,13 @@ table.weaponinfo {
 	margin-left:0px;
 	float:left;
 	display:none;
-	z-index: 5;
+	z-index:5;
 	text-align:left;
 	padding-left:0px;
 }
 .info td {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left:5px;
+	padding-right:5px;
 }
 .item:hover + .info, .info:hover {
     display:block;
@@ -375,32 +384,29 @@ table.weaponinfo {
 	right:2px;
 	width:40px;
 	height:40px;
-	background-image: url("../images/itembg.png");
+	background-image:url("../images/itembg.png");
 	margin-top:0px;
 	margin-left:0px;
 	float:left;
 	display:none;
-	z-index: 5;
+	z-index:5;
 }
 .item2:hover + .info2, .info2:hover {
     display:block;
 }
-.attrib00000 {
+.Rapid-fire {
 	display:none;
 }
-.water0 {
+.Charge {
 	display:none;
 }
-.fire0 {
+.no {
 	display:none;
 }
-.thunder0 {
+.no0 {
 	display:none;
 }
-.dragon0 {
-	display:none;
-}
-.ice0 {
+.no00000 {
 	display:none;
 }
 .poison {
@@ -412,19 +418,7 @@ table.weaponinfo {
 .sleep {
 	color:#179dce;
 }
-.poison0 {
-	display:none;
-}
-.paralysis0 {
-	display:none;
-}
-.sleep0 {
-	display:none;
-}
 .noskill {
-	display:none;
-}
-.nomat {
 	display:none;
 }
 .skill1 {
@@ -464,7 +458,7 @@ hr {
 	color:#241C17;
 	background-color:#241C17;
 	text-align:center;
-	margin: 0 auto;
+	margin:0 auto;
 	width:100%;
 	height:1px;
 }
