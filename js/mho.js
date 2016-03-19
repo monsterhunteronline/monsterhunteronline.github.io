@@ -46,6 +46,150 @@ function navbarContent(arr) {
 	'</li>' +
 	'<li>' +
 		'<a href="http://monsterhunteronline.in/monsters/">Monsters</a>' +
+		'<ul>' +
+			'<li>' +
+				'<a href="#">Low/High Rank</a>' +
+				'<ul>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/bulldrome">Bulldrome</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/velocidrome">Velociderom</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/caeserber">Caeserber</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/yian-kut-ku">Yian Kut-Ku</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/gendrome">Gendrome</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/baelidae">Baelidae</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/yellow-caeserber">Yellow Caeserber</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/gypceros">Gypceros</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/congalala">Congalala</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/chramine">Chramine</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/cephadrome">Cephadrome</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/daimyo-hermitaur">Daimyo Hermitaur</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/blue-yian-kut-ku">Blue Yian Kut-Ku</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/khezu">Khezu</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/basarios">Basarios</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/hypnocatrice">Hypnocatrice</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/gold-congalala">Gold Congalala</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/dread-baelidae">Dread Baelidae</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/purple-gypceros">Purple Gypceros</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/shogun-ceanataur">Shogun Ceanataur</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/blangonga">Blangonga</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/estrellian">Estrellian</a>' +
+					'</li>' +
+				'</ul>' +
+			'</li>' +
+			'<li>' +
+				'<a href="#">High Rank</a>' +
+				'<ul>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/ice-chramine">Ice Chramine</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/silver-hypnocatrice">Silver Hypnocatrice</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/akura-vashimu">Akura Vashimu</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/yian-garuga">Yian Garuga</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/red-khezu">Red Khezu</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/monoblos">Monoblos</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/doom-estrellian">Doom Estrellian</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/rathian">Rathian</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/iodrome">Iodrome</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/giadrome">Giadrome</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/swordmaster-shogun-ceanataur">Swordmaster Shogun Ceanataur</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/ghost-caeserber">Ghost Caeserber</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/crystal-basarios">Crystal Basarios</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/one-eared-yian-garuga">One-Eared Yian Garuga</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/conflagration-rathian">Conflagration Rathian</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/shattered-monoblos">Shattered Monoblos</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/tartaronis">Tartaronis</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/rathalos">Rathalos</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/shen-gaoren">Shen Gaoren</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/tigrex">Tigrex</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/red-shen-gaoren">Red Shen Gaoren</a>' +
+					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/rock-shen-gaoren">Rock Shen Gaoren</a>' +
+					'</li>' +
+				'</ul>' +
+			'</li>' +
+		'</ul>' +
 	'</li>' +
 	'<li>' +
 		'<a href="http://monsterhunteronline.in/quests/">Quests</a>' +
