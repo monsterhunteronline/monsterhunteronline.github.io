@@ -10,7 +10,7 @@ function navbarContent(arr) {
 		'<a href="http://monsterhunteronline.in/jewelry/">Jewelry</a>' +
 	'</li>' +
 	'<li>' +
-		'<a href="#">Weapons</a>' +
+		'<a href="http://monsterhunteronline.in/weapons">Weapons</a>' +
 		'<ul>' +
 			'<li>' +
 				'<a href="http://monsterhunteronline.in/weapons/lance">Lance</a>' +
