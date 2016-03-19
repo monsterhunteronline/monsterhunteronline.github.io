@@ -161,11 +161,41 @@ body {
 	color:#ded2b2;
 	text-align:center;
 }
+.bow {
+	background:url(../images/bowbg.png) 0 0 no-repeat;
+}
+.bowgun {
+	background:url(../images/bowgunbg.png) 0 0 no-repeat;
+}
+.dualblades {
+	background:url(../images/dualbladesbg.png) 0 0 no-repeat;
+}
+.greatsword {
+	background:url(../images/greatswordbg.png) 0 0 no-repeat;
+}
+.gunlance {
+	background:url(../images/gunlancebg.png) 0 0 no-repeat;
+}
+.hammer {
+	background:url(../images/hammerbg.png) 0 0 no-repeat;
+}
+.huntinghorn {
+	background:url(../images/huntinghornbg.png) 0 0 no-repeat;
+}
+.lance {
+	background:url(../images/lancebg.png) 0 0 no-repeat;
+}
+.longsword {
+	background:url(../images/longswordbg.png) 0 0 no-repeat;
+}
+.swordandshield {
+	background:url(../images/swordandshieldbg.png) 0 0 no-repeat;
+}
 #weapons td {
 	font-size:14px;
 	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 	border-collapse:collapse;
-	background-color:#18100B;
+	background: transparent;
 }
 #weapons div {
 	display:block;
