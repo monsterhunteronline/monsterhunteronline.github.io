@@ -133,10 +133,20 @@ body {
 	text-align:center;
 	font-size:15px;
 	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-	background:black
+	background:transparent;
 }
 #monstertable td {
-	background:white;
+	background:transparent;
+	width:125px;
+	vertical-align:top;
+}
+.monstertitle {
+	text-align:center;
+	font-size:25px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+}
+.monsterspacer {
+	height:50px;
 }
 #armortable {
 	margin:1px auto;
