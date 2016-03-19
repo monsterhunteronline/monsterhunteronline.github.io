@@ -319,6 +319,12 @@ table.weapon弩 {
 	width:320px;
 	background:#18100B ;
 }
+table.weapon狩猎笛 {
+	padding:0px;
+	border:1px solid white;
+	width:320px;
+	background:#18100B ;
+}
 table.innertable {
 	padding:0px;
 }
