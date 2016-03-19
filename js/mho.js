@@ -187,6 +187,9 @@ function navbarContent(arr) {
 					'<li>' +
 						'<a href="http://monsterhunteronline.in/monsters/rock-shen-gaoren">Rock Shen Gaoren</a>' +
 					'</li>' +
+					'<li>' +
+						'<a href="http://monsterhunteronline.in/monsters/slicemargl">Slicemargl</a>' +
+					'</li>' +
 				'</ul>' +
 			'</li>' +
 		'</ul>' +
