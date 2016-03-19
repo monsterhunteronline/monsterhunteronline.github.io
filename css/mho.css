@@ -452,7 +452,10 @@ table.innertable td {
 	color:red;
 }
 .white {
-	color:white;
+	color:#ffffff;
+}
+.gray {
+	color:#808080;
 }
 hr {
 	color:#241C17;

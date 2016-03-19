@@ -79,58 +79,58 @@ function armorContent(arr) {
 	var out = "";
 	var i;
 	for(i = 0; i < arr.length; i += 5) {
-//Level
+	//Level
 		out += '' +
 	'<tr>' +
 		'<td><span class="level">' + arr[i].data[57] + '</span></td>' +
 		'<td class="armorname">' + arr[i].data[2] + ' Armor <span class="type' + arr[i].data[3] + '">' +  typeArray[arr[i].data[3]].type + '</span>' + '</td>' +
-//first column
+	//first column
 		'<td class="armorpiccell">' +
 			'<ul class="list">' +
 				'<li class="item">' +
 					'<img src="../images/' + arr[i].data[13] + '.png" class="armorpic">' +
 				'</li>' +
-//first column hover
+	//first column hover
 				'<li class="info">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
-//name
+	//name
 							'<td class="piecename" colspan="2">' + arr[i].data[1] + '<hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//defense
+	//defense
 							'<td colspan="2">Defense: <span class="white">' + arr[i].data[6] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr class="attrib' + arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + '">' +
-//attributes
+	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
 						'<tr>' +
-//water	resistance
+	//water	resistance
 							'<td colspan="2" class="no' + arr[i].data[7] + '">Water Resistance: <span class="white">' + arr[i].data[7] + '</span></td>' +
 						'</tr>' +
-//fire resistance
+	//fire resistance
 						'<tr class="no' + arr[i].data[8] + '">' +
 							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i].data[8] + '</span></td>' +
 						'</tr>' +
-//thunder resistance
+	//thunder resistance
 						'<tr class="no' + arr[i].data[9] + '">' +
 							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i].data[9] + '</span></td>' +
 						'</tr>' +
-//dragon resistance
+	//dragon resistance
 						'<tr class="no' + arr[i].data[10] + '">' +
 							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i].data[10] + '</span></td>' +
 						'</tr>' +
-//ice resistance
+	//ice resistance
 						'<tr class="no' + arr[i].data[11] + '">' +
 							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i].data[11] + '</span></td>' +
 						'</tr>' +
 						'<tr>' +
-//mosaic slots
+	//mosaic slots
 							'<td colspan="2"><hr class="attrib' + arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + '">Mosaic Slots: <span class="white">' + arr[i].data[5] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//passive skills
+	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
 						'<tr class="' + arr[i].data[38] + ' skill' + arr[i].data[39] + '">' +
@@ -150,7 +150,7 @@ function armorContent(arr) {
 							'<td class="skillamount">' + arr[i].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
-//forging mats
+	//forging mats
 							'<td colspan="2"><hr />[Forging Material]</td>' +
 						'</tr>' +
 						'<tr class="white no' + arr[i].data[21] + '">' +
@@ -175,53 +175,53 @@ function armorContent(arr) {
 				'</li>' +
 			'</ul>' +
 		'</td>' +
-//second column
+	//second column
 		'<td class="armorpiccell">' +
 			'<ul class="list">' +
 				'<li class="item">' +
 					'<img src="../images/' + arr[i+1].data[13] + '.png" class="armorpic">' +
 				'</li>' +
-//second column hover
+	//second column hover
 				'<li class="info">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
-//name
+	//name
 							'<td class="piecename" colspan="2">' + arr[i+1].data[1] + '<hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//defense
+	//defense
 							'<td colspan="2">Defense: <span class="white">' + arr[i+1].data[6] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr class="attrib' + arr[i+1].data[7] + arr[i+1].data[8] + arr[i+1].data[9] + arr[i+1].data[10] + arr[i+1].data[11] + '">' +
-//attributes
+	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
 						'<tr>' +
-//water	resistance
+	//water	resistance
 							'<td colspan="2" class="no' + arr[i+1].data[7] + '">Water Resistance: <span class="white">' + arr[i+1].data[7] + '</span></td>' +
 						'</tr>' +
-//fire resistance
+	//fire resistance
 						'<tr class="no' + arr[i+1].data[8] + '">' +
 							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+1].data[8] + '</span></td>' +
 						'</tr>' +
-//thunder resistance
+	//thunder resistance
 						'<tr class="no' + arr[i+1].data[9] + '">' +
 							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+1].data[9] + '</span></td>' +
 						'</tr>' +
-//dragon resistance
+	//dragon resistance
 						'<tr class="no' + arr[i+1].data[10] + '">' +
 							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+1].data[10] + '</span></td>' +
 						'</tr>' +
-//ice resistance
+	//ice resistance
 						'<tr class="no' + arr[i+1].data[11] + '">' +
 							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+1].data[11] + '</span></td>' +
 						'</tr>' +
 						'<tr>' +
-//mosaic slots
+	//mosaic slots
 							'<td colspan="2"><hr class="attrib' + arr[i+1].data[7] + arr[i+1].data[8] + arr[i+1].data[9] + arr[i+1].data[10] + arr[i+1].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+1].data[5] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//passive skills
+	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
 						'<tr class="' + arr[i+1].data[38] + ' skill' + arr[i+1].data[39] + '">' +
@@ -241,7 +241,7 @@ function armorContent(arr) {
 							'<td class="skillamount">' + arr[i+1].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
-//forging mats
+	//forging mats
 							'<td colspan="2"><hr />[Forging Material]</td>' +
 						'</tr>' +
 						'<tr class="white no' + arr[i+1].data[21] + '">' +
@@ -266,53 +266,53 @@ function armorContent(arr) {
 				'</li>' +
 			'</ul>' +
 		'</td>' +
-//third column
+	//third column
 		'<td class="armorpiccell">' +
 			'<ul class="list">' +
 				'<li class="item">' +
 					'<img src="../images/' + arr[i+2].data[13] + '.png" class="armorpic">' +
 				'</li>' +
-//third column hover
+	//third column hover
 				'<li class="info">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
-//name
+	//name
 							'<td class="piecename" colspan="2">' + arr[i+2].data[1] + '<hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//defense
+	//defense
 							'<td colspan="2">Defense: <span class="white">' + arr[i+2].data[6] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr class="attrib' + arr[i+2].data[7] + arr[i+2].data[8] + arr[i+2].data[9] + arr[i+2].data[10] + arr[i+2].data[11] + '">' +
-//attributes
+	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
 						'<tr>' +
-//water	resistance
+	//water	resistance
 							'<td colspan="2" class="no' + arr[i+2].data[7] + '">Water Resistance: <span class="white">' + arr[i+2].data[7] + '</span></td>' +
 						'</tr>' +
-//fire resistance
+	//fire resistance
 						'<tr class="no' + arr[i+2].data[8] + '">' +
 							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+2].data[8] + '</span></td>' +
 						'</tr>' +
-//thunder resistance
+	//thunder resistance
 						'<tr class="no' + arr[i+2].data[9] + '">' +
 							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+2].data[9] + '</span></td>' +
 						'</tr>' +
-//dragon resistance
+	//dragon resistance
 						'<tr class="no' + arr[i+2].data[10] + '">' +
 							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+2].data[10] + '</span></td>' +
 						'</tr>' +
-//ice resistance
+	//ice resistance
 						'<tr class="no' + arr[i+2].data[11] + '">' +
 							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+2].data[11] + '</span></td>' +
 						'</tr>' +
 						'<tr>' +
-//mosaic slots
+	//mosaic slots
 							'<td colspan="2"><hr class="attrib' + arr[i+2].data[7] + arr[i+2].data[8] + arr[i+2].data[9] + arr[i+2].data[10] + arr[i+2].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+2].data[5] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//passive skills
+	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
 						'<tr class="' + arr[i+2].data[38] + ' skill' + arr[i+2].data[39] + '">' +
@@ -332,7 +332,7 @@ function armorContent(arr) {
 							'<td class="skillamount">' + arr[i+2].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
-//forging mats
+	//forging mats
 							'<td colspan="2"><hr />[Forging Material]</td>' +
 						'</tr>' +
 						'<tr class="white no' + arr[i+2].data[21] + '">' +
@@ -357,53 +357,53 @@ function armorContent(arr) {
 				'</li>' +
 			'</ul>' +
 		'</td>' +
-//fourth column
+	//fourth column
 		'<td class="armorpiccell">' +
 			'<ul class="list">' +
 				'<li class="item">' +
 					'<img src="../images/' + arr[i+3].data[13] + '.png" class="armorpic">' +
 				'</li>' +
-//fourth column hover
+	//fourth column hover
 				'<li class="info">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
-//name
+	//name
 							'<td class="piecename" colspan="2">' + arr[i+3].data[1] + '<hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//defense
+	//defense
 							'<td colspan="2">Defense: <span class="white">' + arr[i+3].data[6] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr class="attrib' + arr[i+3].data[7] + arr[i+3].data[8] + arr[i+3].data[9] + arr[i+3].data[10] + arr[i+3].data[11] + '">' +
-//attributes
+	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
 						'<tr>' +
-//water	resistance
+	//water	resistance
 							'<td colspan="2" class="no' + arr[i+3].data[7] + '">Water Resistance: <span class="white">' + arr[i+3].data[7] + '</span></td>' +
 						'</tr>' +
-//fire resistance
+	//fire resistance
 						'<tr class="no' + arr[i+3].data[8] + '">' +
 							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+3].data[8] + '</span></td>' +
 						'</tr>' +
-//thunder resistance
+	//thunder resistance
 						'<tr class="no' + arr[i+3].data[9] + '">' +
 							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+3].data[9] + '</span></td>' +
 						'</tr>' +
-//dragon resistance
+	//dragon resistance
 						'<tr class="no' + arr[i+3].data[10] + '">' +
 							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+3].data[10] + '</span></td>' +
 						'</tr>' +
-//ice resistance
+	//ice resistance
 						'<tr class="no' + arr[i+3].data[11] + '">' +
 							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+3].data[11] + '</span></td>' +
 						'</tr>' +
 						'<tr>' +
-//mosaic slots
+	//mosaic slots
 							'<td colspan="2"><hr class="attrib' + arr[i+3].data[7] + arr[i+3].data[8] + arr[i+3].data[9] + arr[i+3].data[10] + arr[i+3].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+3].data[5] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//passive skills
+	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
 						'<tr class="' + arr[i+3].data[38] + ' skill' + arr[i+3].data[39] + '">' +
@@ -423,7 +423,7 @@ function armorContent(arr) {
 							'<td class="skillamount">' + arr[i+3].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
-//forging mats
+	//forging mats
 							'<td colspan="2"><hr />[Forging Material]</td>' +
 						'</tr>' +
 						'<tr class="white no' + arr[i+3].data[21] + '">' +
@@ -454,47 +454,47 @@ function armorContent(arr) {
 				'<li class="item">' +
 					'<img src="../images/' + arr[i+4].data[13] + '.png" class="armorpic">' +
 				'</li>' +
-//fifth column hover
+	//fifth column hover
 				'<li class="info">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
-//name
+	//name
 							'<td class="piecename" colspan="2">' + arr[i+4].data[1] + '<hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//defense
+	//defense
 							'<td colspan="2">Defense: <span class="white">' + arr[i+4].data[6] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr class="attrib' + arr[i+4].data[7] + arr[i+4].data[8] + arr[i+4].data[9] + arr[i+4].data[10] + arr[i+4].data[11] + '">' +
-//attributes
+	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
 						'<tr>' +
-//water	resistance
+	//water	resistance
 							'<td colspan="2" class="no' + arr[i+4].data[7] + '">Water Resistance: <span class="white">' + arr[i+4].data[7] + '</span></td>' +
 						'</tr>' +
-//fire resistance
+	//fire resistance
 						'<tr class="no' + arr[i+4].data[8] + '">' +
 							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+4].data[8] + '</span></td>' +
 						'</tr>' +
-//thunder resistance
+	//thunder resistance
 						'<tr class="no' + arr[i+4].data[9] + '">' +
 							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+4].data[9] + '</span></td>' +
 						'</tr>' +
-//dragon resistance
+	//dragon resistance
 						'<tr class="no' + arr[i+4].data[10] + '">' +
 							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+4].data[10] + '</span></td>' +
 						'</tr>' +
-//ice resistance
+	//ice resistance
 						'<tr class="no' + arr[i+4].data[11] + '">' +
 							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+4].data[11] + '</span></td>' +
 						'</tr>' +
 						'<tr>' +
-//mosaic slots
+	//mosaic slots
 							'<td colspan="2"><hr class="attrib' + arr[i+4].data[7] + arr[i+4].data[8] + arr[i+4].data[9] + arr[i+4].data[10] + arr[i+4].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+4].data[5] + '</span><hr /></td>' +
 						'</tr>' +
 						'<tr>' +
-//passive skills
+	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
 						'<tr class="' + arr[i+4].data[38] + ' skill' + arr[i+4].data[39] + '">' +
@@ -514,7 +514,7 @@ function armorContent(arr) {
 							'<td class="skillamount">' + arr[i+4].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
-//forging mats
+	//forging mats
 							'<td colspan="2"><hr />[Forging Material]</td>' +
 						'</tr>' +
 						'<tr class="white no' + arr[i+4].data[21] + '">' +
@@ -539,12 +539,11 @@ function armorContent(arr) {
 				'</li>' +
 			'</ul>' +
 		'</td>' +
-//skills
+	//skills
 		'<td class="armorskill">' + arr[i].data[56] + '</td>' +
 	'</tr>';
 	}
 	document.getElementById("armortable").innerHTML = out;
-
 }
 function materialsContent(arr) {
 	var out = "";
@@ -584,6 +583,7 @@ function monsterContent(arr) {
 function weaponContent(arr) {
 	var out = "";
 	var i;
+	//sharpness formula
 	for(i = 0; i < arr.length; i ++) {
 		var width = ["0", "0", "0", "0", "0", "0", "0", "0"]
 		width[0] = arr[i].data[17] * 100 / 4000000;
@@ -594,33 +594,39 @@ function weaponContent(arr) {
 		width[5] = (arr[i].data[22] - arr[i].data[21]) * 100 / 4000000;
 		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 4000000;
 		width[6] = 100 - arr[i].data[16] * 100 / 4000000;
+	//bow variables
+	var name = ['','Pierce Lv.1','Pierce Lv.2','Pierce Lv.3','Pierce Lv.4','Rapid Lv.1','Rapid Lv.2','Rapid Lv.3','Rapid Lv.4','Scatter Lv.1','Scatter Lv.2','Scatter Lv.3','Scatter Lv.4'];
+	
+
+
+	//output
 		out = '' +
-'<div class="matpiccell weapon">' +
+ '<div class="matpiccell weapon">' +
 	'<div class="weaponpic">' +
 		'<ul class="list">' + 
 			'<li class="item">' +
-//can forge icon
+	//can forge icon
 				'<span class="forgeicon no' + arr[i].data[94] + '"></span>' +
 				'<img src="../../images/' + arr[i].data[4] + '.png">' + '</li>' + 
 			'<li class="info">' + 
 				'<table class="weaponinfo weapon' + arr[i].data[2] + '">' +
 					'<tr>' +
-//title
+	//title
 						'<td class="piecename" colspan="4">' + arr[i].data[1] + '<hr /></td>' +
 					'</tr>' +
 					'<tr>' +
-//char level
+	//char level
 						'<td colspan="4">Character Level: <span class="white">' + arr[i].data[7] + '</span><hr /></td>' +
 					'</tr>' +
-//attributes
+	//attributes
 					'<tr class="no' + arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + '">' +
 						'<td colspan="4">[Attributes]</td>' +
 					'</tr>' +
-//sharpness
+	//sharpness
 					'<tr class="no' + arr[i].data[17] + '">' +
 						'<td colspan="4">Sharpness</td>' +
 					'</tr>' +
-//sharpness bar
+	//sharpness bar
 					'<tr class="no' + arr[i].data[17] + '">' +
 						'<td class="sharpbar" colspan="4">' +
 							'<div class="basePro clearfix">' +
@@ -641,61 +647,61 @@ function weaponContent(arr) {
 						'<td colspan="4">' +
 							'<table class="innertable">' +
 								'<tr>' +
-//attack
+	//attack
 									'<td>Attack:</td>' +
 									'<td class="white">' + arr[i].data[5] + '</td>' +
 								'</tr>' +
 								'<tr>' +
-//critical rate
+	//critical rate
 									'<td>Critical Rate:</td>' +
 									'<td class="white">' + arr[i].data[6] + '</td>' +
 								'</tr>' +
-//water attack
+	//water attack
 								'<tr class="no' + arr[i].data[8] + '">' +
 									'<td>Water Attack:</td>' +
 									'<td class="white">' + arr[i].data[8] + '</td>' +
 								'</tr>' +
-//fire attack
+	//fire attack
 								'<tr class="no' + arr[i].data[9] + '">' +
 									'<td>Fire Attack:</td>' +
 									'<td class="white">' + arr[i].data[9] + '</td>' +
 								'</tr>' +
-//thunder attack
+	//thunder attack
 								'<tr class="no' + arr[i].data[10] + '">' +
 									'<td>Thunder Attack:</td>' +
 									'<td class="white">' + arr[i].data[10] + '</td>' +
 								'</tr>' +
-//dragon attack
+	//dragon attack
 								'<tr class="no' + arr[i].data[11] + '">' +
 									'<td>Dragon Attack:</td>' +
 									'<td class="white">' + arr[i].data[11] + '</td>' +
 								'</tr>' +
-//ice attack
+	//ice attack
 								'<tr class="no' + arr[i].data[12] + '">' +
 									'<td>Ice Attack:</td>' +
 									'<td class="white">' + arr[i].data[12] + '</td>' +
 								'</tr>' +
-//poison up
+	//poison up
 								'<tr class="poison no' + arr[i].data[13] + '">' +
 									'<td>Poison+:</td>' +
 									'<td>' + arr[i].data[13] + '</td>' +
 								'</tr>' +
-//paralysis up
+	//paralysis up
 								'<tr class="paralysis no' + arr[i].data[15] + '">' +
 									'<td>Paralysis+:</td>' +
 									'<td>' + arr[i].data[15] + '</td>' +
 								'</tr>' +
-//sleep up
+	//sleep up
 								'<tr class="sleep no' + arr[i].data[14] + '">' +
 									'<td>Sleep+:</td>' +
 									'<td>' + arr[i].data[14] + '</td>' +
 								'</tr>' +
-//reload speed
+	//reload speed
 								'<tr class="no' + arr[i].data[27] + '">' +
 									'<td>Reload Speed:</td>' +
 									'<td class="white">' + arr[i].data[27] + '</td>' +
 								'</tr>' +
-//shelling properties
+	//shelling properties
 								'<tr class="no' + arr[i].data[137] + '">' +
 									'<td colspan="4"><hr />[Shelling Properties]</td>' +
 								'</tr>' +
@@ -703,15 +709,20 @@ function weaponContent(arr) {
 									'<td>Shelling Type:</td>' +
 									'<td class="white">' + arr[i].data[137] + 
 								'</tr>' +
-//shelling rating
+	//shelling rating
 								'<tr class="no' + arr[i].data[138] + '">' +
 									'<td>Shelling Rating:</td>' +
 									'<td class="white">' + arr[i].data[138] + '</td>' +
 								'</tr>' +
+	//bow guage level
+								'<tr class="no' + arr[i].data[74] + '">' +
+									'<td>Max Guage:</td>' +
+									'<td class="white">' + arr[i].data[74] + '</td>' +
+								'</tr>' +
 							'</table>' +
 						'</td>' +
 					'</tr>' +
-//bowgun basic ammo
+	//bowgun basic ammo
 					'<tr class="no' + arr[i].data[30] + '">' +
 						'<td>[Basic Ammo]</td>' +
 						'<td>[Load]</td>' +
@@ -767,7 +778,7 @@ function weaponContent(arr) {
 						'<td class="white">' + arr[i].data[67] + '</td>' +
 						'<td class="white">' + arr[i].data[69] + '</td>' +
 					'</tr>' +
-//bowgun other ammo
+	//bowgun other ammo
 					'<tr class="no' + arr[i].data[30] + '">' +
 						'<td>[' + arr[i].data[36].substring(0, 11) + 'Ammo]</td>' +
 						'<td>[Load]</td>' +
@@ -843,7 +854,70 @@ function weaponContent(arr) {
 							'<td class="white">' + arr[i].data[69] + '</td>' +
 							'<td class="white">' + arr[i].data[68].substring(11, 12) + '</td>' +
 						'</tr>' +
-//forging mats
+	//bow ammo
+						'<tr class="no' + arr[i].data[70] + '">' +
+							'<td colspan="2">[Charge Level]</td>' +
+							'<td colspan="2">[Attack Type]</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[70] + '">' +
+							'<td colspan="2" class="white">Lv.1</td>' +
+							'<td colspan="2" class="white">' + name[arr[i].data[70]] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[70] + '">' +
+							'<td colspan="2" class="white">Lv.2</td>' +
+							'<td colspan="2" class="white">' + name[arr[i].data[71]] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[70] + '">' +
+							'<td colspan="2" class="white">Lv.3</td>' +
+							'<td colspan="2" class="white">' + name[arr[i].data[72]] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[70] + '">' +
+							'<td colspan="2" class="gray">Lv.4</td>' +
+							'<td colspan="2" class="gray">' + name[arr[i].data[73]] + '</td>' +
+						'</tr>' +
+	//bow coating
+						'<tr class="no' + arr[i].data[70] + '">' +
+							'<td colspan="2">[Coating Type]</td>' +
+							'<td colspan="2">[Load Amount]</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[78] + '">' +
+							'<td colspan="2" class="white">' + arr[i].data[78] + '</td>' +
+							'<td colspan="2" class="white">' + arr[i].data[79] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[80] + '">' +
+							'<td colspan="2" class="white">' + arr[i].data[80] + '</td>' +
+							'<td colspan="2" class="white">' + arr[i].data[81] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[82] + '">' +
+							'<td colspan="2" class="white">' + arr[i].data[82] + '</td>' +
+							'<td colspan="2" class="white">' + arr[i].data[83] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[84] + '">' +
+							'<td colspan="2" class="white">' + arr[i].data[84] + '</td>' +
+							'<td colspan="2" class="white">' + arr[i].data[85] + '</td>' +
+						'</tr>' +
+	//bow charge
+						'<tr class="no' + arr[i].data[76] + '">' +
+							'<td colspan="2">[Charge Level]</td>' +
+							'<td colspan="2">[Arc Shot Type]</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[76] + '">' +
+							'<td colspan="2" class="gray">Lv.1</td>' +
+							'<td colspan="2" class="gray">No</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[76] + '">' +
+							'<td colspan="2" class="gray">Lv.2</td>' +
+							'<td colspan="2" class="gray">No</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[76] + '">' +
+							'<td colspan="2" class="white">Lv.3</td>' +
+							'<td colspan="2" class="white">' + arr[i].data[76] + '</td>' +
+						'</tr>' +
+						'<tr class="no' + arr[i].data[76] + '">' +
+							'<td colspan="2" class="gray">Lv.4</td>' +
+							'<td colspan="2" class="gray">' + arr[i].data[77] + '</td>' +
+						'</tr>' +
+	//forging mats
 						'<tr class="no' + arr[i].data[94] + '">' +
 							'<td colspan="4"><hr />[Forging Material]</td>' +
 						'</tr>' +
@@ -865,7 +939,7 @@ function weaponContent(arr) {
 						'<tr class="white no' + arr[i].data[109] + '">' +
 							'<td colspan="4">' + arr[i].data[109] + 'x' + arr[i].data[110] + '</td>' +
 						'</tr>' +
-//upgrade mats
+	//upgrade mats
 						'<tr class="no' + arr[i].data[113] + '">' +
 							'<td colspan="4"><hr />[Upgrade Material]</td>' +
 						'</tr>' +
@@ -896,7 +970,7 @@ function weaponContent(arr) {
 }
 
 function footerContent() {
-//because I am lazy
+	//because I am lazy
 	document.getElementById("footer").innerHTML = '<table style="margin: 0px auto; width: 1200px;">' +
 	'<tr>' +
 		'<td class="footerspacing"></td>' +
@@ -910,5 +984,5 @@ function footerContent() {
 				'<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">' +
 			'</form>' + '</td>' +
 	'</tr>' +
-'</table>'
+	'</table>'
 }
