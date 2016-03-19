@@ -140,6 +140,18 @@ body {
 	width:125px;
 	vertical-align:top;
 }
+#weapontable {
+	margin:0px auto;
+	text-align:center;
+	font-size:15px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+	background:transparent;
+}
+#weapontable td {
+	background:transparent;
+	width:125px;
+	vertical-align:top;
+}
 .monstertitle {
 	text-align:center;
 	font-size:25px;
