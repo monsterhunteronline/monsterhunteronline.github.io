@@ -128,16 +128,28 @@ body {
 .footerspacing {
 	height:450px;
 }
-#monstertable {
+#monsterstable {
 	margin:0px auto;
 	text-align:center;
 	font-size:15px;
 	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 	background:transparent;
 }
-#monstertable td {
+#monsterstable td {
 	background:transparent;
 	width:125px;
+	vertical-align:top;
+}
+#monstertable {
+	margin:0px auto;
+	text-align:center;
+	font-size:15px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+	background:#000;
+}
+#monstertable td {
+	background:#fff;
+	width:75px;
 	vertical-align:top;
 }
 #weapontable {

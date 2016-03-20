@@ -693,7 +693,7 @@ function armorContent(arr) {
 	document.getElementById("armortable").innerHTML = out;
 }
 function materialsContent(arr) {
-	var out = "";
+	var out = '<tr><td width="40px">Icon</td><td width="132px">Name</td><td width="800px">Explanation</td><td>Place</td></tr>';
 	var i;
 	for(i = 0; i < arr.length; i ++) {
 		out += '' +
@@ -704,6 +704,22 @@ function materialsContent(arr) {
 		'<td>' + arr[i].data[1] + '</td>' +
 		'<td>' + arr[i].data[2] + '</td>' +
 		'<td>' + arr[i].data[8] + '</td>' +
+	'</tr>';
+	}
+	document.getElementById("materialtable").innerHTML = out;
+}
+function materialsContent2(arr) {
+	var out = '<tr><td width="40px">Icon</td><td width="132px">Name</td><td width="800px">Explanation</td><td>Place</td></tr>';
+	var i;
+	for(i = 0; i < arr.length; i ++) {
+		out += '' +
+	'<tr>' +
+		'<td class="matpiccell">' +
+			'<img src="../../images/' + arr[i].data[6] + '.png">' +
+		'</td>' +
+		'<td>' + arr[i].data[1] + '</td>' +
+		'<td>' + arr[i].data[5] + '</td>' +
+		'<td>' + arr[i].data[4] + '</td>' +
 	'</tr>';
 	}
 	document.getElementById("materialtable").innerHTML = out;
@@ -1189,4 +1205,7 @@ function footerContent() {
 			'</form>' + '</td>' +
 	'</tr>' +
 	'</table>'
+}
+function preload(sources) {
+	jQuery.each(sources, function(i,source) { jQuery.get(source); });
 }
