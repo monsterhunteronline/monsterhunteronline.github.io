@@ -1,143 +1,97 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../json/navigation.json"></script>
 <script src="../json/armor.json"></script>
 <script src="../json/material.json"></script>
 <script src="../json/other.json"></script>
 <script src="../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../css/mho.css">
 <title>MHO FAQ - Translation</title>
 </head>
 
 <body onload="navbarContent(); footerContent()">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-<!--from google sites faq page. not yet cleaned-->
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">Translation</div>
-<br><br>
-
-
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div><b>Reaver's Super Sexy Translation Solution! (Android only because he doesn't believe in iPhones)</b><br>
-<br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Translation</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../images/logo.png">
+	</div>
 </div>
-<b>What you need:</b><br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>1. Android phone<br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>2. Root access to said phone (Root access is only so Tasker can do screen touches for you)<br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>3. <a href="https://www.dropbox.com/" target="_blank">A Dropbox account</a><br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>4. These apps: <a href="https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&amp;hl=en" target="_blank">Dropsync</a>, <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.translate&amp;hl=en" target="_blank">Translate</a>, <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en" target="_blank">Tasker</a><br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>5. <a href="https://www.dropbox.com/s/9hq8taq6clywz9q/tasker%20translate.xml?dl=0" target="_blank">This script</a><br>
-<br>
-</div>
-<b>Setting up Dropbox</b><br>
-</div>
-You will need to set up Dropbox to sync with a folder on your computer.<br>
-<span>&nbsp;&nbsp;&nbsp; </span>1. Log in to your Dropbox account (create one if you haven't already).<br>
-<br>
-<span>&nbsp;&nbsp;&nbsp; </span>2. Click the drop down menu where your name is displayed (top right) <br>
-<span>&nbsp;&nbsp;&nbsp; </span>3. Click "Install"<br>
-<br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>4. Download and install the file.<br>
-<br>
-</div>
-<span>&nbsp;&nbsp;&nbsp; </span>5. Sign in to your Dropbox account from your computer.<br>
-<br>
-</div>
-Now you will need a folder that your phone will grab the files from.&nbsp; So open the Dropbox folder in Windows explorer and create a folder (Mine is named "Translation")<br>
-</div>
-This is where you will save images to be translated.<br>
-<br>
-</div>
-<b>Setting up Dropsync</b><br>
-<br>
-</div>
-<div><span>&nbsp;&nbsp;&nbsp; 1. Add your Dropbox account to Dropsync.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>2. In the SYNCED FOLDERS tab click the + icon to create a new synced folder.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>3. Select a folder on your device that you will use for storing images locally, and select your "Translation" folder in Dropbox.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>4. Either select "Download only" or "Download then delete" it all depends on if you want to keep the translation images in your Dropbox.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>5. Save the Folder Pairing.<br>
-<br>
-</span></div>
-<div><span><b>Setting up Translate</b><br>
-<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>1. Open translate and switch the "translate from" to Chinese, and the "translate to" to English (or whatever language you like best)<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>2. Click the Camera Icon.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>3. Click the Photos Icon on the bottom left.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>4. Navigate to your local "Translate folder"<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>5. Exit Translate app<br>
-<br>
-</span></div>
-<div><span><b>Setting up Tasker</b><br>
-<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>1. Open Tasker and go to the TASKS tab.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>2. Press TASKS tab again and import downloaded task xml.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>3. Click on the Translate task.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>4. Click the run button to run through the first time to give root access.<br>
-</span></div>
-<div><span><span>&nbsp;&nbsp;&nbsp; </span>5. Close out of Tasker using drop down menu and "Exit".<br>
-<br>
-</span></div>
-<div><span><b>Making a shortcut</b><br>
-<br>
-</span></div>
-<div><span><span><span>&nbsp;&nbsp;&nbsp; 1. Add a widget to home screen<br>
-</span></span></span></div>
-<div><span><span><span><span>&nbsp;&nbsp;&nbsp; </span>2. Select "Task Shortcut 1 x 1" in Tasker section<br>
-</span></span></span></div>
-<div><span><span><span><span>&nbsp;&nbsp;&nbsp; </span>3. Select the Translate task and back out.<br>
-</span></span></span></div>
-<div>
-<div>
-<div><br>
-<br>
-</div>
-<div>Now when you select that Translate widget, it should sync your Dropbox folder, open Google Translate and go to the screen where you can select the images.&nbsp; If your phone is slower than mine, you may have to go into the task and adjust the time under the "Wait" task.<br>
-<br>
-<br>
-</div>
-<div>To translate some text, use "Snipping Tool" to grab the section of your screen and save it in your "Translation" folder.&nbsp; Then open the Translate widget we just created and select your image!<br>
-</div>
-</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
 </div>
 
 
+<div class="w3-container">
+<h3>Reaver's Super Sexy Translation Solution! (Android only because he doesn't believe in iPhones)</h3>
+<h3>What you need:</h3>
+<ol>
+<li>Android phone</li>
+<li>Root access to said phone (Root access is only so Tasker can do screen touches for you)</li>
+<li><a href="https://www.dropbox.com/" target="_blank">A Dropbox account</a></li>
+<li>These apps: 
+<ol>
+<li><a href="https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=en" target="_blank">Dropsync</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=en" target="_blank">Translate</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en" target="_blank">Tasker</a></li>
+</ol></li>
+<li><a href="https://www.dropbox.com/s/9hq8taq6clywz9q/tasker%20translate.xml?dl=0" target="_blank">This script</a></li>
+</ol>
+<h3>Setting up Dropbox</h3>
+<h4>You will need to set up Dropbox to sync with a folder on your computer.</h4>
+<ol>
+<li>Log in to your Dropbox account (create one if you haven't already).</li>
+<li>Click the drop down menu where your name is displayed (top right).</li>
+<li>Click "Install"</li>
+<li>Download and install the file.</li>
+<li>Sign in to your Dropbox account from your computer.</li>
+</ol>
+<p>Now you will need a folder that your phone will grab the files from. So open the Dropbox folder in Windows explorer and create a folder (Mine is named "Translation")</p>
+<p>This is where you will save images to be translated.</p>
+<h3>Setting up Dropsync</h3>
+<ol>
+<li>Add your Dropbox account to Dropsync.</li>
+<li>In the SYNCED FOLDERS tab click the + icon to create a new synced folder.</li>
+<li>Select a folder on your device that you will use for storing images locally, and select your "Translation" folder in Dropbox.</li>
+<li>Either select "Download only" or "Download then delete" it all depends on if you want to keep the translation images in your Dropbox.</li>
+<li>Save the Folder Pairing.</li>
+</ol>
+<h3>Setting up Translate</h3>
+<ol>
+<li>Open translate and switch the "translate from" to Chinese, and the "translate to" to English (or whatever language you like best)</li>
+<li>Click the Camera Icon.</li>
+<li>Click the Photos Icon on the bottom left.</li>
+<li>Navigate to your local "Translate folder"</li>
+<li>Exit Translate app</li>
+</ol>
+<h3>Setting up Tasker</h3>
+<ol>
+<li>Open Tasker and go to the TASKS tab.</li>
+<li>Press TASKS tab again and import downloaded task xml.</li>
+<li>Click on the Translate task.</li>
+<li>Click the run button to run through the first time to give root access.</li>
+<li>Close out of Tasker using drop down menu and "Exit".</li>
+</ol>
+<h3>Making a shortcut</h3>
+<ol>
+<li>Add a widget to home screen</li>
+<li>Select "Task Shortcut 1 x 1" in Tasker section</li>
+<li>Select the Translate task and back out.</li>
+</ol>
+<p>Now when you select that Translate widget, it should sync your Dropbox folder, open Google Translate and go to the screen where you can select the images. If your phone is slower than mine, you may have to go into the task and adjust the time under the "Wait" task.</p>
+<p>To translate some text, use "Snipping Tool" to grab the section of your screen and save it in your "Translation" folder. Then open the Translate widget we just created and select your image!</p>
+</div>
+
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

@@ -1,46 +1,60 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../json/navigation.json"></script>
 <script src="../json/armor.json"></script>
 <script src="../json/material.json"></script>
 <script src="../json/other.json"></script>
 <script src="../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../css/mho.css">
 <title>MHO FAQ - Weapons</title>
 </head>
 
 <body onload="navbarContent(); footerContent();">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-<!--from google sites faq page. not yet cleaned-->
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">Weapons</div>
-<br><br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Weapons</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
 
-<div>
-<table id="weapontable">
+<div class="w3-container">
+<div class="w3-row">
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/lance"><img src="../images/lanceicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/gunlance"><img src="../images/gunlanceicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/sword-and-shield"><img src="../images/swordandshieldicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/greatsword"><img src="../images/greatswordicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/longsword"><img src="../images/longswordicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/hammer"><img src="../images/hammericon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/dual-blades"><img src="../images/dualbladesicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/bowgun"><img src="../images/bowgunicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/bow"><img src="../images/bowicon.png" style="max-width: 102px;"></a></div>
+<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/hunting-horn"><img src="../images/huntinghornicon.png" style="max-width: 102px;"></a></div>
+</div>
+<table id="weapontalent" class="w3-table">
 <tr>
-<td><a href="http://monsterhunteronline.in/weapons/lance"><img src="../images/lanceicon.png" onmouseover="this.src='../images/lanceicon1.png';" onmouseout="this.src='../images/lanceicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/gunlance"><img src="../images/gunlanceicon.png" onmouseover="this.src='../images/gunlanceicon1.png';" onmouseout="this.src='../images/gunlanceicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/sword-and-shield"><img src="../images/swordandshieldicon.png" onmouseover="this.src='../images/swordandshieldicon1.png';" onmouseout="this.src='../images/swordandshieldicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/greatsword"><img src="../images/greatswordicon.png" onmouseover="this.src='../images/greatswordicon1.png';" onmouseout="this.src='../images/greatswordicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/longsword"><img src="../images/longswordicon.png" onmouseover="this.src='../images/longswordicon1.png';" onmouseout="this.src='../images/longswordicon.png';"></a></td>
+<td colspan="2"><h3>Weapon Talents</h3></td>
 </tr>
 <tr>
-<td><a href="http://monsterhunteronline.in/weapons/hammer"><img src="../images/hammericon.png" onmouseover="this.src='../images/hammericon1.png';" onmouseout="this.src='../images/hammericon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/dual-blades"><img src="../images/dualbladesicon.png" onmouseover="this.src='../images/dualbladesicon1.png';" onmouseout="this.src='../images/dualbladesicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/bowgun"><img src="../images/bowgunicon.png" onmouseover="this.src='../images/bowgunicon1.png';" onmouseout="this.src='../images/bowgunicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/bow"><img src="../images/bowicon.png" onmouseover="this.src='../images/bowicon1.png';" onmouseout="this.src='../images/bowicon.png';"></a></td>
-<td><a href="http://monsterhunteronline.in/weapons/hunting-horn"><img src="../images/huntinghornicon.png" onmouseover="this.src='../images/huntinghornicon1.png';" onmouseout="this.src='../images/huntinghornicon.png';"></a></td>
+<td class="w3-half">The weapon talent tree unlocks at level 20. The "H" key opens up the interface and it is the last tab at the top. Each tier has 3 talents and only when you learn all 3 talents in the same tier can you unlock the next tier.</td>
+<td class="w3-half">Talent scroll fragments (天赋书碎片） are needed to purchase talent scrolls (天赋书) from the "教官" NPC. The fastest way to get the fragments is to do the unstable quests that unlock at lv.20.  You can learn more about unstable quests in the Quests section. you must complete the optional objective to get the fragment. You can also complete guild missions to gain the fragments. They are given randomly and may not be for your weapon. The final way to get them is to trade them with your friends or purchase them on the auction house.</td>
 </tr>
 </table>
 </div>
 
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

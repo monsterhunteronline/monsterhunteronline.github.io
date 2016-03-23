@@ -1,155 +1,54 @@
 body {
-	background-image:url(../images/bg2.png);
-	background-position:center top;
-	background-repeat:no-repeat;
-	background-color:#f5f5f5;
-	font-size:15px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-}
-#pagecontainer {
 	background-image:url(../images/bg.png);
 	background-position:left top;
 	background-repeat:repeat;
-	width:1200px;
-	margin:0 auto;
-	position:relative;
-	top:450px;
 }
-#pagecontent {
-	padding-left:50px;
-	padding-right:50px;
+#outerdiv
+{
+   width:500px;
+   height:500px;
+   overflow:hidden;
+   position:relative;
 }
-#pagetitle {
-	font-size:25px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
+#mainCon
+{
+   position:absolute;
+   top:-700px;
+   left:-280px;
+   width:1280px;
+   height:1200px;
+}
+.w3-top {
+	z-index: 5 !important;
 }
 #navbar {
-	margin:15px auto;
-	width:1200px;
-	z-index:1;
+	z-index: 5 !important;
 }
-#navbar ul {
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
-	background:#191D22;
+.headerspace {
+	height: 87px;
 }
-#navbar ul a {
-	display:block;
-	color:#F8F764;
-	text-decoration:none;
-	font-weight:700;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+.topright {
+	position: fixed;
+	top:2;
+	right:2;
 }
-#navbar ul a:hover {
-	color:#191D22;
+.food {
+	max-width: 460px !important;
 }
-#navbar ul li {
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
+img {
+	width: 100%;
+	height: auto;
 }
-
-#navbar ul li.current-menu-item {
-	background:#ddd;
-}
-
-#navbar ul li:hover {
-	background:#ccc;
-}
-
-#navbar ul ul li:hover {
-	background:#191D22;
-}
-
-#navbar ul ul {
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#ccc;
-	padding:0;
-	z-index:10;
-}
-
-#navbar ul ul li {
-	float:none;
-	width:200px;
-}
-
-#navbar ul ul a {
-	line-height:120%;
-	padding:10px 15px;
-	color:#191D22;
-}
-#navbar ul ul a:hover {
-	color:#F8F764;
-}
-
-#navbar ul ul ul {
-	top:0;
-	left:100%;
-}
-
-#navbar ul li:hover > ul {
-	display:block;
-}
-#materialtable table{
-	margin:1px auto;
-	background-color:#222;
-	color:#ded2b2;
-	text-align:center;
-}
-#materialtable td{
-	padding:2px;
-	font-size:14px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-	border-collapse:collapse;
-	background-color:#18100B;
-	color:#ded2b2;
-}
-#footer {
-	display:inline-block;
-	width:1200px;
-	margin:0px auto;
-	text-align:center;
-	font-size:12px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-}
-.footertop {
-	border-top:2px solid #272822;
-}
-.footerspacing {
-	height:450px;
-}
-#monsterstable {
-	margin:0px auto;
-	text-align:center;
-	font-size:15px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-	background:transparent;
-}
-#monsterstable td {
-	background:transparent;
-	width:125px;
-	vertical-align:top;
+.monsters {
+	height: 270px;
+	text-align: center;
 }
 #monstertable {
 	margin:0px auto;
 	text-align:center;
-	font-size:15px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-	background:#000;
 }
 #monstertable td {
-	background:#fff;
-	width:75px;
+	width:100px;
 	vertical-align:top;
 }
 #weapontable {
@@ -164,6 +63,9 @@ body {
 	width:125px;
 	vertical-align:top;
 }
+#weapontalent .tier {
+	width: 60px;
+}
 .monstertitle {
 	text-align:center;
 	font-size:25px;
@@ -172,25 +74,10 @@ body {
 .monsterspacer {
 	height:50px;
 }
-#armortable {
-	margin:1px auto;
-	background-color:#222;
-	color:#ded2b2;
-	text-align:center;
-	border-spacing:2px;
-	border-collapse:collapse;
-}
-#armortable td {
-	font-size:14px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-<<<<<<< HEAD
-	padding:5px;
-=======
-	border-collapse:collapse;
-	background-color:#18100B;
-}
 #weapons {
-	margin:1px auto;
+	margin:0px auto;
+	width: auto;
+	height: auto;
 	background-color:#18100B;
 	color:#ded2b2;
 	text-align:center;
@@ -229,7 +116,7 @@ body {
 	font-size:14px;
 	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
 	border-collapse:collapse;
-	background: transparent;
+	padding: 2px
 }
 #weapons div {
 	display:block;
@@ -246,7 +133,6 @@ body {
     z-index:4;
 }
 .basePro {
-	background:url(../images/sharpnessbg.gif) 0 center no-repeat;
 	width:214px;
 	height:6px;
 	padding:3px 17px 5px 14px;
@@ -289,23 +175,11 @@ body {
 .basePro .bar-7 {
 	background-color:#6009b8;
 }
-#jewelrytable {
-	margin:1px auto;
-	background-color:#222;
-	color:#ded2b2;
-	text-align:center;
-}
 .sharpbar {
 	position:relative;
 	height:14px;
     background-repeat:no-repeat;
     background-position:left;
-}
-#jewelrytable td {
-	font-size:14px;
-	font-family:'\5FAE\8F6F\96C5\9ED1','Arial';
-	border-collapse:collapse;
-	background-color:#18100B;
 }
 .weaponpic {
 	position:relative;
@@ -314,33 +188,11 @@ body {
 	margin:0px auto;
 >>>>>>> refs/remotes/origin/master
 }
-.armorname {
-	text-align:right;
-	padding-right:10px;
-}
-.armorskill {
-	text-align:left;
-	padding-left:10px;
-}
 .type0 {
 	color:#8aff2b;
 }
 .type1 {
 	color:#5cbcfe;
-}
-.armorpiccell {
-	width:40px;
-	height:40px;
-	position:relative;
-	background-image:url("../images/itembg.png");
-    background-repeat:no-repeat;
-    background-position:center;
-	text-align:center;
-	vertical-align:middle;
-	padding-top:0px;
-	padding-bottom:0px;
-	padding-left:0px;
-	padding-right:0px;
 }
 .matpiccell {
 	width:40px;
@@ -356,11 +208,6 @@ body {
 	padding-left:0px;
 	padding-right:0px;
 }
-.armorpic {
-	position:relative;
-	top:4px;
-	left:4px;
-}
 .matpic {
 	position:relative;
 	top:4px;
@@ -368,7 +215,6 @@ body {
 }
 table.armorinfo {
 	padding:0px;
-	border:1px solid white;
 	width:200px;
 }
 table.weaponinfo {
@@ -421,105 +267,76 @@ table.innertable td {
 	display:block;
 }
 .info {
-	position:absolute;
-	top:10px;
-	left:31px;
+	position:fixed;
+	top:88px;
+	left:0px;
 	width:200px;
-	background-color:#18100b;
-	margin-top:0px;
-	margin-left:0px;
-	float:left;
 	display:none;
 	z-index:5;
-	text-align:left;
-	padding-left:0px;
 }
 .info td {
-	padding-left:5px;
-	padding-right:5px;
+	padding-left:5px !important;
+	padding-right:5px !important;
 }
 .item:hover + .info, .info:hover {
     display:block;
 }
-.list2 {
-	list-style:none;
-	display:inline;
-}
-.item2:hover + .info2 {
-	display:block;
-}
-.info2 {
-	position:absolute;
-	bottom:2px;
-	right:2px;
-	width:40px;
-	height:40px;
-	background-image:url("../images/itembg.png");
-	margin-top:0px;
-	margin-left:0px;
-	float:left;
-	display:none;
-	z-index:5;
-}
-.item2:hover + .info2, .info2:hover {
-    display:block;
-}
 .Rapid-fire {
-	display:none;
+	display:none !important;
 }
 .Charge {
-	display:none;
+	display:none !important;
 }
 .no {
-	display:none;
+	display:none !important;
 }
 .no0 {
-	display:none;
+	display:none !important;
 }
 .no00000 {
-	display:none;
+	display:none !important;
 }
 .poison {
-	color:#b722ff;
+	color:#b722ff !important;
 }
 .paralysis {
-	color:#ffdc19;
+	color:#ffdc19 !important;
 }
 .sleep {
-	color:#179dce;
+	color:#179dce !important;
 }
 .noskill {
-	display:none;
+	display:none !important;
 }
 .skill1 {
-	color:green;
+	color:green !important;
 }
 .skill2 {
-	color:green;
+	color:green !important;
 }
 .skill3 {
-	color:green;
+	color:green !important;
 }
 .skill4 {
-	color:green;
+	color:green !important;
 }
 .skill5 {
-	color:green;
+	color:green !important;
 }
 .skill-1 {
-	color:red;
+	color:red !important;
 }
 .skill-2 {
-	color:red;
+	color:red !important;
 }
 .skill-3 {
-	color:red;
+	color:red !important;
 }
 .skill-4 {
-	color:red;
+	color:red !important;
 }
 .skill-5 {
-	color:red;
+	color:red !important;
 }
 .white {
 	color:#ffffff;

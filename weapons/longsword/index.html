@@ -1,32 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../../json/navigation.json"></script>
-<script src="../../json/lance.json"></script>
-<script src="../../json/gunlance.json"></script>
-<script src="../../json/swordandshield.json"></script>
-<script src="../../json/greatsword.json"></script>
 <script src="../../json/longsword.json"></script>
-<script src="../../json/hammer.json"></script>
-<script src="../../json/dualblade.json"></script>
-<script src="../../json/bowgun.json"></script>
-<script src="../../json/bow.json"></script>
-<script src="../../json/huntinghorn.json"></script>
-<script src="../../json/material.json"></script>
 <script src="../../json/other.json"></script>
 <script src="../../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../../css/mho.css">
 <title>MHO Weapons - Longsword</title>
 </head>
 
 <body onload="navbarContent(); footerContent(); weaponContent(longswordArray)">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">Weapons - Longsword</div>
-<br><br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Longsword</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
 
 
 
@@ -50,10 +49,33 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td colspan="2">Tartaronis</td><td></td><td colspan="3">Red Shen Gaoren</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td id="id52122"></td><td id="id52159"><td></td></td><td></td><td id="id52160"></td></tr>
 </table>
+<table id="weapontalent">
+<tr>
+<td colspan="4"><h3>Weapon Talents</h3></td>
+</tr>
+<tr>
+<td class="tier">Tier 1<br>Lv.20</td>
+<td>Focused Chi Slash (集气斩) (R) can be used after reaching Chi gauge (练气槽) 1 or 2.</td>
+<td>Increase travel distance +50% during Side Slash (袈裟斩) and Inverse Side Slash (逆袈裟斩).</td>
+<td>Side Slash (袈裟斩) can be used again after using Inverse Side Slash (逆袈裟斩).</td>
+</tr>
+<tr>
+<td class="tier">Tier 2<br>Lv.40</td>
+<td>When the rank of Chi gauge  (练气槽) 3 drops, it will go from rank 3 to 1.</td>
+<td>Draw Focused Chi Slash (集气斩) "R" key, can be once every 120 sec at Chi gauge (练气槽) 3.</td>
+<td>Chi Blade Spin (拔刀集气斩) (right-click on Chi Blade 3) can be used right after Draw Focused Chi Slash (集气斩).</td>
+</tr>
+<tr>
+<td class="tier">Tier 3<br>Lv.55</td>
+<td>When Draw Focused Chi Slash (气刃急旋) hits, fill 100% of Chi gauge (练气槽).</td>
+<td>Every 20 sec at Chi gauge (练气槽) 3.</td>
+<td>Ougi  tier 1 (奥义一式): can get Chi gauge (练气槽) ranking buff (等级加成).<br>Ougi tier 2(奥义二式): last strike can up the rank of Chi gauge 3 (三段练气槽).</td>
+</tr>
+</table>
 
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

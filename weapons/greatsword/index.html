@@ -1,32 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../../json/navigation.json"></script>
-<script src="../../json/lance.json"></script>
-<script src="../../json/gunlance.json"></script>
-<script src="../../json/swordandshield.json"></script>
 <script src="../../json/greatsword.json"></script>
-<script src="../../json/longsword.json"></script>
-<script src="../../json/hammer.json"></script>
-<script src="../../json/dualblade.json"></script>
-<script src="../../json/bowgun.json"></script>
-<script src="../../json/bow.json"></script>
-<script src="../../json/huntinghorn.json"></script>
-<script src="../../json/material.json"></script>
 <script src="../../json/other.json"></script>
 <script src="../../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../../css/mho.css">
 <title>MHO Weapons - Greatsword</title>
 </head>
 
 <body onload="navbarContent(); footerContent(); weaponContent(greatswordArray)">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">Weapons - Greatsword</div>
-<br><br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Greatsword</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
 
 
 
@@ -50,10 +49,33 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td colspan="2">Tartaronis</td><td></td><td colspan="3">Red Shen Gaoren</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td id="id50122"></td><td id="id50159"><td></td></td><td></td><td id="id50160"></td></tr>
 </table>
+<table id="weapontalent">
+<tr>
+<td colspan="4"><h3>Weapon Talents</h3></td>
+</tr>
+<tr>
+<td class="tier">Tier 1<br>Lv.20</td>
+<td>Charging (大剑蓄力) can be cancelled with Rolling (翻滚回避) or Blocking (防御).</td>
+<td>After using Unsheathing Horizontal Slash (拔刀横斩), Horizontal Slash (追加横斩) can be used, before following up with Subsequent Horizontal Slash (追加横斩续击).</td>
+<td>Cast Rolling (翻滚回避) or Blocking quickly after Slash (蓄力斩) and Charged Slash (强蓄力斩).</td>
+</tr>
+<tr>
+<td class="tier">Tier 2<br>Lv.40</td>
+<td>Significantly reduce the time to change from attacking into guarding (防御时).</td>
+<td>Smack (拍击) after Charged Slash (强蓄力斩).</td>
+<td>Can go into the charging mode (蓄力状态) of Charged Slash (强蓄力斩) directly from sheath mode (收刀状态).</td>
+</tr>
+<tr>
+<td class="tier">Tier 3<br>Lv.55</td>
+<td>Gain Level 4 Perfect Charging (四级完美蓄力) of Slash (蓄力斩) and Charged Slash (强蓄力斩).</td>
+<td>Gain infinite Level 4 Perfect Charging (四级完美蓄力) of Charged Slash (强蓄力斩).</td>
+<td>Gain Level 4 Perfect Charging (四级完美蓄力) of Ougi  I (奥义一式) and Ougi II (奥义二式).</td>
+</tr>
+</table>
 
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

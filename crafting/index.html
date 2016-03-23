@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../json/navigation.json"></script>
+<script src="../json/armor.json"></script>
+<script src="../json/material.json"></script>
+<script src="../json/other.json"></script>
+<script src="../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" type="text/css" href="../css/mho.css">
+<title>MHO FAQ - Crafting</title>
+</head>
+
+<body onload="navbarContent(); footerContent()">
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Crafting</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../images/logo.png" style="max-width: 32px">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
+
+
+<table id="craftingtable" class="w3-table w3-striped">
+<tr>
+<td>硬化药</td>
+<td><img src="../images/item_icon_13.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加5点防御力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>增强剂×1<br><img src="../images/mat_visceral_02_GRY.png" style="max-width: 32px"></td>
+<td>忍耐之种×2<br><img src="../images/prop_plant_12.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>回复药</td>
+<td><img src="../images/item_icon_01.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：恢复30点体力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和、商店</FONT></td>
+<td>药草×1<br><img src="../images/prop_herbs_01.png" style="max-width: 32px"></td>
+<td>蓝蘑菇×1<br><img src="../images/prop_plant_01.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>热饮</td>
+<td><img src="../images/item_icon_10.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：一定时间内使猎人不受寒冷环境影响</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和、商店</FONT></td>
+<td>苦虫×1<br><img src="../images/prop_insect_06.png" style="max-width: 32px"></td>
+<td>野生辣椒×1<br><img src="../images/prop_herbs_10.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>生命之粉</td>
+<td><img src="../images/item_icon_12.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#6285C6\" >来源：发明调和</FONT><BR><FONT COLOR=\"#C6B262\">被人们称为生命之源的不可思议的药粉。</FONT></td>
+<td>不死虫×1<br><img src="../images/prop_insect_05.png" style="max-width: 32px"></td>
+<td>迷之骨×1<br><img src="../images/prop_bone_09.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>活力剂</td>
+<td><img src="../images/item_icon_12.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加暂时损失的体力的恢复速度5点/秒</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>增强剂×1<br><img src="../images/mat_visceral_02_GRY.png" style="max-width: 32px"></td>
+<td>忍耐之种×2<br><img src="../images/prop_herbs_11.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>硬化药【G】</td>
+<td><img src="../images/item_icon_92.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加20点防御力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>硬化药×1<br><img src="../images/item_icon_13.png" style="max-width: 32px"></td>
+<td>忍耐果实×1<br><img src="../images/prop_plant_10.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>营养剂【G】</td>
+<td><img src="../images/item_icon_93.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加最大体力值10点</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>营养剂×1<br><img src="../images/item_icon_53.png" style="max-width: 32px"></td>
+<td>蜂蜜×3<br><img src="../images/item_icon_72.png" style="max-width: 32px"></td>
+<td>神秘粉末×2<br><img src="../images/item_icon_65.png" style="max-width: 32px"></td>
+</tr>
+<tr>
+<td>营养剂</td>
+<td><img src="../images/item_icon_53.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加5点体力上限</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>蓝蘑菇×2<br><img src="../images/prop_plant_01.png" style="max-width: 32px"></td>
+<td>不死虫×1<br><img src="../images/prop_insect_05.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>眠肉</td>
+<td><img src="../images/item_icon_23.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >放置：在地上放置眠肉，怪物食用后可能会睡眠</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>烤熟的肉×1<br><img src="../images/item_icon_15.png" style="max-width: 32px"></td>
+<td>睡眠草×1<br><img src="../images/prop_herbs_06.png" style="max-width: 32px"></td>
+<td>神秘粉末×1<br><img src="../images/item_icon_65.png" style="max-width: 32px"></td>
+</tr>
+<tr>
+<td></td>
+<td><img src="../images/item_icon_10.png" style="max-width: 32px"></td>
+<td></td>
+<td><br><img src="../images/mat_scale_03.png" style="max-width: 32px"></td>
+<td><br><img src="../images/prop_herbs_11.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>冻肉</td>
+<td><img src="../images/item_icon_17.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >食用：可以在短时间内缓和高温的影响，同时增加25点耐力上限</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>烤熟的肉×1<br><img src="../images/item_icon_15.png" style="max-width: 32px"></td>
+<td>冰结晶×1<br><img src="../images/prop_ore_14.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>提神药</td>
+<td><img src="../images/item_icon_11.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加10点耐力上限</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>蜂蜜×3<br><img src="../images/item_icon_72.png" style="max-width: 32px"></td>
+<td>落阳草×1<br><img src="../images/prop_herbs_02.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>生命粉尘</td>
+<td><img src="../images/item_icon_58.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >投掷：使用后，一定范围内的猎人恢复体力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>生命之粉×1<br><img src="../images/item_icon_12.png" style="max-width: 32px"></td>
+<td>鹿角×3<br><img src="../images/mat_hair_01_BRW.png" style="max-width: 32px"></td>
+<td>神秘粉末×3<br><img src="../images/item_icon_65.png" style="max-width: 32px"></td>
+</tr>
+<tr>
+<td>鬼人药</td>
+<td><img src="../images/item_icon_10.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加5点攻击力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>增强剂×1<br><img src="../images/mat_visceral_02_GRY.png" style="max-width: 32px"></td>
+<td>怪力之种×2<br><img src="../images/prop_plant_09.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>回复药【G】</td>
+<td><img src="../images/item_icon_89.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：恢复50点体力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>回复药×1<br><img src="../images/item_icon_01.png" style="max-width: 32px"></td>
+<td>蜂蜜×1<br><img src="../images/item_icon_72.png" style="max-width: 32px"></td>
+<td>神秘粉末×3<br><img src="../images/item_icon_65.png" style="max-width: 32px"></td>
+</tr>
+<tr>
+<td>解毒药</td>
+<td><img src="../images/item_icon_53.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：解除“中毒”状态</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和、商店</FONT></td>
+<td>解毒草×1<br><img src="../images/prop_herbs_13.png" style="max-width: 32px"></td>
+<td>蓝蘑菇×1<br><img src="../images/prop_plant_01.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>增强剂</td>
+<td><img src="../images/mat_visceral_02_GRY.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#6285C6\" >来源：发明调和</FONT><BR><FONT COLOR=\"#C6B262\">能将素材和药品的效果提升的药剂。</FONT></td>
+<td>蜂蜜×3<br><img src="../images/item_icon_72.png" style="max-width: 32px"></td>
+<td>苦虫×1<br><img src="../images/prop_insect_06.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>鬼人药【G】</td>
+<td><img src="../images/item_icon_91.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：增加10点攻击力</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>鬼人药×1<br><img src="../images/item_icon_10.png" style="max-width: 32px"></td>
+<td>怪力果实×1<br><img src="../images/prop_plant_09.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>冷饮</td>
+<td><img src="../images/item_icon_09.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：一定时间内使猎人不受炎热环境影响</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和、商店</FONT></td>
+<td>苦虫×1<br><img src="../images/prop_insect_06.png" style="max-width: 32px"></td>
+<td>冰结晶×1<br><img src="../images/prop_ore_14.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>强走药</td>
+<td><img src="../images/item_icon_11.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >饮用：一定时间内猎人耐力不减少，同时增加耐力上限</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和、商店</FONT></td>
+<td>白化精华×1<br><img src="../images/mat_scale_03.png" style="max-width: 32px"></td>
+<td>曼陀罗花×1<br><img src="../images/prop_herbs_11.png" style="max-width: 32px"></td>
+<td></td>
+</tr>
+<tr>
+<td>毒肉</td>
+<td><img src="../images/item_icon_22.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >放置：在地上放置毒肉，怪物食用后可能会中毒</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>烤熟的肉×1<br><img src="../images/item_icon_15.png" style="max-width: 32px"></td>
+<td>毒蘑菇×1<br><img src="../images/prop_plant_05.png" style="max-width: 32px"></td>
+<td>神秘粉末×1<br><img src="../images/item_icon_65.png" style="max-width: 32px"></td>
+</tr>
+<tr>
+<td>麻肉</td>
+<td><img src="../images/item_icon_24.png" style="max-width: 32px"></td>
+<td><FONT COLOR=\"#68A16A\" >放置：在地上放置麻肉，怪物食用后可能会麻痹</FONT><BR><FONT COLOR=\"#6285C6\" >来源：药剂调和</FONT></td>
+<td>烤熟的肉×1<br><img src="../images/item_icon_15.png" style="max-width: 32px"></td>
+<td>麻痹蘑菇×1<br><img src="../images/prop_plant_03.png" style="max-width: 32px"></td>
+<td>神秘粉末×1<br><img src="../images/item_icon_65.png" style="max-width: 32px"></td>
+</tr>
+</table>
+
+
+</div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
+</div>
+</body>
+</html> 

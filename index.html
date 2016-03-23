@@ -1,45 +1,43 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="json/navigation.json"></script>
 <script src="json/armor.json"></script>
 <script src="json/material.json"></script>
 <script src="json/other.json"></script>
 <script src="js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="css/mho.css">
-<title>MHO FAQ</title>
+<title>MHO FAQ - Home</title>
 </head>
 
 <body onload="navbarContent(); footerContent()">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-<!--from google sites faq page. not yet cleaned-->
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">FAQ</div>
-<br><br>
-
-<div>
-This site is a work in progress and will be updated as info is available and/or translated. Contact: <a href="https://discord.gg/0gQrOfuthFJDbIsh">@Reaver01 or the mod team on the Monster Hunter Online Eng Community Discord to add things.</a>
-<br><br>
-<a href="https://www.reddit.com/r/MonsterHunter/comments/3w0bvh/guide_how_to_getsign_up_forinstall_monster_hunter/" target="_blank">If you still haven't installed Monster Hunter Online yet, you can follow this guide.</a>
-<br><br>
-I personnaly recommend using the TGP program to install and launch MH Online for two reasons: The download is way faster, and it automatically logs you in.
-<br><br>
-You can get it <a href="http://tgp.qq.com/" target="_blank">here</a>, and there is a handy install guide already made <a href="http://imgur.com/gallery/upFB4/new" target="_blank">here</a>. 
-<br><br>
-The one part in that guide that you won't do is select MHO as it won't be installed yet.  If you have any issues with it saying that TGP can't launch the installer try out <a href="https://xupefei.github.io/Locale-Emulator/" target="_blank">This</a>.  
-<br><br>
-Once installed, TGP will have two options in the laucher,  click the second one.  
-<br><br>
-This will bring you to a page with a bunch of different Chinese games.  Click the third option from the left navigation and select MHO from the list.  From there click the big green download button and it will start installing.  
-<br><br>
-When it is done downloading, you will here the Monster Hunter Theme for a while while it installs your game.  At completion the music will stop and you will get a notification from TGP.  Unfortunately TGP did install one bloatware program for me when I installed MHO using it, so just go into Programs and Features, sort by date installed and select the one that doesn't say Tencent as the publisher.
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Home</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
 </div>
 
-
+<div class="w3-container content">
+<p>This site is a work in progress and will be updated as info is available and/or translated. Contact: <a href="https://discord.gg/0gQrOfuthFJDbIsh" target="_blank">@Reaver01 or the mod team on the Monster Hunter Online Eng Community Discord to add things.</a></p>
+<p><a href="http://monsterhunteronline.in/install" target="_blank">If you still haven't installed Monster Hunter Online yet, you can follow this guide.</a></p>
+<h3>Latest Monster Hunter Online News</h3>
+<div id="outerdiv">
+<iframe src="http://mho.qq.com/webplat/info/news_version3/5499/5500/5501/m4027/list_1.shtml" id="mainCon" scrolling="no"></iframe>
 </div>
-<div id="footer"></div>
+</div>
+
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

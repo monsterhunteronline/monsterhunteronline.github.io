@@ -1,694 +1,505 @@
 function navbarContent(arr) {
-	document.getElementById("navlist").innerHTML = '' +
-	'<li>' +
-  		'<a href="http://monsterhunteronline.in">FAQ</a>' +
-	'</li>' +
-	'<li>' +
-  		'<a href="http://monsterhunteronline.in/armor/">Armor</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/jewelry/">Jewelry</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/weapons">Weapons</a>' +
-		'<ul>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/lance">Lance</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/gunlance">Gunlance</a>' +
-			'</li>' +
-   			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/sword-and-shield">Sword and Shield</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/greatsword">Greatsword</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/longsword">Longsword</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/hammer">Hammer</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/dual-blades">Dual Blades</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/bowgun">Bowgun</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/bow">Bow</a>' +
-			'</li>' +
-			'<li>' +
-				'<a href="http://monsterhunteronline.in/weapons/hunting-horn">Hunting Horn</a>' +
-			'</li>' +
-		'</ul>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/monsters/">Monsters</a>' +
-		'<ul>' +
-			'<li>' +
-				'<a href="#">Low/High Rank</a>' +
-				'<ul>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/bulldrome">Bulldrome</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/velocidrome">Velociderom</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/caeserber">Caeserber</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/yian-kut-ku">Yian Kut-Ku</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/gendrome">Gendrome</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/baelidae">Baelidae</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/yellow-caeserber">Yellow Caeserber</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/gypceros">Gypceros</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/congalala">Congalala</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/chramine">Chramine</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/cephadrome">Cephadrome</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/daimyo-hermitaur">Daimyo Hermitaur</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/blue-yian-kut-ku">Blue Yian Kut-Ku</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/khezu">Khezu</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/basarios">Basarios</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/hypnocatrice">Hypnocatrice</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/gold-congalala">Gold Congalala</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/dread-baelidae">Dread Baelidae</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/purple-gypceros">Purple Gypceros</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/shogun-ceanataur">Shogun Ceanataur</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/blangonga">Blangonga</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/estrellian">Estrellian</a>' +
-					'</li>' +
-				'</ul>' +
-			'</li>' +
-			'<li>' +
-				'<a href="#">High Rank</a>' +
-				'<ul>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/ice-chramine">Ice Chramine</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/silver-hypnocatrice">Silver Hypnocatrice</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/akura-vashimu">Akura Vashimu</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/yian-garuga">Yian Garuga</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/red-khezu">Red Khezu</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/monoblos">Monoblos</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/doom-estrellian">Doom Estrellian</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/rathian">Rathian</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/iodrome">Iodrome</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/giadrome">Giadrome</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/swordmaster-shogun-ceanataur">Swordmaster Shogun Ceanataur</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/ghost-caeserber">Ghost Caeserber</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/crystal-basarios">Crystal Basarios</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/one-eared-yian-garuga">One-Eared Yian Garuga</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/conflagration-rathian">Conflagration Rathian</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/shattered-monoblos">Shattered Monoblos</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/tartaronis">Tartaronis</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/rathalos">Rathalos</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/shen-gaoren">Shen Gaoren</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/tigrex">Tigrex</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/red-shen-gaoren">Red Shen Gaoren</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/rock-shen-gaoren">Rock Shen Gaoren</a>' +
-					'</li>' +
-					'<li>' +
-						'<a href="http://monsterhunteronline.in/monsters/slicemargl">Slicemargl</a>' +
-					'</li>' +
-				'</ul>' +
-			'</li>' +
-		'</ul>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/quests/">Quests</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/cats/">Cats</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/gathering/">Gathering</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/food/">Food</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/vip/">VIP</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/grouping/">Grouping</a' +
-	'></li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/crafting/">Crafting</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/materials/">Materials</a>' +
-	'</li>' +
-	'<li>' +
-		'<a href="http://monsterhunteronline.in/translation/">Translation</a>' +
-	'</li>'
+	document.getElementById("navbar").innerHTML = '<div class="headerspace"></div>' +
+	'<a href="http://monsterhunteronline.in">Home</a>' +
+	'<a href="http://monsterhunteronline.in/armor/">Armor</a>' +
+	'<a href="http://monsterhunteronline.in/jewelry/">Jewelry</a>' +
+	'<a href="http://monsterhunteronline.in/weapons">Weapons</a>' +
+	'<a href="http://monsterhunteronline.in/monsters/">Monsters</a>' +
+	'<a href="http://monsterhunteronline.in/quests/">Quests</a>' +
+	'<a href="http://monsterhunteronline.in/cats/">Cats</a>' +
+	'<a href="http://monsterhunteronline.in/gathering/">Gathering</a>' +
+	'<a href="http://monsterhunteronline.in/food/">Food</a>' +
+	'<a href="http://monsterhunteronline.in/vip/">VIP</a>' +
+	'<a href="http://monsterhunteronline.in/crafting/">Crafting</a>' +
+	'<a href="http://monsterhunteronline.in/materials/">Materials</a>' +
+	'<a href="http://monsterhunteronline.in/install/">Install</a>' +
+	'<a href="http://monsterhunteronline.in/translation/">Translation</a>'
+}
+function w3_toggle() {
+	var el = document.getElementsByClassName("w3-sidenav")[0]
+	if ( el.style.display != 'block' ) {
+
+		el.style.display = 'block';
+
+	}
+
+	else {
+
+		el.style.display = 'none';
+
+	}
+}
+function w3_open() {
+  document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+}
+function w3_close() {
+  document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
 }
 function armorContent(arr) {
 	var out = "";
 	var i;
 	for(i = 0; i < arr.length; i += 5) {
 	//Level
-		out += '' +
-	'<tr>' +
-		'<td><span class="level">' + arr[i].data[57] + '</span></td>' +
-		'<td class="armorname">' + arr[i].data[2] + ' Armor <span class="type' + arr[i].data[3] + '">' +  typeArray[arr[i].data[3]].type + '</span>' + '</td>' +
+		out += '<div class="w3-row w3-border">' +
+		'<div class="w3-col l1 m1 s5">' + arr[i].data[57] + '</div>' +
+		'<div class="w3-col l2 m2 s7 armorname ">' + arr[i].data[2] + ' Armor <span class="type' + arr[i].data[3] + '">' +  typeArray[arr[i].data[3]].type + '</span>' + '</div>' +
 	//first column
-		'<td class="armorpiccell">' +
+		'<div class="w3-col l1 m1 s2">' +
 			'<ul class="list">' +
 				'<li class="item">' +
-					'<img src="../images/' + arr[i].data[13] + '.png" class="armorpic">' +
+					'<img src="../images/' + arr[i].data[13] + '.png">' +
 				'</li>' +
 	//first column hover
-				'<li class="info">' +
+				'<li class="info w3-table w3-dark-grey">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
 	//name
-							'<td class="piecename" colspan="2">' + arr[i].data[1] + '<hr /></td>' +
+							'<td class="w3-black w3-large w3-center" colspan="2">' + arr[i].data[1] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//defense
-							'<td colspan="2">Defense: <span class="white">' + arr[i].data[6] + '</span><hr /></td>' +
+							'<td colspan="2">Defense: ' + arr[i].data[6] + '</td>' +
 						'</tr>' +
-						'<tr class="attrib' + arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + '">' +
+						'<tr class="w3-grey attrib' + arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + '">' +
 	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
-						'<tr>' +
 	//water	resistance
-							'<td colspan="2" class="no' + arr[i].data[7] + '">Water Resistance: <span class="white">' + arr[i].data[7] + '</span></td>' +
+						'<tr class="w3-blue no' + arr[i].data[7] + '">' +
+							'<td colspan="2" class="w3-blue no' + arr[i].data[7] + '">Water Resistance: ' + arr[i].data[7] + '</td>' +
 						'</tr>' +
 	//fire resistance
-						'<tr class="no' + arr[i].data[8] + '">' +
-							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i].data[8] + '</span></td>' +
+						'<tr class="w3-red no' + arr[i].data[8] + '">' +
+							'<td colspan="2">Fire Resistance: ' + arr[i].data[8] + '</td>' +
 						'</tr>' +
 	//thunder resistance
-						'<tr class="no' + arr[i].data[9] + '">' +
-							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i].data[9] + '</span></td>' +
+						'<tr class="w3-yellow no' + arr[i].data[9] + '">' +
+							'<td colspan="2">Thunder Resistance: ' + arr[i].data[9] + '</td>' +
 						'</tr>' +
 	//dragon resistance
-						'<tr class="no' + arr[i].data[10] + '">' +
-							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i].data[10] + '</span></td>' +
+						'<tr class="w3-purple no' + arr[i].data[10] + '">' +
+							'<td colspan="2">Dragon Resistance: ' + arr[i].data[10] + '</td>' +
 						'</tr>' +
 	//ice resistance
-						'<tr class="no' + arr[i].data[11] + '">' +
-							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i].data[11] + '</span></td>' +
+						'<tr class="w3-light-blue no' + arr[i].data[11] + '">' +
+							'<td colspan="2">Ice Resistance: ' + arr[i].data[11] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-grey">' +
 	//mosaic slots
-							'<td colspan="2"><hr class="attrib' + arr[i].data[7] + arr[i].data[8] + arr[i].data[9] + arr[i].data[10] + arr[i].data[11] + '">Mosaic Slots: <span class="white">' + arr[i].data[5] + '</span><hr /></td>' +
+							'<td colspan="2">Mosaic Slots: ' + arr[i].data[5] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-black">' +
 	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i].data[38] + ' skill' + arr[i].data[39] + '">' +
+						'<tr class="w3-black ' + arr[i].data[38] + ' skill' + arr[i].data[39] + '">' +
 							'<td>' + arr[i].data[38] + '</td>' +
 							'<td class="skillamount">' + arr[i].data[39] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i].data[40] + ' skill' + arr[i].data[41] + '">' +
+						'<tr class="w3-black ' + arr[i].data[40] + ' skill' + arr[i].data[41] + '">' +
 							'<td>' + arr[i].data[40] + '</td>' +
 							'<td class="skillamount">' + arr[i].data[41] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i].data[42] + ' skill' + arr[i].data[43] + '">' +
+						'<tr class="w3-black ' + arr[i].data[42] + ' skill' + arr[i].data[43] + '">' +
 							'<td>' + arr[i].data[42] + '</td>' +
 							'<td class="skillamount">' + arr[i].data[43] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i].data[44] + ' skill' + arr[i].data[45] + '">' +
+						'<tr class="w3-black ' + arr[i].data[44] + ' skill' + arr[i].data[45] + '">' +
 							'<td>' + arr[i].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
-							'<td colspan="2"><hr />[Forging Material]</td>' +
+							'<td colspan="2">[Forging Material]</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i].data[21] + '">' +
+						'<tr class="no' + arr[i].data[21] + '">' +
 							'<td colspan="2">' + arr[i].data[21] + 'x' + arr[i].data[22] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i].data[24] + '">' +
+						'<tr class="no' + arr[i].data[24] + '">' +
 							'<td colspan="2">' + arr[i].data[24] + 'x' + arr[i].data[25] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i].data[27] + '">' +
+						'<tr class="no' + arr[i].data[27] + '">' +
 							'<td colspan="2">' + arr[i].data[27] + 'x' + arr[i].data[28] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i].data[30] + '">' +
+						'<tr class="no' + arr[i].data[30] + '">' +
 							'<td colspan="2">' + arr[i].data[30] + 'x' + arr[i].data[31] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i].data[33] + '">' +
+						'<tr class="no' + arr[i].data[33] + '">' +
 							'<td colspan="2">' + arr[i].data[33] + 'x' + arr[i].data[34] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i].data[37] + '">' +
+						'<tr class="no' + arr[i].data[37] + '">' +
 							'<td colspan="2">' + arr[i].data[36] + 'x' + arr[i].data[37] + '</td>' +
 						'</tr>' +
 					'</table>' +
 				'</li>' +
 			'</ul>' +
-		'</td>' +
+		'</div>' +
 	//second column
-		'<td class="armorpiccell">' +
+		'<div class="w3-col l1 m1 s2">' +
 			'<ul class="list">' +
 				'<li class="item">' +
-					'<img src="../images/' + arr[i+1].data[13] + '.png" class="armorpic">' +
+					'<img src="../images/' + arr[i+1].data[13] + '.png">' +
 				'</li>' +
-	//second column hover
-				'<li class="info">' +
+	//first column hover
+				'<li class="info w3-table w3-dark-grey">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
 	//name
-							'<td class="piecename" colspan="2">' + arr[i+1].data[1] + '<hr /></td>' +
+							'<td class="w3-black w3-large w3-center" colspan="2">' + arr[i+1].data[1] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//defense
-							'<td colspan="2">Defense: <span class="white">' + arr[i+1].data[6] + '</span><hr /></td>' +
+							'<td colspan="2">Defense: ' + arr[i+1].data[6] + '</td>' +
 						'</tr>' +
-						'<tr class="attrib' + arr[i+1].data[7] + arr[i+1].data[8] + arr[i+1].data[9] + arr[i+1].data[10] + arr[i+1].data[11] + '">' +
+						'<tr class="w3-grey attrib' + arr[i+1].data[7] + arr[i+1].data[8] + arr[i+1].data[9] + arr[i+1].data[10] + arr[i+1].data[11] + '">' +
 	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
-						'<tr>' +
 	//water	resistance
-							'<td colspan="2" class="no' + arr[i+1].data[7] + '">Water Resistance: <span class="white">' + arr[i+1].data[7] + '</span></td>' +
+						'<tr class="w3-blue no' + arr[i+1].data[7] + '">' +
+							'<td colspan="2" class="w3-blue no' + arr[i+1].data[7] + '">Water Resistance: ' + arr[i+1].data[7] + '</td>' +
 						'</tr>' +
 	//fire resistance
-						'<tr class="no' + arr[i+1].data[8] + '">' +
-							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+1].data[8] + '</span></td>' +
+						'<tr class="w3-red no' + arr[i+1].data[8] + '">' +
+							'<td colspan="2">Fire Resistance: ' + arr[i+1].data[8] + '</td>' +
 						'</tr>' +
 	//thunder resistance
-						'<tr class="no' + arr[i+1].data[9] + '">' +
-							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+1].data[9] + '</span></td>' +
+						'<tr class="w3-yellow no' + arr[i+1].data[9] + '">' +
+							'<td colspan="2">Thunder Resistance: ' + arr[i+1].data[9] + '</td>' +
 						'</tr>' +
 	//dragon resistance
-						'<tr class="no' + arr[i+1].data[10] + '">' +
-							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+1].data[10] + '</span></td>' +
+						'<tr class="w3-purple no' + arr[i+1].data[10] + '">' +
+							'<td colspan="2">Dragon Resistance: ' + arr[i+1].data[10] + '</td>' +
 						'</tr>' +
 	//ice resistance
-						'<tr class="no' + arr[i+1].data[11] + '">' +
-							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+1].data[11] + '</span></td>' +
+						'<tr class="w3-light-blue no' + arr[i+1].data[11] + '">' +
+							'<td colspan="2">Ice Resistance: ' + arr[i+1].data[11] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-grey">' +
 	//mosaic slots
-							'<td colspan="2"><hr class="attrib' + arr[i+1].data[7] + arr[i+1].data[8] + arr[i+1].data[9] + arr[i+1].data[10] + arr[i+1].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+1].data[5] + '</span><hr /></td>' +
+							'<td colspan="2">Mosaic Slots: ' + arr[i+1].data[5] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-black">' +
 	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+1].data[38] + ' skill' + arr[i+1].data[39] + '">' +
+						'<tr class="w3-black ' + arr[i+1].data[38] + ' skill' + arr[i+1].data[39] + '">' +
 							'<td>' + arr[i+1].data[38] + '</td>' +
 							'<td class="skillamount">' + arr[i+1].data[39] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+1].data[40] + ' skill' + arr[i+1].data[41] + '">' +
+						'<tr class="w3-black ' + arr[i+1].data[40] + ' skill' + arr[i+1].data[41] + '">' +
 							'<td>' + arr[i+1].data[40] + '</td>' +
 							'<td class="skillamount">' + arr[i+1].data[41] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+1].data[42] + ' skill' + arr[i+1].data[43] + '">' +
+						'<tr class="w3-black ' + arr[i+1].data[42] + ' skill' + arr[i+1].data[43] + '">' +
 							'<td>' + arr[i+1].data[42] + '</td>' +
 							'<td class="skillamount">' + arr[i+1].data[43] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+1].data[44] + ' skill' + arr[i+1].data[45] + '">' +
+						'<tr class="w3-black ' + arr[i+1].data[44] + ' skill' + arr[i+1].data[45] + '">' +
 							'<td>' + arr[i+1].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+1].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
-							'<td colspan="2"><hr />[Forging Material]</td>' +
+							'<td colspan="2">[Forging Material]</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+1].data[21] + '">' +
+						'<tr class="no' + arr[i+1].data[21] + '">' +
 							'<td colspan="2">' + arr[i+1].data[21] + 'x' + arr[i+1].data[22] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+1].data[24] + '">' +
+						'<tr class="no' + arr[i+1].data[24] + '">' +
 							'<td colspan="2">' + arr[i+1].data[24] + 'x' + arr[i+1].data[25] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+1].data[27] + '">' +
+						'<tr class="no' + arr[i+1].data[27] + '">' +
 							'<td colspan="2">' + arr[i+1].data[27] + 'x' + arr[i+1].data[28] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+1].data[30] + '">' +
+						'<tr class="no' + arr[i+1].data[30] + '">' +
 							'<td colspan="2">' + arr[i+1].data[30] + 'x' + arr[i+1].data[31] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+1].data[33] + '">' +
+						'<tr class="no' + arr[i+1].data[33] + '">' +
 							'<td colspan="2">' + arr[i+1].data[33] + 'x' + arr[i+1].data[34] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+1].data[37] + '">' +
+						'<tr class="no' + arr[i+1].data[37] + '">' +
 							'<td colspan="2">' + arr[i+1].data[36] + 'x' + arr[i+1].data[37] + '</td>' +
 						'</tr>' +
 					'</table>' +
 				'</li>' +
 			'</ul>' +
-		'</td>' +
+		'</div>' +
 	//third column
-		'<td class="armorpiccell">' +
+		'<div class="w3-col l1 m1 s2">' +
 			'<ul class="list">' +
 				'<li class="item">' +
-					'<img src="../images/' + arr[i+2].data[13] + '.png" class="armorpic">' +
+					'<img src="../images/' + arr[i+2].data[13] + '.png">' +
 				'</li>' +
 	//third column hover
-				'<li class="info">' +
+				'<li class="info w3-table w3-dark-grey">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
 	//name
-							'<td class="piecename" colspan="2">' + arr[i+2].data[1] + '<hr /></td>' +
+							'<td class="w3-black w3-large w3-center" colspan="2">' + arr[i+2].data[1] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//defense
-							'<td colspan="2">Defense: <span class="white">' + arr[i+2].data[6] + '</span><hr /></td>' +
+							'<td colspan="2">Defense: ' + arr[i+2].data[6] + '</td>' +
 						'</tr>' +
-						'<tr class="attrib' + arr[i+2].data[7] + arr[i+2].data[8] + arr[i+2].data[9] + arr[i+2].data[10] + arr[i+2].data[11] + '">' +
+						'<tr class="w3-grey attrib' + arr[i+2].data[7] + arr[i+2].data[8] + arr[i+2].data[9] + arr[i+2].data[10] + arr[i+2].data[11] + '">' +
 	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
-						'<tr>' +
 	//water	resistance
-							'<td colspan="2" class="no' + arr[i+2].data[7] + '">Water Resistance: <span class="white">' + arr[i+2].data[7] + '</span></td>' +
+						'<tr class="w3-blue no' + arr[i+2].data[7] + '">' +
+							'<td colspan="2" class="w3-blue no' + arr[i+2].data[7] + '">Water Resistance: ' + arr[i+2].data[7] + '</td>' +
 						'</tr>' +
 	//fire resistance
-						'<tr class="no' + arr[i+2].data[8] + '">' +
-							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+2].data[8] + '</span></td>' +
+						'<tr class="w3-red no' + arr[i+2].data[8] + '">' +
+							'<td colspan="2">Fire Resistance: ' + arr[i+2].data[8] + '</td>' +
 						'</tr>' +
 	//thunder resistance
-						'<tr class="no' + arr[i+2].data[9] + '">' +
-							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+2].data[9] + '</span></td>' +
+						'<tr class="w3-yellow no' + arr[i+2].data[9] + '">' +
+							'<td colspan="2">Thunder Resistance: ' + arr[i+2].data[9] + '</td>' +
 						'</tr>' +
 	//dragon resistance
-						'<tr class="no' + arr[i+2].data[10] + '">' +
-							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+2].data[10] + '</span></td>' +
+						'<tr class="w3-purple no' + arr[i+2].data[10] + '">' +
+							'<td colspan="2">Dragon Resistance: ' + arr[i+2].data[10] + '</td>' +
 						'</tr>' +
 	//ice resistance
-						'<tr class="no' + arr[i+2].data[11] + '">' +
-							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+2].data[11] + '</span></td>' +
+						'<tr class="w3-light-blue no' + arr[i+2].data[11] + '">' +
+							'<td colspan="2">Ice Resistance: ' + arr[i+2].data[11] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-grey">' +
 	//mosaic slots
-							'<td colspan="2"><hr class="attrib' + arr[i+2].data[7] + arr[i+2].data[8] + arr[i+2].data[9] + arr[i+2].data[10] + arr[i+2].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+2].data[5] + '</span><hr /></td>' +
+							'<td colspan="2">Mosaic Slots: ' + arr[i+2].data[5] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-black">' +
 	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+2].data[38] + ' skill' + arr[i+2].data[39] + '">' +
+						'<tr class="w3-black ' + arr[i+2].data[38] + ' skill' + arr[i+2].data[39] + '">' +
 							'<td>' + arr[i+2].data[38] + '</td>' +
 							'<td class="skillamount">' + arr[i+2].data[39] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+2].data[40] + ' skill' + arr[i+2].data[41] + '">' +
+						'<tr class="w3-black ' + arr[i+2].data[40] + ' skill' + arr[i+2].data[41] + '">' +
 							'<td>' + arr[i+2].data[40] + '</td>' +
 							'<td class="skillamount">' + arr[i+2].data[41] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+2].data[42] + ' skill' + arr[i+2].data[43] + '">' +
+						'<tr class="w3-black ' + arr[i+2].data[42] + ' skill' + arr[i+2].data[43] + '">' +
 							'<td>' + arr[i+2].data[42] + '</td>' +
 							'<td class="skillamount">' + arr[i+2].data[43] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+2].data[44] + ' skill' + arr[i+2].data[45] + '">' +
+						'<tr class="w3-black ' + arr[i+2].data[44] + ' skill' + arr[i+2].data[45] + '">' +
 							'<td>' + arr[i+2].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+2].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
-							'<td colspan="2"><hr />[Forging Material]</td>' +
+							'<td colspan="2">[Forging Material]</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+2].data[21] + '">' +
+						'<tr class="no' + arr[i+2].data[21] + '">' +
 							'<td colspan="2">' + arr[i+2].data[21] + 'x' + arr[i+2].data[22] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+2].data[24] + '">' +
+						'<tr class="no' + arr[i+2].data[24] + '">' +
 							'<td colspan="2">' + arr[i+2].data[24] + 'x' + arr[i+2].data[25] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+2].data[27] + '">' +
+						'<tr class="no' + arr[i+2].data[27] + '">' +
 							'<td colspan="2">' + arr[i+2].data[27] + 'x' + arr[i+2].data[28] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+2].data[30] + '">' +
+						'<tr class="no' + arr[i+2].data[30] + '">' +
 							'<td colspan="2">' + arr[i+2].data[30] + 'x' + arr[i+2].data[31] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+2].data[33] + '">' +
+						'<tr class="no' + arr[i+2].data[33] + '">' +
 							'<td colspan="2">' + arr[i+2].data[33] + 'x' + arr[i+2].data[34] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+2].data[37] + '">' +
+						'<tr class="no' + arr[i+2].data[37] + '">' +
 							'<td colspan="2">' + arr[i+2].data[36] + 'x' + arr[i+2].data[37] + '</td>' +
 						'</tr>' +
 					'</table>' +
 				'</li>' +
 			'</ul>' +
-		'</td>' +
+		'</div>' +
 	//fourth column
-		'<td class="armorpiccell">' +
+		'<div class="w3-col l1 m1 s2">' +
 			'<ul class="list">' +
 				'<li class="item">' +
-					'<img src="../images/' + arr[i+3].data[13] + '.png" class="armorpic">' +
+					'<img src="../images/' + arr[i+3].data[13] + '.png">' +
 				'</li>' +
-	//fourth column hover
-				'<li class="info">' +
+	//fouth column hover
+				'<li class="info w3-table w3-dark-grey">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
 	//name
-							'<td class="piecename" colspan="2">' + arr[i+3].data[1] + '<hr /></td>' +
+							'<td class="w3-black w3-large w3-center" colspan="2">' + arr[i+3].data[1] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//defense
-							'<td colspan="2">Defense: <span class="white">' + arr[i+3].data[6] + '</span><hr /></td>' +
+							'<td colspan="2">Defense: ' + arr[i+3].data[6] + '</td>' +
 						'</tr>' +
-						'<tr class="attrib' + arr[i+3].data[7] + arr[i+3].data[8] + arr[i+3].data[9] + arr[i+3].data[10] + arr[i+3].data[11] + '">' +
+						'<tr class="w3-grey attrib' + arr[i+3].data[7] + arr[i+3].data[8] + arr[i+3].data[9] + arr[i+3].data[10] + arr[i+3].data[11] + '">' +
 	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
-						'<tr>' +
 	//water	resistance
-							'<td colspan="2" class="no' + arr[i+3].data[7] + '">Water Resistance: <span class="white">' + arr[i+3].data[7] + '</span></td>' +
+						'<tr class="w3-blue no' + arr[i+3].data[7] + '">' +
+							'<td colspan="2" class="w3-blue no' + arr[i+3].data[7] + '">Water Resistance: ' + arr[i+3].data[7] + '</td>' +
 						'</tr>' +
 	//fire resistance
-						'<tr class="no' + arr[i+3].data[8] + '">' +
-							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+3].data[8] + '</span></td>' +
+						'<tr class="w3-red no' + arr[i+3].data[8] + '">' +
+							'<td colspan="2">Fire Resistance: ' + arr[i+3].data[8] + '</td>' +
 						'</tr>' +
 	//thunder resistance
-						'<tr class="no' + arr[i+3].data[9] + '">' +
-							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+3].data[9] + '</span></td>' +
+						'<tr class="w3-yellow no' + arr[i+3].data[9] + '">' +
+							'<td colspan="2">Thunder Resistance: ' + arr[i+3].data[9] + '</td>' +
 						'</tr>' +
 	//dragon resistance
-						'<tr class="no' + arr[i+3].data[10] + '">' +
-							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+3].data[10] + '</span></td>' +
+						'<tr class="w3-purple no' + arr[i+3].data[10] + '">' +
+							'<td colspan="2">Dragon Resistance: ' + arr[i+3].data[10] + '</td>' +
 						'</tr>' +
 	//ice resistance
-						'<tr class="no' + arr[i+3].data[11] + '">' +
-							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+3].data[11] + '</span></td>' +
+						'<tr class="w3-light-blue no' + arr[i+3].data[11] + '">' +
+							'<td colspan="2">Ice Resistance: ' + arr[i+3].data[11] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-grey">' +
 	//mosaic slots
-							'<td colspan="2"><hr class="attrib' + arr[i+3].data[7] + arr[i+3].data[8] + arr[i+3].data[9] + arr[i+3].data[10] + arr[i+3].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+3].data[5] + '</span><hr /></td>' +
+							'<td colspan="2">Mosaic Slots: ' + arr[i+3].data[5] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-black">' +
 	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+3].data[38] + ' skill' + arr[i+3].data[39] + '">' +
+						'<tr class="w3-black ' + arr[i+3].data[38] + ' skill' + arr[i+3].data[39] + '">' +
 							'<td>' + arr[i+3].data[38] + '</td>' +
 							'<td class="skillamount">' + arr[i+3].data[39] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+3].data[40] + ' skill' + arr[i+3].data[41] + '">' +
+						'<tr class="w3-black ' + arr[i+3].data[40] + ' skill' + arr[i+3].data[41] + '">' +
 							'<td>' + arr[i+3].data[40] + '</td>' +
 							'<td class="skillamount">' + arr[i+3].data[41] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+3].data[42] + ' skill' + arr[i+3].data[43] + '">' +
+						'<tr class="w3-black ' + arr[i+3].data[42] + ' skill' + arr[i+3].data[43] + '">' +
 							'<td>' + arr[i+3].data[42] + '</td>' +
 							'<td class="skillamount">' + arr[i+3].data[43] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+3].data[44] + ' skill' + arr[i+3].data[45] + '">' +
+						'<tr class="w3-black ' + arr[i+3].data[44] + ' skill' + arr[i+3].data[45] + '">' +
 							'<td>' + arr[i+3].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+3].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
-							'<td colspan="2"><hr />[Forging Material]</td>' +
+							'<td colspan="2">[Forging Material]</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+3].data[21] + '">' +
+						'<tr class="no' + arr[i+3].data[21] + '">' +
 							'<td colspan="2">' + arr[i+3].data[21] + 'x' + arr[i+3].data[22] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+3].data[24] + '">' +
+						'<tr class="no' + arr[i+3].data[24] + '">' +
 							'<td colspan="2">' + arr[i+3].data[24] + 'x' + arr[i+3].data[25] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+3].data[27] + '">' +
+						'<tr class="no' + arr[i+3].data[27] + '">' +
 							'<td colspan="2">' + arr[i+3].data[27] + 'x' + arr[i+3].data[28] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+3].data[30] + '">' +
+						'<tr class="no' + arr[i+3].data[30] + '">' +
 							'<td colspan="2">' + arr[i+3].data[30] + 'x' + arr[i+3].data[31] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+3].data[33] + '">' +
+						'<tr class="no' + arr[i+3].data[33] + '">' +
 							'<td colspan="2">' + arr[i+3].data[33] + 'x' + arr[i+3].data[34] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+3].data[37] + '">' +
+						'<tr class="no' + arr[i+3].data[37] + '">' +
 							'<td colspan="2">' + arr[i+3].data[36] + 'x' + arr[i+3].data[37] + '</td>' +
 						'</tr>' +
-							'</table>' +
-						'</li>' +
-					'</ul>' +
-				'</td>' +
-		//fifth column
-		'<td class="armorpiccell">' +
+					'</table>' +
+				'</li>' +
+			'</ul>' +
+		'</div>' +
+	//fifth column
+		'<div class="w3-col l1 m1 s2">' +
 			'<ul class="list">' +
 				'<li class="item">' +
-					'<img src="../images/' + arr[i+4].data[13] + '.png" class="armorpic">' +
+					'<img src="../images/' + arr[i+4].data[13] + '.png">' +
 				'</li>' +
 	//fifth column hover
-				'<li class="info">' +
+				'<li class="info w3-table w3-dark-grey">' +
 					'<table class="armorinfo">' +
 						'<tr>' +
 	//name
-							'<td class="piecename" colspan="2">' + arr[i+4].data[1] + '<hr /></td>' +
+							'<td class="w3-black w3-large w3-center" colspan="2">' + arr[i+4].data[1] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//defense
-							'<td colspan="2">Defense: <span class="white">' + arr[i+4].data[6] + '</span><hr /></td>' +
+							'<td colspan="2">Defense: ' + arr[i+4].data[6] + '</td>' +
 						'</tr>' +
-						'<tr class="attrib' + arr[i+4].data[7] + arr[i+4].data[8] + arr[i+4].data[9] + arr[i+4].data[10] + arr[i+4].data[11] + '">' +
+						'<tr class="w3-grey attrib' + arr[i+4].data[7] + arr[i+4].data[8] + arr[i+4].data[9] + arr[i+4].data[10] + arr[i+4].data[11] + '">' +
 	//attributes
 							'<td colspan="2">[Attributes]</td>' +
 						'</tr>' +
-						'<tr>' +
 	//water	resistance
-							'<td colspan="2" class="no' + arr[i+4].data[7] + '">Water Resistance: <span class="white">' + arr[i+4].data[7] + '</span></td>' +
+						'<tr class="w3-blue no' + arr[i+4].data[7] + '">' +
+							'<td colspan="2" class="w3-blue no' + arr[i+4].data[7] + '">Water Resistance: ' + arr[i+4].data[7] + '</td>' +
 						'</tr>' +
 	//fire resistance
-						'<tr class="no' + arr[i+4].data[8] + '">' +
-							'<td colspan="2">Fire Resistance: <span class="white">' + arr[i+4].data[8] + '</span></td>' +
+						'<tr class="w3-red no' + arr[i+4].data[8] + '">' +
+							'<td colspan="2">Fire Resistance: ' + arr[i+4].data[8] + '</td>' +
 						'</tr>' +
 	//thunder resistance
-						'<tr class="no' + arr[i+4].data[9] + '">' +
-							'<td colspan="2">Thunder Resistance: <span class="white">' + arr[i+4].data[9] + '</span></td>' +
+						'<tr class="w3-yellow no' + arr[i+4].data[9] + '">' +
+							'<td colspan="2">Thunder Resistance: ' + arr[i+4].data[9] + '</td>' +
 						'</tr>' +
 	//dragon resistance
-						'<tr class="no' + arr[i+4].data[10] + '">' +
-							'<td colspan="2">Dragon Resistance: <span class="white">' + arr[i+4].data[10] + '</span></td>' +
+						'<tr class="w3-purple no' + arr[i+4].data[10] + '">' +
+							'<td colspan="2">Dragon Resistance: ' + arr[i+4].data[10] + '</td>' +
 						'</tr>' +
 	//ice resistance
-						'<tr class="no' + arr[i+4].data[11] + '">' +
-							'<td colspan="2">Ice Resistance: <span class="white">' + arr[i+4].data[11] + '</span></td>' +
+						'<tr class="w3-light-blue no' + arr[i+4].data[11] + '">' +
+							'<td colspan="2">Ice Resistance: ' + arr[i+4].data[11] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-grey">' +
 	//mosaic slots
-							'<td colspan="2"><hr class="attrib' + arr[i+4].data[7] + arr[i+4].data[8] + arr[i+4].data[9] + arr[i+4].data[10] + arr[i+4].data[11] + '">Mosaic Slots: <span class="white">' + arr[i+4].data[5] + '</span><hr /></td>' +
+							'<td colspan="2">Mosaic Slots: ' + arr[i+4].data[5] + '</td>' +
 						'</tr>' +
-						'<tr>' +
+						'<tr class="w3-black">' +
 	//passive skills
 							'<td colspan="2">[Passive Skills]</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+4].data[38] + ' skill' + arr[i+4].data[39] + '">' +
+						'<tr class="w3-black ' + arr[i+4].data[38] + ' skill' + arr[i+4].data[39] + '">' +
 							'<td>' + arr[i+4].data[38] + '</td>' +
 							'<td class="skillamount">' + arr[i+4].data[39] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+4].data[40] + ' skill' + arr[i+4].data[41] + '">' +
+						'<tr class="w3-black ' + arr[i+4].data[40] + ' skill' + arr[i+4].data[41] + '">' +
 							'<td>' + arr[i+4].data[40] + '</td>' +
 							'<td class="skillamount">' + arr[i+4].data[41] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+4].data[42] + ' skill' + arr[i+4].data[43] + '">' +
+						'<tr class="w3-black ' + arr[i+4].data[42] + ' skill' + arr[i+4].data[43] + '">' +
 							'<td>' + arr[i+4].data[42] + '</td>' +
 							'<td class="skillamount">' + arr[i+4].data[43] + '</td>' +
 						'</tr>' +
-						'<tr class="' + arr[i+4].data[44] + ' skill' + arr[i+4].data[45] + '">' +
+						'<tr class="w3-black ' + arr[i+4].data[44] + ' skill' + arr[i+4].data[45] + '">' +
 							'<td>' + arr[i+4].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+4].data[45] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
-							'<td colspan="2"><hr />[Forging Material]</td>' +
+							'<td colspan="2">[Forging Material]</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+4].data[21] + '">' +
+						'<tr class="no' + arr[i+4].data[21] + '">' +
 							'<td colspan="2">' + arr[i+4].data[21] + 'x' + arr[i+4].data[22] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+4].data[24] + '">' +
+						'<tr class="no' + arr[i+4].data[24] + '">' +
 							'<td colspan="2">' + arr[i+4].data[24] + 'x' + arr[i+4].data[25] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+4].data[27] + '">' +
+						'<tr class="no' + arr[i+4].data[27] + '">' +
 							'<td colspan="2">' + arr[i+4].data[27] + 'x' + arr[i+4].data[28] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+4].data[30] + '">' +
+						'<tr class="no' + arr[i+4].data[30] + '">' +
 							'<td colspan="2">' + arr[i+4].data[30] + 'x' + arr[i+4].data[31] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+4].data[33] + '">' +
+						'<tr class="no' + arr[i+4].data[33] + '">' +
 							'<td colspan="2">' + arr[i+4].data[33] + 'x' + arr[i+4].data[34] + '</td>' +
 						'</tr>' +
-						'<tr class="white no' + arr[i+4].data[37] + '">' +
+						'<tr class="no' + arr[i+4].data[37] + '">' +
 							'<td colspan="2">' + arr[i+4].data[36] + 'x' + arr[i+4].data[37] + '</td>' +
 						'</tr>' +
 					'</table>' +
 				'</li>' +
 			'</ul>' +
-		'</td>' +
+		'</div>' +
 	//skills
-		'<td class="armorskill">' + arr[i].data[56] + '</td>' +
-	'</tr>';
+		'<div class="w3-col l4 m4 s12 armorskill">' + arr[i].data[56] + '</div></div>';
 	}
 	document.getElementById("armortable").innerHTML = out;
 }
@@ -698,7 +509,7 @@ function materialsContent(arr) {
 	for(i = 0; i < arr.length; i ++) {
 		out += '' +
 	'<tr>' +
-		'<td class="matpiccell">' +
+		'<td>' +
 			'<img src="../images/' + arr[i].data[4] + '.png">' +
 		'</td>' +
 		'<td>' + arr[i].data[1] + '</td>' +
@@ -714,7 +525,7 @@ function materialsContent2(arr) {
 	for(i = 0; i < arr.length; i ++) {
 		out += '' +
 	'<tr>' +
-		'<td class="matpiccell">' +
+		'<td>' +
 			'<img src="../../images/' + arr[i].data[6] + '.png">' +
 		'</td>' +
 		'<td>' + arr[i].data[1] + '</td>' +
@@ -1191,20 +1002,14 @@ function weaponContent(arr) {
 
 function footerContent() {
 	//because I am lazy
-	document.getElementById("footer").innerHTML = '<table style="margin: 0px auto; width: 1200px;">' +
-	'<tr>' +
-		'<td class="footerspacing"></td>' +
-	'</tr>' +
-	'<tr>' +
-		'<td class="footertop">This page is maintained and paid for by @Reaver01. If you would like to buy me a beer please click below.<br>' +
+	document.getElementById("footer").innerHTML = '' +
+		'<center><p>This page is maintained and paid for by @Reaver01. If you would like to buy me a beer please click below.</p>' +
 			'<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">' +
 				'<input type="hidden" name="cmd" value="_s-xclick">' +
 				'<input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">' +
 				'<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' +
 				'<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">' +
-			'</form>' + '</td>' +
-	'</tr>' +
-	'</table>'
+			'</form></center>'
 }
 function preload(sources) {
 	jQuery.each(sources, function(i,source) { jQuery.get(source); });

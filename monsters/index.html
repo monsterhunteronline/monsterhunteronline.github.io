@@ -1,215 +1,87 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../json/navigation.json"></script>
 <script src="../json/armor.json"></script>
 <script src="../json/material.json"></script>
 <script src="../json/other.json"></script>
 <script src="../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../css/mho.css">
 <title>MHO FAQ - Monsters</title>
 </head>
 
 <body onload="navbarContent(); footerContent()">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">Monsters</div>
-<br><br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Monsters</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
 
 
 <div>
-<table id="monsterstable">
-<tr>
-<td colspan="6" class="monstertitle">Low/High Rank Monsters</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/bulldrome"><img src="../images/Bulldrome.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/velocidrome"><img src="../images/Velocidrome.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/caeserber"><img src="../images/Caeserber.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/yian-kut-ku"><img src="../images/Yian-Kut-Ku.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/gendrome"><img src="../images/Gendrome.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/baelidae"><img src="../images/Baelidae.png"></a></td>
-</tr>
-<tr>
-<td>Bulldrome<br>
-(野猪王)</td>
-<td>Velocidrome<br>
-(蓝速龙王)</td>
-<td>Caeserber<br>
-(河狸兽)</td>
-<td>Yian Kut-Ku<br>
-(大怪鸟)</td>
-<td>Gendrome<br>
-(黄速龙王)</td>
-<td>Baelidae<br>
-(鬼狩蛛)
-</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/yellow-caeserber"><img src="../images/Yellow-Caeserber.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/gypceros"><img src="../images/Gypceros.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/congalala"><img src="../images/Congalala.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/chramine"><img src="../images/Chramine.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/cephadrome"><img src="../images/Cephadrome.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/daimyo-hermitaur"><img src="../images/Daimyo-Hermitaur.png"></a></td>
-</tr>
-<tr>
-<td>Yellow Caeserber<br>
-(沙狸兽)</td>
-<td>Gypceros<br>
-(毒怪鸟)</td>
-<td>Congalala<br>
-(桃毛兽王)</td>
-<td>Chramine<br>
-(沙雷鸟)</td>
-<td>Cephadrome<br>
-(沙龙王)</td>
-<td>Daimyo Hermitaur<br>
-(大名盾蟹)</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/blue-yian-kut-ku"><img src="../images/Blue-Yian-Kut-Ku.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/khezu"><img src="../images/Khezu.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/basarios"><img src="../images/Basarios.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/hypnocatrice"><img src="../images/Hypnocatrice.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/gold-congalala"><img src="../images/Gold-Congalala.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/dread-baelidae"><img src="../images/Dread-Baelidae.png"></a></td>
-</tr>
-<tr>
-<td>Blue Yian Kut-Ku<br>
-(青怪鸟)</td>
-<td>Khezu<br>
-(电龙)</td>
-<td>Basarios<br>
-(岩龙)</td>
-<td>Hypnocatrice<br>
-(眠鸟)</td>
-<td>Gold Congalala<br>
-(金毛兽王)</td>
-<td>Dread Baelidae<br>
-(骇狩蛛)</td>
-</tr>
-<tr>
-<td></td>
-<td><a href="http://monsterhunteronline.in/monsters/purple-gypceros"><img src="../images/Purple-Gypceros.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/shogun-ceanataur"><img src="../images/Shogun-Ceanataur.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/blangonga"><img src="../images/Blangonga.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/estrellian"><img src="../images/Estrellian.png"></a></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Purple Gypceros<br>
-(紫毒鸟)</td>
-<td>Shogun Ceanataur<br>
-(将军镰蟹)</td>
-<td>Blangonga<br>
-(雪狮子王)</td>
-<td>Estrellian<br>
-(星龙)</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="6" class="monsterspacer"></td>
-</tr>
-<tr>
-<td colspan="6" class="monstertitle">High Rank Monsters</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/ice-chramine"><img src="../images/Ice-Chramine.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/silver-hypnocatrice"><img src="../images/Silver-Hypnocatrice.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/akura-vashimu"><img src="../images/Akura-Vashimu.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/yian-garuga"><img src="../images/Yian-Garuga.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/red-khezu"><img src="../images/Red-Khezu.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/monoblos"><img src="../images/Monoblos.png"></a></td>
-</tr>
-<tr>
-<td>Ice Chramine<br>
-(冰雷鸟)</td>
-<td>Silver Hypnocatrice<br>
-(银眠鸟)</td>
-<td>Akura Vashimu<br>
-(尾晶蝎)</td>
-<td>Yian Garuga<br>
-(黑狼鸟)</td>
-<td>Red Khezu<br>
-(红电龙)</td>
-<td>Monoblos<br>
-(一角龙)</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/doom-estrellian"><img src="../images/Doom-Estrellian.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/rathian"><img src="../images/Rathian.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/iodrome"><img src="../images/Iodrome.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/giadrome"><img src="../images/Giadrome.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/swordmaster-shogun-ceanataur"><img src="../images/Shogun-Ceanataur.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/ghost-caeserber"><img src="../images/Caeserber.png"></a></td>
-</tr>
-<tr>
-<td>Doom Estrellian<br>
-(祸星龙)</td>
-<td>Rathian<br>
-(雌火龙)</td>
-<td>Iodrome<br>
-(红速龙王)</td>
-<td>Giadrome<br>
-(白速龙王)</td>
-<td>Swordmaster Shogun Ceanataur<br>
-(剑豪镰蟹)</td>
-<td>Ghost Caeserber<br>
-(战鬼河狸兽)</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/crystal-basarios"><img src="../images/Basarios.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/one-eared-yian-garuga"><img src="../images/Yian-Garuga.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/conflagration-rathian"><img src="../images/Rathian.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/shattered-monoblos"><img src="../images/Monoblos.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/tartaronis"><img src="../images/Tartaronis.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/rathalos"><img src="../images/Rathalos.png"></a></td>
-</tr>
-<tr>
-<td>Crystal Basarios<br>
-(晶岩龙)</td>
-<td>One-Eared Yian Garuga<br>
-(独耳黑狼鸟)</td>
-<td>Conflagration Rathian<br>
-(烈焰女王)</td>
-<td>Shattered Monoblos<br>
-(断刃一角龙)</td>
-<td>Tartaronis<br>
-(吞渊龙)</td>
-<td>Rathalos<br>
-(雄火龙)</td>
-</tr>
-<tr>
-<td><a href="http://monsterhunteronline.in/monsters/shen-gaoren"><img src="../images/Shen-Gaoren.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/tigrex"><img src="../images/Tigrex.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/red-shen-gaoren"><img src="../images/Red-Shen-Gaoren.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/rock-shen-gaoren"><img src="../images/Rock-Shen-Gaoren.png"></a></td>
-<td><a href="http://monsterhunteronline.in/monsters/slicemargl"><img src="../images/Slicemargl.png"></a></td>
-<td></td>
-</tr>
-<tr>
-<td>Shen Gaoren<br>
-(砦蟹)</td>
-<td>Tigrex<br>
-(轰龙)</td>
-<td>Red Shen Gaoren<br>
-(红莲砦蟹)</td>
-<td>Rock Shen Gaoren<br>
-(铠岩砦蟹)</td>
-<td>Slicemargl<br>
-(剑极狼)</td>
-<td></td>
-</tr>
-</table>
+<div class="w3-row">
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/bulldrome"><img src="../images/Bulldrome.png" style="max-width: 102px"></a><h3>Bulldrome</h3><h3>(野猪王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/velocidrome"><img src="../images/Velocidrome.png" style="max-width: 102px"></a><h3>Velocidrome</h3><h3>(蓝速龙王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/caeserber"><img src="../images/Caeserber.png" style="max-width: 102px"></a><h3>Caeserber</h3><h3>(河狸兽)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/yian-kut-ku"><img src="../images/Yian-Kut-Ku.png" style="max-width: 102px"></a><h3>Yian Kut-Ku</h3><h3>(大怪鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/gendrome"><img src="../images/Gendrome.png" style="max-width: 102px"></a><h3>Gendrome</h3><h3>(黄速龙王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/baelidae"><img src="../images/Baelidae.png" style="max-width: 102px"></a><h3>Baelidae</h3><h3>(鬼狩蛛)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/yellow-caeserber"><img src="../images/Yellow-Caeserber.png" style="max-width: 102px"></a><h3>Yellow Caeserber</h3><h3>(沙狸兽)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/gypceros"><img src="../images/Gypceros.png" style="max-width: 102px"></a><h3>Gypceros</h3><h3>(毒怪鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/congalala"><img src="../images/Congalala.png" style="max-width: 102px"></a><h3>Congalala</h3><h3>(桃毛兽王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/chramine"><img src="../images/Chramine.png" style="max-width: 102px"></a><h3>Chramine</h3><h3>(沙雷鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/cephadrome"><img src="../images/Cephadrome.png" style="max-width: 102px"></a><h3>Cephadrome</h3><h3>(沙龙王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/daimyo-hermitaur"><img src="../images/Daimyo-Hermitaur.png" style="max-width: 102px"></a><h3>Daimyo Hermitaur</h3><h3>(大名盾蟹)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/blue-yian-kut-ku"><img src="../images/Blue-Yian-Kut-Ku.png" style="max-width: 102px"></a><h3>Blue Yian Kut-Ku</h3><h3>(青怪鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/khezu"><img src="../images/Khezu.png" style="max-width: 102px"></a><h3>Khezu</h3><h3>(电龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/basarios"><img src="../images/Basarios.png" style="max-width: 102px"></a><h3>Basarios</h3><h3>(岩龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/hypnocatrice"><img src="../images/Hypnocatrice.png" style="max-width: 102px"></a><h3>Hypnocatrice</h3><h3>(眠鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/gold-congalala"><img src="../images/Gold-Congalala.png" style="max-width: 102px"></a><h3>Gold Congalala</h3><h3>(金毛兽王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/dread-baelidae"><img src="../images/Dread-Baelidae.png" style="max-width: 102px"></a><h3>Dread Baelidae</h3><h3>(骇狩蛛)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/purple-gypceros"><img src="../images/Purple-Gypceros.png" style="max-width: 102px"></a><h3>Purple Gypceros</h3><h3>(紫毒鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/shogun-ceanataur"><img src="../images/Shogun-Ceanataur.png" style="max-width: 102px"></a><h3>Shogun Ceanataur</h3><h3>(将军镰蟹)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/blangonga"><img src="../images/Blangonga.png" style="max-width: 102px"></a><h3>Blangonga</h3><h3>(雪狮子王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/estrellian"><img src="../images/Estrellian.png" style="max-width: 102px"></a><h3>Estrellian</h3><h3>(星龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/ice-chramine"><img src="../images/Ice-Chramine.png" style="max-width: 102px"></a><h3>Ice Chramine</h3><h3>(冰雷鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/silver-hypnocatrice"><img src="../images/Silver-Hypnocatrice.png" style="max-width: 102px"></a><h3>Silver Hypnocatrice</h3><h3>(银眠鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/akura-vashimu"><img src="../images/Akura-Vashimu.png" style="max-width: 102px"></a><h3>Akura Vashimu</h3><h3>(尾晶蝎)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/yian-garuga"><img src="../images/Yian-Garuga.png" style="max-width: 102px"></a><h3>Yian Garuga</h3><h3>(黑狼鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/red-khezu"><img src="../images/Red-Khezu.png" style="max-width: 102px"></a><h3>Red Khezu</h3><h3>(红电龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/monoblos"><img src="../images/Monoblos.png" style="max-width: 102px"></a><h3>Monoblos</h3><h3>(一角龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/doom-estrellian"><img src="../images/Doom-Estrellian.png" style="max-width: 102px"></a><h3>Doom Estrellian</h3><h3>(祸星龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/rathian"><img src="../images/Rathian.png" style="max-width: 102px"></a><h3>Rathian</h3><h3>(雌火龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/iodrome"><img src="../images/Iodrome.png" style="max-width: 102px"></a><h3>Iodrome</h3><h3>(红速龙王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/giadrome"><img src="../images/Giadrome.png" style="max-width: 102px"></a><h3>Giadrome</h3><h3>(白速龙王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/swordmaster-shogun-ceanataur"><img src="../images/Shogun-Ceanataur.png" style="max-width: 102px"></a><h3>Swordmaster Shogun Ceanataur</h3><h3>(剑豪镰蟹)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/ghost-caeserber"><img src="../images/Caeserber.png" style="max-width: 102px"></a><h3>Ghost Caeserber</h3><h3>(战鬼河狸兽)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/crystal-basarios"><img src="../images/Basarios.png" style="max-width: 102px"></a><h3>Crystal Basarios</h3><h3>(晶岩龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/one-eared-yian-garuga"><img src="../images/Yian-Garuga.png" style="max-width: 102px"></a><h3>One-Eared Yian Garuga</h3><h3>(独耳黑狼鸟)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/conflagration-rathian"><img src="../images/Rathian.png" style="max-width: 102px"></a><h3>Conflagration Rathian</h3><h3>(烈焰女王)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/shattered-monoblos"><img src="../images/Monoblos.png" style="max-width: 102px"></a><h3>Shattered Monoblos</h3><h3>(断刃一角龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/tartaronis"><img src="../images/Tartaronis.png" style="max-width: 102px"></a><h3>Tartaronis</h3><h3>(吞渊龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/rathalos"><img src="../images/Rathalos.png" style="max-width: 102px"></a><h3>Rathalos</h3><h3>(雄火龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/shen-gaoren"><img src="../images/Shen-Gaoren.png" style="max-width: 102px"></a><h3>Shen Gaoren</h3><h3>(砦蟹)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/tigrex"><img src="../images/Tigrex.png" style="max-width: 102px"></a><h3>Tigrex</h3><h3>(轰龙)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/red-shen-gaoren"><img src="../images/Red-Shen-Gaoren.png" style="max-width: 102px"></a><h3>Red Shen Gaoren</h3><h3>(红莲砦蟹)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/rock-shen-gaoren"><img src="../images/Rock-Shen-Gaoren.png" style="max-width: 102px"></a><h3>Rock Shen Gaoren</h3><h3>(铠岩砦蟹)</h3></div>
+<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/slicemargl"><img src="../images/Slicemargl.png" style="max-width: 102px"></a><h3>Slicemargl</h3><h3>(剑极狼)</h3></div>
+</div>
 
 
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

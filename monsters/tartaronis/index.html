@@ -1,40 +1,49 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../../json/navigation.json"></script>
 <script src="../../json/monster.json"></script>
 <script src="../../json/armor.json"></script>
 <script src="../../json/tartaronismats.json"></script>
 <script src="../../json/other.json"></script>
 <script src="../../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../../css/mho.css">
 <title>MHO FAQ - Monsters - Tartaronis</title>
 </head>
 
 <body onload="navbarContent(); footerContent(); monsterContent(tartaronisArray); materialsContent2(materialArray)">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle"><a href="../">Monsters</a> - Tartaronis</div>
-<br><br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Tartaronis</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
 
 <div align="center">
 <img src="../../images/tartaronis800.png">
 <h2>Fighting info:</h2>
-
 ★ very effective, ◎ effective, ○ general, △ poor, × invalid
 <br><br>
-<table id="monstertable">
+<table id="monstertable" class="w3-table w3-grey w3-striped w3-centered">
 </table>
 <h2>Material Drops</h2>
-<table id="materialtable">
+<table id="materialtable" class="w3-table w3-grey w3-striped">
 </table>
 </div>
 
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 

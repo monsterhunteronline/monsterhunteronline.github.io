@@ -1,32 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../../json/navigation.json"></script>
-<script src="../../json/lance.json"></script>
-<script src="../../json/gunlance.json"></script>
-<script src="../../json/swordandshield.json"></script>
-<script src="../../json/greatsword.json"></script>
-<script src="../../json/longsword.json"></script>
-<script src="../../json/hammer.json"></script>
 <script src="../../json/dualblade.json"></script>
-<script src="../../json/bowgun.json"></script>
-<script src="../../json/bow.json"></script>
-<script src="../../json/huntinghorn.json"></script>
-<script src="../../json/material.json"></script>
 <script src="../../json/other.json"></script>
 <script src="../../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../../css/mho.css">
 <title>MHO Weapons - Dual Blades</title>
 </head>
 
 <body onload="navbarContent(); footerContent(); weaponContent(dualbladeArray)">
-<div id="pagecontainer">
-<nav id="navbar" class="container"><ul id="navlist"></ul></nav>
-
-<div id="pagecontent">
-<br><br>
-<div id="pagetitle">Weapons - Dual Blades</div>
-<br><br>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Dual Blades</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
 
 
 
@@ -50,10 +49,33 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td colspan="2">Tartaronis</td><td></td><td colspan="3">Red Shen Gaoren</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td id="id55122"></td><td id="id55159"><td></td></td><td></td><td id="id55160"></td></tr>
 </table>
+<table id="weapontalent">
+<tr>
+<td colspan="4"><h3>Weapon Talents</h3></td>
+</tr>
+<tr>
+<td class="tier">Tier 1<br>Lv.20</td>
+<td>旋子回避 could interrupt 鬼人连斩 and 鬼人乱舞 randomly.</td>
+<td>The first stroke Left 回旋斩 and the first Right 回旋斩 could form combo.</td>
+<td>Press R key when the 鬼人槽 is full to cast 落叶斩 and enter 鬼人化 at the same time.</td>
+</tr>
+<tr>
+<td class="tier">Tier 2<br>Lv.40</td>
+<td>落叶斩 displacement +50% and gain 回避无敌 time.</td>
+<td>Press R key while you are in 鬼人化and 鬼人狂舞 to cast 落叶斩.</td>
+<td>After 鬼人狂舞, you could cast 贵人狂舞 and other basic skill again.</td>
+</tr>
+<tr>
+<td class="tier">Tier 3<br>Lv.55</td>
+<td>After 鬼人化 duration time surpasses 9 second, press E to quit 鬼人化。 When you quit 鬼人化, you will come out with 鬼人气浪. When 鬼人气浪 hit the target, you could add 鬼人槽.</td>
+<td>The duration time of 鬼人槽 could improve to 20 second.</td>
+<td>The both of 奥义1 and 2 could gain 鬼人化 debuff.</td>
+</tr>
+</table>
 
 
 </div>
-<div id="footer"></div>
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
 </body>
 </html> 
