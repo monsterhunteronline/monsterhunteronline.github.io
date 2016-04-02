@@ -1,19 +1,23 @@
-function navbarContent(arr) {
+function navbarContent() {
 	document.getElementById("navbar").innerHTML = '<div class="headerspace"></div>' +
 	'<a href="http://monsterhunteronline.in">Home</a>' +
-	'<a href="http://monsterhunteronline.in/armor/">Armor</a>' +
-	'<a href="http://monsterhunteronline.in/jewelry/">Jewelry</a>' +
-	'<a href="http://monsterhunteronline.in/weapons">Weapons</a>' +
 	'<a href="http://monsterhunteronline.in/monsters/">Monsters</a>' +
+	'<a href="http://monsterhunteronline.in/weapons">Weapons</a>' +
+	'<a href="http://monsterhunteronline.in/armor/">Armor</a>' +
+	'<a href="http://monsterhunteronline.in/set-builder/">Set Builder</a>' +
 	'<a href="http://monsterhunteronline.in/quests/">Quests</a>' +
-	'<a href="http://monsterhunteronline.in/cats/">Cats</a>' +
-	'<a href="http://monsterhunteronline.in/gathering/">Gathering</a>' +
-	'<a href="http://monsterhunteronline.in/food/">Food</a>' +
-	'<a href="http://monsterhunteronline.in/vip/">VIP</a>' +
 	'<a href="http://monsterhunteronline.in/crafting/">Crafting</a>' +
+	'<a href="http://monsterhunteronline.in/gathering/">Gathering</a>' +
+	'<a href="http://monsterhunteronline.in/jewelry/">Jewelry</a>' +
+	'<a href="http://monsterhunteronline.in/hunting-groups/">Hunting Groups</a>' +
+	'<a href="http://monsterhunteronline.in/npcs/">NPCs</a>' +
+	'<a href="http://monsterhunteronline.in/cats/">Cats</a>' +
+	'<a href="http://monsterhunteronline.in/food/">Food</a>' +
+	'<a href="http://monsterhunteronline.in/skills/">Skills</a>' +
 	'<a href="http://monsterhunteronline.in/materials/">Materials</a>' +
 	'<a href="http://monsterhunteronline.in/install/">Install</a>' +
-	'<a href="http://monsterhunteronline.in/translation/">Translation</a>'
+	'<a href="http://monsterhunteronline.in/translation/">Translation</a>' +
+	'<a href="http://monsterhunteronline.in/vip/">VIP</a>'
 }
 function w3_toggle() {
 	var el = document.getElementsByClassName("w3-sidenav")[0]
@@ -40,9 +44,9 @@ function armorContent(arr) {
 	var i;
 	for(i = 0; i < arr.length; i += 5) {
 	//Level
-		out += '<div class="w3-row w3-border">' +
+		out += '<div class="w3-row border_bottom">' +
 		'<div class="w3-col l1 m1 s5">' + arr[i].data[57] + '</div>' +
-		'<div class="w3-col l2 m2 s7 armorname ">' + arr[i].data[2] + ' Armor <span class="type' + arr[i].data[3] + '">' +  typeArray[arr[i].data[3]].type + '</span>' + '</div>' +
+		'<div class="w3-col l2 m2 s7 armorname "><span class="Lv' + arr[i].data[57].substring(3,5) + '">Prototype </span>' + arr[i].data[2] + ' Armor <span class="type' + arr[i].data[3] + '">' +  typeArray[arr[i].data[3]].type + '</span>' + '</div>' +
 	//first column
 		'<div class="w3-col l1 m1 s2">' +
 			'<ul class="list">' +
@@ -107,6 +111,10 @@ function armorContent(arr) {
 						'<tr class="w3-black ' + arr[i].data[44] + ' skill' + arr[i].data[45] + '">' +
 							'<td>' + arr[i].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i].data[45] + '</td>' +
+						'</tr>' +
+						'<tr class="w3-black ' + arr[i].data[46] + ' skill' + arr[i].data[47] + '">' +
+							'<td>' + arr[i].data[46] + '</td>' +
+							'<td class="skillamount">' + arr[i].data[47] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
@@ -199,6 +207,10 @@ function armorContent(arr) {
 							'<td>' + arr[i+1].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+1].data[45] + '</td>' +
 						'</tr>' +
+						'<tr class="w3-black ' + arr[i+1].data[46] + ' skill' + arr[i+1].data[47] + '">' +
+							'<td>' + arr[i+1].data[46] + '</td>' +
+							'<td class="skillamount">' + arr[i+1].data[47] + '</td>' +
+						'</tr>' +
 						'<tr>' +
 	//forging mats
 							'<td colspan="2">[Forging Material]</td>' +
@@ -289,6 +301,10 @@ function armorContent(arr) {
 						'<tr class="w3-black ' + arr[i+2].data[44] + ' skill' + arr[i+2].data[45] + '">' +
 							'<td>' + arr[i+2].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+2].data[45] + '</td>' +
+						'</tr>' +
+						'<tr class="w3-black ' + arr[i+2].data[46] + ' skill' + arr[i+2].data[47] + '">' +
+							'<td>' + arr[i+2].data[46] + '</td>' +
+							'<td class="skillamount">' + arr[i+2].data[47] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
@@ -381,6 +397,10 @@ function armorContent(arr) {
 							'<td>' + arr[i+3].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+3].data[45] + '</td>' +
 						'</tr>' +
+						'<tr class="w3-black ' + arr[i+3].data[46] + ' skill' + arr[i+3].data[47] + '">' +
+							'<td>' + arr[i+3].data[46] + '</td>' +
+							'<td class="skillamount">' + arr[i+3].data[47] + '</td>' +
+						'</tr>' +
 						'<tr>' +
 	//forging mats
 							'<td colspan="2">[Forging Material]</td>' +
@@ -471,6 +491,10 @@ function armorContent(arr) {
 						'<tr class="w3-black ' + arr[i+4].data[44] + ' skill' + arr[i+4].data[45] + '">' +
 							'<td>' + arr[i+4].data[44] + '</td>' +
 							'<td class="skillamount">' + arr[i+4].data[45] + '</td>' +
+						'</tr>' +
+						'<tr class="w3-black ' + arr[i+4].data[46] + ' skill' + arr[i+4].data[47] + '">' +
+							'<td>' + arr[i+4].data[46] + '</td>' +
+							'<td class="skillamount">' + arr[i+4].data[47] + '</td>' +
 						'</tr>' +
 						'<tr>' +
 	//forging mats
@@ -569,9 +593,9 @@ function weaponContent(arr) {
 		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 4000000;
 		width[6] = 100 - arr[i].data[16] * 100 / 4000000;
 	//bow variables
-	var name = ['','Pierce Lv.1','Pierce Lv.2','Pierce Lv.3','Pierce Lv.4','Rapid Lv.1','Rapid Lv.2','Rapid Lv.3','Rapid Lv.4','Scatter Lv.1','Scatter Lv.2','Scatter Lv.3','Scatter Lv.4'];
+	var name = ['','Pierce Lv1','Pierce Lv2','Pierce Lv3','Pierce Lv4','Rapid Lv1','Rapid Lv2','Rapid Lv3','Rapid Lv4','Scatter Lv1','Scatter Lv2','Scatter Lv3','Scatter Lv4'];
 	//hunting horn variables
-	var songs = {1:{"line1":"red","line2":"red","line3":"","line5":"Reinforce Self"},101:{"line1":"green","line2":"green","line3":"","line5":"Attack Up (s)"},102:{"line1":"green","line2":"green","line3":"","line5":"Critical Rate Up & Heal Up (s)"},103:{"line1":"green","line2":"green","line3":"","line5":"Attack Up (g)"},104:{"line1":"green","line2":"green","line3":"","line5":"Defense Up (s)"},105:{"line1":"green","line2":"green","line3":"","line5":"Defense Up (g)"},106:{"line1":"green","line2":"green","line3":"","line5":"Thunder Attack up"},107:{"line1":"green","line2":"green","line3":"","line5":"Status Attack Up"},108:{"line1":"green","line2":"green","line3":"","line5":"Ice/Water Defense Up (s)"},109:{"line1":"green","line2":"green","line3":"","line5":"Ice/Water Defense Up (g)"},110:{"line1":"green","line2":"green","line3":"","line5":"Fire/Thunder Defense up (s)"},111:{"line1":"green","line2":"green","line3":"","line5":"Fire/Thunder Defense up (g)"},112:{"line1":"green","line2":"green","line3":"","line5":"Dragon Defense Up (s)"},113:{"line1":"green","line2":"green","line3":"","line5":"Dragon Defense Up (g)"},114:{"line1":"green","line2":"green","line3":"","line5":"All Resistance Up"},115:{"line1":"green","line2":"green","line3":"","line5":"Heal (s)"},116:{"line1":"green","line2":"green","line3":"","line5":"Heal (g)"},117:{"line1":"green","line2":"green","line3":"","line5":"Heal (m) & Antidote"},118:{"line1":"green","line2":"green","line3":"","line5":"Recovery Rate Up (m) & Anti-bacterial"},119:{"line1":"green","line2":"green","line3":"","line5":"Health Recovery Rate Up (s)"},120:{"line1":"green","line2":"green","line3":"","line5":"Recovery Rate Up (g)"},121:{"line1":"green","line2":"green","line3":"","line5":"Stamina Regen Up (s)"},122:{"line1":"green","line2":"green","line3":"","line5":"Stamina Regen Up (g)"},123:{"line1":"green","line2":"green","line3":"","line5":"Cold/Heat Negated"},124:{"line1":"green","line2":"green","line3":"","line5":"Clairvoyance & Heat Negated"},125:{"line1":"green","line2":"green","line3":"","line5":"Mud/Snow Negated"},126:{"line1":"green","line2":"green","line3":"","line5":"Shock/Paralyse Negated"},127:{"line1":"green","line2":"green","line3":"","line5":"Pressure Negated"},128:{"line1":"green","line2":"green","line3":"","line5":"Negate Wind Pressure"},129:{"line1":"green","line2":"green","line3":"","line5":"Hearing Protection (s)"},130:{"line1":"green","line2":"green","line3":"","line5":"Hearing Protection (g)"},131:{"line1":"green","line2":"green","line3":"","line5":"All Status Effects Negated"},201:{"line1":"blue","line2":"blue","line3":"","line5":"Attack Up (s)"},202:{"line1":"blue","line2":"blue","line3":"","line5":"Critical Rate Up & Heal Up (s)"},203:{"line1":"blue","line2":"blue","line3":"","line5":"Attack Up (g)"},204:{"line1":"blue","line2":"blue","line3":"","line5":"Defense Up (s)"},205:{"line1":"blue","line2":"blue","line3":"","line5":"Defense Up (g)"},206:{"line1":"blue","line2":"blue","line3":"","line5":"Thunder Attack up"},207:{"line1":"blue","line2":"blue","line3":"","line5":"Status Attack Up"},208:{"line1":"blue","line2":"blue","line3":"","line5":"Ice/Water Defense Up (s)"},209:{"line1":"blue","line2":"blue","line3":"","line5":"Ice/Water Defense Up (g)"},210:{"line1":"blue","line2":"blue","line3":"","line5":"Fire/Thunder Defense up (s)"},211:{"line1":"blue","line2":"blue","line3":"","line5":"Fire/Thunder Defense up (g)"},212:{"line1":"blue","line2":"blue","line3":"","line5":"Dragon Defense Up (s)"},213:{"line1":"blue","line2":"blue","line3":"","line5":"Dragon Defense Up (g)"},214:{"line1":"blue","line2":"blue","line3":"","line5":"All Resistance Up"},215:{"line1":"blue","line2":"blue","line3":"","line5":"Heal (s)"},216:{"line1":"blue","line2":"blue","line3":"","line5":"Heal (g)"},217:{"line1":"blue","line2":"blue","line3":"","line5":"Heal (m) & Antidote"},218:{"line1":"blue","line2":"blue","line3":"","line5":"Recovery Rate Up (m) & Anti-bacterial"},219:{"line1":"blue","line2":"blue","line3":"","line5":"Health Recovery Rate Up (s)"},220:{"line1":"blue","line2":"blue","line3":"","line5":"Recovery Rate Up (g)"},221:{"line1":"blue","line2":"blue","line3":"","line5":"Stamina Regen Up (s)"},222:{"line1":"blue","line2":"blue","line3":"","line5":"Stamina Regen Up (g)"},223:{"line1":"blue","line2":"blue","line3":"","line5":"Cold/Heat Negated"},224:{"line1":"blue","line2":"blue","line3":"","line5":"Clairvoyance & Heat Negated"},225:{"line1":"blue","line2":"blue","line3":"","line5":"Mud/Snow Negated"},226:{"line1":"blue","line2":"blue","line3":"","line5":"Shock/Paralyse Negated"},227:{"line1":"blue","line2":"blue","line3":"","line5":"Pressure Negated"},228:{"line1":"blue","line2":"blue","line3":"","line5":"Negate Wind Pressure"},229:{"line1":"blue","line2":"blue","line3":"","line5":"Hearing Protection (s)"},230:{"line1":"blue","line2":"blue","line3":"","line5":"Hearing Protection (g)"},231:{"line1":"blue","line2":"blue","line3":"","line5":"All Status Effects Negated"},301:{"line1":"red","line2":"green","line3":"red","line5":"Attack Up (s)"},302:{"line1":"red","line2":"green","line3":"red","line5":"Critical Rate Up & Heal Up (s)"},303:{"line1":"red","line2":"green","line3":"red","line5":"Attack Up (g)"},304:{"line1":"red","line2":"green","line3":"red","line5":"Defense Up (s)"},305:{"line1":"red","line2":"green","line3":"red","line5":"Defense Up (g)"},306:{"line1":"red","line2":"green","line3":"red","line5":"Thunder Attack up"},307:{"line1":"red","line2":"green","line3":"red","line5":"Status Attack Up"},308:{"line1":"red","line2":"green","line3":"red","line5":"Ice/Water Defense Up (s)"},309:{"line1":"red","line2":"green","line3":"red","line5":"Ice/Water Defense Up (g)"},310:{"line1":"red","line2":"green","line3":"red","line5":"Fire/Thunder Defense up (s)"},311:{"line1":"red","line2":"green","line3":"red","line5":"Fire/Thunder Defense up (g)"},312:{"line1":"red","line2":"green","line3":"red","line5":"Dragon Defense Up (s)"},313:{"line1":"red","line2":"green","line3":"red","line5":"Dragon Defense Up (g)"},314:{"line1":"red","line2":"green","line3":"red","line5":"All Resistance Up"},315:{"line1":"red","line2":"green","line3":"red","line5":"Heal (s)"},316:{"line1":"red","line2":"green","line3":"red","line5":"Heal (g)"},317:{"line1":"red","line2":"green","line3":"red","line5":"Heal (m) & Antidote"},318:{"line1":"red","line2":"green","line3":"red","line5":"Recovery Rate Up (m) & Anti-bacterial"},319:{"line1":"red","line2":"green","line3":"red","line5":"Health Recovery Rate Up (s)"},320:{"line1":"red","line2":"green","line3":"red","line5":"Recovery Rate Up (g)"},321:{"line1":"red","line2":"green","line3":"red","line5":"Stamina Regen Up (s)"},322:{"line1":"red","line2":"green","line3":"red","line5":"Stamina Regen Up (g)"},323:{"line1":"red","line2":"green","line3":"red","line5":"Cold/Heat Negated"},324:{"line1":"red","line2":"green","line3":"red","line5":"Clairvoyance & Heat Negated"},325:{"line1":"red","line2":"green","line3":"red","line5":"Mud/Snow Negated"},326:{"line1":"red","line2":"green","line3":"red","line5":"Shock/Paralyse Negated"},327:{"line1":"red","line2":"green","line3":"red","line5":"Pressure Negated"},328:{"line1":"red","line2":"green","line3":"red","line5":"Negate Wind Pressure"},329:{"line1":"red","line2":"green","line3":"red","line5":"Hearing Protection (s)"},330:{"line1":"red","line2":"green","line3":"red","line5":"Hearing Protection (g)"},331:{"line1":"red","line2":"green","line3":"red","line5":"All Status Effects Negated"},401:{"line1":"red","line2":"blue","line3":"red","line5":"Attack Up (s)"},402:{"line1":"red","line2":"blue","line3":"red","line5":"Critical Rate Up & Heal Up (s)"},403:{"line1":"red","line2":"blue","line3":"red","line5":"Attack Up (g)"},404:{"line1":"red","line2":"blue","line3":"red","line5":"Defense Up (s)"},405:{"line1":"red","line2":"blue","line3":"red","line5":"Defense Up (g)"},406:{"line1":"red","line2":"blue","line3":"red","line5":"Thunder Attack up"},407:{"line1":"red","line2":"blue","line3":"red","line5":"Status Attack Up"},408:{"line1":"red","line2":"blue","line3":"red","line5":"Ice/Water Defense Up (s)"},409:{"line1":"red","line2":"blue","line3":"red","line5":"Ice/Water Defense Up (g)"},410:{"line1":"red","line2":"blue","line3":"red","line5":"Fire/Thunder Defense up (s)"},411:{"line1":"red","line2":"blue","line3":"red","line5":"Fire/Thunder Defense up (g)"},412:{"line1":"red","line2":"blue","line3":"red","line5":"Dragon Defense Up (s)"},413:{"line1":"red","line2":"blue","line3":"red","line5":"Dragon Defense Up (g)"},414:{"line1":"red","line2":"blue","line3":"red","line5":"All Resistance Up"},415:{"line1":"red","line2":"blue","line3":"red","line5":"Heal (s)"},416:{"line1":"red","line2":"blue","line3":"red","line5":"Heal (g)"},417:{"line1":"red","line2":"blue","line3":"red","line5":"Heal (m) & Antidote"},418:{"line1":"red","line2":"blue","line3":"red","line5":"Recovery Rate Up (m) & Anti-bacterial"},419:{"line1":"red","line2":"blue","line3":"red","line5":"Health Recovery Rate Up (s)"},420:{"line1":"red","line2":"blue","line3":"red","line5":"Recovery Rate Up (g)"},421:{"line1":"red","line2":"blue","line3":"red","line5":"Stamina Regen Up (s)"},422:{"line1":"red","line2":"blue","line3":"red","line5":"Stamina Regen Up (g)"},423:{"line1":"red","line2":"blue","line3":"red","line5":"Cold/Heat Negated"},424:{"line1":"red","line2":"blue","line3":"red","line5":"Clairvoyance & Heat Negated"},425:{"line1":"red","line2":"blue","line3":"red","line5":"Mud/Snow Negated"},426:{"line1":"red","line2":"blue","line3":"red","line5":"Shock/Paralyse Negated"},427:{"line1":"red","line2":"blue","line3":"red","line5":"Pressure Negated"},428:{"line1":"red","line2":"blue","line3":"red","line5":"Negate Wind Pressure"},429:{"line1":"red","line2":"blue","line3":"red","line5":"Hearing Protection (s)"},430:{"line1":"red","line2":"blue","line3":"red","line5":"Hearing Protection (g)"},431:{"line1":"red","line2":"blue","line3":"red","line5":"All Status Effects Negated"},501:{"line1":"green","line2":"red","line3":"green","line5":"Attack Up (s)"},502:{"line1":"green","line2":"red","line3":"green","line5":"Critical Rate Up & Heal Up (s)"},503:{"line1":"green","line2":"red","line3":"green","line5":"Attack Up (g)"},504:{"line1":"green","line2":"red","line3":"green","line5":"Defense Up (s)"},505:{"line1":"green","line2":"red","line3":"green","line5":"Defense Up (g)"},506:{"line1":"green","line2":"red","line3":"green","line5":"Thunder Attack up"},507:{"line1":"green","line2":"red","line3":"green","line5":"Status Attack Up"},508:{"line1":"green","line2":"red","line3":"green","line5":"Ice/Water Defense Up (s)"},509:{"line1":"green","line2":"red","line3":"green","line5":"Ice/Water Defense Up (g)"},510:{"line1":"green","line2":"red","line3":"green","line5":"Fire/Thunder Defense up (s)"},511:{"line1":"green","line2":"red","line3":"green","line5":"Fire/Thunder Defense up (g)"},512:{"line1":"green","line2":"red","line3":"green","line5":"Dragon Defense Up (s)"},513:{"line1":"green","line2":"red","line3":"green","line5":"Dragon Defense Up (g)"},514:{"line1":"green","line2":"red","line3":"green","line5":"All Resistance Up"},515:{"line1":"green","line2":"red","line3":"green","line5":"Heal (s)"},516:{"line1":"green","line2":"red","line3":"green","line5":"Heal (g)"},517:{"line1":"green","line2":"red","line3":"green","line5":"Heal (m) & Antidote"},518:{"line1":"green","line2":"red","line3":"green","line5":"Recovery Rate Up (m) & Anti-bacterial"},519:{"line1":"green","line2":"red","line3":"green","line5":"Health Recovery Rate Up (s)"},520:{"line1":"green","line2":"red","line3":"green","line5":"Recovery Rate Up (g)"},521:{"line1":"green","line2":"red","line3":"green","line5":"Stamina Regen Up (s)"},522:{"line1":"green","line2":"red","line3":"green","line5":"Stamina Regen Up (g)"},523:{"line1":"green","line2":"red","line3":"green","line5":"Cold/Heat Negated"},524:{"line1":"green","line2":"red","line3":"green","line5":"Clairvoyance & Heat Negated"},525:{"line1":"green","line2":"red","line3":"green","line5":"Mud/Snow Negated"},526:{"line1":"green","line2":"red","line3":"green","line5":"Shock/Paralyse Negated"},527:{"line1":"green","line2":"red","line3":"green","line5":"Pressure Negated"},528:{"line1":"green","line2":"red","line3":"green","line5":"Negate Wind Pressure"},529:{"line1":"green","line2":"red","line3":"green","line5":"Hearing Protection (s)"},530:{"line1":"green","line2":"red","line3":"green","line5":"Hearing Protection (g)"},531:{"line1":"green","line2":"red","line3":"green","line5":"All Status Effects Negated"},601:{"line1":"blue","line2":"red","line3":"blue","line5":"Attack Up (s)"},602:{"line1":"blue","line2":"red","line3":"blue","line5":"Critical Rate Up & Heal Up (s)"},603:{"line1":"blue","line2":"red","line3":"blue","line5":"Attack Up (g)"},604:{"line1":"blue","line2":"red","line3":"blue","line5":"Defense Up (s)"},605:{"line1":"blue","line2":"red","line3":"blue","line5":"Defense Up (g)"},606:{"line1":"blue","line2":"red","line3":"blue","line5":"Thunder Attack up"},607:{"line1":"blue","line2":"red","line3":"blue","line5":"Status Attack Up"},608:{"line1":"blue","line2":"red","line3":"blue","line5":"Ice/Water Defense Up (s)"},609:{"line1":"blue","line2":"red","line3":"blue","line5":"Ice/Water Defense Up (g)"},610:{"line1":"blue","line2":"red","line3":"blue","line5":"Fire/Thunder Defense up (s)"},611:{"line1":"blue","line2":"red","line3":"blue","line5":"Fire/Thunder Defense up (g)"},612:{"line1":"blue","line2":"red","line3":"blue","line5":"Dragon Defense Up (s)"},613:{"line1":"blue","line2":"red","line3":"blue","line5":"Dragon Defense Up (g)"},614:{"line1":"blue","line2":"red","line3":"blue","line5":"All Resistance Up"},615:{"line1":"blue","line2":"red","line3":"blue","line5":"Heal (s)"},616:{"line1":"blue","line2":"red","line3":"blue","line5":"Heal (g)"},617:{"line1":"blue","line2":"red","line3":"blue","line5":"Heal (m) & Antidote"},618:{"line1":"blue","line2":"red","line3":"blue","line5":"Recovery Rate Up (m) & Anti-bacterial"},619:{"line1":"blue","line2":"red","line3":"blue","line5":"Health Recovery Rate Up (s)"},620:{"line1":"blue","line2":"red","line3":"blue","line5":"Recovery Rate Up (g)"},621:{"line1":"blue","line2":"red","line3":"blue","line5":"Stamina Regen Up (s)"},622:{"line1":"blue","line2":"red","line3":"blue","line5":"Stamina Regen Up (g)"},623:{"line1":"blue","line2":"red","line3":"blue","line5":"Cold/Heat Negated"},624:{"line1":"blue","line2":"red","line3":"blue","line5":"Clairvoyance & Heat Negated"},625:{"line1":"blue","line2":"red","line3":"blue","line5":"Mud/Snow Negated"},626:{"line1":"blue","line2":"red","line3":"blue","line5":"Shock/Paralyse Negated"},627:{"line1":"blue","line2":"red","line3":"blue","line5":"Pressure Negated"},628:{"line1":"blue","line2":"red","line3":"blue","line5":"Negate Wind Pressure"},629:{"line1":"blue","line2":"red","line3":"blue","line5":"Hearing Protection (s)"},630:{"line1":"blue","line2":"red","line3":"blue","line5":"Hearing Protection (g)"},631:{"line1":"blue","line2":"red","line3":"blue","line5":"All Status Effects Negated"},703:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Attack Up (g)"},706:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Thunder Attack up"},707:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Status Attack Up"},714:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"All Resistance Up"},716:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Heal (g)"},730:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Hearing Protection (g)"},731:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"All Status Effects Negated"},741:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Sonic Waves"},742:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Extend Songs Duration"},803:{"line1":"purple","line2":"purple","line3":"purple","line5":"Attack Up (g)"},806:{"line1":"purple","line2":"purple","line3":"purple","line5":"Thunder Attack up"},807:{"line1":"purple","line2":"purple","line3":"purple","line5":"Status Attack Up"},814:{"line1":"purple","line2":"purple","line3":"purple","line5":"All Resistance Up"},816:{"line1":"purple","line2":"purple","line3":"purple","line5":"Heal (g)"},830:{"line1":"purple","line2":"purple","line3":"purple","line5":"Hearing Protection (g)"},831:{"line1":"purple","line2":"purple","line3":"purple","line5":"All Status Effects Negated"},841:{"line1":"purple","line2":"purple","line3":"purple","line5":"Flinch Negated"},842:{"line1":"purple","line2":"purple","line3":"purple","line5":"Extend Songs Duration"}};
+	var songs = {1:{"line1":"red","line2":"red","line3":"","line5":"Reinforce Self"},101:{"line1":"green","line2":"green","line3":"","line5":"Attack Up (s)"},102:{"line1":"green","line2":"green","line3":"","line5":"Critical Rate Up & Heal Up (s)"},103:{"line1":"green","line2":"green","line3":"","line5":"Attack Up (L)"},104:{"line1":"green","line2":"green","line3":"","line5":"Defense Up (s)"},105:{"line1":"green","line2":"green","line3":"","line5":"Defense Up (L)"},106:{"line1":"green","line2":"green","line3":"","line5":"Elemental Attack Up"},107:{"line1":"green","line2":"green","line3":"","line5":"Status Attack Up"},108:{"line1":"green","line2":"green","line3":"","line5":"Ice/Water Defense Up (s)"},109:{"line1":"green","line2":"green","line3":"","line5":"Ice/Water Defense Up (L)"},110:{"line1":"green","line2":"green","line3":"","line5":"Fire/Thunder Defense up (s)"},111:{"line1":"green","line2":"green","line3":"","line5":"Fire/Thunder Defense up (L)"},112:{"line1":"green","line2":"green","line3":"","line5":"Dragon Defense Up (s)"},113:{"line1":"green","line2":"green","line3":"","line5":"Dragon Defense Up (L)"},114:{"line1":"green","line2":"green","line3":"","line5":"All Resistance Up"},115:{"line1":"green","line2":"green","line3":"","line5":"Heal (s)"},116:{"line1":"green","line2":"green","line3":"","line5":"Heal (L)"},117:{"line1":"green","line2":"green","line3":"","line5":"Heal (m) & Antidote"},118:{"line1":"green","line2":"green","line3":"","line5":"Recovery Rate Up (m) & Anti-bacterial"},119:{"line1":"green","line2":"green","line3":"","line5":"Health Recovery Rate Up (s)"},120:{"line1":"green","line2":"green","line3":"","line5":"Recovery Rate Up (L)"},121:{"line1":"green","line2":"green","line3":"","line5":"Stamina Consumption Negate (S)"},122:{"line1":"green","line2":"green","line3":"","line5":"Stamina Consumption Negate (L)"},123:{"line1":"green","line2":"green","line3":"","line5":"Psychic & Cold Cancel"},124:{"line1":"green","line2":"green","line3":"","line5":"Psychic & Heat Cancel"},125:{"line1":"green","line2":"green","line3":"","line5":"Mud/Snow Negated"},126:{"line1":"green","line2":"green","line3":"","line5":"Tremor/Paralyse Negated"},127:{"line1":"green","line2":"green","line3":"","line5":"Negate Wind Pressure"},128:{"line1":"green","line2":"green","line3":"","line5":"Negate Dragon Wind Pressure"},129:{"line1":"green","line2":"green","line3":"","line5":"Hearing Protection (s)"},130:{"line1":"green","line2":"green","line3":"","line5":"Hearing Protection (L)"},131:{"line1":"green","line2":"green","line3":"","line5":"All Status Effects Negated"},201:{"line1":"blue","line2":"blue","line3":"","line5":"Attack Up (s)"},202:{"line1":"blue","line2":"blue","line3":"","line5":"Critical Rate Up & Heal Up (s)"},203:{"line1":"blue","line2":"blue","line3":"","line5":"Attack Up (L)"},204:{"line1":"blue","line2":"blue","line3":"","line5":"Defense Up (s)"},205:{"line1":"blue","line2":"blue","line3":"","line5":"Defense Up (L)"},206:{"line1":"blue","line2":"blue","line3":"","line5":"Elemental Attack Up"},207:{"line1":"blue","line2":"blue","line3":"","line5":"Status Attack Up"},208:{"line1":"blue","line2":"blue","line3":"","line5":"Ice/Water Defense Up (s)"},209:{"line1":"blue","line2":"blue","line3":"","line5":"Ice/Water Defense Up (L)"},210:{"line1":"blue","line2":"blue","line3":"","line5":"Fire/Thunder Defense up (s)"},211:{"line1":"blue","line2":"blue","line3":"","line5":"Fire/Thunder Defense up (L)"},212:{"line1":"blue","line2":"blue","line3":"","line5":"Dragon Defense Up (s)"},213:{"line1":"blue","line2":"blue","line3":"","line5":"Dragon Defense Up (L)"},214:{"line1":"blue","line2":"blue","line3":"","line5":"All Resistance Up"},215:{"line1":"blue","line2":"blue","line3":"","line5":"Heal (s)"},216:{"line1":"blue","line2":"blue","line3":"","line5":"Heal (L)"},217:{"line1":"blue","line2":"blue","line3":"","line5":"Heal (m) & Antidote"},218:{"line1":"blue","line2":"blue","line3":"","line5":"Recovery Rate Up (m) & Anti-bacterial"},219:{"line1":"blue","line2":"blue","line3":"","line5":"Health Recovery Rate Up (s)"},220:{"line1":"blue","line2":"blue","line3":"","line5":"Recovery Rate Up (L)"},221:{"line1":"blue","line2":"blue","line3":"","line5":"Stamina Consumption Negate (S)"},222:{"line1":"blue","line2":"blue","line3":"","line5":"Stamina Consumption Negate (L)"},223:{"line1":"blue","line2":"blue","line3":"","line5":"Psychic & Cold Cancel"},224:{"line1":"blue","line2":"blue","line3":"","line5":"Psychic & Heat Cancel"},225:{"line1":"blue","line2":"blue","line3":"","line5":"Mud/Snow Negated"},226:{"line1":"blue","line2":"blue","line3":"","line5":"Tremor/Paralyse Negated"},227:{"line1":"blue","line2":"blue","line3":"","line5":"Negate Wind Pressure"},228:{"line1":"blue","line2":"blue","line3":"","line5":"Negate Dragon Wind Pressure"},229:{"line1":"blue","line2":"blue","line3":"","line5":"Hearing Protection (s)"},230:{"line1":"blue","line2":"blue","line3":"","line5":"Hearing Protection (L)"},231:{"line1":"blue","line2":"blue","line3":"","line5":"All Status Effects Negated"},301:{"line1":"red","line2":"green","line3":"red","line5":"Attack Up (s)"},302:{"line1":"red","line2":"green","line3":"red","line5":"Critical Rate Up & Heal Up (s)"},303:{"line1":"red","line2":"green","line3":"red","line5":"Attack Up (L)"},304:{"line1":"red","line2":"green","line3":"red","line5":"Defense Up (s)"},305:{"line1":"red","line2":"green","line3":"red","line5":"Defense Up (L)"},306:{"line1":"red","line2":"green","line3":"red","line5":"Elemental Attack Up"},307:{"line1":"red","line2":"green","line3":"red","line5":"Status Attack Up"},308:{"line1":"red","line2":"green","line3":"red","line5":"Ice/Water Defense Up (s)"},309:{"line1":"red","line2":"green","line3":"red","line5":"Ice/Water Defense Up (L)"},310:{"line1":"red","line2":"green","line3":"red","line5":"Fire/Thunder Defense up (s)"},311:{"line1":"red","line2":"green","line3":"red","line5":"Fire/Thunder Defense up (L)"},312:{"line1":"red","line2":"green","line3":"red","line5":"Dragon Defense Up (s)"},313:{"line1":"red","line2":"green","line3":"red","line5":"Dragon Defense Up (L)"},314:{"line1":"red","line2":"green","line3":"red","line5":"All Resistance Up"},315:{"line1":"red","line2":"green","line3":"red","line5":"Heal (s)"},316:{"line1":"red","line2":"green","line3":"red","line5":"Heal (L)"},317:{"line1":"red","line2":"green","line3":"red","line5":"Heal (m) & Antidote"},318:{"line1":"red","line2":"green","line3":"red","line5":"Recovery Rate Up (m) & Anti-bacterial"},319:{"line1":"red","line2":"green","line3":"red","line5":"Health Recovery Rate Up (s)"},320:{"line1":"red","line2":"green","line3":"red","line5":"Recovery Rate Up (L)"},321:{"line1":"red","line2":"green","line3":"red","line5":"Stamina Consumption Negate (S)"},322:{"line1":"red","line2":"green","line3":"red","line5":"Stamina Consumption Negate (L)"},323:{"line1":"red","line2":"green","line3":"red","line5":"Psychic & Cold Cancel"},324:{"line1":"red","line2":"green","line3":"red","line5":"Psychic & Heat Cancel"},325:{"line1":"red","line2":"green","line3":"red","line5":"Mud/Snow Negated"},326:{"line1":"red","line2":"green","line3":"red","line5":"Tremor/Paralyse Negated"},327:{"line1":"red","line2":"green","line3":"red","line5":"Negate Wind Pressure"},328:{"line1":"red","line2":"green","line3":"red","line5":"Negate Dragon Wind Pressure"},329:{"line1":"red","line2":"green","line3":"red","line5":"Hearing Protection (s)"},330:{"line1":"red","line2":"green","line3":"red","line5":"Hearing Protection (L)"},331:{"line1":"red","line2":"green","line3":"red","line5":"All Status Effects Negated"},401:{"line1":"red","line2":"blue","line3":"red","line5":"Attack Up (s)"},402:{"line1":"red","line2":"blue","line3":"red","line5":"Critical Rate Up & Heal Up (s)"},403:{"line1":"red","line2":"blue","line3":"red","line5":"Attack Up (L)"},404:{"line1":"red","line2":"blue","line3":"red","line5":"Defense Up (s)"},405:{"line1":"red","line2":"blue","line3":"red","line5":"Defense Up (L)"},406:{"line1":"red","line2":"blue","line3":"red","line5":"Elemental Attack Up"},407:{"line1":"red","line2":"blue","line3":"red","line5":"Status Attack Up"},408:{"line1":"red","line2":"blue","line3":"red","line5":"Ice/Water Defense Up (s)"},409:{"line1":"red","line2":"blue","line3":"red","line5":"Ice/Water Defense Up (L)"},410:{"line1":"red","line2":"blue","line3":"red","line5":"Fire/Thunder Defense up (s)"},411:{"line1":"red","line2":"blue","line3":"red","line5":"Fire/Thunder Defense up (L)"},412:{"line1":"red","line2":"blue","line3":"red","line5":"Dragon Defense Up (s)"},413:{"line1":"red","line2":"blue","line3":"red","line5":"Dragon Defense Up (L)"},414:{"line1":"red","line2":"blue","line3":"red","line5":"All Resistance Up"},415:{"line1":"red","line2":"blue","line3":"red","line5":"Heal (s)"},416:{"line1":"red","line2":"blue","line3":"red","line5":"Heal (L)"},417:{"line1":"red","line2":"blue","line3":"red","line5":"Heal (m) & Antidote"},418:{"line1":"red","line2":"blue","line3":"red","line5":"Recovery Rate Up (m) & Anti-bacterial"},419:{"line1":"red","line2":"blue","line3":"red","line5":"Health Recovery Rate Up (s)"},420:{"line1":"red","line2":"blue","line3":"red","line5":"Recovery Rate Up (L)"},421:{"line1":"red","line2":"blue","line3":"red","line5":"Stamina Consumption Negate (S)"},422:{"line1":"red","line2":"blue","line3":"red","line5":"Stamina Consumption Negate (L)"},423:{"line1":"red","line2":"blue","line3":"red","line5":"Psychic & Cold Cancel"},424:{"line1":"red","line2":"blue","line3":"red","line5":"Psychic & Heat Cancel"},425:{"line1":"red","line2":"blue","line3":"red","line5":"Mud/Snow Negated"},426:{"line1":"red","line2":"blue","line3":"red","line5":"Tremor/Paralyse Negated"},427:{"line1":"red","line2":"blue","line3":"red","line5":"Negate Wind Pressure"},428:{"line1":"red","line2":"blue","line3":"red","line5":"Negate Dragon Wind Pressure"},429:{"line1":"red","line2":"blue","line3":"red","line5":"Hearing Protection (s)"},430:{"line1":"red","line2":"blue","line3":"red","line5":"Hearing Protection (L)"},431:{"line1":"red","line2":"blue","line3":"red","line5":"All Status Effects Negated"},501:{"line1":"green","line2":"red","line3":"green","line5":"Attack Up (s)"},502:{"line1":"green","line2":"red","line3":"green","line5":"Critical Rate Up & Heal Up (s)"},503:{"line1":"green","line2":"red","line3":"green","line5":"Attack Up (L)"},504:{"line1":"green","line2":"red","line3":"green","line5":"Defense Up (s)"},505:{"line1":"green","line2":"red","line3":"green","line5":"Defense Up (L)"},506:{"line1":"green","line2":"red","line3":"green","line5":"Elemental Attack Up"},507:{"line1":"green","line2":"red","line3":"green","line5":"Status Attack Up"},508:{"line1":"green","line2":"red","line3":"green","line5":"Ice/Water Defense Up (s)"},509:{"line1":"green","line2":"red","line3":"green","line5":"Ice/Water Defense Up (L)"},510:{"line1":"green","line2":"red","line3":"green","line5":"Fire/Thunder Defense up (s)"},511:{"line1":"green","line2":"red","line3":"green","line5":"Fire/Thunder Defense up (L)"},512:{"line1":"green","line2":"red","line3":"green","line5":"Dragon Defense Up (s)"},513:{"line1":"green","line2":"red","line3":"green","line5":"Dragon Defense Up (L)"},514:{"line1":"green","line2":"red","line3":"green","line5":"All Resistance Up"},515:{"line1":"green","line2":"red","line3":"green","line5":"Heal (s)"},516:{"line1":"green","line2":"red","line3":"green","line5":"Heal (L)"},517:{"line1":"green","line2":"red","line3":"green","line5":"Heal (m) & Antidote"},518:{"line1":"green","line2":"red","line3":"green","line5":"Recovery Rate Up (m) & Anti-bacterial"},519:{"line1":"green","line2":"red","line3":"green","line5":"Health Recovery Rate Up (s)"},520:{"line1":"green","line2":"red","line3":"green","line5":"Recovery Rate Up (L)"},521:{"line1":"green","line2":"red","line3":"green","line5":"Stamina Consumption Negate (S)"},522:{"line1":"green","line2":"red","line3":"green","line5":"Stamina Consumption Negate (L)"},523:{"line1":"green","line2":"red","line3":"green","line5":"Psychic & Cold Cancel"},524:{"line1":"green","line2":"red","line3":"green","line5":"Psychic & Heat Cancel"},525:{"line1":"green","line2":"red","line3":"green","line5":"Mud/Snow Negated"},526:{"line1":"green","line2":"red","line3":"green","line5":"Tremor/Paralyse Negated"},527:{"line1":"green","line2":"red","line3":"green","line5":"Negate Wind Pressure"},528:{"line1":"green","line2":"red","line3":"green","line5":"Negate Dragon Wind Pressure"},529:{"line1":"green","line2":"red","line3":"green","line5":"Hearing Protection (s)"},530:{"line1":"green","line2":"red","line3":"green","line5":"Hearing Protection (L)"},531:{"line1":"green","line2":"red","line3":"green","line5":"All Status Effects Negated"},601:{"line1":"blue","line2":"red","line3":"blue","line5":"Attack Up (s)"},602:{"line1":"blue","line2":"red","line3":"blue","line5":"Critical Rate Up & Heal Up (s)"},603:{"line1":"blue","line2":"red","line3":"blue","line5":"Attack Up (L)"},604:{"line1":"blue","line2":"red","line3":"blue","line5":"Defense Up (s)"},605:{"line1":"blue","line2":"red","line3":"blue","line5":"Defense Up (L)"},606:{"line1":"blue","line2":"red","line3":"blue","line5":"Elemental Attack Up"},607:{"line1":"blue","line2":"red","line3":"blue","line5":"Status Attack Up"},608:{"line1":"blue","line2":"red","line3":"blue","line5":"Ice/Water Defense Up (s)"},609:{"line1":"blue","line2":"red","line3":"blue","line5":"Ice/Water Defense Up (L)"},610:{"line1":"blue","line2":"red","line3":"blue","line5":"Fire/Thunder Defense up (s)"},611:{"line1":"blue","line2":"red","line3":"blue","line5":"Fire/Thunder Defense up (L)"},612:{"line1":"blue","line2":"red","line3":"blue","line5":"Dragon Defense Up (s)"},613:{"line1":"blue","line2":"red","line3":"blue","line5":"Dragon Defense Up (L)"},614:{"line1":"blue","line2":"red","line3":"blue","line5":"All Resistance Up"},615:{"line1":"blue","line2":"red","line3":"blue","line5":"Heal (s)"},616:{"line1":"blue","line2":"red","line3":"blue","line5":"Heal (L)"},617:{"line1":"blue","line2":"red","line3":"blue","line5":"Heal (m) & Antidote"},618:{"line1":"blue","line2":"red","line3":"blue","line5":"Recovery Rate Up (m) & Anti-bacterial"},619:{"line1":"blue","line2":"red","line3":"blue","line5":"Health Recovery Rate Up (s)"},620:{"line1":"blue","line2":"red","line3":"blue","line5":"Recovery Rate Up (L)"},621:{"line1":"blue","line2":"red","line3":"blue","line5":"Stamina Consumption Negate (S)"},622:{"line1":"blue","line2":"red","line3":"blue","line5":"Stamina Consumption Negate (L)"},623:{"line1":"blue","line2":"red","line3":"blue","line5":"Psychic & Cold Cancel"},624:{"line1":"blue","line2":"red","line3":"blue","line5":"Psychic & Heat Cancel"},625:{"line1":"blue","line2":"red","line3":"blue","line5":"Mud/Snow Negated"},626:{"line1":"blue","line2":"red","line3":"blue","line5":"Tremor/Paralyse Negated"},627:{"line1":"blue","line2":"red","line3":"blue","line5":"Negate Wind Pressure"},628:{"line1":"blue","line2":"red","line3":"blue","line5":"Negate Dragon Wind Pressure"},629:{"line1":"blue","line2":"red","line3":"blue","line5":"Hearing Protection (s)"},630:{"line1":"blue","line2":"red","line3":"blue","line5":"Hearing Protection (L)"},631:{"line1":"blue","line2":"red","line3":"blue","line5":"All Status Effects Negated"},703:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Attack Up (L)"},706:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Elemental Attack Up"},707:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Status Attack Up"},714:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"All Resistance Up"},716:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Heal (L)"},730:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Hearing Protection (L)"},731:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"All Status Effects Negated"},741:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Sonic Waves"},742:{"line1":"yellow","line2":"yellow","line3":"yellow","line5":"Extend Songs Duration"},803:{"line1":"purple","line2":"purple","line3":"purple","line5":"Attack Up (L)"},806:{"line1":"purple","line2":"purple","line3":"purple","line5":"Elemental Attack Up"},807:{"line1":"purple","line2":"purple","line3":"purple","line5":"Status Attack Up"},814:{"line1":"purple","line2":"purple","line3":"purple","line5":"All Resistance Up"},816:{"line1":"purple","line2":"purple","line3":"purple","line5":"Heal (L)"},830:{"line1":"purple","line2":"purple","line3":"purple","line5":"Hearing Protection (L)"},831:{"line1":"purple","line2":"purple","line3":"purple","line5":"All Status Effects Negated"},841:{"line1":"purple","line2":"purple","line3":"purple","line5":"Flinch Negated"},842:{"line1":"purple","line2":"purple","line3":"purple","line5":"Extend Songs Duration"}};
 	//placeholders so code doesn't break on other pages
 	var song1 = songs[1];
 	var song2 = songs[1];
@@ -855,19 +879,19 @@ function weaponContent(arr) {
 							'<td colspan="2">[Attack Type]</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[70] + '">' +
-							'<td colspan="2" class="white">Lv.1</td>' +
+							'<td colspan="2" class="white">Lv1</td>' +
 							'<td colspan="2" class="white">' + name[arr[i].data[70]] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[70] + '">' +
-							'<td colspan="2" class="white">Lv.2</td>' +
+							'<td colspan="2" class="white">Lv2</td>' +
 							'<td colspan="2" class="white">' + name[arr[i].data[71]] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[70] + '">' +
-							'<td colspan="2" class="white">Lv.3</td>' +
+							'<td colspan="2" class="white">Lv3</td>' +
 							'<td colspan="2" class="white">' + name[arr[i].data[72]] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[70] + '">' +
-							'<td colspan="2" class="gray">Lv.4</td>' +
+							'<td colspan="2" class="gray">Lv4</td>' +
 							'<td colspan="2" class="gray">' + name[arr[i].data[73]] + '</td>' +
 						'</tr>' +
 	//bow coating
@@ -897,19 +921,19 @@ function weaponContent(arr) {
 							'<td colspan="2">[Arc Shot Type]</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[76] + '">' +
-							'<td colspan="2" class="gray">Lv.1</td>' +
+							'<td colspan="2" class="gray">Lv1</td>' +
 							'<td colspan="2" class="gray">No</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[76] + '">' +
-							'<td colspan="2" class="gray">Lv.2</td>' +
+							'<td colspan="2" class="gray">Lv2</td>' +
 							'<td colspan="2" class="gray">No</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[76] + '">' +
-							'<td colspan="2" class="white">Lv.3</td>' +
+							'<td colspan="2" class="white">Lv3</td>' +
 							'<td colspan="2" class="white">' + arr[i].data[76] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[76] + '">' +
-							'<td colspan="2" class="gray">Lv.4</td>' +
+							'<td colspan="2" class="gray">Lv4</td>' +
 							'<td colspan="2" class="gray">' + arr[i].data[77] + '</td>' +
 						'</tr>' +
 	//hunting horn songs
@@ -1013,4 +1037,65 @@ function footerContent() {
 }
 function preload(sources) {
 	jQuery.each(sources, function(i,source) { jQuery.get(source); });
+}
+function addOrUpdateUrlParam(zname, value)
+{
+  var href = window.location.href;
+  var regex = new RegExp("[&\\?]" + zname + "=");
+  if(regex.test(href))
+  {
+    regex = new RegExp("([&\\?])" + zname + "=\\d+");
+    window.location.href = href.replace(regex, "$1" + zname + "=" + value);
+  }
+  else
+  {
+    if(href.indexOf("?") > -1)
+      window.location.href = href + "&" + zname + "=" + value;
+    else
+      window.location.href = href + "?" + zname + "=" + value;
+  }
+}
+$(function(){
+      $('.helmetbutton').click(function(e){
+      	document.cookie= "helmetstate="+$( '#helmetselection' ).parents().is( ':hidden' );
+            $(this).nextAll('.infosection:first').slideToggle('fast');
+        });
+      $('.vambracesbutton').click(function(e){
+      	document.cookie= "vambracesstate="+$( '#vambracesselection' ).parents().is( ':hidden' );
+            $(this).nextAll('.infosection:first').slideToggle('fast');
+        });
+      $('.armorbutton').click(function(e){
+      	document.cookie= "armorstate="+$( '#armorselection' ).parents().is( ':hidden' );
+            $(this).nextAll('.infosection:first').slideToggle('fast');
+        });
+      $('.waistbutton').click(function(e){
+      	document.cookie= "waiststate="+$( '#waistselection' ).parents().is( ':hidden' );
+            $(this).nextAll('.infosection:first').slideToggle('fast');
+        });
+      $('.greavesbutton').click(function(e){
+      	document.cookie= "greavesstate="+$( '#greavesselection' ).parents().is( ':hidden' );
+            $(this).nextAll('.infosection:first').slideToggle('fast');
+        });
+});
+function cookieState(){
+      $helmetcookie = getCookie('helmetstate')
+      if ($helmetcookie=='true'){$( '#helmetselection' ).parents().slideDown('fast')};
+      $vambracescookie = getCookie('vambracesstate')
+      if ($vambracescookie=='true'){$( '#vambracesselection' ).parents().slideDown('fast')};
+      $armorcookie = getCookie('armorstate')
+      if ($armorcookie=='true'){$( '#armorselection' ).parents().slideDown('fast')};
+      $waistcookie = getCookie('waiststate')
+      if ($waistcookie=='true'){$( '#waistselection' ).parents().slideDown('fast')};
+      $greavescookie = getCookie('greavesstate')
+      if ($greavescookie=='true'){$( '#greavesselection' ).parents().slideDown('fast')};
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
 }

@@ -688,7 +688,7 @@ var armorArray = [
 				"CJHLSTK",
 				"1",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -751,7 +751,7 @@ var armorArray = [
 				"CJHLSWJ",
 				"2",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -814,7 +814,7 @@ var armorArray = [
 				"CJHLSZJ",
 				"3",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -877,7 +877,7 @@ var armorArray = [
 				"CJHLSYJ",
 				"4",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -940,7 +940,7 @@ var armorArray = [
 				"CJHLSTJ",
 				"5",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -1003,7 +1003,7 @@ var armorArray = [
 				"CJHLSZM",
 				"1",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -1066,7 +1066,7 @@ var armorArray = [
 				"CJHLSHS",
 				"2",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -1129,7 +1129,7 @@ var armorArray = [
 				"CJHLSHJ",
 				"3",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -1192,7 +1192,7 @@ var armorArray = [
 				"CJHLSHY",
 				"4",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -1255,7 +1255,7 @@ var armorArray = [
 				"CJHLSHT",
 				"5",
 				"2",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.1"
 			]
 		},
@@ -3838,7 +3838,7 @@ var armorArray = [
 				"CJGSZTK",
 				"1",
 				"2",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.10"
 			]
 		},
@@ -3901,7 +3901,7 @@ var armorArray = [
 				"CJGSZWJ",
 				"2",
 				"2",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.10"
 			]
 		},
@@ -3964,7 +3964,7 @@ var armorArray = [
 				"CJGSZZJ",
 				"3",
 				"2",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4027,7 +4027,7 @@ var armorArray = [
 				"CJGSZYJ",
 				"4",
 				"2",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4090,7 +4090,7 @@ var armorArray = [
 				"CJGSZTJ",
 				"5",
 				"2",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4153,7 +4153,7 @@ var armorArray = [
 				"CJGSZZM",
 				"1",
 				"2",
-				"KO King、Pellet/Spread Up、Provoke",
+				"KO King、Pellet/Spread Up、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4216,7 +4216,7 @@ var armorArray = [
 				"CJGSZHS",
 				"2",
 				"2",
-				"KO King、Pellet/Spread Up、Provoke",
+				"KO King、Pellet/Spread Up、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4279,7 +4279,7 @@ var armorArray = [
 				"CJGSZHJ",
 				"3",
 				"2",
-				"KO King、Pellet/Spread Up、Provoke",
+				"KO King、Pellet/Spread Up、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4342,7 +4342,7 @@ var armorArray = [
 				"CJGSZHY",
 				"4",
 				"2",
-				"KO King、Pellet/Spread Up、Provoke",
+				"KO King、Pellet/Spread Up、Taunt",
 				"Lv.10"
 			]
 		},
@@ -4405,7 +4405,7 @@ var armorArray = [
 				"CJGSZHT",
 				"5",
 				"2",
-				"KO King、Pellet/Spread Up、Provoke",
+				"KO King、Pellet/Spread Up、Taunt",
 				"Lv.10"
 			]
 		},
@@ -6358,7 +6358,7 @@ var armorArray = [
 				"CJSLNTK",
 				"1",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6421,7 +6421,7 @@ var armorArray = [
 				"CJSLNWJ",
 				"2",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6484,7 +6484,7 @@ var armorArray = [
 				"CJSLNZJ",
 				"3",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6547,7 +6547,7 @@ var armorArray = [
 				"CJSLNYJ",
 				"4",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6610,7 +6610,7 @@ var armorArray = [
 				"CJSLNTJ",
 				"5",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6673,7 +6673,7 @@ var armorArray = [
 				"CJSLNZM",
 				"1",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6736,7 +6736,7 @@ var armorArray = [
 				"CJSLNHS",
 				"2",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6799,7 +6799,7 @@ var armorArray = [
 				"CJSLNHJ",
 				"3",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6862,7 +6862,7 @@ var armorArray = [
 				"CJSLNHY",
 				"4",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -6925,7 +6925,7 @@ var armorArray = [
 				"CJSLNHT",
 				"5",
 				"2",
-				"Pressure (Small) Invalid、Unscathed",
+				"Windproof (Lo)、Unscathed",
 				"Lv.10"
 			]
 		},
@@ -7618,7 +7618,7 @@ var armorArray = [
 				"CJDMDXTK",
 				"1",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -7681,7 +7681,7 @@ var armorArray = [
 				"CJDMDXWJ",
 				"2",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -7744,7 +7744,7 @@ var armorArray = [
 				"CJDMDXZJ",
 				"3",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -7807,7 +7807,7 @@ var armorArray = [
 				"CJDMDXYJ",
 				"4",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -7870,7 +7870,7 @@ var armorArray = [
 				"CJDMDXTJ",
 				"5",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -7933,7 +7933,7 @@ var armorArray = [
 				"CJDMDXZM",
 				"1",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -7996,7 +7996,7 @@ var armorArray = [
 				"CJDMDXHS",
 				"2",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -8059,7 +8059,7 @@ var armorArray = [
 				"CJDMDXHJ",
 				"3",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -8122,7 +8122,7 @@ var armorArray = [
 				"CJDMDXHY",
 				"4",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -8185,7 +8185,7 @@ var armorArray = [
 				"CJDMDXHT",
 				"5",
 				"2",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.20"
 			]
 		},
@@ -12028,7 +12028,7 @@ var armorArray = [
 				"CJZDNTK",
 				"1",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12091,7 +12091,7 @@ var armorArray = [
 				"CJZDNWJ",
 				"2",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12154,7 +12154,7 @@ var armorArray = [
 				"CJZDNZJ",
 				"3",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12217,7 +12217,7 @@ var armorArray = [
 				"CJZDNYJ",
 				"4",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12280,7 +12280,7 @@ var armorArray = [
 				"CJZDNTJ",
 				"5",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12343,7 +12343,7 @@ var armorArray = [
 				"CJZDNZM",
 				"1",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12406,7 +12406,7 @@ var armorArray = [
 				"CJZDNHS",
 				"2",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12469,7 +12469,7 @@ var armorArray = [
 				"CJZDNHJ",
 				"3",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12532,7 +12532,7 @@ var armorArray = [
 				"CJZDNHY",
 				"4",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -12595,7 +12595,7 @@ var armorArray = [
 				"CJZDNHT",
 				"5",
 				"2",
-				"Stun Immunity、Pressure (Small) Invalid、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Demonic Blessing",
 				"Lv.30"
 			]
 		},
@@ -13288,7 +13288,7 @@ var armorArray = [
 				"CJXSZWTK",
 				"1",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13351,7 +13351,7 @@ var armorArray = [
 				"CJXSZWWJ",
 				"2",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13414,7 +13414,7 @@ var armorArray = [
 				"CJXSZWZJ",
 				"3",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13477,7 +13477,7 @@ var armorArray = [
 				"CJXSZWYJ",
 				"4",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13540,7 +13540,7 @@ var armorArray = [
 				"CJXSZWTJ",
 				"5",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13603,7 +13603,7 @@ var armorArray = [
 				"CJXSZWZM",
 				"1",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13666,7 +13666,7 @@ var armorArray = [
 				"CJXSZWHS",
 				"2",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13729,7 +13729,7 @@ var armorArray = [
 				"CJXSZWHJ",
 				"3",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13792,7 +13792,7 @@ var armorArray = [
 				"CJXSZWHY",
 				"4",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13855,7 +13855,7 @@ var armorArray = [
 				"CJXSZWHT",
 				"5",
 				"2",
-				"Negate Mud/Snow、Cold Resistant、Ice Attack+1、Stun Doubled",
+				"Negate Mud/Snow、Cold Cancel、Ice Attack+1、Stun Doubled",
 				"Lv.30"
 			]
 		},
@@ -13918,7 +13918,7 @@ var armorArray = [
 				"CJXLTK",
 				"1",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -13981,7 +13981,7 @@ var armorArray = [
 				"CJXLWJ",
 				"2",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14044,7 +14044,7 @@ var armorArray = [
 				"CJXLZJ",
 				"3",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14107,7 +14107,7 @@ var armorArray = [
 				"CJXLYJ",
 				"4",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14170,7 +14170,7 @@ var armorArray = [
 				"CJXLTJ",
 				"5",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14233,7 +14233,7 @@ var armorArray = [
 				"CJXLZM",
 				"1",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14296,7 +14296,7 @@ var armorArray = [
 				"CJXLHS",
 				"2",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14359,7 +14359,7 @@ var armorArray = [
 				"CJXLHJ",
 				"3",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14422,7 +14422,7 @@ var armorArray = [
 				"CJXLHY",
 				"4",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14485,7 +14485,7 @@ var armorArray = [
 				"CJXLHT",
 				"5",
 				"2",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.30"
 			]
 		},
@@ -14548,7 +14548,7 @@ var armorArray = [
 				"HLSTK",
 				"1",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14611,7 +14611,7 @@ var armorArray = [
 				"HLSWJ",
 				"2",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14674,7 +14674,7 @@ var armorArray = [
 				"HLSZJ",
 				"3",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14737,7 +14737,7 @@ var armorArray = [
 				"HLSYJ",
 				"4",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14800,7 +14800,7 @@ var armorArray = [
 				"HLSTJ",
 				"5",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14863,7 +14863,7 @@ var armorArray = [
 				"HLSZM",
 				"1",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14926,7 +14926,7 @@ var armorArray = [
 				"HLSHS",
 				"2",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -14989,7 +14989,7 @@ var armorArray = [
 				"HLSHJ",
 				"3",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -15052,7 +15052,7 @@ var armorArray = [
 				"HLSHY",
 				"4",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -15115,7 +15115,7 @@ var armorArray = [
 				"HLSHT",
 				"5",
 				"1",
-				"Clairvoyance、Speed Eating",
+				"Detect、Speed Eating",
 				"Lv.40"
 			]
 		},
@@ -17698,7 +17698,7 @@ var armorArray = [
 				"GSZTK",
 				"1",
 				"1",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.40"
 			]
 		},
@@ -17761,7 +17761,7 @@ var armorArray = [
 				"GSZWJ",
 				"2",
 				"1",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.40"
 			]
 		},
@@ -17824,7 +17824,7 @@ var armorArray = [
 				"GSZZJ",
 				"3",
 				"1",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.40"
 			]
 		},
@@ -17887,7 +17887,7 @@ var armorArray = [
 				"GSZYJ",
 				"4",
 				"1",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.40"
 			]
 		},
@@ -17950,7 +17950,7 @@ var armorArray = [
 				"GSZTJ",
 				"5",
 				"1",
-				"KO King、High-speed Sharpening、Provoke",
+				"KO King、High-speed Sharpening、Taunt",
 				"Lv.40"
 			]
 		},
@@ -18013,7 +18013,7 @@ var armorArray = [
 				"GSZZM",
 				"1",
 				"1",
-				"KO术、上弹速度强化+1、挑衅",
+				"KO King、Reload Speed+1、Taunt",
 				"Lv.40"
 			]
 		},
@@ -18076,7 +18076,7 @@ var armorArray = [
 				"GSZHS",
 				"2",
 				"1",
-				"KO术、上弹速度强化+1、挑衅",
+				"KO King、Reload Speed+1、Taunt",
 				"Lv.40"
 			]
 		},
@@ -18139,7 +18139,7 @@ var armorArray = [
 				"GSZHJ",
 				"3",
 				"1",
-				"KO术、上弹速度强化+1、挑衅",
+				"KO King、Reload Speed+1、Taunt",
 				"Lv.40"
 			]
 		},
@@ -18202,7 +18202,7 @@ var armorArray = [
 				"GSZHY",
 				"4",
 				"1",
-				"KO术、上弹速度强化+1、挑衅",
+				"KO King、Reload Speed+1、Taunt",
 				"Lv.40"
 			]
 		},
@@ -18265,7 +18265,7 @@ var armorArray = [
 				"GSZHT",
 				"5",
 				"1",
-				"KO术、上弹速度强化+1、挑衅",
+				"KO King、Reload Speed+1、Taunt",
 				"Lv.40"
 			]
 		},
@@ -19588,7 +19588,7 @@ var armorArray = [
 				"TMSWTK",
 				"1",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -19651,7 +19651,7 @@ var armorArray = [
 				"TMSWWJ",
 				"2",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -19714,7 +19714,7 @@ var armorArray = [
 				"TMSWZJ",
 				"3",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -19777,7 +19777,7 @@ var armorArray = [
 				"TMSWYJ",
 				"4",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -19840,7 +19840,7 @@ var armorArray = [
 				"TMSWTJ",
 				"5",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -19903,7 +19903,7 @@ var armorArray = [
 				"TMSWZM",
 				"1",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -19966,7 +19966,7 @@ var armorArray = [
 				"TMSWHS",
 				"2",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -20029,7 +20029,7 @@ var armorArray = [
 				"TMSWHJ",
 				"3",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -20092,7 +20092,7 @@ var armorArray = [
 				"TMSWHY",
 				"4",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -20155,7 +20155,7 @@ var armorArray = [
 				"TMSWHT",
 				"5",
 				"1",
-				"Anti-bacterial、Speed Eating、Clairvoyance+1、Hunger Increased",
+				"Anti-bacterial、Speed Eating、Psychic+1、Hunger Increased",
 				"Lv.40"
 			]
 		},
@@ -20218,7 +20218,7 @@ var armorArray = [
 				"SLNTK",
 				"1",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20281,7 +20281,7 @@ var armorArray = [
 				"SLNWJ",
 				"2",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20344,7 +20344,7 @@ var armorArray = [
 				"SLNZJ",
 				"3",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20407,7 +20407,7 @@ var armorArray = [
 				"SLNYJ",
 				"4",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20470,7 +20470,7 @@ var armorArray = [
 				"SLNTJ",
 				"5",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20533,7 +20533,7 @@ var armorArray = [
 				"SLNZM",
 				"1",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20596,7 +20596,7 @@ var armorArray = [
 				"SLNHS",
 				"2",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20659,7 +20659,7 @@ var armorArray = [
 				"SLNHJ",
 				"3",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20722,7 +20722,7 @@ var armorArray = [
 				"SLNHY",
 				"4",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -20785,7 +20785,7 @@ var armorArray = [
 				"SLNHT",
 				"5",
 				"1",
-				"Pressure (Large) Invalid、Unscathed、Stamina Recovery Slowed-1",
+				"Windproof (Hi)、Unscathed、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -21478,7 +21478,7 @@ var armorArray = [
 				"DMDXTK",
 				"1",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21541,7 +21541,7 @@ var armorArray = [
 				"DMDXWJ",
 				"2",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21604,7 +21604,7 @@ var armorArray = [
 				"DMDXZJ",
 				"3",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21667,7 +21667,7 @@ var armorArray = [
 				"DMDXYJ",
 				"4",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21730,7 +21730,7 @@ var armorArray = [
 				"DMDXTJ",
 				"5",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21793,7 +21793,7 @@ var armorArray = [
 				"DMDXZM",
 				"1",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21856,7 +21856,7 @@ var armorArray = [
 				"DMDXHS",
 				"2",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21919,7 +21919,7 @@ var armorArray = [
 				"DMDXHJ",
 				"3",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -21982,7 +21982,7 @@ var armorArray = [
 				"DMDXHY",
 				"4",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -22045,7 +22045,7 @@ var armorArray = [
 				"DMDXHT",
 				"5",
 				"1",
-				"Defense Up(Small)、Pressure (Small) Invalid、Lightning Attack Down",
+				"Defense Up(Small)、Windproof (Lo)、Lightning Attack Down",
 				"Lv.40"
 			]
 		},
@@ -26518,7 +26518,7 @@ var armorArray = [
 				"ZDNTK",
 				"1",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26581,7 +26581,7 @@ var armorArray = [
 				"ZDNWJ",
 				"2",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26644,7 +26644,7 @@ var armorArray = [
 				"ZDNZJ",
 				"3",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26707,7 +26707,7 @@ var armorArray = [
 				"ZDNYJ",
 				"4",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26770,7 +26770,7 @@ var armorArray = [
 				"ZDNTJ",
 				"5",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26833,7 +26833,7 @@ var armorArray = [
 				"ZDNZM",
 				"1",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26896,7 +26896,7 @@ var armorArray = [
 				"ZDNHS",
 				"2",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -26959,7 +26959,7 @@ var armorArray = [
 				"ZDNHJ",
 				"3",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -27022,7 +27022,7 @@ var armorArray = [
 				"ZDNHY",
 				"4",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -27085,7 +27085,7 @@ var armorArray = [
 				"ZDNHT",
 				"5",
 				"1",
-				"Stun Immunity、Pressure (Small) Invalid、Stamina Recovery+1、Demonic Blessing",
+				"Stun Immunity、Windproof (Lo)、Stamina Recovery+1、Demonic Blessing",
 				"Lv.40"
 			]
 		},
@@ -27778,7 +27778,7 @@ var armorArray = [
 				"XSZWTK",
 				"1",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -27841,7 +27841,7 @@ var armorArray = [
 				"XSZWWJ",
 				"2",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -27904,7 +27904,7 @@ var armorArray = [
 				"XSZWZJ",
 				"3",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -27967,7 +27967,7 @@ var armorArray = [
 				"XSZWYJ",
 				"4",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28030,7 +28030,7 @@ var armorArray = [
 				"XSZWTJ",
 				"5",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28093,7 +28093,7 @@ var armorArray = [
 				"XSZWZM",
 				"1",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28156,7 +28156,7 @@ var armorArray = [
 				"XSZWHS",
 				"2",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28219,7 +28219,7 @@ var armorArray = [
 				"XSZWHJ",
 				"3",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28282,7 +28282,7 @@ var armorArray = [
 				"XSZWHY",
 				"4",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28345,7 +28345,7 @@ var armorArray = [
 				"XSZWHT",
 				"5",
 				"1",
-				"Ice Attack+1、Cold Resistant、Quake Tolerance、Stun Doubled",
+				"Ice Attack+1、Cold Cancel、Tremor Res、Stun Doubled",
 				"Lv.40"
 			]
 		},
@@ -28408,7 +28408,7 @@ var armorArray = [
 				"XLTK",
 				"1",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28471,7 +28471,7 @@ var armorArray = [
 				"XLWJ",
 				"2",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28534,7 +28534,7 @@ var armorArray = [
 				"XLZJ",
 				"3",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28597,7 +28597,7 @@ var armorArray = [
 				"XLYJ",
 				"4",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28660,7 +28660,7 @@ var armorArray = [
 				"XLTJ",
 				"5",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28723,7 +28723,7 @@ var armorArray = [
 				"XLZM",
 				"1",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28786,7 +28786,7 @@ var armorArray = [
 				"XLHS",
 				"2",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28849,7 +28849,7 @@ var armorArray = [
 				"XLHJ",
 				"3",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28912,7 +28912,7 @@ var armorArray = [
 				"XLHY",
 				"4",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -28975,7 +28975,7 @@ var armorArray = [
 				"XLHT",
 				"5",
 				"1",
-				"Butterfly Form、Concealment、Critical Eye-1",
+				"Butterfly Form、Sneak、Critical Eye-1",
 				"Lv.40"
 			]
 		},
@@ -29038,7 +29038,7 @@ var armorArray = [
 				"BSLWTK",
 				"1",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29101,7 +29101,7 @@ var armorArray = [
 				"BSLWWJ",
 				"2",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29164,7 +29164,7 @@ var armorArray = [
 				"BSLWZJ",
 				"3",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29227,7 +29227,7 @@ var armorArray = [
 				"BSLWYJ",
 				"4",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29290,7 +29290,7 @@ var armorArray = [
 				"BSLWTJ",
 				"5",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29353,7 +29353,7 @@ var armorArray = [
 				"BSLWZM",
 				"1",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29416,7 +29416,7 @@ var armorArray = [
 				"BSLWHS",
 				"2",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29479,7 +29479,7 @@ var armorArray = [
 				"BSLWHJ",
 				"3",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29542,7 +29542,7 @@ var armorArray = [
 				"BSLWHY",
 				"4",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -29605,7 +29605,7 @@ var armorArray = [
 				"BSLWHT",
 				"5",
 				"1",
-				"Negate Mud/Snow、Clairvoyance、Ice Defence Up+1、Fire Defense Down",
+				"Negate Mud/Snow、Psychic、Ice Defence Up+1、Fire Defense Down",
 				"Lv.40"
 			]
 		},
@@ -30928,7 +30928,7 @@ var armorArray = [
 				"ZGHLSTK",
 				"1",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -30991,7 +30991,7 @@ var armorArray = [
 				"ZGHLSWJ",
 				"2",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31054,7 +31054,7 @@ var armorArray = [
 				"ZGHLSZJ",
 				"3",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31117,7 +31117,7 @@ var armorArray = [
 				"ZGHLSYJ",
 				"4",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31180,7 +31180,7 @@ var armorArray = [
 				"ZGHLSTJ",
 				"5",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31243,7 +31243,7 @@ var armorArray = [
 				"ZGHLSZM",
 				"1",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31306,7 +31306,7 @@ var armorArray = [
 				"ZGHLSHS",
 				"2",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31369,7 +31369,7 @@ var armorArray = [
 				"ZGHLSHJ",
 				"3",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31432,7 +31432,7 @@ var armorArray = [
 				"ZGHLSHY",
 				"4",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -31495,7 +31495,7 @@ var armorArray = [
 				"ZGHLSHT",
 				"5",
 				"0",
-				"Tenacity、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
+				"Fortify、Guts、Rec Speed+1、Stamina Recovery Slowed-1",
 				"Lv.40"
 			]
 		},
@@ -35968,7 +35968,7 @@ var armorArray = [
 				"CHLTK",
 				"1",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36031,7 +36031,7 @@ var armorArray = [
 				"CHLWJ",
 				"2",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36094,7 +36094,7 @@ var armorArray = [
 				"CHLZJ",
 				"3",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36157,7 +36157,7 @@ var armorArray = [
 				"CHLYJ",
 				"4",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36220,7 +36220,7 @@ var armorArray = [
 				"CHLTJ",
 				"5",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36283,7 +36283,7 @@ var armorArray = [
 				"CHLZM",
 				"1",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36346,7 +36346,7 @@ var armorArray = [
 				"CHLHS",
 				"2",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36409,7 +36409,7 @@ var armorArray = [
 				"CHLHJ",
 				"3",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36472,7 +36472,7 @@ var armorArray = [
 				"CHLHY",
 				"4",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36535,7 +36535,7 @@ var armorArray = [
 				"CHLHT",
 				"5",
 				"0",
-				"Halve Poison、HP Up+2、Clairvoyance",
+				"Halve Poison、HP Up+2、Psychic",
 				"Lv.40"
 			]
 		},
@@ -36913,7 +36913,7 @@ var armorArray = [
 				"PEHLNZM",
 				"1",
 				"0",
-				"Earplugs、Abnormal Status Attack+1、Reaction Mitigation+1、Rec Speed-1",
+				"Earplugs、Abnormal Status Attack+1、Recoil Down+1、Rec Speed-1",
 				"Lv.40"
 			]
 		},
@@ -36976,7 +36976,7 @@ var armorArray = [
 				"PEHLNHS",
 				"2",
 				"0",
-				"Earplugs、Abnormal Status Attack+1、Reaction Mitigation+1、Rec Speed-1",
+				"Earplugs、Abnormal Status Attack+1、Recoil Down+1、Rec Speed-1",
 				"Lv.40"
 			]
 		},
@@ -37039,7 +37039,7 @@ var armorArray = [
 				"PEHLNHJ",
 				"3",
 				"0",
-				"Earplugs、Abnormal Status Attack+1、Reaction Mitigation+1、Rec Speed-1",
+				"Earplugs、Abnormal Status Attack+1、Recoil Down+1、Rec Speed-1",
 				"Lv.40"
 			]
 		},
@@ -37102,7 +37102,7 @@ var armorArray = [
 				"PEHLNHY",
 				"4",
 				"0",
-				"Earplugs、Abnormal Status Attack+1、Reaction Mitigation+1、Rec Speed-1",
+				"Earplugs、Abnormal Status Attack+1、Recoil Down+1、Rec Speed-1",
 				"Lv.40"
 			]
 		},
@@ -37165,7 +37165,7 @@ var armorArray = [
 				"PEHLNHT",
 				"5",
 				"0",
-				"Earplugs、Abnormal Status Attack+1、Reaction Mitigation+1、Rec Speed-1",
+				"Earplugs、Abnormal Status Attack+1、Recoil Down+1、Rec Speed-1",
 				"Lv.40"
 			]
 		},
@@ -37228,7 +37228,7 @@ var armorArray = [
 				"DRYJLTK",
 				"1",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37291,7 +37291,7 @@ var armorArray = [
 				"DRYJLWJ",
 				"2",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37354,7 +37354,7 @@ var armorArray = [
 				"DRYJLZJ",
 				"3",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37417,7 +37417,7 @@ var armorArray = [
 				"DRYJLYJ",
 				"4",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37480,7 +37480,7 @@ var armorArray = [
 				"DRYJLTJ",
 				"5",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37543,7 +37543,7 @@ var armorArray = [
 				"DRYJLZM",
 				"1",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37606,7 +37606,7 @@ var armorArray = [
 				"DRYJLHS",
 				"2",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37669,7 +37669,7 @@ var armorArray = [
 				"DRYJLHJ",
 				"3",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37732,7 +37732,7 @@ var armorArray = [
 				"DRYJLHY",
 				"4",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -37795,7 +37795,7 @@ var armorArray = [
 				"DRYJLHT",
 				"5",
 				"0",
-				"Constitution+1、Weakness Exploit、Provoke",
+				"Constitution+1、Weakness Exploit、Taunt",
 				"Lv.40"
 			]
 		},
@@ -39118,7 +39118,7 @@ var armorArray = [
 				"",
 				"1",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39181,7 +39181,7 @@ var armorArray = [
 				"",
 				"2",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39244,7 +39244,7 @@ var armorArray = [
 				"",
 				"3",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39307,7 +39307,7 @@ var armorArray = [
 				"",
 				"4",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39370,7 +39370,7 @@ var armorArray = [
 				"",
 				"5",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39433,7 +39433,7 @@ var armorArray = [
 				"",
 				"1",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39496,7 +39496,7 @@ var armorArray = [
 				"",
 				"2",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39559,7 +39559,7 @@ var armorArray = [
 				"",
 				"3",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39622,7 +39622,7 @@ var armorArray = [
 				"",
 				"4",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -39685,7 +39685,7 @@ var armorArray = [
 				"",
 				"5",
 				"0",
-				"Quake Tolerance、Guts、Water Attack Up+1、Slow Eating",
+				"Tremor Res、Guts、Water Attack Up+1、Slow Eating",
 				"Lv.40"
 			]
 		},
@@ -41953,7 +41953,7 @@ var armorArray = [
 				"",
 				"1",
 				"0",
-				"Rec Speed+2、Razpr Sharp、Challenger+2、Thorn Invalid、Stamina Rec Speed-6",
+				"Rec Speed+2、Razor Sharp、Challenger+2、Thorn Invalid、Stamina Rec Speed-6",
 				"Lv.40"
 			]
 		},

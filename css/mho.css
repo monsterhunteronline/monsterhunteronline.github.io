@@ -25,7 +25,7 @@ body {
 	z-index: 5 !important;
 }
 .headerspace {
-	height: 87px;
+	height: 150px;
 }
 .topright {
 	position: fixed;
@@ -38,6 +38,13 @@ body {
 img {
 	width: 100%;
 	height: auto;
+}
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
+div.border_bottom{
+  border-bottom:1pt solid black;
+  border-bottom-style: solid;
 }
 .monsters {
 	height: 270px;
@@ -122,6 +129,10 @@ img {
 	display:block;
 	margin:0px auto;
 }
+#footer {
+	height: 200px !important;
+	overflow-y: hidden;
+}
 .forgeicon {
     display:inline-block;
     position:absolute;
@@ -193,6 +204,12 @@ img {
 }
 .type1 {
 	color:#5cbcfe;
+}
+.typeB {
+	background-color:#8aff2b;
+}
+.typeG {
+	background-color:#5cbcfe;
 }
 .matpiccell {
 	width:40px;
@@ -273,6 +290,7 @@ table.innertable td {
 	width:200px;
 	display:none;
 	z-index:5;
+	text-align:left;
 }
 .info td {
 	padding-left:5px !important;
@@ -338,6 +356,21 @@ table.innertable td {
 .skill-5 {
 	color:red !important;
 }
+.plus-1 {
+	display: none;
+}
+.plus-2 {
+	display: none;
+}
+.plus-3 {
+	display: none;
+}
+.plus-4 {
+	display: none;
+}
+.plus-5 {
+	display: none;
+}
 .white {
 	color:#ffffff;
 }
@@ -351,4 +384,137 @@ hr {
 	margin:0 auto;
 	width:100%;
 	height:1px;
+}
+.Lv40 {
+	display:none !important;
+}
+#helmet_button {
+	width: 51px;
+	height: 50px;
+	background:url(../images/simulator/simu-groove-9.gif) no-repeat;border:none;
+}
+#vambraces_button {
+	width: 51px;
+	height: 50px;
+	background:url(../images/simulator/simu-groove-7.gif) no-repeat;border:none;
+}
+#armor_button {
+	width: 51px;
+	height: 50px;
+	background:url(../images/simulator/simu-groove-8.gif) no-repeat;border:none;
+}
+#waist_button {
+	width: 51px;
+	height: 50px;
+	background:url(../images/simulator/simu-groove-6.gif) no-repeat;border:none;
+}
+#greaves_button {
+	width: 51px;
+	height: 50px;
+	background:url(../images/simulator/simu-groove-5.gif) no-repeat;border:none;
+}
+.armorimage {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 9px;
+	left: 9px;
+}
+.buttons {
+	width: 200px;
+	height: 300px;
+}
+.search {
+	width:700px;
+	height: 50px;
+}
+.results {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+#simulator {
+	width: 100%;
+}
+.containerright {
+	display: inline-block;
+}
+#simtable {
+	width: 1200px;
+	margin: 0 auto;
+}
+.img-skill {
+	width: 16px;
+	height: 16px;
+}
+.skilltable {
+	width: 1000px;
+	margin: 0 auto;
+}
+.button {
+	cursor:pointer;
+}
+.infosection {
+	display:none;
+}
+.infocontainer {
+	display: inline-block;
+	vertical-align: middle;
+}
+#helmet_button {
+	vertical-align: middle;
+}
+#vambraces_button {
+	vertical-align: middle;
+}
+#armor_button {
+	vertical-align: middle;
+}
+#waist_button {
+	vertical-align: middle;
+}
+#greaves_button {
+	vertical-align: middle;
+}
+.helmettable {
+	width: 100%;
+	margin: 0px auto;
+}
+.helmettable td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.vambracestable {
+	width: 100%;
+	margin: 0px auto;
+}
+.vambracestable td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.armortable {
+	width: 100%;
+	margin: 0px auto;
+}
+.armortable td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.waisttable {
+	width: 100%;
+	margin: 0px auto;
+}
+.waisttable td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.greavestable {
+	width: 100%;
+	margin: 0px auto;
+}
+.greavestable td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.info12 {
+	width: 100%;
 }

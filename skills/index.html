@@ -1,0 +1,521 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../json/navigation.json"></script>
+<script src="../json/armor.json"></script>
+<script src="../json/material.json"></script>
+<script src="../json/other.json"></script>
+<script src="../js/mho.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" type="text/css" href="../css/mho.css">
+<title>MHO FAQ-Skills</title>
+</head>
+
+<body onload="navbarContent(); footerContent()">
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+	<div class="w3-container w3-left w3-main" style="margin-left:200px">
+	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+	Skills</h1>
+	</div>
+	<div class="w3-container w3-right w3-hide-small">
+	<img src="../images/logo.png">
+	</div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
+
+
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">力</div>
+<div class="w3-col s6 m2 l2">Eating</div>
+<div class="w3-col s11 m7 l7">+10: 速食-Speed Eating (Items consumed faster.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 慢食-Slow Eating (Items consumed slower.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">千里眼</div>
+<div class="w3-col s6 m2 l2">Psychic</div>
+<div class="w3-col s11 m7 l7">+10: 探知-Detection (Adds paintball effect on all large monsters.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+15: 自动标记-Psychic (Adds paintball effect on all large monsters and tells you when they can be captured.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">逆境</div>
+<div class="w3-col s6 m2 l2">Survivor</div>
+<div class="w3-col s11 m7 l7">+10: 不屈-Tenacity (Upon death increases attack and defense, up to 2 times.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">攻击</div>
+<div class="w3-col s6 m2 l2">Attack</div>
+<div class="w3-col s11 m7 l7">+10: 攻击力提升·小-Attack +1 (Attack up small.) (+3 Attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+15: 攻击力提升·中-Attack +2 (Attack up medium.) (+6 Attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+20: 攻击力提升·大-Attack +3 (Attack up large.) (+10 Attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+25: 攻击力提升·超-Attack +4 (Attack up extra large.) (+15 Attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+30: 攻击力提升·极-Attack +5 (Attack up massive.) (+21 Attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 攻击力降低·小-Attack -1 (Attack down small.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-15: 攻击力降低·中-Attack -2 (Attack down medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-20: 攻击力降低·大-Attack -3 (Attack down large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-25: 攻击力降低·超-Attack -4 (Attack down extra large.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">观察眼</div>
+<div class="w3-col s6 m2 l2">Perception</div>
+<div class="w3-col s11 m7 l7">+10: 观察眼-Perception (Shows when paintballed monsters can be captured.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">耐力回复</div>
+<div class="w3-col s6 m2 l2">Stam Recov</div>
+<div class="w3-col s11 m7 l7">+10: 耐力回复+1-Stamina Recovery +1 (Increases stamina recovery rate.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+15: 耐力回复+2-Stamina Recovery +2 (Greatly increases stamina recovery rate.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+20: 耐力回复+3-Stamina Recovery +3 (Massively increases stamina recovery rate.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 耐力回复-1-Stamina Recovery -1 (Decreases stamina recovery rate.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-15: 耐力回复-2-Stamina Recover -2 (Greatly decreases stamina recovery rate.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">痛击</div>
+<div class="w3-col s6 m2 l2">Tenderizer</div>
+<div class="w3-col s11 m7 l7">+10: 弱点特效-Weakness Exploit (Increases damage when you hit weak points.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">体力</div>
+<div class="w3-col s6 m2 l2">Vitality</div>
+<div class="w3-col s11 m7 l7">+10: 体力强化+1-Health +1 (HP up small.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+15: 体力强化+2-Health +2 (HP up medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+20: 体力强化+3-Health +3 (HP up large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+25: 体力强化+4-Health +4 (HP up extra large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+30: 体力强化+5-Health +5 (HP up massive.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 体力强化-1-Health -1 (HP down small.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-15: 体力强化-2-Health -2 (HP down medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-20: 体力强化-3-Health -3 (HP down large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-25: 体力强化-4-Health -4 (HP down extra large.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">回复速度</div>
+<div class="w3-col s6 m2 l2">Rec Speed</div>
+<div class="w3-col s11 m7 l7">+10: 回复速度+1-Rec Speed +1 (Increases rate at which red HP returns to green HP.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+15: 回复速度+2-Rec Speed +2 (Recovery speed up medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">+20: 回复速度+3-Rec Speed +3 (Recovery speed up large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 回复速度-1-Rec Speed -1 (Recovery speed down small.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-15: 回复速度-2-Rec Speed -2 (Recovery speed down medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-20: 回复速度-3-Rec Speed -3 (Recovery speed down large.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">高速设置</div>
+<div class="w3-col s6 m2 l2">Speed Setup</div>
+<div class="w3-col s11 m7 l7">+10: Trap Master (Increases trap placing speed.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">属性攻击</div>
+<div class="w3-col s6 m2 l2">Element Attack</div>
+<div class="w3-col s11 m7 l7">10: 全属攻强化+1-Element +1 (Increases all elemental damage, e.g.: -fire, water, ice, electric, dragon.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 全属攻强化+2-Element +2 (Element up medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 全属攻强化+3-Element +3 (Element up large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 全属攻弱化-Element -1 (Element down.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">麻痹抵抗</div>
+<div class="w3-col s6 m2 l2">Paralysis</div>
+<div class="w3-col s11 m7 l7">10: 麻痹免疫-Paralysis Immunity (Immune to paralysis.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 麻痹倍化-Double Paralysis (Paralysis duration doubled.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">特殊攻击</div>
+<div class="w3-col s6 m2 l2">Status</div>
+<div class="w3-col s11 m7 l7">10: 状态异常攻击+1-Abnormal Status Attack +1 (Increases all status damage, e.g.:paralysis, poison, sleep.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 状态异常攻击+2-Abnormal Status Attack+2 (Status up medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 状态异常攻击+3-Abnormal Status Attack+3 (Status up large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 状态异常攻击-1-Abnormal Status Attack-1 (Status down.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">耐力消耗</div>
+<div class="w3-col s6 m2 l2">Stamina Consumption</div>
+<div class="w3-col s11 m7 l7">10: 飞人+1-Wind Runner +1 (Decreases stamina consumption.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 飞人+2-Wind Runner +2 (Greatly decreases stamina consumption.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 钝足-Bad Foot (Increases stamina consumption.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">达人</div>
+<div class="w3-col s6 m2 l2">Expert</div>
+<div class="w3-col s11 m7 l7">10: 见切+1-Critical Eye +1 (Critical rate up small.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 见切+2-Critical Eye +2 (Critical rate up medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 见切+3-Critical Eye +3 (Critical rate up large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">25: 见切+4-Critical Eye +4 (Critical rate up extra large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">30: 见切+5-Critical Eye +5 (Critical rate up massive.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 见切-1-Critical Eye -1 (Critical rate down small.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-15: 见切-2-Critical Eye -2 (Critical rate down medium.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-20: 见切-3-Critical Eye -3 (Critical rate down large.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-25: 见切-4-Critical Eye -4 (Critical rate down extra large.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">抗菌</div>
+<div class="w3-col s6 m2 l2">Anti-bacterial</div>
+<div class="w3-col s11 m7 l7">10: 耐菌-Germ Tolerance (Immune to odour.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">气绝抵抗</div>
+<div class="w3-col s6 m2 l2">Stun</div>
+<div class="w3-col s11 m7 l7">10: 气绝减半-Stun Halved (Halves stun duration.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 气绝免疫-Stun Immunity (Immunity to stun.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 气绝倍化-Stun Doubled (Doubles stun duration.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">重击</div>
+<div class="w3-col s6 m2 l2">Destroyer</div>
+<div class="w3-col s11 m7 l7">10: 破坏王-Destruction King (Increases breaking damage.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">10: 破坏神-Destruction God (Greatly increases breaking damage.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">底力</div>
+<div class="w3-col s6 m2 l2">Potential</div>
+<div class="w3-col s11 m7 l7">10: 火事场力+1-Adrenaline +1 (When HP is low, increases defense.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 火事场力+2-Adrenaline +2 (When HP is low, increases defense and attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 火事场力+3-Adrenaline +3 (When HP is low, greatly increases defense and attack.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 不安-Worrywart (When HP is low, decreases defense and attack.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">震地减轻</div>
+<div class="w3-col s6 m2 l2">Tremor Res</div>
+<div class="w3-col s11 m7 l7">10: 耐震-Quake Tolerance (Immunity to quakes.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">加护</div>
+<div class="w3-col s6 m2 l2">Protection</div>
+<div class="w3-col s11 m7 l7">10: 精灵的守护-Divine Protection (Gives a chance to reduce damage taken.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">10: 精灵王的加护-Grand Divine Protection (Gives a high chance to reduce damage taken.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 恶灵的守护-Demonic Protection (Gives a chance to increase damage taken.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-15: 恶灵王的加护-Grand Demonic Protection (Gives a high chance to increase damage taken.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">饥饿感</div>
+<div class="w3-col s6 m2 l2">Hunger</div>
+<div class="w3-col s11 m7 l7">10: 饥饿感减半-Hunger Halved (Decreases the rate at which your max stamina drops.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 饱腹-Full Belly (Your max stamina never drops.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 饥饿感增加-Hunger Increased (Increases the rate at which your max stamina drops.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">荷尔蒙</div>
+<div class="w3-col s6 m2 l2">Hormone</div>
+<div class="w3-col s11 m7 l7">10: 吸引-Attraction (When there are members of the opposite sex in your party, your attack increases.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">斗魂</div>
+<div class="w3-col s6 m2 l2">Spirit</div>
+<div class="w3-col s11 m7 l7">10: 挑战者-Challenger (When monsters are angry, increases your attack.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">风压抵抗</div>
+<div class="w3-col s6 m2 l2">Wind Res</div>
+<div class="w3-col s11 m7 l7">10: 风压小无效-Negate Small Wind Pressure (Immunity to small wind pressure.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 风压大无效-Negate Large Wind Pressure (Immunity to small and large wind pressure.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 龙风压无效-Negate Dragon Wind Pressure (Immunity to small, large, and elder dragon’s dragon wind pressure.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">会心术</div>
+<div class="w3-col s6 m2 l2">Knowing Technique</div>
+<div class="w3-col s11 m7 l7">10: 暴击-Violent Strike (After not dealing a critical strike for a while, your next attack will do critical damage.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">广域化</div>
+<div class="w3-col s6 m2 l2">Wide-range</div>
+<div class="w3-col s11 m7 l7">10: 广域化+1-Wide-range +1 (A portion of your healing potions’ effects are transferred to teammates within a small range.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 广域化+2-Wide-range +2 (A large portion of your healing potions’ effects are transferred to teammates in the same area.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">20: 广域化+3-Wide-range +3 (A large portion of your healing potions’ and meat’s effects are transferred to teammates in the same area.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">锋利度</div>
+<div class="w3-col s6 m2 l2">Sharpness</div>
+<div class="w3-col s11 m7 l7">10: 业物-Razor Sharp (Reduces the rate of your sharpness consumption.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">15: 无锋-Edgeless (Greatly reduces the rate of your sharpness consumption.)</div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7">-10: 钝刀-Blunt Edge (Increases the rate of your sharpness consumption.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">孤注一掷</div>
+<div class="w3-col s6 m2 l2">High Stakes</div>
+<div class="w3-col s11 m7 l7">10: 卸甲-Shed Armor (At high HP values, your attack is increased and your defense is decreased.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">猎人生活</div>
+<div class="w3-col s6 m2 l2">Hunter Life</div>
+<div class="w3-col s11 m7 l7">10: 野外生存-Wilderness Survival (Increases movement speed when carrying eggs, and immunity to theft.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">气候</div>
+<div class="w3-col s6 m2 l2">Climate</div>
+<div class="w3-col s11 m7 l7">10: 气候适应-Climate Adaptation (Immunity to weather effects e.g.: -heat and cold.)</div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2">防御</div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+<div class="w3-row border_bottom w3-large">
+<div class="w3-col s1 m1 l1">&nbsp;</div>
+<div class="w3-col s5 m2 l2"></div>
+<div class="w3-col s6 m2 l2"></div>
+<div class="w3-col s11 m7 l7"></div>
+<div class="w3-col w3-hide-small m5 l5">&nbsp;</div>
+<div class="w3-col s11 m7 l7"></div>
+</div>
+
+
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
+</div>
+</body>
+</html> 
