@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -627,7 +627,7 @@
         $greavesSkill5=$row['skill5'];
         $greavesSkill5Num=$row['skill5_num'];
     }
-error_reporting(0);
+error_reporting(1);
 $myArray = array(
     0 => array(
         $helmetSkill1 => $helmetSkill1Num,
@@ -682,6 +682,8 @@ $armorArray = $myArray[2];
 $waistArray = $myArray[3];
 $greavesArray = $myArray[4];
 
+
+
 echo "<table><tr><td>Skill Name</td><td>Helmet</td><td>Vambraces</td><td>Armor</td><td>Waist</td><td>Greaves</td><td>Total</td><td>Activated</td></tr>".
 "<tr class='noskill".$sumArray['Ambush']."'><td>Ambush</td><td>".$helmetArray['Ambush']."</td><td>".$vambracesArray['Ambush']."</td><td>".$armorArray['Ambush']."</td><td>".$waistArray['Ambush']."</td><td>".$greavesArray['Ambush']."</td><td>".$sumArray['Ambush']."</td></tr>".
 "<tr class='noskill".$sumArray['Anti-bacterial']."'><td>Anti-bacterial</td><td>".$helmetArray['Anti-bacterial']."</td><td>".$vambracesArray['Anti-bacterial']."</td><td>".$armorArray['Anti-bacterial']."</td><td>".$waistArray['Anti-bacterial']."</td><td>".$greavesArray['Anti-bacterial']."</td><td>".$sumArray['Anti-bacterial']."</td></tr>".
@@ -692,7 +694,6 @@ echo "<table><tr><td>Skill Name</td><td>Helmet</td><td>Vambraces</td><td>Armor</
 "<tr class='noskill".$sumArray['Craftsman']."'><td>Craftsman</td><td>".$helmetArray['Craftsman']."</td><td>".$vambracesArray['Craftsman']."</td><td>".$armorArray['Craftsman']."</td><td>".$waistArray['Craftsman']."</td><td>".$greavesArray['Craftsman']."</td><td>".$sumArray['Craftsman']."</td></tr>".
 "<tr class='noskill".$sumArray['Crit Draw']."'><td>Crit Draw</td><td>".$helmetArray['Crit Draw']."</td><td>".$vambracesArray['Crit Draw']."</td><td>".$armorArray['Crit Draw']."</td><td>".$waistArray['Crit Draw']."</td><td>".$greavesArray['Crit Draw']."</td><td>".$sumArray['Crit Draw']."</td></tr>".
 "<tr class='noskill".$sumArray['Defense']."'><td>Defense</td><td>".$helmetArray['Defense']."</td><td>".$vambracesArray['Defense']."</td><td>".$armorArray['Defense']."</td><td>".$waistArray['Defense']."</td><td>".$greavesArray['Defense']."</td><td>".$sumArray['Defense']."</td></tr>".
-"<tr class='noskill".$sumArray['Defense Up']."'><td>Defense Up</td><td>".$helmetArray['Defense Up']."</td><td>".$vambracesArray['Defense Up']."</td><td>".$armorArray['Defense Up']."</td><td>".$waistArray['Defense Up']."</td><td>".$greavesArray['Defense Up']."</td><td>".$sumArray['Defense Up']."</td></tr>".
 "<tr class='noskill".$sumArray['Destroyer']."'><td>Destroyer</td><td>".$helmetArray['Destroyer']."</td><td>".$vambracesArray['Destroyer']."</td><td>".$armorArray['Destroyer']."</td><td>".$waistArray['Destroyer']."</td><td>".$greavesArray['Destroyer']."</td><td>".$sumArray['Destroyer']."</td></tr>".
 "<tr class='noskill".$sumArray['Dragon Atk']."'><td>Dragon Atk</td><td>".$helmetArray['Dragon Atk']."</td><td>".$vambracesArray['Dragon Atk']."</td><td>".$armorArray['Dragon Atk']."</td><td>".$waistArray['Dragon Atk']."</td><td>".$greavesArray['Dragon Atk']."</td><td>".$sumArray['Dragon Atk']."</td></tr>".
 "<tr class='noskill".$sumArray['Eating']."'><td>Eating</td><td>".$helmetArray['Eating']."</td><td>".$vambracesArray['Eating']."</td><td>".$armorArray['Eating']."</td><td>".$waistArray['Eating']."</td><td>".$greavesArray['Eating']."</td><td>".$sumArray['Eating']."</td></tr>".
@@ -705,6 +706,7 @@ echo "<table><tr><td>Skill Name</td><td>Helmet</td><td>Vambraces</td><td>Armor</
 "<tr class='noskill".$sumArray['Fire Res']."'><td>Fire Res</td><td>".$helmetArray['Fire Res']."</td><td>".$vambracesArray['Fire Res']."</td><td>".$armorArray['Fire Res']."</td><td>".$waistArray['Fire Res']."</td><td>".$greavesArray['Fire Res']."</td><td>".$sumArray['Fire Res']."</td></tr>".
 "<tr class='noskill".$sumArray['Gluttony']."'><td>Gluttony</td><td>".$helmetArray['Gluttony']."</td><td>".$vambracesArray['Gluttony']."</td><td>".$armorArray['Gluttony']."</td><td>".$waistArray['Gluttony']."</td><td>".$greavesArray['Gluttony']."</td><td>".$sumArray['Gluttony']."</td></tr>".
 "<tr class='noskill".$sumArray['Guard']."'><td>Guard</td><td>".$helmetArray['Guard']."</td><td>".$vambracesArray['Guard']."</td><td>".$armorArray['Guard']."</td><td>".$waistArray['Guard']."</td><td>".$greavesArray['Guard']."</td><td>".$sumArray['Guard']."</td></tr>".
+"<tr class='noskill".$sumArray['Guard Up']."'><td>Guard Up</td><td>".$helmetArray['Guard Up']."</td><td>".$vambracesArray['Guard Up']."</td><td>".$armorArray['Guard Up']."</td><td>".$waistArray['Guard Up']."</td><td>".$greavesArray['Guard Up']."</td><td>".$sumArray['Guard Up']."</td></tr>".
 "<tr class='noskill".$sumArray['Guts']."'><td>Guts</td><td>".$helmetArray['Guts']."</td><td>".$vambracesArray['Guts']."</td><td>".$armorArray['Guts']."</td><td>".$waistArray['Guts']."</td><td>".$greavesArray['Guts']."</td><td>".$sumArray['Guts']."</td></tr>".
 "<tr class='noskill".$sumArray['Health']."'><td>Health</td><td>".$helmetArray['Health']."</td><td>".$vambracesArray['Health']."</td><td>".$armorArray['Health']."</td><td>".$waistArray['Health']."</td><td>".$greavesArray['Health']."</td><td>".$sumArray['Health']."</td></tr>".
 "<tr class='noskill".$sumArray['Hearing']."'><td>Hearing</td><td>".$helmetArray['Hearing']."</td><td>".$vambracesArray['Hearing']."</td><td>".$armorArray['Hearing']."</td><td>".$waistArray['Hearing']."</td><td>".$greavesArray['Hearing']."</td><td>".$sumArray['Hearing']."</td></tr>".
@@ -719,7 +721,7 @@ echo "<table><tr><td>Skill Name</td><td>Helmet</td><td>Vambraces</td><td>Armor</
 "<tr class='noskill".$sumArray['Loading']."'><td>Loading</td><td>".$helmetArray['Loading']."</td><td>".$vambracesArray['Loading']."</td><td>".$armorArray['Loading']."</td><td>".$waistArray['Loading']."</td><td>".$greavesArray['Loading']."</td><td>".$sumArray['Loading']."</td></tr>".
 "<tr class='noskill".$sumArray['Mud/Snow']."'><td>Mud/Snow</td><td>".$helmetArray['Mud/Snow']."</td><td>".$vambracesArray['Mud/Snow']."</td><td>".$armorArray['Mud/Snow']."</td><td>".$waistArray['Mud/Snow']."</td><td>".$greavesArray['Mud/Snow']."</td><td>".$sumArray['Mud/Snow']."</td></tr>".
 "<tr class='noskill".$sumArray['Normal Up']."'><td>Normal Up</td><td>".$helmetArray['Normal Up']."</td><td>".$vambracesArray['Normal Up']."</td><td>".$armorArray['Normal Up']."</td><td>".$waistArray['Normal Up']."</td><td>".$greavesArray['Normal Up']."</td><td>".$sumArray['Normal Up']."</td></tr>".
-"<tr class='noskill".$sumArray['Paralysis Res']."'><td>Paralysis Res</td><td>".$helmetArray['Paralysis Res']."</td><td>".$vambracesArray['Paralysis Res']."</td><td>".$armorArray['Paralysis Res']."</td><td>".$waistArray['Paralysis Res']."</td><td>".$greavesArray['Paralysis Res']."</td><td>".$sumArray['Paralysis Res']."</td></tr>".
+"<tr class='noskill".$sumArray['Paralysis']."'><td>Paralysis</td><td>".$helmetArray['Paralysis']."</td><td>".$vambracesArray['Paralysis']."</td><td>".$armorArray['Paralysis']."</td><td>".$waistArray['Paralysis']."</td><td>".$greavesArray['Paralysis']."</td><td>".$sumArray['Paralysis']."</td></tr>".
 "<tr class='noskill".$sumArray['Pellet Up']."'><td>Pellet Up</td><td>".$helmetArray['Pellet Up']."</td><td>".$vambracesArray['Pellet Up']."</td><td>".$armorArray['Pellet Up']."</td><td>".$waistArray['Pellet Up']."</td><td>".$greavesArray['Pellet Up']."</td><td>".$sumArray['Pellet Up']."</td></tr>".
 "<tr class='noskill".$sumArray['Perception']."'><td>Perception</td><td>".$helmetArray['Perception']."</td><td>".$vambracesArray['Perception']."</td><td>".$armorArray['Perception']."</td><td>".$waistArray['Perception']."</td><td>".$greavesArray['Perception']."</td><td>".$sumArray['Perception']."</td></tr>".
 "<tr class='noskill".$sumArray['Pierce Up']."'><td>Pierce Up</td><td>".$helmetArray['Pierce Up']."</td><td>".$vambracesArray['Pierce Up']."</td><td>".$armorArray['Pierce Up']."</td><td>".$waistArray['Pierce Up']."</td><td>".$greavesArray['Pierce Up']."</td><td>".$sumArray['Pierce Up']."</td></tr>".
