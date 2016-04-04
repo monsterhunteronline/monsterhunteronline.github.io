@@ -691,619 +691,619 @@ if ($sumArray['Ambush']>=15) {
 }
 $Antibacterial = "";
 if ($sumArray['Anti-bacterial']>=10) {
-    $Ambush = "Bacteria Cancel";
+    $Antibacterial = "Bacteria Cancel";
 }
 $Attack = "";
 if ($sumArray['Attack']>=10) {
-    $Ambush = "Attack Up (S)";
+    $Attack = "Attack Up (S)";
 }
 if ($sumArray['Attack']>=15) {
-    $Ambush = "Attack Up (M)";
+    $Attack = "Attack Up (M)";
 }
 if ($sumArray['Attack']>=20) {
-    $Ambush = "Attack Up (L)";
+    $Attack = "Attack Up (L)";
 }
 if ($sumArray['Attack']>=25) {
-    $Ambush = "Attack Up (XL)";
+    $Attack = "Attack Up (XL)";
 }
 if ($sumArray['Attack']>=30) {
-    $Ambush = "Attack Up (XXL)";
+    $Attack = "Attack Up (XXL)";
 }
 if ($sumArray['Attack']<=-10) {
-    $Ambush = "Attack Down (S)";
+    $Attack = "Attack Down (S)";
 }
 if ($sumArray['Attack']<=-15) {
-    $Ambush = "Attack Down (M)";
+    $Attack = "Attack Down (M)";
 }
 if ($sumArray['Attack']<=-20) {
-    $Ambush = "Attack Down (L)";
+    $Attack = "Attack Down (L)";
 }
 if ($sumArray['Attack']<=-25) {
-    $Ambush = "Attack Down (XL)";
+    $Attack = "Attack Down (XL)";
 }
 $Butterfly = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Butterfly Dance']>=10) {
+    $Butterfly = "Butterfly Form";
 }
 $Cold = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Cold Res']>=10) {
+    $Cold = "Cold Cancel";
 }
 $Constitution = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Constitution']>=10) {
+    $Constitution = "Constitution +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Constitution']>=15) {
+    $Constitution = "Constitution +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Constitution']>=20) {
+    $Constitution = "Constitution +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Constitution']<=-10) {
+    $Constitution = "Constitution -1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Constitution']<=-15) {
+    $Constitution = "Constitution -2";
 }
 $Craftsman = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Craftsman']>=10) {
+    $Craftsman = "Sharpness +1";
 }
 $Crit = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Crit Draw']>=10) {
+    $Crit = "Critical Draw";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Crit Draw']>=15) {
+    $Crit = "Critical Draw Max";
 }
 $Defense = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']>=10) {
+    $Defense = "Defense Up (S)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']>=15) {
+    $Defense = "Defense Up (M)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']>=20) {
+    $Defense = "Defense Up (L)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']>=25) {
+    $Defense = "Defense Up (XL)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']>=30) {
+    $Defense = "Defense Up (XXL)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']<=-10) {
+    $Defense = "Defense Down (S)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']<=-15) {
+    $Defense = "Defense Down (M)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']<=-20) {
+    $Defense = "Defense Down (L)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Defense']<=-25) {
+    $Defense = "Defense Down (XL)";
 }
 $Destroyer = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Destroyer']>=10) {
+    $Destroyer = "Partbreaker";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Destroyer']>=15) {
+    $Destroyer = "Destruction God";
 }
 $Dragon = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Dragon Atk']>=10) {
+    $Dragon = "Dragon Atk +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Dragon Atk']>=15) {
+    $Dragon = "Dragon Atk +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Dragon Atk']>=20) {
+    $Dragon = "Dragon Atk +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Dragon Atk']<=-10) {
+    $Dragon = "Dragon Atk Down";
 }
 $Eating = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Eating']>=10) {
+    $Eating = "Speed Eating";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Eating']<=-10) {
+    $Eating = "Slow Eater";
 }
 $Evade = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Evade Dist']>=10) {
+    $Evade = "Evade Dist +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Evade Dist']>=15) {
+    $Evade = "Evade Dist +2";
 }
 $Evasion = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Evasion']>=10) {
+    $Evasion = "Evasion +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Evasion']>=15) {
+    $Evasion = "Evasion +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Evasion']>=20) {
+    $Evasion = "Evasion +3";
 }
 $Expert = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']>=10) {
+    $Expert = "Critical Eye +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']>=15) {
+    $Expert = "Critical Eye +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']>=20) {
+    $Expert = "Critical Eye +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']>=25) {
+    $Expert = "Critical Eye +4";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']>=30) {
+    $Expert = "Critical Eye +5";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']<=-10) {
+    $Expert = "Critical Eye -1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']<=-15) {
+    $Expert = "Critical Eye -2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']<=-20) {
+    $Expert = "Critical Eye -3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Expert']<=-25) {
+    $Expert = "Critical Eye -4";
 }
 $FastCharge = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['FastCharge']>=10) {
+    $FastCharge = "Concentrate";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['FastCharge']>=15) {
+    $FastCharge = "Focus";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['FastCharge']>=20) {
+    $FastCharge = "Attentive";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['FastCharge']<=-10) {
+    $FastCharge = "Distraction";
 }
 $Fencing = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fencing']>=10) {
+    $Fencing = "Mind's Eye";
 }
 $FireAtk = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Atk']>=10) {
+    $FireAtk = "Fire Atk +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Atk']>=15) {
+    $FireAtk = "Fire Atk +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Atk']>=20) {
+    $FireAtk = "Fire Atk +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Atk']<=-10) {
+    $FireAtk = "Fire Atk Down";
 }
 $FireRes = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Res']>=10) {
+    $FireRes = "Fire Res +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Res']>=15) {
+    $FireRes = "Fire Res +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Res']>=20) {
+    $FireRes = "Fire Res +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Fire Res']<=-10) {
+    $FireRes = "Fire Res Down";
 }
 $Gluttony = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Gluttony']>=10) {
+    $Gluttony = "Gourmand";
 }
 $Guard = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Guard']>=10) {
+    $Guard = "Guard +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Guard']>=15) {
+    $Guard = "Guard +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Guard']>=20) {
+    $Guard = "Guard +3";
 }
 $GuardUp = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Guard Up']>=10) {
+    $GuardUp = "Guard Boost";
 }
 $Guts = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Guts']>=10) {
+    $Guts = "Guts";
 }
 $Health = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']>=10) {
+    $Health = "Health +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']>=15) {
+    $Health = "Health +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']>=20) {
+    $Health = "Health +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']>=25) {
+    $Health = "Health +4";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']>=30) {
+    $Health = "Health +5";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']<=-10) {
+    $Health = "Health -1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']<=-15) {
+    $Health = "Health -2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']<=-20) {
+    $Health = "Health -3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Health']<=-25) {
+    $Health = "Health -4";
 }
 $Hearing = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Hearing']>=10) {
+    $Hearing = "Earplugs";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Hearing']>=20) {
+    $Hearing = "HG Earplugs";
 }
 $Heat = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Heat Res']>=10) {
+    $Heat = "Heat Cancel";
 }
 $Herb = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Herb King']>=10) {
+    $Herb = "Herbal Daren";
 }
 $Hormone = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Hormone']>=10) {
+    $Hormone = "Attract";
 }
 $Hunger = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Hunger']>=10) {
+    $Hunger = "Halve Hunger";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Hunger']>=15) {
+    $Hunger = "Negate Hunger";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Hunger']<=-10) {
+    $Hunger = "Raise Hunger";
 }
 $IceAtk = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Atk']>=10) {
+    $IceAtk = "Ice Itk +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Atk']>=15) {
+    $IceAtk = "Ice Atk +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Atk']>=20) {
+    $IceAtk = "Ice Atk +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Atk']<=-10) {
+    $IceAtk = "Ice Atk Down";
 }
 $IceRes = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Res']>=10) {
+    $IceRes = "Ice Res +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Res']>=15) {
+    $IceRes = "Ice Res +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Res']>=20) {
+    $IceRes = "Ice Res +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Ice Res']<=-10) {
+    $IceRes = "Ice Res Down";
 }
 $Knowing = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Knowing Technique']>=10) {
+    $Knowing = "Violent Strike";
 }
 $KO = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['KO King']>=10) {
+    $KO = "KO King";
 }
 $Loading = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Loading']>=10) {
+    $Loading = "Load Up";
 }
 $Mud = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Mud/Snow']>=10) {
+    $Mud = "Negate Mud/Snow";
 }
 $Normal = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Normal Up']>=10) {
+    $Normal = "Normal/Rapid Up";
 }
 $Paralysis = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Paralysis']>=10) {
+    $Paralysis = "Negate Paralysis";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Paralysis']<=-10) {
+    $Paralysis = "Double Paralysis";
 }
 $Pellet = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Pellet Up']>=10) {
+    $Pellet = "Pellet/Spread Up";
 }
 $Perception = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Perception']>=10) {
+    $Perception = "Capture Guru";
 }
 $Pierce = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['']>=10) {
+    $Pierce = "Pierce/Pierce Up";
 }
 $Poison = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Poison']>=10) {
+    $Poison = "Halve Poison";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Poison']>=15) {
+    $Poison = "Negate Poison";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Poison']<=-10) {
+    $Poison = "Double Poison";
 }
 $Potential = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Potential']>=10) {
+    $Potential = "Adrenaline +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Potential']>=15) {
+    $Potential = "Adrenaline +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Potential']>=20) {
+    $Potential = "Adrenaline +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Potential']<=-10) {
+    $Potential = "Worrywart";
 }
 $Protection = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Protection']>=10) {
+    $Protection = "Holy Blessing";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Protection']>=15) {
+    $Protection = "Divine Blessing";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Protection']<=-10) {
+    $Protection = "Evil Blessing";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Protection']<=-15) {
+    $Protection = "Demonic Blessing";
 }
 $Psychic = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Psychic']>=10) {
+    $Psychic = "Detect";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Psychic']>=15) {
+    $Psychic = "Autotracker";
 }
 $Rec = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Rec Speed']>=10) {
+    $Rec = "Rec Speed +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Rec Speed']>=15) {
+    $Rec = "Rec Speed +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Rec Speed']>=20) {
+    $Rec = "Rec Speed +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Rec Speed']<=-10) {
+    $Rec = "Rec Speed -1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Rec Speed']<=-15) {
+    $Rec = "Rec Speed -2 ";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Rec Speed']<=-20) {
+    $Rec = "Rec Speed -3";
 }
 $Recoil = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Recoil']>=10) {
+    $Recoil = "Recoil Down +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Recoil']>=15) {
+    $Recoil = "Recoil Down +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Recoil']<=-10) {
+    $Recoil = "Recoil Up";
 }
 $Reload = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Reload Spd']>=10) {
+    $Reload = "Reload Spd +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Reload Spd']>=15) {
+    $Reload = "Reload Spd +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Reload Spd']>=20) {
+    $Reload = "Reload Spd +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Reload Spd']<=-10) {
+    $Reload = "Reload Spd -1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Reload Spd']<=-15) {
+    $Reload = "Reload Spd -2";
 }
 $Resilience = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Resilience']>=10) {
+    $Resilience = "";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Resilience']>=15) {
+    $Resilience = "";
 }
 $Sense = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sense']>=10) {
+    $Sense = "Sneak";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sense']<=-10) {
+    $Sense = "Taunt";
 }
 $Sharpener = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sharpener']>=10) {
+    $Sharpener = "Speed Sharpening";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sharpener']>=15) {
+    $Sharpener = "High Speed Sharpening";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sharpener']<=-10) {
+    $Sharpener = "Slow Sharpening";
 }
 $Sharpness = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sharpness']>=10) {
+    $Sharpness = "Sharp";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sharpness']>=15) {
+    $Sharpness = "Razor Sharp";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sharpness']<=-10) {
+    $Sharpness = "Blunt Edge";
 }
 $Sleep = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sleep']>=10) {
+    $Sleep = "Negate Sleep";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Sleep']<=-10) {
+    $Sleep = "Double Sleep";
 }
 $SpeedSetup = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['SpeedSetup']>=10) {
+    $SpeedSetup = "Trap Master";
 }
 $Spirit = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Spirit']>=10) {
+    $Spirit = "Challenger +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Spirit']>=15) {
+    $Spirit = "Challenger +2";
 }
 $Stam = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stam Recov']>=10) {
+    $Stam = "Stam Recov +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stam Recov']>=15) {
+    $Stam = "Stam Recov +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stam Recov']>=20) {
+    $Stam = "Stam Recov +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stam Recov']<=-10) {
+    $Stam = "Stam Recov -1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stam Recov']<=-15) {
+    $Stam = "Stam Recov -2";
 }
 $Status = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Status']>=10) {
+    $Status = "Status Atk +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Status']>=15) {
+    $Status = "Status Atk +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Status']>=20) {
+    $Status = "Status Atk +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Status']<=-10) {
+    $Status = "Status Atk Down";
 }
 $Stun = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stun']>=10) {
+    $Stun = "Halve Stun";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stun']>=15) {
+    $Stun = "Negate Stun";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Stun']<=-10) {
+    $Stun = "Double Stun";
 }
 $Survivor = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Survivor']>=10) {
+    $Survivor = "Fortify";
 }
 $Tenderizer = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Tenderizer']>=10) {
+    $Tenderizer = "Weakness Exploit";
 }
 $Thorns = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Thorns']>=10) {
+    $Thorns = "Negate Thorns";
 }
 $ThunderRes = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Thunder Res']>=10) {
+    $ThunderRes = "Thunder Res +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Thunder Res']>=15) {
+    $ThunderRes = "Thunder Res +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Thunder Res']>=20) {
+    $ThunderRes = "Thunder Res +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Thunder Res']<=-10) {
+    $ThunderRes = "Thunder Res Down";
 }
 $ThunderAtk = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['ThunderAtk']>=10) {
+    $ThunderAtk = "Thunder Atk +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['ThunderAtk']>=15) {
+    $ThunderAtk = "Thunder Atk +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['ThunderAtk']>=20) {
+    $ThunderAtk = "Thunder Atk +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['ThunderAtk']<=-10) {
+    $ThunderAtk = "Thunder Atk Down";
 }
 $Tremor = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Tremor Res']>=10) {
+    $Tremor = "Tremor Res";
 }
 $Tripping = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Tripping Power']>=10) {
+    $Tripping = "Tripping Power";
 }
 $Unscathed = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Unscathed']>=10) {
+    $Unscathed = "Peak Performance";
 }
 $WaterAtk = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Water Atk']>=10) {
+    $WaterAtk = "Water Atk +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Water Atk']>=15) {
+    $WaterAtk = "Water Atk +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Water Atk']>=20) {
+    $WaterAtk = "Water Atk +3";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Water Atk']<=-10) {
+    $WaterAtk = "Water Atk Down";
 }
 $WideRange = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Wide-Range']>=10) {
+    $WideRange = "Wide-Range +1";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Wide-Range']>=15) {
+    $WideRange = "Wide-Range +2";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Wide-Range']>=20) {
+    $WideRange = "Wide-Range +3";
 }
 $Wind = "";
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Wind Res']>=10) {
+    $Wind = "Windproof (Lo)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Wind Res']>=15) {
+    $Wind = "Windproof (Hi)";
 }
-if ($sumArray['']>=) {
-    $Ambush = "";
+if ($sumArray['Wind Res']>=20) {
+    $Wind = "Dragon Windproof";
 }
 
 echo "<table><tr><td>Skill Name</td><td>Helmet</td><td>Vambraces</td><td>Armor</td><td>Waist</td><td>Greaves</td><td>Total</td><td>Activated</td></tr>".
