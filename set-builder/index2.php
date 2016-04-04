@@ -12,7 +12,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Armor</title>
+<title>MHO FAQ - Set Builder</title>
 </head>
 
 <body onload="navbarContent(); footerContent(); cookieState();">
@@ -20,7 +20,7 @@
 <div class="w3-container w3-blue-grey w3-top">
     <div class="w3-container w3-left w3-main" style="margin-left:200px">
     <h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-    Armor</h1>
+    Set Builder</h1>
     </div>
     <div class="w3-container w3-right w3-hide-small">
     <img src="../images/logo.png">
