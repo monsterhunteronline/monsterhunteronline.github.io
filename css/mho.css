@@ -420,6 +420,10 @@ hr {
 	top: 9px;
 	left: 9px;
 }
+.armorimage1 {
+	width: 32px;
+	height: 32px;
+}
 .buttons {
 	width: 200px;
 	height: 300px;
@@ -517,4 +521,7 @@ hr {
 }
 .info12 {
 	width: 100%;
+}
+.builder {
+	height: 32px; 
 }

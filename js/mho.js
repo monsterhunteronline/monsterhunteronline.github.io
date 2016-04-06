@@ -1,4 +1,5 @@
-function navbarContent() {
+$(function navbarContent() {
+
 	document.getElementById("navbar").innerHTML = '<div class="headerspace"></div>' +
 	'<a href="http://monsterhunteronline.in">Home</a>' +
 	'<a href="http://monsterhunteronline.in/monsters/">Monsters</a>' +
@@ -18,7 +19,7 @@ function navbarContent() {
 	'<a href="http://monsterhunteronline.in/install/">Install</a>' +
 	'<a href="http://monsterhunteronline.in/translation/">Translation</a>' +
 	'<a href="http://monsterhunteronline.in/vip/">VIP</a>'
-}
+});
 function w3_toggle() {
 	var el = document.getElementsByClassName("w3-sidenav")[0]
 	if ( el.style.display != 'block' ) {
@@ -1024,7 +1025,7 @@ function weaponContent(arr) {
 	}
 }
 
-function footerContent() {
+$(function footerContent() {
 	//because I am lazy
 	document.getElementById("footer").innerHTML = '' +
 		'<center><p>This page is maintained and paid for by @Reaver01. If you would like to buy me a beer please click below.</p>' +
@@ -1034,7 +1035,7 @@ function footerContent() {
 				'<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' +
 				'<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">' +
 			'</form></center>'
-}
+});
 function preload(sources) {
 	jQuery.each(sources, function(i,source) { jQuery.get(source); });
 }

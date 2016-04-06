@@ -3,19 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-<script src="../json/navigation.json"></script>
-<script src="../json/armor.json"></script>
-<script src="../json/material.json"></script>
-<script src="../json/other.json"></script>
-<script src="../js/mho.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/mho.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script></script>
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../css/mho.css">
 <title>MHO FAQ - Set Builder</title>
 </head>
 
-<body onload="navbarContent(); footerContent(); cookieState();">
+<body onload="cookieState();">
 <nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
 <div class="w3-container w3-blue-grey w3-top">
     <div class="w3-container w3-left w3-main" style="margin-left:200px">
@@ -73,7 +69,6 @@
 <div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
 <div class="w3-col l12 m12 s12 infosection">
 <div id="helmetselection"  class="results w3-col l12 m12 s12">
-<table>
 <?php
     //connect  to the database
     $db=mysql_connect ("localhost:3036",  "monsktwy_reaver1", "reaver1password") or die ('I cannot connect  to the database because: ' . mysql_error());
@@ -106,12 +101,12 @@
         $Skill5=$row['skill5'];
         $Skill5Num=$row['skill5_num'];
     //-display the result of the array
-    echo "<tr><td><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></td><td class='type" .$Type. "'>(" .$Type. ")</td><td>" .$Level. "</td><td>" .$SetName. "</td><td><img src='../images/" .$Image. ".png' class='armorimage' title='" .$SetName. "'></td><td>" .$ItemName. "</td><td class='" .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</td><td class='" .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</td><td class='" .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</td><td class='" .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</td><td class='" .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</td></tr>\n";
+    echo "<div class='w3-row w3-center'><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='builder w3-col l1 m1 s1'><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></div><div class='builder w3-col l1 m1 s1 type" .$Type. "'>(" .$Type. ")</div><div class='builder w3-col l1 m1 s1'>" .$Level. "</div><div class='builder w3-col l2 m3 s4'>" .$SetName. "</div><div class='builder w3-col l1 m1 s1'><img src='../images/" .$Image. ".png' class='armorimage1' title='" .$SetName. "'></div><div class='builder w3-col l1 m3 s4'>" .$ItemName. "</div><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col l1 m2 s12 " .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</div><div class='w3-col l1 m2 s12 " .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</div><div class='w3-col l1 m2 s12 " .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</div><div class='builder w3-col l1 m2 s12 " .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</div><div class='w3-col l1 m2 s12 " .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div></div>\n";
 
     }
     mysql_close();
 ?>
-</table>
+
 </div>
 </div></div>
 <div class="w3-row">
@@ -155,7 +150,7 @@
 <div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
 <div class="w3-col l12 m12 s12 infosection">
 <div id="vambracesselection" class="results w3-col l12 m12 s12">
-<table>
+
 <?php
     //connect  to the database
     $db=mysql_connect ("localhost:3036",  "monsktwy_reaver1", "reaver1password") or die ('I cannot connect  to the database because: ' . mysql_error());
@@ -188,12 +183,12 @@
         $Skill5=$row['skill5'];
         $Skill5Num=$row['skill5_num'];
     //-display the result of the array
-    echo "<tr><td><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></td><td class='type" .$Type. "'>(" .$Type. ")</td><td>" .$Level. "</td><td>" .$SetName. "</td><td><img src='../images/" .$Image. ".png' class='armorimage' title='" .$SetName. "'></td><td>" .$ItemName. "</td><td class='" .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</td><td class='" .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</td><td class='" .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</td><td class='" .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</td><td class='" .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</td></tr>\n";
+    echo "<div class='w3-row w3-center'><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='builder w3-col l1 m1 s1'><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></div><div class='builder w3-col l1 m1 s1 type" .$Type. "'>(" .$Type. ")</div><div class='builder w3-col l1 m1 s1'>" .$Level. "</div><div class='builder w3-col l2 m3 s4'>" .$SetName. "</div><div class='builder w3-col l1 m1 s1'><img src='../images/" .$Image. ".png' class='armorimage1' title='" .$SetName. "'></div><div class='builder w3-col l1 m3 s4'>" .$ItemName. "</div><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col l1 m2 s12 " .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</div><div class='w3-col l1 m2 s12 " .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</div><div class='w3-col l1 m2 s12 " .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</div><div class='builder w3-col l1 m2 s12 " .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</div><div class='w3-col l1 m2 s12 " .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div></div>\n";
 
     }
     mysql_close();
 ?>
-</table>
+
 </div>
 </div></div>
 <div class="w3-row">
@@ -237,7 +232,7 @@
 <div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
 <div class="w3-col l12 m12 s12 infosection">
 <div id="armorselection" class="results w3-col l12 m12 s12">
-<table>
+
 <?php
     //connect  to the database
     $db=mysql_connect ("localhost:3036",  "monsktwy_reaver1", "reaver1password") or die ('I cannot connect  to the database because: ' . mysql_error());
@@ -270,12 +265,12 @@
         $Skill5=$row['skill5'];
         $Skill5Num=$row['skill5_num'];
     //-display the result of the array
-    echo "<tr><td><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></td><td class='type" .$Type. "'>(" .$Type. ")</td><td>" .$Level. "</td><td>" .$SetName. "</td><td><img src='../images/" .$Image. ".png' class='armorimage' title='" .$SetName. "'></td><td>" .$ItemName. "</td><td class='" .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</td><td class='" .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</td><td class='" .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</td><td class='" .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</td><td class='" .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</td></tr>\n";
+    echo "<div class='w3-row w3-center'><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='builder w3-col l1 m1 s1'><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></div><div class='builder w3-col l1 m1 s1 type" .$Type. "'>(" .$Type. ")</div><div class='builder w3-col l1 m1 s1'>" .$Level. "</div><div class='builder w3-col l2 m3 s4'>" .$SetName. "</div><div class='builder w3-col l1 m1 s1'><img src='../images/" .$Image. ".png' class='armorimage1' title='" .$SetName. "'></div><div class='builder w3-col l1 m3 s4'>" .$ItemName. "</div><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col l1 m2 s12 " .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</div><div class='w3-col l1 m2 s12 " .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</div><div class='w3-col l1 m2 s12 " .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</div><div class='builder w3-col l1 m2 s12 " .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</div><div class='w3-col l1 m2 s12 " .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div></div>\n";
 
     }
     mysql_close();
 ?>
-</table>
+
 </div>
 </div></div>
 <div class="w3-row">
@@ -319,7 +314,7 @@
 <div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
 <div class="w3-col l12 m12 s12 infosection">
 <div id="waistselection" class="results w3-col l12 m12 s12">
-<table>
+
 <?php
     //connect  to the database
     $db=mysql_connect ("localhost:3036",  "monsktwy_reaver1", "reaver1password") or die ('I cannot connect  to the database because: ' . mysql_error());
@@ -352,12 +347,12 @@
         $Skill5=$row['skill5'];
         $Skill5Num=$row['skill5_num'];
     //-display the result of the array
-    echo "<tr><td><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></td><td class='type" .$Type. "'>(" .$Type. ")</td><td>" .$Level. "</td><td>" .$SetName. "</td><td><img src='../images/" .$Image. ".png' class='armorimage' title='" .$SetName. "'></td><td>" .$ItemName. "</td><td class='" .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</td><td class='" .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</td><td class='" .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</td><td class='" .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</td><td class='" .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</td></tr>\n";
+    echo "<div class='w3-row w3-center'><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='builder w3-col l1 m1 s1'><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></div><div class='builder w3-col l1 m1 s1 type" .$Type. "'>(" .$Type. ")</div><div class='builder w3-col l1 m1 s1'>" .$Level. "</div><div class='builder w3-col l2 m3 s4'>" .$SetName. "</div><div class='builder w3-col l1 m1 s1'><img src='../images/" .$Image. ".png' class='armorimage1' title='" .$SetName. "'></div><div class='builder w3-col l1 m3 s4'>" .$ItemName. "</div><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col l1 m2 s12 " .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</div><div class='w3-col l1 m2 s12 " .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</div><div class='w3-col l1 m2 s12 " .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</div><div class='builder w3-col l1 m2 s12 " .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</div><div class='w3-col l1 m2 s12 " .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div></div>\n";
 
     }
     mysql_close();
 ?>
-</table>
+
 </div>
 </div></div>
 <div class="w3-row">
@@ -401,7 +396,7 @@
 <div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
 <div class="w3-col l12 m12 s12 infosection">
 <div id="greavesselection" class="results w3-col l12 m12 s12">
-<table>
+
 <?php
     //connect  to the database
     $db=mysql_connect ("localhost:3036",  "monsktwy_reaver1", "reaver1password") or die ('I cannot connect  to the database because: ' . mysql_error());
@@ -434,12 +429,12 @@
         $Skill5=$row['skill5'];
         $Skill5Num=$row['skill5_num'];
     //-display the result of the array
-    echo "<tr><td><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></td><td class='type" .$Type. "'>(" .$Type. ")</td><td>" .$Level. "</td><td>" .$SetName. "</td><td><img src='../images/" .$Image. ".png' class='armorimage' title='" .$SetName. "'></td><td>" .$ItemName. "</td><td class='" .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</td><td class='" .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</td><td class='" .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</td><td class='" .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</td><td class='" .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</td></tr>\n";
+    echo "<div class='w3-row w3-center'><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='builder w3-col l1 m1 s1'><img onclick='addOrUpdateUrlParam(`" .$ArmorType. "`, " .$ID. ");' src='../images/simulator/simu-icon-add.gif' style='width:21px;'></div><div class='builder w3-col l1 m1 s1 type" .$Type. "'>(" .$Type. ")</div><div class='builder w3-col l1 m1 s1'>" .$Level. "</div><div class='builder w3-col l2 m3 s4'>" .$SetName. "</div><div class='builder w3-col l1 m1 s1'><img src='../images/" .$Image. ".png' class='armorimage1' title='" .$SetName. "'></div><div class='builder w3-col l1 m3 s4'>" .$ItemName. "</div><div class='builder w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div><div class='w3-col l1 m2 s12 " .$Skill1. " skill" .$Skill1Num. "'>" .$Skill1. " <span class='plus" .$Skill1Num. "'>+</span>" .$Skill1Num. "</div><div class='w3-col l1 m2 s12 " .$Skill2. " skill" .$Skill2Num. "'>" .$Skill2. " <span class='plus" .$Skill2Num. "'>+</span>" .$Skill2Num. "</div><div class='w3-col l1 m2 s12 " .$Skill3. " skill" .$Skill3Num. "'>" .$Skill3. " <span class='plus" .$Skill3Num. "'>+</span>" .$Skill3Num. "</div><div class='builder w3-col l1 m2 s12 " .$Skill4. " skill" .$Skill4Num. "'>" .$Skill4. " <span class='plus" .$Skill4Num. "'>+</span>" .$Skill4Num. "</div><div class='w3-col l1 m2 s12 " .$Skill5. " skill" .$Skill5Num. "'>" .$Skill5. " <span class='plus" .$Skill5Num. "'>+</span>" .$Skill5Num. "</div><div class='w3-col w3-hide-large m1 w3-hide-small'>&nbsp;</div></div>\n";
 
     }
     mysql_close();
 ?>
-</table>
+
 </div>
 </div></div>
 <div class="w3-row">
