@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/mho.js"></script>
+<script src="../js/setbuilder.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" type="text/css" href="../css/mho.css">
+<title>MHO FAQ - Set Builder</title>
+</head>
+
+<body>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<div class="w3-container w3-blue-grey w3-top">
+    <div class="w3-container w3-left w3-main" style="margin-left:200px">
+    <h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
+    Set Builder</h1>
+    </div>
+    <div class="w3-container w3-right w3-hide-small">
+    <img src="../images/logo.png">
+    </div>
+</div>
+<div class="w3-main" style="margin-left:200px">
+<div class="headerspace">
+</div>
+
+<div id="simulator">
+<div class"w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
+<div class="w3-col l10 m12 s12">
+
+<!-- Search Box -->
+
+<input type="text" id="searchfor" name="searchfor" />
+<input type="button" value="Search" id="search" />
+<input type="button" value="Blademaster" id="blade" />
+<input type="button" value="Gunner" id="gun" />
+<input type="button" value="Reset" id="reset" />
+</div>
+<div class="w3-col l12 m12 s12">&nbsp;</div>
+</div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small">&nbsp;</div>
+<div id="helmet" class="w3-col l7 m11 s11">
+
+<!-- helmet.php -->    
+
+</div>
+<div class="w3-col l1 m1 s1 helmetbutton setrow"><img src="../images/simulator/simu-icon-add.gif" style="width:21px;"></div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div class="w3-col l12 m12 s12 infosection">
+<div id="helmetselection"  class="results w3-col l12 m12 s12">
+
+<!-- helmetinfo.php -->    
+
+
+</div></div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div id="vambraces" class="w3-col l7 m11 s11">
+
+<!-- vambraces.php -->    
+
+</div>
+<div class="w3-col l1 m1 s1 vambracesbutton setrow"><img src="../images/simulator/simu-icon-add.gif" style="width:21px;"></div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div class="w3-col l12 m12 s12 infosection">
+<div id="vambracesselection" class="results w3-col l12 m12 s12">
+
+<!-- vambracesinfo.php -->    
+
+</div></div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div id="armor" class="w3-col l7 m11 s11">
+
+<!-- armor.php -->    
+
+</div>
+<div class="w3-col l1 m1 s1 armorbutton setrow"><img src="../images/simulator/simu-icon-add.gif" style="width:21px;"></div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div class="w3-col l12 m12 s12 infosection">
+<div id="armorselection" class="results w3-col l12 m12 s12">
+
+<!-- armorinfo.php -->    
+
+</div></div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div id="waist" class="w3-col l7 m11 s11">
+
+<!-- waist.php -->    
+
+</div>
+<div class="w3-col l1 m1 s1 waistbutton setrow"><img src="../images/simulator/simu-icon-add.gif" style="width:21px;"></div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div class="w3-col l12 m12 s12 infosection">
+<div id="waistselection" class="results w3-col l12 m12 s12">
+
+<!-- waistinfo.php -->    
+
+</div></div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div id="greaves" class="w3-col l7 m11 s11">
+
+<!-- greaves.php -->    
+
+</div>
+<div class="w3-col l1 m1 s1 greavesbutton setrow"><img src="../images/simulator/simu-icon-add.gif" style="width:21px;"></div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div class="w3-col l12 m12 s12 infosection">
+<div id="greavesselection" class="results w3-col l12 m12 s12">
+
+<!-- greavesinfo.php -->    
+
+</div></div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div class="w3-col l7 m11 s11"><h3>Skills</h3>
+</div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+</div>
+<div class="w3-row">
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+<div id="skills" class="w3-col l7 m11 s11">
+
+<!-- skills.php -->
+
+</div>
+<div class="w3-col l2 w3-hide-medium w3-hide-small setrow">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
+</div>
+</body>
+</html>

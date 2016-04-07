@@ -33,13 +33,13 @@ function w3_toggle() {
 		el.style.display = 'none';
 
 	}
-}
+};
 function w3_open() {
   document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
-}
+};
 function w3_close() {
   document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
-}
+};
 function armorContent(arr) {
 	var out = "";
 	var i;
@@ -527,7 +527,7 @@ function armorContent(arr) {
 		'<div class="w3-col l4 m4 s12 armorskill">' + arr[i].data[56] + '</div></div>';
 	}
 	document.getElementById("armortable").innerHTML = out;
-}
+};
 function materialsContent(arr) {
 	var out = '<tr><td width="40px">Icon</td><td width="132px">Name</td><td width="800px">Explanation</td><td>Place</td></tr>';
 	var i;
@@ -543,7 +543,7 @@ function materialsContent(arr) {
 	'</tr>';
 	}
 	document.getElementById("materialtable").innerHTML = out;
-}
+};
 function materialsContent2(arr) {
 	var out = '<tr><td width="40px">Icon</td><td width="132px">Name</td><td width="800px">Explanation</td><td>Place</td></tr>';
 	var i;
@@ -559,7 +559,7 @@ function materialsContent2(arr) {
 	'</tr>';
 	}
 	document.getElementById("materialtable").innerHTML = out;
-}
+};
 function monsterContent(arr) {
 	var out = "";
 	var i;
@@ -578,7 +578,7 @@ function monsterContent(arr) {
 	'</tr>';
 	}
 	document.getElementById("monstertable").innerHTML = out;
-}
+};
 function weaponContent(arr) {
 	var out = "";
 	var i;
@@ -1023,7 +1023,7 @@ function weaponContent(arr) {
 		'<div>';
 	document.getElementById('id' + arr[i].data[0]).innerHTML = out;
 	}
-}
+};
 
 $(function footerContent() {
 	//because I am lazy
@@ -1055,7 +1055,7 @@ function addOrUpdateUrlParam(zname, value)
     else
       window.location.href = href + "?" + zname + "=" + value;
   }
-}
+};
 $(function(){
       $('.helmetbutton').click(function(e){
       	document.cookie= "helmetstate="+$( '#helmetselection' ).parents().is( ':hidden' );
@@ -1089,7 +1089,7 @@ function cookieState(){
       if ($waistcookie=='true'){$( '#waistselection' ).parents().slideDown('fast')};
       $greavescookie = getCookie('greavesstate')
       if ($greavescookie=='true'){$( '#greavesselection' ).parents().slideDown('fast')};
-}
+};
 function getCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
@@ -1099,4 +1099,4 @@ function getCookie(name) {
         if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
     }
     return null;
-}
+};

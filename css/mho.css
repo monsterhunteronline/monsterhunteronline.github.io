@@ -326,6 +326,9 @@ table.innertable td {
 .noskill {
 	display:none !important;
 }
+.skill {
+	display:none !important;
+}
 .skill1 {
 	color:green !important;
 }
@@ -392,6 +395,9 @@ hr {
 	width: 51px;
 	height: 50px;
 	background:url(../images/simulator/simu-groove-9.gif) no-repeat;border:none;
+}
+.setrow {
+	height: 50px;
 }
 #vambraces_button {
 	width: 51px;
