@@ -5,10 +5,11 @@ body {
 }
 #outerdiv
 {
-   width:500px;
+   width:950px;
    height:500px;
    overflow:hidden;
    position:relative;
+   display: inline-block;
 }
 #mainCon
 {
@@ -17,6 +18,7 @@ body {
    left:-280px;
    width:1280px;
    height:1200px;
+   display: block;
 }
 .w3-top {
 	z-index: 5 !important;
@@ -38,6 +40,9 @@ body {
 img {
 	width: 100%;
 	height: auto;
+}
+.monsterpic {
+	max-width: 800px;
 }
 tr.border_bottom td {
   border-bottom:1pt solid black;
@@ -530,4 +535,9 @@ hr {
 }
 .builder {
 	height: 32px; 
+}
+#monsterdrop {
+	display: none;
+	position:fixed;
+	top:88px;
 }

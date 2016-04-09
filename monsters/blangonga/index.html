@@ -3,21 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../../json/monster.json"></script>
-<script src="../../json/blangongamats.json"></script>
-<script src="../../js/mho.js"></script>
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" type="text/css" href="../../css/mho.css">
 <title>MHO FAQ - Monsters - Blangonga</title>
 </head>
 
-<body onload="monsterContent(blangongaArray); materialsContent2(materialArray)">
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large" style="width:200px"></nav>
+<body>
+<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
 <div class="w3-container w3-blue-grey w3-top">
 	<div class="w3-container w3-left w3-main" style="margin-left:200px">
 	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Blangonga</h1>
+	<span class="w3-opennav" onclick="monster_toggle()">Blangonga</span></h1>
 	</div>
 	<div class="w3-container w3-right w3-hide-small">
 	<img src="../../images/logo.png">
@@ -28,7 +24,8 @@
 </div>
 
 <div align="center">
-<img src="../../images/blangonga800.png">
+<div id="monsterdrop" class="monsterdrop"></div>
+<img src="../../images/blangonga800.png" class="monsterpic">
 <h2>Fighting info:</h2>
 ★ very effective, ◎ effective, ○ general, △ poor, × invalid
 <br><br>
@@ -43,5 +40,11 @@
 </div>
 <div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
 </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../../json/monster.json"></script>
+<script src="../../json/blangongamats.json"></script>
+<script src="../../js/mho.js"></script>
+<script src="../../js/monsterdrop.js"></script>
+<script type="text/javascript">monsterContent(blangongaArray); materialsContent2(materialArray);</script>
 </body>
 </html> 
