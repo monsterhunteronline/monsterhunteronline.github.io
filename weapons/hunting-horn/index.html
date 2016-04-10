@@ -13,7 +13,7 @@
 <div class="w3-container w3-blue-grey w3-top">
 	<div class="w3-container w3-left w3-main" style="margin-left:200px">
 	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Hunting Horn</h1>
+	<span class="w3-opennav" onclick="weapon_toggle()">Hunting Horn</span></h1>
 	</div>
 	<div class="w3-container w3-right w3-hide-small">
 	<img src="../../images/logo.png">
@@ -24,7 +24,9 @@
 </div>
 
 
-
+<div align="center">
+<div id="weapondrop" class="weapondrop w3-container w3-center"></div>
+</div>
 <table id="weapons" class="huntinghorn">
 <tr><td></td><td colspan="5" class="weapontitle">Dawnwind</td><td colspan="3" class="weapontitle">Bone</td><td colspan="5" class="weapontitle">Iron</td><td class="weapontitle">King</td></tr>
 <tr><td class="level">Lv.1</td><td colspan="4" id="id56001"></td><td colspan="3" id="id56003"></td><td colspan="6" id="id56006"></td><td></td></tr>
@@ -54,6 +56,7 @@
 <script src="../../json/huntinghorn.json"></script>
 <script src="../../js/mho.js"></script>
 <script src="../../js/weapon.js"></script>
+<script src="../../js/weapondrop.js"></script>
 <script type="text/javascript">weaponContent(huntinghornArray);</script>
 </body>
 </html> 

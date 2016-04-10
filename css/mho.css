@@ -541,3 +541,9 @@ hr {
 	position:fixed;
 	top:88px;
 }
+#weapondrop {
+	display: none;
+	position:fixed;
+	top:88px;
+	z-index: 11;
+}
