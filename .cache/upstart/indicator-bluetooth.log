@@ -1,2 +1,0 @@
-
-** (process:1840): CRITICAL **: bluez.vala:104: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.bluez was not provided by any .service files
