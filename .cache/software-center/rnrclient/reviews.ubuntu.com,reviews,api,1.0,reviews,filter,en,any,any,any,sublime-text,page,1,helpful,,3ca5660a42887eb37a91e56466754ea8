@@ -1,0 +1,18 @@
+status: 301
+content-length: 392
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/sublime-text/page/1/helpful/
+server: Apache/2.4.7 (Ubuntu)
+location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/sublime-text/page/1/helpful/
+date: Mon, 11 Apr 2016 19:43:29 GMT
+-x-permanent-redirect-url: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/sublime-text/page/1/helpful/
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/sublime-text/page/1/helpful/">here</a>.</p>
+<hr>
+<address>Apache/2.4.7 (Ubuntu) Server at reviews.ubuntu.com Port 80</address>
+</body></html>

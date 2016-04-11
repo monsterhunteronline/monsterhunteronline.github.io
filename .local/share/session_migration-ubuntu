@@ -1,0 +1,3 @@
+[State]
+timestamp=1460402115
+migrated=cleanup-local-webapps-in-launcher.py;install-default-webapps-in-launcher.py;03_migrate_signon;ucc-unity-launcher.py;00_remove_scalefilter_in_unity_session.py;03_unity_first_run_stamp_move;00_remove_gnomecompat_in_unity_session.py;00_remove_decor_in_unity_session.py;nautilus-unity-launcher-icon-rename.py;01_unity_change_dconf_path;02_unity_setup_text_scale_factor;00_remove_unityshell_in_gnome_session.py;nautilus-unity-launcher-icon.py;

@@ -1,0 +1,26 @@
+2016-04-11 21:43:07,334 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2016-04-11 21:43:09,503 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2016-04-11 21:43:09,656 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2016-04-11 21:43:09,660 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2016-04-11 21:43:09,812 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-04-11 21:43:21,259 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2016-04-11 21:43:21,261 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2016-04-11 21:43:24,787 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2016-04-11 21:43:25,762 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2016-04-11 21:43:27,359 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sublime-text"}']'
+2016-04-11 21:43:27,359 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '61', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"ac48fe5710ebda334744e2d913e7ba67"', 'cache-control': 'max-age=300', 'date': 'Mon, 11 Apr 2016 19:43:27 GMT', 'content-type': 'text/html; charset=utf-8'}
+'
+2016-04-11 21:43:27,359 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '61', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"ac48fe5710ebda334744e2d913e7ba67"', 'cache-control': 'max-age=300', 'date': 'Mon, 11 Apr 2016 19:43:27 GMT', 'content-type': 'text/html; charset=utf-8'}
+
+2016-04-11 21:43:27,360 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '61', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"ac48fe5710ebda334744e2d913e7ba67"', 'cache-control': 'max-age=300', 'date': 'Mon, 11 Apr 2016 19:43:27 GMT', 'content-type': 'text/html; charset=utf-8'}
+
+2016-04-11 21:44:01,362 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2016-04-11 21:44:03,344 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: 'None'
+2016-04-11 21:44:03,345 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event

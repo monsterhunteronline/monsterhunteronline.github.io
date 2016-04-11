@@ -1,0 +1,13 @@
+logrotate state -- version 2
+"/home/reaver01/.cache/upstart/ssh-agent.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/indicator-bluetooth.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/unity7.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/gnome-keyring-ssh.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/unity-settings-daemon.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/unity-panel-service.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/upstart-event-bridge.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/window-stack-bridge.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/upstart-dbus-session-bridge.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/gnome-keyring-gpg.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/dbus.log" 2016-4-11-21:0:0
+"/home/reaver01/.cache/upstart/indicator-sound.log" 2016-4-11-21:0:0

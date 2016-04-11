@@ -1,0 +1,125 @@
+Activating service name='org.gtk.vfs.Daemon'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Activating service name='org.ayatana.bamf'
+Activating service name='org.a11y.Bus'
+Successfully activated service 'org.a11y.Bus'
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Activating service name='org.gnome.ScreenSaver'
+Activating service name='org.gnome.evolution.dataserver.Sources3'
+Successfully activated service 'org.gnome.ScreenSaver'
+Successfully activated service 'org.gnome.evolution.dataserver.Sources3'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+Activating service name='org.gtk.vfs.Metadata'
+Successfully activated service 'org.gtk.vfs.Metadata'
+Activating service name='org.freedesktop.Telepathy.AccountManager'
+Successfully activated service 'org.freedesktop.Telepathy.AccountManager'
+Activating service name='com.canonical.indicators.webcredentials'
+Successfully activated service 'com.canonical.indicators.webcredentials'
+Activating service name='org.gnome.zeitgeist.Engine'
+Activating service name='org.gnome.zeitgeist.SimpleIndexer'
+Successfully activated service 'org.gnome.zeitgeist.Engine'
+Successfully activated service 'org.gnome.zeitgeist.SimpleIndexer'
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.canonical.Unity.Webapps.Service'
+Successfully activated service 'com.canonical.Unity.Webapps.Service'
+Reloaded configuration
+Reloaded configuration
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Reloaded configuration
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='org.freedesktop.Geoclue.Master'
+Successfully activated service 'org.freedesktop.Geoclue.Master'
+Activating service name='org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
+Successfully activated service 'org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.canonical.Unity.Scope.Home'
+Successfully activated service 'com.canonical.Unity.Scope.Home'
+Activating service name='com.canonical.Unity.Scope.Applications'
+Activating service name='com.canonical.Unity.Scope.LocalFiles'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.canonical.Unity.Scope.Music'
+Successfully activated service 'com.canonical.Unity.Scope.Music'
+Successfully activated service 'com.canonical.Unity.Scope.Applications'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'

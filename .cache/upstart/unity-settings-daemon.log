@@ -1,0 +1,10 @@
+
+** (unity-settings-daemon:1759): WARNING **: Attempted to init Xsync, found version 3.1 error base 134 event base 83
+
+No protocol specified
+check_gl_texture_size: Unable to open display :0
+** (unity-settings-daemon:1759): WARNING **: GL_MAX_TEXTURE_SIZE helper quit unexpectedly
+
+(unity-settings-daemon:1759): AccountsService-WARNING **: ActUserManager: user (null) has no username (object path: /org/freedesktop/Accounts/User1000, uid: 0)
+
+(unity-settings-daemon:1759): AccountsService-WARNING **: ActUserManager: user (null) has no username (object path: /org/freedesktop/Accounts/User1000, uid: 0)

@@ -1,0 +1,20 @@
+status: 200
+x-request-id: Vwv@VgoZOCYAAA4cH3UAAAFl1
+via: 1.1 juju-prod45-u1-sca-machine-25 (squid/3.3.8)
+x-cache: HIT from juju-prod45-u1-sca-machine-25
+content-language: en
+age: 465
+expires: Mon, 11 Apr 2016 19:45:33 GMT
+vary: Authorization,Accept-Language,Cookie
+server: gunicorn/19.3.0
+last-modified: Mon, 11 Apr 2016 19:35:33 GMT
+etag: "d751713988987e9331980363e24189ce"
+strict-transport-security: max-age=2592000
+cache-control: max-age=600
+date: Mon, 11 Apr 2016 19:35:33 GMT
+x-bzr-revision-number: 2885
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from juju-prod45-u1-sca-machine-25:3128
+content-location: https://software-center.ubuntu.com/api/2.0/exhibits/en/vivid/
+
+[]
