@@ -1,85 +1,498 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../../css/mho.css">
-<title>MHO Weapons - Longsword</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Weapons - Longsword</title>
+
+<!--CSS-->
+  <link href="../../css/icon.css" rel="stylesheet">
+  <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	<span class="w3-opennav" onclick="weapon_toggle()">Longsword</span></h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../../armor/">Armor</a></li>
+    <li class="active"><a href="../">Weapons</a></li>
+    <li><a href="../../jewelry/">Jewelry</a></li>
+    <li><a href="../../crafting/">Crafting</a></li>
+    <li><a href="../../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../../quests/">Quests</a></li>
+    <li><a href="../../gathering/">Gathering</a></li>
+    <li><a href="../../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../../npcs/">Main NPCs</a></li>
+    <li><a href="../../cats/">Cats</a></li>
+    <li><a href="../../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../../">Home</a></li>
+        <li><a href="../../monsters/">Monsters</a></li>
+        <li><a href="../../skills/">Skills</a></li>
+        <li class="active"><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="../../" class="bold">Home</a></li>
+        <li><a href="../../monsters/" class="bold">Monsters</a></li>
+        <li><a href="../../skills/" class="bold">Skills</a></li>
+        <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li class="active">
+            <a class="collapsible-header bold" href="#">Items</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="../../armor/">Armor</a></li>
+                <li class="active"><a href="../">Weapons</a></li>
+                <li><a href="../../jewelry/">Jewelry</a></li>
+                <li><a href="../../crafting/">Crafting</a></li>
+                <li><a href="../../materials/">Materials</a></li><li class="divider"></li>
+                <li><a href="../../set-builder/">Set Builder</a></li>
+              </ul>
+            </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">Hunting</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../../quests/">Quests</a></li>
+                  <li><a href="../../gathering/">Gathering</a></li>
+                  <li><a href="../../hunting-groups/">Hunting Groups</a></li>
+                </ul>
+              </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">NPCs</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../../npcs/">Main NPCs</a></li>
+                  <li><a href="../../cats/">Cats</a></li>
+                  <li><a href="../../food/">Food</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+<!--Content-->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header">Weapons</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <div class="row">
+<!--Blademaster card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Blademaster</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Lance" href="../lance/">
+                      <div class="chip">
+                        <img src="../../images/weapon/lanceicon.png" alt="Lance">
+                        Lance
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gunlance" href="../gunlance/">
+                      <div class="chip">
+                        <img src="../../images/weapon/gunlanceicon.png" alt="Gunlance">
+                        Gunlance
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Sword and Shield" href="../sword-and-shield/">
+                      <div class="chip">
+                        <img src="../../images/weapon/swordandshieldicon.png" alt="Sword and Shield">
+                        Sword and Shield
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Greatsword" href="../greatsword/">
+                      <div class="chip">
+                        <img src="../../images/weapon/greatswordicon.png" alt="Greatsword">
+                        Greatsword
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Longsword" href="../longsword/">
+                      <div class="chip">
+                        <img src="../../images/weapon/longswordicon.png" alt="Longsword">
+                        Longsword
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Hammer" href="../hammer/">
+                      <div class="chip">
+                        <img src="../../images/weapon/hammericon.png" alt="Hammer">
+                        Hammer
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Dual Blades" href="../dual-blades/">
+                      <div class="chip">
+                        <img src="../../images/weapon/dualbladesicon.png" alt="Dual Blades">
+                        Dual Blades
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Hunting Horn" href="../hunting-horn/">
+                      <div class="chip">
+                        <img src="../../images/weapon/huntinghornicon.png" alt="Hunting Horn">
+                        Hunting Horn
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>    
+  <!--Gunner card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Gunner</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Bow" href="../bow/">
+                      <div class="chip">
+                        <img src="../../images/weapon/bowicon.png" alt="Bow">
+                        Bow
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Bowgun" href="../bowgun/">
+                      <div class="chip">
+                        <img src="../../images/weapon/bowgunicon.png" alt="Bowgun">
+                        Bowgun
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header dark-grey active">Weapon Tree</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <div>
+              <table id="weapons" class="longsword hide-on-small-only">
+                <thead>
+                  <tr>
+                    <td></td>
+                    <td colspan="5" class="bold center-align">Dawnwind</td>
+                    <td colspan="3" class="bold center-align">Bone</td>
+                    <td colspan="6" class="bold center-align">Iron</td>
+                    <td class="bold center-align">King</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="level">Lv.1</td>
+                    <td colspan="4" id="id52011"></td>
+                    <td colspan="4" id="id52013"></td>
+                    <td colspan="6" id="id52017"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level"></td>
+                    <td colspan="4" id="id52012"></td>
+                    <td colspan="2" id="id52014"></td>
+                    <td></td>
+                    <td id="id52016"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.5</td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td colspan="2"></td>
+                    <td id="id52024"></td>
+                    <td></td>
+                    <td colspan="2" id="id52021"></td>
+                    <td colspan="3"></td>
+                    <td id="id52022"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.10</td>
+                    <td id="id52031"></td>
+                    <td colspan="3" id="id52032"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td id="id52033"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3" id="id52034"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.15</td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td colspan="2" id="id52041"></td>
+                    <td id="id52042"></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.20</td>
+                    <td id="id52051"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td id="id52052"></td>
+                    <td colspan="2" id="id52053"></td>
+                    <td colspan="2" id="id52054"></td>
+                    <td></td>
+                    <td id="id52055"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.25</td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td id="id52061"></td>
+                    <td colspan="2" id="id52062"></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.30</td>
+                    <td id="id52071"></td>
+                    <td colspan="2" id="id52072"></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td id="id52073"></td>
+                    <td></td>
+                    <td colspan="2" id="id52074"></td>
+                    <td colspan="2"></td>
+                    <td id="id52075"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.35</td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td id="id52081"></td>
+                    <td colspan="2" id="id52082"></td>
+                    <td></td>
+                    <td id="id52083"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2" id="id52084"></td>
+                    <td></td>
+                    <td id="id52085"></td>
+                    <td id="id52086"></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.40</td>
+                    <td id="id52091"></td>
+                    <td colspan="2" id="id52092"></td>
+                    <td id="id52093"></td>
+                    <td colspan="2" id="id52094"></td>
+                    <td id="id52095"></td>
+                    <td id="id52096"></td>
+                    <td colspan="2" id="id52097"></td>
+                    <td colspan="2" id="id52098"></td>
+                    <td id="id52099"></td>
+                    <td id="id52100"></td>
+                    <td id="id52101"></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.45</td>
+                    <td id="id52111"></td>
+                    <td colspan="2" id="id52112"></td>
+                    <td id="id52113"></td>
+                    <td colspan="2" id="id52114"></td>
+                    <td id="id52115"></td>
+                    <td id="id52116"></td>
+                    <td colspan="2" id="id52117"></td>
+                    <td colspan="2" id="id52118"></td>
+                    <td id="id52119"></td>
+                    <td id="id52120"></td>
+                    <td id="id52121"></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.50</td>
+                    <td id="id52131"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="id52132"></td>
+                    <td></td>
+                    <td id="id52133"></td>
+                    <td></td>
+                    <td id="id52134"></td>
+                    <td id="id52135"></td>
+                    <td></td>
+                    <td colspan="2" id="id52136"></td>
+                    <td id="id52137"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.55</td>
+                    <td id="id52164"></td>
+                    <td id="id52151"></td>
+                    <td id="id52152"></td>
+                    <td></td>
+                    <td id="id52153"></td>
+                    <td></td>
+                    <td id="id52154"></td>
+                    <td></td>
+                    <td id="id52163"></td>
+                    <td id="id52155"></td>
+                    <td id="id52158"></td>
+                    <td id="id52165"></td>
+                    <td></td>
+                    <td id="id52156"></td>
+                    <td id="id52157"></td>
+                  </tr>
+                  <tr>
+                    <td class="level">Lv.60</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="id52171"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="id52161"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td colspan="14">"The Absolute Powerful"</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2">Tartaronis</td>
+                    <td></td>
+                    <td colspan="3">Red Shen Gaoren</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="id52122"></td>
+                    <td id="id52159"><td></td></td>
+                    <td></td>
+                    <td id="id52160"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul id="small-weaponlist" class="collection hide-on-med-and-up">
+                <li class="collection-item"></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header dark-grey active">Weapon Info</div>
+          <div class="collapsible-body grey lighten-2"><br>
 
 
-<div align="center">
-<div id="weapondrop" class="weapondrop w3-container w3-center"></div>
-</div>
-<table id="weapons" class="longsword">
-<tr><td></td><td colspan="5" class="weapontitle">Dawnwind</td><td colspan="3" class="weapontitle">Bone</td><td colspan="5" class="weapontitle">Iron</td><td class="weapontitle">King</td></tr>
-<tr><td class="level">Lv.1</td><td colspan="4" id="id52011"></td><td colspan="4" id="id52013"></td><td colspan="5" id="id52017"></td><td></td></tr>
-<tr><td class="level"></td><td colspan="4" id="id52012"></td><td colspan="2" id="id52014"></td><td></td><td id="id52016"></td><td colspan="2"></td><td colspan="2"></td><td></td><td></td></tr>
-<tr><td class="level">Lv.5</td><td></td><td colspan="3"></td><td colspan="2"></td><td id="id52024"></td><td></td><td colspan="2" id="id52021"></td><td colspan="2"></td><td id="id52022"></td><td></td></tr>
-<tr><td class="level">Lv.10</td><td id="id52031"></td><td colspan="3" id="id52032"></td><td colspan="2"></td><td></td><td id="id52033"></td><td colspan="2"></td><td colspan="2" id="id52034"></td><td></td><td></td></tr>
-<tr><td class="level">Lv.15</td><td></td><td colspan="2"></td><td></td><td colspan="2" id="id52041"></td><td id="id52042"></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="level">Lv.20</td><td id="id52051"></td><td colspan="2"></td><td></td><td colspan="2"></td><td></td><td id="id52052"></td><td colspan="2" id="id52053"></td><td id="id52054"></td><td></td><td id="id52055"></td><td></td></tr>
-<tr><td class="level">Lv.25</td><td></td><td colspan="2"></td><td id="id52061"></td><td colspan="2" id="id52062"></td><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="level">Lv.30</td><td id="id52071"></td><td colspan="2" id="id52072"></td><td></td><td colspan="2"></td><td id="id52073"></td><td></td><td colspan="2" id="id52074"></td><td></td><td id="id52075"></td><td></td><td></td></tr>
-<tr><td class="level">Lv.35</td><td></td><td colspan="2"></td><td id="id52081"></td><td colspan="2" id="id52082"></td><td></td><td id="id52083"></td><td colspan="2"></td><td id="id52084"></td><td></td><td id="id52085"></td><td id="id52086"></td></tr>
-<tr><td class="level">Lv.40</td><td id="id52091"></td><td colspan="2" id="id52092"></td><td id="id52093"></td><td colspan="2" id="id52094"></td><td id="id52095"></td><td id="id52096"></td><td colspan="2" id="id52097"></td><td id="id52098"></td><td id="id52099"></td><td id="id52100"></td><td id="id52101"></td></tr>
-<tr><td class="level">Lv.45</td><td id="id52111"></td><td colspan="2" id="id52112"></td><td id="id52113"></td><td colspan="2" id="id52114"></td><td id="id52115"></td><td id="id52116"></td><td colspan="2" id="id52117"></td><td id="id52118"></td><td id="id52119"></td><td id="id52120"></td><td id="id52121"></td></tr>
-<tr><td class="level">Lv.50</td><td id="id52131"></td><td></td><td></td><td id="id52132"></td><td></td><td id="id52133"></td><td></td><td id="id52134"></td><td id="id52135"></td><td></td><td id="id52136"></td><td id="id52137"></td><td></td><td></td></tr>
-<tr><td class="level">Lv.55</td><td id="id52164"></td><td id="id52151"></td><td id="id52152"></td><td></td><td id="id52153"></td><td></td><td id="id52154"></td><td></td><td id="id52163"></td><td id="id52155"></td><td id="id52158"></td><td></td><td id="id52156"></td><td id="id52157"></td></tr>
-<tr><td class="level">Lv.60</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="id52161"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td colspan="14">"The Absolute Powerful"</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td colspan="2">Tartaronis</td><td></td><td colspan="3">Red Shen Gaoren</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td id="id52122"></td><td id="id52159"><td></td></td><td></td><td id="id52160"></td></tr>
-</table>
-<table id="weapontalent">
-<tr>
-<td colspan="4"><h3>Weapon Talents</h3></td>
-</tr>
-<tr>
-<td class="tier">Tier 1<br>Lv.20</td>
-<td>Focused Chi Slash (集气斩) (R) can be used after reaching Chi gauge (练气槽) 1 or 2.</td>
-<td>Increase travel distance +50% during Side Slash (袈裟斩) and Inverse Side Slash (逆袈裟斩).</td>
-<td>Side Slash (袈裟斩) can be used again after using Inverse Side Slash (逆袈裟斩).</td>
-</tr>
-<tr>
-<td class="tier">Tier 2<br>Lv.40</td>
-<td>When the rank of Chi gauge  (练气槽) 3 drops, it will go from rank 3 to 1.</td>
-<td>Draw Focused Chi Slash (集气斩) "R" key, can be once every 120 sec at Chi gauge (练气槽) 3.</td>
-<td>Chi Blade Spin (拔刀集气斩) (right-click on Chi Blade 3) can be used right after Draw Focused Chi Slash (集气斩).</td>
-</tr>
-<tr>
-<td class="tier">Tier 3<br>Lv.55</td>
-<td>When Draw Focused Chi Slash (气刃急旋) hits, fill 100% of Chi gauge (练气槽).</td>
-<td>Every 20 sec at Chi gauge (练气槽) 3.</td>
-<td>Ougi  tier 1 (奥义一式): can get Chi gauge (练气槽) ranking buff (等级加成).<br>Ougi tier 2(奥义二式): last strike can up the rank of Chi gauge 3 (三段练气槽).</td>
-</tr>
-</table>
 
-
-</div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../../json/longsword.json"></script>
-<script src="../../js/mho.js"></script>
-<script src="../../js/weapon.js"></script>
-<script src="../../js/weapondrop.js"></script>
-<script type="text/javascript">weaponContent(longswordArray);</script>
-</body>
-</html> 
+          </div>
+        </li>
+      </ul>
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Site Info</h5>
+          <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Other Guides</h5>
+          <ul>
+            <li><a class="white-text" href="../../install/">Install Guide</a></li>
+            <li><a class="white-text" href="../../translation/">Translation Guide</a></li>
+            <li><a class="white-text" href="../../vip/">VIP Guide</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Discord</h5>
+          <ul>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/materialize.js"></script>
+  <script src="../js/longsword.js"></script>
+  <script src="../js/weapon.js"></script>
+  <script type="text/javascript">weaponContent(longswordArray);</script>
+  <script src="../../js/init.js"></script>
+  </body>
+</html>

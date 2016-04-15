@@ -1,685 +1,817 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Crafting</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Crafting</title>
+<!--CSS-->
+  <link href="../css/icon.css" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Crafting</h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
-
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../armor/">Armor</a></li>
+    <li><a href="../weapons/">Weapons</a></li>
+    <li><a href="../jewelry/">Jewelry</a></li>
+    <li class="active"><a href="#">Crafting</a></li>
+    <li><a href="../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../quests/">Quests</a></li>
+    <li><a href="../gathering/">Gathering</a></li>
+    <li><a href="../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../npcs/">Main NPCs</a></li>
+    <li><a href="../cats/">Cats</a></li>
+    <li><a href="../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+<li><a href="../">Home</a></li>
+<li><a href="../monsters/">Monsters</a></li>
+<li><a href="../skills/">Skills</a></li>
+<li class="active"><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+<li><a href="../" class="bold">Home</a></li>
+<li><a href="../monsters/" class="bold">Monsters</a></li>
+<li><a href="../skills/" class="bold">Skills</a></li>
+<li class="no-padding">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li class="active">
+    <a class="collapsible-header bold" href="#">Items</a>
+    <div class="collapsible-body">
+      <ul>
+<li><a href="../armor/">Armor</a></li>
+<li><a href="../weapons/">Weapons</a></li>
+<li><a href="../jewelry/">Jewelry</a></li>
+<li class="active"><a href="#">Crafting</a></li>
+<li><a href="../materials/">Materials</a></li><li class="divider"></li>
+<li><a href="../set-builder/">Set Builder</a></li>
+      </ul>
+    </div>
+    </li>
+</li>
+    <li>
+      <a class="collapsible-header bold" href="#">Hunting</a>
+      <div class="collapsible-body">
+<ul>
+  <li><a href="../quests/">Quests</a></li>
+  <li><a href="../gathering/">Gathering</a></li>
+  <li><a href="../hunting-groups/">Hunting Groups</a></li>
+</ul>
+      </div>
+    </li>
+</li>
+    <li>
+      <a class="collapsible-header bold" href="#">NPCs</a>
+      <div class="collapsible-body">
+<ul>
+  <li><a href="../npcs/">Main NPCs</a></li>
+  <li><a href="../cats/">Cats</a></li>
+  <li><a href="../food/">Food</a></li>
+</ul>
+      </div>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br><!--Content-->
+      <div class="card grey lighten-2">
+        <div class="card-content">
 
 <table id="craftingtable" class="w3-table" cellspacing="0">
 <tr class="border_bottom">
 <td colspan="4"><h3>Tab 1</h3></td>
 <tr class="border_bottom">
 <td rowspan="3">硬化药<br>Armorskin</td>
-<td rowspan="3"><img src="../images/item_icon_13.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_13.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts your Defense by 5.</FONT></td>
 </tr><tr>
-<td>增强剂x1 <img src="../images/mat_visceral_02_GRY.png" style="width: 22px"></td>
+<td>增强剂x1 <img src="../images/item/mat_visceral_02_GRY.png" style="width: 22px"></td>
 </tr><tr>
-<td>忍耐之种x2 <img src="../images/prop_plant_12.png" style="width: 22px"></td>
+<td>忍耐之种x2 <img src="../images/item/prop_plant_12.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">回复药<br>Potion</td>
-<td rowspan="3"><img src="../images/item_icon_01.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_01.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Restores 30 Health.</FONT></td>
 </tr><tr>
-<td>药草x1 <img src="../images/prop_herbs_01.png" style="width: 22px"></td>
+<td>药草x1 <img src="../images/item/prop_herbs_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝蘑菇x1 <img src="../images/prop_plant_01.png" style="width: 22px"></td>
+<td>蓝蘑菇x1 <img src="../images/item/prop_plant_01.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">热饮<br>Hot Drink</td>
-<td rowspan="3"><img src="../images/item_icon_10.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_10.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Provides temporary relief from extreme cold.</FONT></td>
 </tr><tr>
-<td>苦虫x1 <img src="../images/prop_insect_06.png" style="width: 22px"></td>
+<td>苦虫x1 <img src="../images/item/prop_insect_06.png" style="width: 22px"></td>
 </tr><tr>
-<td>野生辣椒x1 <img src="../images/prop_herbs_10.png" style="width: 22px"></td>
+<td>野生辣椒x1 <img src="../images/item/prop_herbs_10.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">生命之粉<br>Lifecrystals</td>
-<td rowspan="3"><img src="../images/item_icon_12.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_12.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#C6B262\">Mysterious crystals long worshipped as a source of life.</FONT></td>
 </tr><tr>
-<td>不死虫x1 <img src="../images/prop_insect_05.png" style="width: 22px"></td>
+<td>不死虫x1 <img src="../images/item/prop_insect_05.png" style="width: 22px"></td>
 </tr><tr>
-<td>迷之骨x1 <img src="../images/prop_bone_09.png" style="width: 22px"></td>
+<td>迷之骨x1 <img src="../images/item/prop_bone_09.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">活力剂<br>Vitality Agent</td>
-<td rowspan="3"><img src="../images/item_icon_12.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_12.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts speed of temporary loss of strength 5 points/second</FONT></td>
 </tr><tr>
-<td>增强剂x1 <img src="../images/mat_visceral_02_GRY.png" style="width: 22px"></td>
+<td>增强剂x1 <img src="../images/item/mat_visceral_02_GRY.png" style="width: 22px"></td>
 </tr><tr>
-<td>忍耐之种x2 <img src="../images/prop_herbs_11.png" style="width: 22px"></td>
+<td>忍耐之种x2 <img src="../images/item/prop_herbs_11.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">硬化药【G】<br>Mega Armorskin</td>
-<td rowspan="3"><img src="../images/item_icon_92.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_92.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts your Defense by 20.</FONT><BR></td>
 </tr><tr>
-<td>硬化药x1 <img src="../images/item_icon_13.png" style="width: 22px"></td>
+<td>硬化药x1 <img src="../images/item/item_icon_13.png" style="width: 22px"></td>
 </tr><tr>
-<td>忍耐果实x1 <img src="../images/prop_plant_10.png" style="width: 22px"></td>
+<td>忍耐果实x1 <img src="../images/item/prop_plant_10.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">营养剂【G】<br>Mega Nutrients</td>
-<td rowspan="4"><img src="../images/item_icon_93.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/item_icon_93.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Boosts maximum Health by 10.</FONT></td>
 </tr><tr>
-<td>营养剂x1 <img src="../images/item_icon_53.png" style="width: 22px"></td>
+<td>营养剂x1 <img src="../images/item/item_icon_53.png" style="width: 22px"></td>
 </tr><tr>
-<td>蜂蜜x3 <img src="../images/item_icon_72.png" style="width: 22px"></td>
+<td>蜂蜜x3 <img src="../images/item/item_icon_72.png" style="width: 22px"></td>
 </tr><tr>
-<td>神秘粉末x2 <img src="../images/item_icon_65.png" style="width: 22px"></td>
+<td>神秘粉末x2 <img src="../images/item/item_icon_65.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">营养剂<br>Nutrients</td>
-<td rowspan="3"><img src="../images/item_icon_53.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_53.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts maximum Health by 5.</FONT></td>
 </tr><tr>
-<td>蓝蘑菇x2 <img src="../images/prop_plant_01.png" style="width: 22px"></td>
+<td>蓝蘑菇x2 <img src="../images/item/prop_plant_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>不死虫x1 <img src="../images/prop_insect_05.png" style="width: 22px"></td>
+<td>不死虫x1 <img src="../images/item/prop_insect_05.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">眠肉<br>Drugged Meat</td>
-<td rowspan="4"><img src="../images/item_icon_23.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/item_icon_23.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Raw Meat that puts whatever eats it to sleep. Makes great bait for traps.</FONT></td>
 </tr><tr>
-<td>烤熟的肉x1 <img src="../images/item_icon_15.png" style="width: 22px"></td>
+<td>烤熟的肉x1 <img src="../images/item/item_icon_15.png" style="width: 22px"></td>
 </tr><tr>
-<td>睡眠草x1 <img src="../images/prop_herbs_06.png" style="width: 22px"></td>
+<td>睡眠草x1 <img src="../images/item/prop_herbs_06.png" style="width: 22px"></td>
 </tr><tr>
-<td>神秘粉末x1 <img src="../images/item_icon_65.png" style="width: 22px"></td>
+<td>神秘粉末x1 <img src="../images/item/item_icon_65.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">觉醒药<br>Awakening</td>
-<td rowspan="3"><img src="../images/item_icon_10.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_10.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts your Attack by 10 and your Defense by 20.</FONT></td>
 </tr><tr>
-<td>白化精华x1 <img src="../images/mat_scale_03.png" style="width: 22px"></td>
+<td>白化精华x1 <img src="../images/item/mat_scale_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>曼陀罗花x1 <img src="../images/prop_herbs_11.png" style="width: 22px"></td>
+<td>曼陀罗花x1 <img src="../images/item/prop_herbs_11.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">冻肉<br>Chilled Meat</td>
-<td rowspan="3"><img src="../images/item_icon_17.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_17.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Meat that cools the body, wards off heat, and boosts Stamina by 25.</FONT></td>
 </tr><tr>
-<td>烤熟的肉x1 <img src="../images/item_icon_15.png" style="width: 22px"></td>
+<td>烤熟的肉x1 <img src="../images/item/item_icon_15.png" style="width: 22px"></td>
 </tr><tr>
-<td>冰结晶x1 <img src="../images/prop_ore_14.png" style="width: 22px"></td>
+<td>冰结晶x1 <img src="../images/item/prop_ore_14.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">提神药<br>Energy Drink</td>
-<td rowspan="3"><img src="../images/item_icon_11.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_11.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts your Stamina limit by 10</FONT></td>
 </tr><tr>
-<td>蜂蜜x3 <img src="../images/item_icon_72.png" style="width: 22px"></td>
+<td>蜂蜜x3 <img src="../images/item/item_icon_72.png" style="width: 22px"></td>
 </tr><tr>
-<td>落阳草x1 <img src="../images/prop_herbs_02.png" style="width: 22px"></td>
+<td>落阳草x1 <img src="../images/item/prop_herbs_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">生命粉尘<br>Lifepowder</td>
-<td rowspan="4"><img src="../images/item_icon_58.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/item_icon_58.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >A Lifecrystal combination used as medicine. Heals with a single touch.</FONT></td>
 </tr><tr>
-<td>生命之粉x1 <img src="../images/item_icon_12.png" style="width: 22px"></td>
+<td>生命之粉x1 <img src="../images/item/item_icon_12.png" style="width: 22px"></td>
 </tr><tr>
-<td>鹿角x3 <img src="../images/mat_hair_01_BRW.png" style="width: 22px"></td>
+<td>鹿角x3 <img src="../images/item/mat_hair_01_BRW.png" style="width: 22px"></td>
 </tr><tr>
-<td>神秘粉末x3 <img src="../images/item_icon_65.png" style="width: 22px"></td>
+<td>神秘粉末x3 <img src="../images/item/item_icon_65.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">鬼人药<br>Demondrug</td>
-<td rowspan="3"><img src="../images/item_icon_10.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_10.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts your Attack by 5.</FONT></td>
 </tr><tr>
-<td>增强剂x1 <img src="../images/mat_visceral_02_GRY.png" style="width: 22px"></td>
+<td>增强剂x1 <img src="../images/item/mat_visceral_02_GRY.png" style="width: 22px"></td>
 </tr><tr>
-<td>怪力之种x2 <img src="../images/prop_plant_09.png" style="width: 22px"></td>
+<td>怪力之种x2 <img src="../images/item/prop_plant_09.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">回复药【G】<br>Mega Potion</td>
-<td rowspan="4"><img src="../images/item_icon_89.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/item_icon_89.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Restores 50 Health.</FONT></td>
 </tr><tr>
-<td>回复药x1 <img src="../images/item_icon_01.png" style="width: 22px"></td>
+<td>回复药x1 <img src="../images/item/item_icon_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>蜂蜜x1 <img src="../images/item_icon_72.png" style="width: 22px"></td>
+<td>蜂蜜x1 <img src="../images/item/item_icon_72.png" style="width: 22px"></td>
 </tr><tr>
-<td>神秘粉末x3 <img src="../images/item_icon_65.png" style="width: 22px"></td>
+<td>神秘粉末x3 <img src="../images/item/item_icon_65.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">解毒药<br>Antidote</td>
-<td rowspan="3"><img src="../images/item_icon_53.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_53.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Removes all traces of poison from your system.</FONT></td>
 </tr><tr>
-<td>解毒草x1 <img src="../images/prop_herbs_13.png" style="width: 22px"></td>
+<td>解毒草x1 <img src="../images/item/prop_herbs_13.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝蘑菇x1 <img src="../images/prop_plant_01.png" style="width: 22px"></td>
+<td>蓝蘑菇x1 <img src="../images/item/prop_plant_01.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">增强剂<br>Catalyst</td>
-<td rowspan="3"><img src="../images/mat_visceral_02_GRY.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/mat_visceral_02_GRY.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#C6B262\">Works with other materials to enhance their effects.</FONT></td>
 </tr><tr>
-<td>蜂蜜x3 <img src="../images/item_icon_72.png" style="width: 22px"></td>
+<td>蜂蜜x3 <img src="../images/item/item_icon_72.png" style="width: 22px"></td>
 </tr><tr>
-<td>苦虫x1 <img src="../images/prop_insect_06.png" style="width: 22px"></td>
+<td>苦虫x1 <img src="../images/item/prop_insect_06.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">鬼人药【G】<br>Mega Demondrug</td>
-<td rowspan="3"><img src="../images/item_icon_91.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_91.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Boosts your Attack by 10.</FONT></td>
 </tr><tr>
-<td>鬼人药x1 <img src="../images/item_icon_10.png" style="width: 22px"></td>
+<td>鬼人药x1 <img src="../images/item/item_icon_10.png" style="width: 22px"></td>
 </tr><tr>
-<td>怪力果实x1 <img src="../images/prop_plant_09.png" style="width: 22px"></td>
+<td>怪力果实x1 <img src="../images/item/prop_plant_09.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">冷饮<br>Cool Drink</td>
-<td rowspan="3"><img src="../images/item_icon_09.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_09.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Provides temporary relief from extreme heat.</FONT></td>
 </tr><tr>
-<td>苦虫x1 <img src="../images/prop_insect_06.png" style="width: 22px"></td>
+<td>苦虫x1 <img src="../images/item/prop_insect_06.png" style="width: 22px"></td>
 </tr><tr>
-<td>冰结晶x1 <img src="../images/prop_ore_14.png" style="width: 22px"></td>
+<td>冰结晶x1 <img src="../images/item/prop_ore_14.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">强走药<br>Dash Juice</td>
-<td rowspan="3"><img src="../images/item_icon_11.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_11.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Lets you run without tiring for a period of time.</FONT></td>
 </tr><tr>
-<td>白化精华x1 <img src="../images/mat_scale_03.png" style="width: 22px"></td>
+<td>白化精华x1 <img src="../images/item/mat_scale_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>曼陀罗花x1 <img src="../images/prop_herbs_11.png" style="width: 22px"></td>
+<td>曼陀罗花x1 <img src="../images/item/prop_herbs_11.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">毒肉<br>Poisoned Meat</td>
-<td rowspan="4"><img src="../images/item_icon_22.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/item_icon_22.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Raw Meat that poisons whatever eats it. Makes great bait for traps.</FONT></td>
 </tr><tr>
-<td>烤熟的肉x1 <img src="../images/item_icon_15.png" style="width: 22px"></td>
+<td>烤熟的肉x1 <img src="../images/item/item_icon_15.png" style="width: 22px"></td>
 </tr><tr>
-<td>毒蘑菇x1 <img src="../images/prop_plant_05.png" style="width: 22px"></td>
+<td>毒蘑菇x1 <img src="../images/item/prop_plant_05.png" style="width: 22px"></td>
 </tr><tr>
-<td>神秘粉末x1 <img src="../images/item_icon_65.png" style="width: 22px"></td>
+<td>神秘粉末x1 <img src="../images/item/item_icon_65.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">麻肉<br>Tinged Meat</td>
-<td rowspan="4"><img src="../images/item_icon_24.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/item_icon_24.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Raw Meat that paralyzes whatever eats it. Makes great bait for traps.</FONT></td>
 </tr><tr>
-<td>烤熟的肉x1 <img src="../images/item_icon_15.png" style="width: 22px"></td>
+<td>烤熟的肉x1 <img src="../images/item/item_icon_15.png" style="width: 22px"></td>
 </tr><tr>
-<td>麻痹蘑菇x1 <img src="../images/prop_plant_03.png" style="width: 22px"></td>
+<td>麻痹蘑菇x1 <img src="../images/item/prop_plant_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>神秘粉末x1 <img src="../images/item_icon_65.png" style="width: 22px"></td>
+<td>神秘粉末x1 <img src="../images/item/item_icon_65.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td colspan="4"><h3>Tab 2</h3></td>
 <tr class="border_bottom">
 <td rowspan="3">铁镐<br>Pickaxe</td>
-<td rowspan="3"><img src="../images/prop_tool_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_tool_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Used for mining.</FONT></td>
 </tr><tr>
-<td>铁矿石x1 <img src="../images/prop_ore_03.png" style="width: 22px"></td>
+<td>铁矿石x1 <img src="../images/item/prop_ore_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>棒状之骨x1 <img src="../images/prop_bone_06.png" style="width: 22px"></td>
+<td>棒状之骨x1 <img src="../images/item/prop_bone_06.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">捕虫网<br>Bug Net</td>
-<td rowspan="3"><img src="../images/prop_tool_04.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_tool_04.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Used for catching Bugs.</FONT></td>
 </tr><tr>
-<td>网×1 <img src="../images/17.png" style="width: 22px"></td>
+<td>网×1 <img src="../images/item/17.png" style="width: 22px"></td>
 </tr><tr>
-<td>龙骨【小】×1 <img src="../images/prop_bone_01.png" style="width: 22px"></td>
+<td>龙骨【小】×1 <img src="../images/item/prop_bone_01.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">捕鱼套装<br>Fishing Kit</td>
-<td rowspan="3"><img src="../images/prop_tool_10.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_tool_10.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Used for catching fish.</FONT></td>
 </tr><tr>
-<td>黏着草×1 <img src="../images/prop_herbs_14.png" style="width: 22px"></td>
+<td>黏着草×1 <img src="../images/item/prop_herbs_14.png" style="width: 22px"></td>
 </tr><tr>
-<td>兽骨【小】×1 <img src="../images/prop_bone_03_YEL.png" style="width: 22px"></td>
+<td>兽骨【小】×1 <img src="../images/item/prop_bone_03_YEL.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">小桶爆弹<br>Barrel Bomb S</td>
-<td rowspan="3"><img src="../images/item_icon_37.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_37.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A Small time bomb.</FONT></td>
 </tr><tr>
-<td>小桶×1 <img src="../images/item_icon_56.png" style="width: 22px"></td>
+<td>小桶×1 <img src="../images/item/item_icon_56.png" style="width: 22px"></td>
 </tr><tr>
-<td>火药草×1 <img src="../images/prop_herbs_04.png" style="width: 22px"></td>
+<td>火药草×1 <img src="../images/item/prop_herbs_04.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">网<br>Net</td>
-<td rowspan="3"><img src="../images/17.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/17.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A sturdy net able to support a certain amount of weight without breaking.</FONT></td>
 </tr><tr>
-<td>蜘蛛的巢穴×1 <img src="../images/17.png" style="width: 22px"></td>
+<td>蜘蛛的巢穴×1 <img src="../images/item/17.png" style="width: 22px"></td>
 </tr><tr>
-<td>常春藤叶×1 <img src="../images/prop_herbs_03.png" style="width: 22px"></td>
+<td>常春藤叶×1 <img src="../images/item/prop_herbs_03.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">捕获用麻醉药<br>Tranquilizer</td>
-<td rowspan="3"><img src="../images/item_icon_10.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_10.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Medicine that works as an anesthetic when Combined.</FONT></td>
 </tr><tr>
-<td>睡眠草×1 <img src="../images/prop_herbs_06.png" style="width: 22px"></td>
+<td>睡眠草×1 <img src="../images/item/prop_herbs_06.png" style="width: 22px"></td>
 </tr><tr>
-<td>麻痹蘑菇×1 <img src="../images/prop_plant_03.png" style="width: 22px"></td>
+<td>麻痹蘑菇×1 <img src="../images/item/prop_plant_03.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">烟雾玉<br>Smoke Bomb</td>
-<td rowspan="3"><img src="../images/item_icon_81.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_81.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Creates a large cloud of smoke wherever it lands.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>常春藤叶×2 <img src="../images/prop_herbs_03.png" style="width: 22px"></td>
+<td>常春藤叶×2 <img src="../images/item/prop_herbs_03.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">素材玉<br>Bomb Casing</td>
-<td rowspan="3"><img src="../images/5.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/5.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A base material for making hand-thrown bombs.</FONT></td>
 </tr><tr>
-<td>黏着草×1 <img src="../images/prop_herbs_14.png" style="width: 22px"></td>
+<td>黏着草×1 <img src="../images/item/prop_herbs_14.png" style="width: 22px"></td>
 </tr><tr>
-<td>小石子×1 <img src="../images/prop_ore_11.png" style="width: 22px"></td>
+<td>小石子×1 <img src="../images/item/prop_ore_11.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">通常弹2级<br>Normal S Lv2</td>
-<td rowspan="3"><img src="../images/prop_bullet_01.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_01.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Non-specialized ammo. More powerful than Lv1</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>针果×1 <img src="../images/prop_plant_13.png" style="width: 22px"></td>
+<td>针果×1 <img src="../images/item/prop_plant_13.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">彻甲榴弹1级<br>Crag S Lv1</td>
-<td rowspan="3"><img src="../images/prop_bullet_02.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_02.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Very powerful ammo that lodges in a target, then explodes.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>硝化蘑菇×2 <img src="../images/prop_plant_02.png" style="width: 22px"></td>
+<td>硝化蘑菇×2 <img src="../images/item/prop_plant_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">彻甲榴弹3级<br>Crag S Lv3</td>
-<td rowspan="3"><img src="../images/prop_bullet_02.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_02.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Very powerful ammo that lodges in a target, then explodes.</FONT></td>
 </tr><tr>
-<td>空心骨【小】×2 <img src="../images/prop_bone_01.png" style="width: 22px"></td>
+<td>空心骨【小】×2 <img src="../images/item/prop_bone_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>爆裂龙鱼×3 <img src="../images/prop_fish_04.png" style="width: 22px"></td>
+<td>爆裂龙鱼×3 <img src="../images/item/prop_fish_04.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">散弹2级<br>Pellet S Lv2</td>
-<td rowspan="3"><img src="../images/prop_bullet_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Ammo that hits a wide area. Higher-level ammo deals additional hits.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>扩散金鱼×2 <img src="../images/prop_fish_05.png" style="width: 22px"></td>
+<td>扩散金鱼×2 <img src="../images/item/prop_fish_05.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">回家玉<br>Farcaster</td>
-<td rowspan="3"><img src="../images/item_icon_83.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_83.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Instantly transports you back to base camp.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>兴奋蘑菇×1 <img src="../images/prop_plant_01.png" style="width: 22px"></td>
+<td>兴奋蘑菇×1 <img src="../images/item/prop_plant_01.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">贯通弹1级<br>Pierce S Lv1</td>
-<td rowspan="3"><img src="../images/prop_bullet_04.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_04.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Armor-piercing ammo that deals multiple hits to some monsters.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>贯通果×2 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>贯通果×2 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">贯通弹3级<br>Pierce S Lv3</td>
-<td rowspan="3"><img src="../images/prop_bullet_04.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_04.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Armor-piercing ammo that deals multiple hits to some monsters.</FONT></td>
 </tr><tr>
-<td>空心骨【小】×2 <img src="../images/prop_bone_01.png" style="width: 22px"></td>
+<td>空心骨【小】×2 <img src="../images/item/prop_bone_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>针金枪鱼×3 <img src="../images/prop_fish_09.png" style="width: 22px"></td>
+<td>针金枪鱼×3 <img src="../images/item/prop_fish_09.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">麻痹弹<br>Para S</td>
-<td rowspan="4"><img src="../images/prop_bullet_08.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_08.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo that causes paralysis. Some targets require multiple shots.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>麻痹蘑菇×5 <img src="../images/prop_plant_03.png" style="width: 22px"></td>
+<td>麻痹蘑菇×5 <img src="../images/item/prop_plant_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝湖石×1 <img src="../images/prop_ore_02.png" style="width: 22px"></td>
+<td>蓝湖石×1 <img src="../images/item/prop_ore_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">火焰弹<br>Flaming S</td>
-<td rowspan="4"><img src="../images/prop_bullet_14.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_14.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo that packs extra punch against monsters susceptible to fire.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>火药草×5 <img src="../images/prop_herbs_04.png" style="width: 22px"></td>
+<td>火药草×5 <img src="../images/item/prop_herbs_04.png" style="width: 22px"></td>
 </tr><tr>
-<td>铃芽草×1 <img src="../images/prop_herbs_07.png" style="width: 22px"></td>
+<td>铃芽草×1 <img src="../images/item/prop_herbs_07.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">电击弹<br>Thunder S</td>
-<td rowspan="4"><img src="../images/prop_bullet_16.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_16.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo that packs extra punch against monsters susceptible to Thunder.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>光虫×5 <img src="../images/prop_insect_07.png" style="width: 22px"></td>
+<td>光虫×5 <img src="../images/item/prop_insect_07.png" style="width: 22px"></td>
 </tr><tr>
-<td>铃芽草×1 <img src="../images/prop_herbs_07.png" style="width: 22px"></td>
+<td>铃芽草×1 <img src="../images/item/prop_herbs_07.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">空填充器<br>Empty Phial</td>
-<td rowspan="3"><img src="../images/prop_bottle_01.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bottle_01.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A regular old empty phial.</FONT></td>
 </tr><tr>
-<td>空心骨【小】×1 <img src="../images/prop_bone_01.png" style="width: 22px"></td>
+<td>空心骨【小】×1 <img src="../images/item/prop_bone_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>砥石×5 <img src="../images/item_icon_05.png" style="width: 22px"></td>
+<td>砥石×5 <img src="../images/item/item_icon_05.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">接击液填充器<br>C.Range Coating</td>
-<td rowspan="3"><img src="../images/prop_bottle_07.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bottle_07.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >An arrow coating that increases close-range power and melee Sharpness.</FONT></td>
 </tr><tr>
-<td>空填充器×1 <img src="../images/prop_bottle_01.png" style="width: 22px"></td>
+<td>空填充器×1 <img src="../images/item/prop_bottle_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>切味鱼×2 <img src="../images/prop_fish_10.png" style="width: 22px"></td>
+<td>切味鱼×2 <img src="../images/item/prop_fish_10.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">眠液填充器<br>Sleep Coating</td>
-<td rowspan="4"><img src="../images/prop_bottle_06.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bottle_06.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >An arrow coating that applies Sleep effects to arrows fired.</FONT></td>
 </tr><tr>
-<td>空填充器×1 <img src="../images/prop_bottle_01.png" style="width: 22px"></td>
+<td>空填充器×1 <img src="../images/item/prop_bottle_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>睡眠草×3 <img src="../images/prop_herbs_06.png" style="width: 22px"></td>
+<td>睡眠草×3 <img src="../images/item/prop_herbs_06.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝湖石×1 <img src="../images/prop_ore_02.png" style="width: 22px"></td>
+<td>蓝湖石×1 <img src="../images/item/prop_ore_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">音爆手雷<br>Sonic Grenade</td>
-<td rowspan="3"><img src="../images/item_icon_47.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_47.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >.A grenade that emits a high frequency blast of sound and deals sonic damage.</FONT></td>
 </tr><tr>
-<td>完整的鸣袋×1 <img src="../images/mat_visceral_03_GRN.png" style="width: 22px"></td>
+<td>完整的鸣袋×1 <img src="../images/item/mat_visceral_03_GRN.png" style="width: 22px"></td>
 </tr><tr>
-<td>炸药×1 <img src="../images/item_icon_38.png" style="width: 22px"></td>
+<td>炸药×1 <img src="../images/item/item_icon_38.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">炸药<br>Dynamite</td>
-<td rowspan="3"><img src="../images/item_icon_38.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_38.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Explosives for making Barrel Bombs.</FONT></td>
 </tr><tr>
-<td>火药草×1 <img src="../images/prop_herbs_04.png" style="width: 22px"></td>
+<td>火药草×1 <img src="../images/item/prop_herbs_04.png" style="width: 22px"></td>
 </tr><tr>
-<td>硝化蘑菇×1 <img src="../images/prop_plant_02.png" style="width: 22px"></td>
+<td>硝化蘑菇×1 <img src="../images/item/prop_plant_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">大便玉<br>Dung Bomb</td>
-<td rowspan="3"><img src="../images/18.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/18.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Releases an odor monsters find repulsive. It may even drive them away... Or not.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>怪物粪便×1 <img src="../images/18.png" style="width: 22px"></td>
+<td>怪物粪便×1 <img src="../images/item/18.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">大桶爆弹<br>Barrel Bomb L</td>
-<td rowspan="3"><img src="../images/item_icon_38.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_38.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A potent bomb that detonates on impact.</FONT></td>
 </tr><tr>
-<td>大桶×1 <img src="../images/item_icon_57.png" style="width: 22px"></td>
+<td>大桶×1 <img src="../images/item/item_icon_57.png" style="width: 22px"></td>
 </tr><tr>
-<td>炸药×1 <img src="../images/item_icon_38.png" style="width: 22px"></td>
+<td>炸药×1 <img src="../images/item/item_icon_38.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">音爆玉<br>Sonic Bomb</td>
-<td rowspan="3"><img src="../images/item_icon_07.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_07.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A grenade-like item that emits a high frequency blast of sound on detonation.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>炸药×1 <img src="../images/item_icon_38.png" style="width: 22px"></td>
+<td>炸药×1 <img src="../images/item/item_icon_38.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">贯通弹2级<br>Pierce S Lv2</td>
-<td rowspan="3"><img src="../images/prop_bullet_04.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_04.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Armor-piercing ammo that deals multiple hits to some monsters.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>金枪鱼×2 <img src="../images/prop_fish_08.png" style="width: 22px"></td>
+<td>金枪鱼×2 <img src="../images/item/prop_fish_08.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">散弹3级<br>Pellet S Lv3</td>
-<td rowspan="3"><img src="../images/prop_bullet_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Ammo that hits a wide area. Higher-level ammo deals additional hits.</FONT></td>
 </tr><tr>
-<td>空心骨【小】×1 <img src="../images/prop_bone_01.png" style="width: 22px"></td>
+<td>空心骨【小】×1 <img src="../images/item/prop_bone_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>扩散凸眼金鱼×3 <img src="../images/prop_fish_06.png" style="width: 22px"></td>
+<td>扩散凸眼金鱼×3 <img src="../images/item/prop_fish_06.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">猛毒弹<br>Poison S</td>
-<td rowspan="4"><img src="../images/prop_bullet_07.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_07.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo dipped in Poison. Some targets require multiple shots.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>毒蘑菇×1 <img src="../images/prop_plant_05.png" style="width: 22px"></td>
+<td>毒蘑菇×1 <img src="../images/item/prop_plant_05.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝湖石×1 <img src="../images/prop_ore_02.png" style="width: 22px"></td>
+<td>蓝湖石×1 <img src="../images/item/prop_ore_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">毒烟雾玉<br>Poison Smoke Bomb</td>
-<td rowspan="3"><img src="../images/item_icon_82.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_82.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Creates a large cloud of poison gas wherever it lands..</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>毒蘑菇×1 <img src="../images/prop_plant_05.png" style="width: 22px"></td>
+<td>毒蘑菇×1 <img src="../images/item/prop_plant_05.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">捕获用麻醉玉<br>Tranq Bomb</td>
-<td rowspan="3"><img src="../images/item_icon_30.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_30.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >A hand grenade used to capture monsters ensnared in traps. 2 are required.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>捕获用麻醉药×1 <img src="../images/item_icon_10.png" style="width: 22px"></td>
+<td>捕获用麻醉药×1 <img src="../images/item/item_icon_10.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">消臭玉<br>Deodorant</td>
-<td rowspan="3"><img src="../images/item_icon_80.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_80.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >An item that cures Stench. Releases a puff of deoderizing smoke when thrown down.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>霜降草×2 <img src="../images/prop_herbs_17.png" style="width: 22px"></td>
+<td>霜降草×2 <img src="../images/item/prop_herbs_17.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">水冷弹<br>Water S</td>
-<td rowspan="4"><img src="../images/prop_bullet_15.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_15.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo that packs extra punch against monsters susceptible to Water.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>切味鱼×5 <img src="../images/prop_fish_10.png" style="width: 22px"></td>
+<td>切味鱼×5 <img src="../images/item/prop_fish_10.png" style="width: 22px"></td>
 </tr><tr>
-<td>铃芽草×1 <img src="../images/prop_herbs_07.png" style="width: 22px"></td>
+<td>铃芽草×1 <img src="../images/item/prop_herbs_07.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">致眠弹<br>Sleep S</td>
-<td rowspan="4"><img src="../images/prop_bullet_09.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_09.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo containing a sleeping agent. Some targets require multiple shots.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>睡眠草×5 <img src="../images/prop_herbs_06.png" style="width: 22px"></td>
+<td>睡眠草×5 <img src="../images/item/prop_herbs_06.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝湖石×1 <img src="../images/prop_ore_02.png" style="width: 22px"></td>
+<td>蓝湖石×1 <img src="../images/item/prop_ore_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">染色玉<br>Paintball</td>
-<td rowspan="3"><img src="../images/item_icon_25.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_25.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Toss this scented paint at a monster to mark it, allowing you to track its position.</FONT></td>
 </tr><tr>
-<td>黏着草×1 <img src="../images/prop_herbs_14.png" style="width: 22px"></td>
+<td>黏着草×1 <img src="../images/item/prop_herbs_14.png" style="width: 22px"></td>
 </tr><tr>
-<td>染色果×1 <img src="../images/prop_plant_08.png" style="width: 22px"></td>
+<td>染色果×1 <img src="../images/item/prop_plant_08.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">冰结弹<br>Freeze S</td>
-<td rowspan="4"><img src="../images/prop_bullet_17.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bullet_17.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >Ammo that packs extra punch against monsters susceptible to Ice.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>冰结晶×5 <img src="../images/prop_ore_14.png" style="width: 22px"></td>
+<td>冰结晶×5 <img src="../images/item/prop_ore_14.png" style="width: 22px"></td>
 </tr><tr>
-<td>铃芽草×1 <img src="../images/prop_herbs_07.png" style="width: 22px"></td>
+<td>铃芽草×1 <img src="../images/item/prop_herbs_07.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">散弹1级<br>Pellet S Lv1</td>
-<td rowspan="3"><img src="../images/prop_bullet_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Ammo that hits a wide area. Higher-level ammo deals additional hits.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>爆裂核桃×2 <img src="../images/prop_plant_12.png" style="width: 22px"></td>
+<td>爆裂核桃×2 <img src="../images/item/prop_plant_12.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">强击液填充器<br>Power Coating</td>
-<td rowspan="3"><img src="../images/prop_bottle_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bottle_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >An arrow coating that increases the Attack of arrows fired.</FONT></td>
 </tr><tr>
-<td>空填充器×1 <img src="../images/prop_bottle_01.png" style="width: 22px"></td>
+<td>空填充器×1 <img src="../images/item/prop_bottle_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>硝化蘑菇×2 <img src="../images/prop_plant_02.png" style="width: 22px"></td>
+<td>硝化蘑菇×2 <img src="../images/item/prop_plant_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">彻甲榴弹2级<br>Crag S Lv2</td>
-<td rowspan="3"><img src="../images/prop_bullet_02.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_02.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Very powerful ammo that lodges in a target, then explodes.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>破裂龙鱼×2 <img src="../images/prop_fish_03.png" style="width: 22px"></td>
+<td>破裂龙鱼×2 <img src="../images/item/prop_fish_03.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">毒液填充器<br>Poison Coating</td>
-<td rowspan="4"><img src="../images/prop_bottle_04.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bottle_04.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >An arrow coating that applies Poison effects to arrows fired.</FONT></td>
 </tr><tr>
-<td>空填充器×1 <img src="../images/prop_bottle_01.png" style="width: 22px"></td>
+<td>空填充器×1 <img src="../images/item/prop_bottle_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>毒蘑菇×3 <img src="../images/prop_plant_05.png" style="width: 22px"></td>
+<td>毒蘑菇×3 <img src="../images/item/prop_plant_05.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝湖石×1 <img src="../images/prop_ore_02.png" style="width: 22px"></td>
+<td>蓝湖石×1 <img src="../images/item/prop_ore_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">闪光玉<br>Flash Bomb</td>
-<td rowspan="3"><img src="../images/item_icon_06.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_06.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Flashes brightly on impact. Toss this right under a monster's nose to blind it.</FONT></td>
 </tr><tr>
-<td>素材玉×1 <img src="../images/5.png" style="width: 22px"></td>
+<td>素材玉×1 <img src="../images/item/5.png" style="width: 22px"></td>
 </tr><tr>
-<td>光虫×2 <img src="../images/prop_insect_07.png" style="width: 22px"></td>
+<td>光虫×2 <img src="../images/item/prop_insect_07.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="4">麻液填充器<br>Para Coating</td>
-<td rowspan="4"><img src="../images/prop_bottle_05.png" style="width: 32px"></td>
+<td rowspan="4"><img src="../images/item/prop_bottle_05.png" style="width: 32px"></td>
 <td rowspan="4"><FONT COLOR=\"#68A16A\" >An arrow coating that applies Paralysis effects to arrows fired.</FONT></td>
 </tr><tr>
-<td>空填充器×1 <img src="../images/prop_bottle_01.png" style="width: 22px"></td>
+<td>空填充器×1 <img src="../images/item/prop_bottle_01.png" style="width: 22px"></td>
 </tr><tr>
-<td>麻痹蘑菇×3 <img src="../images/prop_plant_03.png" style="width: 22px"></td>
+<td>麻痹蘑菇×3 <img src="../images/item/prop_plant_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>蓝湖石×1 <img src="../images/prop_ore_02.png" style="width: 22px"></td>
+<td>蓝湖石×1 <img src="../images/item/prop_ore_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">通常弹3级<br>Normal S Lv3</td>
-<td rowspan="3"><img src="../images/prop_bullet_01.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_bullet_01.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Non-specialized ammo. More powerful than Lv2.</FONT></td>
 </tr><tr>
-<td>空心果×1 <img src="../images/prop_plant_17.png" style="width: 22px"></td>
+<td>空心果×1 <img src="../images/item/prop_plant_17.png" style="width: 22px"></td>
 </tr><tr>
-<td>沙丁鱼×2 <img src="../images/prop_fish_02.png" style="width: 22px"></td>
+<td>沙丁鱼×2 <img src="../images/item/prop_fish_02.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">高级武器玉<br>Weapon Sphere+</td>
-<td rowspan="3"><img src="../images/prop_jewel_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/prop_jewel_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Fuse this high-quality Weapon Sphere to existing weapons to enchant them.</FONT></td>
 </tr><tr>
-<td>武器玉×3 <img src="../images/prop_jewel_03.png" style="width: 22px"></td>
+<td>武器玉×3 <img src="../images/item/prop_jewel_03.png" style="width: 22px"></td>
 </tr><tr>
-<td>突破玉×1 <img src="../images/mat_jade_04.png" style="width: 22px"></td>
+<td>突破玉×1 <img src="../images/item/mat_jade_04.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">麻痹陷阱<br>Shock Trap</td>
-<td rowspan="3"><img src="../images/item_icon_03.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_03.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Immobilizes a target. You can use this to capture monsters.</FONT></td>
 </tr><tr>
-<td>陷阱机关×1 <img src="../images/item_icon_68.png" style="width: 22px"></td>
+<td>陷阱机关×1 <img src="../images/item/item_icon_68.png" style="width: 22px"></td>
 </tr><tr>
-<td>雷光虫×1 <img src="../images/prop_insect_07.png" style="width: 22px"></td>
+<td>雷光虫×1 <img src="../images/item/prop_insect_07.png" style="width: 22px"></td>
 </tr>
 <tr class="border_bottom">
 <td rowspan="3">落穴<br>Pitfall Trap</td>
-<td rowspan="3"><img src="../images/item_icon_31.png" style="width: 32px"></td>
+<td rowspan="3"><img src="../images/item/item_icon_31.png" style="width: 32px"></td>
 <td rowspan="3"><FONT COLOR=\"#68A16A\" >Activates when something heavy walks across. You can use this to capture monsters.</FONT></td>
 </tr><tr>
-<td>陷阱机关×1 <img src="../images/item_icon_68.png" style="width: 22px"></td>
+<td>陷阱机关×1 <img src="../images/item/item_icon_68.png" style="width: 22px"></td>
 </tr><tr>
-<td>网×1 <img src="../images/17.png" style="width: 22px"></td>
+<td>网×1 <img src="../images/item/17.png" style="width: 22px"></td>
 </tr>
 </table>
 
+        </div>
+      </div>
 
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+<div class="col l6 s12">
+  <h5 class="white-text">Site Info</h5>
+  <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
 </div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
+<div class="col l3 s12">
+  <h5 class="white-text">Other Guides</h5>
+  <ul>
+    <li><a class="white-text" href="../install/">Install Guide</a></li>
+    <li><a class="white-text" href="../translation/">Translation Guide</a></li>
+    <li><a class="white-text" href="../vip/">VIP Guide</a></li>
+  </ul>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/mho.js"></script>
-</body>
-</html> 
+<div class="col l3 s12">
+  <h5 class="white-text">Discord</h5>
+  <ul>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+  </body>
+</html>

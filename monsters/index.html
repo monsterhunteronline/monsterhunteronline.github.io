@@ -1,84 +1,469 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Monsters</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Monsters</title>
+
+<!--CSS-->
+  <link href="../css/icon.css" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Monsters</h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
-
-
-<div>
-<div class="w3-row">
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/bulldrome"><img src="../images/Bulldrome.png" style="max-width: 102px"></a><h3>Bulldrome</h3><h3>(野猪王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/velocidrome"><img src="../images/Velocidrome.png" style="max-width: 102px"></a><h3>Velocidrome</h3><h3>(蓝速龙王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/caeserber"><img src="../images/Caeserber.png" style="max-width: 102px"></a><h3>Caeserber</h3><h3>(河狸兽)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/yian-kut-ku"><img src="../images/Yian-Kut-Ku.png" style="max-width: 102px"></a><h3>Yian Kut-Ku</h3><h3>(大怪鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/gendrome"><img src="../images/Gendrome.png" style="max-width: 102px"></a><h3>Gendrome</h3><h3>(黄速龙王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/baelidae"><img src="../images/Baelidae.png" style="max-width: 102px"></a><h3>Baelidae</h3><h3>(鬼狩蛛)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/yellow-caeserber"><img src="../images/Yellow-Caeserber.png" style="max-width: 102px"></a><h3>Yellow Caeserber</h3><h3>(沙狸兽)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/gypceros"><img src="../images/Gypceros.png" style="max-width: 102px"></a><h3>Gypceros</h3><h3>(毒怪鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/congalala"><img src="../images/Congalala.png" style="max-width: 102px"></a><h3>Congalala</h3><h3>(桃毛兽王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/chramine"><img src="../images/Chramine.png" style="max-width: 102px"></a><h3>Chramine</h3><h3>(沙雷鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/cephadrome"><img src="../images/Cephadrome.png" style="max-width: 102px"></a><h3>Cephadrome</h3><h3>(沙龙王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/daimyo-hermitaur"><img src="../images/Daimyo-Hermitaur.png" style="max-width: 102px"></a><h3>Daimyo Hermitaur</h3><h3>(大名盾蟹)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/blue-yian-kut-ku"><img src="../images/Blue-Yian-Kut-Ku.png" style="max-width: 102px"></a><h3>Blue Yian Kut-Ku</h3><h3>(青怪鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/khezu"><img src="../images/Khezu.png" style="max-width: 102px"></a><h3>Khezu</h3><h3>(电龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/basarios"><img src="../images/Basarios.png" style="max-width: 102px"></a><h3>Basarios</h3><h3>(岩龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/hypnocatrice"><img src="../images/Hypnocatrice.png" style="max-width: 102px"></a><h3>Hypnocatrice</h3><h3>(眠鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/gold-congalala"><img src="../images/Gold-Congalala.png" style="max-width: 102px"></a><h3>Gold Congalala</h3><h3>(金毛兽王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/dread-baelidae"><img src="../images/Dread-Baelidae.png" style="max-width: 102px"></a><h3>Dread Baelidae</h3><h3>(骇狩蛛)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/purple-gypceros"><img src="../images/Purple-Gypceros.png" style="max-width: 102px"></a><h3>Purple Gypceros</h3><h3>(紫毒鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/shogun-ceanataur"><img src="../images/Shogun-Ceanataur.png" style="max-width: 102px"></a><h3>Shogun Ceanataur</h3><h3>(将军镰蟹)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/blangonga"><img src="../images/Blangonga.png" style="max-width: 102px"></a><h3>Blangonga</h3><h3>(雪狮子王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/estrellian"><img src="../images/Estrellian.png" style="max-width: 102px"></a><h3>Estrellian</h3><h3>(星龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/ice-chramine"><img src="../images/Ice-Chramine.png" style="max-width: 102px"></a><h3>Ice Chramine</h3><h3>(冰雷鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/silver-hypnocatrice"><img src="../images/Silver-Hypnocatrice.png" style="max-width: 102px"></a><h3>Silver Hypnocatrice</h3><h3>(银眠鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/akura-vashimu"><img src="../images/Akura-Vashimu.png" style="max-width: 102px"></a><h3>Akura Vashimu</h3><h3>(尾晶蝎)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/yian-garuga"><img src="../images/Yian-Garuga.png" style="max-width: 102px"></a><h3>Yian Garuga</h3><h3>(黑狼鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/red-khezu"><img src="../images/Red-Khezu.png" style="max-width: 102px"></a><h3>Red Khezu</h3><h3>(红电龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/monoblos"><img src="../images/Monoblos.png" style="max-width: 102px"></a><h3>Monoblos</h3><h3>(一角龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/doom-estrellian"><img src="../images/Doom-Estrellian.png" style="max-width: 102px"></a><h3>Doom Estrellian</h3><h3>(祸星龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/rathian"><img src="../images/Rathian.png" style="max-width: 102px"></a><h3>Rathian</h3><h3>(雌火龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/iodrome"><img src="../images/Iodrome.png" style="max-width: 102px"></a><h3>Iodrome</h3><h3>(红速龙王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/giadrome"><img src="../images/Giadrome.png" style="max-width: 102px"></a><h3>Giadrome</h3><h3>(白速龙王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/swordmaster-shogun-ceanataur"><img src="../images/Shogun-Ceanataur.png" style="max-width: 102px"></a><h3>Swordmaster Shogun Ceanataur</h3><h3>(剑豪镰蟹)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/ghost-caeserber"><img src="../images/Caeserber.png" style="max-width: 102px"></a><h3>Ghost Caeserber</h3><h3>(战鬼河狸兽)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/crystal-basarios"><img src="../images/Basarios.png" style="max-width: 102px"></a><h3>Crystal Basarios</h3><h3>(晶岩龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/one-eared-yian-garuga"><img src="../images/Yian-Garuga.png" style="max-width: 102px"></a><h3>One-Eared Yian Garuga</h3><h3>(独耳黑狼鸟)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/conflagration-rathian"><img src="../images/Rathian.png" style="max-width: 102px"></a><h3>Conflagration Rathian</h3><h3>(烈焰女王)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/shattered-monoblos"><img src="../images/Monoblos.png" style="max-width: 102px"></a><h3>Shattered Monoblos</h3><h3>(断刃一角龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/tartaronis"><img src="../images/Tartaronis.png" style="max-width: 102px"></a><h3>Tartaronis</h3><h3>(吞渊龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/rathalos"><img src="../images/Rathalos.png" style="max-width: 102px"></a><h3>Rathalos</h3><h3>(雄火龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/shen-gaoren"><img src="../images/Shen-Gaoren.png" style="max-width: 102px"></a><h3>Shen Gaoren</h3><h3>(砦蟹)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/tigrex"><img src="../images/Tigrex.png" style="max-width: 102px"></a><h3>Tigrex</h3><h3>(轰龙)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/red-shen-gaoren"><img src="../images/Red-Shen-Gaoren.png" style="max-width: 102px"></a><h3>Red Shen Gaoren</h3><h3>(红莲砦蟹)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/rock-shen-gaoren"><img src="../images/Rock-Shen-Gaoren.png" style="max-width: 102px"></a><h3>Rock Shen Gaoren</h3><h3>(铠岩砦蟹)</h3></div>
-<div class="w3-col s6 m3 l2 monsters"><a href="http://monsterhunteronline.in/monsters/slicemargl"><img src="../images/Slicemargl.png" style="max-width: 102px"></a><h3>Slicemargl</h3><h3>(剑极狼)</h3></div>
-</div>
-
-
-
-</div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/mho.js"></script>
-</body>
-</html> 
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../armor/">Armor</a></li>
+    <li><a href="../weapons/">Weapons</a></li>
+    <li><a href="../jewelry/">Jewelry</a></li>
+    <li><a href="../crafting/">Crafting</a></li>
+    <li><a href="../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../quests/">Quests</a></li>
+    <li><a href="../gathering/">Gathering</a></li>
+    <li><a href="../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../npcs/">Main NPCs</a></li>
+    <li><a href="../cats/">Cats</a></li>
+    <li><a href="../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../">Home</a></li>
+        <li class="active"><a href="#">Monsters</a></li>
+        <li><a href="../skills/">Skills</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="../" class="bold">Home</a></li>
+        <li class="active"><a href="#" class="bold">Monsters</a></li>
+        <li><a href="../skills/" class="bold">Skills</a></li>
+        <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+            <a class="collapsible-header bold" href="#">Items</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="../armor/">Armor</a></li>
+                <li><a href="../weapons/">Weapons</a></li>
+                <li><a href="../jewelry/">Jewelry</a></li>
+                <li><a href="../crafting/">Crafting</a></li>
+                <li><a href="../materials/">Materials</a></li><li class="divider"></li>
+                <li><a href="../set-builder/">Set Builder</a></li>
+              </ul>
+            </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">Hunting</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../quests/">Quests</a></li>
+                  <li><a href="../gathering/">Gathering</a></li>
+                  <li><a href="../hunting-groups/">Hunting Groups</a></li>
+                </ul>
+              </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">NPCs</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../npcs/">Main NPCs</a></li>
+                  <li><a href="../cats/">Cats</a></li>
+                  <li><a href="../food/">Food</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+<!--Content-->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header active">Monsters</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <div class="row">
+<!--Low rank card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Low/High Rank Monsters</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Bulldrome" href="bulldrome/">
+                      <div class="chip">
+                        <img src="images/bulldrome.png" alt="Bulldrome">
+                        野猪王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Velocidrome" href="velocidrome/">
+                      <div class="chip">
+                        <img src="images/velocidrome.png" alt="Velocidrome">
+                        蓝速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Caeserber" href="caeserber/">
+                      <div class="chip">
+                        <img src="images/caeserber.png" alt="Caeserber">
+                        河狸兽
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Yian Kut-Ku" href="yian-kut-ku/">
+                      <div class="chip">
+                        <img src="images/yiankutku.png" alt="Yian Kut-Ku">
+                        大怪鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gendrome" href="gendrome/">
+                      <div class="chip">
+                        <img src="images/gendrome.png" alt="Gendrome">
+                        黄速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Baelidae" href="baelidae/">
+                      <div class="chip">
+                        <img src="images/baelidae.png" alt="Baelidae">
+                        鬼狩蛛
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Yellow Caeserber" href="yellow-caeserber/">
+                      <div class="chip">
+                        <img src="images/caeserber2.png" alt="Yellow Caeserber">
+                        沙狸兽
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gypceros" href="gypceros/">
+                      <div class="chip">
+                        <img src="images/gypceros.png" alt="Gypceros">
+                        毒怪鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Congalala" href="congalala/">
+                      <div class="chip">
+                        <img src="images/congalala.png" alt="Congalala">
+                        桃毛兽王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Chramine" href="chramine/">
+                      <div class="chip">
+                        <img src="images/chramine.png" alt="Chramine">
+                        沙雷鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Cephadrome" href="cephadrome/">
+                      <div class="chip">
+                        <img src="images/cephadrome.png" alt="Cephadrome">
+                        沙龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Daimyo Hermitaur" href="daimyo-hermitaur/">
+                      <div class="chip">
+                        <img src="images/daimyohermitaur.png" alt="Daimyo Hermitaur">
+                        大名盾蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Blue Yian Kut-Ku" href="blue-yian-kut-ku/">
+                      <div class="chip">
+                        <img src="images/yiankutku2.png" alt="Blue Yian Kut-Ku">
+                        青怪鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Khezu" href="khezu/">
+                      <div class="chip">
+                        <img src="images/khezu.png" alt="Khezu">
+                        电龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Basarios" href="basarios/">
+                      <div class="chip">
+                        <img src="images/basarios.png" alt="Basarios">
+                        岩龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Hypnocatrice" href="hypnocatrice/">
+                      <div class="chip">
+                        <img src="images/hypnocatrice.png" alt="Hypnocatrice">
+                        眠鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gold Congalala" href="gold-congalala/">
+                      <div class="chip">
+                        <img src="images/congalala2.png" alt="Gold Congalala">
+                        金毛兽王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Dread Baelidae" href="dread-baelidae/">
+                      <div class="chip">
+                        <img src="images/baelidae2.png" alt="Dread Baelidae">
+                        骇狩蛛
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Purple Gypceros" href="purple-gypceros/">
+                      <div class="chip">
+                        <img src="images/gypceros2.png" alt="Purple Gypceros">
+                        紫毒鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Shogun Ceanataur" href="shogun-ceanataur/">
+                      <div class="chip">
+                        <img src="images/shogunceanataur.png" alt="Shogun Ceanataur">
+                        将军镰蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Blangonga" href="blangonga/">
+                      <div class="chip">
+                        <img src="images/blangonga.png" alt="Blangonga">
+                        雪狮子王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Estrellian" href="estrellian/">
+                      <div class="chip">
+                        <img src="images/estrellian.png" alt="Estrellian">
+                        星龙
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>    
+  <!--High rank card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">High Rank Monsters</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Ice Chramine" href="ice-chramine/">
+                      <div class="chip">
+                        <img src="images/chramine2.png" alt="Ice Chramine">
+                        冰雷鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Silver Hypnocatrice" href="silver-hypnocatrice/">
+                      <div class="chip">
+                        <img src="images/hypnocatrice2.png" alt="Silver Hypnocatrice">
+                        银眠鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Akura Vashimu" href="akura-vashimu/">
+                      <div class="chip">
+                        <img src="images/akuravashimu.png" alt="Akura Vashimu">
+                        尾晶蝎
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Yian Garuga" href="yian-garuga/">
+                      <div class="chip">
+                        <img src="images/yiangaruga.png" alt="Yian Garuga">
+                        黑狼鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Red Khezu" href="red-khezu/">
+                      <div class="chip">
+                        <img src="images/khezu2.png" alt="Red Khezu">
+                        红电龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Monoblos" href="monoblos/">
+                      <div class="chip">
+                        <img src="images/monoblos.png" alt="Monoblos">
+                        一角龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Doom Estrellian" href="doom-estrellian/">
+                      <div class="chip">
+                        <img src="images/estrellian2.png" alt="Doom Estrellian">
+                        祸星龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Rathian" href="rathian/">
+                      <div class="chip">
+                        <img src="images/rathian.png" alt="Rathian">
+                        雌火龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Iodrome" href="iodrome/">
+                      <div class="chip">
+                        <img src="images/iodrome.png" alt="Iodrome">
+                        红速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Giadrome" href="giadrome/">
+                      <div class="chip">
+                        <img src="images/giadrome.png" alt="Giadrome">
+                        白速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Swordmaster Shogun Ceanataur" href="swordmaster-shogun-ceanataur/">
+                      <div class="chip">
+                        <img src="images/shogunceanataur.png" alt="Swordmaster Shogun Ceanataur">
+                        剑豪镰蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Ghost Caeserber" href="ghost-caeserber/">
+                      <div class="chip">
+                        <img src="images/caeserber.png" alt="Ghost Caeserber">
+                        战鬼河狸兽
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Crystal Basarios" href="crystal-basarios/">
+                      <div class="chip">
+                        <img src="images/basarios.png" alt="Crystal Basarios">
+                        晶岩龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="One-Eared Yian Garuga" href="one-eared-yian-garuga/">
+                      <div class="chip">
+                        <img src="images/yiangaruga.png" alt="One-Eared Yian Garuga">
+                        独耳黑狼鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Conflagration Rathian" href="conflagration-rathian/">
+                      <div class="chip">
+                        <img src="images/rathian.png" alt="Conflagration Rathian">
+                        烈焰女王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Shattered Monoblos" href="shattered-monoblos/">
+                      <div class="chip">
+                        <img src="images/monoblos.png" alt="Shattered Monoblos">
+                        断刃一角龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Tartaronis" href="tartaronis/">
+                      <div class="chip">
+                        <img src="images/tartaronis.png" alt="Tartaronis">
+                        吞渊龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Rathalos" href="rathalos/">
+                      <div class="chip">
+                        <img src="images/rathalos.png" alt="Rathalos">
+                        雄火龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Shen Gaoren" href="shen-gaoren/">
+                      <div class="chip">
+                        <img src="images/shengaoren.png" alt="Shen Gaoren">
+                        砦蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Tigrex" href="tigrex/">
+                      <div class="chip">
+                        <img src="images/tigrex.png" alt="Tigrex">
+                        轰龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Red Shen Gaoren" href="red-shen-gaoren/">
+                      <div class="chip">
+                        <img src="images/shengaoren2.png" alt="Red Shen Gaoren">
+                        红莲砦蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Rock Shen Gaoren" href="rock-shen-gaoren/">
+                      <div class="chip">
+                        <img src="images/shengaoren3.png" alt="Rock Shen Gaoren">
+                        铠岩砦蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Slicemargl" href="slicemargl/">
+                      <div class="chip">
+                        <img src="images/slicemargl.png" alt="Slicemargl">
+                        剑极狼
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Plesioth" href="plesioth/">
+                      <div class="chip">
+                        <img src="images/plesioth.png" alt="Plesioth">
+                        水龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Diablos" href="diablos/">
+                      <div class="chip">
+                        <img src="images/diablos.png" alt="Diablos">
+                        角龙
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Site Info</h5>
+          <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Other Guides</h5>
+          <ul>
+            <li><a class="white-text" href="../install/">Install Guide</a></li>
+            <li><a class="white-text" href="../translation/">Translation Guide</a></li>
+            <li><a class="white-text" href="../vip/">VIP Guide</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Discord</h5>
+          <ul>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+  </body>
+</html>

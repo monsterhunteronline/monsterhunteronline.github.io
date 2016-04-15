@@ -1,46 +1,130 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Quests</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Quests</title>
+<!--CSS-->
+  <link href="../css/icon.css" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Quests</h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../armor/">Armor</a></li>
+    <li><a href="../weapons/">Weapons</a></li>
+    <li><a href="../jewelry/">Jewelry</a></li>
+    <li><a href="../crafting/">Crafting</a></li>
+    <li><a href="../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li class="active"><a href="#">Quests</a></li>
+    <li><a href="../gathering/">Gathering</a></li>
+    <li><a href="../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../npcs/">Main NPCs</a></li>
+    <li><a href="../cats/">Cats</a></li>
+    <li><a href="../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+<li><a href="../">Home</a></li>
+<li><a href="../monsters/">Monsters</a></li>
+<li><a href="../skills/">Skills</a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+<li class="active"><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+<li><a href="../" class="bold">Home</a></li>
+<li><a href="../monsters/" class="bold">Monsters</a></li>
+<li><a href="../skills/" class="bold">Skills</a></li>
+<li class="no-padding">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+    <a class="collapsible-header bold" href="#">Items</a>
+    <div class="collapsible-body">
+      <ul>
+<li><a href="../armor/">Armor</a></li>
+<li><a href="../weapons/">Weapons</a></li>
+<li><a href="../jewelry/">Jewelry</a></li>
+<li><a href="../crafting/">Crafting</a></li>
+<li><a href="../materials/">Materials</a></li><li class="divider"></li>
+<li><a href="../set-builder/">Set Builder</a></li>
+      </ul>
+    </div>
+    </li>
+</li>
+    <li class="active">
+      <a class="collapsible-header bold" href="#">Hunting</a>
+      <div class="collapsible-body">
+<ul>
+  <li class="active"><a href="#">Quests</a></li>
+  <li><a href="../gathering/">Gathering</a></li>
+  <li><a href="../hunting-groups/">Hunting Groups</a></li>
+</ul>
+      </div>
+    </li>
+</li>
+    <li>
+      <a class="collapsible-header bold" href="#">NPCs</a>
+      <div class="collapsible-body">
+<ul>
+  <li><a href="../npcs/">Main NPCs</a></li>
+  <li><a href="../cats/">Cats</a></li>
+  <li><a href="../food/">Food</a></li>
+</ul>
+      </div>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br><!--Content-->
 
 
-<div class="w3-container w3-center">
-<div class="w3-row">
-<div class="w3-col s12 m12 l6">
-<h3>Bounty Board:</h3>
+<div class="row">
+<div class="col s12 m6">
+<div class="card grey">
+<div class="card-content white-text">
+<span class="card-title">Bounty Board:</span>
 <p>You can only undertake 2 bounties per day.</p>
-<h3>限时： Time limit (Usually 10'00 / 20'00 minutes)</h3>
-<h3>黄金： Gold grade and above</h3>
-<h3>白金： Platinum</h3>
-<h3>捕获： Capture</h3>
-<h3>破坏： Break (Usually the part that defines the monster)</h3>
-<h3>倒地： Knockdown (Trip)</h3>
-<h3>失衡： Unbalance/Stagger (Seems to be for monsters that cannot be truly knocked down/over)</h3>
+<h4>限时： Time limit (Usually 10'00 / 20'00 minutes)</h4>
+<h4>黄金： Gold grade and above</h4>
+<h4>白金： Platinum</h4>
+<h4>捕获： Capture</h4>
+<h4>破坏： Break (Usually the part that defines the monster)</h4>
+<h4>倒地： Knockdown (Trip)</h4>
+<h4>失衡： Unbalance/Stagger (Seems to be for monsters that cannot be truly knocked down/over)</h4>
 <p>Try not to do a bounty mission before hitting your exp cap if you're below 
 15, you might have quests that asks you to do a bounty mission.</p>
 </div>
-<div class="w3-col s12 m12 l6">
-<h3>Hunting Tickets:</h3>
+</div>
+</div>
+
+
+
+<div class="col s12 m6">
+<div class="card grey">
+<div class="card-content white-text">
+<span class="card-title">Hunting Tickets:</span>
 <p>One ticket is used up every time you enter a hunting ground, 2 for HR grounds.</p>
 <p>You start off with 10, the maximum you can hold at a time is 30.</p>
 <p>You get 10 tickets daily at daily reset, which will not go over 30 if you have more than 20 tickets at the end of the day.</p>
@@ -52,33 +136,106 @@
 <p>Story quests will take up most of your time on your journey to 40, and they replenish any ticket you use too.</p>
 <p>Some gift bags/presents give you ticket tokens as well.</p>
 </div>
-<div class="w3-col s12 m12 l6">
-<h3>Unstable hunts:</h3>
+</div>
+</div>
+
+
+
+<div class="col s12 m6">
+<div class="card grey">
+<div class="card-content white-text">
+<span class="card-title">Unstable hunts:</span>
 <p>Unstable hunts will have a red image over your monster and a timer.</p>
-<img src="../images/unstable.png" style="max-width: 120px">
+<img src="../images/quest/unstable.png" style="max-width: 120px">
 <p>There will be a secondary objective when you start that is optional. If you want to get credit for the optional part you need to do that first since the quest will finish when you kill the main monster.</p>
-<h3>[ 可选] 捕获闯入的怪物: [Optional] Capture the monster</h3>
-<h3>[可选] 讨伐闯入的怪物: [Optional] Kill the monster</h3>
+<h4>[ 可选] 捕获闯入的怪物: [Optional] Capture the monster</h4>
+<h4>[可选] 讨伐闯入的怪物: [Optional] Kill the monster</h4>
 </div>
-<div class="w3-col s12 m12 l6">
-<h3>Elite Unlocks</h3>
-<h4>1&2 Star Elites</h4>
+</div>
+</div>
+
+<div class="col s12 m12">
+<div class="card grey">
+<div class="card-content white-text">
+<span class="card-title">Elite Unlocks</span>
+<h4>1&amp;2 Star Elites</h4>
 <p>Each unlock costs 25 rank one documents</p>
-<img src="../images/1-1.png" style="max-width: 487px">
-<img src="../images/1-2.png" style="max-width: 362px">
-<h4>3&4 Star Elites</h4>
+<img src="../images/quest/1-1.png" style="max-width: 487px">
+<img src="../images/quest/1-2.png" style="max-width: 362px">
+<h4>3&amp;4 Star Elites</h4>
 <p>Each unlock costs 30 rank two documents</p>
-<img src="../images/2-1.png" style="max-width: 487px">
-<img src="../images/2-2.png" style="max-width: 487px">
-<img src="../images/2-3.png" style="max-width: 240px">
-</div></div>
+<img src="../images/quest/2-1.png" style="max-width: 487px">
+<img src="../images/quest/2-2.png" style="max-width: 487px">
+<img src="../images/quest/2-3.png" style="max-width: 240px">
+</div>
+</div>
+</div>
 </div>
 
 
+
+        </div>
+      </div>
+
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+<div class="col l6 s12">
+  <h5 class="white-text">Site Info</h5>
+  <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
 </div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
+<div class="col l3 s12">
+  <h5 class="white-text">Other Guides</h5>
+  <ul>
+    <li><a class="white-text" href="../install/">Install Guide</a></li>
+    <li><a class="white-text" href="../translation/">Translation Guide</a></li>
+    <li><a class="white-text" href="../vip/">VIP Guide</a></li>
+  </ul>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/mho.js"></script>
-</body>
-</html> 
+<div class="col l3 s12">
+  <h5 class="white-text">Discord</h5>
+  <ul>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/materials.js"></script>
+  <script type="text/javascript">materialsContent(materialArray);</script>
+  <script src="../js/init.js"></script>
+  </body>
+</html>

@@ -1,50 +1,617 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../../css/mho.css">
-<title>MHO FAQ - Monsters - Red Shen Gaoren</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Monsters - Red Shen Gaoren</title>
+
+<!--CSS-->
+  <link href="../../css/icon.css" rel="stylesheet">
+  <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	<span class="w3-opennav" onclick="monster_toggle()">Red Shen Gaoren</span></h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
-
-<div align="center">
-<div id="monsterdrop" class="monsterdrop"></div>
-<img src="../../images/redgaoren800.png" class="monsterpic">
-<h2>Fighting info:</h2>
-★ very effective, ◎ effective, ○ general, △ poor, × invalid
-<br><br>
-<table id="monstertable" class="w3-table w3-grey w3-striped w3-centered">
-</table>
-<h2>Material Drops</h2>
-<table id="materialtable" class="w3-table w3-grey w3-striped">
-</table>
-</div>
-
-
-</div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../../json/monster.json"></script>
-<script src="../../json/redgaorenmats.json"></script>
-<script src="../../js/mho.js"></script>
-<script src="../../js/monsterdrop.js"></script>
-<script type="text/javascript">monsterContent(redshengaorenArray); materialsContent2(materialArray);</script>
-</body>
-</html> 
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../../armor/">Armor</a></li>
+    <li><a href="../../weapons/">Weapons</a></li>
+    <li><a href="../../jewelry/">Jewelry</a></li>
+    <li><a href="../../crafting/">Crafting</a></li>
+    <li><a href="../../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../../quests/">Quests</a></li>
+    <li><a href="../../gathering/">Gathering</a></li>
+    <li><a href="../../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../../npcs/">Main NPCs</a></li>
+    <li><a href="../../cats/">Cats</a></li>
+    <li><a href="../../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../../">Home</a></li>
+        <li class="active"><a href="#">Monsters</a></li>
+        <li><a href="../../skills/">Skills</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="../../" class="bold">Home</a></li>
+        <li class="active"><a href="#" class="bold">Monsters</a></li>
+        <li><a href="../../skills/" class="bold">Skills</a></li>
+        <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+            <a class="collapsible-header bold" href="#">Items</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="../../armor/">Armor</a></li>
+                <li><a href="../../weapons/">Weapons</a></li>
+                <li><a href="../../jewelry/">Jewelry</a></li>
+                <li><a href="../../crafting/">Crafting</a></li>
+                <li><a href="../../materials/">Materials</a></li>
+                <li class="divider"></li>
+                <li><a href="../../set-builder/">Set Builder</a></li>
+              </ul>
+            </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">Hunting</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../../quests/">Quests</a></li>
+                  <li><a href="../../gathering/">Gathering</a></li>
+                  <li><a href="../../hunting-groups/">Hunting Groups</a></li>
+                </ul>
+              </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">NPCs</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../../npcs/">Main NPCs</a></li>
+                  <li><a href="../../cats/">Cats</a></li>
+                  <li><a href="../../food/">Food</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+<!--Content-->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header">Monsters<span class="right bold">Red Shen Gaoren</span></div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <div class="row">
+<!--Low rank card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Low/High Rank Monsters</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Bulldrome" href="../bulldrome/">
+                      <div class="chip">
+                        <img src="../images/bulldrome.png" alt="Bulldrome">
+                        野猪王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Velocidrome" href="../velocidrome/">
+                      <div class="chip">
+                        <img src="../images/velocidrome.png" alt="Velocidrome">
+                        蓝速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Caeserber" href="../caeserber/">
+                      <div class="chip">
+                        <img src="../images/caeserber.png" alt="Caeserber">
+                        河狸兽
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Yian Kut-Ku" href="../yian-kut-ku/">
+                      <div class="chip">
+                        <img src="../images/yiankutku.png" alt="Yian Kut-Ku">
+                        大怪鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gendrome" href="../gendrome/">
+                      <div class="chip">
+                        <img src="../images/gendrome.png" alt="Gendrome">
+                        黄速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Baelidae" href="../baelidae/">
+                      <div class="chip">
+                        <img src="../images/baelidae.png" alt="Baelidae">
+                        鬼狩蛛
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Yellow Caeserber" href="../yellow-caeserber/">
+                      <div class="chip">
+                        <img src="../images/caeserber2.png" alt="Yellow Caeserber">
+                        沙狸兽
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gypceros" href="../gypceros/">
+                      <div class="chip">
+                        <img src="../images/gypceros.png" alt="Gypceros">
+                        毒怪鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Congalala" href="../congalala/">
+                      <div class="chip">
+                        <img src="../images/congalala.png" alt="Congalala">
+                        桃毛兽王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Chramine" href="../chramine/">
+                      <div class="chip">
+                        <img src="../images/chramine.png" alt="Chramine">
+                        沙雷鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Cephadrome" href="../cephadrome/">
+                      <div class="chip">
+                        <img src="../images/cephadrome.png" alt="Cephadrome">
+                        沙龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Daimyo Hermitaur" href="../daimyo-hermitaur/">
+                      <div class="chip">
+                        <img src="../images/daimyohermitaur.png" alt="Daimyo Hermitaur">
+                        大名盾蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Blue Yian Kut-Ku" href="../blue-yian-kut-ku/">
+                      <div class="chip">
+                        <img src="../images/yiankutku2.png" alt="Blue Yian Kut-Ku">
+                        青怪鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Khezu" href="../khezu/">
+                      <div class="chip">
+                        <img src="../images/khezu.png" alt="Khezu">
+                        电龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Basarios" href="../basarios/">
+                      <div class="chip">
+                        <img src="../images/basarios.png" alt="Basarios">
+                        岩龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Hypnocatrice" href="../hypnocatrice/">
+                      <div class="chip">
+                        <img src="../images/hypnocatrice.png" alt="Hypnocatrice">
+                        眠鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gold Congalala" href="../gold-congalala/">
+                      <div class="chip">
+                        <img src="../images/congalala2.png" alt="Gold Congalala">
+                        金毛兽王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Dread Baelidae" href="../dread-baelidae/">
+                      <div class="chip">
+                        <img src="../images/baelidae2.png" alt="Dread Baelidae">
+                        骇狩蛛
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Purple Gypceros" href="../purple-gypceros/">
+                      <div class="chip">
+                        <img src="../images/gypceros2.png" alt="Purple Gypceros">
+                        紫毒鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Shogun Ceanataur" href="../shogun-ceanataur/">
+                      <div class="chip">
+                        <img src="../images/shogunceanataur.png" alt="Shogun Ceanataur">
+                        将军镰蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Blangonga" href="../blangonga/">
+                      <div class="chip">
+                        <img src="../images/blangonga.png" alt="Blangonga">
+                        雪狮子王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Estrellian" href="../estrellian/">
+                      <div class="chip">
+                        <img src="../images/estrellian.png" alt="Estrellian">
+                        星龙
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>    
+  <!--High rank card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">High Rank Monsters</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Ice Chramine" href="../ice-chramine/">
+                      <div class="chip">
+                        <img src="../images/chramine2.png" alt="Ice Chramine">
+                        冰雷鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Silver Hypnocatrice" href="../silver-hypnocatrice/">
+                      <div class="chip">
+                        <img src="../images/hypnocatrice2.png" alt="Silver Hypnocatrice">
+                        银眠鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Akura Vashimu" href="../akura-vashimu/">
+                      <div class="chip">
+                        <img src="../images/akuravashimu.png" alt="Akura Vashimu">
+                        尾晶蝎
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Yian Garuga" href="../yian-garuga/">
+                      <div class="chip">
+                        <img src="../images/yiangaruga.png" alt="Yian Garuga">
+                        黑狼鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Red Khezu" href="../red-khezu/">
+                      <div class="chip">
+                        <img src="../images/khezu2.png" alt="Red Khezu">
+                        红电龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Monoblos" href="../monoblos/">
+                      <div class="chip">
+                        <img src="../images/monoblos.png" alt="Monoblos">
+                        一角龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Doom Estrellian" href="../doom-estrellian/">
+                      <div class="chip">
+                        <img src="../images/estrellian2.png" alt="Doom Estrellian">
+                        祸星龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Rathian" href="../rathian/">
+                      <div class="chip">
+                        <img src="../images/rathian.png" alt="Rathian">
+                        雌火龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Iodrome" href="../iodrome/">
+                      <div class="chip">
+                        <img src="../images/iodrome.png" alt="Iodrome">
+                        红速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Giadrome" href="../giadrome/">
+                      <div class="chip">
+                        <img src="../images/giadrome.png" alt="Giadrome">
+                        白速龙王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Swordmaster Shogun Ceanataur" href="../swordmaster-shogun-ceanataur/">
+                      <div class="chip">
+                        <img src="../images/shogunceanataur.png" alt="Swordmaster Shogun Ceanataur">
+                        剑豪镰蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Ghost Caeserber" href="../ghost-caeserber/">
+                      <div class="chip">
+                        <img src="../images/caeserber.png" alt="Ghost Caeserber">
+                        战鬼河狸兽
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Crystal Basarios" href="../crystal-basarios/">
+                      <div class="chip">
+                        <img src="../images/basarios.png" alt="Crystal Basarios">
+                        晶岩龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="One-Eared Yian Garuga" href="../one-eared-yian-garuga/">
+                      <div class="chip">
+                        <img src="../images/yiangaruga.png" alt="One-Eared Yian Garuga">
+                        独耳黑狼鸟
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Conflagration Rathian" href="../conflagration-rathian/">
+                      <div class="chip">
+                        <img src="../images/rathian.png" alt="Conflagration Rathian">
+                        烈焰女王
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Shattered Monoblos" href="../shattered-monoblos/">
+                      <div class="chip">
+                        <img src="../images/monoblos.png" alt="Shattered Monoblos">
+                        断刃一角龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Tartaronis" href="../tartaronis/">
+                      <div class="chip">
+                        <img src="../images/tartaronis.png" alt="Tartaronis">
+                        吞渊龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Rathalos" href="../rathalos/">
+                      <div class="chip">
+                        <img src="../images/rathalos.png" alt="Rathalos">
+                        雄火龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Shen Gaoren" href="../shen-gaoren/">
+                      <div class="chip">
+                        <img src="../images/shengaoren.png" alt="Shen Gaoren">
+                        砦蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Tigrex" href="../tigrex/">
+                      <div class="chip">
+                        <img src="../images/tigrex.png" alt="Tigrex">
+                        轰龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Red Shen Gaoren" href="../red-shen-gaoren/">
+                      <div class="chip">
+                        <img src="../images/shengaoren2.png" alt="Red Shen Gaoren">
+                        红莲砦蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Rock Shen Gaoren" href="../rock-shen-gaoren/">
+                      <div class="chip">
+                        <img src="../images/shengaoren3.png" alt="Rock Shen Gaoren">
+                        铠岩砦蟹
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Slicemargl" href="../slicemargl/">
+                      <div class="chip">
+                        <img src="../images/slicemargl.png" alt="Slicemargl">
+                        剑极狼
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Plesioth" href="../plesioth/">
+                      <div class="chip">
+                        <img src="../images/plesioth.png" alt="Plesioth">
+                        水龙
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Diablos" href="../diablos/">
+                      <div class="chip">
+                        <img src="../images/diablos.png" alt="Diablos">
+                        角龙
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header dark-grey active">Fighting/Weaknes Info</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <table class="centered hide-on-small-only">
+              <thead>
+                <tr>
+                  <th>Very Effective</th>
+                  <th>Effective</th>
+                  <th>Normal</th>
+                  <th>Not Effective</th>
+                  <th>No Effect</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><i class="grade material-icons flow-text">grade</i></td>
+                  <td><i class="thumb_up material-icons flow-text">thumb_up</i></td>
+                  <td><i class="thumbs_up_down material-icons flow-text">thumbs_up_down</i></td>
+                  <td><i class="thumb_down material-icons flow-text">thumb_down</i></td>
+                  <td><i class="not_interested material-icons flow-text">not_interested</i></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="hide-on-med-and-up">
+              <tbody>
+                <tr>
+                  <td class="bold">Very Effective</td>
+                  <td><i class="grade material-icons flow-text">grade</i></td>
+                </tr>
+                <tr>
+                  <td class="bold">Effective</td>
+                  <td><i class="thumb_up material-icons flow-text">thumb_up</i></td>
+                </tr>
+                <tr>
+                  <td class="bold">Normal</td>
+                  <td><i class="thumbs_up_down material-icons flow-text">thumbs_up_down</i></td>
+                </tr>
+                <tr>
+                  <td class="bold">Not Effective</td>
+                  <td><i class="thumb_down material-icons flow-text">thumb_down</i></td>
+                </tr>
+                <tr>
+                  <td class="bold">No Effect</td>
+                  <td><i class="not_interested material-icons flow-text">not_interested</i></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="divider"></div>
+            <table class="centered">
+              <thead>
+                <tr>
+                  <th>Part</th>
+                  <th><img src="../images/longswordicon.png" alt="Cut" class="tiny-img"></th>
+                  <th><img src="../images/hammericon.png" alt="Impact" class="tiny-img"></th>
+                  <th><img src="../images/bowicon.png" alt="Projectile" class="tiny-img"></th>
+                  <th><img src="../images/fire.png" alt="Fire" class="tiny-img"></th>
+                  <th><img src="../images/water.png" alt="Water" class="tiny-img"></th>
+                  <th><img src="../images/thunder.png" alt="Thunder" class="tiny-img"></th>
+                  <th><img src="../images/ice.png" alt="Ice" class="tiny-img"></th>
+                  <th><img src="../images/dragon.png" alt="Dragon" class="tiny-img"></th>
+                </tr>
+              </thead>
+              <tbody id="monster1">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="divider"></div>
+            <table class="centered">
+              <thead>
+                <tr>
+                  <th><img src="../images/stun.png" alt="Stun" class="tiny-img"></th>
+                  <th><img src="../images/poison.png" alt="Poison" class="tiny-img"></th>
+                  <th><img src="../images/para.png" alt="Paralyze" class="tiny-img"></th>
+                  <th><img src="../images/sleep.png" alt="Sleep" class="tiny-img"></th>
+                  <th><img src="../images/pitfall.png" alt="Pitfall Trap" class="tiny-img"></th>
+                  <th><img src="../images/shock.png" alt="Shock Trap" class="tiny-img"></th>
+                  <th><img src="../images/flash.png" alt="Flash Bomb" class="tiny-img"></th>
+                  <th><img src="../images/sonic.png" alt="Sonic Bomb" class="tiny-img"></th>
+                  <th class="hide-on-small-only">Remarks</th>
+                </tr>
+              </thead>
+              <tbody id="monster2">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>No</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="divider hide-on-med-and-up"></div>
+            <table class="centered hide-on-med-and-up">
+              <thead>
+                <tr>
+                  <th colspan="8" class="bold">Remarks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="8" id="monster3"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header dark-grey active">Material Drops</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <table class="centered">
+              <thead>
+                <tr>
+                  <th>Icon</th>
+                  <th>Name</th>
+                  <th>Explanation</th>
+                  <th>Place</th>
+                </tr>
+              </thead>
+              <tbody id="material-drops">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+      </ul>
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Site Info</h5>
+          <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Other Guides</h5>
+          <ul>
+            <li><a class="white-text" href="../../install/">Install Guide</a></li>
+            <li><a class="white-text" href="../../translation/">Translation Guide</a></li>
+            <li><a class="white-text" href="../../vip/">VIP Guide</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Discord</h5>
+          <ul>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/materialize.js"></script>
+  <script src="../js/redgaorenmats.js"></script>
+  <script src="../js/monsterdata.js"></script>
+  <script src="../js/monsterscript.js"></script>
+  <script type="text/javascript">materialdrops(materialArray); monsterContent1(redshengaorenArray); monsterContent2(redshengaorenArray2);</script>
+  <script src="../../js/init.js"></script>
+  </body>
+</html>

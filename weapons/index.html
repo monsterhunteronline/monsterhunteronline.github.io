@@ -1,54 +1,247 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Weapons</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Weapons</title>
+
+<!--CSS-->
+  <link href="../css/icon.css" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Weapons</h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
-
-<div class="w3-container w3-center">
-<div class="w3-row">
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/lance"><img src="../images/lanceicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/gunlance"><img src="../images/gunlanceicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/sword-and-shield"><img src="../images/swordandshieldicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/greatsword"><img src="../images/greatswordicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/longsword"><img src="../images/longswordicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/hammer"><img src="../images/hammericon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/dual-blades"><img src="../images/dualbladesicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/bowgun"><img src="../images/bowgunicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/bow"><img src="../images/bowicon.png" style="max-width: 102px;"></a></div>
-<div class="w3-col s6 m3 l2"><a href="http://monsterhunteronline.in/weapons/hunting-horn"><img src="../images/huntinghornicon.png" style="max-width: 102px;"></a></div>
-</div>
-<table id="weapontalent" class="w3-table">
-<div class="w3-row">
-<div class="w3-col s12 m12 l12"><h3>Weapon Talents</h3></div>
-<div class="w3-col s12 m6 l6">The weapon talent tree unlocks at level 20. The "H" key opens up the interface and it is the last tab at the top. Each tier has 3 talents and only when you learn all 3 talents in the same tier can you unlock the next tier.</div>
-<div class="w3-col s12 m6 l6">Talent scroll fragments (天赋书碎片） are needed to purchase talent scrolls (天赋书) from the "教官" NPC. The fastest way to get the fragments is to do the unstable quests that unlock at lv.20.  You can learn more about unstable quests in the Quests section. you must complete the optional objective to get the fragment. You can also complete guild missions to gain the fragments. They are given randomly and may not be for your weapon. The final way to get them is to trade them with your friends or purchase them on the auction house.</div>
-</div>
-</div>
-
-
-</div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/mho.js"></script>
-</body>
-</html> 
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../armor/">Armor</a></li>
+    <li class="active"><a href="../weapons/">Weapons</a></li>
+    <li><a href="../jewelry/">Jewelry</a></li>
+    <li><a href="../crafting/">Crafting</a></li>
+    <li><a href="../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../quests/">Quests</a></li>
+    <li><a href="../gathering/">Gathering</a></li>
+    <li><a href="../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../npcs/">Main NPCs</a></li>
+    <li><a href="../cats/">Cats</a></li>
+    <li><a href="../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../">Home</a></li>
+        <li><a href="../monsters/">Monsters</a></li>
+        <li><a href="../skills/">Skills</a></li>
+        <li class="active"><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="../" class="bold">Home</a></li>
+        <li><a href="../monsters/" class="bold">Monsters</a></li>
+        <li><a href="../skills/" class="bold">Skills</a></li>
+        <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li class="active">
+            <a class="collapsible-header bold" href="#">Items</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="../armor/">Armor</a></li>
+                <li class="active"><a href="../weapons/">Weapons</a></li>
+                <li><a href="../jewelry/">Jewelry</a></li>
+                <li><a href="../crafting/">Crafting</a></li>
+                <li><a href="../materials/">Materials</a></li><li class="divider"></li>
+                <li><a href="../set-builder/">Set Builder</a></li>
+              </ul>
+            </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">Hunting</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../quests/">Quests</a></li>
+                  <li><a href="../gathering/">Gathering</a></li>
+                  <li><a href="../hunting-groups/">Hunting Groups</a></li>
+                </ul>
+              </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">NPCs</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="../npcs/">Main NPCs</a></li>
+                  <li><a href="../cats/">Cats</a></li>
+                  <li><a href="../food/">Food</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+<!--Content-->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header active">Weapons</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <div class="row">
+<!--Blademaster card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Blademaster</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Lance" href="lance/">
+                      <div class="chip">
+                        <img src="../images/weapon/lanceicon.png" alt="Lance">
+                        Lance
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Gunlance" href="gunlance/">
+                      <div class="chip">
+                        <img src="../images/weapon/gunlanceicon.png" alt="Gunlance">
+                        Gunlance
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Sword and Shield" href="sword-and-shield/">
+                      <div class="chip">
+                        <img src="../images/weapon/swordandshieldicon.png" alt="Sword and Shield">
+                        Sword and Shield
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Greatsword" href="greatsword/">
+                      <div class="chip">
+                        <img src="../images/weapon/greatswordicon.png" alt="Greatsword">
+                        Greatsword
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Longsword" href="longsword/">
+                      <div class="chip">
+                        <img src="../images/weapon/longswordicon.png" alt="Longsword">
+                        Longsword
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Hammer" href="hammer/">
+                      <div class="chip">
+                        <img src="../images/weapon/hammericon.png" alt="Hammer">
+                        Hammer
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Dual Blades" href="dual-blades/">
+                      <div class="chip">
+                        <img src="../images/weapon/dualbladesicon.png" alt="Dual Blades">
+                        Dual Blades
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Hunting Horn" href="hunting-horn/">
+                      <div class="chip">
+                        <img src="../images/weapon/huntinghornicon.png" alt="Hunting Horn">
+                        Hunting Horn
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>    
+  <!--Gunner card-->
+              <div class="col s12 m6">
+                <div class="card grey darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Gunner</span><br>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Bow" href="bow/">
+                      <div class="chip">
+                        <img src="../images/weapon/bowicon.png" alt="Bow">
+                        Bow
+                      </div>
+                    </a>
+                    <a class="tooltipped" data-position="right" data-delay="10" data-tooltip="Bowgun" href="bowgun/">
+                      <div class="chip">
+                        <img src="../images/weapon/bowgunicon.png" alt="Bowgun">
+                        Bowgun
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Site Info</h5>
+          <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Other Guides</h5>
+          <ul>
+            <li><a class="white-text" href="../install/">Install Guide</a></li>
+            <li><a class="white-text" href="../translation/">Translation Guide</a></li>
+            <li><a class="white-text" href="../vip/">VIP Guide</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Discord</h5>
+          <ul>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+  </body>
+</html>

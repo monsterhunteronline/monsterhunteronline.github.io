@@ -1,92 +1,255 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Food</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - NPCs</title>
+<!--CSS-->
+  <link href="../css/icon.css" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Food</h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
-</div>
-
-
-<div class="w3-container w3-center">
-<div class="w3-row">
-<div class="w3-col s12 m12 l6">
-<img src="../images/catfood1.png" class="food">
-<div class="w3-container">
-<h3>Wild Rice Soup</h3>
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../armor/">Armor</a></li>
+    <li><a href="../weapons/">Weapons</a></li>
+    <li><a href="../jewelry/">Jewelry</a></li>
+    <li><a href="../crafting/">Crafting</a></li>
+    <li><a href="../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../quests/">Quests</a></li>
+    <li><a href="../gathering/">Gathering</a></li>
+    <li><a href="#">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li class="active"><a href="../npcs/">Main NPCs</a></li>
+    <li><a href="../cats/">Cats</a></li>
+    <li><a href="../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+<li><a href="../">Home</a></li>
+<li><a href="../monsters/">Monsters</a></li>
+<li><a href="../skills/">Skills</a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+<li class="active"><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+<li><a href="../" class="bold">Home</a></li>
+<li><a href="../monsters/" class="bold">Monsters</a></li>
+<li><a href="../skills/" class="bold">Skills</a></li>
+<li class="no-padding">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+    <a class="collapsible-header bold" href="#">Items</a>
+    <div class="collapsible-body">
+      <ul>
+<li><a href="../armor/">Armor</a></li>
+<li><a href="../weapons/">Weapons</a></li>
+<li><a href="../jewelry/">Jewelry</a></li>
+<li><a href="../crafting/">Crafting</a></li>
+<li><a href="../materials/">Materials</a></li><li class="divider"></li>
+<li><a href="../set-builder/">Set Builder</a></li>
+      </ul>
+    </div>
+    </li>
+</li>
+    <li>
+      <a class="collapsible-header bold" href="#">Hunting</a>
+      <div class="collapsible-body">
 <ul>
-<li>Physical Force Up (Small)</li>
-<li>Cat Kicking Surgery</li>
-<li>Lucky Cat Lucky Choi</li>
+  <li><a href="../quests/">Quests</a></li>
+  <li><a href="../gathering/">Gathering</a></li>
+  <li><a href="#">Hunting Groups</a></li>
 </ul>
-</div>
-</div>
-<div class="w3-col s12 m12 l6">
-<img src="../images/catfood2.png" class="food">
-<div class="w3-container">
-<h3>Whitefish Balls</h3>
+      </div>
+    </li>
+</li>
+    <li class="active">
+      <a class="collapsible-header bold" href="#">NPCs</a>
+      <div class="collapsible-body">
 <ul>
-<li>Defense Up (Small)</li>
-<li>Additional Surgery Cat</li>
-<li>Cat Guts Force</li>
+  <li class="active"><a href="../npcs/">Main NPCs</a></li>
+  <li><a href="../cats/">Cats</a></li>
+  <li><a href="../food/">Food</a></li>
 </ul>
+      </div>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+<!--Content-->
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../images/food/catfood1.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Wild Rice Soup<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Wild Rice Soup<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Physical Force Up (Small)</li>
+                <li>Cat Kicking Surgery</li>
+                <li>Lucky Cat Lucky Choi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../images/food/catfood2.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Whitefish Balls<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Whitefish Balls<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Defense Up (Small)</li>
+                <li>Additional Surgery Cat</li>
+                <li>Cat Guts Force</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../images/food/catfood3.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Yakitori Waterfowl String<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Yakitori Waterfowl String<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Attack Up (Small)</li>
+                <li>Cat's Heal</li>
+                <li>Cat Gunpowder Surgery</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../images/food/catfood4.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Taobo Oden<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Taobo Oden<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Patience Up (Small)</li>
+                <li>Cat Sleepless Surgery</li>
+                <li>Lucky Cat Lucky Choi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../images/food/catfood5.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Appetizing Hot and Sour Soup<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Appetizing Hot and Sour Soup<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Cat Defense (Small)</li>
+                <li>Cat's Heal</li>
+                <li>Lucky Cat Trick</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+<div class="col l6 s12">
+  <h5 class="white-text">Site Info</h5>
+  <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
 </div>
+<div class="col l3 s12">
+  <h5 class="white-text">Other Guides</h5>
+  <ul>
+    <li><a class="white-text" href="../install/">Install Guide</a></li>
+    <li><a class="white-text" href="../translation/">Translation Guide</a></li>
+    <li><a class="white-text" href="../vip/">VIP Guide</a></li>
+  </ul>
 </div>
-<div class="w3-col s12 m12 l6">
-<img src="../images/catfood3.png" class="food">
-<div class="w3-container">
-<h3>Yakitori Waterfowl String</h3>
-<ul>
-<li>Attack Up (Small)</li>
-<li>Cat's Heal</li>
-<li>Cat Gunpowder Surgery</li>
-</ul>
+<div class="col l3 s12">
+  <h5 class="white-text">Discord</h5>
+  <ul>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6 l4">#faq</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+  </ul>
 </div>
-</div>
-<div class="w3-col s12 m12 l6">
-<img src="../images/catfood4.png" class="food">
-<div class="w3-container">
-<h3>Taobo Oden</h3>
-<ul>
-<li><li>Patience Up (Small)</li>
-<li>Cat Sleepless Surgery</li>
-<li>Lucky Cat Lucky Choi</li>
-</ul>
-</div>
-</div>
-<div class="w3-col s12 m12 l6">
-<img src="../images/catfood5.png" class="food">
-<div class="w3-container">
-<h3>Appetizing Hot and Sour Soup</h3>
-<ul>
-<li>Cat Defense (Small)</li>
-<li>Cat's Heal</li>
-<li>Lucky Cat Trick</li>
-</ul>
-</div>
-</div>
-
-
-</div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/mho.js"></script>
-</body>
-</html> 
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/materials.js"></script>
+  <script type="text/javascript">materialsContent(materialArray);</script>
+  <script src="../js/init.js"></script>
+  </body>
+</html>

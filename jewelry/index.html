@@ -1,1106 +1,281 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" type="text/css" href="../css/mho.css">
-<title>MHO FAQ - Jewelry</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>MHOnline - Jewelry</title>
+<!--CSS-->
+  <link href="../css/icon.css" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-<nav id="navbar" class="w3-sidenav w3-collapse w3-dark-grey w3-large w3-animate-left" style="width:200px"></nav>
-<div class="w3-container w3-blue-grey w3-top">
-	<div class="w3-container w3-left w3-main" style="margin-left:200px">
-	<h1><span class="w3-opennav w3-hide-large" onclick="w3_toggle()">☰ </span>
-	Jewelry</h1>
-	</div>
-	<div class="w3-container w3-right w3-hide-small">
-	<img src="../images/logo.png">
-	</div>
+<div id="loadingMask" class="centered">
+  <div class="progress">
+    <div class="indeterminate"></div>
+  </div>
 </div>
-<div class="w3-main" style="margin-left:200px">
-<div class="headerspace">
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="../armor/">Armor</a></li>
+    <li><a href="../weapons/">Weapons</a></li>
+    <li class="active"><a href="#">Jewelry</a></li>
+    <li><a href="../crafting/">Crafting</a></li>
+    <li><a href="../materials/">Materials</a></li>
+    <li class="divider"></li>
+    <li><a href="../set-builder/">Set Builder</a></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="../quests/">Quests</a></li>
+    <li><a href="../gathering/">Gathering</a></li>
+    <li><a href="../hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="../npcs/">Main NPCs</a></li>
+    <li><a href="../cats/">Cats</a></li>
+    <li><a href="../food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="../images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+<li><a href="../">Home</a></li>
+<li><a href="../monsters/">Monsters</a></li>
+<li><a href="../skills/">Skills</a></li>
+<li class="active"><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+<li><a href="../" class="bold">Home</a></li>
+<li><a href="../monsters/" class="bold">Monsters</a></li>
+<li><a href="../skills/" class="bold">Skills</a></li>
+<li class="no-padding">
+  <ul class="collapsible" data-collapsible="accordion">
+    <li class="active">
+    <a class="collapsible-header bold" href="#">Items</a>
+    <div class="collapsible-body">
+      <ul>
+<li><a href="../armor/">Armor</a></li>
+<li><a href="../weapons/">Weapons</a></li>
+<li class="active"><a href="#">Jewelry</a></li>
+<li><a href="../crafting/">Crafting</a></li>
+<li><a href="../materials/">Materials</a></li><li class="divider"></li>
+<li><a href="../set-builder/">Set Builder</a></li>
+      </ul>
+    </div>
+    </li>
+</li>
+    <li>
+      <a class="collapsible-header bold" href="#">Hunting</a>
+      <div class="collapsible-body">
+<ul>
+  <li><a href="../quests/">Quests</a></li>
+  <li><a href="../gathering/">Gathering</a></li>
+  <li><a href="../hunting-groups/">Hunting Groups</a></li>
+</ul>
+      </div>
+    </li>
+</li>
+    <li>
+      <a class="collapsible-header bold" href="#">NPCs</a>
+      <div class="collapsible-body">
+<ul>
+  <li><a href="../npcs/">Main NPCs</a></li>
+  <li><a href="../cats/">Cats</a></li>
+  <li><a href="../food/">Food</a></li>
+</ul>
+      </div>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <!--Content-->
+        <ul class="collection">
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;教官的旧项链&nbsp;&nbsp;Attack: 5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;碎骨链&nbsp;&nbsp;Attack: 7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;粗磨骨链&nbsp;&nbsp;Attack: 9</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;精磨骨链&nbsp;&nbsp;Attack: 11</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;骨制吊牌&nbsp;&nbsp;Attack: 14</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;骨制吊牌·改&nbsp;&nbsp;Attack: 17</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;锥骨挂饰&nbsp;&nbsp;Attack: 20</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;哑黑锥骨挂饰&nbsp;&nbsp;Attack: 23</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;骷髅项链&nbsp;&nbsp;Attack: 26</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;铁质骷髅项链&nbsp;&nbsp;Attack: 29</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;脊骨项圈&nbsp;&nbsp;Attack: 32</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;硬脊项圈&nbsp;&nbsp;Attack: 36</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_05.png">&nbsp;&nbsp;龙骨坠&nbsp;&nbsp;Attack: 40</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;教官的水纹项链&nbsp;&nbsp;Attack: 3、Water Attack: 2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;贝壳绳串&nbsp;&nbsp;Attack: 4、Water Attack: 3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;真珠项链&nbsp;&nbsp;Attack: 5、Water Attack: 4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;黑真珠项链&nbsp;&nbsp;Attack: 6、Water Attack: 5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;白石纹章&nbsp;&nbsp;Attack: 7、Water Attack: 7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;白石纹章·改&nbsp;&nbsp;Attack: 9、Water Attack: 8</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;彩晶之链&nbsp;&nbsp;Attack: 10、Water Attack: 10</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;彩晶长链&nbsp;&nbsp;Attack: 12、Water Attack: 11</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;光水晶挂坠&nbsp;&nbsp;Attack: 13、Water Attack: 13</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;光水晶坠饰&nbsp;&nbsp;Attack: 15、Water Attack: 14</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;黯淡辉水晶项链&nbsp;&nbsp;Attack: 16、Water Attack: 16</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;辉水晶项链&nbsp;&nbsp;Attack: 18、Water Attack: 18</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_03.png">&nbsp;&nbsp;激流之链&nbsp;&nbsp;Attack: 20、Water Attack: 20</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;教官的烧烤项链&nbsp;&nbsp;Attack: 3、Fire Attack: 2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;熔岩块饰&nbsp;&nbsp;Attack: 4、Fire Attack: 3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;火药瓶吊坠&nbsp;&nbsp;Attack: 5、Fire Attack: 4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;火药燃瓶吊坠&nbsp;&nbsp;Attack: 6、Fire Attack: 5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;火焰缀针&nbsp;&nbsp;Attack: 7、Fire Attack: 7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;烈焰缀针&nbsp;&nbsp;Attack: 9、Fire Attack: 8</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;赤琉璃挂链&nbsp;&nbsp;Attack: 10、Fire Attack: 10</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;赤琉璃珠链&nbsp;&nbsp;Attack: 12、Fire Attack: 11</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;灼热燃石项链&nbsp;&nbsp;Attack: 13、Fire Attack: 13</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;燃石项链&nbsp;&nbsp;Attack: 15、Fire Attack: 14</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;狱炎矿链&nbsp;&nbsp;Attack: 16、Fire Attack: 16</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;狱炎矿链·改&nbsp;&nbsp;Attack: 18、Fire Attack: 18</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_06.png">&nbsp;&nbsp;炎魔之瞳&nbsp;&nbsp;Attack: 20、Fire Attack: 20</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;教官的雷击项链&nbsp;&nbsp;Attack: 3、Electricity Attack: 2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;闪光之链&nbsp;&nbsp;Attack: 4、Electricity Attack: 3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;虫瓶挂坠&nbsp;&nbsp;Attack: 5、Electricity Attack: 4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;虫瓶挂坠·改&nbsp;&nbsp;Attack: 6、Electricity Attack: 5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;轰鸣挂饰&nbsp;&nbsp;Attack: 7、Electricity Attack: 7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;轰鸣挂坠&nbsp;&nbsp;Attack: 9、Electricity Attack: 8</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;电光石&nbsp;&nbsp;Attack: 10、Electricity Attack: 10</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;雷光石&nbsp;&nbsp;Attack: 12、Electricity Attack: 11</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;电蓄能球&nbsp;&nbsp;Attack: 13、Electricity Attack: 13</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;超电蓄能球&nbsp;&nbsp;Attack: 15、Electricity Attack: 14</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;幻兽吊坠&nbsp;&nbsp;Attack: 16、Electricity Attack: 16</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;真·幻兽吊坠&nbsp;&nbsp;Attack: 18、Electricity Attack: 18</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_01.png">&nbsp;&nbsp;风雷之翼&nbsp;&nbsp;Attack: 20、Electricity Attack: 20</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;教官的龙炎项链&nbsp;&nbsp;Attack: 3、Dragon Attack: 2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;混沌串珠&nbsp;&nbsp;Attack: 4、Dragon Attack: 3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;暗夜之饰&nbsp;&nbsp;Attack: 5、Dragon Attack: 4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;暗夜纹饰&nbsp;&nbsp;Attack: 6、Dragon Attack: 5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;灾厄之链&nbsp;&nbsp;Attack: 7、Dragon Attack: 7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;灾厄噬链&nbsp;&nbsp;Attack: 9、Dragon Attack: 8</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;龙泪晶石&nbsp;&nbsp;Attack: 10、Dragon Attack: 10</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;龙泪晶石串&nbsp;&nbsp;Attack: 12、Dragon Attack: 11</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;断玉挂坠&nbsp;&nbsp;Attack: 13、Dragon Attack: 13</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;龙玉挂坠&nbsp;&nbsp;Attack: 15、Dragon Attack: 14</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;古龙木坠&nbsp;&nbsp;Attack: 16、Dragon Attack: 16</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;古龙木坠·改&nbsp;&nbsp;Attack: 18、Dragon Attack: 18</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_07.png">&nbsp;&nbsp;龙鳞纹章&nbsp;&nbsp;Attack: 20、Dragon Attack: 20</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;教官的冻结项链&nbsp;&nbsp;Attack: 3、Ice Attack: 2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;冰结挂坠&nbsp;&nbsp;Attack: 4、Ice Attack: 3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;凝霜串珠&nbsp;&nbsp;Attack: 5、Ice Attack: 4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;坚霜串珠&nbsp;&nbsp;Attack: 6、Ice Attack: 5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;雪晶吊饰&nbsp;&nbsp;Attack: 7、Ice Attack: 7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;雪晶吊饰·改&nbsp;&nbsp;Attack: 9、Ice Attack: 8</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;破碎的寒髓勾玉&nbsp;&nbsp;Attack: 10、Ice Attack: 10</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;寒髓勾玉&nbsp;&nbsp;Attack: 12、Ice Attack: 11</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;霜华之印&nbsp;&nbsp;Attack: 13、Ice Attack: 13</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;霜华冻印&nbsp;&nbsp;Attack: 15、Ice Attack: 14</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;冻息短链&nbsp;&nbsp;Attack: 16、Ice Attack: 16</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;冻息锁链&nbsp;&nbsp;Attack: 18、Ice Attack: 18</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_02.png">&nbsp;&nbsp;雪域女王&nbsp;&nbsp;Attack: 20、Ice Attack: 20</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;贝壳戒指&nbsp;&nbsp;Water Resistance:1</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;真珠戒指&nbsp;&nbsp;Water Resistance:2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;白石扳指&nbsp;&nbsp;Water Resistance:3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;彩晶之戒&nbsp;&nbsp;Water Resistance:4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;水晶印戒&nbsp;&nbsp;Water Resistance:5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;辉水晶戒&nbsp;&nbsp;Water Resistance:6</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_09.png">&nbsp;&nbsp;激流指环&nbsp;&nbsp;Water Resistance:7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;熔岩方戒&nbsp;&nbsp;Fire Resistance:1</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;火药戒指&nbsp;&nbsp;Fire Resistance:2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;烈焰指针&nbsp;&nbsp;Fire Resistance:3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;琉璃指环&nbsp;&nbsp;Fire Resistance:4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;燃石之戒&nbsp;&nbsp;Fire Resistance:5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;狱炎矿戒&nbsp;&nbsp;Fire Resistance:6</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_12.png">&nbsp;&nbsp;炎魔邪瞳&nbsp;&nbsp;Fire Resistance:7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;闪光指环&nbsp;&nbsp;Electricity Resistance:1</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;雷光琥珀&nbsp;&nbsp;Electricity Resistance:2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;轰鸣指环&nbsp;&nbsp;Electricity Resistance:3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;电光雷石&nbsp;&nbsp;Electricity Resistance:4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;蓄能之戒&nbsp;&nbsp;Electricity Resistance:5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;幻兽对戒&nbsp;&nbsp;Electricity Resistance:6</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_11.png">&nbsp;&nbsp;风雷印戒&nbsp;&nbsp;Electricity Resistance:7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;混沌珠环&nbsp;&nbsp;Dragon Resistance:1</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;暗夜饰戒&nbsp;&nbsp;Dragon Resistance:2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;灾厄之戒&nbsp;&nbsp;Dragon Resistance:3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;龙泪石戒&nbsp;&nbsp;Dragon Resistance:4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;断玉缀戒&nbsp;&nbsp;Dragon Resistance:5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;古龙木戒&nbsp;&nbsp;Dragon Resistance:6</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_13.png">&nbsp;&nbsp;龙鳞纹戒&nbsp;&nbsp;Dragon Resistance:7</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;冰结戒指&nbsp;&nbsp;Ice Resistance:1</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;凝霜木指环&nbsp;&nbsp;Ice Resistance:2</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;雪晶扳指&nbsp;&nbsp;Ice Resistance:3</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;寒髓玉戒&nbsp;&nbsp;Ice Resistance:4</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;霜华印戒&nbsp;&nbsp;Ice Resistance:5</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;冻息尾戒&nbsp;&nbsp;Ice Resistance:6</li>
+          <li class="collection-item"><img src="../images/item/prop_gem_08.png">&nbsp;&nbsp;雪域魂戒&nbsp;&nbsp;Ice Resistance:7</li>
+          <li class="collection-item"><img src="../images/item/ep_hs_01.png">&nbsp;&nbsp;兵士护石&nbsp;&nbsp;</li>
+          <li class="collection-item"><img src="../images/item/ep_hs_02.png">&nbsp;&nbsp;斗士护石&nbsp;&nbsp;</li>
+          <li class="collection-item"><img src="../images/item/ep_hs_03.png">&nbsp;&nbsp;骑士护石&nbsp;&nbsp;</li>
+          <li class="collection-item"><img src="../images/item/ep_hs_05.png">&nbsp;&nbsp;女王护石&nbsp;&nbsp;</li>
+          <li class="collection-item"><img src="../images/item/ep_hs_07.png">&nbsp;&nbsp;龙之护石&nbsp;&nbsp;</li>
+        </ul>
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+<div class="col l6 s12">
+  <h5 class="white-text">Site Info</h5>
+  <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
 </div>
-
-
-<table class="w3-table">
-<tbody>
-<tr class="border_bottom">
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>教官的旧项链</span></td>
-					
-<td><span>Attack: 5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>碎骨链</span></td>
-					
-<td><span>Attack: 7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>粗磨骨链</span></td>
-					
-<td><span>Attack: 9</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>精磨骨链</span></td>
-					
-<td><span>Attack: 11</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>骨制吊牌</span></td>
-					
-<td><span>Attack: 14</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>骨制吊牌·改</span></td>
-					
-<td><span>Attack: 17</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>锥骨挂饰</span></td>
-					
-<td><span>Attack: 20</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>哑黑锥骨挂饰</span></td>
-					
-<td><span>Attack: 23</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>骷髅项链</span></td>
-					
-<td><span>Attack: 26</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>铁质骷髅项链</span></td>
-					
-<td><span>Attack: 29</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>脊骨项圈</span></td>
-					
-<td><span>Attack: 32</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>硬脊项圈</span></td>
-					
-<td><span>Attack: 36</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙骨坠</span></td>
-					
-<td><span>Attack: 40</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>教官的水纹项链</span></td>
-					
-<td><span>Attack: 3、Water Attack: 2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>贝壳绳串</span></td>
-					
-<td><span>Attack: 4、Water Attack: 3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>真珠项链</span></td>
-					
-<td><span>Attack: 5、Water Attack: 4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>黑真珠项链</span></td>
-					
-<td><span>Attack: 6、Water Attack: 5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>白石纹章</span></td>
-					
-<td><span>Attack: 7、Water Attack: 7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>白石纹章·改</span></td>
-					
-<td><span>Attack: 9、Water Attack: 8</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>彩晶之链</span></td>
-					
-<td><span>Attack: 10、Water Attack: 10</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>彩晶长链</span></td>
-					
-<td><span>Attack: 12、Water Attack: 11</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>光水晶挂坠</span></td>
-					
-<td><span>Attack: 13、Water Attack: 13</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>光水晶坠饰</span></td>
-					
-<td><span>Attack: 15、Water Attack: 14</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>黯淡辉水晶项链</span></td>
-					
-<td><span>Attack: 16、Water Attack: 16</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>辉水晶项链</span></td>
-					
-<td><span>Attack: 18、Water Attack: 18</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>激流之链</span></td>
-					
-<td><span>Attack: 20、Water Attack: 20</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>教官的烧烤项链</span></td>
-					
-<td><span>Attack: 3、Fire Attack: 2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>熔岩块饰</span></td>
-					
-<td><span>Attack: 4、Fire Attack: 3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>火药瓶吊坠</span></td>
-					
-<td><span>Attack: 5、Fire Attack: 4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>火药燃瓶吊坠</span></td>
-					
-<td><span>Attack: 6、Fire Attack: 5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>火焰缀针</span></td>
-					
-<td><span>Attack: 7、Fire Attack: 7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>烈焰缀针</span></td>
-					
-<td><span>Attack: 9、Fire Attack: 8</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>赤琉璃挂链</span></td>
-					
-<td><span>Attack: 10、Fire Attack: 10</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>赤琉璃珠链</span></td>
-					
-<td><span>Attack: 12、Fire Attack: 11</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>灼热燃石项链</span></td>
-					
-<td><span>Attack: 13、Fire Attack: 13</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>燃石项链</span></td>
-					
-<td><span>Attack: 15、Fire Attack: 14</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>狱炎矿链</span></td>
-					
-<td><span>Attack: 16、Fire Attack: 16</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>狱炎矿链·改</span></td>
-					
-<td><span>Attack: 18、Fire Attack: 18</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_06.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>炎魔之瞳</span></td>
-					
-<td><span>Attack: 20、Fire Attack: 20</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>教官的雷击项链</span></td>
-					
-<td><span>Attack: 3、Electricity Attack: 2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>闪光之链</span></td>
-					
-<td><span>Attack: 4、Electricity Attack: 3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>虫瓶挂坠</span></td>
-					
-<td><span>Attack: 5、Electricity Attack: 4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>虫瓶挂坠·改</span></td>
-					
-<td><span>Attack: 6、Electricity Attack: 5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>轰鸣挂饰</span></td>
-					
-<td><span>Attack: 7、Electricity Attack: 7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>轰鸣挂坠</span></td>
-					
-<td><span>Attack: 9、Electricity Attack: 8</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>电光石</span></td>
-					
-<td><span>Attack: 10、Electricity Attack: 10</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雷光石</span></td>
-					
-<td><span>Attack: 12、Electricity Attack: 11</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>电蓄能球</span></td>
-					
-<td><span>Attack: 13、Electricity Attack: 13</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>超电蓄能球</span></td>
-					
-<td><span>Attack: 15、Electricity Attack: 14</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>幻兽吊坠</span></td>
-					
-<td><span>Attack: 16、Electricity Attack: 16</span></td>
-</tr>
-<tr class="border_bottom">
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>真·幻兽吊坠</span></td>
-					
-<td><span>Attack: 18、Electricity Attack: 18</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>风雷之翼</span></td>
-					
-<td><span>Attack: 20、Electricity Attack: 20</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>教官的龙炎项链</span></td>
-					
-<td><span>Attack: 3、Dragon Attack: 2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>混沌串珠</span></td>
-					
-<td><span>Attack: 4、Dragon Attack: 3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>暗夜之饰</span></td>
-					
-<td><span>Attack: 5、Dragon Attack: 4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>暗夜纹饰</span></td>
-					
-<td><span>Attack: 6、Dragon Attack: 5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>灾厄之链</span></td>
-					
-<td><span>Attack: 7、Dragon Attack: 7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>灾厄噬链</span></td>
-					
-<td><span>Attack: 9、Dragon Attack: 8</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙泪晶石</span></td>
-					
-<td><span>Attack: 10、Dragon Attack: 10</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙泪晶石串</span></td>
-					
-<td><span>Attack: 12、Dragon Attack: 11</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>断玉挂坠</span></td>
-					
-<td><span>Attack: 13、Dragon Attack: 13</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙玉挂坠</span></td>
-					
-<td><span>Attack: 15、Dragon Attack: 14</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>古龙木坠</span></td>
-					
-<td><span>Attack: 16、Dragon Attack: 16</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>古龙木坠·改</span></td>
-					
-<td><span>Attack: 18、Dragon Attack: 18</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙鳞纹章</span></td>
-					
-<td><span>Attack: 20、Dragon Attack: 20</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>教官的冻结项链</span></td>
-					
-<td><span>Attack: 3、Ice Attack: 2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>冰结挂坠</span></td>
-					
-<td><span>Attack: 4、Ice Attack: 3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>凝霜串珠</span></td>
-					
-<td><span>Attack: 5、Ice Attack: 4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>坚霜串珠</span></td>
-					
-<td><span>Attack: 6、Ice Attack: 5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雪晶吊饰</span></td>
-					
-<td><span>Attack: 7、Ice Attack: 7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雪晶吊饰·改</span></td>
-					
-<td><span>Attack: 9、Ice Attack: 8</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>破碎的寒髓勾玉</span></td>
-					
-<td><span>Attack: 10、Ice Attack: 10</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>寒髓勾玉</span></td>
-					
-<td><span>Attack: 12、Ice Attack: 11</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>霜华之印</span></td>
-					
-<td><span>Attack: 13、Ice Attack: 13</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>霜华冻印</span></td>
-					
-<td><span>Attack: 15、Ice Attack: 14</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>冻息短链</span></td>
-					
-<td><span>Attack: 16、Ice Attack: 16</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>冻息锁链</span></td>
-					
-<td><span>Attack: 18、Ice Attack: 18</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Necklace</span></td>
-                    
-<td><span><img src="../images/prop_gem_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雪域女王</span></td>
-					
-<td><span>Attack: 20、Ice Attack: 20</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>贝壳戒指</span></td>
-					
-<td><span>Water Resistance:1</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>真珠戒指</span></td>
-					
-<td><span>Water Resistance:2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>白石扳指</span></td>
-					
-<td><span>Water Resistance:3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>彩晶之戒</span></td>
-					
-<td><span>Water Resistance:4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>水晶印戒</span></td>
-					
-<td><span>Water Resistance:5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>辉水晶戒</span></td>
-					
-<td><span>Water Resistance:6</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_09.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>激流指环</span></td>
-					
-<td><span>Water Resistance:7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>熔岩方戒</span></td>
-					
-<td><span>Fire Resistance:1</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>火药戒指</span></td>
-					
-<td><span>Fire Resistance:2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>烈焰指针</span></td>
-					
-<td><span>Fire Resistance:3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>琉璃指环</span></td>
-					
-<td><span>Fire Resistance:4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>燃石之戒</span></td>
-					
-<td><span>Fire Resistance:5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>狱炎矿戒</span></td>
-					
-<td><span>Fire Resistance:6</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_12.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>炎魔邪瞳</span></td>
-					
-<td><span>Fire Resistance:7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>闪光指环</span></td>
-					
-<td><span>Electricity Resistance:1</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雷光琥珀</span></td>
-					
-<td><span>Electricity Resistance:2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>轰鸣指环</span></td>
-					
-<td><span>Electricity Resistance:3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>电光雷石</span></td>
-					
-<td><span>Electricity Resistance:4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>蓄能之戒</span></td>
-					
-<td><span>Electricity Resistance:5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>幻兽对戒</span></td>
-					
-<td><span>Electricity Resistance:6</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_11.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>风雷印戒</span></td>
-					
-<td><span>Electricity Resistance:7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>混沌珠环</span></td>
-					
-<td><span>Dragon Resistance:1</span></td>
-</tr>
-<tr class="border_bottom">
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>暗夜饰戒</span></td>
-					
-<td><span>Dragon Resistance:2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>灾厄之戒</span></td>
-					
-<td><span>Dragon Resistance:3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙泪石戒</span></td>
-					
-<td><span>Dragon Resistance:4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>断玉缀戒</span></td>
-					
-<td><span>Dragon Resistance:5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>古龙木戒</span></td>
-					
-<td><span>Dragon Resistance:6</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_13.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙鳞纹戒</span></td>
-					
-<td><span>Dragon Resistance:7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>冰结戒指</span></td>
-					
-<td><span>Ice Resistance:1</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>凝霜木指环</span></td>
-					
-<td><span>Ice Resistance:2</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雪晶扳指</span></td>
-					
-<td><span>Ice Resistance:3</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>寒髓玉戒</span></td>
-					
-<td><span>Ice Resistance:4</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>霜华印戒</span></td>
-					
-<td><span>Ice Resistance:5</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>冻息尾戒</span></td>
-					
-<td><span>Ice Resistance:6</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Ring</span></td>
-                    
-<td><span><img src="../images/prop_gem_08.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>雪域魂戒</span></td>
-					
-<td><span>Ice Resistance:7</span></td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Protection Stone</span></td>
-                    
-<td><span><img src="../images/ep_hs_01.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>兵士护石</span></td>
-					
-<td><br>
-</td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Protection Stone</span></td>
-                    
-<td><span><img src="../images/ep_hs_02.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>斗士护石</span></td>
-					
-<td><br>
-</td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Protection Stone</span></td>
-                    
-<td><span><img src="../images/ep_hs_03.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>骑士护石</span></td>
-					
-<td><br>
-</td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Protection Stone</span></td>
-                    
-<td><span><img src="../images/ep_hs_05.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>女王护石</span></td>
-					
-<td><br>
-</td>
-				</tr>
-<tr class="border_bottom">					
-<td><span>Protection Stone</span></td>
-                    
-<td><span><img src="../images/ep_hs_07.png" style="display:inline; max-width: 32px;"></span></td>
-					
-<td><span>龙之护石</span></td>
-					
-<td><br>
-</td>
-</tr>
-</tbody>
-</table>
-
-
+<div class="col l3 s12">
+  <h5 class="white-text">Other Guides</h5>
+  <ul>
+    <li><a class="white-text" href="../install/">Install Guide</a></li>
+    <li><a class="white-text" href="../translation/">Translation Guide</a></li>
+    <li><a class="white-text" href="../vip/">VIP Guide</a></li>
+  </ul>
 </div>
-<div id="footer" class="w3-container w3-middle-align w3-hide-small" style="margin-left:200px; margin-right:200px;"></div>
+<div class="col l3 s12">
+  <h5 class="white-text">Discord</h5>
+  <ul>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+    <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+  </ul>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="../js/mho.js"></script>
-</body>
-</html> 
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+  </body>
+</html>
