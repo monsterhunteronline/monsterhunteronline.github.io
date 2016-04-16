@@ -40324,7 +40324,7 @@ var armorArray = [
       "data": [
         "61401",
         "赤冶【头冠】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "0",
         "3",
         "3",
@@ -40387,7 +40387,7 @@ var armorArray = [
       "data": [
         "61402",
         "赤冶【笼手】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "0",
         "3",
         "0",
@@ -40450,7 +40450,7 @@ var armorArray = [
       "data": [
         "61403",
         "赤冶【胴体】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "0",
         "3",
         "1",
@@ -40513,7 +40513,7 @@ var armorArray = [
       "data": [
         "61404",
         "赤冶【腰甲】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "0",
         "3",
         "1",
@@ -40576,7 +40576,7 @@ var armorArray = [
       "data": [
         "61405",
         "赤冶【具足】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "0",
         "3",
         "1",
@@ -40639,7 +40639,7 @@ var armorArray = [
       "data": [
         "61406",
         "莽山【面兜】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "1",
         "3",
         "3",
@@ -40702,7 +40702,7 @@ var armorArray = [
       "data": [
         "61407",
         "莽山【锁甲】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "1",
         "3",
         "0",
@@ -40765,7 +40765,7 @@ var armorArray = [
       "data": [
         "61408",
         "莽山【胴体】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "1",
         "3",
         "1",
@@ -40828,7 +40828,7 @@ var armorArray = [
       "data": [
         "61409",
         "莽山【腰铠】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "1",
         "3",
         "1",
@@ -40891,7 +40891,7 @@ var armorArray = [
       "data": [
         "61410",
         "莽山【具足】",
-        "Red Shen Gaoren",
+        "Guren Shen Gaoren",
         "1",
         "3",
         "1",

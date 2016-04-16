@@ -103,33 +103,43 @@ body {
 /* Start Weapon Table CSS*/
 .bow {
 	background: url(../images/weapon/bowbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .bowgun {
 	background: url(../images/weapon/bowgunbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .dualblades {
 	background: url(../images/weapon/dualbladesbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .greatsword {
 	background: url(../images/weapon/greatswordbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .gunlance {
 	background: url(../images/weapon/gunlancebg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .hammer {
 	background: url(../images/weapon/hammerbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .huntinghorn {
 	background: url(../images/weapon/huntinghornbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .lance {
 	background: url(../images/weapon/lancebg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .longsword {
 	background: url(../images/weapon/longswordbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 .swordandshield {
 	background: url(../images/weapon/swordandshieldbg.png) 0 0 no-repeat;
+	background-color: #bdbdbd;
 }
 #weapons {
 	margin: 0px auto;

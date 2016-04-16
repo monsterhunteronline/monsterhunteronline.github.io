@@ -11834,7 +11834,7 @@ var materialArray = [
 				"data": [
 					"22033",
 					"极味蟹糕",
-					"<FONT COLOR=\"#6285C6\" >Source：Red Shen Gaoren，Rock Shen Gaoren(活动)</FONT>",
+					"<FONT COLOR=\"#6285C6\" >Source：Guren Shen Gaoren，Tepekki Shen Gaoren(活动)</FONT>",
 					"素材",
 					"mat_shell_04_BLK",
 					"",
@@ -11848,7 +11848,7 @@ var materialArray = [
 				"data": [
 					"22035",
 					"砦蟹之刚赤螯",
-					"<FONT COLOR=\"#6285C6\" >Source：Red Shen Gaoren，Rock Shen Gaoren(活动)</FONT>",
+					"<FONT COLOR=\"#6285C6\" >Source：Guren Shen Gaoren，Tepekki Shen Gaoren(活动)</FONT>",
 					"素材",
 					"mat_claw_04_RED",
 					"",
@@ -11862,7 +11862,7 @@ var materialArray = [
 				"data": [
 					"22036",
 					"砦蟹之烈刃爪",
-					"<FONT COLOR=\"#6285C6\" >Source：Red Shen Gaoren，Rock Shen Gaoren(活动)</FONT>",
+					"<FONT COLOR=\"#6285C6\" >Source：Guren Shen Gaoren，Tepekki Shen Gaoren(活动)</FONT>",
 					"素材",
 					"mat_clamp_01",
 					"",
@@ -11876,7 +11876,7 @@ var materialArray = [
 				"data": [
 					"22037",
 					"业炎的秘宝",
-					"<FONT COLOR=\"#6285C6\" >Source：Red Shen Gaoren，Rock Shen Gaoren(活动)</FONT>",
+					"<FONT COLOR=\"#6285C6\" >Source：Guren Shen Gaoren，Tepekki Shen Gaoren(活动)</FONT>",
 					"素材",
 					"mat_visceral_01",
 					"",
@@ -11890,7 +11890,7 @@ var materialArray = [
 				"data": [
 					"22038",
 					"砦蟹之极上甲",
-					"<FONT COLOR=\"#6285C6\" >Source：Red Shen Gaoren，Rock Shen Gaoren(活动)</FONT>",
+					"<FONT COLOR=\"#6285C6\" >Source：Guren Shen Gaoren，Tepekki Shen Gaoren(活动)</FONT>",
 					"素材",
 					"mat_shell_01",
 					"",
@@ -11904,7 +11904,7 @@ var materialArray = [
 				"data": [
 					"22039",
 					"霸之苍曜角",
-					"<FONT COLOR=\"#6285C6\" >Source：Red Shen Gaoren，Rock Shen Gaoren(活动)</FONT>",
+					"<FONT COLOR=\"#6285C6\" >Source：Guren Shen Gaoren，Tepekki Shen Gaoren(活动)</FONT>",
 					"素材",
 					"mat_horn_01_bk_OR",
 					"",
