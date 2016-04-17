@@ -2,7 +2,7 @@
   $(function(){
 
     $('.button-collapse').sideNav();
-    $('.collapsible').collapsible({accordion : true});
+    $('.collapsible').collapsible({accordion : false});
     $('.tooltipped').tooltip({delay: 10});
     $('.slider').slider({full_width: true});
 
