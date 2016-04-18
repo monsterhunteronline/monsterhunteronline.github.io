@@ -61,6 +61,22 @@ body {
 	.container {
 		width: 70%;
 	}
+}@media only screen and (min-width: 993px) {
+  .row .col.l2-10 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.offset-l2-10 {
+    margin-left: 20%;
+  }
+  .row .col.pull-l2-10 {
+    right: 20%;
+  }
+  .row .col.push-l2-10 {
+    left: 20%;
+  }
 }
 .type0 {
 	color: #8aff2b;
@@ -73,9 +89,11 @@ body {
 	height: 32px;
 	position: relative;
 	top: 9px;
+	left:10px;
 }
 .armorinfo td {
 	padding: 0px !important;
+	padding-left: 15px !important;
 }
 .Lv40 {
 	display: none !important;
@@ -384,3 +402,16 @@ hr {
 	display: none;
 }
 /* End Weapon Table CSS */
+
+.yes {
+	display: block !important;
+}
+.no.yes {
+	display: block !important;
+}
+.armortypeno {
+	display: none !important;
+}
+.armortypeno.yes {
+	display: none !important;
+}
