@@ -24,10 +24,10 @@
     <li class="active"><a href="#">Armor</a></li>
     <li><a href="../weapons/">Weapons</a></li>
     <li><a href="../jewelry/">Jewelry</a></li>
+<li><a href="../talismans/">Talismans</a></li>
     <li><a href="../crafting/">Crafting</a></li>
     <li><a href="../materials/">Materials</a></li>
     <li class="divider"></li>
-    <li><a href="../set-builder/">Set Builder</a></li>
   </ul>
   <ul id="dropdownhunting" class="dropdown-content">
     <li><a href="../quests/">Quests</a></li>
@@ -64,9 +64,9 @@
                 <li class="active"><a href="#">Armor</a></li>
                 <li><a href="../weapons/">Weapons</a></li>
                 <li><a href="../jewelry/">Jewelry</a></li>
+<li><a href="../talismans/">Talismans</a></li>
                 <li><a href="../crafting/">Crafting</a></li>
                 <li><a href="../materials/">Materials</a></li><li class="divider"></li>
-                <li><a href="../set-builder/">Set Builder</a></li>
               </ul>
             </div>
             </li>
@@ -103,6 +103,76 @@
     <div class="container">
       <br><br>
 <!--Content-->
+<ul class="collapsible white" data-collapsible="accordian">
+<li>
+<div class="collapsible-header white">Set Builder</div>
+<div class="collapsible-body white">
+<div class="card z-depth-0">
+<div id="typecolor" class="card-content">
+          <div class="row white">
+            <div class="col s1">
+              <div id="helmetImg"></div>
+              <div id="helmetMosaic"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="helmet">No Data</div>
+            <div class="col s12 m8" id="helmetSkills"></div>
+          </div>
+          <div class="row white">
+            <div class="col s1">
+              <div id="vambracesImg"></div>
+              <div id="vambracesMosaic"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="vambraces">No Data</div>
+            <div class="col s12 m8" id="vambracesSkills"></div>
+          </div>
+          <div class="row white">
+            <div class="col s1">
+              <div id="armorImg"></div>
+              <div id="armorMosaic"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="armor">No Data</div>
+            <div class="col s12 m8" id="armorSkills"></div>
+          </div>
+          <div class="row white">
+            <div class="col s1">
+              <div id="waistImg"></div>
+              <div id="waistMosaic"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="waist">No Data</div>
+            <div class="col s12 m8" id="waistSkills"></div>
+          </div>
+          <div class="row white">
+            <div class="col s1">
+              <div id="greavesImg"></div>
+              <div id="greavesMosaic"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="greaves">No Data</div>
+            <div class="col s12 m8" id="greavesSkills"></div>
+          </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Total</th>
+                    <th>Passive</th>
+                  </tr>
+                </thead>
+                <tbody id="skillTotals"></tbody>
+              </table>
+            </div>
+          </div>
+</div>
+</li>
+</ul>
       <div>
         <input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
         <input type="button" id="button" value="Search Armors"></input>
@@ -194,6 +264,7 @@
   <script src="../js/armordata.js"></script>
   <script src="../js/other.js"></script>
   <script src="../js/armor.js"></script>
+  <script src="../js/armorset.js"></script>
   <script src="../js/init.js"></script>
   </body>
 </html>

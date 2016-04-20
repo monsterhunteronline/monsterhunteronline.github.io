@@ -42,7 +42,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "3",
@@ -105,7 +105,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "2",
@@ -168,7 +168,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "1",
@@ -231,7 +231,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "2",
@@ -294,7 +294,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "2",
@@ -357,7 +357,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "3",
@@ -420,7 +420,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "2",
@@ -483,7 +483,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "1",
@@ -546,7 +546,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "2",
@@ -609,7 +609,7 @@ var armorArray = [
         "",
         "Rec Speed",
         "2",
-        "Capture Guru",
+        "Perception",
         "2",
         "Gluttony",
         "2",
@@ -6988,7 +6988,7 @@ var armorArray = [
         "CJSLWTK",
         "1",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7051,7 +7051,7 @@ var armorArray = [
         "CJSLWWJ",
         "2",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7114,7 +7114,7 @@ var armorArray = [
         "CJSLWZJ",
         "3",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7177,7 +7177,7 @@ var armorArray = [
         "CJSLWYJ",
         "4",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7240,7 +7240,7 @@ var armorArray = [
         "CJSLWTJ",
         "5",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7303,7 +7303,7 @@ var armorArray = [
         "CJSLWZM",
         "1",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7366,7 +7366,7 @@ var armorArray = [
         "CJSLWHS",
         "2",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7429,7 +7429,7 @@ var armorArray = [
         "CJSLWHJ",
         "3",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7492,7 +7492,7 @@ var armorArray = [
         "CJSLWHY",
         "4",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -7555,7 +7555,7 @@ var armorArray = [
         "CJSLWHT",
         "5",
         "2",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.10"
       ]
     },
@@ -20848,7 +20848,7 @@ var armorArray = [
         "SLWTK",
         "1",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -20911,7 +20911,7 @@ var armorArray = [
         "SLWWJ",
         "2",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -20974,7 +20974,7 @@ var armorArray = [
         "SLWZJ",
         "3",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21037,7 +21037,7 @@ var armorArray = [
         "SLWYJ",
         "4",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21100,7 +21100,7 @@ var armorArray = [
         "SLWTJ",
         "5",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21163,7 +21163,7 @@ var armorArray = [
         "SLWZM",
         "1",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21226,7 +21226,7 @@ var armorArray = [
         "SLWHS",
         "2",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21289,7 +21289,7 @@ var armorArray = [
         "SLWHJ",
         "3",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21352,7 +21352,7 @@ var armorArray = [
         "SLWHY",
         "4",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
@@ -21415,7 +21415,7 @@ var armorArray = [
         "SLWHT",
         "5",
         "1",
-        "Heat Res、Violent Strike",
+        "Heat Cancel、Violent Strike",
         "Lv.40"
       ]
     },
