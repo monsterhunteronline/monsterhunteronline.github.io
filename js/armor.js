@@ -26,7 +26,7 @@ $('#button').on('click', function() {
 	var ii;
 
 	for(i = 0; i < arr.length; i += 5) {
-		var largescreen = ""
+		var largescreen = "";
 		for(ii = 0; ii < 5; ii ++) {
 //Large Screen and Small Screen
 			largescreen += ''+

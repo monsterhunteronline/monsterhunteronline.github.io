@@ -5,6 +5,7 @@
     $('.collapsible').collapsible({accordion : false});
     $('.tooltipped').tooltip({delay: 10});
     $('.slider').slider({full_width: true});
+    $('select').material_select();
 
     //$(imagesLoaded( {
     //options

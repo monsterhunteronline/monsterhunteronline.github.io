@@ -109,13 +109,23 @@
 <div class="collapsible-body white">
 <div class="card z-depth-0">
 <div id="typecolor" class="card-content">
+<!--Weapon-->
+          <div class="row white">
+            <div class="col s1">
+              <div id="weaponImg"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="weapon">No Weapon</div>
+            <div class="col s12 m8" id="weaponSkills"></div>
+          </div>
+<!--Armor-->
           <div class="row white">
             <div class="col s1">
               <div id="helmetImg"></div>
               <div id="helmetMosaic"></div>
             </div>
             <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="helmet">No Data</div>
+            <div class="col s10 m3" id="helmet">No Helmet</div>
             <div class="col s12 m8" id="helmetSkills"></div>
           </div>
           <div class="row white">
@@ -124,7 +134,7 @@
               <div id="vambracesMosaic"></div>
             </div>
             <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="vambraces">No Data</div>
+            <div class="col s10 m3" id="vambraces">No Vambraces</div>
             <div class="col s12 m8" id="vambracesSkills"></div>
           </div>
           <div class="row white">
@@ -133,7 +143,7 @@
               <div id="armorMosaic"></div>
             </div>
             <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="armor">No Data</div>
+            <div class="col s10 m3" id="armor">No Armor</div>
             <div class="col s12 m8" id="armorSkills"></div>
           </div>
           <div class="row white">
@@ -142,7 +152,7 @@
               <div id="waistMosaic"></div>
             </div>
             <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="waist">No Data</div>
+            <div class="col s10 m3" id="waist">No Waist</div>
             <div class="col s12 m8" id="waistSkills"></div>
           </div>
           <div class="row white">
@@ -151,8 +161,33 @@
               <div id="greavesMosaic"></div>
             </div>
             <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="greaves">No Data</div>
+            <div class="col s10 m3" id="greaves">No Greaves</div>
             <div class="col s12 m8" id="greavesSkills"></div>
+          </div>
+<!--Jewelry-->
+          <div class="row white">
+            <div class="col s1">
+              <div id="necklaceImg"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="necklace">No Necklace</div>
+            <div class="col s12 m8" id="necklaceSkills"></div>
+          </div>
+          <div class="row white">
+            <div class="col s1">
+              <div id="ringImg"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="ring">No Ring</div>
+            <div class="col s12 m8" id="ringSkills"></div>
+          </div>
+          <div class="row white">
+            <div class="col s1">
+              <div id="talismanImg"></div>
+            </div>
+            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
+            <div class="col s10 m3" id="talisman">No Talisman</div>
+            <div class="col s12 m8" id="talismanSkills"><span id="talismanSkills1"></span><span id="talismanSkills1Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills2"></span><span id="talismanSkills2Value"></span></div>
           </div>
           </div>
           </div>
@@ -173,12 +208,79 @@
 </div>
 </li>
 </ul>
-      <div>
-        <input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
-        <input type="button" id="button" value="Search Armors"></input>
-        <input type="button" id="blademaster" value="Blademaster"></input>
-        <input type="button" id="gunner" value="Gunner"></input>
-        <input type="button" id="both" value="Both"></input>
+      <div class="row">
+        <div class="col s12">
+          <label>Search Armors</label>
+          <input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
+          <input type="button" id="button" value="Search Armors"></input>
+          <input type="button" id="blademaster" value="Blademaster"></input>
+          <input type="button" id="gunner" value="Gunner"></input>
+          <input type="button" id="both" value="Both"></input>   
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m6 l4">
+          <select class="icons" name="necklaceSelect" id="necklaceSelect">
+          </select>
+          <label>Necklaces</label>
+        </div>
+        <div class="input-field col s12 m6 l4">
+          <select class="icons" name="ringSelect" id="ringSelect">
+          </select>
+          <label>Rings</label>
+        </div>
+        <div class="input-field col s12 m12 l4">
+          <select class="icons" name="talismanSelect" id="talismanSelect">
+            <option value="" disabled selected>Talisman Type</option>
+          </select>
+          <label>Talismans</label>
+        </div>
+        <div class="input-field col s8 m4 l4">
+          <select name="talismanSkill1Select" id="talismanSkill1Select">
+          </select>
+          <label>Talisman Skill 1</label>
+        </div>
+        <div class="input-field col s4 m2 l2">
+          <select name="talismanSkill1vSelect" id="talismanSkill1vSelect">
+            <option value="" disabled selected>Skill 1 Value</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <label>Talisman Skill 1 Value</label>
+        </div>
+        <div class="input-field col s8 m4 l4">
+          <select name="talismanSkill2Select" id="talismanSkill2Select">
+          </select>
+          <label>Talisman Skill 2</label>
+        </div>
+        <div class="input-field col s4 m2 l2">
+          <select name="talismanSkill2vSelect" id="talismanSkill2vSelect">
+            <option value="" disabled selected>Skill 2 Value</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <label>Talisman Skill 2 Value</label>
+        </div>
       </div>
       <ul id="armorlist" class="collapsible" data-collapsible="expandable">
       </ul>
@@ -262,6 +364,10 @@
   <script src="../js/jquery-2.1.1.min.js"></script>
   <script src="../js/materialize.js"></script>
   <script src="../js/armordata.js"></script>
+  <script src="../js/jewelrydata.js"></script>
+  <script src="../js/necklacedata.js"></script>
+  <script src="../js/ringdata.js"></script>
+  <script src="../js/talismandata.js"></script>
   <script src="../js/other.js"></script>
   <script src="../js/armor.js"></script>
   <script src="../js/armorset.js"></script>
