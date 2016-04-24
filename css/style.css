@@ -107,23 +107,23 @@ body {
 .Lv40 {
 	display: none !important;
 }
-.grade {
+.weak4 {
 	color: #4caf50;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.thumb_up {
+.weak3 {
 	color: #cddc39;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.thumbs_up_down {
+.weak2 {
 	color: #ffeb3b;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.thumb_down {
+.weak1 {
 	color: #ff9800;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.not_interested {
+.weak0 {
 	color: #f44336;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
