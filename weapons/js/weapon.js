@@ -1,3 +1,15 @@
+$(document).on('change', 'input#extraSharp', function() {
+	if($("#extraSharp").is(':checked')){
+    console.log('checked');  // checked
+	$('#weapons').find('span.leaveBar .oth-cut-set').width(1000/parseInt($('#weapons').find('span.leaveBar').attr('data-i'))+'%');
+	$('#weapons').find('span.leaveBar .oth-hav-set').width(99-1000/parseInt($('#weapons').find('span.leaveBar').attr('data-i'))+'%');
+	}
+	else {
+    console.log('unchecked');  // unchecked
+	$('#weapons').find('span.leaveBar .oth-cut-set').width('0%');
+	$('#weapons').find('span.leaveBar .oth-hav-set').width('100%');
+	}
+});
 function weaponContent(arr) {
 	var out = "";
 	var out2 = "";
@@ -13,6 +25,7 @@ function weaponContent(arr) {
 		width[5] = (arr[i].data[22] - arr[i].data[21]) * 100 / 4000000;
 		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 4000000;
 		width[6] = 100 - arr[i].data[16] * 100 / 4000000;
+
 	//bow variables
 	var name = ['','Pierce Lv1','Pierce Lv2','Pierce Lv3','Pierce Lv4','Rapid Lv1','Rapid Lv2','Rapid Lv3','Rapid Lv4','Scatter Lv1','Scatter Lv2','Scatter Lv3','Scatter Lv4'];
 	//hunting horn variables
@@ -78,7 +91,10 @@ function weaponContent(arr) {
 									'<span class="colorBar bar-5" style="width:' + width[4] + '%"></span>' +
 									'<span class="colorBar bar-6" style="width:' + width[5] + '%"></span>' +
 									'<span class="colorBar bar-7" style="width:' + width[7] + '%"></span>' +
-									'<span class="leaveBar" style="width:' + width[6] + '%"></span>' +
+									'<span class="leaveBar" style="width:' + width[6] + '%" data-i="' + width[6] + '">'+
+										'<span class="oth-cut-set" style="width: 0%;"></span>'+
+										'<span class="oth-hav-set" style="width: 100%;"></span>'+
+									'</span>' +
 								'</div>' +
 							'</div>' +
 						'</td>' +

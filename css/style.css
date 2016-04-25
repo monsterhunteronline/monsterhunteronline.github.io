@@ -210,7 +210,7 @@ body {
 	padding: 3px 17px 5px 14px;
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 10px;
 }
 .basePro .barWidth {
 	position: relative;
@@ -222,7 +222,6 @@ body {
 .basePro .leaveBar {
 	float: right;
 	height: 6px;
-	background-color: #353334;
 	position: absolute;
 	right: 0;
 }
@@ -252,6 +251,25 @@ body {
 	height: 14px;
     background-repeat: no-repeat;
     background-position: left;
+}
+.oth-cut-set {
+    display: inline-block;
+    height: 6px;
+    top: 0;
+    position: absolute;
+    left: 0px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: rgba(0, 0, 0, 0);
+}
+.oth-hav-set {
+    display: inline-block;
+    height: 6px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #353334;
 }
 .weaponpic {
 	position: relative;
