@@ -10,7 +10,9 @@ $(document).on('change', 'input#extraSharp', function() {
 	$('#weapons').find('span.leaveBar .oth-hav-set').width('100%');
 	}
 });
-function weaponContent(arr) {
+
+$(function() {
+	var arr = weaponArray;
 	var out = "";
 	var out2 = "";
 	var i;
@@ -155,7 +157,7 @@ function weaponContent(arr) {
 	//reload speed
 								'<tr class="no' + arr[i].data[27] + '">' +
 									'<td>Reload Speed:</td>' +
-									'<td class="white-text">' + arr[i].data[27] + '</td>' +
+									'<td class="white-text">' + translate(arr[i].data[27]) + '</td>' +
 								'</tr>' +
 	//shelling properties
 								'<tr class="no' + arr[i].data[137] + '">' +
@@ -185,130 +187,130 @@ function weaponContent(arr) {
 						'<td>[Recoil]</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[30] + ' ' + arr[i].data[32] + '">' +
-						'<td class="white-text">' + arr[i].data[30] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[30]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[31] + '</td>' +
-						'<td class="white-text">' + arr[i].data[33] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[33]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[34] + ' ' + arr[i].data[36] + '">' +
-						'<td class="white-text">' + arr[i].data[34] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[34]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[35] + '</td>' +
-						'<td class="white-text">' + arr[i].data[37] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[37]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[38] + ' ' + arr[i].data[40] + '">' +
-						'<td class="white-text">' + arr[i].data[38] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[38]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[39] + '</td>' +
-						'<td class="white-text">' + arr[i].data[41] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[41]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[42] + ' ' + arr[i].data[44] + '">' +
-						'<td class="white-text">' + arr[i].data[42] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[42]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[43] + '</td>' +
-						'<td class="white-text">' + arr[i].data[45] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[45]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[46] + ' ' + arr[i].data[48] + '">' +
-						'<td class="white-text">' + arr[i].data[46] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[46]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[47] + '</td>' +
-						'<td class="white-text">' + arr[i].data[49] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[49]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[50] + ' ' + arr[i].data[52] + '">' +
-						'<td class="white-text">' + arr[i].data[50] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[50]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[51] + '</td>' +
-						'<td class="white-text">' + arr[i].data[53] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[53]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[54] + ' ' + arr[i].data[56] + '">' +
-						'<td class="white-text">' + arr[i].data[54] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[54]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[55] + '</td>' +
-						'<td class="white-text">' + arr[i].data[57] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[57]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[58] + ' ' + arr[i].data[60] + '">' +
-						'<td class="white-text">' + arr[i].data[58] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[58]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[59] + '</td>' +
-						'<td class="white-text">' + arr[i].data[61] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[61]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[62] + ' ' + arr[i].data[64] + '">' +
-						'<td class="white-text">' + arr[i].data[62] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[62]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[63] + '</td>' +
-						'<td class="white-text">' + arr[i].data[65] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[65]) + '</td>' +
 					'</tr>' +
 					'<tr class="no' + arr[i].data[66] + ' ' + arr[i].data[68] + '">' +
-						'<td class="white-text">' + arr[i].data[66] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[66]) + '</td>' +
 						'<td class="white-text">' + arr[i].data[67] + '</td>' +
-						'<td class="white-text">' + arr[i].data[69] + '</td>' +
+						'<td class="white-text">' + translate(arr[i].data[69]) + '</td>' +
 					'</tr>' +
 	//bowgun other ammo
 					'<tr class="no' + arr[i].data[30] + '">' +
-						'<td>[' + arr[i].data[36].substring(0, 11) + 'Ammo]</td>' +
+						'<td>[' + translate(arr[i].data[36]).substring(0, 7) + 'Ammo]</td>' +
 						'<td>[Load]</td>' +
 						'<td>[Recoil]</td>' +
-						'<td class="no' + 	arr[i].data[32].substring(11, 12) + 
-											arr[i].data[36].substring(11, 12) + 
-											arr[i].data[40].substring(11, 12) + 
-											arr[i].data[44].substring(11, 12) + 
-											arr[i].data[48].substring(11, 12) + 
-											arr[i].data[52].substring(11, 12) + 
-											arr[i].data[56].substring(11, 12) + 
-											arr[i].data[60].substring(11, 12) + 
-											arr[i].data[64].substring(11, 12) + 
-											arr[i].data[68].substring(11, 12) + '">[Burst]</td>' +
+						'<td class="no' + 	arr[i].data[32].substring(2, 3) + 
+											arr[i].data[36].substring(2, 3) + 
+											arr[i].data[40].substring(2, 3) + 
+											arr[i].data[44].substring(2, 3) + 
+											arr[i].data[48].substring(2, 3) + 
+											arr[i].data[52].substring(2, 3) + 
+											arr[i].data[56].substring(2, 3) + 
+											arr[i].data[60].substring(2, 3) + 
+											arr[i].data[64].substring(2, 3) + 
+											arr[i].data[68].substring(2, 3) + '">[Burst]</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[32] + '">' +
-							'<td class="white-text">' + arr[i].data[30] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[30]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[31] + '</td>' +
-							'<td class="white-text">' + arr[i].data[33] + '</td>' +
-							'<td class="white-text">' + arr[i].data[32].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[33]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[32].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[36] + '">' +
-							'<td class="white-text">' + arr[i].data[34] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[34]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[35] + '</td>' +
-							'<td class="white-text">' + arr[i].data[37] + '</td>' +
-							'<td class="white-text">' + arr[i].data[36].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[37]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[36].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[40] + '">' +
-							'<td class="white-text">' + arr[i].data[38] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[38]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[39] + '</td>' +
-							'<td class="white-text">' + arr[i].data[41] + '</td>' +
-							'<td class="white-text">' + arr[i].data[40].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[41]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[40].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[44] + '">' +
-							'<td class="white-text">' + arr[i].data[42] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[42]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[43] + '</td>' +
-							'<td class="white-text">' + arr[i].data[45] + '</td>' +
-							'<td class="white-text">' + arr[i].data[44].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[45]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[44].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[48] + '">' +
-							'<td class="white-text">' + arr[i].data[46] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[46]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[47] + '</td>' +
-							'<td class="white-text">' + arr[i].data[49] + '</td>' +
-							'<td class="white-text">' + arr[i].data[48].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[49]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[48].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[52] + '">' +
-							'<td class="white-text">' + arr[i].data[50] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[50]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[51] + '</td>' +
-							'<td class="white-text">' + arr[i].data[53] + '</td>' +
-							'<td class="white-text">' + arr[i].data[52].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[53]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[52].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[56] + '">' +
-							'<td class="white-text">' + arr[i].data[54] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[54]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[55] + '</td>' +
-							'<td class="white-text">' + arr[i].data[57] + '</td>' +
-							'<td class="white-text">' + arr[i].data[56].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[57]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[56].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[60] + '">' +
-							'<td class="white-text">' + arr[i].data[58] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[58]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[59] + '</td>' +
-							'<td class="white-text">' + arr[i].data[61] + '</td>' +
-							'<td class="white-text">' + arr[i].data[60].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[61]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[60].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[64] + '">' +
-							'<td class="white-text">' + arr[i].data[62] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[62]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[63] + '</td>' +
-							'<td class="white-text">' + arr[i].data[65] + '</td>' +
-							'<td class="white-text">' + arr[i].data[64].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[65]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[64].substring(2, 3) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[68] + '">' +
-							'<td class="white-text">' + arr[i].data[66] + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[66]) + '</td>' +
 							'<td class="white-text">' + arr[i].data[67] + '</td>' +
-							'<td class="white-text">' + arr[i].data[69] + '</td>' +
-							'<td class="white-text">' + arr[i].data[68].substring(11, 12) + '</td>' +
+							'<td class="white-text">' + translate(arr[i].data[69]) + '</td>' +
+							'<td class="white-text">' + arr[i].data[68].substring(2, 3) + '</td>' +
 						'</tr>' +
 	//bow ammo
 						'<tr class="no' + arr[i].data[70] + '">' +
@@ -337,19 +339,19 @@ function weaponContent(arr) {
 							'<td colspan="2">[Load Amount]</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[78] + '">' +
-							'<td colspan="2" class="white-text">' + arr[i].data[78] + '</td>' +
+							'<td colspan="2" class="white-text">' + translate(arr[i].data[78]) + '</td>' +
 							'<td colspan="2" class="white-text">' + arr[i].data[79] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[80] + '">' +
-							'<td colspan="2" class="white-text">' + arr[i].data[80] + '</td>' +
+							'<td colspan="2" class="white-text">' + translate(arr[i].data[80]) + '</td>' +
 							'<td colspan="2" class="white-text">' + arr[i].data[81] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[82] + '">' +
-							'<td colspan="2" class="white-text">' + arr[i].data[82] + '</td>' +
+							'<td colspan="2" class="white-text">' + translate(arr[i].data[82]) + '</td>' +
 							'<td colspan="2" class="white-text">' + arr[i].data[83] + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[84] + '">' +
-							'<td colspan="2" class="white-text">' + arr[i].data[84] + '</td>' +
+							'<td colspan="2" class="white-text">' + translate(arr[i].data[84]) + '</td>' +
 							'<td colspan="2" class="white-text">' + arr[i].data[85] + '</td>' +
 						'</tr>' +
 	//bow charge
@@ -367,11 +369,11 @@ function weaponContent(arr) {
 						'</tr>' +
 						'<tr class="no' + arr[i].data[76] + '">' +
 							'<td colspan="2" class="white-text">Lv3</td>' +
-							'<td colspan="2" class="white-text">' + arr[i].data[76] + '</td>' +
+							'<td colspan="2" class="white-text">' + translate(arr[i].data[76]) + '</td>' +
 						'</tr>' +
 						'<tr class="no' + arr[i].data[76] + '">' +
 							'<td colspan="2" class="gray">Lv4</td>' +
-							'<td colspan="2" class="gray">' + arr[i].data[77] + '</td>' +
+							'<td colspan="2" class="gray">' + translate(arr[i].data[77]) + '</td>' +
 						'</tr>' +
 	//hunting horn songs
 						'<tr class="no' + arr[i].data[143] + '">' +
@@ -414,44 +416,44 @@ function weaponContent(arr) {
 							'<td colspan="4"><hr />[Forging Material]</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[94] + '">' +
-							'<td colspan="4">' + arr[i].data[94] + 'x' + arr[i].data[95] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[94]+'" target="_blank">' + arr[i].data[94] + '</a>x' + arr[i].data[95] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[97] + '">' +
-							'<td colspan="4">' + arr[i].data[97] + 'x' + arr[i].data[98] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[97]+'" target="_blank">' + arr[i].data[97] + '</a>x' + arr[i].data[98] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[100] + '">' +
-							'<td colspan="4">' + arr[i].data[100] + 'x' + arr[i].data[101] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[100]+'" target="_blank">' + arr[i].data[100] + '</a>x' + arr[i].data[101] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[103] + '">' +
-							'<td colspan="4">' + arr[i].data[103] + 'x' + arr[i].data[104] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[103]+'" target="_blank">' + arr[i].data[103] + '</a>x' + arr[i].data[104] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[106] + '">' +
-							'<td colspan="4">' + arr[i].data[106] + 'x' + arr[i].data[107] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[106]+'" target="_blank">' + arr[i].data[106] + '</a>x' + arr[i].data[107] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[109] + '">' +
-							'<td colspan="4">' + arr[i].data[109] + 'x' + arr[i].data[110] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[109]+'" target="_blank">' + arr[i].data[109] + '</a>x' + arr[i].data[110] + '</td>' +
 						'</tr>' +
 	//upgrade mats
 						'<tr class="no' + arr[i].data[113] + '">' +
 							'<td colspan="4"><hr />[Upgrade Material]</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[117] + '">' +
-							'<td colspan="4">' + arr[i].data[117] + 'x' + arr[i].data[116] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[117]+'" target="_blank">' + arr[i].data[117] + '</a>x' + arr[i].data[116] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[120] + '">' +
-							'<td colspan="4">' + arr[i].data[120] + 'x' + arr[i].data[119] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[120]+'" target="_blank">' + arr[i].data[120] + '</a>x' + arr[i].data[119] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[123] + '">' +
-							'<td colspan="4">' + arr[i].data[123] + 'x' + arr[i].data[122] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[123]+'" target="_blank">' + arr[i].data[123] + '</a>x' + arr[i].data[122] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[126] + '">' +
-							'<td colspan="4">' + arr[i].data[126] + 'x' + arr[i].data[125] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[126]+'" target="_blank">' + arr[i].data[126] + '</a>x' + arr[i].data[125] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[129] + '">' +
-							'<td colspan="4">' + arr[i].data[129] + 'x' + arr[i].data[128] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[129]+'" target="_blank">' + arr[i].data[129] + '</a>x' + arr[i].data[128] + '</td>' +
 						'</tr>' +
 						'<tr class="white-text no' + arr[i].data[132] + '">' +
-							'<td colspan="4">' + arr[i].data[132] + 'x' + arr[i].data[131] + '</td>' +
+							'<td colspan="4"><a href="../../materials/?search='+arr[i].data[132]+'" target="_blank">' + arr[i].data[132] + '</a>x' + arr[i].data[131] + '</td>' +
 						'</tr>' +
 					'</table>' +
 				'</li>' +
@@ -491,7 +493,10 @@ function weaponContent(arr) {
 					'</tbody>' +
 				'</table>' +
 			'</li>';
+	console.log(arr[i].data[0]);
+	if (document.getElementById('id' + arr[i].data[0])) {
 	document.getElementById('id' + arr[i].data[0]).innerHTML = out;
+}
 	};
 	document.getElementById('small-weaponlist').innerHTML = out2;
-};
+});

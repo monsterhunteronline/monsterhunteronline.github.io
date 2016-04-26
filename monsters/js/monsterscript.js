@@ -11,8 +11,8 @@ $(function() {
 			'<img src="../../images/item/' + arr[i].data[6] + '.png">' +
 		'</td>' +
 		'<td>' + arr[i].data[1] + '</td>' +
-		'<td>' + arr[i].data[5] + '</td>' +
-		'<td>' + arr[i].data[4] + '</td>' +
+		'<td>Source: ' + translate(arr[i].data[2]) + '('+translate(arr[i].data[3])+')</td>' +
+		'<td>' + translate(arr[i].data[4]) + '</td>' +
 	'</tr>';
 	}
 	document.getElementById("material-drops").innerHTML = out;

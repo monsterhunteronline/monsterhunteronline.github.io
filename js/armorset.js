@@ -89,11 +89,11 @@ function displayData() {
 		document.getElementById("helmetImg").innerHTML = '<img src="../images/item/'+helmet[0].data[13]+'.png">';
 		document.getElementById("helmet").innerHTML = helmet[0].data[1];
 		document.getElementById("helmetSkills").innerHTML = ''+
-		'<span class="'+helmet[0].data[38]+' skill'+helmet[0].data[39]+'">'+helmet[0].data[38]+': <span class="skillamount">'+helmet[0].data[39]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[40]+' skill'+helmet[0].data[41]+'">'+helmet[0].data[40]+': <span class="skillamount">'+helmet[0].data[41]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[42]+' skill'+helmet[0].data[43]+'">'+helmet[0].data[42]+': <span class="skillamount">'+helmet[0].data[43]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[44]+' skill'+helmet[0].data[45]+'">'+helmet[0].data[44]+': <span class="skillamount">'+helmet[0].data[45]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[46]+' skill'+helmet[0].data[47]+'">'+helmet[0].data[46]+': <span class="skillamount">'+helmet[0].data[47]+'</span></span>';
+		'<span class="'+helmet[0].data[38]+' skill'+helmet[0].data[39]+'">'+translate(helmet[0].data[38])+': <span class="skillamount">'+helmet[0].data[39]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[40]+' skill'+helmet[0].data[41]+'">'+translate(helmet[0].data[40])+': <span class="skillamount">'+helmet[0].data[41]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[42]+' skill'+helmet[0].data[43]+'">'+translate(helmet[0].data[42])+': <span class="skillamount">'+helmet[0].data[43]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[44]+' skill'+helmet[0].data[45]+'">'+translate(helmet[0].data[44])+': <span class="skillamount">'+helmet[0].data[45]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[46]+' skill'+helmet[0].data[47]+'">'+translate(helmet[0].data[46])+': <span class="skillamount">'+helmet[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
 		var helmetMosaic = "";
 		for (var i = helmet[0].data[5] - 1; i >= 0; i--) {helmetMosaic += "o";};
@@ -105,11 +105,11 @@ function displayData() {
 		document.getElementById("vambracesImg").innerHTML = '<img src="../images/item/'+vambraces[0].data[13]+'.png">';
 		document.getElementById("vambraces").innerHTML = vambraces[0].data[1];
 		document.getElementById("vambracesSkills").innerHTML = ''+
-		'<span class="'+vambraces[0].data[38]+' skill'+vambraces[0].data[39]+'">'+vambraces[0].data[38]+': <span class="skillamount">'+vambraces[0].data[39]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[40]+' skill'+vambraces[0].data[41]+'">'+vambraces[0].data[40]+': <span class="skillamount">'+vambraces[0].data[41]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[42]+' skill'+vambraces[0].data[43]+'">'+vambraces[0].data[42]+': <span class="skillamount">'+vambraces[0].data[43]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[44]+' skill'+vambraces[0].data[45]+'">'+vambraces[0].data[44]+': <span class="skillamount">'+vambraces[0].data[45]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[46]+' skill'+vambraces[0].data[47]+'">'+vambraces[0].data[46]+': <span class="skillamount">'+vambraces[0].data[47]+'</span></span>';
+		'<span class="'+vambraces[0].data[38]+' skill'+vambraces[0].data[39]+'">'+translate(vambraces[0].data[38])+': <span class="skillamount">'+vambraces[0].data[39]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[40]+' skill'+vambraces[0].data[41]+'">'+translate(vambraces[0].data[40])+': <span class="skillamount">'+vambraces[0].data[41]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[42]+' skill'+vambraces[0].data[43]+'">'+translate(vambraces[0].data[42])+': <span class="skillamount">'+vambraces[0].data[43]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[44]+' skill'+vambraces[0].data[45]+'">'+translate(vambraces[0].data[44])+': <span class="skillamount">'+vambraces[0].data[45]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[46]+' skill'+vambraces[0].data[47]+'">'+translate(vambraces[0].data[46])+': <span class="skillamount">'+vambraces[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
 		var vambracesMosaic = "";
 		for (var i = vambraces[0].data[5] - 1; i >= 0; i--) {vambracesMosaic += "o";};
@@ -121,11 +121,11 @@ function displayData() {
 		document.getElementById("armorImg").innerHTML = '<img src="../images/item/'+armor[0].data[13]+'.png">';
 		document.getElementById("armor").innerHTML = armor[0].data[1];
 		document.getElementById("armorSkills").innerHTML = ''+
-		'<span class="'+armor[0].data[38]+' skill'+armor[0].data[39]+'">'+armor[0].data[38]+': <span class="skillamount">'+armor[0].data[39]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[40]+' skill'+armor[0].data[41]+'">'+armor[0].data[40]+': <span class="skillamount">'+armor[0].data[41]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[42]+' skill'+armor[0].data[43]+'">'+armor[0].data[42]+': <span class="skillamount">'+armor[0].data[43]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[44]+' skill'+armor[0].data[45]+'">'+armor[0].data[44]+': <span class="skillamount">'+armor[0].data[45]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[46]+' skill'+armor[0].data[47]+'">'+armor[0].data[46]+': <span class="skillamount">'+armor[0].data[47]+'</span></span>';
+		'<span class="'+armor[0].data[38]+' skill'+armor[0].data[39]+'">'+translate(armor[0].data[38])+': <span class="skillamount">'+armor[0].data[39]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[40]+' skill'+armor[0].data[41]+'">'+translate(armor[0].data[40])+': <span class="skillamount">'+armor[0].data[41]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[42]+' skill'+armor[0].data[43]+'">'+translate(armor[0].data[42])+': <span class="skillamount">'+armor[0].data[43]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[44]+' skill'+armor[0].data[45]+'">'+translate(armor[0].data[44])+': <span class="skillamount">'+armor[0].data[45]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[46]+' skill'+armor[0].data[47]+'">'+translate(armor[0].data[46])+': <span class="skillamount">'+armor[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
 		var armorMosaic = "";
 		for (var i = armor[0].data[5] - 1; i >= 0; i--) {armorMosaic += "o";};
@@ -137,11 +137,11 @@ function displayData() {
 		document.getElementById("waistImg").innerHTML = '<img src="../images/item/'+waist[0].data[13]+'.png">';
 		document.getElementById("waist").innerHTML = waist[0].data[1];
 		document.getElementById("waistSkills").innerHTML = ''+
-		'<span class="'+waist[0].data[38]+' skill'+waist[0].data[39]+'">'+waist[0].data[38]+': <span class="skillamount">'+waist[0].data[39]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[40]+' skill'+waist[0].data[41]+'">'+waist[0].data[40]+': <span class="skillamount">'+waist[0].data[41]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[42]+' skill'+waist[0].data[43]+'">'+waist[0].data[42]+': <span class="skillamount">'+waist[0].data[43]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[44]+' skill'+waist[0].data[45]+'">'+waist[0].data[44]+': <span class="skillamount">'+waist[0].data[45]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[46]+' skill'+waist[0].data[47]+'">'+waist[0].data[46]+': <span class="skillamount">'+waist[0].data[47]+'</span></span>';
+		'<span class="'+waist[0].data[38]+' skill'+waist[0].data[39]+'">'+translate(waist[0].data[38])+': <span class="skillamount">'+waist[0].data[39]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[40]+' skill'+waist[0].data[41]+'">'+translate(waist[0].data[40])+': <span class="skillamount">'+waist[0].data[41]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[42]+' skill'+waist[0].data[43]+'">'+translate(waist[0].data[42])+': <span class="skillamount">'+waist[0].data[43]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[44]+' skill'+waist[0].data[45]+'">'+translate(waist[0].data[44])+': <span class="skillamount">'+waist[0].data[45]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[46]+' skill'+waist[0].data[47]+'">'+translate(waist[0].data[46])+': <span class="skillamount">'+waist[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
 		var waistMosaic = "";
 		for (var i = waist[0].data[5] - 1; i >= 0; i--) {waistMosaic += "o";};
@@ -153,11 +153,11 @@ function displayData() {
 		document.getElementById("greavesImg").innerHTML = '<img src="../images/item/'+greaves[0].data[13]+'.png">';
 		document.getElementById("greaves").innerHTML = greaves[0].data[1];
 		document.getElementById("greavesSkills").innerHTML = ''+
-		'<span class="'+greaves[0].data[38]+' skill'+greaves[0].data[39]+'">'+greaves[0].data[38]+': <span class="skillamount">'+greaves[0].data[39]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[40]+' skill'+greaves[0].data[41]+'">'+greaves[0].data[40]+': <span class="skillamount">'+greaves[0].data[41]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[42]+' skill'+greaves[0].data[43]+'">'+greaves[0].data[42]+': <span class="skillamount">'+greaves[0].data[43]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[44]+' skill'+greaves[0].data[45]+'">'+greaves[0].data[44]+': <span class="skillamount">'+greaves[0].data[45]+'</span></span>'+
-		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[46]+' skill'+greaves[0].data[47]+'">'+greaves[0].data[46]+': <span class="skillamount">'+greaves[0].data[47]+'</span></span>';
+		'<span class="'+greaves[0].data[38]+' skill'+greaves[0].data[39]+'">'+translate(greaves[0].data[38])+': <span class="skillamount">'+greaves[0].data[39]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[40]+' skill'+greaves[0].data[41]+'">'+translate(greaves[0].data[40])+': <span class="skillamount">'+greaves[0].data[41]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[42]+' skill'+greaves[0].data[43]+'">'+translate(greaves[0].data[42])+': <span class="skillamount">'+greaves[0].data[43]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[44]+' skill'+greaves[0].data[45]+'">'+translate(greaves[0].data[44])+': <span class="skillamount">'+greaves[0].data[45]+'</span></span>'+
+		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[46]+' skill'+greaves[0].data[47]+'">'+translate(greaves[0].data[46])+': <span class="skillamount">'+greaves[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
 		var greavesMosaic = "";
 		for (var i = greaves[0].data[5] - 1; i >= 0; i--) {greavesMosaic += "o";};
@@ -264,13 +264,13 @@ function storeArmor() {
 // clear skills to recalculate on armor addition
 	skills = { "Ambush":0, "Anti-bacterial":0, "Attack":0, "Butterfly Dance":0, "Cold Res":0, "Constitution":0, "Handicraft":0, "Crit Draw":0, "Defense":0, "Destroyer":0, "Dragon Atk":0, "Eating":0, "Evade Dist":0, "Evasion":0, "Expert":0, "FastCharge":0, "Fencing":0, "Fire Atk":0, "Fire Res":0, "Gluttony":0, "Guard":0, "Guard Up":0, "Guts":0, "Health":0, "Hearing":0, "Heat Res":0, "Herb King":0, "Hormone":0, "Hunger":0, "Ice Atk":0, "Ice Res":0, "Violent Strike":0, "KO":0, "Loading":0, "Mud/Snow":0, "Normal Up":0, "Paralysis":0, "Pellet Up":0, "Perception":0, "Pierce Up":0, "Poison":0, "Potential":0, "Protection":0, "Psychic":0, "Rec Speed":0, "Recoil":0, "Reload Spd":0, "Resilience":0, "Sense":0, "Sharpener":0, "Sharpness":0, "Sleep":0, "SpeedSetup":0, "Spirit":0, "Stam Recov":0, "Status":0, "Stun":0, "Survivor":0, "Tenderizer":0, "Bleeding":0, "Thunder Res":0, "ThunderAtk":0, "Tremor Res":0, "Tripping Power":0, "Unscathed":0, "Water Atk":0, "Wide-Range":0, "Wind Res":0, "Sleep C+":0, "Stamina":0, "Hunter Life":0, "Water Res":0, "Dragon Res":0, "Rec Level":0, "PowerEater":0, "BBQ Expert":0, "Rapid Fire":0, "Maestro":0, "Artillery":0, "Crustacians Hunter":0, "Bird Dragons Hunter":0, "Dragons Hunter":0};
 // if URL parameter exists parse new array values as integers and add to skills array
-	if (typeof helmet[0] !== 'undefined') {skills[helmet[0].data[38]] = skills[helmet[0].data[38]] + parseInt(helmet[0].data[39]); skills[helmet[0].data[40]] = skills[helmet[0].data[40]] + parseInt(helmet[0].data[41]); skills[helmet[0].data[42]] = skills[helmet[0].data[42]] + parseInt(helmet[0].data[43]); skills[helmet[0].data[44]] = skills[helmet[0].data[44]] + parseInt(helmet[0].data[45]); skills[helmet[0].data[46]] = skills[helmet[0].data[46]] + parseInt(helmet[0].data[47]);};
-	if (typeof vambraces[0] !== 'undefined') {skills[vambraces[0].data[38]] = skills[vambraces[0].data[38]] + parseInt(vambraces[0].data[39]); skills[vambraces[0].data[40]] = skills[vambraces[0].data[40]] + parseInt(vambraces[0].data[41]); skills[vambraces[0].data[42]] = skills[vambraces[0].data[42]] + parseInt(vambraces[0].data[43]); skills[vambraces[0].data[44]] = skills[vambraces[0].data[44]] + parseInt(vambraces[0].data[45]); skills[vambraces[0].data[46]] = skills[vambraces[0].data[46]] + parseInt(vambraces[0].data[47]);};
-	if (typeof armor[0] !== 'undefined') {skills[armor[0].data[38]] = skills[armor[0].data[38]] + parseInt(armor[0].data[39]); skills[armor[0].data[40]] = skills[armor[0].data[40]] + parseInt(armor[0].data[41]); skills[armor[0].data[42]] = skills[armor[0].data[42]] + parseInt(armor[0].data[43]); skills[armor[0].data[44]] = skills[armor[0].data[44]] + parseInt(armor[0].data[45]); skills[armor[0].data[46]] = skills[armor[0].data[46]] + parseInt(armor[0].data[47]);};
-	if (typeof waist[0] !== 'undefined') {skills[waist[0].data[38]] = skills[waist[0].data[38]] + parseInt(waist[0].data[39]); skills[waist[0].data[40]] = skills[waist[0].data[40]] + parseInt(waist[0].data[41]); skills[waist[0].data[42]] = skills[waist[0].data[42]] + parseInt(waist[0].data[43]); skills[waist[0].data[44]] = skills[waist[0].data[44]] + parseInt(waist[0].data[45]); skills[waist[0].data[46]] = skills[waist[0].data[46]] + parseInt(waist[0].data[47]);};
-	if (typeof greaves[0] !== 'undefined') {skills[greaves[0].data[38]] = skills[greaves[0].data[38]] + parseInt(greaves[0].data[39]); skills[greaves[0].data[40]] = skills[greaves[0].data[40]] + parseInt(greaves[0].data[41]); skills[greaves[0].data[42]] = skills[greaves[0].data[42]] + parseInt(greaves[0].data[43]); skills[greaves[0].data[44]] = skills[greaves[0].data[44]] + parseInt(greaves[0].data[45]); skills[greaves[0].data[46]] = skills[greaves[0].data[46]] + parseInt(greaves[0].data[47]);};
-	if (typeof talismanSkill1ID !== 'undefined' && talismanSkill1vID !== 'undefined') {skills[skillNames[parseInt(talismanSkill1ID)]] = skills[skillNames[parseInt(talismanSkill1ID)]] + parseInt(talismanSkill1vID);};
-	if (typeof talismanSkill2ID !== 'undefined' && talismanSkill2vID !== 'undefined') {skills[skillNames[parseInt(talismanSkill2ID)]] = skills[skillNames[parseInt(talismanSkill2ID)]] + parseInt(talismanSkill2vID);};
+	if (typeof helmet[0] !== 'undefined') {skills[translate(helmet[0].data[38])] = skills[translate(helmet[0].data[38])] + parseInt(helmet[0].data[39]); skills[translate(helmet[0].data[40])] = skills[translate(helmet[0].data[40])] + parseInt(helmet[0].data[41]); skills[translate(helmet[0].data[42])] = skills[translate(helmet[0].data[42])] + parseInt(helmet[0].data[43]); skills[translate(helmet[0].data[44])] = skills[translate(helmet[0].data[44])] + parseInt(helmet[0].data[45]); skills[translate(helmet[0].data[46])] = skills[translate(helmet[0].data[46])] + parseInt(helmet[0].data[47]);};
+	if (typeof vambraces[0] !== 'undefined') {skills[translate(vambraces[0].data[38])] = skills[translate(vambraces[0].data[38])] + parseInt(vambraces[0].data[39]); skills[translate(vambraces[0].data[40])] = skills[translate(vambraces[0].data[40])] + parseInt(vambraces[0].data[41]); skills[translate(vambraces[0].data[42])] = skills[translate(vambraces[0].data[42])] + parseInt(vambraces[0].data[43]); skills[translate(vambraces[0].data[44])] = skills[translate(vambraces[0].data[44])] + parseInt(vambraces[0].data[45]); skills[translate(vambraces[0].data[46])] = skills[translate(vambraces[0].data[46])] + parseInt(vambraces[0].data[47]);};
+	if (typeof armor[0] !== 'undefined') {skills[translate(armor[0].data[38])] = skills[translate(armor[0].data[38])] + parseInt(armor[0].data[39]); skills[translate(armor[0].data[40])] = skills[translate(armor[0].data[40])] + parseInt(armor[0].data[41]); skills[translate(armor[0].data[42])] = skills[translate(armor[0].data[42])] + parseInt(armor[0].data[43]); skills[translate(armor[0].data[44])] = skills[translate(armor[0].data[44])] + parseInt(armor[0].data[45]); skills[translate(armor[0].data[46])] = skills[translate(armor[0].data[46])] + parseInt(armor[0].data[47]);};
+	if (typeof waist[0] !== 'undefined') {skills[translate(waist[0].data[38])] = skills[translate(waist[0].data[38])] + parseInt(waist[0].data[39]); skills[translate(waist[0].data[40])] = skills[translate(waist[0].data[40])] + parseInt(waist[0].data[41]); skills[translate(waist[0].data[42])] = skills[translate(waist[0].data[42])] + parseInt(waist[0].data[43]); skills[translate(waist[0].data[44])] = skills[translate(waist[0].data[44])] + parseInt(waist[0].data[45]); skills[translate(waist[0].data[46])] = skills[translate(waist[0].data[46])] + parseInt(waist[0].data[47]);};
+	if (typeof greaves[0] !== 'undefined') {skills[translate(greaves[0].data[38])] = skills[translate(greaves[0].data[38])] + parseInt(greaves[0].data[39]); skills[translate(greaves[0].data[40])] = skills[translate(greaves[0].data[40])] + parseInt(greaves[0].data[41]); skills[translate(greaves[0].data[42])] = skills[translate(greaves[0].data[42])] + parseInt(greaves[0].data[43]); skills[translate(greaves[0].data[44])] = skills[translate(greaves[0].data[44])] + parseInt(greaves[0].data[45]); skills[translate(greaves[0].data[46])] = skills[translate(greaves[0].data[46])] + parseInt(greaves[0].data[47]);};
+	if (typeof talismanSkill1ID !== 'undefined' && talismanSkill1vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill1ID)])] = skills[translate(skillNames[parseInt(talismanSkill1ID)])] + parseInt(talismanSkill1vID);};
+	if (typeof talismanSkill2ID !== 'undefined' && talismanSkill2vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill2ID)])] = skills[translate(skillNames[parseInt(talismanSkill2ID)])] + parseInt(talismanSkill2vID);};
 };
 
 function getPassive(sname, value) {
@@ -488,36 +488,4 @@ function getPassive(sname, value) {
 	if (sname=='Dragons Hunter'&&value>=10) {passive='Dragons Killer';};
 // output passive skill
 	return passive
-};
-
-function updateurl(zname, value) {
-  var href = window.location.href;
-  var regex = new RegExp("[&\\?]" + zname + "=");
-  if(regex.test(href))
-  {
-    regex = new RegExp("([&\\?])" + zname + "=\\d+");
-    window.history.pushState("object or string", "Title", href.replace(regex, "$1" + zname + "=" + value));
-  }
-  else
-  {
-    if(href.indexOf("?") > -1)
-    	window.history.pushState("object or string", "Title", href + "&" + zname + "=" + value);
-    else
-    	window.history.pushState("object or string", "Title", href + "?" + zname + "=" + value);
-  }
-};
-
-var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
-
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : sParameterName[1];
-        }
-    }
 };

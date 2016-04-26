@@ -339,7 +339,7 @@ hr {
 .info {
 	position: absolute;
 	top: 0px;
-	left: 41px;
+	left: 30px;
 	width: 200px;
 	display: none;
 	z-index: 5;
@@ -605,6 +605,9 @@ hr {
 }
 .no.yes {
 	display: block !important;
+}
+tr.yes {
+	display: table-row !important;
 }
 .armortypeno {
 	display: none !important;

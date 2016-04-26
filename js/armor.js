@@ -24,7 +24,10 @@ $('#button').on('click', function() {
 	var out = "";
 	var i;
 	var ii;
-
+$('#clear').on('click', function() {
+	$('#inputText').val('');
+	$('#button').click();
+});
 	for(i = 0; i < arr.length; i += 5) {
 		var largescreen = "";
 		for(ii = 0; ii < 5; ii ++) {
@@ -77,42 +80,42 @@ $('#button').on('click', function() {
 	//passive skills
 				'<td>[Passive Skills]</td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[38]+' skill'+arr[i+ii].data[39]+'">'+
-				'<td>'+arr[i+ii].data[38]+': <span class="skillamount">'+arr[i+ii].data[39]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[38])+' skill'+arr[i+ii].data[39]+'">'+
+				'<td>'+translate(arr[i+ii].data[38])+': <span class="skillamount">'+arr[i+ii].data[39]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[40]+' skill'+arr[i+ii].data[41]+'">'+
-				'<td>'+arr[i+ii].data[40]+': <span class="skillamount">'+arr[i+ii].data[41]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[40])+' skill'+arr[i+ii].data[41]+'">'+
+				'<td>'+translate(arr[i+ii].data[40])+': <span class="skillamount">'+arr[i+ii].data[41]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[42]+' skill'+arr[i+ii].data[43]+'">'+
-				'<td>'+arr[i+ii].data[42]+': <span class="skillamount">'+arr[i+ii].data[43]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[42])+' skill'+arr[i+ii].data[43]+'">'+
+				'<td>'+translate(arr[i+ii].data[42])+': <span class="skillamount">'+arr[i+ii].data[43]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[44]+' skill'+arr[i+ii].data[45]+'">'+
-				'<td>'+arr[i+ii].data[44]+': <span class="skillamount">'+arr[i+ii].data[45]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[44])+' skill'+arr[i+ii].data[45]+'">'+
+				'<td>'+translate(arr[i+ii].data[44])+': <span class="skillamount">'+arr[i+ii].data[45]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[46]+' skill'+arr[i+ii].data[47]+'">'+
-				'<td>'+arr[i+ii].data[46]+': <span class="skillamount">'+arr[i+ii].data[47]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[46])+' skill'+arr[i+ii].data[47]+'">'+
+				'<td>'+translate(arr[i+ii].data[46])+': <span class="skillamount">'+arr[i+ii].data[47]+'</span></td>'+
 			'</tr>'+
 			'<tr>'+
 	//forging mats
 				'<td colspan="2">[Forging Material]</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[21]+'">'+
-				'<td>'+arr[i+ii].data[21]+'x'+arr[i+ii].data[22]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[21]+'" target="_blank">'+arr[i+ii].data[21]+'</a>x'+arr[i+ii].data[22]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[24]+'">'+
-				'<td>'+arr[i+ii].data[24]+'x'+arr[i+ii].data[25]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[24]+'" target="_blank">'+arr[i+ii].data[24]+'</a>x'+arr[i+ii].data[25]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[27]+'">'+
-				'<td>'+arr[i+ii].data[27]+'x'+arr[i+ii].data[28]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[27]+'" target="_blank">'+arr[i+ii].data[27]+'</a>x'+arr[i+ii].data[28]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[30]+'">'+
-				'<td>'+arr[i+ii].data[30]+'x'+arr[i+ii].data[31]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[30]+'" target="_blank">'+arr[i+ii].data[30]+'</a>x'+arr[i+ii].data[31]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[33]+'">'+
-				'<td>'+arr[i+ii].data[33]+'x'+arr[i+ii].data[34]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[33]+'" target="_blank">'+arr[i+ii].data[33]+'</a>x'+arr[i+ii].data[34]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[37]+'">'+
-				'<td>'+arr[i+ii].data[36]+'x'+arr[i+ii].data[37]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[36]+'" target="_blank">'+arr[i+ii].data[36]+'</a>x'+arr[i+ii].data[37]+'</td>'+
 			'</tr>'+
 		'</tbody>'+
 	'</table>'+
@@ -169,42 +172,42 @@ $('#button').on('click', function() {
 	//passive skills
 				'<td>[Passive Skills]</td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[38]+' skill'+arr[i+ii].data[39]+'">'+
-				'<td>'+arr[i+ii].data[38]+': <span class="skillamount">'+arr[i+ii].data[39]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[38])+' skill'+arr[i+ii].data[39]+'">'+
+				'<td>'+translate(arr[i+ii].data[38])+': <span class="skillamount">'+arr[i+ii].data[39]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[40]+' skill'+arr[i+ii].data[41]+'">'+
-				'<td>'+arr[i+ii].data[40]+': <span class="skillamount">'+arr[i+ii].data[41]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[40])+' skill'+arr[i+ii].data[41]+'">'+
+				'<td>'+translate(arr[i+ii].data[40])+': <span class="skillamount">'+arr[i+ii].data[41]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[42]+' skill'+arr[i+ii].data[43]+'">'+
-				'<td>'+arr[i+ii].data[42]+': <span class="skillamount">'+arr[i+ii].data[43]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[42])+' skill'+arr[i+ii].data[43]+'">'+
+				'<td>'+translate(arr[i+ii].data[42])+': <span class="skillamount">'+arr[i+ii].data[43]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[44]+' skill'+arr[i+ii].data[45]+'">'+
-				'<td>'+arr[i+ii].data[44]+': <span class="skillamount">'+arr[i+ii].data[45]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[44])+' skill'+arr[i+ii].data[45]+'">'+
+				'<td>'+translate(arr[i+ii].data[44])+': <span class="skillamount">'+arr[i+ii].data[45]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[46]+' skill'+arr[i+ii].data[47]+'">'+
-				'<td>'+arr[i+ii].data[46]+': <span class="skillamount">'+arr[i+ii].data[47]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[46])+' skill'+arr[i+ii].data[47]+'">'+
+				'<td>'+translate(arr[i+ii].data[46])+': <span class="skillamount">'+arr[i+ii].data[47]+'</span></td>'+
 			'</tr>'+
 			'<tr>'+
 	//forging mats
 				'<td colspan="2">[Forging Material]</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[21]+'">'+
-				'<td>'+arr[i+ii].data[21]+'x'+arr[i+ii].data[22]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[21]+'" target="_blank">'+arr[i+ii].data[21]+'</a>x'+arr[i+ii].data[22]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[24]+'">'+
-				'<td>'+arr[i+ii].data[24]+'x'+arr[i+ii].data[25]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[24]+'" target="_blank">'+arr[i+ii].data[24]+'</a>x'+arr[i+ii].data[25]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[27]+'">'+
-				'<td>'+arr[i+ii].data[27]+'x'+arr[i+ii].data[28]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[27]+'" target="_blank">'+arr[i+ii].data[27]+'</a>x'+arr[i+ii].data[28]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[30]+'">'+
-				'<td>'+arr[i+ii].data[30]+'x'+arr[i+ii].data[31]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[30]+'" target="_blank">'+arr[i+ii].data[30]+'</a>x'+arr[i+ii].data[31]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[33]+'">'+
-				'<td>'+arr[i+ii].data[33]+'x'+arr[i+ii].data[34]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[33]+'" target="_blank">'+arr[i+ii].data[33]+'</a>x'+arr[i+ii].data[34]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[37]+'">'+
-				'<td>'+arr[i+ii].data[36]+'x'+arr[i+ii].data[37]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[36]+'" target="_blank">'+arr[i+ii].data[36]+'</a>x'+arr[i+ii].data[37]+'</td>'+
 			'</tr>'+
 		'</tbody>'+
 	'</table>'+
@@ -261,42 +264,42 @@ $('#button').on('click', function() {
 	//passive skills
 				'<td>[Passive Skills]</td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[38]+' skill'+arr[i+ii].data[39]+'">'+
-				'<td>'+arr[i+ii].data[38]+': <span class="skillamount">'+arr[i+ii].data[39]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[38])+' skill'+arr[i+ii].data[39]+'">'+
+				'<td>'+translate(arr[i+ii].data[38])+': <span class="skillamount">'+arr[i+ii].data[39]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[40]+' skill'+arr[i+ii].data[41]+'">'+
-				'<td>'+arr[i+ii].data[40]+': <span class="skillamount">'+arr[i+ii].data[41]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[40])+' skill'+arr[i+ii].data[41]+'">'+
+				'<td>'+translate(arr[i+ii].data[40])+': <span class="skillamount">'+arr[i+ii].data[41]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[42]+' skill'+arr[i+ii].data[43]+'">'+
-				'<td>'+arr[i+ii].data[42]+': <span class="skillamount">'+arr[i+ii].data[43]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[42])+' skill'+arr[i+ii].data[43]+'">'+
+				'<td>'+translate(arr[i+ii].data[42])+': <span class="skillamount">'+arr[i+ii].data[43]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[44]+' skill'+arr[i+ii].data[45]+'">'+
-				'<td>'+arr[i+ii].data[44]+': <span class="skillamount">'+arr[i+ii].data[45]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[44])+' skill'+arr[i+ii].data[45]+'">'+
+				'<td>'+translate(arr[i+ii].data[44])+': <span class="skillamount">'+arr[i+ii].data[45]+'</span></td>'+
 			'</tr>'+
-			'<tr class="'+arr[i+ii].data[46]+' skill'+arr[i+ii].data[47]+'">'+
-				'<td>'+arr[i+ii].data[46]+': <span class="skillamount">'+arr[i+ii].data[47]+'</span></td>'+
+			'<tr class="'+translate(arr[i+ii].data[46])+' skill'+arr[i+ii].data[47]+'">'+
+				'<td>'+translate(arr[i+ii].data[46])+': <span class="skillamount">'+arr[i+ii].data[47]+'</span></td>'+
 			'</tr>'+
 			'<tr>'+
 	//forging mats
 				'<td colspan="2">[Forging Material]</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[21]+'">'+
-				'<td>'+arr[i+ii].data[21]+'x'+arr[i+ii].data[22]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[21]+'" target="_blank">'+arr[i+ii].data[21]+'</a>x'+arr[i+ii].data[22]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[24]+'">'+
-				'<td>'+arr[i+ii].data[24]+'x'+arr[i+ii].data[25]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[24]+'" target="_blank">'+arr[i+ii].data[24]+'</a>x'+arr[i+ii].data[25]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[27]+'">'+
-				'<td>'+arr[i+ii].data[27]+'x'+arr[i+ii].data[28]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[27]+'" target="_blank">'+arr[i+ii].data[27]+'</a>x'+arr[i+ii].data[28]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[30]+'">'+
-				'<td>'+arr[i+ii].data[30]+'x'+arr[i+ii].data[31]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[30]+'" target="_blank">'+arr[i+ii].data[30]+'</a>x'+arr[i+ii].data[31]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[33]+'">'+
-				'<td>'+arr[i+ii].data[33]+'x'+arr[i+ii].data[34]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[33]+'" target="_blank">'+arr[i+ii].data[33]+'</a>x'+arr[i+ii].data[34]+'</td>'+
 			'</tr>'+
 			'<tr class="no'+arr[i+ii].data[37]+'">'+
-				'<td>'+arr[i+ii].data[36]+'x'+arr[i+ii].data[37]+'</td>'+
+				'<td><a href="../materials/?search='+arr[i+ii].data[36]+'" target="_blank">'+arr[i+ii].data[36]+'</a>x'+arr[i+ii].data[37]+'</td>'+
 			'</tr>'+
 		'</tbody>'+
 	'</table>'+
@@ -308,7 +311,7 @@ $('#button').on('click', function() {
 			armortypehide = "armortypeyes"
 		};
 		var hide = "no";
-		var skillstring = arr[i].data[57].toUpperCase()+' '+arr[i].data[2].toUpperCase()+' '+arr[i].data[56].toUpperCase()+' '+arr[i].data[38].toUpperCase()+' '+arr[i].data[40].toUpperCase()+' '+arr[i].data[42].toUpperCase()+' '+arr[i].data[44].toUpperCase()+' '+arr[i].data[46].toUpperCase()+' '+arr[i+1].data[38].toUpperCase()+' '+arr[i+1].data[40].toUpperCase()+' '+arr[i+1].data[42].toUpperCase()+' '+arr[i+1].data[44].toUpperCase()+' '+arr[i+1].data[46].toUpperCase()+' '+arr[i+2].data[38].toUpperCase()+' '+arr[i+2].data[40].toUpperCase()+' '+arr[i+2].data[42].toUpperCase()+' '+arr[i+2].data[44].toUpperCase()+' '+arr[i+2].data[46].toUpperCase()+' '+arr[i+3].data[38].toUpperCase()+' '+arr[i+3].data[40].toUpperCase()+' '+arr[i+3].data[42].toUpperCase()+' '+arr[i+3].data[44].toUpperCase()+' '+arr[i+3].data[46].toUpperCase()+' '+arr[i+4].data[38].toUpperCase()+' '+arr[i+4].data[40].toUpperCase()+' '+arr[i+4].data[42].toUpperCase()+' '+arr[i+4].data[44].toUpperCase()+' '+arr[i+4].data[46].toUpperCase()
+		var skillstring = arr[i].data[57].toUpperCase()+' '+translate(arr[i].data[2]).toUpperCase()+' '+translate(arr[i].data[56]).toUpperCase()+' '+translate(arr[i].data[38]).toUpperCase()+' '+translate(arr[i].data[40]).toUpperCase()+' '+translate(arr[i].data[42]).toUpperCase()+' '+translate(arr[i].data[44]).toUpperCase()+' '+translate(arr[i].data[46]).toUpperCase()+' '+translate(arr[i+1].data[38]).toUpperCase()+' '+translate(arr[i+1].data[40]).toUpperCase()+' '+translate(arr[i+1].data[42]).toUpperCase()+' '+translate(arr[i+1].data[44]).toUpperCase()+' '+translate(arr[i+1].data[46]).toUpperCase()+' '+translate(arr[i+2].data[38]).toUpperCase()+' '+translate(arr[i+2].data[40]).toUpperCase()+' '+translate(arr[i+2].data[42]).toUpperCase()+' '+translate(arr[i+2].data[44]).toUpperCase()+' '+translate(arr[i+2].data[46]).toUpperCase()+' '+translate(arr[i+3].data[38]).toUpperCase()+' '+translate(arr[i+3].data[40]).toUpperCase()+' '+translate(arr[i+3].data[42]).toUpperCase()+' '+translate(arr[i+3].data[44]).toUpperCase()+' '+translate(arr[i+3].data[46]).toUpperCase()+' '+translate(arr[i+4].data[38]).toUpperCase()+' '+translate(arr[i+4].data[40]).toUpperCase()+' '+translate(arr[i+4].data[42]).toUpperCase()+' '+translate(arr[i+4].data[44]).toUpperCase()+' '+translate(arr[i+4].data[46]).toUpperCase();
 		if (skillstring.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
 			hide = "yes"
 		};
@@ -322,12 +325,12 @@ $('#button').on('click', function() {
 			'</div>'+
 			'<div class="truncate-small">'+
 				'<span class="Lv'+arr[i].data[57].substring(3,5)+'">Prototype </span>'+
-				arr[i].data[2]+' Armor'+
+				translate(arr[i].data[2])+' Armor'+
 			'</div>'+
 			'<span class="right">'+arr[i].data[57]+'</span>'+
 			'</div>'+
 			''+
-			'<span class="bold">'+arr[i].data[56]+'</span>'+
+			'<span class="bold">'+translate(arr[i].data[56])+'</span>'+
 		'</div>'+
 		'<div class="collapsible-body grey lighten-2">'+
 			'<div class="row">'+largescreen+mediumscreenrow1+'</div>'+
