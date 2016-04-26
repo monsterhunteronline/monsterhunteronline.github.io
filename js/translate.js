@@ -191,6 +191,8 @@ function translate(text) {
 	if (text == '左右翼') {out = 'Wings';};
 	if (text == '尾部（尻尾）') {out = 'Tail (Rump)';};
 	if (text == '右手（钳）') {out = 'Right Hand (Pincer)';};
+	if (text == '左,右手（钳）') {out = 'Left and Right Hand (Pincers)';};
+//Places
 	if (text == '大型怪物狩猎') {out = 'Large Monster Hunting';};
 	if (text == '大型怪物狩猎挑战难度、王立委托、王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, Wang Li Commissioned, Wang Li Elite Commissioned';};
 	if (text == '王立委托、王立精英、极限') {out = 'Wang Li Commissioned, Wang Li Elite, Limit Mode?';};

@@ -297,6 +297,9 @@ table.weaponinfo {
 	width: 250px;
 	background: gray;
 }
+table.weaponinfo a {
+	color: #fff;
+}
 table.weapon弩 {
 	padding: 0px !important;
 	border: 1px solid white;
