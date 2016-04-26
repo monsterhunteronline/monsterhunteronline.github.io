@@ -607,7 +607,7 @@ hr {
 	display: block !important;
 }
 .no.yes {
-	display: block !important;
+	display: inline-block !important;
 }
 tr.yes {
 	display: table-row !important;

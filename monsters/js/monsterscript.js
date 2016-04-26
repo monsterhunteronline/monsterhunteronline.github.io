@@ -16,6 +16,7 @@ $(function() {
 	'</tr>';
 	}
 	document.getElementById("material-drops").innerHTML = out;
+	document.getElementById("monsterName").innerHTML = materialArray[0].data[2]+' | '+translate('nl'+materialArray[0].data[2]);
 	var arr = weaknessArray;
 	var out = '';
 	var i;

@@ -238,7 +238,7 @@ $(function() {
 					'</tr>' +
 	//bowgun other ammo
 					'<tr class="no' + arr[i].data[30] + '">' +
-						'<td>[' + translate(arr[i].data[36]).substring(0, 7) + 'Ammo]</td>' +
+						'<td>[<span class="no yes'+arr[i].data[36]+'">Charge&nbsp;</span>' + translate(arr[i].data[36]).substring(0, 7) + 'Ammo]</td>' +
 						'<td>[Load]</td>' +
 						'<td>[Recoil]</td>' +
 						'<td class="no' + 	arr[i].data[32].substring(2, 3) + 
