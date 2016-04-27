@@ -13577,7 +13577,7 @@ $('#button').on('click', function() {
   console.log(search);
 	for(i = 0; i < arr.length; i ++) {
 		var hide = "no";
-		matString = arr[i].data[6]+' '+translate(arr[i].data[6]).toUpperCase()+' '+arr[i].data[1]+' '+arr[i].data[8]+' '+translate(arr[i].data[8]).toUpperCase()+' '+arr[i].data[2]+' '+translate(arr[i].data[2]).toUpperCase();
+		matString = arr[i].data[6]+' '+translate(arr[i].data[6])+' '+arr[i].data[1]+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
 		if (matString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
 			hide = "yes"
 		};

@@ -167,13 +167,13 @@ function displayData() {
 	if (typeof necklace[0] !== 'undefined') {
 		document.getElementById("necklaceImg").innerHTML = '<img src="../images/item/'+necklace[0].data[6]+'.png">';
 		document.getElementById("necklace").innerHTML = necklace[0].data[1];
-		document.getElementById("necklaceSkills").innerHTML = 'Attack: '+necklace[0].data[9]+'&nbsp;&nbsp;<span class="no'+necklace[0].data[10]+'">Defense: '+necklace[0].data[10]+'</span>&nbsp;&nbsp;<span class="no'+necklace[0].data[11]+'">Critical Rate: '+necklace[0].data[11]+'</span>&nbsp;&nbsp;<span class="no'+necklace[0].data[12]+'">Water Atk: '+necklace[0].data[12]+'</span>&nbsp;&nbsp;<span class="no'+necklace[0].data[13]+'">Fire Atk: '+necklace[0].data[13]+'</span>&nbsp;&nbsp;<span class="no'+necklace[0].data[14]+'">Thunder Atk: '+necklace[0].data[14]+'</span>&nbsp;&nbsp;<span class="no'+necklace[0].data[15]+'">Dragon Atk: '+necklace[0].data[15]+'</span>&nbsp;&nbsp;<span class="no'+necklace[0].data[16]+'">Ice Atk: '+necklace[0].data[16]+'</span>';
+		document.getElementById("necklaceSkills").innerHTML = 'Attack: '+necklace[0].data[9]+'&nbsp;&nbsp;<span class="no'+necklace[0].data[10]+'">Defense: '+necklace[0].data[10]+'&nbsp;&nbsp;</span><span class="no'+necklace[0].data[11]+'">Critical Rate: '+necklace[0].data[11]+'&nbsp;&nbsp;</span><span class="no'+necklace[0].data[12]+'">Water Atk: '+necklace[0].data[12]+'&nbsp;&nbsp;</span><span class="no'+necklace[0].data[13]+'">Fire Atk: '+necklace[0].data[13]+'&nbsp;&nbsp;</span><span class="no'+necklace[0].data[14]+'">Thunder Atk: '+necklace[0].data[14]+'&nbsp;&nbsp;</span><span class="no'+necklace[0].data[15]+'">Dragon Atk: '+necklace[0].data[15]+'&nbsp;&nbsp;</span><span class="no'+necklace[0].data[16]+'">Ice Atk: '+necklace[0].data[16]+'</span>';
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof ring[0] !== 'undefined') {
 		document.getElementById("ringImg").innerHTML = '<img src="../images/item/'+ring[0].data[6]+'.png">';
 		document.getElementById("ring").innerHTML = ring[0].data[1];
-		document.getElementById("ringSkills").innerHTML = '<span class="no'+ring[0].data[10]+'">Defense: '+ring[0].data[10]+'</span>&nbsp;&nbsp;<span class="no'+ring[0].data[11]+'">Critical Rate: '+ring[0].data[11]+'</span>&nbsp;&nbsp;<span class="no'+ring[0].data[20]+'">Water Def: '+ring[0].data[20]+'</span>&nbsp;&nbsp;<span class="no'+ring[0].data[21]+'">Fire Def: '+ring[0].data[21]+'</span>&nbsp;&nbsp;<span class="no'+ring[0].data[22]+'">Thunder Def: '+ring[0].data[22]+'</span>&nbsp;&nbsp;<span class="no'+ring[0].data[23]+'">Dragon Def: '+ring[0].data[23]+'</span>&nbsp;&nbsp;<span class="no'+ring[0].data[24]+'">Ice Def: '+ring[0].data[24]+'</span>';
+		document.getElementById("ringSkills").innerHTML = '<span class="no'+ring[0].data[10]+'">Defense: '+ring[0].data[10]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[11]+'">Critical Rate: '+ring[0].data[11]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[20]+'">Water Def: '+ring[0].data[20]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[21]+'">Fire Def: '+ring[0].data[21]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[22]+'">Thunder Def: '+ring[0].data[22]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[23]+'">Dragon Def: '+ring[0].data[23]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[24]+'">Ice Def: '+ring[0].data[24]+'</span>';
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof talisman[0] !== 'undefined') {
@@ -464,25 +464,25 @@ function getPassive(sname, value) {
 	if (sname=='Sleep C+'&&value>=10) {passive='Use Sleep Coat';};
 	if (sname=='Stamina'&&value>=10) {passive='Marathon Runner +1';};
 	if (sname=='Stamina'&&value>=15) {passive='Marathon Runner +2';};
-	if (sname=='Stamina'&&value<=10) {passive='Short Sprinter';};
+	if (sname=='Stamina'&&value<=-10) {passive='Short Sprinter';};
 	if (sname=='Hunter Life'&&value>=10) {passive='Wilderness Survival';};
 	if (sname=='Water Res'&&value>=10) {passive='Water Res +1';};
 	if (sname=='Water Res'&&value>=15) {passive='Water Res +2';};
 	if (sname=='Water Res'&&value>=20) {passive='Water Res +3';};
-	if (sname=='Water Res'&&value<=10) {passive='Water Res Down';};
+	if (sname=='Water Res'&&value<=-10) {passive='Water Res Down';};
 	if (sname=='Dragon Res'&&value>=10) {passive='Dragon Res +1';};
 	if (sname=='Dragon Res'&&value>=15) {passive='Dragon Res +2';};
 	if (sname=='Dragon Res'&&value>=20) {passive='Dragon Res +3';};
-	if (sname=='Dragon Res'&&value<=10) {passive='Dragon Res Down';};
+	if (sname=='Dragon Res'&&value<=-10) {passive='Dragon Res Down';};
 	if (sname=='Rec Level'&&value>=10) {passive='Recovery Up';};
 	if (sname=='Rec Level'&&value>=15) {passive='Recovery Up Large';};
-	if (sname=='Rec Level'&&value<=10) {passive='Recovery Down';};
+	if (sname=='Rec Level'&&value<=-10) {passive='Recovery Down';};
 	if (sname=='PowerEater'&&value>=10) {passive='Alloy Stomach';};
 	if (sname=='BBQ Expert'&&value>=10) {passive='BBQ Expert';};
 	if (sname=='Rapid Fire'&&value>=10) {passive='Bonus Shot +1';};
 	if (sname=='Maestro'&&value>=10) {passive='Horn Maestro';};
 	if (sname=='Artillery'&&value>=10) {passive='Artillery Exptert';};
-	if (sname=='Rec Level'&&value>=15) {passive='Artillery God';};
+	if (sname=='Artillery'&&value>=15) {passive='Artillery God';};
 	if (sname=='Crustacians Hunter'&&value>=10) {passive='Crustacians Killer';};
 	if (sname=='Bird Dragons Hunter'&&value>=10) {passive='Bird Dragons Killer';};
 	if (sname=='Dragons Hunter'&&value>=10) {passive='Dragons Killer';};
