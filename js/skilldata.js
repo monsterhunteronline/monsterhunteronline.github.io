@@ -21,7 +21,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Increases damage to monsters not targeting you, but they will become more likely to target you."
+        "Increases damage to monsters not targeting you, but they will become more likely to target you"
       ]
     },
     {
@@ -46,7 +46,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevent stench"
       ]
     },
     {
@@ -71,7 +71,7 @@ var skillsArray = [
         "攻击力降低（大）",
         "Attack Down (XL)",
         "攻击力降低（超）",
-        "Description"
+        "Increases/decreases Attack"
       ]
     },
     {
@@ -96,7 +96,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents Bleeding"
       ]
     },
     {
@@ -121,7 +121,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases Attack/Defense when Ultimate Guage is charged"
       ]
     },
     {
@@ -146,7 +146,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Negates All Cold"
       ]
     },
     {
@@ -171,7 +171,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Slows Stamina depletion when evading/blocking"
       ]
     },
     {
@@ -196,7 +196,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases your weapon's Sharpness"
       ]
     },
     {
@@ -221,7 +221,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases Affinity for all draw attacks"
       ]
     },
     {
@@ -246,7 +246,7 @@ var skillsArray = [
         "防御力降低（大）",
         "Defense Down (XL)",
         "防御力降低（超）",
-        "Description"
+        "Increases/decreases Defense"
       ]
     },
     {
@@ -271,7 +271,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Makes it easier to break or sever parts of large monsters"
       ]
     },
     {
@@ -296,7 +296,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases the power of Dragon attacks and shots"
       ]
     },
     {
@@ -321,7 +321,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases meat-eating speed"
       ]
     },
     {
@@ -346,7 +346,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases evade distance"
       ]
     },
     {
@@ -371,7 +371,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Extends the invulnerability period when evading"
       ]
     },
     {
@@ -396,7 +396,7 @@ var skillsArray = [
         "见切-3",
         "Critical Eye -4",
         "见切-4",
-        "Description"
+        "Increases affinity"
       ]
     },
     {
@@ -421,7 +421,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Speeds/slows charge of charge attacks"
       ]
     },
     {
@@ -446,7 +446,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents your attacks from being deflected"
       ]
     },
     {
@@ -471,7 +471,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases the power of Fire attacks and shots"
       ]
     },
     {
@@ -496,7 +496,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Fire resistance"
       ]
     },
     {
@@ -521,7 +521,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the effecacy of meat that raises max Stamina"
       ]
     },
     {
@@ -546,7 +546,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the likelihood of standing your ground when blocking an attack"
       ]
     },
     {
@@ -571,7 +571,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Causes previously unblockable attacks to become blockable"
       ]
     },
     {
@@ -596,7 +596,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents fainting a single time if struck with a lethal blow"
       ]
     },
     {
@@ -621,7 +621,7 @@ var skillsArray = [
         "体力弱化-3",
         "Health -4",
         "体力弱化-4",
-        "Description"
+        "Increases/decreases maximum Health"
       ]
     },
     {
@@ -646,7 +646,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Negate the effects of large monster's roars"
       ]
     },
     {
@@ -671,7 +671,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Negates the damage incurred from heat and lava"
       ]
     },
     {
@@ -696,7 +696,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Herbs can recover a large amount of health"
       ]
     },
     {
@@ -721,7 +721,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases your attack when in party with opposite sex"
       ]
     },
     {
@@ -746,7 +746,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases maximum Stamina depletion speed"
       ]
     },
     {
@@ -771,7 +771,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases the power of Ice attacks and shots"
       ]
     },
     {
@@ -796,7 +796,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Ice resistance"
       ]
     },
     {
@@ -821,7 +821,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "After not dealing a critical strike for a while, your next attack will increase critical chance"
       ]
     },
     {
@@ -846,7 +846,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Makes it easier to Stun monsters"
       ]
     },
     {
@@ -871,7 +871,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases Bowguns and Gunlance ammo capacity and charge capacity of Bow"
       ]
     },
     {
@@ -896,7 +896,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Negates being coated in snow or mud"
       ]
     },
     {
@@ -921,7 +921,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the power of Normal S and Rapid-type arrows"
       ]
     },
     {
@@ -946,7 +946,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents/doubles Paralysis"
       ]
     },
     {
@@ -971,7 +971,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the power of Pellet S and Sread-type arrows"
       ]
     },
     {
@@ -996,7 +996,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Grants knowledge of when a large marked monster can be captured"
       ]
     },
     {
@@ -1021,7 +1021,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the power of Pierce S and Pierce-type arrows"
       ]
     },
     {
@@ -1046,7 +1046,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents/Doubles Poison"
       ]
     },
     {
@@ -1071,7 +1071,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Defense boost and attack when Health is below 40% of max"
       ]
     },
     {
@@ -1096,7 +1096,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Sometimes decreases/increases damage taken"
       ]
     },
     {
@@ -1121,7 +1121,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Displays large monsters on the map as if they are marked"
       ]
     },
     {
@@ -1146,7 +1146,7 @@ var skillsArray = [
         "   回复速度-3",
         "",
         "",
-        "Description"
+        "Speeds recovery from temporary damage (red portion of Health Guage)"
       ]
     },
     {
@@ -1171,7 +1171,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Reduces/increases Bowgun recoil"
       ]
     },
     {
@@ -1196,7 +1196,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Speeds up Bowgun Loading and Bow Coatings"
       ]
     },
     {
@@ -1221,7 +1221,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Within 10 seconds of taking damage, the next attack will deal reduced damage"
       ]
     },
     {
@@ -1246,7 +1246,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Decreases/increases the likelihood of being targeted by monsters"
       ]
     },
     {
@@ -1271,7 +1271,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Speeds up/slows down weapon sharpening"
       ]
     },
     {
@@ -1296,7 +1296,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Halves/doubles the rate at which your weapon loses Sharpness"
       ]
     },
     {
@@ -1321,7 +1321,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents/doubles sleep"
       ]
     },
     {
@@ -1346,7 +1346,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Speeds up trap-setting and bomb-setting time"
       ]
     },
     {
@@ -1371,7 +1371,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases Attack and Affinity when a large monster in the area becomes angry"
       ]
     },
     {
@@ -1396,7 +1396,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Stamina recovery speed"
       ]
     },
     {
@@ -1421,7 +1421,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases the potency of abnormal status attacks"
       ]
     },
     {
@@ -1446,7 +1446,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Reduces/doubles stun power"
       ]
     },
     {
@@ -1471,7 +1471,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases Attack and Defense every time you fall in battle"
       ]
     },
     {
@@ -1496,7 +1496,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases damage when striking body parts that your attacks are highly effective"
       ]
     },
     {
@@ -1521,7 +1521,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Thunder resistance"
       ]
     },
     {
@@ -1546,7 +1546,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases the power of Thunder attacks and shots"
       ]
     },
     {
@@ -1571,7 +1571,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Prevents staggering from tremors created by large monsters"
       ]
     },
     {
@@ -1596,7 +1596,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Make it easier to knock down monsters"
       ]
     },
     {
@@ -1621,7 +1621,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases Attack when your Health Guage is full"
       ]
     },
     {
@@ -1646,7 +1646,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases the power of Water attacks and shots"
       ]
     },
     {
@@ -1671,7 +1671,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Transfers a portion of the effects of certain items to companions in the same area"
       ]
     },
     {
@@ -1696,7 +1696,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Lessens/Negates Wind Pressure from monsters"
       ]
     },
     {
@@ -1721,7 +1721,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Allows Sleep coatings to be set when equipped with a Bow"
       ]
     },
     {
@@ -1746,7 +1746,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Slows down Stamina depletion for actions which continuously drain Stamina (such as dashing)"
       ]
     },
     {
@@ -1771,7 +1771,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increase movement speed when carrying eggs, and theft immunity"
       ]
     },
     {
@@ -1796,7 +1796,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Water resistance"
       ]
     },
     {
@@ -1821,7 +1821,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases/decreases Dragon resistance"
       ]
     },
     {
@@ -1846,7 +1846,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the efficacy of Health recovery items"
       ]
     },
     {
@@ -1871,7 +1871,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Eating mushrooms will result in different effects"
       ]
     },
     {
@@ -1896,7 +1896,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Auto-cook meat"
       ]
     },
     {
@@ -1921,7 +1921,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Allows one extra shot to be fired while Rapid Firing"
       ]
     },
     {
@@ -1946,7 +1946,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases the effect time of Hunting Horn melodies"
       ]
     },
     {
@@ -1971,7 +1971,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases power of Bowgun, Gunlance, Wyvern's Fire & Crag shots"
       ]
     },
     {
@@ -1996,7 +1996,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases attacks against Crustacian Monsters"
       ]
     },
     {
@@ -2021,7 +2021,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases attacks against Bird Dragon Monsters"
       ]
     },
     {
@@ -2046,7 +2046,7 @@ var skillsArray = [
         "",
         "",
         "",
-        "Description"
+        "Increases attacks against Dragon Monsters"
       ]
     },
 ]
