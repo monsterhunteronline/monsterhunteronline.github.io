@@ -1,4 +1,5 @@
-$(function() {
+var page = "monstermain";
+function monsternav() {
 	var low = lowrankArray;
 	var high = highrankArray;
 	var outlow = '<span class="card-title">Low/High Rank Monsters</span><br>';
@@ -35,4 +36,4 @@ $(function() {
 	}
 	document.getElementById("lowranknav").innerHTML = outlow;
 	document.getElementById("highranknav").innerHTML = outhigh;
-});
+};

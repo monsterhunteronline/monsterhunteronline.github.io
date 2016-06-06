@@ -1,73 +1,56 @@
 // initialize global variables
-var armortype; var filterArmor; var helmet; var vambraces; var armor; var waist; var greaves; var necklace; var ring; var talisman; var helmetID; var vambracesID; var armorID; var waistID; var greavesID; var necklaceID; var ringID; var talismanID; var talismanSkill1ID; var talismanSkill1vID; var talismanSkill2ID; var talismanSkill2vID; var passive; var helmetType; var vambracesType; var armorType; var waistType; var greavesType;
+var armortype; var filterArmor; var helmet; var vambraces; var armor; var waist; var greaves; var necklace; var ring; var talisman; var helmetID; var vambracesID; var armorID; var waistID; var greavesID; var necklaceID; var ringID; var talismanID; var talismanSkill1ID; var talismanSkill1vID; var talismanSkill2ID; var talismanSkill2vID; var passive; var helmetType; var vambracesType; var armorType; var waistType; var greavesType; var helmetMosaicNum; var vambracesMosaicNum; var armorMosaicNum; var waistMosaicNum; var greavesMosaicNum; var helmetMosaic; var vambracesMosaic; var armorMosaic; var waistMosaic; var greavesMosaic;
 var skills = { "Ambush":0, "Anti-bacterial":0, "Attack":0, "Butterfly Dance":0, "Cold Res":0, "Constitution":0, "Handicraft":0, "Crit Draw":0, "Defense":0, "Destroyer":0, "Dragon Atk":0, "Eating":0, "Evade Dist":0, "Evasion":0, "Expert":0, "FastCharge":0, "Fencing":0, "Fire Atk":0, "Fire Res":0, "Gluttony":0, "Guard":0, "Guard Up":0, "Guts":0, "Health":0, "Hearing":0, "Heat Res":0, "Herb King":0, "Hormone":0, "Hunger":0, "Ice Atk":0, "Ice Res":0, "Violent Strike":0, "KO":0, "Loading":0, "Mud/Snow":0, "Normal Up":0, "Paralysis":0, "Pellet Up":0, "Perception":0, "Pierce Up":0, "Poison":0, "Potential":0, "Protection":0, "Psychic":0, "Rec Speed":0, "Recoil":0, "Reload Spd":0, "Resilience":0, "Sense":0, "Sharpener":0, "Sharpness":0, "Sleep":0, "SpeedSetup":0, "Spirit":0, "Stam Recov":0, "Status":0, "Stun":0, "Survivor":0, "Tenderizer":0, "Bleeding":0, "Thunder Res":0, "ThunderAtk":0, "Tremor Res":0, "Tripping Power":0, "Unscathed":0, "Water Atk":0, "Wide-Range":0, "Wind Res":0, "Sleep C+":0, "Stamina":0, "Hunter Life":0, "Water Res":0, "Dragon Res":0, "Rec Level":0, "PowerEater":0, "BBQ Expert":0, "Rapid Fire":0, "Maestro":0, "Artillery":0, "Crustacians Hunter":0, "Bird Dragons Hunter":0, "Dragons Hunter":0};
 // need second array for "for" loop
 var skillNames = ["Ambush", "Anti-bacterial", "Artillery", "Attack", "BBQ Expert", "Bird Dragons Hunter", "Bleeding", "Butterfly Dance", "Cold Res", "Constitution", "Crit Draw", "Crustacians Hunter", "Defense", "Destroyer", "Dragon Atk", "Dragon Res", "Dragons Hunter", "Eating", "Evade Dist", "Evasion", "Expert", "FastCharge", "Fencing", "Fire Atk", "Fire Res", "Gluttony", "Guard Up", "Guard", "Guts", "Handicraft", "Health", "Hearing", "Heat Res", "Herb King", "Hormone", "Hunger", "Hunter Life", "Ice Atk", "Ice Res", "KO", "Loading", "Maestro", "Mud/Snow", "Normal Up", "Paralysis", "Pellet Up", "Perception", "Pierce Up", "Poison", "Potential", "PowerEater", "Protection", "Psychic", "Rapid Fire", "Rec Level", "Rec Speed", "Recoil", "Reload Spd", "Resilience", "Sense", "Sharpener", "Sharpness", "Sleep C+", "Sleep", "SpeedSetup", "Spirit", "Stam Recov", "Stamina", "Status", "Stun", "Survivor", "Tenderizer", "Thunder Res", "ThunderAtk", "Tremor Res", "Tripping Power", "Unscathed", "Violent Strike", "Water Atk", "Water Res", "Wide-Range", "Wind Res"];
-
-$(function() {
-	displayData();
-});
-
 $(document).on('change', 'select#necklaceSelect', function() {
     console.log($(this).val()); // the selected options’s value
-
     // if you want to do stuff based on the OPTION element:
     var opt = $(this).val();
     updateurl('6', opt);
     displayData();
     // use switch or if/else etc.
 });
-
 $(document).on('change', 'select#ringSelect', function() {
     console.log($(this).val()); // the selected options’s value
-
     // if you want to do stuff based on the OPTION element:
     var opt = $(this).val();
     updateurl('7', opt);
     displayData();
     // use switch or if/else etc.
 });
-
 $(document).on('change', 'select#talismanSelect', function() {
     console.log($(this).val()); // the selected options’s value
-
     // if you want to do stuff based on the OPTION element:
     var opt = $(this).val();
     updateurl('8', opt);
     displayData();
     // use switch or if/else etc.
 });
-
 $(document).on('change', 'select#talismanSkill1Select', function() {
     console.log($(this).val()); // the selected options’s value
-
     // if you want to do stuff based on the OPTION element:
     var opt = $(this).val();
     updateurl('9', opt);
     displayData();
     // use switch or if/else etc.
 });
-
 $(document).on('change', 'select#talismanSkill1vSelect', function() {
     console.log($(this).val()); // the selected options’s value
-
     // if you want to do stuff based on the OPTION element:
     var opt = $(this).val();
     updateurl('10', opt);
     displayData();
     // use switch or if/else etc.
 });
-
 $(document).on('change', 'select#talismanSkill2Select', function() {
     console.log($(this).val()); // the selected options’s value
-
     // if you want to do stuff based on the OPTION element:
     var opt = $(this).val();
     updateurl('11', opt);
     displayData();
     // use switch or if/else etc.
 });
-
 $(document).on('change', 'select#talismanSkill2vSelect', function() {
     console.log($(this).val()); // the selected options’s value
 
@@ -77,7 +60,6 @@ $(document).on('change', 'select#talismanSkill2vSelect', function() {
     displayData();
     // use switch or if/else etc.
 });
-
 function displayData() {
 // grap parameters from URL
 	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5'); necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8'); talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12');
@@ -95,9 +77,10 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[44]+' skill'+helmet[0].data[45]+'">'+translate(helmet[0].data[44])+': <span class="skillamount">'+helmet[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[46]+' skill'+helmet[0].data[47]+'">'+translate(helmet[0].data[46])+': <span class="skillamount">'+helmet[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
-		var helmetMosaic = "";
+		helmetMosaic = "";
 		for (var i = helmet[0].data[5] - 1; i >= 0; i--) {helmetMosaic += "o";};
-		document.getElementById("helmetMosaic").innerHTML = helmetMosaic;
+		helmetMosaicNum = helmetMosaic.length;
+		document.getElementById("helmetMosaic").innerHTML = mosaicdrop(helmetMosaic);
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof vambraces[0] !== 'undefined') {
@@ -111,9 +94,10 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[44]+' skill'+vambraces[0].data[45]+'">'+translate(vambraces[0].data[44])+': <span class="skillamount">'+vambraces[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[46]+' skill'+vambraces[0].data[47]+'">'+translate(vambraces[0].data[46])+': <span class="skillamount">'+vambraces[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
-		var vambracesMosaic = "";
+		vambracesMosaic = "";
 		for (var i = vambraces[0].data[5] - 1; i >= 0; i--) {vambracesMosaic += "o";};
-		document.getElementById("vambracesMosaic").innerHTML = vambracesMosaic;
+		//vambracesMosaicNum = vambracesMosaic.length;
+		document.getElementById("vambracesMosaic").innerHTML = mosaicdrop(vambracesMosaic);
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof armor[0] !== 'undefined') {
@@ -127,9 +111,10 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[44]+' skill'+armor[0].data[45]+'">'+translate(armor[0].data[44])+': <span class="skillamount">'+armor[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[46]+' skill'+armor[0].data[47]+'">'+translate(armor[0].data[46])+': <span class="skillamount">'+armor[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
-		var armorMosaic = "";
+		armorMosaic = "";
 		for (var i = armor[0].data[5] - 1; i >= 0; i--) {armorMosaic += "o";};
-		document.getElementById("armorMosaic").innerHTML = armorMosaic;
+		armorMosaicNum = armorMosaic.length;
+		document.getElementById("armorMosaic").innerHTML = mosaicdrop(armorMosaic);
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof waist[0] !== 'undefined') {
@@ -143,9 +128,10 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[44]+' skill'+waist[0].data[45]+'">'+translate(waist[0].data[44])+': <span class="skillamount">'+waist[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[46]+' skill'+waist[0].data[47]+'">'+translate(waist[0].data[46])+': <span class="skillamount">'+waist[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
-		var waistMosaic = "";
+		waistMosaic = "";
 		for (var i = waist[0].data[5] - 1; i >= 0; i--) {waistMosaic += "o";};
-		document.getElementById("waistMosaic").innerHTML = waistMosaic;
+		waistMosaicNum = waistMosaic.length;
+		document.getElementById("waistMosaic").innerHTML = mosaicdrop(waistMosaic);
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof greaves[0] !== 'undefined') {
@@ -159,9 +145,10 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[44]+' skill'+greaves[0].data[45]+'">'+translate(greaves[0].data[44])+': <span class="skillamount">'+greaves[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[46]+' skill'+greaves[0].data[47]+'">'+translate(greaves[0].data[46])+': <span class="skillamount">'+greaves[0].data[47]+'</span></span>';
 // calculate and output mosaic slots
-		var greavesMosaic = "";
+		greavesMosaic = "";
 		for (var i = greaves[0].data[5] - 1; i >= 0; i--) {greavesMosaic += "o";};
-		document.getElementById("greavesMosaic").innerHTML = greavesMosaic;
+		greavesMosaicNum = greavesMosaic.length;
+		document.getElementById("greavesMosaic").innerHTML = mosaicdrop(greavesMosaic);
 	};
 // write HTML to IDs if URL Parameters are VALID
 	if (typeof necklace[0] !== 'undefined') {
@@ -239,7 +226,6 @@ function displayData() {
 	};
 	document.getElementById("talismanSkill2Select").innerHTML = talismanSkill2Selection;
 };
-
 function filter(aID) {
 // initialize array
 	var arr = armorArray;
@@ -248,7 +234,6 @@ function filter(aID) {
 // output new array
 	return filterArmor;
 };
-
 function filterj(aID) {
 // initialize array
 	var arr = jewelryArray;
@@ -257,7 +242,6 @@ function filterj(aID) {
 // output new array
 	return filterJewelry;
 };
-
 function storeArmor() {
 // create arrays with filter(aID)
 	helmet = filter(helmetID); vambraces = filter(vambracesID); armor = filter(armorID); waist = filter(waistID); greaves = filter(greavesID); necklace = filterj(necklaceID); ring = filterj(ringID); talisman = filterj(talismanID);
@@ -272,7 +256,6 @@ function storeArmor() {
 	if (typeof talismanSkill1ID !== 'undefined' && talismanSkill1vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill1ID)])] = skills[translate(skillNames[parseInt(talismanSkill1ID)])] + parseInt(talismanSkill1vID);};
 	if (typeof talismanSkill2ID !== 'undefined' && talismanSkill2vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill2ID)])] = skills[translate(skillNames[parseInt(talismanSkill2ID)])] + parseInt(talismanSkill2vID);};
 };
-
 function getPassive(sname, value) {
 // check skill value and store passive if it meets the criteria
 	passive='';

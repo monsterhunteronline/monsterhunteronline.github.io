@@ -13552,13 +13552,14 @@ var materialArray = [
         ]
       }
 ];
-$(function() {
+var page = "materials";
+function materialsjs() {
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {
 	$('#inputText').val(url);
 	}
 	$('#button').click();
-});
+};
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();

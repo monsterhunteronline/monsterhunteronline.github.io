@@ -5,835 +5,229 @@
  *
  * Made By MaterializeCSS.com
  */
-html, body {
-	margin: 0;
-	overflow-x: hidden;
-}
-#loadingMask {
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	background: #fff;
-	z-index: 99999;
-}
-body {
-	background-image: url(../images/bg.png);
-	background-position: left top;
-	background-repeat: repeat;
-}
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-.bold {
-	font-weight: bold;
-}
-.tiny-img {
-	width: 100%;
-	height: auto;
-	max-width: 30px;
-	max-height: 30px;
-}
-.container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.truncate-small {
-	display: inline-block;
-	width: 200px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-@media only screen and (min-width : 601px) {
-	.container {
-    	width: 85%;
-  	}
-	.truncate-small {
-		width: 275px;
-	}
-	html, body {
-	margin: 0;
-	overflow-x: visible;
-	}
-}
-@media only screen and (min-width: 993px) {
-	html, body {
-	margin: 0;
-	overflow-x: visible;
-	}
-	.container {
-		width: 70%;
-	}
-  .row .col.l2-10 {
-    width: 20%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-  }
-  .row .col.offset-l2-10 {
-    margin-left: 20%;
-  }
-  .row .col.pull-l2-10 {
-    right: 20%;
-  }
-  .row .col.push-l2-10 {
-    left: 20%;
-  }
-}
-.type0 {
-	color: #8aff2b;
-}
-.type1 {
-	color: #5cbcfe;
-}
-.armorimage {
-	width: 32px;
-	height: 32px;
-	position: relative;
-	top: 9px;
-	left:10px;
-}
-.armorinfo td {
-	padding: 0px !important;
-	padding-left: 15px !important;
-}
-.Lv40 {
-	display: none !important;
-}
-.weak4 {
-	color: #4caf50;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.weak3 {
-	color: #cddc39;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.weak2 {
-	color: #ffeb3b;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.weak1 {
-	color: #ff9800;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.weak0 {
-	color: #f44336;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.side-nav .collapsible-body li.active, .side-nav.fixed .collapsible-body li.active {
-    background-color: #ddd;
-}
-.side-nav .collapsible-body li.active a, .side-nav.fixed .collapsible-body li.active a {
-    color: #000;
-}
-.img-link {
-	cursor: pointer;
-}
-/* Start Weapon Table CSS*/
-.bow {
-	background: url(../images/weapon/bowbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.bowgun {
-	background: url(../images/weapon/bowgunbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.dualblades {
-	background: url(../images/weapon/dualbladesbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.greatsword {
-	background: url(../images/weapon/greatswordbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.gunlance {
-	background: url(../images/weapon/gunlancebg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.hammer {
-	background: url(../images/weapon/hammerbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.huntinghorn {
-	background: url(../images/weapon/huntinghornbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.lance {
-	background: url(../images/weapon/lancebg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.longsword {
-	background: url(../images/weapon/longswordbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-.swordandshield {
-	background: url(../images/weapon/swordandshieldbg.png) 0 0 no-repeat;
-	background-color: #bdbdbd;
-}
-#weapons {
-	margin: 0px auto;
-	width: auto;
-	height: auto;
-	text-align: center;
-}
-#weapons td {
-	border-collapse: collapse;
-	padding: 2px
-}
-#weapons div {
-	display: block;
-	margin: 0px auto;
-}
-.weapons {
-	width: auto;
-	height: auto;
-	text-align: left;
-}
-.weapons td {
-	border-collapse: collapse;
-	padding: 2px
-}
-.weapons div {
-	display: block;
-	margin: 0px auto;
-}
-.basePro {
-	width: 214px;
-	height: 6px;
-	padding: 3px 17px 5px 14px;
-	position: absolute;
-	top: 0px;
-	left: 10px;
-}
-.basePro .barWidth {
-	position: relative;
-}
-.basePro .colorBar {
-	float: left;
-	height: 6px;
-}
-.basePro .leaveBar {
-	float: right;
-	height: 6px;
-	position: absolute;
-	right: 0;
-}
-.basePro .bar-1 {
-	background-color: #9f2e10;
-}
-.basePro .bar-2 {
-	background-color: #bb7a27;
-}
-.basePro .bar-3 {
-	background-color: #ccd52a;
-}
-.basePro .bar-4 {
-	background-color: #01af14;
-}
-.basePro .bar-5 {
-	background-color: #304ecf;
-}
-.basePro .bar-6 {
-	background-color: #fff;
-}
-.basePro .bar-7 {
-	background-color: #6009b8;
-}
-.sharpbar {
-	position: relative;
-	height: 14px;
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.oth-cut-set {
-    display: inline-block;
-    height: 6px;
-    top: 0;
-    position: absolute;
-    left: 0px;
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    background: rgba(0, 0, 0, 0);
-}
-.oth-hav-set {
-    display: inline-block;
-    height: 6px;
-    top: 0;
-    position: absolute;
-    right: 0;
-    background-color: #353334;
-}
-.weaponpic {
-	position: relative;
-	top: 5px;
-	left: 3px;
-	margin: 0px auto;
-}
-.matpiccell {
-	width: 40px;
-	height: 40px;
-	position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	display: inline-block;
-}
-table.weaponinfo {
-	padding: 0px !important;
-	border: 1px solid white;
-	width: 250px;
-	background: gray;
-}
-table.weaponinfo a {
-	color: #fff;
-}
-table.weapon弩 {
-	padding: 0px !important;
-	border: 1px solid white;
-	width: 320px;
-	background: gray;
-}
-table.weapon狩猎笛 {
-	padding: 0px !important;
-	border: 1px solid white;
-	width: 320px;
-	background: gray;
-}
-table.innertable {
-	padding: 0px !important;
-}
-table.innertable td {
-	padding: 0px !important;
-}
-hr {
-	color: #241C17;
-	background-color: #241C17;
-	text-align: center;
-	margin: 0 auto;
-	width: 100%;
-	height: 1px;
-}
-.list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.item {
-	height: 40px;
-	text-align: center;
-	float: left;
-}
-.item:hover + .info {
-	display: block;
-}
-.info {
-	position: absolute;
-	top: 0px;
-	left: 30px;
-	width: 200px;
-	display: none;
-	z-index: 5;
-	text-align: left;
-}
-.info td {
-	padding-left: 5px !important;
-	padding-right: 5px !important;
-}
-.item:hover + .info, .info:hover {
-    display: block;
-}
-.forgeicon {
-    display: inline-block;
-    position: absolute;
-    bottom: -39px;
-    right: -2px;
-    width: 16px;
-    height: 16px;
-    background: url(../../images/forgeicon.png) 0 0 no-repeat;
-    z-index: 4;
-}
-.Rapid-fire {
-	display: none !important;
-}
-.Charge {
-	display: none !important;
-}
-.no {
-	display: none !important;
-}
-.no0 {
-	display: none !important;
-}
-.no00000 {
-	display: none !important;
-}
-.poison {
-	color: #b722ff !important;
-}
-.paralysis {
-	color: #ffdc19 !important;
-}
-.sleep {
-	color: #179dce !important;
-}
-.noskill {
-	display: none !important;
-}
-.skill0 {
-	display: none !important;
-}
-.skill {
-	display: none !important;
-}
-.skill1 {
-	color: green !important;
-}
-.skill2 {
-	color: green !important;
-}
-.skill3 {
-	color: green !important;
-}
-.skill4 {
-	color: green !important;
-}
-.skill5 {
-	color: green !important;
-}
-.skill6 {
-	color: green !important;
-}
-.skill7 {
-	color: green !important;
-}
-.skill8 {
-	color: green !important;
-}
-.skill9 {
-	color: green !important;
-}
-.skill10 {
-	color: green !important;
-}
-.skill11 {
-	color: green !important;
-}
-.skill12 {
-	color: green !important;
-}
-.skill13 {
-	color: green !important;
-}
-.skill14 {
-	color: green !important;
-}
-.skill15 {
-	color: green !important;
-}
-.skill {
-	color: green !important;
-}
-.skill16 {
-	color: green !important;
-}
-.skill17 {
-	color: green !important;
-}
-.skill18 {
-	color: green !important;
-}
-.skill19 {
-	color: green !important;
-}
-.skill20 {
-	color: green !important;
-}
-.skill21 {
-	color: green !important;
-}
-.skill22 {
-	color: green !important;
-}
-.skill23 {
-	color: green !important;
-}
-.skill24 {
-	color: green !important;
-}
-.skill25 {
-	color: green !important;
-}
-.skill26 {
-	color: green !important;
-}
-.skill27 {
-	color: green !important;
-}
-.skill28 {
-	color: green !important;
-}
-.skill29 {
-	color: green !important;
-}
-.skill30 {
-	color: green !important;
-}
-.skill-1 {
-	color: red !important;
-}
-.skill-2 {
-	color: red !important;
-}
-.skill-3 {
-	color: red !important;
-}
-.skill-4 {
-	color: red !important;
-}
-.skill-5 {
-	color: red !important;
-}
-.skill-6 {
-	color: red !important;
-}
-.skill-7 {
-	color: red !important;
-}
-.skill-8 {
-	color: red !important;
-}
-.skill-9 {
-	color: red !important;
-}
-.skill-10 {
-	color: red !important;
-}
-.skill-11 {
-	color: red !important;
-}
-.skill-12 {
-	color: red !important;
-}
-.skill-13 {
-	color: red !important;
-}
-.skill-14 {
-	color: red !important;
-}
-.skill-15 {
-	color: red !important;
-}
-.skill-16 {
-	color: red !important;
-}
-.skill-17 {
-	color: red !important;
-}
-.skill-18 {
-	color: red !important;
-}
-.skill-19 {
-	color: red !important;
-}
-.skill-20 {
-	color: red !important;
-}
-.skill-21 {
-	color: red !important;
-}
-.skill-22 {
-	color: red !important;
-}
-.skill-23 {
-	color: red !important;
-}
-.skill-24 {
-	color: red !important;
-}
-.skill-25 {
-	color: red !important;
-}
-.skill-26 {
-	color: red !important;
-}
-.skill-27 {
-	color: red !important;
-}
-.skill-28 {
-	color: red !important;
-}
-.skill-29 {
-	color: red !important;
-}
-.skill-30 {
-	color: red !important;
-}
-.plus-1 {
-	display: none;
-}
-.plus-2 {
-	display: none;
-}
-.plus-3 {
-	display: none;
-}
-.plus-4 {
-	display: none;
-}
-.plus-5 {
-	display: none;
-}
-#typecolor {
-	background-color: #fff;
-	border: 2px;
-	border-style: solid;
-}
-.skill1 a {
-	color: green !important;
-}
-.skill2 a {
-	color: green !important;
-}
-.skill3 a {
-	color: green !important;
-}
-.skill4 a {
-	color: green !important;
-}
-.skill5 a {
-	color: green !important;
-}
-.skill6 a {
-	color: green !important;
-}
-.skill7 a {
-	color: green !important;
-}
-.skill8 a {
-	color: green !important;
-}
-.skill9 a {
-	color: green !important;
-}
-.skill10 a {
-	color: green !important;
-}
-.skill11 a {
-	color: green !important;
-}
-.skill12 a {
-	color: green !important;
-}
-.skill13 a {
-	color: green !important;
-}
-.skill14 a {
-	color: green !important;
-}
-.skill15 a {
-	color: green !important;
-}
-.skill a {
-	color: green !important;
-}
-.skill16 a {
-	color: green !important;
-}
-.skill17 a {
-	color: green !important;
-}
-.skill18 a {
-	color: green !important;
-}
-.skill19 a {
-	color: green !important;
-}
-.skill20 a {
-	color: green !important;
-}
-.skill21 a {
-	color: green !important;
-}
-.skill22 a {
-	color: green !important;
-}
-.skill23 a {
-	color: green !important;
-}
-.skill24 a {
-	color: green !important;
-}
-.skill25 a {
-	color: green !important;
-}
-.skill26 a {
-	color: green !important;
-}
-.skill27 a {
-	color: green !important;
-}
-.skill28 a {
-	color: green !important;
-}
-.skill29 a {
-	color: green !important;
-}
-.skill30 a {
-	color: green !important;
-}
-.skill-1 a {
-	color: red !important;
-}
-.skill-2 a {
-	color: red !important;
-}
-.skill-3 a {
-	color: red !important;
-}
-.skill-4 a {
-	color: red !important;
-}
-.skill-5 a {
-	color: red !important;
-}
-.skill-6 a {
-	color: red !important;
-}
-.skill-7 a {
-	color: red !important;
-}
-.skill-8 a {
-	color: red !important;
-}
-.skill-9 a {
-	color: red !important;
-}
-.skill-10 a {
-	color: red !important;
-}
-.skill-11 a {
-	color: red !important;
-}
-.skill-12 a {
-	color: red !important;
-}
-.skill-13 a {
-	color: red !important;
-}
-.skill-14 a {
-	color: red !important;
-}
-.skill-15 a {
-	color: red !important;
-}
-.skill-16 a {
-	color: red !important;
-}
-.skill-17 a {
-	color: red !important;
-}
-.skill-18 a {
-	color: red !important;
-}
-.skill-19 a {
-	color: red !important;
-}
-.skill-20 a {
-	color: red !important;
-}
-.skill-21 a {
-	color: red !important;
-}
-.skill-22 a {
-	color: red !important;
-}
-.skill-23 a {
-	color: red !important;
-}
-.skill-24 a {
-	color: red !important;
-}
-.skill-25 a {
-	color: red !important;
-}
-.skill-26 a {
-	color: red !important;
-}
-.skill-27 a {
-	color: red !important;
-}
-.skill-28 a {
-	color: red !important;
-}
-.skill-29 a {
-	color: red !important;
-}
-.skill-30 a {
-	color: red !important;
-}
-/* End Weapon Table CSS */
-
-.yes {
-	display: block !important;
-}
-.yeshide {
-	display: block !important;
-}
-.nohide {
-	display: none !important;
-}
-.no.yes {
-	display: inline-block !important;
-}
-.no.yeshide {
-	display: none !important;
-}
-.no.nohide {
-	display: none !important;
-}
-tr.yes {
-	display: table-row !important;
-}
-tr.yeshide {
-	display: table-row !important;
-}
-tr.no {
-	display: none !important;
-	border-collapse: collapse !important;
-}
-tr.nohide {
-	display: none !important;
-	border-collapse: collapse !important;
-}
-.armortypeno {
-	display: none !important;
-}
-.armortypeno.yes {
-	display: none !important;
-}
-.page-footer{
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.padding-left-right {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.right-nav {
-	top: 150px;
-	right: 0px;
-	width: 120px;
-}
+html, body { margin: 0; overflow-x: hidden; }
+.collection { overflow: visible; }
+#loadingMask { width: 100%; height: 100%; position: fixed; background: #fff; z-index: 99999; }
+body { background-image: url(../images/bg.png); background-position: left top; background-repeat: repeat; }
+.icon-block { padding: 0 15px; }
+.icon-block .material-icons { font-size: inherit; }
+.bold { font-weight: bold; }
+.tiny-img { width: 100%; height: auto; max-width: 30px; max-height: 30px; }
+.container { margin: 0 auto; max-width: 1280px; width: 100%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.truncate-small { display: inline-block; width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media only screen and (min-width : 601px) { .container { width: 85%; } .truncate-small { width: 275px; } html, body { margin: 0; overflow-x: visible; } }
+@media only screen and (min-width: 993px) { html, body { margin: 0; overflow-x: visible; } .container { width: 70%; } .row .col.l2-10 { width: 20%; margin-left: auto; left: auto; right: auto; } .row .col.offset-l2-10 { margin-left: 20%; } .row .col.pull-l2-10 { right: 20%; } .row .col.push-l2-10 { left: 20%; } }
+.type0 { color: #8aff2b; }
+.type1 { color: #5cbcfe; }
+.armorimage { width: 32px; height: 32px; position: relative; top: 9px; left:10px; }
+.armorinfo td { padding: 0px !important; padding-left: 15px !important; }
+.Lv40 { display: none !important; }
+.weak4 { color: #4caf50; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+.weak3 { color: #cddc39; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+.weak2 { color: #ffeb3b; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+.weak1 { color: #ff9800; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+.weak0 { color: #f44336; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+.side-nav .collapsible-body li.active, .side-nav.fixed .collapsible-body li.active {   background-color: #ddd; }
+.side-nav .collapsible-body li.active a, .side-nav.fixed .collapsible-body li.active a {   color: #000; }
+.img-link { cursor: pointer; }
+.bow { background: url(../images/weapon/bowbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.bowgun { background: url(../images/weapon/bowgunbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.dualblades { background: url(../images/weapon/dualbladesbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.greatsword { background: url(../images/weapon/greatswordbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.gunlance { background: url(../images/weapon/gunlancebg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.hammer { background: url(../images/weapon/hammerbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.huntinghorn { background: url(../images/weapon/huntinghornbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.lance { background: url(../images/weapon/lancebg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.longsword { background: url(../images/weapon/longswordbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+.swordandshield { background: url(../images/weapon/swordandshieldbg.png) 0 0 no-repeat; background-color: #bdbdbd; }
+#weapons { margin: 0px auto; width: auto; height: auto; text-align: center; }
+#weapons td { border-collapse: collapse; padding: 2px }
+#weapons div { display: block; margin: 0px auto; }
+.weapons { width: auto; height: auto; text-align: left; }
+.weapons td { border-collapse: collapse; padding: 2px }
+.weapons div { display: block; margin: 0px auto; }
+.basePro { width: 214px; height: 6px; padding: 3px 17px 5px 14px; position: absolute; top: 0px; left: 10px; }
+.basePro .barWidth { position: relative; }
+.basePro .colorBar { float: left; height: 6px; }
+.basePro .leaveBar { float: right; height: 6px; position: absolute; right: 0; }
+.basePro .bar-1 { background-color: #9f2e10; }
+.basePro .bar-2 { background-color: #bb7a27; }
+.basePro .bar-3 { background-color: #ccd52a; }
+.basePro .bar-4 { background-color: #01af14; }
+.basePro .bar-5 { background-color: #304ecf; }
+.basePro .bar-6 { background-color: #fff; }
+.basePro .bar-7 { background-color: #6009b8; }
+.sharpbar { position: relative; height: 14px; background-repeat: no-repeat; background-position: left; }
+.oth-cut-set { display: inline-block; height: 6px; top: 0; position: absolute; left: 0px; border-top: 1px solid #000; border-right: 1px solid #000; border-bottom: 1px solid #000; background: rgba(0, 0, 0, 0); }
+.oth-hav-set { display: inline-block; height: 6px; top: 0; position: absolute; right: 0; background-color: #353334; }
+.weaponpic { position: relative; top: 5px; left: 3px; margin: 0px auto; }
+.matpiccell { width: 40px; height: 40px; position: relative; background-repeat: no-repeat; background-position: center; text-align: center; vertical-align: middle; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; display: inline-block; }
+table.weaponinfo { padding: 0px !important; border: 1px solid white; width: 250px; background: gray; }
+table.weaponinfo a { color: #fff; }
+table.weapon弩 { padding: 0px !important; border: 1px solid white; width: 320px; background: gray; }
+table.weapon狩猎笛 { padding: 0px !important; border: 1px solid white; width: 320px; background: gray; }
+table.innertable { padding: 0px !important; }
+table.innertable td { padding: 0px !important; }
+hr { color: #241C17; background-color: #241C17; text-align: center; margin: 0 auto; width: 100%; height: 1px; }
+.list { list-style: none; padding: 0; margin: 0; }
+.item { height: 40px; text-align: center; float: left; }
+.item:hover + .info { display: block; }
+.info { position: absolute; top: 0px; left: 30px; width: 200px; display: none; z-index: 5; text-align: left; }
+.rightweapon .info { right: 50px !important; background-color: blue; }
+.info td { padding-left: 5px !important; padding-right: 5px !important; }
+.item:hover + .info, .info:hover {   display: block; }
+.forgeicon {   display: inline-block; position: absolute; bottom: -39px; right: -2px; width: 16px; height: 16px; background: url(../../images/forgeicon.png) 0 0 no-repeat; z-index: 4; }
+.Rapid-fire { display: none !important; }
+.Charge { display: none !important; }
+.no { display: none !important; }
+.no0 { display: none !important; }
+.no00000 { display: none !important; }
+.poison { color: #b722ff !important; }
+.paralysis { color: #ffdc19 !important; }
+.sleep { color: #179dce !important; }
+.noskill { display: none !important; }
+.skill0 { display: none !important; }
+.skill { display: none !important; }
+.skill1 { color: green !important; }
+.skill2 { color: green !important; }
+.skill3 { color: green !important; }
+.skill4 { color: green !important; }
+.skill5 { color: green !important; }
+.skill6 { color: green !important; }
+.skill7 { color: green !important; }
+.skill8 { color: green !important; }
+.skill9 { color: green !important; }
+.skill10 { color: green !important; }
+.skill11 { color: green !important; }
+.skill12 { color: green !important; }
+.skill13 { color: green !important; }
+.skill14 { color: green !important; }
+.skill15 { color: green !important; }
+.skill { color: green !important; }
+.skill16 { color: green !important; }
+.skill17 { color: green !important; }
+.skill18 { color: green !important; }
+.skill19 { color: green !important; }
+.skill20 { color: green !important; }
+.skill21 { color: green !important; }
+.skill22 { color: green !important; }
+.skill23 { color: green !important; }
+.skill24 { color: green !important; }
+.skill25 { color: green !important; }
+.skill26 { color: green !important; }
+.skill27 { color: green !important; }
+.skill28 { color: green !important; }
+.skill29 { color: green !important; }
+.skill30 { color: green !important; }
+.skill-1 { color: red !important; }
+.skill-2 { color: red !important; }
+.skill-3 { color: red !important; }
+.skill-4 { color: red !important; }
+.skill-5 { color: red !important; }
+.skill-6 { color: red !important; }
+.skill-7 { color: red !important; }
+.skill-8 { color: red !important; }
+.skill-9 { color: red !important; }
+.skill-10 { color: red !important; }
+.skill-11 { color: red !important; }
+.skill-12 { color: red !important; }
+.skill-13 { color: red !important; }
+.skill-14 { color: red !important; }
+.skill-15 { color: red !important; }
+.skill-16 { color: red !important; }
+.skill-17 { color: red !important; }
+.skill-18 { color: red !important; }
+.skill-19 { color: red !important; }
+.skill-20 { color: red !important; }
+.skill-21 { color: red !important; }
+.skill-22 { color: red !important; }
+.skill-23 { color: red !important; }
+.skill-24 { color: red !important; }
+.skill-25 { color: red !important; }
+.skill-26 { color: red !important; }
+.skill-27 { color: red !important; }
+.skill-28 { color: red !important; }
+.skill-29 { color: red !important; }
+.skill-30 { color: red !important; }
+.plus-1 { display: none; }
+.plus-2 { display: none; }
+.plus-3 { display: none; }
+.plus-4 { display: none; }
+.plus-5 { display: none; }
+#typecolor { background-color: #fff; border: 2px; border-style: solid; }
+.skill1 a { color: green !important; }
+.skill2 a { color: green !important; }
+.skill3 a { color: green !important; }
+.skill4 a { color: green !important; }
+.skill5 a { color: green !important; }
+.skill6 a { color: green !important; }
+.skill7 a { color: green !important; }
+.skill8 a { color: green !important; }
+.skill9 a { color: green !important; }
+.skill10 a { color: green !important; }
+.skill11 a { color: green !important; }
+.skill12 a { color: green !important; }
+.skill13 a { color: green !important; }
+.skill14 a { color: green !important; }
+.skill15 a { color: green !important; }
+.skill a { color: green !important; }
+.skill16 a { color: green !important; }
+.skill17 a { color: green !important; }
+.skill18 a { color: green !important; }
+.skill19 a { color: green !important; }
+.skill20 a { color: green !important; }
+.skill21 a { color: green !important; }
+.skill22 a { color: green !important; }
+.skill23 a { color: green !important; }
+.skill24 a { color: green !important; }
+.skill25 a { color: green !important; }
+.skill26 a { color: green !important; }
+.skill27 a { color: green !important; }
+.skill28 a { color: green !important; }
+.skill29 a { color: green !important; }
+.skill30 a { color: green !important; }
+.skill-1 a { color: red !important; }
+.skill-2 a { color: red !important; }
+.skill-3 a { color: red !important; }
+.skill-4 a { color: red !important; }
+.skill-5 a { color: red !important; }
+.skill-6 a { color: red !important; }
+.skill-7 a { color: red !important; }
+.skill-8 a { color: red !important; }
+.skill-9 a { color: red !important; }
+.skill-10 a { color: red !important; }
+.skill-11 a { color: red !important; }
+.skill-12 a { color: red !important; }
+.skill-13 a { color: red !important; }
+.skill-14 a { color: red !important; }
+.skill-15 a { color: red !important; }
+.skill-16 a { color: red !important; }
+.skill-17 a { color: red !important; }
+.skill-18 a { color: red !important; }
+.skill-19 a { color: red !important; }
+.skill-20 a { color: red !important; }
+.skill-21 a { color: red !important; }
+.skill-22 a { color: red !important; }
+.skill-23 a { color: red !important; }
+.skill-24 a { color: red !important; }
+.skill-25 a { color: red !important; }
+.skill-26 a { color: red !important; }
+.skill-27 a { color: red !important; }
+.skill-28 a { color: red !important; }
+.skill-29 a { color: red !important; }
+.skill-30 a { color: red !important; }
+.yes { display: block !important; }
+.yeshide { display: block !important; }
+.nohide { display: none !important; }
+.no.yes { display: inline-block !important; }
+.no.yeshide { display: none !important; }
+.no.nohide { display: none !important; }
+tr.yes { display: table-row !important; }
+tr.yeshide { display: table-row !important; }
+tr.no { display: none !important; border-collapse: collapse !important; }
+tr.nohide { display: none !important; border-collapse: collapse !important; }
+.armortypeno { display: none !important; }
+.armortypeno.yes { display: none !important; }
+.page-footer{ padding-left: 20px; padding-right: 20px; }
+.padding-left-right { padding-left: 20px; padding-right: 20px; }
+.right-nav { top: 150px; right: 0px; width: 120px; }

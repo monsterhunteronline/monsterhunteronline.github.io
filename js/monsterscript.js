@@ -1,6 +1,6 @@
 var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up", "grade",];
-
-$(function() {
+var page = "monsters";
+function monsterjs() {
 	var arr = materialArray;
 	var out = '';
 	var i;
@@ -48,4 +48,4 @@ $(function() {
 	'</tr>';
 	document.getElementById("monster2").innerHTML = out;
 	document.getElementById("monster3").innerHTML = arr[0].data[19];
-});
+};

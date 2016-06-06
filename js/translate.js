@@ -256,12 +256,12 @@ function translate(text) {
 	if (text == '左,右手（钳）') {out = 'Left and Right Hand (Pincers)';};
 //Places
 	if (text == '大型怪物狩猎') {out = 'Large Monster Hunting';};
-	if (text == '大型怪物狩猎挑战难度、王立委托、王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, Wang Li Commissioned, Wang Li Elite Commissioned';};
-	if (text == '王立委托、王立精英、极限') {out = 'Wang Li Commissioned, Wang Li Elite, Limit Mode';};
-	if (text == '王立委托、王立精英委托') {out = 'Wang Li Commissioned, Wang Li Elite Commissioned';};
+	if (text == '大型怪物狩猎挑战难度、王立委托、王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting';};
+	if (text == '王立委托、王立精英、极限') {out = 'HR Hunting, HR Elite, Limit Mode';};
+	if (text == '王立委托、王立精英委托') {out = 'HR Hunting, HR Elite Hunting';};
 	if (text == '活动') {out = 'Raid';};
-	if (text == '王立精英委托') {out = 'Wang Li Elite Commissioned';};
-	if (text == '王立委托') {out = 'Wang Li Commissioned';};
+	if (text == '王立精英委托') {out = 'HR Elite Hunting';};
+	if (text == '王立委托') {out = 'HR Hunting';};
 	if (text == '大湖围猎祭') {out = 'Great Lakes Hunting Festival';};
 //Armor Skills
 	if (text == '回复速度+1、观察眼、大胃王') {out = 'Rec Speed +1、Capture Guru、Gourmand';};
