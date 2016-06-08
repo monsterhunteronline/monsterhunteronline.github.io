@@ -72,7 +72,7 @@ hr { color: #241C17; background-color: #241C17; text-align: center; margin: 0 au
 .list { list-style: none; padding: 0; margin: 0; }
 .item { height: 40px; text-align: center; float: left; }
 .item:hover + .info { display: block; }
-.info { position: absolute; top: 0px; left: 30px; width: 200px; display: none; z-index: 5; text-align: left; }
+.info { position: fixed; top: 0px; left: 0px; width: 200px; display: none; z-index: 5; text-align: left; }
 .rightweapon .info { right: 50px !important; background-color: blue; }
 .info td { padding-left: 5px !important; padding-right: 5px !important; }
 .item:hover + .info, .info:hover {   display: block; }
