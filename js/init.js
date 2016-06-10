@@ -19,6 +19,9 @@ var page;
     if (page == "materials") {
         materialsjs();
     }
+    if (page == "talismans") {
+        talismansjs();
+    }
     if (page == "skills") {
         skillsjs();
     }

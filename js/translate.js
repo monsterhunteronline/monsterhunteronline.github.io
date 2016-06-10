@@ -117,6 +117,19 @@ function translate(text) {
 	if (text == '鸟龙猎人') {out = 'Bird Dragons Hunter';};
 	if (text == '飞龙猎人') {out = 'Dragons Hunter';};
 
+	if (text == '眠弹增加') {out = 'Sleep Bomb Up';};
+	if (text == '耐力消耗下降') {out = 'Endurance Consumption Down';};
+	if (text == '猎人生活') {out = 'Hunter Life';};
+	if (text == '水耐性') {out = 'Water Res';};
+	if (text == '龙耐性') {out = 'Dragon Res';};
+	if (text == '恢复量') {out = 'Recovery Amount';};
+	if (text == '速射') {out = 'Rapid Fire';};
+	if (text == '笛') {out = 'Flute';};
+	if (text == '炮术') {out = 'Artillery';};
+	if (text == '古龙猎人') {out = 'Cologne Hunter';};
+	if (text == '鱼龙猎人') {out = 'Ichthyosaur Hunter';};
+	if (text == '牙兽猎人') {out = 'Tooth Beast Hunter';};
+
 
 	if (text == '真晓风') {out = 'True Dawnwind';};
 
@@ -405,16 +418,17 @@ function translate(text) {
 //	if (text == '破损的喙') {out = '';};
 //	if (text == '怪鸟的翼') {out = '';};
 //	if (text == '怪鸟的耳') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
-//	if (text == '') {out = '';};
+//	if (text == '粗糙的翼膜') {out = '';};
+//	if (text == '怪鸟的翼爪') {out = '';};
+//	if (text == '怪鸟的尾巴') {out = '';};
+//	if (text == '赤红的小鳞') {out = '';};
+//	if (text == '怪鸟的尖爪') {out = '';};
+//	if (text == '怪鸟的优质鳞') {out = '';};
+//	if (text == '怪鸟的刚翼') {out = '';};
+//	if (text == '怪鸟的坚背甲') {out = '';};
+//	if (text == '漂亮的喙') {out = '';};
+//	if (text == '怪鸟的地狱耳') {out = '';};
+//
 //	if (text == '') {out = '';};
 //	if (text == '') {out = '';};
 //	if (text == '') {out = '';};
