@@ -13634,7 +13634,7 @@ $('#button').on('click', function() {
   console.log(search);
 	for(i = 0; i < arr.length; i ++) {
 		var hide = "no";
-		matString = arr[i].data[6]+' '+translate(arr[i].data[6])+' '+arr[i].data[1]+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
+		matString = arr[i].data[6]+' '+translate(arr[i].data[6])+' '+arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
 		if (matString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
 			hide = "yes"
 		};
@@ -13643,7 +13643,7 @@ $('#button').on('click', function() {
 		'<td>'+
 			'<img src="../images/item/'+arr[i].data[4]+'.png">'+
 		'</td>'+
-		'<td><a href="/materials/?search='+arr[i].data[1]+'">'+arr[i].data[1]+'</a></td>'+
+		'<td><a href="/materials/?search='+translate(arr[i].data[1])+'">'+translate(arr[i].data[1])+'</a><br><a href="/materials/?search='+arr[i].data[1]+'">'+arr[i].data[1]+'</a></td>'+
 		'<td>'+
 		'<div class="no'+arr[i].data[6]+'">Source: '+translate(arr[i].data[6])+'('+translate(arr[i].data[7])+')</div>'+
 		'<div class="no yes'+arr[i].data[6]+'">'+translate(arr[i].data[2])+'</div>'+
