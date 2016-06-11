@@ -147,6 +147,7 @@ function translate(text) {
 	if (text == '沙龙王') {out = '<a href="/monsters/cephadrome/" target="_blank">Cephadrome</a>';};
 	if (text == '沙雷鸟') {out = '<a href="/monsters/chramine/" target="_blank">Chramine</a>';};
 	if (text == '烈焰女王') {out = '<a href="/monsters/conflagration-rathian/" target="_blank">Conflagration Rathian</a>';};
+	if (text == '烈焰雌火龙') {out = '<a href="/monsters/conflagration-rathian/" target="_blank">Conflagration Rathian</a>';};
 	if (text == '桃毛兽王') {out = '<a href="/monsters/congalala/" target="_blank">Congalala</a>';};
 	if (text == '晶岩龙') {out = '<a href="/monsters/crystal-basarios/" target="_blank">Crystal Basarios</a>';};
 	if (text == '大名盾蟹') {out = '<a href="/monsters/daimyo-hermitaur/" target="_blank">Daimyo Hermitaur</a>';};
@@ -167,9 +168,12 @@ function translate(text) {
 	if (text == '电龙') {out = '<a href="/monsters/khezu/" target="_blank">Khezu</a>';};
 	if (text == '钢龙') {out = '<a href="/monsters/kushala-daora/" target="_blank">Kushala Daora</a>';};
 	if (text == '电甲虫') {out = '<a href="/monsters/lightenna/" target="_blank">Lightenna</a>';};
+	if (text == 'NBY') {out = '<a href="/monsters/lightenna/" target="_blank">Lightenna</a>';};
 	if (text == '荒厄龙') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
+	if (text == 'NB5') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
 	if (text == '一角龙') {out = '<a href="/monsters/monoblos/" target="_blank">Monoblos</a>';};
 	if (text == '独耳黑狼鸟') {out = '<a href="/monsters/one-eared-yian-garuga/" target="_blank">One-Eared Yian Garuga</a>';};
+	if (text == '片耳黑狼鸟') {out = '<a href="/monsters/one-eared-yian-garuga/" target="_blank">One-Eared Yian Garuga</a>';};
 	if (text == '樱火龙') {out = '<a href="/monsters/pink-rathian/" target="_blank">Pink Rathian</a>';};
 	if (text == '水龙') {out = '<a href="/monsters/plesioth/" target="_blank">Plesioth</a>';};
 	if (text == '紫毒鸟') {out = '<a href="/monsters/purple-gypceros/" target="_blank">Purple Gypceros</a>';};
@@ -178,12 +182,16 @@ function translate(text) {
 	if (text == '红电龙') {out = '<a href="/monsters/red-khezu/" target="_blank">Red Khezu</a>';};
 	if (text == '砂岩龙') {out = '<a href="/monsters/sandstone-basarios/" target="_blank">Sandstone Basarios</a>';};
 	if (text == '断刃一角龙') {out = '<a href="/monsters/shattered-monoblos/" target="_blank">Shattered Monoblos</a>';};
+	if (text == '断角一角龙') {out = '<a href="/monsters/shattered-monoblos/" target="_blank">Shattered Monoblos</a>';};
 	if (text == '砦蟹') {out = '<a href="/monsters/shen-gaoren/" target="_blank">Shen Gaoren</a>';};
+	if (text == '老山蟹') {out = '<a href="/monsters/shen-gaoren/" target="_blank">Shen Gaoren</a>';};
 	if (text == '将军镰蟹') {out = '<a href="/monsters/shogun-ceanataur/" target="_blank">Shogun Ceanataur</a>';};
 	if (text == '银眠鸟') {out = '<a href="/monsters/silver-hypnocatrice/" target="_blank">Silver Hypnocatrice</a>';};
 	if (text == '剑极狼') {out = '<a href="/monsters/slicemargl/" target="_blank">Slicemargl</a>';};
+	if (text == 'NBX') {out = '<a href="/monsters/slicemargl/" target="_blank">Slicemargl</a>';};
 	if (text == '剑豪镰蟹') {out = '<a href="/monsters/swordmaster-shogun-ceanataur/" target="_blank">Swordmaster Shogun Ceanataur</a>';};
 	if (text == '吞渊龙') {out = '<a href="/monsters/tartaronis/" target="_blank">Tartaronis</a>';};
+	if (text == '初阶吞渊龙') {out = '<a href="/monsters/tartaronis/" target="_blank">Tartaronis</a>';};
 	if (text == '铠岩砦蟹') {out = '<a href="/monsters/tepekki-shen-gaoren/" target="_blank">Tepekki Shen Gaoren</a>';};
 	if (text == '轰龙') {out = '<a href="/monsters/tigrex/" target="_blank">Tigrex</a>';};
 	if (text == '蓝速龙王') {out = '<a href="/monsters/velocidrome/" target="_blank">Velocidrome</a>';};
@@ -194,6 +202,21 @@ function translate(text) {
 	if (text == '镰蟹') {out = '<a href="/monsters/shogun-ceanataur/" target="_blank">Ceanataur</a>';};
 	if (text == '盾蟹') {out = '<a href="/monsters/daimyo-hermitaur/" target="_blank">Hermitaur</a>';};
 	if (text == '雄火龙，苍火龙') {out = '<a href="/monsters/rathalos/" target="_blank">Rathalos</a>, <a href="/monsters/azure-rathalos/" target="_blank">Azure Rathalos</a>';};
+
+	if (text == '特殊铳枪') {out = 'Yian Kut-Ku + Bulldrome';};
+	if (text == '新手') {out = 'Velociprey';};
+	if (text == '骨') {out = 'Bones';};
+	if (text == '铁') {out = 'Rocks';};
+	if (text == '特殊枪') {out = 'Gendrome + Bulldrome';};
+	if (text == 'sunaku') {out = 'Congalala + Velocidrome';};
+	if (text == '鄂') {out = 'Congalala + Gendrome';};
+	if (text == 'kurimu') {out = 'Gendrome';};
+	if (text == 'subaku') {out = 'Bulldrome + Congalala';};
+	if (text == 'hali') {out = 'Congalala';};
+	if (text == '特殊笛') {out = 'Baelidae + Yian Kut-Ku';};
+	if (text == '野性') {out = 'Congalala';};
+	if (text == '爬虫') {out = 'Bones';};
+	if (text == '十字枪') {out = 'Rocks';};
 
 	//Monster Names No Links
 	if (text == 'nl灰晶蝎') {out = 'Akura Jebia';};

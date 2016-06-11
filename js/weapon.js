@@ -41,7 +41,7 @@ function weaponjs() {
 	//can forge icon
 	'<span class="forgeicon no'+arr[i].data[94]+'"></span><img src="../../images/item/'+arr[i].data[4]+'.png"></li><li class="info"><table class="weaponinfo weapon'+arr[i].data[2]+'">'+
 		//title
-	'<tr><td class="piecename" colspan="4">'+arr[i].data[1]+'<hr /></td></tr>'+
+	'<tr><td class="piecename" colspan="4">'+arr[i].data[1]+'<br>'+translate(arr[i].data[136])+'<hr /></td></tr>'+
 		//char level
 	'<tr><td colspan="4">Character Level: <span class="white-text">'+arr[i].data[7]+'</span><hr /></td></tr>'+
 		//attributes
