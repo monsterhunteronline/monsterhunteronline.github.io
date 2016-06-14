@@ -10,7 +10,7 @@ function monsterjs() {
 		'<td>'+
 			'<img src="../../images/item/'+arr[i].data[6]+'.png">'+
 		'</td>'+
-		'<td><a href="/materials/?search='+arr[i].data[1]+'" target="_blank">'+arr[i].data[1]+'</a></td>'+
+		'<td><a href="/materials/?search='+translate(arr[i].data[1])+'" target="_blank">'+translate(arr[i].data[1])+'</a><br><a href="/materials/?search='+arr[i].data[1]+'" target="_blank">'+arr[i].data[1]+'</a></td>'+
 		'<td>Source: '+translate(arr[i].data[2])+'('+translate(arr[i].data[3])+')</td>'+
 		'<td>'+translate(arr[i].data[4])+'</td>'+
 	'</tr>';
