@@ -1,0 +1,7 @@
+var weaknessArray = [
+      
+];
+
+var materialArray = [
+      
+];

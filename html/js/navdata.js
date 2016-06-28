@@ -440,6 +440,70 @@ var highrankArray = [
 					"荒厄龙",
 				]
 			},
+			{
+				"data": [
+					"Flame Blangonga",
+					"flame-blangonga",
+					"blangonga2.png",
+					"炎狮子",
+				]
+			},
+			{
+				"data": [
+					"White Monoblos",
+					"white-monoblos",
+					"monoblos2.png",
+					"白一角龙",
+				]
+			},
+			{
+				"data": [
+					"Lavasioth",
+					"lavasioth",
+					"lavasioth.png",
+					"熔岩龙",
+				]
+			},
+			{
+				"data": [
+					"Chameleos",
+					"chameleos",
+					"chameleos.png",
+					"霞龙",
+				]
+			},
+//			{
+//				"data": [
+//					"Rajang",
+//					"rajang",
+//					"rajang.png",
+//					"",
+//				]
+//			},
+//			{
+//				"data": [
+//					"Gravios",
+//					"gravios",
+//					"gravios.png",
+//					"",
+//				]
+//			},
+//			{
+//				"data": [
+//					"Purple Slicemargl",
+//					"purple-slicemargl",
+//					"slicemargl2.png",
+//					"",
+//				]
+//			},
+//			{
+//				"data": [
+//					"Merphistophelin",
+//					"-merphistophelin",
+//					"merphistophelin2.png",
+//					"",
+//				]
+//			},
 			];
 function navdata() {
 	var low = lowrankArray;
