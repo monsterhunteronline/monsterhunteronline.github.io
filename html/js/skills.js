@@ -20,71 +20,37 @@ $('#button').on('click', function() {
 	var arr = skillsArray;
 	var search = $('#inputText').val();
 	var out = '';
+	var arr2 = []
+
 	for(i = 0; i < arr.length; i ++) {
+
+		var name = arr[i].data[3]
+		if (isNaN(arr2[name])) {
+			arr2[name] = 0
+		}
+		arr2[name] += 1
+	}
+	console.log(arr2)
+	out = ''
+	for(i = 0; i < arr.length; i += arr2[name]) {
 		var hide = "nohide";
-		skillString = arr[i].data[0]+' '+arr[i].data[1]+' '+arr[i].data[2]+' '+arr[i].data[3]+' '+arr[i].data[4]+' '+arr[i].data[5]+' '+arr[i].data[6]+' '+arr[i].data[7]+' '+arr[i].data[8]+' '+arr[i].data[9]+' '+arr[i].data[10]+' '+arr[i].data[11]+' '+arr[i].data[12]+' '+arr[i].data[13]+' '+arr[i].data[14]+' '+arr[i].data[15]+' '+arr[i].data[16]+' '+arr[i].data[17]+' '+arr[i].data[18]+' '+arr[i].data[19];
+		skillString = arr[i].data[3]+' '+arr[i].data[5]+' '+arr[i].data[6]
 		if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
 			hide = "yeshide"
 		};
-		out += ''+
-		'<tr class="grey lighten-3 '+hide+'">'+
-			'<td><a href="/armor/?search='+arr[i].data[0]+'" target="_blank">'+arr[i].data[0]+'<br>'+arr[i].data[1]+'</a></td>'+
-			'<td colspan="3">'+arr[i].data[20]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[2]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>10</td>'+
-			'<td>'+arr[i].data[2]+'<br>'+arr[i].data[3]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[4]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>15</td>'+
-			'<td>'+arr[i].data[4]+'<br>'+arr[i].data[5]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[6]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>20</td>'+
-			'<td>'+arr[i].data[6]+'<br>'+arr[i].data[7]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[8]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>25</td>'+
-			'<td>'+arr[i].data[8]+'<br>'+arr[i].data[9]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[10]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>30</td>'+
-			'<td>'+arr[i].data[10]+'<br>'+arr[i].data[11]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[12]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>-10</td>'+
-			'<td>'+arr[i].data[12]+'<br>'+arr[i].data[13]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[14]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>-15</td>'+
-			'<td>'+arr[i].data[14]+'<br>'+arr[i].data[15]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[16]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>-20</td>'+
-			'<td>'+arr[i].data[16]+'<br>'+arr[i].data[17]+'</td>'+
-		'</tr>'+
-		'<tr class="no'+arr[i].data[18]+' '+hide+'">'+
-			'<td></td>'+
-			'<td></td>'+
-			'<td>-25</td>'+
-			'<td>'+arr[i].data[18]+'<br>'+arr[i].data[19]+'</td>'+
-		'</tr>';
+		var name = arr[i].data[3]
+		var count = arr2[name]+i
+		out += '<tr class=""><td rowspan="'+arr2[name]+'"><a href="/armor/?search='+arr[i].data[3]+'" target="_blank">'+translate(arr[i].data[3])+'<br>'+arr[i].data[3]+'</a></td><td>'+translate(arr[i].data[5])+'<br>'+arr[i].data[5]+'</td><td>'+translate(arr[i].data[6])+'</td><td>'+arr[i].data[7]+'</td></tr>';
+		if (arr2[name] > 1) {
+			for(x = i+1; x < count; x++) {
+				var hide = "nohide";
+				skillString = arr[x].data[3]+' '+arr[x].data[5]+' '+arr[x].data[6]
+				if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+					hide = "yeshide"
+				};
+				out += '<tr class=""><td>'+translate(arr[x].data[5])+'<br>'+arr[x].data[5]+'</td><td>'+translate(arr[x].data[6])+'</td><td>'+arr[x].data[7]+'</td></tr>';
+			}
+		}
 	}
 	document.getElementById("skillsList").innerHTML = out;
 });
