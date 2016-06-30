@@ -22,7 +22,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <title>MHOnline - Talismans</title>
+  <title>MHOnline - Mosaics</title>
 <!--CSS-->
   <link href="/css/icon.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -118,27 +118,37 @@
   </nav>
 <!--Page container-->
   <div class="section no-pad-bot" id="index-banner">
-      <!--Content-->
     <div class="container">
-      <table class="white bordered z-depth-1">
+      <br><br>
+      <!--Content-->
+      <div class="row">
+        <div class="col s12">
+          <label>Search Jewelry</label>
+          <input placeholder="Item Name, Item Type, or Description" type="text" id="inputText"></input>
+          <input type="button" id="button" value="Search"></input>
+          <input type="button" id="clear" value="Clear"></input>
+        </div>
+      </div>
+      <table class="white striped z-depth-1">
         <thead>
-          <th>Skill</th>
-          <th class="center-align deep-purple lighten-5">Soldier<br>(兵士护石)<br>Skills: 1</th>
-          <th class="center-align blue accent-2">Warrior<br>(斗士护石)<br>Skills: 1</th>
-          <th class="center-align light-green lighten-4">Knight<br>(骑士护石)<br>Skills: 1-2</th>
-          <th class="center-align light-green accent-3">Queen<br>(女王护石)<br>Skills: 1-2</th>
-          <th class="center-align red lighten-1">Dragon<br>(龙之护石)<br>Skills: 1-2</th>
-          <th class="center-align cyan lighten-2">Hero<br>(英雄护石)<br>Skills: 2</th>
-          <th class="center-align amber accent-2">Legend<br>(传说护石)<br>Skills: 3</th>
+          <tr>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>Slots</th>
+            <th>Skill 1</th>
+            <th>Skill 2</th>
+            <th>Materials</th>
+          </tr>
         </thead>
-        <tbody id="skillsList"></tbody>
+        <tbody id="mosaicTable">
+        </tbody>
       </table>
+      <br><br>
     </div>
   </div>
 <!--Spacer-->
   <div class="container">
     <div class="section">
-    <p>This guide was written by @Love2BeHated on Discord</p>
     </div>
     <br><br>
     <div class="section">
@@ -211,8 +221,10 @@ Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materi
   <!--Scripts-->
   <script src="/js/jquery-2.1.1.min.js"></script>
   <script src="/js/materialize.js"></script>
+  <script src="/js/mosaicdata.js"></script>
+  <script src="/js/mosaicpage.js"></script>
+  <script src="/js/url.js"></script>
   <script src="/js/translate.js"></script>
-  <script src="/js/talismannum.js"></script>
   <script src="/js/init.js"></script>
   </body>
 </html>

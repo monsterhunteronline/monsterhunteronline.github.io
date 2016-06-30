@@ -28,6 +28,9 @@ var page;
     if (page == "weapons") {
         weaponjs();
     }
+    if (page == "mosaic") {
+        mosaicjs();
+    }
 // materialize functions
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible({accordion : false});
