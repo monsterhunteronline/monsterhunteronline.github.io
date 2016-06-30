@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="keywords" content="Discord, Monster Hunter Online, MHOnline, Tencent, CAPCOM, QQ, Hobby">
+  <meta name="author" content="Monster Hunter Online Wiki">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>MHOnline - Hunter Set</title>
+
+<!--CSS-->
+  <link href="/css/icon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <div id="loadingMask" class="centered">
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+<!--Dropdowns-->
+  <ul id="dropdownitems" class="dropdown-content">
+    <li><a href="/armor/">Armor</a></li>
+    <li><a href="/hunter-set/">Hunter Set</a></li>
+    <li><a href="/weapons/">Weapons</a></li>
+    <li><a href="/jewelry/">Jewelry</a></li>
+    <li><a href="/mosaics/">Mosaics</a></li>
+    <li><a href="/talismans/">Talismans</a></li>
+    <li><a href="/crafting/">Crafting</a></li>
+    <li><a href="/materials/">Materials</a></li>
+    <li class="divider"></li>
+  </ul>
+  <ul id="dropdownhunting" class="dropdown-content">
+    <li><a href="/quests/">Quests</a></li>
+    <li><a href="/gathering/">Gathering</a></li>
+    <li><a href="/hunting-groups/">Hunting Groups</a></li>
+  </ul>
+  <ul id="dropdownnpc" class="dropdown-content">
+    <li><a href="/npcs/">Main NPCs</a></li>
+    <li><a href="/cats/">Cats</a></li>
+    <li><a href="/food/">Food</a></li>
+  </ul>
+<!--Navigation-->
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="/images/logo.png" alt="MHOnline"></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/monsters/">Monsters</a></li>
+        <li><a href="/skills/">Skills</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+<!--Mobile navigation-->
+      <ul id="nav-mobile" class="side-nav">
+        <li class="active"><a href="#" class="bold">Home</a></li>
+        <li><a href="/monsters/" class="bold">Monsters</a></li>
+        <li><a href="/skills/" class="bold">Skills</a></li>
+        <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+            <a class="collapsible-header bold" href="#">Items</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="/armor/">Armor</a></li>
+                <li><a href="/hunter-set/">Hunter Set</a></li>
+                <li><a href="/weapons/">Weapons</a></li>
+                <li><a href="/jewelry/">Jewelry</a></li>
+                <li><a href="/mosaics/">Mosaics</a></li>
+                <li><a href="/talismans/">Talismans</a></li>
+                <li><a href="/crafting/">Crafting</a></li>
+                <li><a href="/materials/">Materials</a></li><li class="divider"></li>
+              </ul>
+            </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">Hunting</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="/quests/">Quests</a></li>
+                  <li><a href="/gathering/">Gathering</a></li>
+                  <li><a href="/hunting-groups/">Hunting Groups</a></li>
+                </ul>
+              </div>
+            </li>
+        </li>
+            <li>
+              <a class="collapsible-header bold" href="#">NPCs</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="/npcs/">Main NPCs</a></li>
+                  <li><a href="/cats/">Cats</a></li>
+                  <li><a href="/food/">Food</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<!--Page container-->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+<!--Content-->
+          <div class="row z-depth-1 white">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s6"><a href="#blademasterTab">Blademaster</a></li>
+                <li class="tab col s6"><a href="#gunnerTab">Gunner</a></li>
+              </ul>
+            </div>
+            <div id="blademasterTab" class="col s12">
+              <div class="row">
+                <div class="col s12">
+                  <ul class="tabs">
+                    <li class="tab col s4"><a href="#bAttack">Attack</a></li>
+                    <li class="tab col s4"><a href="#bDefense">Defense</a></li>
+                    <li class="tab col s4"><a href="#bUtil">Utility</a></li>
+                  </ul>
+                </div>
+                <div id="bAttack" class="col s12">
+                  <table class="striped">
+                    <thead>
+                      <th colspan="6" class="center red lighten-4">Basic</th>
+                    </thead>
+                    <tr>
+                      <td>Attack Up (S)<br>攻击力提升（小）</td><td>20</td>
+                      <td>Attack Up (M)<br>攻击力提升（中）</td><td>40</td>
+                      <td>Attack Up (L)<br>攻击力提升（大）</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Attack Up (XL)<br>攻击力提升（超）</td><td>80</td>
+                      <td>Attack Up (XXL)<br>攻击力提升（极）</td><td>100</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center blue lighten-4">Strengthen</th>
+                    </thead>
+                    <tr>
+                      <td>Critical Eye +1<br>见切+1</td><td>20</td>
+                      <td>Critical Eye +2<br>见切+2</td><td>30</td>
+                      <td>Critical Eye +3<br>见切+3</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Critical Eye +4<br>见切+4</td><td>50</td>
+                      <td>Critical Eye +5<br>见切+5</td><td>60</td>
+                      <td>Concentrate<br>集中</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Partbreaker<br>破坏王</td><td>50</td>
+                      <td>Destruction God<br>破坏神</td><td>80</td>
+                      <td>Status Atk +1<br>状态异常攻击+1</td><td>50</td>
+                    </tr>
+                    <tr>
+                      <td>Violent Strike<br>暴击</td><td>30</td>
+                      <td>Assassin Tech +1<br>刺杀术+1</td><td>40</td>
+                      <td>Assassin Tech +2<br>刺杀术+2</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Sharp<br>业物</td><td>60</td>
+                      <td>Tripping Power<br>绊术</td><td>40</td>
+                      <td>Unscathed<br>无伤</td><td>70</td>
+                    </tr>
+                    <tr>
+                      <td>Stun Lock<br>锁气绝</td><td>50</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center green lighten-4">Elemental</th>
+                    </thead>
+                    <tr>
+                      <td>Water Atk +1<br>水属性攻击强化+1</td><td>20</td>
+                      <td>Water Atk +2<br>水属性攻击强化+2</td><td>40</td>
+                      <td>Water Atk +3<br>水属性攻击强化+3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Fire Atk +1<br>火属性攻击强化+1</td><td>20</td>
+                      <td>Fire Atk +2<br>火属性攻击强化+2</td><td>40</td>
+                      <td>Fire Atk +3<br>火属性攻击强化+3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Thunder Atk +1<br>雷属性攻击强化+1</td><td>20</td>
+                      <td>Thunder Atk +2<br>雷属性攻击强化+2</td><td>40</td>
+                      <td>Thunder Atk +3<br>雷属性攻击强化+3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Dragon Atk +1</td><td>20</td>
+                      <td>Dragon Atk +2</td><td>40</td>
+                      <td>Dragon Atk +3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Ice Atk +1</td><td>20</td>
+                      <td>Ice Atk +2</td><td>40</td>
+                      <td>Ice Atk +3</td><td>60</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center yellow lighten-4">Miscellaneous</th>
+                    </thead>
+                    <tr>
+                      <td>Mind's Eye</td><td>60</td>
+                      <td>Attract</td><td>40</td>
+                      <td>Challenger +1</td><td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Challenger +2</td><td>70</td>
+                      <td>Flying Wyvern Killer</td><td>40</td>
+                      <td>Bird Wyvern Killer</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Carapacean Killer</td><td>40</td>
+                      <td>Elder Dragon Killer</td><td>40</td>
+                      <td>Piscine Wyvern Killer</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Fanged Beast Killer</td><td>40</td>
+                      <td>Speed Sharp<br>业物ening</td><td>30</td>
+                      <td>High Speed Sharp<br>业物ening</td><td>70</td>
+                    </tr>
+                  </table>
+                </div>
+                <div id="bDefense" class="col s12">
+                  <table class="striped">
+                    <thead>
+                      <th colspan="6" class="center red lighten-4">Basic</th>
+                    </thead>
+                    <tr>
+                      <td>Defense Up (S)</td><td>10</td>
+                      <td>Defense Up (M)</td><td>20</td>
+                      <td>Defense Up (L)</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Defense Up (XL)</td><td>40</td>
+                      <td>Defense Up (XXL)</td><td>50</td>
+                      <td>Health +1</td><td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Health +2</td><td>30</td>
+                      <td>Health +3</td><td>45</td>
+                      <td>Health +4</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Health +5</td><td>75</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center blue lighten-4">Strengthen</th>
+                    </thead>
+                    <tr>
+                      <td>Rec Speed +1</td><td>10</td>
+                      <td>Rec Speed +2</td><td>20</td>
+                      <td>Rec Speed +3</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Holy Blessing</td><td>40</td>
+                      <td>Constitution +1</td><td>20</td>
+                      <td>Constitution +2</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Constitution +3</td><td>60</td>
+                      <td>Guard +1</td><td>40</td>
+                      <td>Guard Boost</td><td>50</td>
+                    </tr>
+                    <tr>
+                      <td>Evade Dist +1</td><td>60</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center green lighten-4">Elemental</th>
+                    </thead>
+                    <tr>
+                      <td>Water Res +1</td><td>20</td>
+                      <td>Water Res +2</td><td>40</td>
+                      <td>Fire Res +1</td><td>20</td>
+                    </tr>
+                    <tr>
+                      <td>Fire Res +2</td><td>40</td>
+                      <td>Thunder Res +1</td><td>20</td>
+                      <td>Thunder Res +2</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Dragon Res +1</td><td>20</td>
+                      <td>Dragon Res +2</td><td>40</td>
+                      <td>Ice Res +1</td><td>20</td>
+                    </tr>
+                    <tr>
+                      <td>Ice Res +2</td><td>40</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center yellow lighten-4">Miscellaneous</th>
+                    </thead>
+                    <tr>
+                      <td>Negate Paralysis</td><td>60</td>
+                      <td>Halve Stun</td><td>30</td>
+                      <td>Negate Stun</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Negate Sleep</td><td>50</td>
+                      <td>Halve Poison</td><td>20</td>
+                      <td>Negate Poison</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Tremor Res</td><td>50</td>
+                      <td>See Through +1</td><td>30</td>
+                      <td>See Through +2</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Guts</td><td>40</td>
+                      <td>Bacteria Cancel</td><td>30</td>
+                      <td>Negate Mud/Snow</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Windproof (Lo)</td><td>30</td>
+                      <td>Windproof (Hi)</td><td>50</td>
+                      <td>Recovery Up</td><td>20</td>
+                    </tr>
+                    <tr>
+                      <td>Recovery Up Large</td><td>30</td>
+                      <td>Negate Bleeding</td><td>50</td>
+                    </tr>
+                  </table>
+                </div>
+                <div id="bUtil" class="col s12">
+                  <table class="striped">
+                    <thead>
+                      <th colspan="6" class="center blue lighten-4">Strengthen</th>
+                    </thead>
+                    <tr>
+                      <td>Speed Eating</td><td>30</td>
+                      <td>Adrenaline +1</td><td>50</td>
+                      <td>Butterfly Form</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Stam Recov +1</td><td>40</td>
+                      <td>Marathon Runner +1</td><td>40</td>
+                      <td>Heat Cancel</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Cold Res</td><td>20</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center yellow lighten-4">Miscellaneous</th>
+                    </thead>
+                    <tr>
+                      <td>Detect</td><td>20</td>
+                      <td>Perception</td><td>60</td>
+                      <td>Halve Hunger</td><td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Negate Hunger</td><td>30</td>
+                      <td>Trap Master</td><td>30</td>
+                      <td>Sneak</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Fortify</td><td>60</td>
+                      <td>Wide-Range +1</td><td>20</td>
+                      <td>Wide-Range +2</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Wide-Range +3</td><td>40</td>
+                      <td>Wilderness Survival</td><td>10</td>
+                      <td>Gourmand</td><td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Herbal Daren</td><td>10</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="gunnerTab" class="col s12">
+              <div class="row">
+                <div class="col s12">
+                  <ul class="tabs">
+                    <li class="tab col s4"><a href="#gAttack">Attack</a></li>
+                    <li class="tab col s4"><a href="#gDefense">Defense</a></li>
+                    <li class="tab col s4"><a href="#gUtil">Utility</a></li>
+                  </ul>
+                </div>
+                <div id="gAttack" class="col s12">
+                  <table class="striped">
+                    <thead>
+                      <th colspan="6" class="center red lighten-4">Basic</th>
+                    </thead>
+                    <tr>
+                      <td>Attack Up (S)<br>攻击力提升（小）</td><td>20</td>
+                      <td>Attack Up (M)<br>攻击力提升（中）</td><td>40</td>
+                      <td>Attack Up (L)<br>攻击力提升（大）</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Attack Up (XL)<br>攻击力提升（超）</td><td>80</td>
+                      <td>Attack Up (XXL)<br>攻击力提升（极）</td><td>100</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center blue lighten-4">Strengthen</th>
+                    </thead>
+                    <tr>
+                      <td>Critical Eye +1<br>见切+1</td><td>20</td>
+                      <td>Critical Eye +2<br>见切+2</td><td>30</td>
+                      <td>Critical Eye +3<br>见切+3</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Critical Eye +4<br>见切+4</td><td>50</td>
+                      <td>Critical Eye +5<br>见切+5</td><td>60</td>
+                      <td>Concentrate<br>集中</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Partbreaker<br>破坏王</td><td>50</td>
+                      <td>Destruction God<br>破坏神</td><td>80</td>
+                      <td>Pierce S Lv1 +3</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Pierce S Lv1/2 +3</td><td>45</td>
+                      <td>Pierce S Lv1/2/3 +3</td><td>60</td>
+                      <td>Pellet S Lv1 +2</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Pellet S Lv1/2 +2</td><td>45</td>
+                      <td>Pellet S Lv1/2/3 +2</td><td>60</td>
+                      <td>Reload Spd +1</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Status Atk +1<br>状态异常攻击+1</td><td>50</td>
+                      <td>Crag S Lv1 +2</td><td>30</td>
+                      <td>Crag S Lv1/2 +2</td><td>45</td>
+                    </tr>
+                    <tr>
+                      <td>Crag S Lv1/2/3 +2</td><td>60</td>
+                      <td>Normal/Rapid Up</td><td>80</td>
+                      <td>Pierce/Pierce Up</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Pellet/Spread Up</td><td>60</td>
+                      <td>Use Sleep Coat</td><td>60</td>
+                      <td>Use Para Coat</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Use Poison Coat</td><td>60</td>
+                      <td>Violent Strike<br>暴击</td><td>30</td>
+                      <td>Assassin Tech +1<br>刺杀术+1</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Assassin Tech +2<br>刺杀术+2</td><td>60</td>
+                      <td>KO</td><td>50</td>
+                      <td>Tripping Power<br>绊术</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Normal S Lv1 +3</td><td>30</td>
+                      <td>Normal S Lv1/2 +3</td><td>45</td>
+                      <td>Normal S Lv1/2/3 +3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Unscathed<br>无伤</td><td>70</td>
+                      <td>Stun Lock<br>锁气绝</td><td>50</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center green lighten-4">Elemental</th>
+                    </thead>
+                    <tr>
+                      <td>Water Atk +1<br>水属性攻击强化+1</td><td>20</td>
+                      <td>Water Atk +2<br>水属性攻击强化+2</td><td>40</td>
+                      <td>Water Atk +3<br>水属性攻击强化+3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Fire Atk +1<br>火属性攻击强化+1</td><td>20</td>
+                      <td>Fire Atk +2<br>火属性攻击强化+2</td><td>40</td>
+                      <td>Fire Atk +3<br>火属性攻击强化+3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Thunder Atk +1<br>雷属性攻击强化+1</td><td>20</td>
+                      <td>Thunder Atk +2<br>雷属性攻击强化+2</td><td>40</td>
+                      <td>Thunder Atk +3<br>雷属性攻击强化+3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Dragon Atk +1</td><td>20</td>
+                      <td>Dragon Atk +2</td><td>40</td>
+                      <td>Dragon Atk +3</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Ice Atk +1</td><td>20</td>
+                      <td>Ice Atk +2</td><td>40</td>
+                      <td>Ice Atk +3</td><td>60</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center yellow lighten-4">Miscellaneous</th>
+                    </thead>
+                    <tr>
+                      <td>Weakness Exploit</td><td>60</td>
+                      <td>Attract</td><td>40</td>
+                      <td>Challenger +1</td><td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Challenger +2</td><td>70</td>
+                      <td>Flying Wyvern Killer</td><td>40</td>
+                      <td>Bird Wyvern Killer</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Carapacean Killer</td><td>40</td>
+                      <td>Elder Dragon Killer</td><td>40</td>
+                      <td>Piscine Wyvern Killer</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Fanged Beast Killer</td><td>40</td>
+                      <td>Speed Sharp<br>业物ening</td><td>30</td>
+                      <td>High Speed Sharp<br>业物ening</td><td>70</td>
+                    </tr>
+                  </table>
+                </div>
+                <div id="gDefense" class="col s12">
+                  <table class="striped">
+                    <thead>
+                      <th colspan="6" class="center red lighten-4">Basic</th>
+                    </thead>
+                    <tr>
+                      <td>Defense Up (S)</td><td>10</td>
+                      <td>Defense Up (M)</td><td>20</td>
+                      <td>Defense Up (L)</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Defense Up (XL)</td><td>40</td>
+                      <td>Defense Up (XXL)</td><td>50</td>
+                      <td>Health +1</td><td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Health +2</td><td>30</td>
+                      <td>Health +3</td><td>45</td>
+                      <td>Health +4</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Health +5</td><td>75</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center blue lighten-4">Strengthen</th>
+                    </thead>
+                    <tr>
+                      <td>Rec Speed +1</td><td>10</td>
+                      <td>Rec Speed +2</td><td>20</td>
+                      <td>Rec Speed +3</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Holy Blessing</td><td>40</td>
+                      <td>Constitution +1</td><td>20</td>
+                      <td>Constitution +2</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Constitution +3</td><td>60</td>
+                      <td>Evade Dist +1</td><td>60</td>
+                      <td>Evasion +1</td><td>60</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center green lighten-4">Elemental</th>
+                    </thead>
+                    <tr>
+                      <td>Water Res +1</td><td>20</td>
+                      <td>Water Res +2</td><td>40</td>
+                      <td>Fire Res +1</td><td>20</td>
+                    </tr>
+                    <tr>
+                      <td>Fire Res +2</td><td>40</td>
+                      <td>Thunder Res +1</td><td>20</td>
+                      <td>Thunder Res +2</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Dragon Res +1</td><td>20</td>
+                      <td>Dragon Res +2</td><td>40</td>
+                      <td>Ice Res +1</td><td>20</td>
+                    </tr>
+                    <tr>
+                      <td>Ice Res +2</td><td>40</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center yellow lighten-4">Miscellaneous</th>
+                    </thead>
+                    <tr>
+                      <td>Negate Paralysis</td><td>60</td>
+                      <td>Halve Stun</td><td>30</td>
+                      <td>Negate Stun</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Negate Sleep</td><td>50</td>
+                      <td>Halve Poison</td><td>20</td>
+                      <td>Negate Poison</td><td>40</td>
+                    </tr>
+                    <tr>
+                      <td>Tremor Res</td><td>50</td>
+                      <td>See Through +1</td><td>30</td>
+                      <td>See Through +2</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Earplugs</td><td>60</td>
+                      <td>Guts</td><td>40</td>
+                      <td>Bacteria Cancel</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Negate Mud/Snow</td><td>40</td>
+                      <td>Windproof (Lo)</td><td>30</td>
+                      <td>Windproof (Hi)</td><td>50</td>
+                    </tr>
+                    <tr>
+                      <td>Recovery Up</td><td>20</td>
+                      <td>Recovery Up Large</td><td>30</td>
+                      <td>Negate Bleeding</td><td>50</td>
+                    </tr>
+                  </table>
+                </div>
+                <div id="gUtil" class="col s12">
+                  <table class="striped">
+                    <thead>
+                      <th colspan="6" class="center blue lighten-4">Strengthen</th>
+                    </thead>
+                    <tr>
+                      <td>Speed Eating</td><td>30</td>
+                      <td>Adrenaline +1</td><td>50</td>
+                      <td>Butterfly Form</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Stam Recov +1</td><td>40</td>
+                      <td>Marathon Runner +1</td><td>40</td>
+                      <td>Heat Cancel</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Cold Res</td><td>20</td>
+                    </tr>
+                    <thead>
+                      <th colspan="6" class="center yellow lighten-4">Miscellaneous</th>
+                    </thead>
+                    <tr>
+                      <td>Detect</td><td>20</td>
+                      <td>Perception</td><td>60</td>
+                      <td>Halve Hunger</td><td>15</td>
+                    </tr>
+                    <tr>
+                      <td>Negate Hunger</td><td>30</td>
+                      <td>Trap Master</td><td>30</td>
+                      <td>Sneak</td><td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Fortify</td><td>60</td>
+                      <td>Wide-Range +1</td><td>20</td>
+                      <td>Wide-Range +2</td><td>30</td>
+                    </tr>
+                    <tr>
+                      <td>Wide-Range +3</td><td>40</td>
+                      <td>Wilderness Survival</td><td>10</td>
+                      <td>Gourmand</td><td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Herbal Daren</td><td>10</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+      <br><br>
+    </div>
+  </div>
+<!--Spacer-->
+  <div class="container">
+    <div class="section">
+    <p><a href="http://gamer.qq.com/p/resource/weapon/iProductID/39" target="_blank">Info gathered from here</a></p>
+    </div>
+    <br><br>
+    <div class="section">
+    </div>
+  </div>
+<!--Footer-->
+  <footer class="page-footer light-blue lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Site Info</h5>
+          <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          <script language="javascript"> 
+            months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+            var d=new Date();
+            var weekday=new Array(7);
+            weekday[0]="Sunday";
+            weekday[1]="Monday";
+            weekday[2]="Tuesday";
+            weekday[3]="Wednesday";
+            weekday[4]="Thursday";
+            weekday[5]="Friday";
+            weekday[6]="Saturday";
+
+            var d = new Date();
+            (d.getFullYear());
+
+            var theDate = new Date(document.lastModified); 
+            theDate.setTime((theDate.getTime()+(60*60)) ) 
+            with (theDate) { 
+            document.write("<i class='white-text'>Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+" GMT</i>") 
+            } 
+            </script>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Other Guides</h5>
+          <ul>
+            <li><a class="white-text" href="/install/">Install Guide</a></li>
+            <li><a class="white-text" href="/translation/">Translation Guide</a></li>
+            <li><a class="white-text" href="/vip/">VIP Guide</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Discord</h5>
+          <ul>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="/js/jquery-2.1.1.min.js"></script>
+  <script src="/js/materialize.js"></script>
+  <script src="/js/skillbookdata.js"></script>
+  <script src="/js/skillbook.js"></script>
+  <script src="/js/translate.js"></script>
+  <script src="/js/url.js"></script>
+  <script src="/js/init.js"></script>
+  </body>
+</html>
