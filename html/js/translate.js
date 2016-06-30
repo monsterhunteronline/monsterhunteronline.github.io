@@ -113,9 +113,9 @@ function translate(text) {
 	if (text == '水属性攻击') {out = 'Water Atk';};
 	if (text == '广域化') {out = 'Wide-Range';};
 	if (text == '风压抵抗') {out = 'Wind Res';};
-	if (text == '甲壳猎人') {out = 'Crustaceans Hunter';};
-	if (text == '鸟龙猎人') {out = 'Bird Dragons Hunter';};
-	if (text == '飞龙猎人') {out = 'Dragons Hunter';};
+	if (text == '甲壳猎人') {out = 'Carapacean Hunter';};
+	if (text == '鸟龙猎人') {out = 'Bird Wyvern Hunter';};
+	if (text == '飞龙猎人') {out = 'Flying Wyvern Hunter';};
 	if (text == '眠弹增加') {out = 'Sleep C+';};
 	if (text == '耐力消耗下降') {out = 'Endurance Consumption Down';};
 	if (text == '猎人生活') {out = 'Hunter Life';};
@@ -125,9 +125,9 @@ function translate(text) {
 	if (text == '速射') {out = 'Rapid Fire';};
 	if (text == '笛') {out = 'Flute';};
 	if (text == '炮术') {out = 'Artillery';};
-	if (text == '古龙猎人') {out = 'Cologne Hunter';};
-	if (text == '鱼龙猎人') {out = 'Ichthyosaur Hunter';};
-	if (text == '牙兽猎人') {out = 'Tooth Beast Hunter';};
+	if (text == '古龙猎人') {out = 'Elder Dragon Hunter';};
+	if (text == '鱼龙猎人') {out = 'Piscine Wyvern Hunter';};
+	if (text == '牙兽猎人') {out = 'Fanged Beast Hunter';};
 	if (text == '贯通弹增加') {out = 'Pierce S Carry';};
 	if (text == '散弹增加') {out = 'Pellet S Carry';};
 	if (text == '榴弹增加') {out = 'Crag S Carry';};
@@ -339,9 +339,9 @@ function translate(text) {
 	if (text == '吹笛名人') {out = 'Horn Maestro';};
 	if (text == '炮术师') {out = 'Artillery Exptert';};
 	if (text == '炮术王') {out = 'Artillery God';};
-	if (text == '甲壳杀手') {out = 'Crustacians Killer';};
-	if (text == '鸟龙杀手') {out = 'Bird Dragons Killer';};
-	if (text == '飞龙杀手') {out = 'Dragons Killer';};
+	if (text == '甲壳杀手') {out = 'Carapacean Killer';};
+	if (text == '鸟龙杀手') {out = 'Bird Wyvern Killer';};
+	if (text == '飞龙杀手') {out = 'Flying Wyvern Killer';};
 	if (text == '贯通弹LV1/2/3装填数+3') {out = 'Pierce S Lv1/2/3 +3';};
 	if (text == '贯通弹LV1/2装填数+3') {out = 'Pierce S Lv1/2 +3';};
 	if (text == '贯通弹LV1装填数+3') {out = 'Pierce S Lv1 +3';};
@@ -357,22 +357,13 @@ function translate(text) {
 	if (text == '卸甲') {out = 'Unload Armor';};
 	if (text == '采取+2') {out = 'Take +2';};
 	if (text == '采取+1') {out = 'Take +1';};
-	if (text == '古龙杀手') {out = 'Cologne Killer';};
-	if (text == '鱼龙杀手') {out = 'Ichthyosaur Killer';};
-	if (text == '牙兽杀手') {out = 'Tooth Beast Killer';};
+	if (text == '古龙杀手') {out = 'Elder Dragon Killer';};
+	if (text == '鱼龙杀手') {out = 'Piscine Wyvern Killer';};
+	if (text == '牙兽杀手') {out = 'Fanged Beast Killer';};
 	if (text == '通常弹LV1/2/3装填数+3') {out = 'Normal S Lv1/2/3 +3';};
 	if (text == '通常弹LV1/2装填数+3') {out = 'Normal S Lv1/2 +3';};
 	if (text == '通常弹LV1装填数+3') {out = 'Normal S Lv1 +3';};
 //Skill descriptions
-//极大 Greatly increase 
-//大幅 Dramatically increase 
-//显著 Significantly increase 
-//中量 Increase 
-//略微 Slightly increase 
-//略微 Slightly reduce 
-//中量 Reduce 
-//显著 Significantly reduce 
-//大幅 Dramatically reduce 
 	if (text == '极大提升攻击力') {out = 'Greatly increase Attack';};
 	if (text == '大幅提升攻击力') {out = 'Dramatically increase Attack';};
 	if (text == '显著提升攻击力') {out = 'Significantly increase Attack';};
@@ -1262,6 +1253,147 @@ function translate(text) {
 	if (text == '樱火龙的延髓') {out = 'P.Rathian Marrow+';};
 	if (text == '灰晶蝎的靭尾') {out = 'A.Jebia Tough Tail+';};
 	if (text == '灰晶蝎的巨钳') {out = 'A.Jebia Clamp+';};
+//Jewels
+	if (text == '攻击珠【1】') {out = 'Attack Jewel 1'; }
+	if (text == '攻击珠【2】') {out = 'Attack Jewel 2'; }
+	if (text == '攻击珠【3】') {out = 'Attack Jewel 3'; }
+	if (text == '达人珠【1】') {out = 'Expert Jewel 1'; }
+	if (text == '达人珠【2】') {out = 'Expert Jewel 2'; }
+	if (text == '达人珠【3】') {out = 'Expert Jewel 3'; }
+	if (text == '特攻珠【1】') {out = 'Disabler Jewel 1'; }
+	if (text == '特攻珠【2】') {out = 'Disabler Jewel 2'; }
+	if (text == '火炎珠【1】') {out = 'Blaze Jewel 1'; }
+	if (text == '火炎珠【2】') {out = 'Blaze Jewel 2'; }
+	if (text == '流水珠【1】') {out = 'Stream Jewel 1'; }
+	if (text == '流水珠【2】') {out = 'Stream Jewel 2'; }
+	if (text == '雷光珠【1】') {out = 'Bolt Jewel 1'; }
+	if (text == '雷光珠【2】') {out = 'Bolt Jewel 2'; }
+	if (text == '冰结珠【1】') {out = 'Frost Jewel 1'; }
+	if (text == '冰结珠【2】') {out = 'Frost Jewel 2'; }
+	if (text == '破龙珠【1】') {out = 'Dragon Jewel 1'; }
+	if (text == '破龙珠【2】') {out = 'Dragon Jewel 2'; }
+	if (text == '痛击珠【1】') {out = 'Tenderizer Jewel 1'; }
+	if (text == '痛击珠【3】') {out = 'Tenderizer Jewel 3'; }
+	if (text == '重击珠【1】') {out = 'Destroyer Jewel 1'; }
+	if (text == '重击珠【3】') {out = 'Destroyer Jewel 3'; }
+	if (text == 'KO珠【1】') {out = 'KO Jewel 1'; }
+	if (text == 'KO珠【3】') {out = 'KO Jewel 3'; }
+	if (text == '底力珠【1】') {out = 'Potential Jewel 1'; }
+	if (text == '底力珠【2】') {out = 'Potential Jewel 2'; }
+	if (text == '逆境珠【1】') {out = 'Fortitude Jewel 1'; }
+	if (text == '逆境珠【2】') {out = 'Fortitude Jewel 2'; }
+	if (text == '斗魂珠【1】') {out = 'Spirit Jewel 1'; }
+	if (text == '斗魂珠【2】') {out = 'Spirit Jewel 2'; }
+	if (text == '看破珠【1】') {out = 'Hardy Jewel 1'; }
+	if (text == '看破珠【2】') {out = 'Hardy Jewel 2'; }
+	if (text == '无伤珠【1】') {out = 'Flawless Jewel 1'; }
+	if (text == '无伤珠【2】') {out = 'Flawless Jewel 2'; }
+	if (text == '吸引珠【1】') {out = 'Attraction Jewel 1'; }
+	if (text == '吸引珠【2】') {out = 'Attraction Jewel 2'; }
+	if (text == '背水珠【1】') {out = 'High Stakes Jewel 1'; }
+	if (text == '背水珠【2】') {out = 'High Stakes Jewel 2'; }
+	if (text == '倒地珠【1】') {out = 'Trip Jewel 1'; }
+	if (text == '刺杀珠【1】') {out = 'Ambush Jewel 1'; }
+	if (text == '刺杀珠【3】') {out = 'Ambush Jewel 3'; }
+	if (text == '鼓笛珠【1】') {out = 'Sonorous Jewel 1'; }
+	if (text == '炮术珠【1】') {out = 'Artillery Jewel 1'; }
+	if (text == '防御珠【1】') {out = 'Defense Jewel 1'; }
+	if (text == '防御珠【2】') {out = 'Defense Jewel 2'; }
+	if (text == '防御珠【3】') {out = 'Defense Jewel 3'; }
+	if (text == '耐火珠【1】') {out = 'Fire Res Jewel 1'; }
+	if (text == '制火珠【1】') {out = 'Nul-Fire Jewel 1'; }
+	if (text == '耐水珠【1】') {out = 'Water Res Jewel 1'; }
+	if (text == '制水珠【1】') {out = 'Nul-Water Jewel 1'; }
+	if (text == '耐雷珠【1】') {out = 'Thunder Res Jewel 1'; }
+	if (text == '制雷珠【1】') {out = 'Nul-Thunder Jewel 1'; }
+	if (text == '耐冰珠【1】') {out = 'Ice Res Jewel 1'; }
+	if (text == '制冰珠【1】') {out = 'Nul-Ice Jewel 1'; }
+	if (text == '耐龙珠【1】') {out = 'Dragon Res Jewel 1'; }
+	if (text == '加护珠【1】') {out = 'Nul-Dragon Jewel 1'; }
+	if (text == '体力珠【1】') {out = 'Vitality Jewel 1'; }
+	if (text == '早复珠【1】') {out = 'Recovery Jewel 1'; }
+	if (text == '早复珠【2】') {out = 'Recovery Jewel 2'; }
+	if (text == '体术珠【1】') {out = 'Physique Jewel 1'; }
+	if (text == '体术珠【2】') {out = 'Physique Jewel 2'; }
+	if (text == '早气珠【1】') {out = 'Refresh Jewel 1'; }
+	if (text == '早气珠【2】') {out = 'Refresh Jewel 2'; }
+	if (text == '无食珠【1】') {out = 'Hungerless Jewel 1'; }
+	if (text == '无食珠【2】') {out = 'Hungerless Jewel 2'; }
+	if (text == '食汉珠【1】') {out = 'Metabolism Jewel 1'; }
+	if (text == '根性珠【1】') {out = 'Guts Jewel 1'; }
+	if (text == '根性珠【2】') {out = 'Guts Jewel 2'; }
+	if (text == '治愈珠【1】') {out = 'Medicine Jewel 1'; }
+	if (text == '治愈珠【2】') {out = 'Medicine Jewel 2'; }
+	if (text == '短缩珠【1】') {out = 'Charger Jewel 1'; }
+	if (text == '短缩珠【3】') {out = 'Charger Jewel 3'; }
+	if (text == '匠珠【2】') {out = 'Handicraft Jewel 2'; }
+	if (text == '剑术珠【1】') {out = 'Fencer Jewel 1'; }
+	if (text == '剑术珠【3】') {out = 'Fencer Jewel 3'; }
+	if (text == '斩铁珠【1】') {out = 'Razor Jewel 1'; }
+	if (text == '斩铁珠【3】') {out = 'Razor Jewel 3'; }
+	if (text == '铁壁珠【1】') {out = 'Ironwall Jewel 1'; }
+	if (text == '铁壁珠【2】') {out = 'Ironwall Jewel 2'; }
+	if (text == '强壁珠【1】') {out = 'Shield Jewel 1'; }
+	if (text == '强壁珠【2】') {out = 'Shield Jewel 2'; }
+	if (text == '研磨珠【1】') {out = 'Grinder Jewel 1'; }
+	if (text == '锁气珠【1】') {out = 'Stun Lock Jewel 1'; }
+	if (text == '锁气珠【3】') {out = 'Stun Lock Jewel 3'; }
+	if (text == '拔刀珠【1】') {out = 'Draw Jewel 1'; }
+	if (text == '拔刀珠【2】') {out = 'Draw Jewel 2'; }
+	if (text == '装填珠【2】') {out = 'Capacity Jewel 2'; }
+	if (text == '强弹珠【1】') {out = 'Forceshot Jewel 1'; }
+	if (text == '贯通珠【1】') {out = 'Pierce Jewel 1'; }
+	if (text == '散弹珠【1】') {out = 'Pellet Jewel 1'; }
+	if (text == '加弹珠【1】') {out = 'ShotPlus Jewel 1'; }
+	if (text == '加贯珠【1】') {out = 'PiercePlus Jewel 1'; }
+	if (text == '加散珠【1】') {out = 'PelletPlus Jewel 1'; }
+	if (text == '早填珠【1】') {out = 'Quickload Jewel 1'; }
+	if (text == '毒瓶珠【1】') {out = 'PoisonPlus Jewel 1'; }
+	if (text == '眠瓶珠【1】') {out = 'SleepPlus Jewel 1'; }
+	if (text == '麻瓶珠【1】') {out = 'ParaPlus Jewel 1'; }
+	if (text == '加榴珠【1】') {out = 'ClustPlus Jewel 1'; }
+	if (text == '反动珠【1】') {out = 'Absorber Jewel 1'; }
+	if (text == '速射珠【1】') {out = 'Salvo Jewel 1'; }
+	if (text == '回避珠【1】') {out = 'Evasion Jewel 1'; }
+	if (text == '回避珠【2】') {out = 'Evasion Jewel 2'; }
+	if (text == '跳跃珠【1】') {out = 'Jumping Jewel 1'; }
+	if (text == '陷阱珠【1】') {out = 'Trapmaster Jewel 1'; }
+	if (text == '早食珠【1】') {out = 'Gobbler Jewel 1'; }
+	if (text == '耐绝珠【1】') {out = 'Steadfast Jewel 1'; }
+	if (text == '耐痹珠【1】') {out = 'Paralysis Jewel 1'; }
+	if (text == '耐眠珠【1】') {out = 'Pep Jewel 1'; }
+	if (text == '耐毒珠【1】') {out = 'Antidote Jewel 1'; }
+	if (text == '耐粘珠【1】') {out = 'Tracker Jewel 1'; }
+	if (text == '耐震珠【1】') {out = 'Tectonic Jewel 1'; }
+	if (text == '抗震珠【1】') {out = 'Quake Jewel 1'; }
+	if (text == '耐暑珠【1】') {out = 'Heat Res Jewel 1'; }
+	if (text == '耐暑珠【2】') {out = 'Heat Res Jewel 2'; }
+	if (text == '耐寒珠【1】') {out = 'Cold Res Jewel 1'; }
+	if (text == '耐寒珠【2】') {out = 'Cold Res Jewel 2'; }
+	if (text == '防音珠【1】') {out = 'Earplug Jewel 1'; }
+	if (text == '防音珠【3】') {out = 'Earplug Jewel 3'; }
+	if (text == '防风珠【1】') {out = 'Wind Res Jewel 1'; }
+	if (text == '防风珠【2】') {out = 'Wind Res Jewel 2'; }
+	if (text == '广域珠【1】') {out = 'Friendship Jewel 1'; }
+	if (text == '广域珠【2】') {out = 'Friendship Jewel 2'; }
+	if (text == '忍脚珠【1】') {out = 'Ninja Jewel 1'; }
+	if (text == '耐菌珠【1】') {out = 'Antibacterial Jewel 1'; }
+	if (text == '抗棘珠【1】') {out = 'Staunch Jewel 1'; }
+	if (text == '草药珠【1】') {out = 'Herb Jewel 1'; }
+	if (text == '名药珠【1】') {out = 'Herbalism Jewel 1'; }
+	if (text == '千里珠【1】') {out = 'Psychic Jewel 1'; }
+	if (text == '观察珠【1】') {out = 'Perception Jewel 1'; }
+	if (text == '生存珠【1】') {out = 'Ranger Jewel 1'; }
+	if (text == '飞龙珠【1】') {out = 'Flying Wyvern Jewel 1'; }
+	if (text == '鸟龙珠【1】') {out = 'Bird Wyvern Jewel 1'; }
+	if (text == '鸟龙珠【2】') {out = 'Bird Wyvern Jewel 2'; }
+	if (text == '牙兽珠【1】') {out = 'Fanged Beast Jewel 1'; }
+	if (text == '牙兽珠【2】') {out = 'Fanged Beast Jewel 2'; }
+	if (text == '甲壳珠【1】') {out = 'Carapacean Jewel 1'; }
+	if (text == '甲壳珠【2】') {out = 'Carapacean Jewel 2'; }
+	if (text == '古龙珠【1】') {out = 'Elder Dragon Jewel 1'; }
+	if (text == '鱼龙珠【1】') {out = 'Piscine Wyvern Jewel 1'; }
+	if (text == '鱼龙珠【2】') {out = 'Piscine Wyvern Jewel 2'; }
 	if (text == '') {out = '';};
 	if (text == '') {out = '';};
 	if (text == '') {out = '';};
