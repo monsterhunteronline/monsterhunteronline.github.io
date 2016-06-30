@@ -6,6 +6,14 @@ function skillsjs() {
 	}
 	$('#button').click();
 };
+function filter(aID) {
+// initialize array
+	var arr = skillsArray;
+// grep filter for ID
+	filterSkills = $.grep(arr, function(element, index) {return element.iID == aID;});
+// output new array
+	return filterSkills;
+};
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();
@@ -40,7 +48,7 @@ $('#button').on('click', function() {
 		};
 		var name = arr[i].data[3]
 		var count = arr2[name]+i
-		out += '<tr class=""><td rowspan="'+arr2[name]+'"><a href="/armor/?search='+arr[i].data[3]+'" target="_blank">'+translate(arr[i].data[3])+'<br>'+arr[i].data[3]+'</a></td><td>'+translate(arr[i].data[5])+'<br>'+arr[i].data[5]+'</td><td>'+translate(arr[i].data[6])+'</td><td>'+arr[i].data[7]+'</td></tr>';
+		out += '<tr><td rowspan="'+arr2[name]+'"><a href="/armor/?search='+arr[i].data[3]+'" target="_blank">'+translate(arr[i].data[3])+'<br>'+arr[i].data[3]+'</a></td><td>'+translate(arr[i].data[5])+'<br>'+arr[i].data[5]+'</td><td>'+translate(arr[i].data[6])+'</td><td>'+arr[i].data[7]+'</td></tr>';
 		if (arr2[name] > 1) {
 			for(x = i+1; x < count; x++) {
 				var hide = "nohide";
@@ -48,7 +56,7 @@ $('#button').on('click', function() {
 				if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
 					hide = "yeshide"
 				};
-				out += '<tr class=""><td>'+translate(arr[x].data[5])+'<br>'+arr[x].data[5]+'</td><td>'+translate(arr[x].data[6])+'</td><td>'+arr[x].data[7]+'</td></tr>';
+				out += '<tr><td>'+translate(arr[x].data[5])+'<br>'+arr[x].data[5]+'</td><td>'+translate(arr[x].data[6])+'</td><td>'+arr[x].data[7]+'</td></tr>';
 			}
 		}
 	}

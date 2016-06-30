@@ -1,5 +1,36 @@
 function translate(text) {
 	var out = text;
+//Weapon types
+	if (text == '大剑') {out = 'Greatsword';};
+	if (text == '片手剑') {out = 'Sword and Shield';};
+	if (text == '弩炮') {out = 'Bowgun';};
+	if (text == '太刀') {out = 'Longsword';};
+	if (text == '大锤') {out = 'Hammer';};
+	if (text == '弓') {out = 'Bow';};
+	if (text == '双刀') {out = 'Dual Blades';};
+	if (text == '狩猎笛') {out = 'Hunting Horn';};
+	if (text == '铳枪') {out = 'Gunlance';};
+	if (text == '长枪') {out = 'Lance';};
+//Move Keys
+	if (text == '按住<左键>后松开') {out = 'Press and hold LMB after release of LMB';};
+	if (text == '左键') {out = 'LMB';};
+	if (text == '右键') {out = 'RMB';};
+	if (text == '人物后方向所对应的方向键') {out = 'LMB while pressing the direction of your characters back';};
+	if (text == '人物左手方向所对应的方向键') {out = 'LMB while pressing the direction of your characters left';};
+	if (text == '空格键') {out = 'Space Bar';};
+	if (text == 'E键') {out = 'E';};
+	if (text == '人物前方向所对应的方向键') {out = 'LMB while pressing the direction of your characters front';};
+	if (text == '松开<右键>') {out = 'Release RMB';};
+	if (text == '方向键') {out = 'Release RMB while pressing a direction';};
+	if (text == '按住<右键>后松开') {out = 'Press and hold RMB after release';};
+	if (text == '左键+右键') {out = 'LMB + RMB';};
+	if (text == '') {out = '';};
+	if (text == '') {out = '';};
+	if (text == '') {out = '';};
+	if (text == '') {out = '';};
+	if (text == '') {out = '';};
+	if (text == '') {out = '';};
+	if (text == '') {out = '';};
 //Bow Coating
 	if (text == '强击瓶') {out = 'Power Coating';};
 	if (text == '毒瓶') {out = 'Poison Coating';};

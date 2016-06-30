@@ -123,7 +123,7 @@
     <div class="container">
       <br><br>
 <!--Content-->
-      <ul class="collapsible" data-collapsible="accordion">
+      <ul class="collapsible" data-collapsible="expandable">
         <li>
           <div class="collapsible-header active">Weapons</div>
           <div class="collapsible-body grey lighten-2"><br>
@@ -207,6 +207,28 @@
             </div>
           </div>
         </li>
+        <li>
+          <div class="collapsible-header">Skill Book Moves</div>
+          <div class="collapsible-body grey lighten-2"><br>
+            <div class="row">
+              <div class="col s12">
+                <label>Search Skill Book Moves</label>
+                <input placeholder="Weapon Name or Skill Name" type="text" id="inputText"></input>
+                <input type="button" id="button" value="Search"></input>
+                <input type="button" id="clear" value="Clear"></input>
+              </div>
+            </div>
+            <table class="white bordered">
+              <thead>
+                <th>Weapon</th>
+                <th>Skill Name</th>
+                <th>Description</th>
+                <th>Move keys</th>
+              </thead>
+              <tbody id="skillsList"></tbody>
+            </table>
+          </div>
+        </li>
       </ul>
       <br><br>
     </div>
@@ -287,6 +309,10 @@
   <!--Scripts-->
   <script src="/js/jquery-2.1.1.min.js"></script>
   <script src="/js/materialize.js"></script>
+  <script src="/js/skillbookdata.js"></script>
+  <script src="/js/skillbook.js"></script>
+  <script src="/js/translate.js"></script>
+  <script src="/js/url.js"></script>
   <script src="/js/init.js"></script>
   </body>
 </html>

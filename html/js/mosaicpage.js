@@ -35,8 +35,8 @@ $('#button').on('click', function() {
 		'</td>'+
 		'<td>'+translate(arr[i].data[2])+'<br>'+arr[i].data[2]+'</td>'+
 		'<td>'+arr[i].data[3]+'</td>'+
-		'<td>'+translate(arr[i].data[5])+' '+arr[i].data[6]+'</td>'+
-		'<td>'+translate(arr[i].data[8])+' '+arr[i].data[9]+'</td>'+
+		'<td class="mskill'+arr[i].data[6]+'">'+translate(arr[i].data[5])+'<span class="skill'+arr[i].data[6]+'">:</span> '+arr[i].data[6]+'</td>'+
+		'<td class="mskill'+arr[i].data[9]+'">'+translate(arr[i].data[8])+'<span class="skill'+arr[i].data[9]+'">:</span> '+arr[i].data[9]+'</td>'+
 		'<td><a href="/materials/?search='+translate(arr[i].data[13])+'" target="_blank">'+translate(arr[i].data[13])+' '+arr[i].data[14]+'</a><br><a href="/materials/?search='+translate(arr[i].data[15])+'" target="_blank">'+translate(arr[i].data[15])+' '+arr[i].data[16]+'</a><br><a href="/materials/?search='+translate(arr[i].data[17])+'" target="_blank">'+translate(arr[i].data[17])+' '+arr[i].data[18]+'</a></td>'+
 	'</tr>';
 	}

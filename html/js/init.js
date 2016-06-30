@@ -31,6 +31,9 @@ var page;
     if (page == "mosaic") {
         mosaicjs();
     }
+    if (page == "weapons2") {
+        skillbookjs();
+    }
 // materialize functions
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible({accordion : false});
