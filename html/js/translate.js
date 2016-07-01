@@ -24,13 +24,6 @@ function translate(text) {
 	if (text == '方向键') {out = 'Release RMB while pressing a direction';};
 	if (text == '按住<右键>后松开') {out = 'Press and hold RMB after release';};
 	if (text == '左键+右键') {out = 'LMB + RMB';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
 //Bow Coating
 	if (text == '强击瓶') {out = 'Power Coating';};
 	if (text == '毒瓶') {out = 'Poison Coating';};
@@ -259,7 +252,7 @@ function translate(text) {
 	if (text == '饥饿感减半') {out = 'Halve Hunger';};
 	if (text == '饱腹') {out = 'Negate Hunger';};
 	if (text == '饥饿感增加') {out = 'Raise Hunger';};
-	if (text == '冰属性攻击强化+1') {out = 'Ice Itk +1';};
+	if (text == '冰属性攻击强化+1') {out = 'Ice Atk +1';};
 	if (text == '冰属性攻击强化+2') {out = 'Ice Atk +2';};
 	if (text == '冰属性攻击强化+3') {out = 'Ice Atk +3';};
 	if (text == '冰属性攻击弱化') {out = 'Ice Atk Down';};
@@ -793,15 +786,32 @@ function translate(text) {
 	if (text == '左,右手（钳）') {out = 'Left and Right Hand (Pincers)';};
 	if (text == '左/右臂') {out = 'Arms';};
 	if (text == '左/右翼') {out = 'Wings';};
+	if (text == '躯干') {out = 'Torso';};
+	if (text == '尾巴') {out = 'Tail';};
+	if (text == '左脚') {out = 'Left Foot';};
+	if (text == '左手') {out = 'Left Hand';};
+	if (text == '右脚') {out = 'Right Foot';};
+	if (text == '右手') {out = 'Right Hand';};
+	if (text == '颈部') {out = 'Neck';};
+	if (text == '尾部') {out = 'Tail';};
+	if (text == '左翼') {out = 'Left Wing';};
+	if (text == '右翼') {out = 'Right Wing';};
+	if (text == '翼膜') {out = 'Wing Membrane';};
+	if (text == '左腿') {out = 'Left Leg';};
+	if (text == '右腿') {out = 'Right Leg';};
 //Places
 	if (text == '大型怪物狩猎') {out = 'Large Monster Hunting';};
 	if (text == '大型怪物狩猎挑战难度，王立委托，王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting';};
+	if (text == '大型怪物狩猎挑战难度、王立委托、王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting';};
 	if (text == '王立委托，王立精英，极限') {out = 'HR Hunting, HR Elite, Limit Mode';};
+	if (text == '王立委托、王立精英、极限') {out = 'HR Hunting, HR Elite, Limit Mode';};
 	if (text == '王立委托，王立精英委托') {out = 'HR Hunting, HR Elite Hunting';};
+	if (text == '王立委托、王立精英委托') {out = 'HR Hunting, HR Elite Hunting';};
 	if (text == '活动') {out = 'Raid';};
 	if (text == '王立精英委托') {out = 'HR Elite Hunting';};
 	if (text == '王立委托') {out = 'HR Hunting';};
 	if (text == '大湖围猎祭') {out = 'Great Lakes Hunting Festival';};
+	if (text == '50级以上古龙征伐') {out = 'Lvl 50 and above Elder Dragon Conquests';};
 //Armor Skills
 	if (text == '回复速度+1、观察眼、大胃王') {out = 'Rec Speed +1，Capture Guru，Gourmand';};
 	if (text == '探知、速食') {out = 'Detect，Speed Eating';};
@@ -1284,6 +1294,60 @@ function translate(text) {
 	if (text == '樱火龙的延髓') {out = 'P.Rathian Marrow+';};
 	if (text == '灰晶蝎的靭尾') {out = 'A.Jebia Tough Tail+';};
 	if (text == '灰晶蝎的巨钳') {out = 'A.Jebia Clamp+';};
+	if (text == '强韧的脚蹼') {out = 'Tough Webbed Feet';};
+	if (text == '潮湿的毛皮') {out = 'Wet Fur';};
+	if (text == '河狸兽的尾甲') {out = 'Caeserber Tail';};
+	if (text == '蓝速龙王的锐爪') {out = 'Velocidrome Sharp Claws';};
+	if (text == '短小的喙') {out = 'Short Beak';};
+	if (text == '蓝速龙王的尾巴') {out = 'Velocidrome Tail';};
+	if (text == '粗糙的毛皮') {out = 'Rough Fur';};
+	if (text == '肥美的猪肉') {out = 'Plump Pork';};
+	if (text == '大野猪王尖獠牙') {out = 'Bulldrome Pointed Fangs';};
+	if (text == '粗糙的翼膜') {out = 'Rough Patagium';};
+	if (text == '怪鸟的翼爪') {out = 'Yian Kut-Ku Wing Claw';};
+	if (text == '怪鸟的尾巴') {out = 'Yian Kut-Ku Tail';};
+	if (text == '赤红的小鳞') {out = 'Small Crimson Scale';};
+	if (text == '漆黑的趾甲') {out = 'Dark Nails';};
+	if (text == '黄色的唾液') {out = 'Yellow Saliva';};
+	if (text == '麻痹腺体') {out = 'Paralysis Glands';};
+	if (text == '破损的腺体') {out = 'Damaged Glands';};
+	if (text == '鬼狩蛛的鬼面壳') {out = 'Baelidae Face Shell';};
+	if (text == '不明的体液') {out = 'Unknown Body Fluids';};
+	if (text == '厚实的毒舌') {out = 'Thick Tongue';};
+	if (text == '粘稠的毒液') {out = 'Viscous Venom';};
+	if (text == '完整的大块胶皮') {out = 'Rubber Chunks';};
+	if (text == '丑陋的臼齿') {out = 'Ugly Molars';};
+	if (text == '硬化的脚蹼') {out = 'Hardened Flippers';};
+	if (text == '亮黄的毛') {out = 'Bright Yellow Hair';};
+	if (text == '肥沃的泥巴') {out = 'Fertile Mud';};
+	if (text == '不新鲜的蘑菇') {out = 'Old Mushrooms';};
+	if (text == '发黄的臭牙') {out = 'Smelly Yellow Teeth';};
+	if (text == '异味的腺体') {out = 'Odor Glands';};
+	if (text == '锋利的长趾甲') {out = 'Sharp Long Nails';};
+	if (text == '多彩色之毛') {out = 'Multi-colored Hair';};
+	if (text == '沙雷鸟的臼齿') {out = 'Chramine Molars';};
+	if (text == '猩红之眼') {out = 'Scarlet Eye';};
+	if (text == '粗糙的胶皮') {out = 'Rough Rubber';};
+	if (text == '黯淡的粘液') {out = 'Dark Mucus';};
+	if (text == '沙龙王的鱼尾') {out = 'Cephadrome Tail';};
+	if (text == '被消化的铁砂') {out = 'Digested Iron Ore';};
+	if (text == '坚硬的沙鳞') {out = 'Hard Sand Scales';};
+	if (text == '肥美的蟹黄') {out = 'Plump Crab';};
+	if (text == '盾蟹的鳃') {out = 'Hermitaur Gills';};
+	if (text == '长满霉斑的骨头') {out = 'Mildew Covered Bones';};
+	if (text == '盾蟹的储水袋') {out = 'Hermitaur Water Bag';};
+	if (text == '青色的翼膜') {out = 'Blue Patagium';};
+	if (text == '青怪鸟的翼爪') {out = 'Blue Kut-Ku Claw Wing';};
+	if (text == '青怪鸟的尾巴') {out = 'Blue Kut-Ku Tail';};
+	if (text == '眠鸟的翼羽') {out = 'Hypnocatrice Feathers';};
+	if (text == '橙色的绒毛') {out = 'Orange Hair';};
+	if (text == '眠鸟的尾巴') {out = 'Hypnocatrice Tail';};
+	if (text == '粗壮的鸟腿骨') {out = 'Stout Bird Leg';};
+	if (text == '珍珠色的翼膜') {out = 'Pearly Patagium';};
+	if (text == '破损的电气袋') {out = 'Damaged Electro Sac';};
+	if (text == '珍珠色的脚趾') {out = 'Pearl-colored Toes';};
+	if (text == '珍珠色的环状嘴') {out = 'Pearl Mouth';};
+	if (text == '高级珍珠色的翼膜') {out = 'Pearly Patagium+';};
 //Jewels
 	if (text == '攻击珠【1】') {out = 'Attack Jewel 1'; }
 	if (text == '攻击珠【2】') {out = 'Attack Jewel 2'; }
@@ -1425,18 +1489,7 @@ function translate(text) {
 	if (text == '古龙珠【1】') {out = 'Elder Dragon Jewel 1'; }
 	if (text == '鱼龙珠【1】') {out = 'Piscine Wyvern Jewel 1'; }
 	if (text == '鱼龙珠【2】') {out = 'Piscine Wyvern Jewel 2'; }
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
-	if (text == '') {out = '';};
+
 	if (text == '') {out = '';};
 
 	return out;

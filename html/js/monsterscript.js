@@ -23,7 +23,7 @@ function monsterjs() {
 	for(i = 0; i < arr.length; i ++) {
 		out += ''+
 	'<tr>'+
-		'<td>'+arr[i].data[2]+'</td>'+
+		'<td>'+translate(arr[i].data[2])+'</td>'+
 		'<td><i class="weak'+arr[i].data[3]+' material-icons flow-text">'+materialIcons[arr[i].data[3]]+'</i></td>'+
 		'<td><i class="weak'+arr[i].data[4]+' material-icons flow-text">'+materialIcons[arr[i].data[4]]+'</i></td>'+
 		'<td><i class="weak'+arr[i].data[5]+' material-icons flow-text">'+materialIcons[arr[i].data[5]]+'</i></td>'+
