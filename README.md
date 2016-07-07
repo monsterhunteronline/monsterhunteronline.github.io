@@ -9,6 +9,7 @@ MHO Site for Discord
 - [ ] Tutorial for Hunter Sets
 - [ ] Tutorial for Pirate quests
 - [ ] Make quest page better, and possibly split up into multiple pages
+- [ ] Add pictures of new quest boards
 - [ ] Weapon trees need new background lines
 - [ ] Make a sitemap page
 - [ ] Catagorize monsters into their types on the navigation
