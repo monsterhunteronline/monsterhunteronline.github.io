@@ -15,7 +15,7 @@ MHO Site for Discord
 - [ ] Make Jewelry page not suck as bad and add tutorials for necklace/rings
 - [ ] Fix Crafting page
 - [ ] Update Cats page to include new cat types and colors
-- [x] Put the Other guides in an easier to find location
+- [x] ~~Put the Other guides in an easier to find location~~
 
 If you notice inaccuracies with the wiki please open an issue.
 
