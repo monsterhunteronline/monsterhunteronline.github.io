@@ -367,6 +367,14 @@ flyingWyvernArray = [
 					"角龙",
 				]
 			},
+			{
+				"data": [
+					"Tigrex",
+					"tigrex",
+					"tigrex.png",
+					"轰龙",
+				]
+			},
 //			{
 //				"data": [
 //					"Gravios",
@@ -439,14 +447,6 @@ fangedBeastArray = [
 					"flame-blangonga",
 					"blangonga2.png",
 					"炎狮子",
-				]
-			},
-			{
-				"data": [
-					"Tigrex",
-					"tigrex",
-					"tigrex.png",
-					"轰龙",
 				]
 			},
 			{
