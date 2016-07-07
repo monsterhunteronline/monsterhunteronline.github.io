@@ -12,7 +12,7 @@ MHO Site for Discord
 - [ ] Add pictures of new quest boards
 - [ ] Weapon trees need new background lines
 - [ ] Make a sitemap page
-- [ ] Catagorize monsters into their types on the navigation
+- [x] ~~Catagorize monsters into their types on the navigation~~
 - [ ] Make Jewelry page not suck as bad and add tutorials for necklace/rings
 - [ ] Fix Crafting page
 - [ ] Update Cats page to include new cat types and colors
