@@ -2,6 +2,9 @@ var page;
 (function($){
   $(function(){
 // my functions
+    if (page == "home") {
+        sliderjs();
+    }
     if (page == "armor") {
         armorjs();
         displayData();
