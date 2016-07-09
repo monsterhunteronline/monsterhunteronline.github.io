@@ -7,7 +7,7 @@ MHO Site for Discord
 - [ ] Cat Food page out of date
 - [ ] Translate weapon skill books
 - [ ] Tutorial for Hunter Sets
-- [ ] Add Chinese for Hunter Sets
+- [x] ~~Add Chinese for Hunter Sets~~
 - [ ] Tutorial for Pirate quests
 - [x] ~~Make quest page better, and possibly split up into multiple pages~~
 - [x] ~~Add pictures of new quest boards~~
