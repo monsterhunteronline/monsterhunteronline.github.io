@@ -799,6 +799,7 @@ function translate(text) {
 	if (text == '翼膜') {out = 'Wing Membrane';};
 	if (text == '左腿') {out = 'Left Leg';};
 	if (text == '右腿') {out = 'Right Leg';};
+	if (text == '角') {out = 'Horn';};
 //Places
 	if (text == '大型怪物狩猎') {out = 'Large Monster Hunting';};
 	if (text == '大型怪物狩猎挑战难度，王立委托，王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting';};

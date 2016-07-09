@@ -3,9 +3,49 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"picture.png",
-		"Placeholder",
-		"No pictures to display"
+		"Screenshot0020_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"right",
+		"Screenshot0037_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"Screenshot0059_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"right",
+		"Screenshot0079_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"unknown.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"Screenshot0409_mh.jpg",
+		"",
+		""
 		]
 	},
 ];
