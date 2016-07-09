@@ -10,7 +10,7 @@ MHO Site for Discord
 - [ ] Tutorial for Pirate quests
 - [x] ~~Make quest page better, and possibly split up into multiple pages~~
 - [x] ~~Add pictures of new quest boards~~
-- [ ] Weapon trees need new background lines
+- [x] ~~Weapon trees need new background lines~~
 - [ ] Make a sitemap page
 - [x] ~~Catagorize monsters into their types on the navigation~~
 - [ ] Make Jewelry page not suck as bad and add tutorials for necklace/rings
