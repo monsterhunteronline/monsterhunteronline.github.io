@@ -1,14 +1,19 @@
 page = "weapons";
 $(document).on('change', 'input#extraSharp', function() {
+	arr = weaponArray
 	if($("#extraSharp").is(':checked')){
-    console.log('checked');  // checked
-	$('#weapons').find('span.leaveBar .oth-cut-set').width(1000/parseInt($('#weapons').find('span.leaveBar').attr('data-i'))+'%');
-	$('#weapons').find('span.leaveBar .oth-hav-set').width(99-1000/parseInt($('#weapons').find('span.leaveBar').attr('data-i'))+'%');
+	    console.log('checked');  // checked
+	    for(i = 0; i < arr.length; i ++) {
+			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-cut-set').width(1000 / parseInt($('#id57229').find('span.leaveBar').attr('data-i')) + '%');
+			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-hav-set').width(99-1000 / parseInt($('#id57229').find('span.leaveBar').attr('data-i')) + '%');
+		}
 	}
 	else {
-    console.log('unchecked');  // unchecked
-	$('#weapons').find('span.leaveBar .oth-cut-set').width('0%');
-	$('#weapons').find('span.leaveBar .oth-hav-set').width('100%');
+	    console.log('unchecked');  // unchecked
+	    for(i = 0; i < arr.length; i ++) {
+			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-cut-set').width('0%');
+			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-hav-set').width('100%');
+		}
 	}
 });
 function weaponjs() {
@@ -16,14 +21,14 @@ function weaponjs() {
 	//sharpness formula
 	for(i = 0; i < arr.length; i ++) {
 		var width = ["0", "0", "0", "0", "0", "0", "0", "0"]
-		width[0] = arr[i].data[17] * 100 / 4000000;
-		width[1] = (arr[i].data[18] - arr[i].data[17]) * 100 / 4000000;
-		width[2] = (arr[i].data[19] - arr[i].data[18]) * 100 / 4000000;
-		width[3] = (arr[i].data[20] - arr[i].data[19]) * 100 / 4000000;
-		width[4] = (arr[i].data[21] - arr[i].data[20]) * 100 / 4000000;
-		width[5] = (arr[i].data[22] - arr[i].data[21]) * 100 / 4000000;
-		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 4000000;
-		width[6] = 100 - arr[i].data[16] * 100 / 4000000;
+		width[0] = arr[i].data[17] * 100 / 5000000;
+		width[1] = (arr[i].data[18] - arr[i].data[17]) * 100 / 5000000;
+		width[2] = (arr[i].data[19] - arr[i].data[18]) * 100 / 5000000;
+		width[3] = (arr[i].data[20] - arr[i].data[19]) * 100 / 5000000;
+		width[4] = (arr[i].data[21] - arr[i].data[20]) * 100 / 5000000;
+		width[5] = (arr[i].data[22] - arr[i].data[21]) * 100 / 5000000;
+		width[7] = (arr[i].data[23] - arr[i].data[22]) * 100 / 5000000;
+		width[6] = 100 - arr[i].data[16] * 100 / 5000000;
 	//bow variables
 	var name = ['','Pierce Lv1','Pierce Lv2','Pierce Lv3','Pierce Lv4','Rapid Lv1','Rapid Lv2','Rapid Lv3','Rapid Lv4','Scatter Lv1','Scatter Lv2','Scatter Lv3','Scatter Lv4'];
 	//hunting horn variables
