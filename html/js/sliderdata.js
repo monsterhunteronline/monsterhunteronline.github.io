@@ -42,6 +42,14 @@ var sliderArray = [
 	},
 	{
 	"data": [
+		"right",
+		"unknown1.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
 		"left",
 		"Screenshot0409_mh.jpg",
 		"",
