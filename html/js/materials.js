@@ -17413,14 +17413,17 @@ $('#button').on('click', function() {
 	var i;
   var search = $('#inputText').val();
   console.log(search);
+  filtered = [];
+  for(i = 0; i < materialArray.length; i ++) {
+    matString = arr[i].data[6]+' '+translate(arr[i].data[6])+' '+arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
+    if (matString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+      filtered.push(materialArray[i])
+    }
+  }
+  arr = filtered;
 	for(i = 0; i < arr.length; i ++) {
-		var hide = "no";
-		matString = arr[i].data[6]+' '+translate(arr[i].data[6])+' '+arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
-		if (matString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-			hide = "yes"
-		};
 		out += ''+
-	'<tr class="'+hide+'">'+
+	'<tr>'+
 		'<td>'+
 			'<img src="../images/item/'+arr[i].data[4]+'.png">'+
 		'</td>'+

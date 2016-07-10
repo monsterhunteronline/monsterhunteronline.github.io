@@ -20,16 +20,19 @@ $('#button').on('click', function() {
 	var arr = mosaicArray;
 	var out = '';
 	var i;
-  var search = $('#inputText').val();
-  console.log(search);
+	var search = $('#inputText').val();
+	console.log(search);
+	filtered = [];
+	for(i = 0; i < mosaicArray.length; i ++) {
+    	jewelryString = arr[i].data[2]+' '+translate(arr[i].data[2])+' '+arr[i].data[5]+' '+translate(arr[i].data[5])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[13]+' '+translate(arr[i].data[13])+' '+arr[i].data[15]+' '+translate(arr[i].data[15])+' '+arr[i].data[17]+' '+translate(arr[i].data[17]);
+    	if (jewelryString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+    		filtered.push(mosaicArray[i])
+    	}
+	}
+	arr = filtered;
 	for(i = 0; i < arr.length; i ++) {
-		var hide = "no";
-		jewelryString = arr[i].data[2]+' '+translate(arr[i].data[2])+' '+arr[i].data[5]+' '+translate(arr[i].data[5])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[13]+' '+translate(arr[i].data[13])+' '+arr[i].data[15]+' '+translate(arr[i].data[15])+' '+arr[i].data[17]+' '+translate(arr[i].data[17]);
-		if (jewelryString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-			hide = "yes"
-		};
 		out += ''+
-	'<tr class="'+hide+'">'+
+	'<tr>'+
 		'<td>'+
 			'<img src="../images/item/'+arr[i].data[10]+'.png">'+
 		'</td>'+

@@ -296,3 +296,4 @@ tr.nohide { display: none !important; border-collapse: collapse !important; }
 .page-footer{ padding-left: 20px; padding-right: 20px; }
 .padding-left-right { padding-left: 20px; padding-right: 20px; }
 .right-nav { top: 150px; right: 0px; width: 120px; }
+.skilloutput { height: 150px; overflow-y: scroll; }

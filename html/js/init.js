@@ -37,6 +37,9 @@ var page;
     if (page == "weapons2") {
         skillbookjs();
     }
+    if (page == "setsearch") {
+        setsearchjs();
+    }
 // materialize functions
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible({accordion : false});

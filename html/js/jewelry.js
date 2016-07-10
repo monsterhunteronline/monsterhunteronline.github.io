@@ -20,16 +20,19 @@ $('#button').on('click', function() {
 	var arr = jewelryArray;
 	var out = '';
 	var i;
-  var search = $('#inputText').val();
-  console.log(search);
+	var search = $('#inputText').val();
+	console.log(search);
+	filtered = [];
+	for(i = 0; i < jewelryArray.length; i ++) {
+    	jewelryString = arr[i].data[1]+' '+arr[i].data[2];
+    	if (jewelryString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+    		filtered.push(jewelryArray[i])
+    	}
+	}
+	arr = filtered;
 	for(i = 0; i < arr.length; i ++) {
-		var hide = "no";
-		jewelryString = arr[i].data[1]+' '+arr[i].data[2];
-		if (jewelryString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-			hide = "yes"
-		};
 		out += ''+
-	'<tr class="'+hide+'">'+
+	'<tr>'+
 		'<td>'+
 			'<img src="../images/item/'+arr[i].data[6]+'.png">'+
 		'</td>'+

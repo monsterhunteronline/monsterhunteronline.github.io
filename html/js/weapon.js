@@ -4,8 +4,8 @@ $(document).on('change', 'input#extraSharp', function() {
 	if($("#extraSharp").is(':checked')){
 	    console.log('checked');  // checked
 	    for(i = 0; i < arr.length; i ++) {
-			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-cut-set').width(1000 / parseInt($('#id57229').find('span.leaveBar').attr('data-i')) + '%');
-			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-hav-set').width(99-1000 / parseInt($('#id57229').find('span.leaveBar').attr('data-i')) + '%');
+			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-cut-set').width(1000 / parseInt($('#id'+arr[i].data[0]).find('span.leaveBar').attr('data-i')) + '%');
+			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-hav-set').width(99-1000 / parseInt($('#id'+arr[i].data[0]).find('span.leaveBar').attr('data-i')) + '%');
 		}
 	}
 	else {

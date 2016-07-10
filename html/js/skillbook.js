@@ -20,16 +20,19 @@ $('#button').on('click', function() {
 	var arr = skillbookArray;
 	var out = '';
 	var i;
-  var search = $('#inputText').val();
-  console.log(search);
+	var search = $('#inputText').val();
+	console.log(search);
+	filtered = [];
+	for(i = 0; i < skillbookArray.length; i ++) {
+    	skillString = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2];+' '+arr[i].data[3]+' '+translate(arr[i].data[3])
+    	if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+    		filtered.push(skillbookArray[i])
+    	}
+	}
+	arr = filtered;
 	for(i = 0; i < arr.length; i ++) {
-		var hide = "no";
-		skillString = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2];+' '+arr[i].data[3]+' '+translate(arr[i].data[3])
-		if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-			hide = "yes"
-		};
 		out += ''+
-	'<tr class="'+hide+'">'+
+	'<tr>'+
 		'<td>'+translate(arr[i].data[1])+'</td>'+
 		'<td>'+arr[i].data[2]+'</td>'+
 		'<td>'+arr[i].data[4]+'</td>'+

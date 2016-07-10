@@ -29,7 +29,30 @@ $('#both').on('click', function() {
 	$('#button').click();
 });
 $('#button').on('click', function() {
-	var arr = armorArray;
+	var search = $('#inputText').val();
+	if (search == "") {
+		var arr = armorArray
+	} else {
+		var filtered = [];
+		for(i = 0; i < armorArray.length; i ++) {
+			if (armorArray[i].data[3].toUpperCase().indexOf(armortype.toUpperCase()) >= 0) {
+				filtered.push(armorArray[i])
+			}
+		}
+		var filtered1 = filtered;
+		filtered = [];
+		for(i = 0; i < filtered1.length; i += 5) {
+			var skillstring = filtered1[i].data[57].toUpperCase()+' '+translate(filtered1[i].data[2]).toUpperCase()+' '+translate(filtered1[i].data[56]).toUpperCase()+' '+translate(filtered1[i].data[38]).toUpperCase()+' '+translate(filtered1[i].data[40]).toUpperCase()+' '+translate(filtered1[i].data[42]).toUpperCase()+' '+translate(filtered1[i].data[44]).toUpperCase()+' '+translate(filtered1[i].data[46]).toUpperCase()+' '+translate(filtered1[i+1].data[38]).toUpperCase()+' '+translate(filtered1[i+1].data[40]).toUpperCase()+' '+translate(filtered1[i+1].data[42]).toUpperCase()+' '+translate(filtered1[i+1].data[44]).toUpperCase()+' '+translate(filtered1[i+1].data[46]).toUpperCase()+' '+translate(filtered1[i+2].data[38]).toUpperCase()+' '+translate(filtered1[i+2].data[40]).toUpperCase()+' '+translate(filtered1[i+2].data[42]).toUpperCase()+' '+translate(filtered1[i+2].data[44]).toUpperCase()+' '+translate(filtered1[i+2].data[46]).toUpperCase()+' '+translate(filtered1[i+3].data[38]).toUpperCase()+' '+translate(filtered1[i+3].data[40]).toUpperCase()+' '+translate(filtered1[i+3].data[42]).toUpperCase()+' '+translate(filtered1[i+3].data[44]).toUpperCase()+' '+translate(filtered1[i+3].data[46]).toUpperCase()+' '+translate(filtered1[i+4].data[38]).toUpperCase()+' '+translate(filtered1[i+4].data[40]).toUpperCase()+' '+translate(filtered1[i+4].data[42]).toUpperCase()+' '+translate(filtered1[i+4].data[44]).toUpperCase()+' '+translate(filtered1[i+4].data[46]).toUpperCase()+' '+filtered1[i].data[57].toUpperCase()+' '+filtered1[i].data[2].toUpperCase()+' '+filtered1[i].data[56].toUpperCase()+' '+filtered1[i].data[38].toUpperCase()+' '+filtered1[i].data[40].toUpperCase()+' '+filtered1[i].data[42].toUpperCase()+' '+filtered1[i].data[44].toUpperCase()+' '+filtered1[i].data[46].toUpperCase()+' '+filtered1[i+1].data[38].toUpperCase()+' '+filtered1[i+1].data[40].toUpperCase()+' '+filtered1[i+1].data[42].toUpperCase()+' '+filtered1[i+1].data[44].toUpperCase()+' '+filtered1[i+1].data[46].toUpperCase()+' '+filtered1[i+2].data[38].toUpperCase()+' '+filtered1[i+2].data[40].toUpperCase()+' '+filtered1[i+2].data[42].toUpperCase()+' '+filtered1[i+2].data[44].toUpperCase()+' '+filtered1[i+2].data[46].toUpperCase()+' '+filtered1[i+3].data[38].toUpperCase()+' '+filtered1[i+3].data[40].toUpperCase()+' '+filtered1[i+3].data[42].toUpperCase()+' '+filtered1[i+3].data[44].toUpperCase()+' '+filtered1[i+3].data[46].toUpperCase()+' '+filtered1[i+4].data[38].toUpperCase()+' '+filtered1[i+4].data[40].toUpperCase()+' '+filtered1[i+4].data[42].toUpperCase()+' '+filtered1[i+4].data[44].toUpperCase()+' '+filtered1[i+4].data[46].toUpperCase();
+			if (skillstring.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+				filtered.push(filtered1[i])
+				filtered.push(filtered1[i+1])
+				filtered.push(filtered1[i+2])
+				filtered.push(filtered1[i+3])
+				filtered.push(filtered1[i+4])
+			}
+		}
+		var arr = filtered
+	}
 	var out = "";
 	var i;
 	var ii;
@@ -113,17 +136,7 @@ $('#clear').on('click', function() {
 			//forging mats
 			'<td colspan="2">[Forging Material]</td></tr><tr class="no'+arr[i+ii].data[21]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[21])+'" target="_blank">'+translate(arr[i+ii].data[21])+'</a> x'+arr[i+ii].data[22]+'</td></tr><tr class="no'+arr[i+ii].data[24]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[24])+'" target="_blank">'+translate(arr[i+ii].data[24])+'</a> x'+arr[i+ii].data[25]+'</td></tr><tr class="no'+arr[i+ii].data[27]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[27])+'" target="_blank">'+translate(arr[i+ii].data[27])+'</a> x'+arr[i+ii].data[28]+'</td></tr><tr class="no'+arr[i+ii].data[30]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[30])+'" target="_blank">'+translate(arr[i+ii].data[30])+'</a> x'+arr[i+ii].data[31]+'</td></tr><tr class="no'+arr[i+ii].data[33]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[33])+'" target="_blank">'+translate(arr[i+ii].data[33])+'</a> x'+arr[i+ii].data[34]+'</td></tr><tr class="no'+arr[i+ii].data[37]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[36])+'" target="_blank">'+translate(arr[i+ii].data[36])+'</a> x'+arr[i+ii].data[37]+'</td></tr></tbody></table></div>';
 		}
-		var search = $('#inputText').val();
-		var armortypehide = "armortypeno";
-		if (arr[i].data[3].toUpperCase().indexOf(armortype.toUpperCase()) >= 0) {
-			armortypehide = "armortypeyes"
-		};
-		var hide = "no";
-		var skillstring = arr[i].data[57].toUpperCase()+' '+translate(arr[i].data[2]).toUpperCase()+' '+translate(arr[i].data[56]).toUpperCase()+' '+translate(arr[i].data[38]).toUpperCase()+' '+translate(arr[i].data[40]).toUpperCase()+' '+translate(arr[i].data[42]).toUpperCase()+' '+translate(arr[i].data[44]).toUpperCase()+' '+translate(arr[i].data[46]).toUpperCase()+' '+translate(arr[i+1].data[38]).toUpperCase()+' '+translate(arr[i+1].data[40]).toUpperCase()+' '+translate(arr[i+1].data[42]).toUpperCase()+' '+translate(arr[i+1].data[44]).toUpperCase()+' '+translate(arr[i+1].data[46]).toUpperCase()+' '+translate(arr[i+2].data[38]).toUpperCase()+' '+translate(arr[i+2].data[40]).toUpperCase()+' '+translate(arr[i+2].data[42]).toUpperCase()+' '+translate(arr[i+2].data[44]).toUpperCase()+' '+translate(arr[i+2].data[46]).toUpperCase()+' '+translate(arr[i+3].data[38]).toUpperCase()+' '+translate(arr[i+3].data[40]).toUpperCase()+' '+translate(arr[i+3].data[42]).toUpperCase()+' '+translate(arr[i+3].data[44]).toUpperCase()+' '+translate(arr[i+3].data[46]).toUpperCase()+' '+translate(arr[i+4].data[38]).toUpperCase()+' '+translate(arr[i+4].data[40]).toUpperCase()+' '+translate(arr[i+4].data[42]).toUpperCase()+' '+translate(arr[i+4].data[44]).toUpperCase()+' '+translate(arr[i+4].data[46]).toUpperCase();
-		if (skillstring.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-			hide = "yes"
-		};
-		out+= '<li><div class="'+armortypehide+' '+hide+' collapsible-header"><div><div class="left"><img src="../images/item/'+arr[i].data[13]+'.png" class="armorimage">&nbsp;&nbsp;&nbsp;&nbsp;<span class="type'+arr[i].data[3]+'">'+typeArray[arr[i].data[3]].type+'</span>&nbsp;&nbsp;</div><div class="truncate-small"><span class="Lv'+arr[i].data[57].substring(3,5)+'">Prototype </span>'+translate(arr[i].data[2])+' Armor</div><span class="right">'+arr[i].data[57]+'</span></div><span class="bold">'+translate(arr[i].data[56])+'</span></div><div class="collapsible-body grey lighten-2"><div class="row">'+largescreen+mediumscreenrow1+'</div><div class="row">'+mediumscreenrow2+'</div></div></li>';
+		out+= '<li><div class="collapsible-header"><div><div class="left"><img src="../images/item/'+arr[i].data[13]+'.png" class="armorimage">&nbsp;&nbsp;&nbsp;&nbsp;<span class="type'+arr[i].data[3]+'">'+typeArray[arr[i].data[3]].type+'</span>&nbsp;&nbsp;</div><div class="truncate-small"><span class="Lv'+arr[i].data[57].substring(3,5)+'">Prototype </span>'+translate(arr[i].data[2])+' Armor</div><span class="right">'+arr[i].data[57]+'</span></div><span class="bold">'+translate(arr[i].data[56])+'</span></div><div class="collapsible-body grey lighten-2"><div class="row">'+largescreen+mediumscreenrow1+'</div><div class="row">'+mediumscreenrow2+'</div></div></li>';
 	}
 document.getElementById("armorlist").innerHTML = out;
 });

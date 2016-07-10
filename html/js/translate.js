@@ -622,7 +622,7 @@ function translate(text) {
 	if (text == '苍火龙') {out = '<a href="/monsters/azure-rathalos/" target="_blank">Azure Rathalos</a>';};
 	if (text == '鬼狩蛛') {out = '<a href="/monsters/baelidae/" target="_blank">Baelidae</a>';};
 	if (text == '岩龙') {out = '<a href="/monsters/basarios/" target="_blank">Basarios</a>';};
-	if (text == '铠龙') {out = '<a href="/monsters/basarios/" target="_blank">Basarios?</a>';};
+	if (text == '铠龙') {out = '<a href="/monsters/gravios/" target="_blank">Gravios</a>';};
 	if (text == '雪狮子王') {out = '<a href="/monsters/blangonga/" target="_blank">Blangonga</a>';};
 	if (text == '青怪鸟') {out = '<a href="/monsters/blue-yian-kut-ku/" target="_blank">Blue Yian Kut-Ku</a>';};
 	if (text == '大野猪王') {out = '<a href="/monsters/bulldrome/" target="_blank">Bulldrome</a>';};
@@ -691,6 +691,7 @@ function translate(text) {
 	if (text == '霞龙') {out = '<a href="/monsters/chameleos/" target="_blank">Chameleos</a>';};
 	if (text == '老山蟹B') {out = '<a href="/monsters/guren-shen-gaoren/" target="_blank">Guren Shen Gaoren</a>';};
 	if (text == 'PVP2') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
+	if (text == '剑极狼亚种') {out = '<a href="/monsters/purple-slicemargl/" target="_blank">Purple Slicemargl</a>';};
 //Other monster for weapons
 	if (text == '特殊铳枪') {out = 'Yian Kut-Ku + Bulldrome';};
 	if (text == '新手') {out = 'Velociprey';};
@@ -712,7 +713,7 @@ function translate(text) {
 	if (text == 'nl苍火龙') {out = 'Azure Rathalos';};
 	if (text == 'nl鬼狩蛛') {out = 'Baelidae';};
 	if (text == 'nl岩龙') {out = 'Basarios';};
-	if (text == 'nl铠龙') {out = 'Basarios?';};
+	if (text == 'nl铠龙') {out = 'Gravios';};
 	if (text == 'nl雪狮子王') {out = 'Blangonga';};
 	if (text == 'nl青怪鸟') {out = 'Blue Yian Kut-Ku';};
 	if (text == 'nl大野猪王') {out = 'Bulldrome';};
@@ -771,6 +772,7 @@ function translate(text) {
 	if (text == 'nl白一角龙') {out = 'White Monoblos';};
 	if (text == 'nl熔岩龙') {out = 'Lavasioth';};
 	if (text == 'nl霞龙') {out = 'Chameleos';};
+	if (text == 'nl剑极狼亚种') {out = 'Purple Slicemargl';};
 //Body Parts
 	if (text == '头部') {out = 'Head';};
 	if (text == '腹部') {out = 'Abdomen';};

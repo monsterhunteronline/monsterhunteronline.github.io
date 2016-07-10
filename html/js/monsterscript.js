@@ -2,12 +2,9 @@ var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up
 var page = "monsters";
 function monsterjs() {
 	filtered = [];
-	var search;
 	for(i = 0; i < materialArray.length; i ++) {
 		if (materialArray[i].data[6]==weaknessArray[0].data[1]) {
 			filtered.push(materialArray[i])
-			//weaknessArray[0].data[1]
-			//materialArray[i].data[6]
 		}
 	}
 	arr = filtered;
