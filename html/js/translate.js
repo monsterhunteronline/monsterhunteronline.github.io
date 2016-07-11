@@ -16,7 +16,7 @@ function translate(text) {
 	if (text == '左键') {out = 'LMB';};
 	if (text == '右键') {out = 'RMB';};
 	if (text == '人物后方向所对应的方向键') {out = 'LMB while pressing the direction of your characters back';};
-	if (text == '人物左手方向所对应的方向键') {out = 'LMB while pressing the direction of your characters left';};
+	if (text == '人物左手方向所对应的方向键') {out = 'RMB while pressing the direction of your characters left';};
 	if (text == '空格键') {out = 'Space Bar';};
 	if (text == 'E键') {out = 'E';};
 	if (text == '人物前方向所对应的方向键') {out = 'LMB while pressing the direction of your characters front';};

@@ -297,3 +297,18 @@ tr.nohide { display: none !important; border-collapse: collapse !important; }
 .padding-left-right { padding-left: 20px; padding-right: 20px; }
 .right-nav { top: 150px; right: 0px; width: 120px; }
 .skilloutput { height: 150px; overflow-y: scroll; }
+#helmetMosaic1 { display: none; }
+#helmetMosaic2 { display: none; }
+#helmetMosaic3 { display: none; }
+#vambracesMosaic1 { display: none; }
+#vambracesMosaic2 { display: none; }
+#vambracesMosaic3 { display: none; }
+#armorMosaic1 { display: none; }
+#armorMosaic2 { display: none; }
+#armorMosaic3 { display: none; }
+#waistMosaic1 { display: none; }
+#waistMosaic2 { display: none; }
+#waistMosaic3 { display: none; }
+#greavesMosaic1 { display: none; }
+#greavesMosaic2 { display: none; }
+#greavesMosaic3 { display: none; }

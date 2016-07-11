@@ -1,14 +1,21 @@
 var page = "setsearch";
 
 function setsearchjs() {
+	filtered = [];
+	for(i = 0; i < skillsArray.length; i ++) {
+		if (parseInt(skillsArray[i].data[7]) > 0) {
+			filtered.push(skillsArray[i])
+		}
+	}
+	skillsArray = filtered;
 	out1=''
 	for(i = 0; i < skillsArray.length; i ++) {
-		out1+='<a href="#" onclick="setskill1('+skillsArray[i].data[0]+')">'+translate(skillsArray[i].data[5])+'</a><br>'
+		out1+='<a href="#" onclick="setskill1('+skillsArray[i].data[0]+')">'+translate(skillsArray[i].data[3])+' (+'+skillsArray[i].data[7]+')</a><br>'
 	}
 	document.getElementById("outputs1").innerHTML = out1;
 	out2=''
 	for(i = 0; i < skillsArray.length; i ++) {
-		out2+='<a href="#" onclick="setskill2('+skillsArray[i].data[0]+')">'+translate(skillsArray[i].data[5])+'</a><br>'
+		out2+='<a href="#" onclick="setskill1('+skillsArray[i].data[0]+')">'+translate(skillsArray[i].data[3])+' (+'+skillsArray[i].data[7]+')</a><br>'
 	}
 	document.getElementById("outputs2").innerHTML = out2;
 }
@@ -24,7 +31,7 @@ $(function() {
 			}
 			out=''
 			for(i = 0; i < filteredS1.length; i ++) {
-				out+='<a href="#" onclick="setskill1('+filteredS1[i].data[0]+')">'+translate(filteredS1[i].data[5])+'</a><br>'
+				out+='<a href="#" onclick="setskill1('+filteredS1[i].data[0]+')">'+translate(filteredS1[i].data[3])+' (+'+filteredS1[i].data[7]+')</a><br>'
 			}
 			document.getElementById("outputs1").innerHTML = out;
         })
@@ -39,7 +46,7 @@ $(function() {
 			}
 			out=''
 			for(i = 0; i < filteredS2.length; i ++) {
-				out+='<a href="#" onclick="setskill2('+filteredS2[i].data[0]+')">'+translate(filteredS2[i].data[5])+'</a><br>'
+				out+='<a href="#" onclick="setskill1('+filteredS2[i].data[0]+')">'+translate(filteredS2[i].data[3])+' (+'+filteredS2[i].data[7]+')</a><br>'
 			}
 			document.getElementById("outputs2").innerHTML = out;
         })

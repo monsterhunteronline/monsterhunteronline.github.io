@@ -142,12 +142,12 @@
     <div class="container">
       <br><br>
 <!--Content-->
-<ul class="collapsible white" data-collapsible="accordian">
+<ul class="collapsible white" data-collapsible="expandable">
 <li>
-<div class="collapsible-header white">Set Builder</div>
-<div class="collapsible-body white">
-<div class="card z-depth-0">
-<div id="typecolor" class="card-content">
+  <div class="collapsible-header white">Set Builder</div>
+    <div class="collapsible-body white">
+      <div class="card z-depth-0">
+        <div id="typecolor" class="card-content">
 <!--Weapon-->
           <div class="row white">
             <div class="col s1">
@@ -226,7 +226,7 @@
             </div>
             <div class="col s1 hide-on-med-and-up">&nbsp;</div>
             <div class="col s10 m3" id="talisman">No Talisman</div>
-            <div class="col s12 m8" id="talismanSkills"><span id="talismanSkills1"></span><span id="talismanSkills1Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills2"></span><span id="talismanSkills2Value"></span></div>
+            <div class="col s12 m8" id="talismanSkills"><span id="talismanSkills1"></span><span id="talismanSkills1Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills2"></span><span id="talismanSkills2Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills3"></span><span id="talismanSkills3Value"></span></div>
           </div>
           </div>
           </div>
@@ -244,20 +244,12 @@
               </table>
             </div>
           </div>
-</div>
-</li>
-</ul>
-      <div class="row">
-        <div class="col s12">
-          <label>Search Armors</label>
-          <input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
-          <input type="button" id="button" value="Search Armors"></input>
-          <input type="button" id="blademaster" value="Blademaster"></input>
-          <input type="button" id="gunner" value="Gunner"></input>
-          <input type="button" id="both" value="Both"></input>
-          <input type="button" id="clear" value="Clear"></input>
-        </div>
-      </div>
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header white">Jewelry</div>
+    <div class="collapsible-body white">
+      
       <div class="row">
         <div class="input-field col s12 m6 l4">
           <select class="icons" name="necklaceSelect" id="necklaceSelect">
@@ -320,6 +312,142 @@
             <option value="12">12</option>
           </select>
           <label>Talisman Skill 2 Value</label>
+        </div>
+        <div class="input-field col s8 m4 l4">
+          <select name="talismanSkill3Select" id="talismanSkill3Select">
+          </select>
+          <label>Talisman Skill 3</label>
+        </div>
+        <div class="input-field col s4 m2 l2">
+          <select name="talismanSkill3vSelect" id="talismanSkill3vSelect">
+            <option value="" disabled selected>Skill 3 Value</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <label>Talisman Skill 3 Value</label>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header white">Mosaics</div>
+    <div class="collapsible-body white">
+      <div class="row">
+        <div class="input-field col s12 m6 l4" id="helmetMosaic1">
+          <select class="icons" name="mosaic1Select1" id="mosaic1Select1">
+          </select>
+          <label>Helm Mosaic 1</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="helmetMosaic2">
+          <select class="icons" name="mosaic1Select2" id="mosaic1Select2">
+          </select>
+          <label>Helm Mosaic 2</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="helmetMosaic3">
+          <select class="icons" name="mosaic1Select3" id="mosaic1Select3">
+          </select>
+          <label>Helm Mosaic 3</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s12 m6 l4" id="vambracesMosaic1">
+          <select class="icons" name="mosaic2Select1" id="mosaic2Select1">
+          </select>
+          <label>Vambraces Mosaic 1</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="vambracesMosaic2">
+          <select class="icons" name="mosaic2Select2" id="mosaic2Select2">
+          </select>
+          <label>Vambraces Mosaic 2</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="vambracesMosaic3">
+          <select class="icons" name="mosaic2Select3" id="mosaic2Select3">
+          </select>
+          <label>Vambraces Mosaic 3</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s12 m6 l4" id="armorMosaic1">
+          <select class="icons" name="mosaic3Select1" id="mosaic3Select1">
+          </select>
+          <label>Armor Mosaic 1</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="armorMosaic2">
+          <select class="icons" name="mosaic3Select2" id="mosaic3Select2">
+          </select>
+          <label>Armor Mosaic 2</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="armorMosaic3">
+          <select class="icons" name="mosaic3Select3" id="mosaic3Select3">
+          </select>
+          <label>Armor Mosaic 3</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s12 m6 l4" id="waistMosaic1">
+          <select class="icons" name="mosaic4Select1" id="mosaic4Select1">
+          </select>
+          <label>Waist Mosaic 1</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="waistMosaic2">
+          <select class="icons" name="mosaic4Select2" id="mosaic4Select2">
+          </select>
+          <label>Waist Mosaic 2</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="waistMosaic3">
+          <select class="icons" name="mosaic4Select3" id="mosaic4Select3">
+          </select>
+          <label>Waist Mosaic 3</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s12 m6 l4" id="greavesMosaic1">
+          <select class="icons" name="mosaic5Select1" id="mosaic5Select1">
+          </select>
+          <label>Greaves Mosaic 1</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="greavesMosaic2">
+          <select class="icons" name="mosaic5Select2" id="mosaic5Select2">
+          </select>
+          <label>Greaves Mosaic 2</label>
+        </div>
+        <div class="input-field col s12 m6 l4" id="greavesMosaic3">
+          <select class="icons" name="mosaic5Select3" id="mosaic5Select3">
+          </select>
+          <label>Greaves Mosaic 3</label>
+        </div>
+      </div>
+
+    </div>
+  </li>
+</ul>
+      <div class="row">
+        <div class="col s12">
+          <label>Search Armors</label>
+          <input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
+          <input type="button" id="button" value="Search Armors"></input>
+          <input type="button" id="blademaster" value="Blademaster"></input>
+          <input type="button" id="gunner" value="Gunner"></input>
+          <input type="button" id="both" value="Both"></input>
+          <input type="button" id="clear" value="Clear"></input>
         </div>
       </div>
       <ul id="armorlist" class="collapsible" data-collapsible="expandable">
@@ -402,15 +530,16 @@
   <script src="/js/jquery-2.1.1.min.js"></script>
   <script src="/js/materialize.js"></script>
   <script src="/js/armordata.js"></script>
+  <script src="/js/skilldata.js"></script>
   <script src="/js/jewelrydata.js"></script>
   <script src="/js/mosaicdata.js"></script>
   <script src="/js/mosaic.js"></script>
   <script src="/js/necklacedata.js"></script>
   <script src="/js/ringdata.js"></script>
   <script src="/js/talismandata.js"></script>
+  <script src="/js/translate.js"></script>
   <script src="/js/armor.js"></script>
   <script src="/js/armorset.js"></script>
-  <script src="/js/translate.js"></script>
   <script src="/js/url.js"></script>
   <script src="/js/init.js"></script>
   </body>
