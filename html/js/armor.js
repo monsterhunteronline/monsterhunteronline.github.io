@@ -5,10 +5,6 @@ var typeArray = [
 var page = "armor";
 function armorjs() {
 	helmetMosaicjs(0);
-	vambracesMosaicjs(0);
-	armorMosaicjs(0);
-	waistMosaicjs(0);
-	greavesMosaicjs(0);
 	armortype = "";
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {

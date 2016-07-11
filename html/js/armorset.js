@@ -1,5 +1,5 @@
 // initialize global variables
-var armortype; var filterArmor; var helmet; var vambraces; var armor; var waist; var greaves; var necklace; var ring; var talisman; var helmetID; var vambracesID; var armorID; var waistID; var greavesID; var necklaceID; var ringID; var talismanID; var talismanSkill1ID; var talismanSkill1vID; var talismanSkill2ID; var talismanSkill2vID; var passive; var helmetType; var vambracesType; var armorType; var waistType; var greavesType; var helmetMosaicNum; var vambracesMosaicNum; var armorMosaicNum; var waistMosaicNum; var greavesMosaicNum; var helmetMosaic; var vambracesMosaic; var armorMosaic; var waistMosaic; var greavesMosaic;var mosaicSkills1ID;var mosaicSkills1ValueID;var mosaicSkills2ID;var mosaicSkills2ValueID;var mosaicSkills3ID;var mosaicSkills3ValueID;var mosaicSkills4ID;var mosaicSkills4ValueID;var mosaicSkills5ID;var mosaicSkills5ValueID;var mosaicSkills6ID;var mosaicSkills6ValueID;var mosaicSkills7ID;var mosaicSkills7ValueID;var mosaicSkills8ID;var mosaicSkills8ValueID;var mosaicSkills9ID;var mosaicSkills9ValueID;var mosaicSkills10ID;var mosaicSkills10ValueID;var mosaicSkills11ID;var mosaicSkills11ValueID;var mosaicSkills12ID;var mosaicSkills12ValueID;var mosaicSkills13ID;var mosaicSkills13ValueID;var mosaicSkills14ID;var mosaicSkills14ValueID;var mosaicSkills15ID;var mosaicSkills15ValueID;
+var armortype; var filterArmor; var helmet; var vambraces; var armor; var waist; var greaves; var necklace; var ring; var talisman; var helmetID; var vambracesID; var armorID; var waistID; var greavesID; var necklaceID; var ringID; var talismanID; var talismanSkill1ID; var talismanSkill1vID; var talismanSkill2ID; var talismanSkill2vID; var passive; var helmetType; var vambracesType; var armorType; var waistType; var greavesType; var helmetMosaicNum; var vambracesMosaicNum; var armorMosaicNum; var waistMosaicNum; var greavesMosaicNum; var helmetMosaic; var vambracesMosaic; var armorMosaic; var waistMosaic; var greavesMosaic;var mosaicSkills1ID; var mosaic1Skills = [];
 var skillNames = skillnamesjs();
 var skills = skillsjs();
 // need second array for "for" loop
@@ -101,105 +101,10 @@ $(document).on('change', 'select#mosaic1Select3', function() {
     displayData();
     // use switch or if/else etc.
 });
-$(document).on('change', 'select#mosaic2Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('18', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic2Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('19', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic2Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('20', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic3Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('21', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic3Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('22', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic3Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('23', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic4Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('24', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic4Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('25', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic4Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('26', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic5Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('27', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic5Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('28', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic5Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('29', opt);
-    displayData();
-    // use switch or if/else etc.
-});
 function displayData() {
 // grap parameters from URL
-	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5'); necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8'); talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12'); talismanSkill3ID = getUrlParameter('13'); talismanSkill3vID = getUrlParameter('14'); mosaicSkills1ID; = getUrlParameter('15'); mosaicSkills2ID; = getUrlParameter('16'); mosaicSkills3ID; = getUrlParameter('17'); mosaicSkills4ID; = getUrlParameter('18'); mosaicSkills5ID; = getUrlParameter('19'); mosaicSkills6ID; = getUrlParameter('20'); mosaicSkills7ID; = getUrlParameter('21'); mosaicSkills8ID; = getUrlParameter('22'); mosaicSkills9ID; = getUrlParameter('23'); mosaicSkills10ID; = getUrlParameter('24'); mosaicSkills11ID; = getUrlParameter('25'); mosaicSkills12ID; = getUrlParameter('26'); mosaicSkills13ID; = getUrlParameter('27'); mosaicSkills14ID; = getUrlParameter('28'); mosaicSkills15ID; = getUrlParameter('29');
+	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5'); necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8'); talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12'); talismanSkill3ID = getUrlParameter('13'); talismanSkill3vID = getUrlParameter('14'); mosaicSkills1ID = getUrlParameter('15'); mosaicSkills2ID = getUrlParameter('16'); mosaicSkills3ID = getUrlParameter('17');
+	mosaic1Skills = getMosaicSkills(mosaicSkills1ID)
 // get armor
 	storeArmor();
 // write HTML to IDs if URL parameters are VALID
@@ -328,79 +233,10 @@ function displayData() {
 		document.getElementById("talismanSkills3Value").innerHTML = talismanSkill3vID;
 	};
 	if (typeof mosaicSkills1ID !== 'undefined') {
-		mosaicSkills1ValueID=getMosaicvalue(mosaicSkills1ID);
-	    document.getElementById("mosaicSkills1").innerHTML = skillNames[parseInt(mosaicSkills1ID)]+': ';
-	    document.getElementById("mosaicSkills1Value").innerHTML = mosaicSkills1ValueID;
-	};
-	if (typeof mosaicSkills2ID !== 'undefined') {
-		mosaicSkills2ValueID=getMosaicvalue(mosaicSkills2ID);
-	    document.getElementById("mosaicSkills2").innerHTML = skillNames[parseInt(mosaicSkills2ID)]+': ';
-	    document.getElementById("mosaicSkills2Value").innerHTML = mosaicSkills2ValueID;
-	};
-	if (typeof mosaicSkills3ID !== 'undefined') {
-		mosaicSkills3ValueID=getMosaicvalue(mosaicSkills3ID);
-	    document.getElementById("mosaicSkills3").innerHTML = skillNames[parseInt(mosaicSkills3ID)]+': ';
-	    document.getElementById("mosaicSkills3Value").innerHTML = mosaicSkills3ValueID;
-	};
-	if (typeof mosaicSkills4ID !== 'undefined') {
-		mosaicSkills4ValueID=getMosaicvalue(mosaicSkills4ID);
-	    document.getElementById("mosaicSkills4").innerHTML = skillNames[parseInt(mosaicSkills4ID)]+': ';
-	    document.getElementById("mosaicSkills4Value").innerHTML = mosaicSkills4ValueID;
-	};
-	if (typeof mosaicSkills5ID !== 'undefined') {
-		mosaicSkills5ValueID=getMosaicvalue(mosaicSkills5ID);
-	    document.getElementById("mosaicSkills5").innerHTML = skillNames[parseInt(mosaicSkills5ID)]+': ';
-	    document.getElementById("mosaicSkills5Value").innerHTML = mosaicSkills5ValueID;
-	};
-	if (typeof mosaicSkills6ID !== 'undefined') {
-		mosaicSkills6ValueID=getMosaicvalue(mosaicSkills6ID);
-	    document.getElementById("mosaicSkills6").innerHTML = skillNames[parseInt(mosaicSkills6ID)]+': ';
-	    document.getElementById("mosaicSkills6Value").innerHTML = mosaicSkills6ValueID;
-	};
-	if (typeof mosaicSkills7ID !== 'undefined') {
-		mosaicSkills7ValueID=getMosaicvalue(mosaicSkills7ID);
-	    document.getElementById("mosaicSkills7").innerHTML = skillNames[parseInt(mosaicSkills7ID)]+': ';
-	    document.getElementById("mosaicSkills7Value").innerHTML = mosaicSkills7ValueID;
-	};
-	if (typeof mosaicSkills8ID !== 'undefined') {
-		mosaicSkills8ValueID=getMosaicvalue(mosaicSkills8ID);
-	    document.getElementById("mosaicSkills8").innerHTML = skillNames[parseInt(mosaicSkills8ID)]+': ';
-	    document.getElementById("mosaicSkills8Value").innerHTML = mosaicSkills8ValueID;
-	};
-	if (typeof mosaicSkills9ID !== 'undefined') {
-		mosaicSkills9ValueID=getMosaicvalue(mosaicSkills9ID);
-	    document.getElementById("mosaicSkills9").innerHTML = skillNames[parseInt(mosaicSkills9ID)]+': ';
-	    document.getElementById("mosaicSkills9Value").innerHTML = mosaicSkills9ValueID;
-	};
-	if (typeof mosaicSkills10ID !== 'undefined') {
-		mosaicSkills10ValueID=getMosaicvalue(mosaicSkills10ID);
-	    document.getElementById("mosaicSkills10").innerHTML = skillNames[parseInt(mosaicSkills10ID)]+': ';
-	    document.getElementById("mosaicSkills10Value").innerHTML = mosaicSkills10ValueID;
-	};
-	if (typeof mosaicSkills11ID !== 'undefined') {
-		mosaicSkills11ValueID=getMosaicvalue(mosaicSkills11ID);
-	    document.getElementById("mosaicSkills11").innerHTML = skillNames[parseInt(mosaicSkills11ID)]+': ';
-	    document.getElementById("mosaicSkills11Value").innerHTML = mosaicSkills11ValueID;
-	};
-	if (typeof mosaicSkills12ID !== 'undefined') {
-		mosaicSkills12ValueID=getMosaicvalue(mosaicSkills12ID);
-	    document.getElementById("mosaicSkills12").innerHTML = skillNames[parseInt(mosaicSkills12ID)]+': ';
-	    document.getElementById("mosaicSkills12Value").innerHTML = mosaicSkills12ValueID;
-	};
-	if (typeof mosaicSkills13ID !== 'undefined') {
-		mosaicSkills13ValueID=getMosaicvalue(mosaicSkills13ID);
-	    document.getElementById("mosaicSkills13").innerHTML = skillNames[parseInt(mosaicSkills13ID)]+': ';
-	    document.getElementById("mosaicSkills13Value").innerHTML = mosaicSkills13ValueID;
-	};
-	if (typeof mosaicSkills14ID !== 'undefined') {
-		mosaicSkills14ValueID=getMosaicvalue(mosaicSkills14ID);
-	    document.getElementById("mosaicSkills14").innerHTML = skillNames[parseInt(mosaicSkills14ID)]+': ';
-	    document.getElementById("mosaicSkills14Value").innerHTML = mosaicSkills14ValueID;
-	};
-	if (typeof mosaicSkills15ID !== 'undefined') {
-		mosaicSkills15ValueID=getMosaicvalue(mosaicSkills15ID);
-	    document.getElementById("mosaicSkills15").innerHTML = skillNames[parseInt(mosaicSkills15ID)]+': ';
-	    document.getElementById("mosaicSkills15Value").innerHTML = mosaicSkills15ValueID;
+	    document.getElementById("mosaicSkills1").innerHTML = translate(mosaic1Skills[5])+': ';
+	    document.getElementById("mosaicSkills1Value").innerHTML = mosaic1Skills[6];
+	    document.getElementById("mosaicSkills12").innerHTML = translate(mosaic1Skills[8])+'<span class="hide'+mosaic1Skills[8]+'">: </span>';
+	    document.getElementById("mosaicSkills1Value2").innerHTML = mosaic1Skills[9];
 	};
 
 // checks armor type of all armors by adding the strings together and checking them for differences. If the set is not complete it will not output as error, rather the border will be black
@@ -486,6 +322,8 @@ function storeArmor() {
 	if (typeof talismanSkill1ID !== 'undefined' && talismanSkill1vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill1ID)])] = skills[translate(skillNames[parseInt(talismanSkill1ID)])] + parseInt(talismanSkill1vID);};
 	if (typeof talismanSkill2ID !== 'undefined' && talismanSkill2vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill2ID)])] = skills[translate(skillNames[parseInt(talismanSkill2ID)])] + parseInt(talismanSkill2vID);};
 	if (typeof talismanSkill3ID !== 'undefined' && talismanSkill3vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill3ID)])] = skills[translate(skillNames[parseInt(talismanSkill3ID)])] + parseInt(talismanSkill3vID);};
+	if (typeof mosaic1Skills[5] !== 'undefined') {skills[translate(mosaic1Skills[5])] = skills[translate(mosaic1Skills[5])] + parseInt(mosaic1Skills[6]);}; 
+	if (typeof mosaic1Skills[8] !== 'undefined') {skills[translate(mosaic1Skills[8])] = skills[translate(mosaic1Skills[8])] + parseInt(mosaic1Skills[9]);}; 
 };
 function getPassive(sname, value) {
 // check skill value and store passive if it meets the criteria
