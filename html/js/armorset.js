@@ -1,5 +1,5 @@
 // initialize global variables
-var armortype; var filterArmor; var helmet; var vambraces; var armor; var waist; var greaves; var necklace; var ring; var talisman; var helmetID; var vambracesID; var armorID; var waistID; var greavesID; var necklaceID; var ringID; var talismanID; var talismanSkill1ID; var talismanSkill1vID; var talismanSkill2ID; var talismanSkill2vID; var passive; var helmetType; var vambracesType; var armorType; var waistType; var greavesType; var helmetMosaicNum; var vambracesMosaicNum; var armorMosaicNum; var waistMosaicNum; var greavesMosaicNum; var helmetMosaic; var vambracesMosaic; var armorMosaic; var waistMosaic; var greavesMosaic;
+var armortype; var filterArmor; var helmet; var vambraces; var armor; var waist; var greaves; var necklace; var ring; var talisman; var helmetID; var vambracesID; var armorID; var waistID; var greavesID; var necklaceID; var ringID; var talismanID; var talismanSkill1ID; var talismanSkill1vID; var talismanSkill2ID; var talismanSkill2vID; var passive; var helmetType; var vambracesType; var armorType; var waistType; var greavesType; var helmetMosaicNum; var vambracesMosaicNum; var armorMosaicNum; var waistMosaicNum; var greavesMosaicNum; var helmetMosaic; var vambracesMosaic; var armorMosaic; var waistMosaic; var greavesMosaic;var mosaicSkills1ID; var mosaic1Skills = [];
 var skillNames = skillnamesjs();
 var skills = skillsjs();
 // need second array for "for" loop
@@ -101,105 +101,10 @@ $(document).on('change', 'select#mosaic1Select3', function() {
     displayData();
     // use switch or if/else etc.
 });
-$(document).on('change', 'select#mosaic2Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('18', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic2Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('19', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic2Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('20', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic3Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('21', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic3Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('22', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic3Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('23', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic4Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('24', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic4Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('25', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic4Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('26', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic5Select1', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('27', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic5Select2', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('28', opt);
-    displayData();
-    // use switch or if/else etc.
-});
-$(document).on('change', 'select#mosaic5Select3', function() {
-    console.log($(this).val()); // the selected options’s value
-    // if you want to do stuff based on the OPTION element:
-    var opt = $(this).val();
-    updateurl('29', opt);
-    displayData();
-    // use switch or if/else etc.
-});
 function displayData() {
 // grap parameters from URL
-	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5'); necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8'); talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12'); talismanSkill3ID = getUrlParameter('13'); talismanSkill3vID = getUrlParameter('14');
+	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5'); necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8'); talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12'); talismanSkill3ID = getUrlParameter('13'); talismanSkill3vID = getUrlParameter('14'); mosaicSkills1ID = getUrlParameter('15'); mosaicSkills2ID = getUrlParameter('16'); mosaicSkills3ID = getUrlParameter('17');
+	mosaic1Skills = getMosaicSkills(mosaicSkills1ID)
 // get armor
 	storeArmor();
 // write HTML to IDs if URL parameters are VALID
@@ -327,6 +232,13 @@ function displayData() {
 	if (typeof talismanSkill3vID !== 'undefined') {
 		document.getElementById("talismanSkills3Value").innerHTML = talismanSkill3vID;
 	};
+	if (typeof mosaicSkills1ID !== 'undefined') {
+	    document.getElementById("mosaicSkills1").innerHTML = translate(mosaic1Skills[5])+': ';
+	    document.getElementById("mosaicSkills1Value").innerHTML = mosaic1Skills[6];
+	    document.getElementById("mosaicSkills12").innerHTML = translate(mosaic1Skills[8])+'<span class="hide'+mosaic1Skills[8]+'">: </span>';
+	    document.getElementById("mosaicSkills1Value2").innerHTML = mosaic1Skills[9];
+	};
+
 // checks armor type of all armors by adding the strings together and checking them for differences. If the set is not complete it will not output as error, rather the border will be black
 	var sumType = "";
 	sumType = helmetType+vambracesType+armorType+waistType+greavesType;
@@ -410,6 +322,8 @@ function storeArmor() {
 	if (typeof talismanSkill1ID !== 'undefined' && talismanSkill1vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill1ID)])] = skills[translate(skillNames[parseInt(talismanSkill1ID)])] + parseInt(talismanSkill1vID);};
 	if (typeof talismanSkill2ID !== 'undefined' && talismanSkill2vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill2ID)])] = skills[translate(skillNames[parseInt(talismanSkill2ID)])] + parseInt(talismanSkill2vID);};
 	if (typeof talismanSkill3ID !== 'undefined' && talismanSkill3vID !== 'undefined') {skills[translate(skillNames[parseInt(talismanSkill3ID)])] = skills[translate(skillNames[parseInt(talismanSkill3ID)])] + parseInt(talismanSkill3vID);};
+	if (typeof mosaic1Skills[5] !== 'undefined') {skills[translate(mosaic1Skills[5])] = skills[translate(mosaic1Skills[5])] + parseInt(mosaic1Skills[6]);}; 
+	if (typeof mosaic1Skills[8] !== 'undefined') {skills[translate(mosaic1Skills[8])] = skills[translate(mosaic1Skills[8])] + parseInt(mosaic1Skills[9]);}; 
 };
 function getPassive(sname, value) {
 // check skill value and store passive if it meets the criteria
