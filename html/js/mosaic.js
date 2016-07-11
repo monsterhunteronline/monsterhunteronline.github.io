@@ -228,3 +228,4 @@ function mosaic2slot() {
 	};
 	return filtered
 }
+function getMosaicvalue(i)
