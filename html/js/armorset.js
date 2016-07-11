@@ -77,6 +77,126 @@ $(document).on('change', 'select#talismanSkill3vSelect', function() {
     displayData();
     // use switch or if/else etc.
 });
+$(document).on('change', 'select#mosaic1Select1', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('15', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic1Select2', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('16', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic1Select3', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('17', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic2Select1', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('18', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic2Select2', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('19', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic2Select3', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('20', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic3Select1', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('21', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic3Select2', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('22', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic3Select3', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('23', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic4Select1', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('24', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic4Select2', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('25', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic4Select3', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('26', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic5Select1', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('27', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic5Select2', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('28', opt);
+    displayData();
+    // use switch or if/else etc.
+});
+$(document).on('change', 'select#mosaic5Select3', function() {
+    console.log($(this).val()); // the selected options’s value
+    // if you want to do stuff based on the OPTION element:
+    var opt = $(this).val();
+    updateurl('29', opt);
+    displayData();
+    // use switch or if/else etc.
+});
 function displayData() {
 // grap parameters from URL
 	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5'); necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8'); talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12'); talismanSkill3ID = getUrlParameter('13'); talismanSkill3vID = getUrlParameter('14');
