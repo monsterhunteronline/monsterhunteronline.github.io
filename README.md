@@ -2,9 +2,9 @@
 MHO Site for Discord
 
 ##Current projects
-- [ ] Make the armor set builder better
+- [x] ~~Make the armor set builder better~~
 - [ ] Finish gathering maps
-- [ ] Cat Food page out of date
+- [x] ~~Cat Food page out of date~~
 - [ ] Translate weapon skill books
 - [x] ~~Tutorial for Hunter Sets~~
 - [x] ~~Add Chinese for Hunter Sets~~
