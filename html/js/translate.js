@@ -1,1526 +1,1530 @@
+var translations = {
+    "大剑":"Greatsword",
+    "片手剑":"Sword and Shield",
+    "弩炮":"Bowgun",
+    "太刀":"Longsword",
+    "大锤":"Hammer",
+    "弓":"Bow",
+    "双刀":"Dual Blades",
+    "狩猎笛":"Hunting Horn",
+    "铳枪":"Gunlance",
+    "长枪":"Lance",
+
+    "按住<左键>后松开":"Press and hold LMB after release of LMB",
+    "左键":"LMB",
+    "右键":"RMB",
+    "人物后方向所对应的方向键":"LMB while pressing the direction of your characters back",
+    "人物左手方向所对应的方向键":"RMB while pressing the direction of your characters left",
+    "空格键":"Space Bar",
+    "E键":"E",
+    "人物前方向所对应的方向键":"LMB while pressing the direction of your characters front",
+    "松开<右键>":"Release RMB",
+    "方向键":"Release RMB while pressing a direction",
+    "按住<右键>后松开":"Press and hold RMB after release",
+    "左键+右键":"LMB + RMB",
+
+    "强击瓶":"Power Coating",
+    "毒瓶":"Poison Coating",
+    "麻瓶":"Para Coating",
+    "接击瓶":"C.Range Coating",
+    "眠瓶":"Sleep Coating",
+
+    "天型1级":"Arrow Rain Lv1",
+    "天型2级":"Arrow Rain Lv2",
+    "天型3级":"Arrow Rain Lv3",
+    "地型1级":"Arrow Bomb Lv1",
+    "地型2级":"Arrow Bomb Lv2",
+    "地型3级":"Arrow Bomb Lv3",
+
+    "小":"Small",
+    "中":"Med",
+    "大":"Large",
+    "慢":"Slow",
+    "快":"Fast",
+
+    "通常弹1级":"Normal S Lv1",
+    "通常弹2级":"Normal S Lv2",
+    "通常弹3级":"Normal S Lv3",
+    "通常弹Lv3":"Normal S Lv3",
+    "散弹1级":"Pellet S Lv1",
+    "散弹2级":"Pellet S Lv2",
+    "散弹3级":"Pellet S Lv3",
+    "贯通弹1级":"Pierce S Lv1",
+    "贯通弹2级":"Pierce S Lv2",
+    "贯通弹3级":"Pierce S Lv3",
+    "彻甲榴弹1级":"Crag S Lv1",
+    "彻甲榴弹2级":"Crag S Lv2",
+    "彻甲榴弹3级":"Crag S Lv3",
+    "麻痹弹":"Para S",
+    "致眠弹":"Sleep S",
+    "火焰弹":"Flaming S",
+    "猛毒弹":"Poison S",
+    "水冷弹":"Water S",
+    "电击弹":"Thunder S",
+    "冰结弹":"Freeze S",
+
+    "速射2发":"Rapid ",
+    "速射3发":"Rapid ",
+    "蓄力":"Charge ",
+
+    "伏击":"Ambush",
+    "抗菌":"Anti-bacterial",
+    "攻击":"Attack",
+    "蝶舞":"Butterfly Dance",
+    "耐寒":"Cold Res",
+    "体术":"Constitution",
+    "匠":"Handicraft",
+    "拔刀会心":"Crit Draw",
+    "防御":"Defense",
+    "重击":"Destroyer",
+    "龙属性攻击":"Dragon Atk",
+    "食事":"Eating",
+    "回避距离":"Evade Dist",
+    "回避性能":"Evasion",
+    "达人":"Expert",
+    "集中":"FastCharge",
+    "剑术":"Fencing",
+    "火属性攻击":"Fire Atk",
+    "火耐性":"Fire Res",
+    "吃货":"Gluttony",
+    "防御性能":"Guard",
+    "防御强化":"Guard Up",
+    "根性":"Guts",
+    "体力":"Health",
+    "听觉保护":"Hearing",
+    "耐暑":"Heat Res",
+    "药王":"Herb King",
+    "荷尔蒙":"Hormone",
+    "饥饿感":"Hunger",
+    "冰属性攻击":"Ice Atk",
+    "冰耐性":"Ice Res",
+    "会心术":"Knowing Technique",
+    "KO术":"KO",
+    "装填术":"Loading",
+    "耐泥雪":"Mud/Snow",
+    "通常弹强化":"Normal Up",
+    "麻痹抵抗":"Paralysis",
+    "散弹强化":"Pellet Up",
+    "观察眼":"Perception",
+    "贯通弹强化":"Pierce Up",
+    "毒抵抗":"Poison",
+    "底力":"Potential",
+    "加护":"Protection",
+    "千里眼":"Psychic",
+    "回复速度":"Rec Speed",
+    "反动":"Recoil",
+    "快速装填":"Reload Spd",
+    "强韧":"Resilience",
+    "气息":"Sense",
+    "研磨师":"Sharpener",
+    "锋利度":"Sharpness",
+    "睡眠抵抗":"Sleep",
+    "高速设置":"SpeedSetup",
+    "斗魂":"Spirit",
+    "耐力回复":"Stam Recov",
+    "特殊攻击":"Status",
+    "气绝抵抗":"Stun",
+    "逆境":"Survivor",
+    "痛击":"Tenderizer",
+    "刺伤":"Bleeding",
+    "雷耐性":"Thunder Res",
+    "雷属性攻击":"ThunderAtk",
+    "耐震":"Tremor Res",
+    "倒地之力":"Tripping Power",
+    "无伤":"Unscathed",
+    "水属性攻击":"Water Atk",
+    "广域化":"Wide-Range",
+    "风压抵抗":"Wind Res",
+    "甲壳猎人":"Carapacean Hunter",
+    "鸟龙猎人":"Bird Wyvern Hunter",
+    "飞龙猎人":"Flying Wyvern Hunter",
+    "眠弹增加":"Sleep C+",
+    "耐力消耗下降":"Endurance Consumption Down",
+    "猎人生活":"Hunter Life",
+    "水耐性":"Water Res",
+    "龙耐性":"Dragon Res",
+    "恢复量":"Recovery Amount",
+    "速射":"Rapid Fire",
+    "笛":"Flute",
+    "炮术":"Artillery",
+    "古龙猎人":"Elder Dragon Hunter",
+    "鱼龙猎人":"Piscine Wyvern Hunter",
+    "牙兽猎人":"Fanged Beast Hunter",
+    "贯通弹增加":"Pierce S Carry",
+    "散弹增加":"Pellet S Carry",
+    "榴弹增加":"Crag S Carry",
+    "麻痹弹增加":"Para C+",
+    "毒弹增加":"Poison C+",
+    "孤注一掷":"Desperation",
+    "采集":"Collection",
+    "通常弹增加":"Normal S Carry",
+    "锁气绝":"Stun Lock",
+    "快速防御":"Auto-Guard",
+    "烤肉达人":"Barbecue Daren",
+
+    "刺杀术+1":"Assassin Tech +1",
+    "刺杀术+2":"Assassin Tech +2",
+    "耐菌":"Bacteria Cancel",
+    "攻击力提升（小）":"Attack Up (S)",
+    "攻击力提升（中）":"Attack Up (M)",
+    "攻击力提升（大）":"Attack Up (L)",
+    "攻击力提升（超）":"Attack Up (XL)",
+    "攻击力提升（极）":"Attack Up (XXL)",
+    "攻击力降低（小）":"Attack Down (S)",
+    "攻击力降低（中）":"Attack Down (M)",
+    "攻击力降低（大）":"Attack Down (L)",
+    "攻击力降低（超）":"Attack Down (XL)",
+    "刺伤无效":"Negate Bleeding",
+    "化蝶":"Butterfly Form",
+    "体术+1":"Constitution +1",
+    "体术+2":"Constitution +2",
+    "体术+3":"Constitution +3",
+    "体术-1":"Constitution -1",
+    "体术-2":"Constitution -2",
+    "斩味等级+1":"Sharpness +1",
+    "拔刀术":"Critical Draw",
+    "拔刀术极":"Critical Draw Max",
+    "防御力提升（小）":"Defense Up (S)",
+    "防御力提升（中）":"Defense Up (M)",
+    "防御力提升（大）":"Defense Up (L)",
+    "防御力提升（超）":"Defense Up (XL)",
+    "防御力提升（极）":"Defense Up (XXL)",
+    "防御力降低（小）":"Defense Down (S)",
+    "防御力降低（中）":"Defense Down (M)",
+    "防御力降低（大）":"Defense Down (L)",
+    "防御力降低（超）":"Defense Down (XL)",
+    "破坏王":"Partbreaker",
+    "破坏神":"Destruction God",
+    "龙属性攻击强化+1":"Dragon Atk +1",
+    "龙属性攻击强化+2":"Dragon Atk +2",
+    "龙属性攻击强化+3":"Dragon Atk +3",
+    "龙属性攻击弱化":"Dragon Atk Down",
+    "速食":"Speed Eating",
+    "慢食":"Slow Eater",
+    "回避距离+1":"Evade Dist +1",
+    "回避距离+2":"Evade Dist +2",
+    "回避性能+1":"Evasion +1",
+    "回避性能+2":"Evasion +2",
+    "回避性能+3":"Evasion +3",
+    "见切+1":"Critical Eye +1",
+    "见切+2":"Critical Eye +2",
+    "见切+3":"Critical Eye +3",
+    "见切+4":"Critical Eye +4",
+    "见切+5":"Critical Eye +5",
+    "见切-1":"Critical Eye -1",
+    "见切-2":"Critical Eye -2",
+    "见切-3":"Critical Eye -3",
+    "见切-4":"Critical Eye -4",
+    "集中":"Concentrate",
+    "专注":"Focus",
+    "凝神":"Attentive",
+    "杂念":"Distraction",
+    "心眼":"Mind's Eye",
+    "火属性攻击强化+1":"Fire Atk +1",
+    "火属性攻击强化+2":"Fire Atk +2",
+    "火属性攻击强化+3":"Fire Atk +3",
+    "火属性攻击弱化":"Fire Atk Down",
+    "火属性耐性强化+1":"Fire Res +1",
+    "火属性耐性强化+2":"Fire Res +2",
+    "火属性耐性强化+3":"Fire Res +3",
+    "火属性耐性弱化":"Fire Res Down",
+    "大胃王":"Gourmand",
+    "防御性能+1":"Guard +1",
+    "防御性能+2":"Guard +2",
+    "防御性能+3":"Guard +3",
+    "防御强化":"Guard Boost",
+    "体力强化+1":"Health +1",
+    "体力强化+2":"Health +2",
+    "体力强化+3":"Health +3",
+    "体力强化+4":"Health +4",
+    "体力强化+5":"Health +5",
+    "体力弱化-1":"Health -1",
+    "体力弱化-2":"Health -2",
+    "体力弱化-3":"Health -3",
+    "体力弱化-4":"Health -4",
+    "耳栓":"Earplugs",
+    "高级耳栓":"HG Earplugs",
+    "耐暑":"Heat Cancel",
+    "草药达人":"Herbal Daren",
+    "吸引":"Attract",
+    "饥饿感减半":"Halve Hunger",
+    "饱腹":"Negate Hunger",
+    "饥饿感增加":"Raise Hunger",
+    "冰属性攻击强化+1":"Ice Atk +1",
+    "冰属性攻击强化+2":"Ice Atk +2",
+    "冰属性攻击强化+3":"Ice Atk +3",
+    "冰属性攻击弱化":"Ice Atk Down",
+    "冰属性耐性强化+1":"Ice Res +1",
+    "冰属性耐性强化+2":"Ice Res +2",
+    "冰属性耐性强化+3":"Ice Res +3",
+    "冰属性耐性弱化":"Ice Res Down",
+    "暴击":"Violent Strike",
+    "装填术":"Load Up",
+    "耐泥雪":"Negate Mud/Snow",
+    "通常弹&连射矢强化":"Normal/Rapid Up",
+    "麻痹免疫":"Negate Paralysis",
+    "麻痹倍化":"Double Paralysis",
+    "散弹/矢强化":"Pellet/Spread Up",
+    "贯通弹/矢强化":"Pierce/Pierce Up",
+    "毒减半":"Halve Poison",
+    "毒无效":"Negate Poison",
+    "毒倍化":"Double Poison",
+    "火事场力+1":"Adrenaline +1",
+    "火事场力+2":"Adrenaline +2",
+    "火事场力+3":"Adrenaline +3",
+    "不安":"Worrywart",
+    "精灵的守护":"Holy Blessing",
+    "精灵王的加护":"Divine Blessing",
+    "恶灵的加护":"Evil Blessing",
+    "恶灵王的加护":"Demonic Blessing",
+    "探知":"Detect",
+    "自动标记":"Autotracker",
+    "回复速度+1":"Rec Speed +1",
+    "回复速度+2":"Rec Speed +2",
+    "回复速度+3":"Rec Speed +3",
+    "回复速度-1":"Rec Speed -1",
+    "回复速度-2":"Rec Speed -2",
+    "回复速度-3":"Rec Speed -3",
+    "反动减轻+1":"Recoil Down +1",
+    "反动减轻+2":"Recoil Down +2",
+    "反动增大":"Recoil Up",
+    "上弹速度强化+1":"Reload Spd +1",
+    "上弹速度强化+2":"Reload Spd +2",
+    "上弹速度强化+3":"Reload Spd +3",
+    "上弹速度强化-1":"Reload Spd -1",
+    "上弹速度强化-2":"Reload Spd -2",
+    "看破+1":"See Through +1",
+    "看破+2":"See Through +2",
+    "隐秘":"Sneak",
+    "挑衅":"Taunt",
+    "砥石使用高速化":"Speed Sharpening",
+    "砥石使用极速化":"High Speed Sharpening",
+    "砥石使用低速化":"Slow Sharpening",
+    "业物":"Sharp",
+    "无锋":"Razor Sharp",
+    "钝刀":"Blunt Edge",
+    "睡眠免疫":"Negate Sleep",
+    "睡眠倍化":"Double Sleep",
+    "陷阱师":"Trap Master",
+    "挑战者+1":"Challenger +1",
+    "挑战者+2":"Challenger +2",
+    "耐力回复+1":"Stam Recov +1",
+    "耐力回复+2":"Stam Recov +2",
+    "耐力回复+3":"Stam Recov +3",
+    "耐力回复-1":"Stam Recov -1",
+    "耐力回复-2":"Stam Recov -2",
+    "状态异常攻击+1":"Status Atk +1",
+    "状态异常攻击+2":"Status Atk +2",
+    "状态异常攻击+3":"Status Atk +3",
+    "状态异常攻击-1":"Status Atk Down",
+    "气绝减半":"Halve Stun",
+    "气绝免疫":"Negate Stun",
+    "气绝倍化":"Double Stun",
+    "不屈":"Fortify",
+    "弱点特效":"Weakness Exploit",
+    "雷属性耐性强化+1":"Thunder Res +1",
+    "雷属性耐性强化+2":"Thunder Res +2",
+    "雷属性耐性强化+3":"Thunder Res +3",
+    "雷属性耐性弱化":"Thunder Res Down",
+    "雷属性攻击强化+1":"Thunder Atk +1",
+    "雷属性攻击强化+2":"Thunder Atk +2",
+    "雷属性攻击强化+3":"Thunder Atk +3",
+    "雷属性攻击弱化":"Thunder Atk Down",
+    "绊术":"Tripping Power",
+    "水属性攻击强化+1":"Water Atk +1",
+    "水属性攻击强化+2":"Water Atk +2",
+    "水属性攻击强化+3":"Water Atk +3",
+    "水属性攻击弱化":"Water Atk Down",
+    "广域化+1":"Wide-Range +1",
+    "广域化+2":"Wide-Range +2",
+    "广域化+3":"Wide-Range +3",
+    "风压（小）无效":"Windproof (Lo)",
+    "风压（大）无效":"Windproof (Hi)",
+    "龙风压无效":"Dragon Windproof",
+    "眠瓶/弹追加":"Use Sleep Coat",
+    "飞人+1":"Marathon Runner +1",
+    "飞人+2":"Marathon Runner +2",
+    "野外生存":"Wilderness Survival",
+    "水属性耐性强化+1":"Water Res +1",
+    "水属性耐性强化+2":"Water Res +2",
+    "水属性耐性强化+3":"Water Res +3",
+    "水属性耐性弱化":"Water Res Down",
+    "龙属性耐性强化+1":"Dragon Res +1",
+    "龙属性耐性强化+2":"Dragon Res +2",
+    "龙属性耐性强化+3":"Dragon Res +3",
+    "龙属性耐性弱化":"Dragon Res Down",
+    "吃血量增加":"Recovery Up",
+    "吃血量大幅增加":"Recovery Up Large",
+    "吃血量减少":"Recovery Down",
+    "茸食":"Alloy Stomach",
+    "速射子弹+1":"Bonus Shot +1",
+    "吹笛名人":"Horn Maestro",
+    "炮术师":"Artillery Exptert",
+    "炮术王":"Artillery God",
+    "甲壳杀手":"Carapacean Killer",
+    "鸟龙杀手":"Bird Wyvern Killer",
+    "飞龙杀手":"Flying Wyvern Killer",
+    "贯通弹LV1/2/3装填数+3":"Pierce S Lv1/2/3 +3",
+    "贯通弹LV1/2装填数+3":"Pierce S Lv1/2 +3",
+    "贯通弹LV1装填数+3":"Pierce S Lv1 +3",
+    "散弹LV1/2/3装填数+2":"Pellet S Lv1/2/3 +2",
+    "散弹LV1/2装填数+2":"Pellet S Lv1/2 +2",
+    "散弹LV1+2":"Pellet S Lv1 +2",
+    "榴弹LV1/2/3装填数+2":"Crag S Lv1/2/3 +2",
+    "榴弹LV1/2装填数+2":"Crag S Lv1/2 +2",
+    "榴弹LV1+2":"Crag S Lv1 +2",
+    "麻瓶/弹追加":"Use Para Coat",
+    "毒瓶/毒弹追加":"Use Poison Coat",
+    "顿足":"Slow Sprinter",
+    "卸甲":"Unload Armor",
+    "采取+2":"Take +2",
+    "采取+1":"Take +1",
+    "古龙杀手":"Elder Dragon Killer",
+    "鱼龙杀手":"Piscine Wyvern Killer",
+    "牙兽杀手":"Fanged Beast Killer",
+    "通常弹LV1/2/3装填数+3":"Normal S Lv1/2/3 +3",
+    "通常弹LV1/2装填数+3":"Normal S Lv1/2 +3",
+    "通常弹LV1装填数+3":"Normal S Lv1 +3",
+
+    "极大提升攻击力":"Greatly increase Attack",
+    "大幅提升攻击力":"Dramatically increase Attack",
+    "显著提升攻击力":"Significantly increase Attack",
+    "中量提升攻击力":"Increase Attack",
+    "略微提升攻击力":"Slightly increase Attack",
+    "略微降低攻击力":"Slightly reduce Attack",
+    "中量降低攻击力":"Reduce Attack",
+    "显著降低攻击力":"Significantly reduce Attack",
+    "大幅降低攻击力":"Dramatically reduce Attack",
+    "极大提升防御力":"Greatly increase Defense",
+    "大幅提升防御力":"Dramatically increase Defense",
+    "显著提升防御力":"Significantly increase Defense",
+    "中量提升防御力":"Increase Defense",
+    "略微提升防御力":"Slightly increase Defense",
+    "略微降低防御力":"Slightly reduce Defense",
+    "中量降低防御力":"Reduce Defense",
+    "显著降低防御力":"Significantly reduce Defense",
+    "大幅降低防御力":"Dramatically reduce Defense",
+    "极大增加会心几率":"Greatly increase Critical Chance",
+    "大幅增加会心几率":"Dramatically increase Critical Chance",
+    "显著增加会心几率":"Significantly increase Critical Chance",
+    "中量增加会心几率":"Increase Critical Chance",
+    "略微增加会心几率":"Slightly increase Critical Chance",
+    "略微降低会心几率":"Slightly reduce Critical Chance",
+    "中量降低会心几率":"Reduce Critical Chance",
+    "显著降低会心几率":"Significantly reduce Critical Chance",
+    "食用速度加快":"Eating sped up",
+    "食用速度减慢":"Slow down the speed of eating",
+    "可以知道地图中大型怪物的濒死状态便于捕获":"Shows when monster is dying to help with monster capture",
+    "可以知道地图中大型怪物的位置":"Shows location of large monsers",
+    "在怪物身上存在染色效果时，可以知道大型怪物什么时候能被捕捉":"Shows when monster is dying (when marked with paintball) to help with monster capture",
+    "极大提升体力上限":"Greatly increase amount of Health",
+    "大幅提升体力上限":"Dramatically increase amount of Health",
+    "显著提升体力上限":"Significantly increase amount of Health",
+    "中量提升体力上限":"Increase amount of Health",
+    "略微提升体力上限":"Slightly increase amount of Health",
+    "略微降低体力上限":"Slightly reduce amount of Health",
+    "中量降低体力上限":"Reduce amount of Health",
+    "显著降低体力上限":"Significantly reduce amount of Health",
+    "大幅降低体力上限":"Dramatically reduce amount of Health",
+    "回复能力大幅增强":"Greatly increase Rec Speed",
+    "回复能力显著增强":"Significantly increase Rec Speed",
+    "回复能力略微增强":"Slightly increase Rec Speed",
+    "回复能力降低":"Reduce Rec Speed",
+    "水属性攻击伤害大幅提升":"Dramatically increase Water Attack",
+    "水属性攻击伤害显著提升":"Significantly increase Water Attack",
+    "水属性攻击伤害略微提升":"Slightly increase Water Attack",
+    "水属性攻击的伤害衰减":"Reduce Water Attack",
+    "火属性攻击伤害大幅提升":"Dramatically increase Fire Attack",
+    "火属性攻击伤害显著提升":"Significantly increase Fire Attack",
+    "火属性攻击伤害略微提升":"Slightly increase Fire Attack",
+    "火属性攻击的伤害衰减":"Reduce Fire Attack",
+    "雷属性攻击伤害大幅提升":"Dramatically increase Thunder Attack",
+    "雷属性攻击伤害显著提升":"Significantly increase Thunder Attack",
+    "雷属性攻击伤害略微提升":"Slightly increase Thunder Attack",
+    "雷属性攻击的伤害衰减":"Reduce Thunder Attack",
+    "龙属性攻击伤害大幅提升":"Dramatically increase Dragon Attack",
+    "龙属性攻击伤害显著提升":"Significantly increase Dragon Attack",
+    "龙属性攻击伤害略微提升":"Slightly increase Dragon Attack",
+    "龙属性攻击的伤害衰减":"Reduce Dragon Attack",
+    "冰属性攻击伤害大幅提升":"Dramatically increase Ice Attack",
+    "冰属性攻击伤害显著提升":"Significantly increase Ice Attack",
+    "冰属性攻击伤害略微提升":"Slightly increase Ice Attack",
+    "水属性攻击的伤害衰减":"Reduce Ice Attack",
+    "不会进入麻痹状态":"Cannot be Paralysed",
+    "麻痹状态的时间增长":"Paralysis time extended",
+    "不会进入气绝状态":"Cannot be Stunned",
+    "气绝状态的时间减半":"Stun time halved",
+    "气绝状态的时间延长":"Stun time extended",
+    "不会进入睡眠状态":"Cannot be put to Sleep",
+    "进入睡眠状态的时间延长":"Sleep time extended",
+    "不会进入中毒状态":"Cannot be Poisoned",
+    "中毒状态的时间减半":"Poison time halved",
+    "进入毒状态的时间延长":"Poison time extended",
+    "大剑、锤、弓蓄力时间缩短20%；双刀鬼人槽积攒效率+50%；太刀练气槽积攒效率+20%":"Sword, hammer, and bow charge time reduced by 20%; Dual blades Demon gauge accumulation efficiency +50%; Longsword Spirit guage accumulation efficiency +20%",
+    "大剑、锤、弓蓄力时间缩短10%；双刀鬼人槽积攒效率+30%；太刀练气槽积攒效率+10%":"Sword, hammer, and bow charge time reduced by 10%; Dual blades Demon gauge accumulation efficiency +30%; Longsword Spirit guage accumulation efficiency +10%",
+    "大剑、锤、弓蓄力时间缩短5%；双刀鬼人槽积攒效率+15%；太刀练气槽积攒效率+5%":"Sword, hammer, and bow charge time reduced by 5%; Dual blades Demon gauge accumulation efficiency +15%; Longsword Spirit guage accumulation efficiency +5%",
+    "大剑和锤蓄力所需时间延长":"Requirements extended",
+    "较大概率受到的伤害值明显降低":"Greater chance that when recieving damage it gets significantly reduced",
+    "一定概率受到的伤害值降低":"Chance that when recieving damage it gets reduced",
+    "一定概率受到的伤害值增加":"Chance that when recieving damage it gets increased",
+    "较大概率受到的伤害值明显增加":"Greater chance that when recieving damage it gets significantly increased",
+    "更容易对怪物造成部位破坏":"More likely to damage breakable parts of a monster",
+    "容易对怪物造成部位破坏":"Likely to damage breakable parts of a monster",
+    "体力较低时，防御力和攻击力得到大幅提升":"Dramatically increase Defense and Attack when at low health",
+    "体力较低时，防御力和攻击力得到提升":"Increase Defense and Attack when at low health",
+    "体力较低时，防御力提升":"Increase Defense and Attack when at low health",
+    "体力降低时，防御力和攻击力减少":"Decrease Defense and Attack when at low health",
+    "攻击时不会弹刀":"Prevents your attacks from being deflected",
+    "击中怪物弱点部位时，有额外伤害加成":"Increases damage when striking body parts that your attacks are highly effective",
+    "使得弩可以使用LV1/LV2/LV3贯通弹，如果已有该子弹，则弹夹变长":"You can use Pierce S Lvl1/2/3; if you already have these your clip size is extended",
+    "使得弩可以使用LV1/LV2贯通弹，如果已有该子弹，则弹夹变长":"You can use Pierce S Lvl1/2; if you already have these your clip size is extended",
+    "使得弩可以使用LV1贯通弹，如果已有该子弹，则弹夹变长":"You can use Pierce S Lvl1; if you already have these your clip size is extended",
+    "耐力上限值不会减少":"Stamina bar will not decrease",
+    "耐力上限的自然下降速度变慢":"Stamina bar will decrease slower",
+    "耐力上限的自然下降速度变快":"Stamina bar decreases faster",
+    "大幅减少翻滚及受身的耐力消耗":"Significantly reduce the stamina cost of dodging",
+    "显著减少翻滚及受身的耐力消耗":"Reduce the stamina cost of dodging",
+    "略微减少翻滚及受身的耐力消耗":"Slightly reduce the stamina cost of dodging",
+    "略微增加翻滚及受身的耐力消耗":"Slightly increase the stamina cost of dodging",
+    "显著增加翻滚及受身的耐力消耗":"Significantly increase the stamina cost of dodging",
+    "奥义槽全满是增加攻击力和防御力":"Increases Attack and Defense when Ultimate Guage is charged",
+    "使得弩可以使用LV1/LV2/LV3散弹，如果已有该子弹，则弹夹变长":"You can use Pellet S Lvl1/2/3; if you already have these your clip size is extended",
+    "使得弩可以使用LV1/LV2散弹，如果已有该子弹，则弹夹变长":"You can use Pellet S Lvl1/2; if you already have these your clip size is extended",
+    "使得弩可以使用LV1散弹，如果已有该子弹，则弹夹变长":"You can use Pellet S Lvl1; if you already have these your clip size is extended",
+    "弩子弹装填的速度显著提升":"Significantly improve speed of Bowgun bullet loading and Bow coat applying",
+    "弩子弹装填的速度中等提升":"Improve speed of Bowgun bullet loading and Bow coat applying",
+    "弩子弹装填的速度略微提升":"Slightly improve speed of Bowgun bullet loading and Bow coat applying",
+    "弩子弹装填的速度略微下降":"slightly decrease speed of Bowgun bullet loading and Bow coat applying",
+    "弩子弹装填的速度中等下降":"Decrease speed of Bowgun bullet loading and Bow coat applying",
+    "异常状态攻击的蓄积值大幅增加":"Dramatically increase Status Attack",
+    "异常状态攻击的蓄积值显著增加":"Significantly increase Status Attack",
+    "异常状态攻击的蓄积值少量增加":"Slightly increase Status Attack",
+    "异常状态攻击的蓄积值减少":"Reduce Status Attack",
+    "使得弩可以使用LV1/LV2/LV3榴弹，如果已有该子弹，则弹夹变长":"You can use Crag S Lvl1/2/3; if you already have these your clip size is extended",
+    "使得弩可以使用LV1/LV2榴弹，如果已有该子弹，则弹夹变长":"You can use Crag S Lvl1/2; if you already have these your clip size is extended",
+    "使得弩可以使用LV1榴弹，如果已有该子弹，则弹夹变长":"You can use Crag S Lvl1; if you already have these your clip size is extended",
+    "使用放置类道具时速度显著加快":"Speeds up trap-setting and bomb-setting time",
+    "增加连射矢和通常弹的伤害":"Increases the power of Normal S and Rapid-type arrows",
+    "增加贯通矢和贯通弹的伤害":"Increases the power of Pierce S and Pierce-type arrows",
+    "增加散弹和散射矢的伤害":"Increases the power of Pellet S and Sread-type arrows",
+    "不受到震地效果的影响":"Prevents staggering from tremors created by large monsters",
+    "受到攻击后15秒内再次受到的首次攻击伤害显著降低，一段时间内仅触发一次":"Significantly reduce damage after being attacked again within 15 seconds of the first attack; Has a cooldown",
+    "受到攻击后10秒内再次受到的首次攻击伤害降低,一段时间内仅触发一次":"Reduce damage after being attacked again within 10 seconds of the first attack; Has a cooldown",
+    "当队伍中存在异性的情况下，攻击力得到一定提升":"Increases your attack when in party with opposite sex",
+    "使用对应类型的远程武器时，可以使用眠瓶或眠弹":"Can use Sleep C (Bow) or Sleep S (Bowgun)",
+    "使用对应类型的远程武器时，可以使用麻瓶或麻弹":"Can use Para C (Bow) or Para S (Bowgun)",
+    "使用对应类型的远程武器时，可以使用毒瓶或毒弹":"Can use Poison C (Bow) or Poison S (Bowgun)",
+    "不容易成为怪物的目标":"Reduce chance of being targeted by monster",
+    "更容易成为怪物的目标":"Increase chance of being targeted by monster",
+    "可以抵御大多数大型怪物的咆哮":"Can withstand most large monster roars",
+    "可以抵御部分大型怪物的咆哮":"Can withstand some large monster roars",
+    "大幅增强防御时可抵御的攻击强度":"Greatly increase amount of attack you can guard against",
+    "显著增强防御时可抵御的攻击强度":"Significantly increase amount of attack you can guard against",
+    "增强防御时可抵御的攻击强度":"Increase amount of attack you can guard against",
+    "增加耐力回复速度":"Increase Stamina recovery speed",
+    "降低耐力回复速度":"Reduce Stamina recovery speed",
+    "大幅降低耐力回复速度":"Significantly reduce Stamina recovery speed",
+    "能够抵抗不可防御招式":"Causes previously unblockable attacks to become blockable",
+    "大幅增加翻滚的移动距离":"Significantly increase dodge roll distance",
+    "增加翻滚的移动距离":"Increase dodge roll distance",
+    "大幅增加翻滚的无敌时间":"Greatly increase dodge invincible time",
+    "显著增加翻滚的无敌时间":"Significantly increase dodge invincible time",
+    "增加翻滚的无敌时间":"Increase dodge invincible time",
+    "在剩余一定体力的情况下，不会被一击必杀":"Prevents fainting a single time if struck with a lethal blow; except one hit kills",
+    "当怪物愤怒时，攻击力提升":"Increase your Attack when monster is angry",
+    "当怪物愤怒时，攻击力小幅提升":"Slightly increase your Attack when monster is angry",
+    "不会进入臭气状态":"Prevent stench",
+    "每次死亡后攻击力和防御力都得到一定的提升（最多提升2次）":"After each death, attack and defense improved slightly (Stacks twice)",
+    "不会进入泥人或雪人状态":"Prevents being coated in snow or mud",
+    "免疫怪物造成的小型和大型风压以及古龙造成的龙风压":"Immune to small and large wind pressure (including elder dragons)",
+    "免疫怪物造成的小型和大型风压":"Immune to small and large wind pressure",
+    "免疫怪物造成的小型风压":"Immune to small wind pressure",
+    "耐力消耗显著降低":"Significantly reduce consumption cost of Stamina",
+    "耐力消耗降低":"Reduce consumption cost of Stamina",
+    "耐力消耗增加":"Increase consumption cost of Stamina",
+    "当血量值较高时，通过降低防御力增加伤害":"When health is high, increase your Attack by reducing your Defense",
+    "当持续一定时间没有触发会心时，下一次攻击增加会心机率":"After not dealing a critical strike for a while, your next attack will increase critical chance",
+    "当自己使用恢复类及肉类时，对同区域内的队员都提供较大比例的效果":"Transfers a large portion of the effects of certain items to companions in the same area",
+    "当自己使用恢复类道具时，对同区域内的队员提供较大比例的效果":"Transfers a greater portion of the effects of certain items to companions in the same area",
+    "当自己使用恢复类道具时，对一定范围内的队员提供一定比例的效果":"Transfers a portion of the effects of certain items to companions in the same area",
+    "非怪物仇恨目标时额外增加伤害，但对怪物的仇恨变高":"Increases damage to monsters not targeting you, but they will become more likely to target you",
+    "攻击时大幅降低斩味消耗":"Greatly reduce Sharpness consumption",
+    "攻击时降低斩味消耗":"Reduce Sharpness consumption",
+    "攻击时增加斩味消耗":"Increase Sharpness consumption",
+    "采集时80%几率多采一次":"When collecting there is an 80% chance of recieving more items",
+    "采集时50%几率多采一次":"When collecting there is an 50% chance of recieving more items",
+    "搬蛋时移动速度增加，并且偷盗免疫":"Increases movement speed when moving eggs; theft immunity",
+    "对飞龙种造成的伤害增加":"Increase the damage done to certain monster species",
+    "对鸟龙种造成的伤害增加":"Increase the damage done to certain monster species",
+    "对甲壳种造成的伤害增加":"Increase the damage done to certain monster species",
+    "对古龙种造成的伤害增加":"Increase the damage done to certain monster species",
+    "对鱼龙种造成的伤害增加":"Increase the damage done to certain monster species",
+    "对牙兽种造成的伤害增加":"Increase the damage done to certain monster species",
+    "增加攻击的气绝效果":"Makes it easier to Stun monsters",
+    "增加攻击的倒地效果":"Makes it easier to Trip monsters",
+    "暑热效果无效":"Negates Heat effects",
+    "寒冷效果无效":"Negates Cold effects",
+    "使得弩可以使用LV1/LV2/LV3通常弹，如果已有该子弹，则弹夹变长":"You can use Normal S Lvl1/2/3; if you already have these your clip size is extended",
+    "使得弩可以使用LV1/LV2通常弹，如果已有该子弹，则弹夹变长":"You can use Normal S Lvl1/2; if you already have these your clip size is extended",
+    "使得弩可以使用LV1通常弹，如果已有该子弹，则弹夹变长":"You can use Normal S Lvl1; if you already have these your clip size is extended",
+    "斩味增加一档":"Adds more sharpness to weapon",
+    "吃药品时候有一定几率恢复耐力":"Increases the effecacy of meat that raises max Stamina",
+    "体力满时攻击力增加":"Increases Attack at full health",
+    "弩装填数+1，可以使用弓箭4级蓄力":"Gives +1 shot to bowgun; Unlocks Bow Lvl4 charge",
+    "水属性耐性大幅提升":"Dramatically increase Water Res",
+    "水属性耐性显著提升":"Significantly increase Water Res",
+    "水属性耐性略微提升":"Slightly increase Water Res",
+    "水属性耐性衰减":"Reduce Water Res",
+    "火属性耐性大幅提升":"Dramatically increase Fire Res",
+    "火属性耐性显著提升":"Significantly increase Fire Res",
+    "火属性耐性略微提升":"Slightly increase Fire Res",
+    "火属性耐性衰减":"Reduce Fire Res",
+    "雷属性耐性大幅提升":"Dramatically increase Thunder Res",
+    "雷属性耐性显著提升":"Significantly increase Thunder Res",
+    "雷属性耐性略微提升":"Slightly increase Thunder Res",
+    "雷属性耐性衰减":"Reduce Thunder Res",
+    "龙属性耐性大幅提升":"Dramatically increase Dragon Res",
+    "龙属性耐性显著提升":"Significantly increase Dragon Res",
+    "龙属性耐性略微提升":"Slightly increase Dragon Res",
+    "龙属性耐性衰减":"Reduce Dragon Res",
+    "冰属性耐性大幅提升":"Dramatically increase Ice Res",
+    "冰属性耐性显著提升":"Significantly increase Ice Res",
+    "冰属性耐性略微提升":"Slightly increase Ice Res",
+    "冰属性耐性衰减":"Reduce Ice Res",
+    "能够使砥石进行磨刀的速度达到极速":"Greatly increases speed of whetstone sharpening",
+    "能够大幅加快使用砥石进行磨刀的速度":"Significantly increases speed of whetstone sharpening",
+    "降低使用砥石进行磨刀的速度":"Reduces the speed of whetstone sharpening",
+    "锤横扫重击、片手剑盾二连击、大剑拍击和防御拍击、弩炮近身攻击命中怪物头部将产生\n锁气绝效果，短时内让怪物气绝值停止恢复。":"Hammer blow, Sword and Shield Bash, Greatsword Slap, and Ranged head hits will lock up the monster. The monster will recover in a short amount of time",
+    "大剑或片手剑可以在招式的间隙转入防御状态":"When equiped with a Greatsword or Sword and Shield, you will automatically guard frontal attacks when not attacking ",
+    "使用回复药等道具时，恢复量大幅增加":"When using health recovery items gain a substantial amount of Recovery",
+    "使用回复药等道具时，恢复量增加":"When using health recovery items gain increased Recovery",
+    "使用回复药等道具时，恢复量较少":"When using health recovery items the amount recovered is lessened",
+    "食用草药就可以恢复大量体力":"Edible herbs can recover a large amount of health",
+    "吃蘑菇有不同效果":"Eating mushrooms have different effects",
+    "自动烤肉":"Auto Barbecue",
+    "拔刀攻击时，会心率大幅增加":"When attacking out of sheathe critical rate is increased substantially",
+    "拔刀攻击时，会心率增加":"When attacking out of sheathe critical rate is increased",
+    "弩炮速射时增加一发子弹":"Increase Rapid-Fire bullet count by one",
+    "弩炮射击时，后坐力大幅减少":"Significantly reduce Bowgun recoil",
+    "弩炮射击时，后坐力减少":"Reduce Bowgun recoil",
+    "弩炮射击时，后坐力变大":"Increase Bowgun recoil",
+    "狩猎笛旋律效果持续时间变长":"Hunting Horn Melody effects last for a longer time",
+    "炮击伤害小幅增加，龙击炮CD时间小幅缩减":"Shelling damage increased slightly, Wyvern Fire Cooldown reduced",
+    "炮击伤害略微增加，龙击炮CD时间略微缩减":"Shelling damage increased slightly, Wyvern Fire Cooldown slightly reduced",
+    "不会进入刺伤状态":"Negates Bleeding condition",
+
+    "真晓风":"True Dawnwind",
+
+    "灰晶蝎":"<a href='/monsters/akura-jebia/' target='_blank'>Akura Jebia</a>",
+    "尾晶蝎":"<a href='/monsters/akura-vashimu/' target='_blank'>Akura Vashimu</a>",
+    "苍火龙":"<a href='/monsters/azure-rathalos/' target='_blank'>Azure Rathalos</a>",
+    "鬼狩蛛":"<a href='/monsters/baelidae/' target='_blank'>Baelidae</a>",
+    "岩龙":"<a href='/monsters/basarios/' target='_blank'>Basarios</a>",
+    "铠龙":"<a href='/monsters/gravios/' target='_blank'>Gravios</a>",
+    "雪狮子王":"<a href='/monsters/blangonga/' target='_blank'>Blangonga</a>",
+    "青怪鸟":"<a href='/monsters/blue-yian-kut-ku/' target='_blank'>Blue Yian Kut-Ku</a>",
+    "大野猪王":"<a href='/monsters/bulldrome/' target='_blank'>Bulldrome</a>",
+    "河狸兽":"<a href='/monsters/caeserber/' target='_blank'>Caeserber</a>",
+    "沙龙王":"<a href='/monsters/cephadrome/' target='_blank'>Cephadrome</a>",
+    "沙雷鸟":"<a href='/monsters/chramine/' target='_blank'>Chramine</a>",
+    "烈焰女王":"<a href='/monsters/conflagration-rathian/' target='_blank'>Conflagration Rathian</a>",
+    "烈焰雌火龙":"<a href='/monsters/conflagration-rathian/' target='_blank'>Conflagration Rathian</a>",
+    "桃毛兽王":"<a href='/monsters/congalala/' target='_blank'>Congalala</a>",
+    "晶岩龙":"<a href='/monsters/crystal-basarios/' target='_blank'>Crystal Basarios</a>",
+    "大名盾蟹":"<a href='/monsters/daimyo-hermitaur/' target='_blank'>Daimyo Hermitaur</a>",
+    "角龙":"<a href='/monsters/diablos/' target='_blank'>Diablos</a>",
+    "祸星龙":"<a href='/monsters/doom-estrellian/' target='_blank'>Doom Estrellian</a>",
+    "骇狩蛛":"<a href='/monsters/dread-baelidae/' target='_blank'>Dread Baelidae</a>",
+    "星龙":"<a href='/monsters/estrellian/' target='_blank'>Estrellian</a>",
+    "黄速龙王":"<a href='/monsters/gendrome/' target='_blank'>Gendrome</a>",
+    "战鬼河狸兽":"<a href='/monsters/ghost-caeserber/' target='_blank'>Ghost Caeserber</a>",
+    "白速龙王":"<a href='/monsters/giadrome/' target='_blank'>Giadrome</a>",
+    "金毛兽王":"<a href='/monsters/gold-congalala/' target='_blank'>Gold Congalala</a>",
+    "金眠鸟":"<a href='/monsters/gold-hypnocatrice/' target='_blank'>Gold Hypnocatrice</a>",
+    "红莲砦蟹":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>",
+    "毒怪鸟":"<a href='/monsters/gypceros/' target='_blank'>Gypceros</a>",
+    "眠鸟":"<a href='/monsters/hypnocatrice/' target='_blank'>Hypnocatrice</a>",
+    "冰雷鸟":"<a href='/monsters/ice-chramine/' target='_blank'>Ice Chramine</a>",
+    "红速龙王":"<a href='/monsters/iodrome/' target='_blank'>Iodrome</a>",
+    "电龙":"<a href='/monsters/khezu/' target='_blank'>Khezu</a>",
+    "钢龙":"<a href='/monsters/kushala-daora/' target='_blank'>Kushala Daora</a>",
+    "电甲虫":"<a href='/monsters/lightenna/' target='_blank'>Lightenna</a>",
+    "NBY":"<a href='/monsters/lightenna/' target='_blank'>Lightenna</a>",
+    "荒厄龙":"<a href='/monsters/merphistophelin/' target='_blank'>Merphistophelin</a>",
+    "NB5":"<a href='/monsters/merphistophelin/' target='_blank'>Merphistophelin</a>",
+    "一角龙":"<a href='/monsters/monoblos/' target='_blank'>Monoblos</a>",
+    "独耳黑狼鸟":"<a href='/monsters/one-eared-yian-garuga/' target='_blank'>One-Eared Yian Garuga</a>",
+    "片耳黑狼鸟":"<a href='/monsters/one-eared-yian-garuga/' target='_blank'>One-Eared Yian Garuga</a>",
+    "樱火龙":"<a href='/monsters/pink-rathian/' target='_blank'>Pink Rathian</a>",
+    "水龙":"<a href='/monsters/plesioth/' target='_blank'>Plesioth</a>",
+    "紫毒鸟":"<a href='/monsters/purple-gypceros/' target='_blank'>Purple Gypceros</a>",
+    "雄火龙":"<a href='/monsters/rathalos/' target='_blank'>Rathalos</a>",
+    "雌火龙":"<a href='/monsters/rathian/' target='_blank'>Rathian</a>",
+    "红电龙":"<a href='/monsters/red-khezu/' target='_blank'>Red Khezu</a>",
+    "砂岩龙":"<a href='/monsters/sandstone-basarios/' target='_blank'>Sandstone Basarios</a>",
+    "断刃一角龙":"<a href='/monsters/shattered-monoblos/' target='_blank'>Shattered Monoblos</a>",
+    "断角一角龙":"<a href='/monsters/shattered-monoblos/' target='_blank'>Shattered Monoblos</a>",
+    "砦蟹":"<a href='/monsters/shen-gaoren/' target='_blank'>Shen Gaoren</a>",
+    "老山蟹":"<a href='/monsters/shen-gaoren/' target='_blank'>Shen Gaoren</a>",
+    "将军镰蟹":"<a href='/monsters/shogun-ceanataur/' target='_blank'>Shogun Ceanataur</a>",
+    "银眠鸟":"<a href='/monsters/silver-hypnocatrice/' target='_blank'>Silver Hypnocatrice</a>",
+    "剑极狼":"<a href='/monsters/slicemargl/' target='_blank'>Slicemargl</a>",
+    "NBX":"<a href='/monsters/slicemargl/' target='_blank'>Slicemargl</a>",
+    "剑豪镰蟹":"<a href='/monsters/swordmaster-shogun-ceanataur/' target='_blank'>Swordmaster Shogun Ceanataur</a>",
+    "吞渊龙":"<a href='/monsters/tartaronis/' target='_blank'>Tartaronis</a>",
+    "初阶吞渊龙":"<a href='/monsters/tartaronis/' target='_blank'>Tartaronis</a>",
+    "铠岩砦蟹":"<a href='/monsters/tepekki-shen-gaoren/' target='_blank'>Tepekki Shen Gaoren</a>",
+    "轰龙":"<a href='/monsters/tigrex/' target='_blank'>Tigrex</a>",
+    "蓝速龙王":"<a href='/monsters/velocidrome/' target='_blank'>Velocidrome</a>",
+    "沙狸兽":"<a href='/monsters/yellow-caeserber/' target='_blank'>Yellow Caeserber</a>",
+    "黑狼鸟":"<a href='/monsters/yian-garuga/' target='_blank'>Yian Garuga</a>",
+    "大怪鸟":"<a href='/monsters/yian-kut-ku/' target='_blank'>Yian Kut-Ku</a>",
+    "红莲砦蟹，铠岩砦蟹":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>, <a href='/monsters/tepekki-shen-gaoren/' target='_blank'>Tepekki Shen Gaoren</a>",
+    "镰蟹":"<a href='/monsters/shogun-ceanataur/' target='_blank'>Ceanataur</a>",
+    "盾蟹":"<a href='/monsters/daimyo-hermitaur/' target='_blank'>Hermitaur</a>",
+    "雄火龙，苍火龙":"<a href='/monsters/rathalos/' target='_blank'>Rathalos</a>, <a href='/monsters/azure-rathalos/' target='_blank'>Azure Rathalos</a>",
+    "炎狮子":"<a href='/monsters/flame-blangonga/' target='_blank'>Flame Blangonga</a>",
+    "白一角龙":"<a href='/monsters/white-monoblos/' target='_blank'>White Monoblos</a>",
+    "熔岩龙":"<a href='/monsters/lavasioth/' target='_blank'>Lavasioth</a>",
+    "霞龙":"<a href='/monsters/chameleos/' target='_blank'>Chameleos</a>",
+    "老山蟹B":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>",
+    "PVP2":"<a href='/monsters/merphistophelin/' target='_blank'>Merphistophelin</a>",
+    "剑极狼亚种":"<a href='/monsters/purple-slicemargl/' target='_blank'>Purple Slicemargl</a>",
+    "剑刹狼":"<a href='/monsters/purple-slicemargl/' target='_blank'>Purple Slicemargl</a>",
+
+
+    "特殊铳枪":"Yian Kut-Ku + Bulldrome",
+    "新手":"Velociprey",
+    "骨":"Bones",
+    "铁":"Rocks",
+    "特殊枪":"Gendrome + Bulldrome",
+    "sunaku":"Congalala + Velocidrome",
+    "鄂":"Congalala + Gendrome",
+    "kurimu":"Gendrome",
+    "subaku":"Bulldrome + Congalala",
+    "hali":"Congalala",
+    "特殊笛":"Baelidae + Yian Kut-Ku",
+    "野性":"Congalala",
+    "爬虫":"Bones",
+    "十字枪":"Rocks",
+
+    "nl灰晶蝎":"Akura Jebia",
+    "nl尾晶蝎":"Akura Vashimu",
+    "nl苍火龙":"Azure Rathalos",
+    "nl鬼狩蛛":"Baelidae",
+    "nl岩龙":"Basarios",
+    "nl铠龙":"Gravios",
+    "nl雪狮子王":"Blangonga",
+    "nl青怪鸟":"Blue Yian Kut-Ku",
+    "nl大野猪王":"Bulldrome",
+    "nl河狸兽":"Caeserber",
+    "nl沙龙王":"Cephadrome",
+    "nl沙雷鸟":"Chramine",
+    "nl烈焰女王":"Conflagration Rathian",
+    "nl桃毛兽王":"Congalala",
+    "nl晶岩龙":"Crystal Basarios",
+    "nl大名盾蟹":"Daimyo Hermitaur",
+    "nl角龙":"Diablos",
+    "nl祸星龙":"Doom Estrellian",
+    "nl骇狩蛛":"Dread Baelidae",
+    "nl星龙":"Estrellian",
+    "nl黄速龙王":"Gendrome",
+    "nl战鬼河狸兽":"Ghost Caeserber",
+    "nl白速龙王":"Giadrome",
+    "nl金毛兽王":"Gold Congalala",
+    "nl金眠鸟":"Gold Hypnocatrice",
+    "nl红莲砦蟹":"Guren Shen Gaoren",
+    "nl毒怪鸟":"Gypceros",
+    "nl眠鸟":"Hypnocatrice",
+    "nl冰雷鸟":"Ice Chramine",
+    "nl红速龙王":"Iodrome",
+    "nl电龙":"Khezu",
+    "nl钢龙":"Kushala Daora",
+    "nl电甲虫":"Lightenna",
+    "nl荒厄龙":"Merphistophelin",
+    "nl一角龙":"Monoblos",
+    "nl独耳黑狼鸟":"One-Eared Yian Garuga",
+    "nl樱火龙":"Pink Rathian",
+    "nl水龙":"Plesioth",
+    "nl紫毒鸟":"Purple Gypceros",
+    "nl雄火龙":"Rathalos",
+    "nl雌火龙":"Rathian",
+    "nl红电龙":"Red Khezu",
+    "nl砂岩龙":"Sandstone Basarios",
+    "nl断刃一角龙":"Shattered Monoblos",
+    "nl砦蟹":"Shen Gaoren",
+    "nl将军镰蟹":"Shogun Ceanataur",
+    "nl银眠鸟":"Silver Hypnocatrice",
+    "nl剑极狼":"Slicemargl",
+    "nl剑豪镰蟹":"Swordmaster Shogun Ceanataur",
+    "nl吞渊龙":"Tartaronis",
+    "nl铠岩砦蟹":"Tepekki Shen Gaoren",
+    "nl轰龙":"Tigrex",
+    "nl蓝速龙王":"Velocidrome",
+    "nl沙狸兽":"Yellow Caeserber",
+    "nl黑狼鸟":"Yian Garuga",
+    "nl大怪鸟":"Yian Kut-Ku",
+    "nl红莲砦蟹，铠岩砦蟹":"Tepekki Shen Gaoren",
+    "nl镰蟹":"Ceanataur",
+    "nl盾蟹":"Hermitaur",
+    "nl雄火龙，苍火龙":"Azure Rathalos",
+    "nl炎狮子":"Flame Blangonga",
+    "nl白一角龙":"White Monoblos",
+    "nl熔岩龙":"Lavasioth",
+    "nl霞龙":"Chameleos",
+    "nl剑极狼亚种":"Purple Slicemargl",
+    "nl剑刹狼":"Purple Slicemargl",
+
+    "头部":"Head",
+    "腹部":"Abdomen",
+    "左右手（钳）":"Left and Right Hands (Pincers)",
+    "壳":"Shell",
+    "背部":"Back",
+    "躯干（本体/胴体）":"Torso (Body/Carcass)",
+    "面部":"Face",
+    "左右翼":"Wings",
+    "左,右翼":"Wings",
+    "尾部（尻尾）":"Tail (Rump)",
+    "右手（钳）":"Right Hand (Pincer)",
+    "左,右手（钳）":"Left and Right Hand (Pincers)",
+    "左/右臂":"Arms",
+    "左/右翼":"Wings",
+    "躯干":"Torso",
+    "尾巴":"Tail",
+    "左脚":"Left Foot",
+    "左手":"Left Hand",
+    "右脚":"Right Foot",
+    "右手":"Right Hand",
+    "颈部":"Neck",
+    "尾部":"Tail",
+    "左翼":"Left Wing",
+    "右翼":"Right Wing",
+    "翼膜":"Wing Membrane",
+    "左腿":"Left Leg",
+    "右腿":"Right Leg",
+    "角":"Horn",
+
+    "大型怪物狩猎":"Large Monster Hunting",
+    "大型怪物狩猎挑战难度，王立委托，王立精英委托":"Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting",
+    "大型怪物狩猎挑战难度、王立委托、王立精英委托":"Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting",
+    "王立委托，王立精英，极限":"HR Hunting, HR Elite, Limit Mode",
+    "王立委托、王立精英、极限":"HR Hunting, HR Elite, Limit Mode",
+    "王立委托，王立精英委托":"HR Hunting, HR Elite Hunting",
+    "王立委托、王立精英委托":"HR Hunting, HR Elite Hunting",
+    "活动":"Raid",
+    "王立精英委托":"HR Elite Hunting",
+    "王立委托":"HR Hunting",
+    "大湖围猎祭":"Great Lakes Hunting Festival",
+    "50级以上古龙征伐":"Lvl 50 Large Monster Conquests",
+    "50级以上王立委托、王立精英委托":"Lvl 50 Large Monster Conquests, HR Elite Hunting",
+    "大型怪物狩猎、50级以上王立委托、王立精英委托":"Large Monster Hunting, Lvl 50 Large Monster Conquests, HR Elite Hunting",
+
+    "回复速度+1、观察眼、大胃王":"Rec Speed +1，Capture Guru，Gourmand",
+    "探知、速食":"Detect，Speed Eating",
+    "气绝减半、草药达人":"Halve Stun，Herbal Daren",
+    "砥石使用高速化、防御力提升（小）":"Speed Sharpening，Defense Up (S)",
+    "通常弹&连射矢强化、防御力提升（小）":"Normal/Rapid Up，Defense Up (S)",
+    "攻击力提升（小）、火属性耐性强化+1":"Attack Up (S)，Fire Res +1",
+    "麻痹免疫、状态异常攻击+1":"Negate Paralysis，Status Atk +1",
+    "KO术、砥石使用高速化、挑衅":"KO King，Speed Sharpening，Taunt",
+    "KO术、散弹/矢强化、挑衅":"KO King，Pellet/Spread Up，Taunt",
+    "耐泥雪、陷阱师":"Mud/Snow，Trap Master",
+    "毒减半、雷属性耐性强化+1":"Halve Poison，Thunder Atk +1",
+    "抗菌、速食、饥饿感增加":"Anti-bacterial，Speed Eating，Raise Hunger",
+    "风压（小）无效、无伤":"Windproof (Lo)，Peak Performance",
+    "耐暑、暴击":"Heat Cancel，Violent Strike",
+    "防御力提升（小）、风压（小）无效、雷属性攻击弱化":"Defense Up (S)，Windproof (Lo)，Thunder Atk Down",
+    "见切+1、火属性攻击强化+1、体力弱化-1":"Critical Eye +1，Fire Atk +1，Health -1",
+    "回复速度+3、气绝倍化":"Rec Speed +3，Double Stun",
+    "睡眠免疫、防御等级+1、麻痹倍化":"Negate Sleep，Guard +1，Double Paralysis",
+    "睡眠免疫、上弹速度强化+1、麻痹倍化":"Negate Sleep，Reload Spd +1，Double Paralysis",
+    "睡眠免疫、吸引、耐力回复迟缓-1":"Negate Sleep，Attract，Stam Recov -1",
+    "火事场力+1、破坏王、防御力降低（小）":"Adrenaline +1，Partbreaker，Defense Down (S)",
+    "毒减半、麻痹免疫、睡眠倍化":"Halve Poison，Negate Paralysis，Double Sleep",
+    "气绝免疫、风压（小）无效、恶灵加持":"Negate Stun，Windproof (Lo)，Evil Blessing",
+    "业物、砥石使用高速化、体力弱化-2":"Sharp，Speed Sharpening，Health -2",
+    "贯通弹/矢强化、上弹速度强化+1、体力弱化-2":"Pierce/Pierce Up，Reload Spd +1，Health -2",
+    "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化":"Mud/Snow，Cold Res，Ice Itk +1，Double Stun",
+    "化蝶、隐秘、见切-1":"Butterfly Form，Sneak，Critical Eye -1",
+    "通常弹&连射矢强化 、防御力提升（小）":"Normal/Rapid Up ，Defense Up (S)",
+    "体力强化+1、攻击力提升（小）":"Health +1，Attack Up (S)",
+    "KO术、上弹速度强化+1、挑衅":"KO King，Reload Spd +1，Taunt",
+    "耐泥雪、陷阱师、回复速度+1":"Mud/Snow，Trap Master，Rec Speed +1",
+    "毒无效、雷属性耐性强化+1、饥饿感增加":"Negate Poison，Thunder Atk +1，Raise Hunger",
+    "抗菌、速食、看破+1、饥饿感增加":"Anti-bacterial，Speed Eating，See Through +1，Raise Hunger",
+    "风压（大）无效、无伤、耐力回复迟缓-1":"Windproof (Hi)，Peak Performance，Stam Recov -1",
+    "毒减半、体力强化+2、气绝倍化":"Halve Poison，Health +2，Double Stun",
+    "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1":"Critical Eye +1，Status Atk +1，Fire Atk +1，Health -1",
+    "回复速度+3、雷属性攻击强化+1、气绝倍化":"Rec Speed +3，Thunder Atk +1，Double Stun",
+    "睡眠免疫、体术+1、吸引、耐力回复迟缓-1":"Negate Sleep，Constitution +1，Attract，Stam Recov -1",
+    "火事场力+1、破坏王、抗菌、防御力降低（小）":"Adrenaline +1，Partbreaker，Anti-bacterial，Defense Down (S)",
+    "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化":"Negate Poison，Negate Paralysis，Status Atk +1，Double Sleep",
+    "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持":"Negate Stun，Windproof (Lo)，Stam Recov +1，Evil Blessing",
+    "冰属性攻击强化+1、耐寒、耐震、气绝倍化":"Ice Itk +1，Cold Res，Tremor Res，Double Stun",
+    "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化":"Mud/Snow，Detect，Ice Res +1，Fire Res Down",
+    "砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化":"Speed Sharpening，Ice Itk +1，Mind's Eye，Double Poison",
+    "体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化":"Constitution +1，Ice Itk +2，Assassin Tech +1，Double Poison",
+    "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化":"Negate Sleep，Attract，Status Atk +1，Fire Res Down",
+    "不屈、根性、回复速度+1、耐力回复迟缓-1":"Fortify，Guts，Rec Speed +1，Stam Recov -1",
+    "见切+2、暴击、气绝倍化":"Critical Eye +2，Violent Strike，Double Stun",
+    "防御强化、速食、耐泥雪、攻击力降低（小）":"Guard Boost，Speed Eating，Mud/Snow，Attack Down (S)",
+    "散弹/矢强化、速食、耐泥雪、攻击力降低（小）":"Pellet/Spread Up，Speed Eating，Mud/Snow，Attack Down (S)",
+    "防御等级+1、攻击力提升（小）、状态异常攻击-1":"Guard +1，Attack Up (S)，Status Atk Down",
+    "上弹速度强化+1、攻击力提升（小）、状态异常攻击-1":"Reload Spd +1，Attack Up (S)，Status Atk Down",
+    "业物、见切+1、防御力降低（小）":"Sharp，Critical Eye +1，Defense Down (S)",
+    "贯通弹/矢强化、见切+1、防御力降低（小）":"Pierce/Pierce Up，Critical Eye +1，Defense Down (S)",
+    "广域化+1、耐力急速回复+1、回复速度-1":"Wide-Range +1，Stam Recov +1，Rec Speed -1",
+    "挑战者、火事场力+1、恶灵加持":"Challenger，Adrenaline +1，Evil Blessing",
+    "集中、破坏王、体力弱化-2":"Concentrate，Partbreaker，Health -2",
+    "毒减半、体力强化+2、探知":"Halve Poison，Health +2，Detect",
+    "耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1":"Earplugs，Status Atk +1，Speed Sharpening，Rec Speed -1",
+    "耳栓、状态异常攻击+1、反动减轻+1、回复速度-1":"Earplugs，Status Atk +1，Recoil Down +1，Rec Speed -1",
+    "体术+1、弱点特效、挑衅":"Constitution +1，Weakness Exploit，Taunt",
+    "心眼、火属性攻击强化+2、防御力降低（小）":"Mind's Eye，Fire Atk +2，Defense Down (S)",
+    "刺杀术+1、火属性攻击强化+2、防御力降低（小）":"Assassin Tech +1，Fire Atk +2，Defense Down (S)",
+    "火事场力+1、绊术、速食、回复速度-1":"Adrenaline +1，Tripping Power，Speed Eating，Rec Speed -1",
+    "耐震、根性、水属性攻击强化+1、慢食":"Tremor Res，Guts，Water Atk +1，Slow Eater",
+    "攻击力提升（大）、火属性攻击强化+1、体力弱化-1":"Attack Up (L)，Fire Atk +1，Health -1",
+    "心眼、回复速度+1、火属性攻击强化+1、钝刀":"Mind's Eye，Rec Speed +1，Fire Atk +1，Blunt Edge",
+    "弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1":"Weakness Exploit，Rec Speed +1，Fire Atk +1，Reload Spd -1",
+    "耳栓、速食、防御力提升（小）、砥石使用低速化":"Earplugs，Speed Eating，Defense Up (S)，Slow Sharpening",
+    "耳栓、速食、防御力提升（小）、反动增大":"Earplugs，Speed Eating，Defense Up (S)，Recoil Up",
+    "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-1":"Rec Speed +2，Sharp，Challenger+2，Negate Thorns，Stam Recov -1",
+    "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-6":"Rec Speed +2，Sharp，Challenger+2，Negate Thorns，Stam Recov -1",
+    "不屈，特殊攻击+2，广域化+1":"Fortify，Status Atk +2，Wide-Range +1",
+    "拔刀术，耐震，耐力回复+1，砥石使用低速化":"Critical Draw，Tremor Res，Stam Recov +1，Slow Sharpening",
+    "上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1":"Reload Spd +1，Pierce/Pierce Up，Stam Recov +1，Status Atk Down",
+    "雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化":"Thunder Atk +1，Evasion，Holy Blessing，Slow Sharpening",
+    "雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1":"Thunder Atk +1，Evasion，Holy Blessing，Reload Spd -1",
+    "见切+2，耳栓，业物，体力弱化-1":"Critical Eye +2，Earplugs，Sharp，Health -1",
+    "见切+2，耳栓，通常弹&连射矢强化，体力弱化-1":"Critical Eye +2，Earplugs，Normal/Rapid Up，Health -1",
+    "耳栓，甲壳杀手，回复速度+1，体力弱化-1":"Earplugs，Crustaceans Killer，Rec Speed +1，Health -1",
+    "回避性能+2，集中，毒倍化":"Evasion +2，Concentrate，Double Poison",
+    "KO术，集中，看破+1，耐力回复-1":"Knockout King，Concentrate，See Through +1，Stam Recov -1",
+    "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）":"Constitution +2，Negate Sleep，Bird Dragons Killer，Defense Down (S)",
+    "火事场力+2，风压（大）无效，火属性攻击强化+1":"Adrenaline +2，Windproof (Hi)，Fire Atk +1",
+    "破坏王，耐震，弱点特效，耐力回复-1":"Partbreaker，Tremor Res，Weakness Exploit，Stam Recov -1",
+    "业物，气绝减半，回避性能+1，耐暑":"Sharp，Halve Stun，Evasion +1，Heat Cancel",
+    "上弹速度强化+1，气绝减半，回避性能+1，耐暑":"Reload Spd +1，Halve Stun，Evasion +1，Heat Cancel",
+    "火事场力+2，见切+1，恶灵的加护":"Adrenaline +2，Critical Eye +1，Evil Blessing",
+    "集中，根性，火属性攻击强化+1，水属性耐性弱化，":"Concentrate，Guts，Fire Atk +1，Water Res Down",
+    "耳栓，隐秘，风压（大）无效，耐力回复-1":"Earplugs，Sneak，Windproof (Hi)，Stam Recov -1",
+    "防御性能+2，防御强化，体力强化+3，体术-1":"Guard +2，Guard Boost，Health +3，Constitution -1",
+    "快速装填+2，散弹/矢强化，体力强化+3，体术-1":"Reload Spd +2，Pellet/Spread Up，Health +3，Constitution -1",
+    "特殊攻击+2，麻痹免疫，心眼，钝刀":"Status Atk +2，Negate Paralysis，Mind's Eye，Blunt Edge",
+    "特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1":"Status Atk +2，Negate Paralysis，Recoil Down +1，Reload Spd -1",
+
+
+    "山青虫":"Mountain Budworm",
+    "蓝速龙的鳞":"Velociprey Scale",
+    "圆蚂蚱":"Round Grasshopper",
+    "龙骨【小】":"Monster Bone S",
+    "棒状之骨":"Bone",
+    "兽骨【小】":"Brute Bone S",
+    "原盘石":"Disk Stone",
+    "圆盘石":"Disk Stone",
+    "小石子":"Stone",
+    "铁矿石":"Iron Ore",
+    "温暖的毛皮":"Warm Pelt",
+    "河狸兽的爪":"Caeserber Claw",
+    "蓝速龙王的皮":"Velocidrome Hide",
+    "蓝速龙王的爪":"Velocidrome Claw",
+    "大野猪王的鬃":"Bulldrome Mane",
+    "大野猪王的牙":"Bulldrome Tusk",
+    "鬼狩蛛的毛":"Baelidae Hair",
+    "鬼狩蛛的盾爪壳":"Baelidae Shield Claw",
+    "毒怪鸟的头":"Gypceros Head",
+    "变异的光水晶":"Weird Lightcrystal",
+    "低压的电气袋":"Electro Sac",
+    "白化里脊肉":"Pale Steak",
+    "绿色的粘液":"Green Mucus",
+    "沙雷鸟的嗉囊":"Chramine Crop",
+    "青怪鸟的背甲":"Blue Kut-Ku Shell",
+    "青怪鸟的耳":"Blue Kut-Ku Ear",
+    "燕雀石":"Machalite Ore",
+    "岩龙的甲壳":"Basarios Shell",
+    "岩龙的尾巴":"Basarios Tail",
+    "眠鸟的羽毛":"Hypnocatrice Feather",
+    "眠鸟的喙":"Hypnocatrice Beak",
+    "大地结晶":"Earth Crystal",
+    "金毛兽王的大骨":"G.Congalala Bone",
+    "金毛兽王的爪":"G.Congalala Claw",
+    "黏着白蚁":"Glueglopper",
+    "骇狩蛛的毛":"D.Baelidae Hair",
+    "骇狩蛛的盾爪壳":"D.Baelidae Shield Claw",
+    "雪狮子的毛":"Blango Pelt",
+    "雪狮子的尾巴":"Blangonga Tail",
+    "星龙的甲壳":"Estrellian Shell",
+    "星龙的爪":"Estrellian Claw",
+    "杀人蜂幼虫":"Snakebee Larvae",
+    "古龙之血":"Ancient Blood",
+    "吞渊龙的腕甲":"Tartaronis Wristguards",
+    "红角蝶":"Red-Horned Butterfly",
+    "银喵玉":"Silver Meow Sphere",
+    "剑豪镰蟹的坚钳":"S.Shogun Ceanataur Clamp+",
+    "剑豪之锋镰":"S.Shogun Ceanataur Scythe+",
+    "土蜂幼虫":"Earth Bee Larvae",
+    "金喵玉":"Golden Meow Sphere",
+    "亮蓝色的粘液":"Bright Blue Mucus",
+    "冰雷鸟的苍白鼻":"I.Chramine Pale Beak",
+    "兽骨【大】":"Brute Bone L",
+    "强光的电气袋":"Thunder Sac+",
+    "红色霜降肉":"Red Frosted Meat",
+    "龙骨【大】":"Monster Bone L",
+    "断刃一角龙的坚甲":"S.Monoblos Carapace+",
+    "断刃一角龙的靭尾":"S.Monoblos Tough Tail+",
+    "独耳黑狼鸟的韧翼膜":"One-Eared Garuga Edge Webbing",
+    "独耳黑狼鸟的刚翼":"One-Eared Garuga Wing+",
+    "光水晶":"Lightcrystal",
+    "尾晶蝎的紫晶":"A.Vashimu Amethyst+",
+    "尾晶蝎的巨钳":"A.Vashimu Giant Clamp",
+    "银眠鸟的银羽毛":"S.Hypnocatrice Feather+",
+    "银眠鸟的牙喙":"S.Hypnocatrice Beak+",
+    "荒厄龙的鳞":"Merphistrophelin Scale",
+    "荒厄龙的甲壳":"Merphistrophelin Carapace",
+    "荒厄龙的蛮爪":"Merphistrophelin Claw",
+    "荒厄龙的剑鳞":"Merphistrophelin Sword Scale",
+    "荒厄龙的眼":"Merphistrophelin Eye",
+    "荒厄龙的角":"Merphistrophelin Horn",
+    "荒厄龙的剑尾":"Merphistrophelin Tail",
+    "荒厄龙的骨翼":"Merphistrophelin Bone Wing",
+    "荒厄龙的胸壳":"Merphistrophelin Thorax",
+    "灾厄的宝珠":"Disaster Orb",
+    "荒厄龙的厚鳞":"Merphistrophelin Thick Scale",
+    "荒厄龙的重壳":"Merphistrophelin Heavy Shell",
+    "荒厄龙的刚蛮爪":"Merphistrophelin Hard Claw",
+    "荒厄龙的刀剑鳞":"Merphistrophelin Sword Claw",
+    "荒厄龙的凶眼":"Merphistrophelin Evil Eye",
+    "荒厄龙的刚角":"Merphistrophelin Hard Horn",
+    "荒厄龙的绝剑尾":"Merphistrophelin Absolute Tail",
+    "荒厄龙的刚翼":"Merphistrophelin Hard Wing",
+    "荒厄龙的重胸壳":"Merphistrophelin Heavy Thorax",
+    "混沌核心":"Chaos Heart",
+    "钢龙的宝玉":"Daora Gem",
+    "龙骨【中】":"Monster Bone M",
+    "兽骨【中】":"Brute Bone M",
+    "大野猪的皮":"Bullfango Hide",
+    "冰结晶":"Ice Crystal",
+    "迷之骨":"Mystery Bone",
+    "河狸兽的牙":"Caeserber Fang",
+    "河狸兽的皮":"Caeserber Hide",
+    "磨损的门牙":"Worn Incisor",
+    "蓝速龙王的牙":"Velocidrome Fang",
+    "蓝速龙王的头冠":"Velocidrome Head",
+    "大野猪王的蹄":"Bulldrome Hoof",
+    "大野猪王的卷曲牙":"Bulldrome Curved Fang",
+    "怪鸟的背甲":"Kut-Ku Shell",
+    "怪鸟的翼":"Kut-Ku Wing",
+    "怪鸟的耳":"Kut-Ku Ear",
+    "怪鸟的爪":"Kut-Ku Claw",
+    "怪鸟的鳞":"Kut-Ku Scale",
+    "破损的喙":"Broken Beak",
+    "黄速龙王的爪":"Gendrome Claw",
+    "黄速龙的鳞":"Genprey Scale",
+    "黄速龙王的麻痹牙":"Gendrome Fang",
+    "黄速龙王的皮":"Gendrome Hide",
+    "黄速龙王的头冠":"Gendrome Head",
+    "黄速龙王的尾巴":"Gendrome Tail",
+    "鬼狩蛛的爪":"Baelidae Claw",
+    "鬼狩蛛的甲壳":"Baelidae Shell",
+    "鬼狩蛛的体液":"Baelidae Fluid",
+    "鬼狩蛛的复眼":"Baelidae Eye",
+    "鬼狩蛛的蛛丝":"Baelidae Silk",
+    "沙狸兽的爪":"Y.Caeserber Claw",
+    "沙狸兽之皮":"Y.Caeserber Hide",
+    "储沙囊":"Sand Bladder",
+    "沙狸兽的牙":"Y.Caeserber Fang",
+    "沙狸兽的尾甲":"Y.Caeserber Tail",
+    "沙狸兽的门牙":"Y.Caeserber Worn Incisor",
+    "毒怪鸟的皮":"Gypceros Hide",
+    "毒怪鸟的嘴":"Gypceros Beak",
+    "橡胶质的尾巴":"Gypceros Tail",
+    "毒怪鸟的翼":"Gypceros Wing",
+    "桃毛兽王的牙":"Congalala Fang",
+    "桃毛兽王的大骨":"Congalala Bone",
+    "桃毛兽王的爪":"Congalala Claw",
+    "桃毛兽王的皮":"Congalala Pelt",
+    "淡彩色的毛":"Bright Pelt",
+    "桃毛兽的毛":"Conga Pelt",
+    "火红的鬃毛":"Red Mane",
+    "沙雷鸟的皮":"Chramine Hide",
+    "沙雷鸟的翼":"Chramine Wing",
+    "沙雷鸟的红鼻":"Chramine Red Beak",
+    "沙龙王的皮":"Cephadrome Hide",
+    "沙龙的鳞":"Cephalos Scale",
+    "沙龙王的牙":"Cephadrome Fang",
+    "沙龙王的储砂袋":"Cephadrome Sand Sac",
+    "弯月之头冠":"Cephadrome Head",
+    "桃色的鳞":"Pink Scale",
+    "盾蟹的爪":"Daimyo Hermitaur Claw",
+    "盾蟹的甲壳":"Daimyo Hermitaur Shell",
+    "盾蟹的脚":"Daimyo Hermitaur Leg",
+    "黑珍珠":"Black Pearl",
+    "盾蟹的小壳":"Small Hermitaur Shell",
+    "盾蟹的钳":"Daimyo Hermitaur Clamp",
+    "青怪鸟的爪":"Blue Kut-Ku Claw",
+    "青怪鸟的鳞":"Blue Kut-Ku Scale",
+    "青怪鸟的翼":"Blue Kut-Ku Wing",
+    "巨大的青鸟喙":"Blue Kut-Ku Beak",
+    "电龙的牙":"Khezu Fang",
+    "电龙的翼":"Khezu Wing",
+    "柔软的皮":"Pearly Hide",
+    "电龙的吸盘":"Khezu Sucker",
+    "岩龙的头壳":"Basarios Skull",
+    "岩龙的背壳":"Basarios Carapace",
+    "岩龙的泪":"Basarios Tear",
+    "岩龙的翼":"Basarios Wing",
+    "岩龙的腹甲":"Basarios Breastplate",
+    "眠鸟的爪":"Hypnocatrice Claw",
+    "稀释的眠液":"Diluted Sleep Solution",
+    "破损的眠袋":"Broken Sleep Sac",
+    "七色的尾羽":"Rainbow Feather",
+    "眠鸟的胃石":"Hypnocatrice Gastrolith",
+    "金毛兽王的毛":"G.Congalala Hair+",
+    "金毛兽王的皮":"G.Congalala Pelt",
+    "金毛兽王的牙":"G.Congalala Fang",
+    "淡金色的毛":"Pale Gold Hair",
+    "骇狩蛛的甲壳":"D.Baelidae Shell",
+    "骇狩蛛的眼":"D.Baelidae Eye",
+    "骇狩蛛的体液":"D.Baelidae Fluid",
+    "骇狩蛛的爪":"D.Baelidae Claw",
+    "骇狩蛛的蛛丝":"D.Baelidae Silk",
+    "毒鸟的紫翼":"P.Gypceros Wing",
+    "橡胶质的紫皮":"P.Rubbery Hide",
+    "紫毒鸟的嘴":"P.Gypceros Beak",
+    "毒鸟的紫头":"P.Gypceros Head",
+    "诡异的光水晶":"Strange Lightcrystal",
+    "橡胶质的绿尾":"P.Gypceros Tail",
+    "镰蟹的爪":"Shogun Ceanataur Claw",
+    "镰蟹的甲壳":"Shogun Ceanataur Carapace",
+    "镰蟹的脚":"Shogun Ceanataur Leg",
+    "镰蟹的小壳":"Ceanataur Shell",
+    "龙头壳":"Wyvern Scalp",
+    "金真珠":"Gold Pearl",
+    "雪狮子的爪":"Blangonga Claw",
+    "雪狮子的皮":"Blangonga Hide",
+    "雪狮子的大骨":"Blangonga Large Bone",
+    "雪狮子的髭":"Blangonga Mustache",
+    "雪狮子的牙":"Blangonga Fang",
+    "星龙的角":"Estrellian Horn",
+    "星羽蝶的羽翅":"Estrellian Wing Feather",
+    "微光的体液":"Shimmering Body Fluid",
+    "星龙的腹甲":"Estrellian Breastplate",
+    "星之龙鳞":"Estrellian Scale",
+    "河狸兽的尖爪":"Caeserber Claw+",
+    "河狸兽的优质皮":"Caeserber Hide+",
+    "河狸兽的尖牙":"Caeserber Fang+",
+    "历战的门牙":"Veteran Incisor",
+    "辉龙石":"Dragonite Ore",
+    "优质的毛皮":"High-Quality Pelt",
+    "蓝速龙王的尖爪":"Velocidrome Claw+",
+    "蓝速龙的优质鳞":"Velociprey Scale+",
+    "蓝速龙王的尖牙":"Velocidrome Fang+",
+    "蓝速龙王的大头冠":"Velocidrome Head+",
+    "蓝速龙王的优质皮":"Velocidrome Hide+",
+    "大野猪的硬皮":"Bullfango Hide+",
+    "大野猪王的硬蹄":"Bulldrome Hoof+",
+    "大野猪王的曲刚牙":"Bulldrome Curved Fang+",
+    "大野猪王的尖牙":"Bulldrome Tusk+",
+    "大野猪王的硬鬃":"Bulldrome Mane+",
+    "怪鸟的刚翼":"Kut-Ku Wing+",
+    "怪鸟的坚背甲":"Kut-Ku Carapace",
+    "怪鸟的地狱耳":"Kut-Ku Ear+",
+    "怪鸟的尖爪":"Kut-Ku Claw+",
+    "怪鸟的优质鳞":"Kut-Ku Scale+",
+    "漂亮的喙":"Beautiful Beak",
+    "黄速龙王的尖爪":"Gendrome Claw+",
+    "黄速龙的优质鳞":"Genprey Scale+",
+    "黄速龙王的麻痹尖牙":"Gendrome Fang+",
+    "黄速龙王的优质皮":"Gendrome Hide+",
+    "黄速龙王的大头冠":"Gendrome Head+",
+    "黄速龙王的韧尾":"Gendrome Tail+",
+    "鬼狩蛛的尖爪":"Baelidae Claw+",
+    "鬼狩蛛的坚壳":"Baelidae Shell+",
+    "鬼狩蛛的浓液":"Baelidae Broth",
+    "鬼狩蛛的鬼眼":"Baelidae Eye+",
+    "鬼狩蛛的刚毛":"Baelidae Hair+",
+    "鬼狩蛛的韧蛛丝":"Baelidae Silk+",
+    "沙狸兽的坚爪":"Y.Caeserber Claw+",
+    "沙狸兽重皮":"Y.Caeserber Hide+",
+    "沙狸兽的尖牙":"Y.Caeserber Fang+",
+    "厚实的储沙囊":"Heavy Sand Bladder",
+    "沙狸兽的坚尾甲":"Y.Caeserber Tail+",
+    "沙狸兽的尖门牙":"Y.Caeserber Veteran Incisor",
+    "毒怪鸟的刚翼":"Gypceros Wing+",
+    "毒怪鸟的优质皮":"Gypceros Hide+",
+    "毒怪鸟的坚硬嘴":"Gypceros Beak+",
+    "橡胶质的韧尾":"Gypceros Tail+",
+    "变异的新星水晶":"Weird Novacrystal",
+    "毒怪鸟的坚硬头":"Gypceros Head+",
+    "桃毛兽王的尖牙":"Congalala Fang+",
+    "桃毛兽王的坚骨":"Congalala Bone+",
+    "桃毛兽王的尖爪":"Congalala Claw+",
+    "桃毛兽王的优质皮":"Congalala Pelt+",
+    "极彩色的毛":"Vibrant Pelt",
+    "桃毛兽的刚毛":"Conga Pelt+",
+    "赤红的刚鬃":"Red Mane+",
+    "沙雷鸟的优质皮":"Chramine Hide+",
+    "沙雷鸟的刚翼":"Chramine Wing+",
+    "亮绿色的粘液":"Bright Green Mucus",
+    "沙雷鸟的厚实嗉囊":"Chramine Crop+",
+    "沙雷鸟的赤红鼻":"Chramine Crimson Beak",
+    "沙龙的优质鳞":"Cephalos Scale+",
+    "沙龙王的尖牙":"Cephadrome Fang+",
+    "桃色的优质鳞":"Pink Scale+",
+    "沙龙王的优质皮":"Cephadrome Hide+",
+    "沙龙王的大储砂袋":"Cephadrome Sand Sac+",
+    "新月之头冠":"Cephadrome Head+",
+    "盾蟹的尖爪":"Daimyo Hermitaur Claw+",
+    "盾蟹的坚壳":"Daimyo Hermitaur Shell+",
+    "盾蟹的长脚":"Daimyo Hermitaur Leg+",
+    "漆黑大珍珠":"Black Pearl+",
+    "盾蟹的小坚壳":"Small Hermitaur Shell+",
+    "盾蟹的巨钳":"Daimyo Hermitaur Clamp+",
+    "红速龙的优质鳞":"Iodrome Scale+",
+    "红速龙王的尖牙":"Iodrome Fang+",
+    "红速龙王的猛毒腺":"Iodrome Fierce Venom",
+    "红速龙王的尖爪":"Iodrome Claw+",
+    "红速龙王的优质皮":"Iodrome Hide+",
+    "红速龙王的大头冠":"Iodrome Crown+",
+    "青怪鸟的优质翼":"Blue Kut-Ku Wing+",
+    "青怪鸟的坚背甲":"Blue Kut-Ku Shell+",
+    "青怪鸟的地狱耳":"Blue Kut-Ku Ear+",
+    "青怪鸟的尖爪":"Blue Kut-Ku Claw+",
+    "青怪鸟的优质鳞":"Blue Kut-Ku Scale+",
+    "华丽的青鸟喙":"Blue Kut-Ku Beak+",
+    "电龙的优质翼":"Khezu Patagium+",
+    "珍珠色的柔皮":"Pearly Hide+",
+    "电龙的尖牙":"Khezu Fang+",
+    "高压的电气袋":"High-voltage Electro Sac",
+    "白化霜降肉":"Pearly Frosted Meat",
+    "电龙的强力吸盘":"Khezu Sucker+",
+    "岩龙的优质翼":"Basarios Wing+",
+    "岩龙的坚头壳":"Basarios Skull+",
+    "岩龙的坚背壳":"Basarios Shell+",
+    "岩龙的晶泪":"Basarios Tear+",
+    "岩龙的坚壳":"Basarios Armor+",
+    "岩龙的坚腹甲":"Basarios Breastplate+",
+    "完整的眠袋":"Sleep Sac",
+    "眠鸟的橙羽毛":"Hypnocatrice Orange Feather",
+    "多彩的尾羽":"Colorful Feather",
+    "眠鸟的尖爪":"Hypnocatrice Sharp Claw",
+    "浓缩的眠液":"Concentrated Sleep Solution",
+    "眠鸟的稀胃石":"Rare Bezoar",
+    "金毛兽王的刚毛":"G.Congalala Hair+",
+    "金毛兽王的优质皮":"G.Congalala Pelt+",
+    "金毛兽王的尖牙":"G.Congalala Fang+",
+    "金色的毛":"Golden Hair",
+    "金毛兽王的坚骨":"G.Congalala Bone+",
+    "金毛兽王的尖爪":"G.Congalala Claw+",
+    "骇狩蛛的坚壳":"D.Baelidae Shell+",
+    "骇狩蛛的复眼":"D.Baelidae Eye+",
+    "骇狩蛛的浓液":"D.Baelidae Broth",
+    "骇狩蛛的尖爪":"D.Baelidae Claw+",
+    "骇狩蛛的刚毛":"D.Baelidae Hair+",
+    "骇狩蛛的韧蛛丝":"D.Baelidae Silk+",
+    "毒鸟的紫刚翼":"P.Gypceros Wing+",
+    "橡胶质的紫柔皮":"P.Rubbery Hide+",
+    "紫毒鸟的坚硬嘴":"P.Gypceros Beak+",
+    "橡胶质的绿韧尾":"P.Gypceros Tail+",
+    "诡异的新星水晶":"Strange Novacrystal+",
+    "毒鸟的紫坚硬头":"P.Gypceros Head+",
+    "镰蟹的尖爪":"Shogun Ceanataur Claw+",
+    "镰蟹的坚壳":"Ceanataur Shell+",
+    "镰蟹的长脚":"Shogun Ceanataur Leg+",
+    "镰蟹的小坚壳":"Ceanataur Shell+",
+    "坚龙头壳":"Wyvern Scalp+",
+    "极上金真珠":"Large Gold Pearl+",
+    "雪狮子的尖爪":"Blangonga Claw+",
+    "雪狮子的优质皮":"Blangonga Hide+",
+    "雪狮子的坚骨":"Blangonga Strong Bone",
+    "雪狮子的刚髭":"Blangonga Mustache+",
+    "雪狮子的刚毛":"Blango Pelt+",
+    "雪狮子的尖牙":"Blangonga Fang+",
+    "星龙的尖角":"Estrellian Horn+",
+    "星龙的坚壳":"Estrellian Shell+",
+    "星羽蝶的薄羽翅":"Estrellian Wing Feather+",
+    "星光的体液":"Starlight Body Fluid",
+    "星龙的坚腹甲":"Estrellian Breastplate+",
+    "降星之龙鳞":"Estrellian Scale+",
+    "白速龙王的尖爪":"Giadrome Claw+",
+    "白速龙的优质鳞":"Giaprey Scale+",
+    "白速龙王的尖牙":"Giadrome Fang+",
+    "白速龙王的冻结腺":"Giadrome Frozen Gland",
+    "白速龙王的大头冠":"Giadrome Large Crown+",
+    "白速龙王的优质皮":"Giadrome Hide+",
+    "冰雷鸟的优质皮":"I.Chramine Hide+",
+    "冰雷鸟的刚翼":"I.Chramine Wing+",
+    "冰雷鸟的厚实嗉囊":"I.Chramine Crop+",
+    "湛蓝的刚鬃":"Blue Mane+",
+    "银眠鸟的尖爪":"S.Hypnocatrice Claw+",
+    "晶莹的眠液":"Crystal Clear Sleep Solution",
+    "圆鼓鼓的眠袋":"Bulging Sleep Sac",
+    "秘银尾羽":"Silver Tail+",
+    "银眠鸟的稀胃石":"Rare Silver Bezoar",
+    "剑豪镰蟹的尖爪":"S.Shogun Ceanataur Claw+",
+    "剑豪镰蟹的坚壳":"S.Shogun Ceanataur Hard Shell",
+    "剑豪镰蟹的坚脚":"S.Shogun Ceanataur Leg+",
+    "剑豪镰蟹的金色大真珠":"S.Shogun Ceanataur Gold Pearl+",
+    "尾晶蝎的尖爪":"A.Vashimu Claw+",
+    "尾晶蝎的刚毛":"A.Vashimu Hair+",
+    "尾晶蝎的坚壳":"A.Vashimu Shell+",
+    "尾晶蝎的大颚":"A.Vashimu Giant Jaw+",
+    "尾晶蝎的毒刚毛":"A.Vashimu Poison Hair+",
+    "黑狼鸟的优质鳞":"Garuga Scale+",
+    "黑狼鸟的坚壳":"Garuga Shell+",
+    "黑狼鸟的刚髭":"Garuga Mustache+",
+    "黑狼鸟的刚翼爪":"Garuga Claw+",
+    "黑狼鸟的韧翼膜":"Garuga Webbing+",
+    "黑狼鸟的地狱耳":"Garuga Hell Ear+",
+    "红电龙的刚翼":"R.Khezu Wing+",
+    "魅惑色的柔皮":"Alluring Hide+",
+    "红电龙的尖牙":"R.Khezu Fang+",
+    "红电龙的强力吸盘":"R.Khezu Sucker+",
+    "独耳黑狼鸟的刚翼爪":"One-Eared Garuga Claw+",
+    "独耳黑狼鸟的优质鳞":"One-Eared Garuga Scale+",
+    "独耳黑狼鸟的坚壳":"One-Eared Garuga Shell+",
+    "独耳黑狼鸟的刚髭":"One-Eared Garuga Mustache+",
+    "独耳黑狼鸟的地狱耳":"One-Eared Garuga Hell Ear+",
+    "断刃一角龙的坚壳":"S.Monoblos Hard Shell+",
+    "断刃一角龙的延髓":"S.Monoblos Medulla",
+    "断刃一角龙的脉动心脏":"S.Monoblos Pulsating Heart",
+    "断刃一角龙的刚翼":"S.Monoblos Wing+",
+    "剑极狼的刚毛":"Slicemargl Fur+",
+    "剑极狼的上腕甲":"Slicemargl Wristguard+",
+    "剑极狼的锐牙":"Slicemargl Fang+",
+    "剑极狼的凶戾眼":"Slicemargl Brutal Eye+",
+    "剑极狼的尖爪":"Slicemargl Claw+",
+    "剑极狼的獠齿":"Slicemargl Hunting Tooth",
+    "苍火龙的刚翼":"A.Rathalos Wing+",
+    "苍蓝的爆炎袋":"Pale Azure Flame Sac+",
+    "苍火龙的延髓":"A.Rathalos Medulla",
+    "苍火龙的上鳞":"A.Rathalos Scale+",
+    "苍火龙的坚壳":"A.Rathalos Shell+",
+    "苍火龙的逆鳞":"A.Rathalos Plate+",
+    "灰晶蝎的尖爪":"A.Jebia Claw+",
+    "灰晶蝎的刚毛":"A.Jebia Hair+",
+    "灰晶蝎的坚壳":"A.Jebia Carapace+",
+    "灰晶蝎的毒刚毛":"A.Jebia Poison Hair+",
+    "灰晶蝎的辉晶石":"A.Jebia Spar+",
+    "灰晶蝎的大颚":"A.Jebia Giant Jaw+",
+    "砂岩龙的坚头壳":"S.Basarios Skull+",
+    "砂岩龙的坚背壳":"S.Basarios Armor+",
+    "砂岩龙的沙泪":"S.Basarios Tear+",
+    "砂岩龙的坚壳":"S.Basarios Shell+",
+    "砂岩龙的优质翼":"S.Basarios Wing+",
+    "砂岩龙的坚腹甲":"S.Basarios Breastplate+",
+    "樱火龙的上鳞":"P.Rathian Scale+",
+    "樱火龙的坚壳":"P.Rathian Shell+",
+    "樱火龙的上棘":"P.Rathian Webbing+",
+    "樱火龙的逆鳞":"P.Rathian Spike+",
+    "樱红的爆炎袋":"P.Rathian Inferno Sac",
+    "樱火龙的延髓":"P.Rathian Marrow+",
+    "灰晶蝎的靭尾":"A.Jebia Tough Tail+",
+    "灰晶蝎的巨钳":"A.Jebia Clamp+",
+    "强韧的脚蹼":"Tough Webbed Feet",
+    "潮湿的毛皮":"Wet Fur",
+    "河狸兽的尾甲":"Caeserber Tail",
+    "蓝速龙王的锐爪":"Velocidrome Sharp Claws",
+    "短小的喙":"Short Beak",
+    "蓝速龙王的尾巴":"Velocidrome Tail",
+    "粗糙的毛皮":"Rough Fur",
+    "肥美的猪肉":"Plump Pork",
+    "大野猪王尖獠牙":"Bulldrome Pointed Fangs",
+    "粗糙的翼膜":"Rough Patagium",
+    "怪鸟的翼爪":"Yian Kut-Ku Wing Claw",
+    "怪鸟的尾巴":"Yian Kut-Ku Tail",
+    "赤红的小鳞":"Small Crimson Scale",
+    "漆黑的趾甲":"Dark Nails",
+    "黄色的唾液":"Yellow Saliva",
+    "麻痹腺体":"Paralysis Glands",
+    "破损的腺体":"Damaged Glands",
+    "鬼狩蛛的鬼面壳":"Baelidae Face Shell",
+    "不明的体液":"Unknown Body Fluids",
+    "厚实的毒舌":"Thick Tongue",
+    "粘稠的毒液":"Viscous Venom",
+    "完整的大块胶皮":"Rubber Chunks",
+    "丑陋的臼齿":"Ugly Molars",
+    "硬化的脚蹼":"Hardened Flippers",
+    "亮黄的毛":"Bright Yellow Hair",
+    "肥沃的泥巴":"Fertile Mud",
+    "不新鲜的蘑菇":"Old Mushrooms",
+    "发黄的臭牙":"Smelly Yellow Teeth",
+    "异味的腺体":"Odor Glands",
+    "锋利的长趾甲":"Sharp Long Nails",
+    "多彩色之毛":"Multi-colored Hair",
+    "沙雷鸟的臼齿":"Chramine Molars",
+    "猩红之眼":"Scarlet Eye",
+    "粗糙的胶皮":"Rough Rubber",
+    "黯淡的粘液":"Dark Mucus",
+    "沙龙王的鱼尾":"Cephadrome Tail",
+    "被消化的铁砂":"Digested Iron Ore",
+    "坚硬的沙鳞":"Hard Sand Scales",
+    "肥美的蟹黄":"Plump Crab",
+    "盾蟹的鳃":"Hermitaur Gills",
+    "长满霉斑的骨头":"Mildew Covered Bones",
+    "盾蟹的储水袋":"Hermitaur Water Bag",
+    "青色的翼膜":"Blue Patagium",
+    "青怪鸟的翼爪":"Blue Kut-Ku Claw Wing",
+    "青怪鸟的尾巴":"Blue Kut-Ku Tail",
+    "眠鸟的翼羽":"Hypnocatrice Feathers",
+    "橙色的绒毛":"Orange Hair",
+    "眠鸟的尾巴":"Hypnocatrice Tail",
+    "粗壮的鸟腿骨":"Stout Bird Leg",
+    "珍珠色的翼膜":"Pearly Patagium",
+    "破损的电气袋":"Damaged Electro Sac",
+    "珍珠色的脚趾":"Pearl-colored Toes",
+    "珍珠色的环状嘴":"Pearl Mouth",
+    "高级珍珠色的翼膜":"Pearly Patagium+",
+
+    "攻击珠【1】":"Attack Jewel 1",
+    "攻击珠【2】":"Attack Jewel 2",
+    "攻击珠【3】":"Attack Jewel 3",
+    "达人珠【1】":"Expert Jewel 1",
+    "达人珠【2】":"Expert Jewel 2",
+    "达人珠【3】":"Expert Jewel 3",
+    "特攻珠【1】":"Disabler Jewel 1",
+    "特攻珠【2】":"Disabler Jewel 2",
+    "火炎珠【1】":"Blaze Jewel 1",
+    "火炎珠【2】":"Blaze Jewel 2",
+    "流水珠【1】":"Stream Jewel 1",
+    "流水珠【2】":"Stream Jewel 2",
+    "雷光珠【1】":"Bolt Jewel 1",
+    "雷光珠【2】":"Bolt Jewel 2",
+    "冰结珠【1】":"Frost Jewel 1",
+    "冰结珠【2】":"Frost Jewel 2",
+    "破龙珠【1】":"Dragon Jewel 1",
+    "破龙珠【2】":"Dragon Jewel 2",
+    "痛击珠【1】":"Tenderizer Jewel 1",
+    "痛击珠【3】":"Tenderizer Jewel 3",
+    "重击珠【1】":"Destroyer Jewel 1",
+    "重击珠【3】":"Destroyer Jewel 3",
+    "KO珠【1】":"KO Jewel 1",
+    "KO珠【3】":"KO Jewel 3",
+    "底力珠【1】":"Potential Jewel 1",
+    "底力珠【2】":"Potential Jewel 2",
+    "逆境珠【1】":"Fortitude Jewel 1",
+    "逆境珠【2】":"Fortitude Jewel 2",
+    "斗魂珠【1】":"Spirit Jewel 1",
+    "斗魂珠【2】":"Spirit Jewel 2",
+    "看破珠【1】":"Hardy Jewel 1",
+    "看破珠【2】":"Hardy Jewel 2",
+    "无伤珠【1】":"Flawless Jewel 1",
+    "无伤珠【2】":"Flawless Jewel 2",
+    "吸引珠【1】":"Attraction Jewel 1",
+    "吸引珠【2】":"Attraction Jewel 2",
+    "背水珠【1】":"High Stakes Jewel 1",
+    "背水珠【2】":"High Stakes Jewel 2",
+    "倒地珠【1】":"Trip Jewel 1",
+    "刺杀珠【1】":"Ambush Jewel 1",
+    "刺杀珠【3】":"Ambush Jewel 3",
+    "鼓笛珠【1】":"Sonorous Jewel 1",
+    "炮术珠【1】":"Artillery Jewel 1",
+    "防御珠【1】":"Defense Jewel 1",
+    "防御珠【2】":"Defense Jewel 2",
+    "防御珠【3】":"Defense Jewel 3",
+    "耐火珠【1】":"Fire Res Jewel 1",
+    "制火珠【1】":"Nul-Fire Jewel 1",
+    "耐水珠【1】":"Water Res Jewel 1",
+    "制水珠【1】":"Nul-Water Jewel 1",
+    "耐雷珠【1】":"Thunder Res Jewel 1",
+    "制雷珠【1】":"Nul-Thunder Jewel 1",
+    "耐冰珠【1】":"Ice Res Jewel 1",
+    "制冰珠【1】":"Nul-Ice Jewel 1",
+    "耐龙珠【1】":"Dragon Res Jewel 1",
+    "加护珠【1】":"Nul-Dragon Jewel 1",
+    "体力珠【1】":"Vitality Jewel 1",
+    "早复珠【1】":"Recovery Jewel 1",
+    "早复珠【2】":"Recovery Jewel 2",
+    "体术珠【1】":"Physique Jewel 1",
+    "体术珠【2】":"Physique Jewel 2",
+    "早气珠【1】":"Refresh Jewel 1",
+    "早气珠【2】":"Refresh Jewel 2",
+    "无食珠【1】":"Hungerless Jewel 1",
+    "无食珠【2】":"Hungerless Jewel 2",
+    "食汉珠【1】":"Metabolism Jewel 1",
+    "根性珠【1】":"Guts Jewel 1",
+    "根性珠【2】":"Guts Jewel 2",
+    "治愈珠【1】":"Medicine Jewel 1",
+    "治愈珠【2】":"Medicine Jewel 2",
+    "短缩珠【1】":"Charger Jewel 1",
+    "短缩珠【3】":"Charger Jewel 3",
+    "匠珠【2】":"Handicraft Jewel 2",
+    "剑术珠【1】":"Fencer Jewel 1",
+    "剑术珠【3】":"Fencer Jewel 3",
+    "斩铁珠【1】":"Razor Jewel 1",
+    "斩铁珠【3】":"Razor Jewel 3",
+    "铁壁珠【1】":"Ironwall Jewel 1",
+    "铁壁珠【2】":"Ironwall Jewel 2",
+    "强壁珠【1】":"Shield Jewel 1",
+    "强壁珠【2】":"Shield Jewel 2",
+    "研磨珠【1】":"Grinder Jewel 1",
+    "锁气珠【1】":"Stun Lock Jewel 1",
+    "锁气珠【3】":"Stun Lock Jewel 3",
+    "拔刀珠【1】":"Draw Jewel 1",
+    "拔刀珠【2】":"Draw Jewel 2",
+    "装填珠【2】":"Capacity Jewel 2",
+    "强弹珠【1】":"Forceshot Jewel 1",
+    "贯通珠【1】":"Pierce Jewel 1",
+    "散弹珠【1】":"Pellet Jewel 1",
+    "加弹珠【1】":"ShotPlus Jewel 1",
+    "加贯珠【1】":"PiercePlus Jewel 1",
+    "加散珠【1】":"PelletPlus Jewel 1",
+    "早填珠【1】":"Quickload Jewel 1",
+    "毒瓶珠【1】":"PoisonPlus Jewel 1",
+    "眠瓶珠【1】":"SleepPlus Jewel 1",
+    "麻瓶珠【1】":"ParaPlus Jewel 1",
+    "加榴珠【1】":"ClustPlus Jewel 1",
+    "反动珠【1】":"Absorber Jewel 1",
+    "速射珠【1】":"Salvo Jewel 1",
+    "回避珠【1】":"Evasion Jewel 1",
+    "回避珠【2】":"Evasion Jewel 2",
+    "跳跃珠【1】":"Jumping Jewel 1",
+    "陷阱珠【1】":"Trapmaster Jewel 1",
+    "早食珠【1】":"Gobbler Jewel 1",
+    "耐绝珠【1】":"Steadfast Jewel 1",
+    "耐痹珠【1】":"Paralysis Jewel 1",
+    "耐眠珠【1】":"Pep Jewel 1",
+    "耐毒珠【1】":"Antidote Jewel 1",
+    "耐粘珠【1】":"Tracker Jewel 1",
+    "耐震珠【1】":"Tectonic Jewel 1",
+    "抗震珠【1】":"Quake Jewel 1",
+    "耐暑珠【1】":"Heat Res Jewel 1",
+    "耐暑珠【2】":"Heat Res Jewel 2",
+    "耐寒珠【1】":"Cold Res Jewel 1",
+    "耐寒珠【2】":"Cold Res Jewel 2",
+    "防音珠【1】":"Earplug Jewel 1",
+    "防音珠【3】":"Earplug Jewel 3",
+    "防风珠【1】":"Wind Res Jewel 1",
+    "防风珠【2】":"Wind Res Jewel 2",
+    "广域珠【1】":"Friendship Jewel 1",
+    "广域珠【2】":"Friendship Jewel 2",
+    "忍脚珠【1】":"Ninja Jewel 1",
+    "耐菌珠【1】":"Antibacterial Jewel 1",
+    "抗棘珠【1】":"Staunch Jewel 1",
+    "草药珠【1】":"Herb Jewel 1",
+    "名药珠【1】":"Herbalism Jewel 1",
+    "千里珠【1】":"Psychic Jewel 1",
+    "观察珠【1】":"Perception Jewel 1",
+    "生存珠【1】":"Ranger Jewel 1",
+    "飞龙珠【1】":"Flying Wyvern Jewel 1",
+    "鸟龙珠【1】":"Bird Wyvern Jewel 1",
+    "鸟龙珠【2】":"Bird Wyvern Jewel 2",
+    "牙兽珠【1】":"Fanged Beast Jewel 1",
+    "牙兽珠【2】":"Fanged Beast Jewel 2",
+    "甲壳珠【1】":"Carapacean Jewel 1",
+    "甲壳珠【2】":"Carapacean Jewel 2",
+    "古龙珠【1】":"Elder Dragon Jewel 1",
+    "鱼龙珠【1】":"Piscine Wyvern Jewel 1",
+    "鱼龙珠【2】":"Piscine Wyvern Jewel 2"
+};
+
 function translate(text) {
-	var out = text;
-//Weapon types
-	if (text == '大剑') {out = 'Greatsword';};
-	if (text == '片手剑') {out = 'Sword and Shield';};
-	if (text == '弩炮') {out = 'Bowgun';};
-	if (text == '太刀') {out = 'Longsword';};
-	if (text == '大锤') {out = 'Hammer';};
-	if (text == '弓') {out = 'Bow';};
-	if (text == '双刀') {out = 'Dual Blades';};
-	if (text == '狩猎笛') {out = 'Hunting Horn';};
-	if (text == '铳枪') {out = 'Gunlance';};
-	if (text == '长枪') {out = 'Lance';};
-//Move Keys
-	if (text == '按住<左键>后松开') {out = 'Press and hold LMB after release of LMB';};
-	if (text == '左键') {out = 'LMB';};
-	if (text == '右键') {out = 'RMB';};
-	if (text == '人物后方向所对应的方向键') {out = 'LMB while pressing the direction of your characters back';};
-	if (text == '人物左手方向所对应的方向键') {out = 'RMB while pressing the direction of your characters left';};
-	if (text == '空格键') {out = 'Space Bar';};
-	if (text == 'E键') {out = 'E';};
-	if (text == '人物前方向所对应的方向键') {out = 'LMB while pressing the direction of your characters front';};
-	if (text == '松开<右键>') {out = 'Release RMB';};
-	if (text == '方向键') {out = 'Release RMB while pressing a direction';};
-	if (text == '按住<右键>后松开') {out = 'Press and hold RMB after release';};
-	if (text == '左键+右键') {out = 'LMB + RMB';};
-//Bow Coating
-	if (text == '强击瓶') {out = 'Power Coating';};
-	if (text == '毒瓶') {out = 'Poison Coating';};
-	if (text == '麻瓶') {out = 'Para Coating';};
-	if (text == '接击瓶') {out = 'C.Range Coating';};
-	if (text == '眠瓶') {out = 'Sleep Coating';};
-//Bow Lob
-	if (text == '天型1级') {out = 'Arrow Rain Lv1';};
-	if (text == '天型2级') {out = 'Arrow Rain Lv2';};
-	if (text == '天型3级') {out = 'Arrow Rain Lv3';};
-	if (text == '地型1级') {out = 'Arrow Bomb Lv1';};
-	if (text == '地型2级') {out = 'Arrow Bomb Lv2';};
-	if (text == '地型3级') {out = 'Arrow Bomb Lv3';};
-//Sizes
-	if (text == '小') {out = 'Small';};
-	if (text == '中') {out = 'Med';};
-	if (text == '大') {out = 'Large';};
-	if (text == '慢') {out = 'Slow';};
-	if (text == '快') {out = 'Fast';};
-//Bowgun Ammo  
-	if (text == '通常弹1级') {out = 'Normal S Lv1';};
-	if (text == '通常弹2级') {out = 'Normal S Lv2';};
-	if (text == '通常弹3级') {out = 'Normal S Lv3';};
-	if (text == '通常弹Lv3') {out = 'Normal S Lv3';};
-	if (text == '散弹1级') {out = 'Pellet S Lv1';};
-	if (text == '散弹2级') {out = 'Pellet S Lv2';};
-	if (text == '散弹3级') {out = 'Pellet S Lv3';};
-	if (text == '贯通弹1级') {out = 'Pierce S Lv1';};
-	if (text == '贯通弹2级') {out = 'Pierce S Lv2';};
-	if (text == '贯通弹3级') {out = 'Pierce S Lv3';};
-	if (text == '彻甲榴弹1级') {out = 'Crag S Lv1';};
-	if (text == '彻甲榴弹2级') {out = 'Crag S Lv2';};
-	if (text == '彻甲榴弹3级') {out = 'Crag S Lv3';};
-	if (text == '麻痹弹') {out = 'Para S';};
-	if (text == '致眠弹') {out = 'Sleep S';};
-	if (text == '火焰弹') {out = 'Flaming S';};
-	if (text == '猛毒弹') {out = 'Poison S';};
-	if (text == '水冷弹') {out = 'Water S';};
-	if (text == '电击弹') {out = 'Thunder S';};
-	if (text == '冰结弹') {out = 'Freeze S';};
-//Bowgun Secondary Title
-	if (text == '速射2发') {out = 'Rapid ';};
-	if (text == '速射3发') {out = 'Rapid ';};
-	if (text == '蓄力') {out = 'Charge ';};
-//Skills
-	if (text == '伏击') {out = 'Ambush';};
-	if (text == '抗菌') {out = 'Anti-bacterial';};
-	if (text == '攻击') {out = 'Attack';};
-	if (text == '蝶舞') {out = 'Butterfly Dance';};
-	if (text == '耐寒') {out = 'Cold Res';};
-	if (text == '体术') {out = 'Constitution';};
-	if (text == '匠') {out = 'Handicraft';};
-	if (text == '拔刀会心') {out = 'Crit Draw';};
-	if (text == '防御') {out = 'Defense';};
-	if (text == '重击') {out = 'Destroyer';};
-	if (text == '龙属性攻击') {out = 'Dragon Atk';};
-	if (text == '食事') {out = 'Eating';};
-	if (text == '回避距离') {out = 'Evade Dist';};
-	if (text == '回避性能') {out = 'Evasion';};
-	if (text == '达人') {out = 'Expert';};
-	if (text == '集中') {out = 'FastCharge';};
-	if (text == '剑术') {out = 'Fencing';};
-	if (text == '火属性攻击') {out = 'Fire Atk';};
-	if (text == '火耐性') {out = 'Fire Res';};
-	if (text == '吃货') {out = 'Gluttony';};
-	if (text == '防御性能') {out = 'Guard';};
-	if (text == '防御强化') {out = 'Guard Up';};
-	if (text == '根性') {out = 'Guts';};
-	if (text == '体力') {out = 'Health';};
-	if (text == '听觉保护') {out = 'Hearing';};
-	if (text == '耐暑') {out = 'Heat Res';};
-	if (text == '药王') {out = 'Herb King';};
-	if (text == '荷尔蒙') {out = 'Hormone';};
-	if (text == '饥饿感') {out = 'Hunger';};
-	if (text == '冰属性攻击') {out = 'Ice Atk';};
-	if (text == '冰耐性') {out = 'Ice Res';};
-	if (text == '会心术') {out = 'Knowing Technique';};
-	if (text == 'KO术') {out = 'KO';};
-	if (text == '装填术') {out = 'Loading';};
-	if (text == '耐泥雪') {out = 'Mud/Snow';};
-	if (text == '通常弹强化') {out = 'Normal Up';};
-	if (text == '麻痹抵抗') {out = 'Paralysis';};
-	if (text == '散弹强化') {out = 'Pellet Up';};
-	if (text == '观察眼') {out = 'Perception';};
-	if (text == '贯通弹强化') {out = 'Pierce Up';};
-	if (text == '毒抵抗') {out = 'Poison';};
-	if (text == '底力') {out = 'Potential';};
-	if (text == '加护') {out = 'Protection';};
-	if (text == '千里眼') {out = 'Psychic';};
-	if (text == '回复速度') {out = 'Rec Speed';};
-	if (text == '反动') {out = 'Recoil';};
-	if (text == '快速装填') {out = 'Reload Spd';};
-	if (text == '强韧') {out = 'Resilience';};
-	if (text == '气息') {out = 'Sense';};
-	if (text == '研磨师') {out = 'Sharpener';};
-	if (text == '锋利度') {out = 'Sharpness';};
-	if (text == '睡眠抵抗') {out = 'Sleep';};
-	if (text == '高速设置') {out = 'SpeedSetup';};
-	if (text == '斗魂') {out = 'Spirit';};
-	if (text == '耐力回复') {out = 'Stam Recov';};
-	if (text == '特殊攻击') {out = 'Status';};
-	if (text == '气绝抵抗') {out = 'Stun';};
-	if (text == '逆境') {out = 'Survivor';};
-	if (text == '痛击') {out = 'Tenderizer';};
-	if (text == '刺伤') {out = 'Bleeding';};
-	if (text == '雷耐性') {out = 'Thunder Res';};
-	if (text == '雷属性攻击') {out = 'ThunderAtk';};
-	if (text == '耐震') {out = 'Tremor Res';};
-	if (text == '倒地之力') {out = 'Tripping Power';};
-	if (text == '无伤') {out = 'Unscathed';};
-	if (text == '水属性攻击') {out = 'Water Atk';};
-	if (text == '广域化') {out = 'Wide-Range';};
-	if (text == '风压抵抗') {out = 'Wind Res';};
-	if (text == '甲壳猎人') {out = 'Carapacean Hunter';};
-	if (text == '鸟龙猎人') {out = 'Bird Wyvern Hunter';};
-	if (text == '飞龙猎人') {out = 'Flying Wyvern Hunter';};
-	if (text == '眠弹增加') {out = 'Sleep C+';};
-	if (text == '耐力消耗下降') {out = 'Endurance Consumption Down';};
-	if (text == '猎人生活') {out = 'Hunter Life';};
-	if (text == '水耐性') {out = 'Water Res';};
-	if (text == '龙耐性') {out = 'Dragon Res';};
-	if (text == '恢复量') {out = 'Recovery Amount';};
-	if (text == '速射') {out = 'Rapid Fire';};
-	if (text == '笛') {out = 'Flute';};
-	if (text == '炮术') {out = 'Artillery';};
-	if (text == '古龙猎人') {out = 'Elder Dragon Hunter';};
-	if (text == '鱼龙猎人') {out = 'Piscine Wyvern Hunter';};
-	if (text == '牙兽猎人') {out = 'Fanged Beast Hunter';};
-	if (text == '贯通弹增加') {out = 'Pierce S Carry';};
-	if (text == '散弹增加') {out = 'Pellet S Carry';};
-	if (text == '榴弹增加') {out = 'Crag S Carry';};
-	if (text == '麻痹弹增加') {out = 'Para C+';};
-	if (text == '毒弹增加') {out = 'Poison C+';};
-	if (text == '孤注一掷') {out = 'Desperation';};
-	if (text == '采集') {out = 'Collection';};
-	if (text == '通常弹增加') {out = 'Normal S Carry';};
-	if (text == '锁气绝') {out = 'Stun Lock';};
-	if (text == '快速防御') {out = 'Auto-Guard';};
-	if (text == '烤肉达人') {out = 'Barbecue Daren';};
-//Skill phase
-	if (text == '刺杀术+1') {out = 'Assassin Tech +1';};
-	if (text == '刺杀术+2') {out = 'Assassin Tech +2';};
-	if (text == '耐菌') {out = 'Bacteria Cancel';};
-	if (text == '攻击力提升（小）') {out = 'Attack Up (S)';};
-	if (text == '攻击力提升（中）') {out = 'Attack Up (M)';};
-	if (text == '攻击力提升（大）') {out = 'Attack Up (L)';};
-	if (text == '攻击力提升（超）') {out = 'Attack Up (XL)';};
-	if (text == '攻击力提升（极）') {out = 'Attack Up (XXL)';};
-	if (text == '攻击力降低（小）') {out = 'Attack Down (S)';};
-	if (text == '攻击力降低（中）') {out = 'Attack Down (M)';};
-	if (text == '攻击力降低（大）') {out = 'Attack Down (L)';};
-	if (text == '攻击力降低（超）') {out = 'Attack Down (XL)';};
-	if (text == '刺伤无效') {out = 'Negate Bleeding';};
-	if (text == '化蝶') {out = 'Butterfly Form';};
-	if (text == '体术+1') {out = 'Constitution +1';};
-	if (text == '体术+2') {out = 'Constitution +2';};
-	if (text == '体术+3') {out = 'Constitution +3';};
-	if (text == '体术-1') {out = 'Constitution -1';};
-	if (text == '体术-2') {out = 'Constitution -2';};
-	if (text == '斩味等级+1') {out = 'Sharpness +1';};
-	if (text == '拔刀术') {out = 'Critical Draw';};
-	if (text == '拔刀术极') {out = 'Critical Draw Max';};
-	if (text == '防御力提升（小）') {out = 'Defense Up (S)';};
-	if (text == '防御力提升（中）') {out = 'Defense Up (M)';};
-	if (text == '防御力提升（大）') {out = 'Defense Up (L)';};
-	if (text == '防御力提升（超）') {out = 'Defense Up (XL)';};
-	if (text == '防御力提升（极）') {out = 'Defense Up (XXL)';};
-	if (text == '防御力降低（小）') {out = 'Defense Down (S)';};
-	if (text == '防御力降低（中）') {out = 'Defense Down (M)';};
-	if (text == '防御力降低（大）') {out = 'Defense Down (L)';};
-	if (text == '防御力降低（超）') {out = 'Defense Down (XL)';};
-	if (text == '破坏王') {out = 'Partbreaker';};
-	if (text == '破坏神') {out = 'Destruction God';};
-	if (text == '龙属性攻击强化+1') {out = 'Dragon Atk +1';};
-	if (text == '龙属性攻击强化+2') {out = 'Dragon Atk +2';};
-	if (text == '龙属性攻击强化+3') {out = 'Dragon Atk +3';};
-	if (text == '龙属性攻击弱化') {out = 'Dragon Atk Down';};
-	if (text == '速食') {out = 'Speed Eating';};
-	if (text == '慢食') {out = 'Slow Eater';};
-	if (text == '回避距离+1') {out = 'Evade Dist +1';};
-	if (text == '回避距离+2') {out = 'Evade Dist +2';};
-	if (text == '回避性能+1') {out = 'Evasion +1';};
-	if (text == '回避性能+2') {out = 'Evasion +2';};
-	if (text == '回避性能+3') {out = 'Evasion +3';};
-	if (text == '见切+1') {out = 'Critical Eye +1';};
-	if (text == '见切+2') {out = 'Critical Eye +2';};
-	if (text == '见切+3') {out = 'Critical Eye +3';};
-	if (text == '见切+4') {out = 'Critical Eye +4';};
-	if (text == '见切+5') {out = 'Critical Eye +5';};
-	if (text == '见切-1') {out = 'Critical Eye -1';};
-	if (text == '见切-2') {out = 'Critical Eye -2';};
-	if (text == '见切-3') {out = 'Critical Eye -3';};
-	if (text == '见切-4') {out = 'Critical Eye -4';};
-	if (text == '集中') {out = 'Concentrate';};
-	if (text == '专注') {out = 'Focus';};
-	if (text == '凝神') {out = 'Attentive';};
-	if (text == '杂念') {out = 'Distraction';};
-	if (text == '心眼') {out = "Mind's Eye";};
-	if (text == '火属性攻击强化+1') {out = 'Fire Atk +1';};
-	if (text == '火属性攻击强化+2') {out = 'Fire Atk +2';};
-	if (text == '火属性攻击强化+3') {out = 'Fire Atk +3';};
-	if (text == '火属性攻击弱化') {out = 'Fire Atk Down';};
-	if (text == '火属性耐性强化+1') {out = 'Fire Res +1';};
-	if (text == '火属性耐性强化+2') {out = 'Fire Res +2';};
-	if (text == '火属性耐性强化+3') {out = 'Fire Res +3';};
-	if (text == '火属性耐性弱化') {out = 'Fire Res Down';};
-	if (text == '大胃王') {out = 'Gourmand';};
-	if (text == '防御性能+1') {out = 'Guard +1';};
-	if (text == '防御性能+2') {out = 'Guard +2';};
-	if (text == '防御性能+3') {out = 'Guard +3';};
-	if (text == '防御强化') {out = 'Guard Boost';};
-	if (text == '体力强化+1') {out = 'Health +1';};
-	if (text == '体力强化+2') {out = 'Health +2';};
-	if (text == '体力强化+3') {out = 'Health +3';};
-	if (text == '体力强化+4') {out = 'Health +4';};
-	if (text == '体力强化+5') {out = 'Health +5';};
-	if (text == '体力弱化-1') {out = 'Health -1';};
-	if (text == '体力弱化-2') {out = 'Health -2';};
-	if (text == '体力弱化-3') {out = 'Health -3';};
-	if (text == '体力弱化-4') {out = 'Health -4';};
-	if (text == '耳栓') {out = 'Earplugs';};
-	if (text == '高级耳栓') {out = 'HG Earplugs';};
-	if (text == '耐暑') {out = 'Heat Cancel';};
-	if (text == '草药达人') {out = 'Herbal Daren';};
-	if (text == '吸引') {out = 'Attract';};
-	if (text == '饥饿感减半') {out = 'Halve Hunger';};
-	if (text == '饱腹') {out = 'Negate Hunger';};
-	if (text == '饥饿感增加') {out = 'Raise Hunger';};
-	if (text == '冰属性攻击强化+1') {out = 'Ice Atk +1';};
-	if (text == '冰属性攻击强化+2') {out = 'Ice Atk +2';};
-	if (text == '冰属性攻击强化+3') {out = 'Ice Atk +3';};
-	if (text == '冰属性攻击弱化') {out = 'Ice Atk Down';};
-	if (text == '冰属性耐性强化+1') {out = 'Ice Res +1';};
-	if (text == '冰属性耐性强化+2') {out = 'Ice Res +2';};
-	if (text == '冰属性耐性强化+3') {out = 'Ice Res +3';};
-	if (text == '冰属性耐性弱化') {out = 'Ice Res Down';};
-	if (text == '暴击') {out = 'Violent Strike';};
-	if (text == '装填术') {out = 'Load Up';};
-	if (text == '耐泥雪') {out = 'Negate Mud/Snow';};
-	if (text == '通常弹&连射矢强化') {out = 'Normal/Rapid Up';};
-	if (text == '麻痹免疫') {out = 'Negate Paralysis';};
-	if (text == '麻痹倍化') {out = 'Double Paralysis';};
-	if (text == '散弹/矢强化') {out = 'Pellet/Spread Up';};
-	if (text == '贯通弹/矢强化') {out = 'Pierce/Pierce Up';};
-	if (text == '毒减半') {out = 'Halve Poison';};
-	if (text == '毒无效') {out = 'Negate Poison';};
-	if (text == '毒倍化') {out = 'Double Poison';};
-	if (text == '火事场力+1') {out = 'Adrenaline +1';};
-	if (text == '火事场力+2') {out = 'Adrenaline +2';};
-	if (text == '火事场力+3') {out = 'Adrenaline +3';};
-	if (text == '不安') {out = 'Worrywart';};
-	if (text == '精灵的守护') {out = 'Holy Blessing';};
-	if (text == '精灵王的加护') {out = 'Divine Blessing';};
-	if (text == '恶灵的加护') {out = 'Evil Blessing';};
-	if (text == '恶灵王的加护') {out = 'Demonic Blessing';};
-	if (text == '探知') {out = 'Detect';};
-	if (text == '自动标记') {out = 'Autotracker';};
-	if (text == '回复速度+1') {out = 'Rec Speed +1';};
-	if (text == '回复速度+2') {out = 'Rec Speed +2';};
-	if (text == '回复速度+3') {out = 'Rec Speed +3';};
-	if (text == '回复速度-1') {out = 'Rec Speed -1';};
-	if (text == '回复速度-2') {out = 'Rec Speed -2';};
-	if (text == '回复速度-3') {out = 'Rec Speed -3';};
-	if (text == '反动减轻+1') {out = 'Recoil Down +1';};
-	if (text == '反动减轻+2') {out = 'Recoil Down +2';};
-	if (text == '反动增大') {out = 'Recoil Up';};
-	if (text == '上弹速度强化+1') {out = 'Reload Spd +1';};
-	if (text == '上弹速度强化+2') {out = 'Reload Spd +2';};
-	if (text == '上弹速度强化+3') {out = 'Reload Spd +3';};
-	if (text == '上弹速度强化-1') {out = 'Reload Spd -1';};
-	if (text == '上弹速度强化-2') {out = 'Reload Spd -2';};
-	if (text == '看破+1') {out = 'See Through +1';};
-	if (text == '看破+2') {out = 'See Through +2';};
-	if (text == '隐秘') {out = 'Sneak';};
-	if (text == '挑衅') {out = 'Taunt';};
-	if (text == '砥石使用高速化') {out = 'Speed Sharpening';};
-	if (text == '砥石使用极速化') {out = 'High Speed Sharpening';};
-	if (text == '砥石使用低速化') {out = 'Slow Sharpening';};
-	if (text == '业物') {out = 'Sharp';};
-	if (text == '无锋') {out = 'Razor Sharp';};
-	if (text == '钝刀') {out = 'Blunt Edge';};
-	if (text == '睡眠免疫') {out = 'Negate Sleep';};
-	if (text == '睡眠倍化') {out = 'Double Sleep';};
-	if (text == '陷阱师') {out = 'Trap Master';};
-	if (text == '挑战者+1') {out = 'Challenger +1';};
-	if (text == '挑战者+2') {out = 'Challenger +2';};
-	if (text == '耐力回复+1') {out = 'Stam Recov +1';};
-	if (text == '耐力回复+2') {out = 'Stam Recov +2';};
-	if (text == '耐力回复+3') {out = 'Stam Recov +3';};
-	if (text == '耐力回复-1') {out = 'Stam Recov -1';};
-	if (text == '耐力回复-2') {out = 'Stam Recov -2';};
-	if (text == '状态异常攻击+1') {out = 'Status Atk +1';};
-	if (text == '状态异常攻击+2') {out = 'Status Atk +2';};
-	if (text == '状态异常攻击+3') {out = 'Status Atk +3';};
-	if (text == '状态异常攻击-1') {out = 'Status Atk Down';};
-	if (text == '气绝减半') {out = 'Halve Stun';};
-	if (text == '气绝免疫') {out = 'Negate Stun';};
-	if (text == '气绝倍化') {out = 'Double Stun';};
-	if (text == '不屈') {out = 'Fortify';};
-	if (text == '弱点特效') {out = 'Weakness Exploit';};
-	if (text == '雷属性耐性强化+1') {out = 'Thunder Res +1';};
-	if (text == '雷属性耐性强化+2') {out = 'Thunder Res +2';};
-	if (text == '雷属性耐性强化+3') {out = 'Thunder Res +3';};
-	if (text == '雷属性耐性弱化') {out = 'Thunder Res Down';};
-	if (text == '雷属性攻击强化+1') {out = 'Thunder Atk +1';};
-	if (text == '雷属性攻击强化+2') {out = 'Thunder Atk +2';};
-	if (text == '雷属性攻击强化+3') {out = 'Thunder Atk +3';};
-	if (text == '雷属性攻击弱化') {out = 'Thunder Atk Down';};
-	if (text == '绊术') {out = 'Tripping Power';};
-	if (text == '水属性攻击强化+1') {out = 'Water Atk +1';};
-	if (text == '水属性攻击强化+2') {out = 'Water Atk +2';};
-	if (text == '水属性攻击强化+3') {out = 'Water Atk +3';};
-	if (text == '水属性攻击弱化') {out = 'Water Atk Down';};
-	if (text == '广域化+1') {out = 'Wide-Range +1';};
-	if (text == '广域化+2') {out = 'Wide-Range +2';};
-	if (text == '广域化+3') {out = 'Wide-Range +3';};
-	if (text == '风压（小）无效') {out = 'Windproof (Lo)';};
-	if (text == '风压（大）无效') {out = 'Windproof (Hi)';};
-	if (text == '龙风压无效') {out = 'Dragon Windproof';};
-	if (text == '眠瓶/弹追加') {out = 'Use Sleep Coat';};
-	if (text == '飞人+1') {out = 'Marathon Runner +1';};
-	if (text == '飞人+2') {out = 'Marathon Runner +2';};
-	if (text == '野外生存') {out = 'Wilderness Survival';};
-	if (text == '水属性耐性强化+1') {out = 'Water Res +1';};
-	if (text == '水属性耐性强化+2') {out = 'Water Res +2';};
-	if (text == '水属性耐性强化+3') {out = 'Water Res +3';};
-	if (text == '水属性耐性弱化') {out = 'Water Res Down';};
-	if (text == '龙属性耐性强化+1') {out = 'Dragon Res +1';};
-	if (text == '龙属性耐性强化+2') {out = 'Dragon Res +2';};
-	if (text == '龙属性耐性强化+3') {out = 'Dragon Res +3';};
-	if (text == '龙属性耐性弱化') {out = 'Dragon Res Down';};
-	if (text == '吃血量增加') {out = 'Recovery Up';};
-	if (text == '吃血量大幅增加') {out = 'Recovery Up Large';};
-	if (text == '吃血量减少') {out = 'Recovery Down';};
-	if (text == '茸食') {out = 'Alloy Stomach';};
-	if (text == '速射子弹+1') {out = 'Bonus Shot +1';};
-	if (text == '吹笛名人') {out = 'Horn Maestro';};
-	if (text == '炮术师') {out = 'Artillery Exptert';};
-	if (text == '炮术王') {out = 'Artillery God';};
-	if (text == '甲壳杀手') {out = 'Carapacean Killer';};
-	if (text == '鸟龙杀手') {out = 'Bird Wyvern Killer';};
-	if (text == '飞龙杀手') {out = 'Flying Wyvern Killer';};
-	if (text == '贯通弹LV1/2/3装填数+3') {out = 'Pierce S Lv1/2/3 +3';};
-	if (text == '贯通弹LV1/2装填数+3') {out = 'Pierce S Lv1/2 +3';};
-	if (text == '贯通弹LV1装填数+3') {out = 'Pierce S Lv1 +3';};
-	if (text == '散弹LV1/2/3装填数+2') {out = 'Pellet S Lv1/2/3 +2';};
-	if (text == '散弹LV1/2装填数+2') {out = 'Pellet S Lv1/2 +2';};
-	if (text == '散弹LV1+2') {out = 'Pellet S Lv1 +2';};
-	if (text == '榴弹LV1/2/3装填数+2') {out = 'Crag S Lv1/2/3 +2';};
-	if (text == '榴弹LV1/2装填数+2') {out = 'Crag S Lv1/2 +2';};
-	if (text == '榴弹LV1+2') {out = 'Crag S Lv1 +2';};
-	if (text == '麻瓶/弹追加') {out = 'Use Para Coat';};
-	if (text == '毒瓶/毒弹追加') {out = 'Use Poison Coat';};
-	if (text == '顿足') {out = 'Slow Sprinter';};
-	if (text == '卸甲') {out = 'Unload Armor';};
-	if (text == '采取+2') {out = 'Take +2';};
-	if (text == '采取+1') {out = 'Take +1';};
-	if (text == '古龙杀手') {out = 'Elder Dragon Killer';};
-	if (text == '鱼龙杀手') {out = 'Piscine Wyvern Killer';};
-	if (text == '牙兽杀手') {out = 'Fanged Beast Killer';};
-	if (text == '通常弹LV1/2/3装填数+3') {out = 'Normal S Lv1/2/3 +3';};
-	if (text == '通常弹LV1/2装填数+3') {out = 'Normal S Lv1/2 +3';};
-	if (text == '通常弹LV1装填数+3') {out = 'Normal S Lv1 +3';};
-//Skill descriptions
-	if (text == '极大提升攻击力') {out = 'Greatly increase Attack';};
-	if (text == '大幅提升攻击力') {out = 'Dramatically increase Attack';};
-	if (text == '显著提升攻击力') {out = 'Significantly increase Attack';};
-	if (text == '中量提升攻击力') {out = 'Increase Attack';};
-	if (text == '略微提升攻击力') {out = 'Slightly increase Attack';};
-	if (text == '略微降低攻击力') {out = 'Slightly reduce Attack';};
-	if (text == '中量降低攻击力') {out = 'Reduce Attack';};
-	if (text == '显著降低攻击力') {out = 'Significantly reduce Attack';};
-	if (text == '大幅降低攻击力') {out = 'Dramatically reduce Attack';};
-	if (text == '极大提升防御力') {out = 'Greatly increase Defense';};
-	if (text == '大幅提升防御力') {out = 'Dramatically increase Defense';};
-	if (text == '显著提升防御力') {out = 'Significantly increase Defense';};
-	if (text == '中量提升防御力') {out = 'Increase Defense';};
-	if (text == '略微提升防御力') {out = 'Slightly increase Defense';};
-	if (text == '略微降低防御力') {out = 'Slightly reduce Defense';};
-	if (text == '中量降低防御力') {out = 'Reduce Defense';};
-	if (text == '显著降低防御力') {out = 'Significantly reduce Defense';};
-	if (text == '大幅降低防御力') {out = 'Dramatically reduce Defense';};
-	if (text == '极大增加会心几率') {out = 'Greatly increase Critical Chance';};
-	if (text == '大幅增加会心几率') {out = 'Dramatically increase Critical Chance';};
-	if (text == '显著增加会心几率') {out = 'Significantly increase Critical Chance';};
-	if (text == '中量增加会心几率') {out = 'Increase Critical Chance';};
-	if (text == '略微增加会心几率') {out = 'Slightly increase Critical Chance';};
-	if (text == '略微降低会心几率') {out = 'Slightly reduce Critical Chance';};
-	if (text == '中量降低会心几率') {out = 'Reduce Critical Chance';};
-	if (text == '显著降低会心几率') {out = 'Significantly reduce Critical Chance';};
-	if (text == '食用速度加快') {out = 'Eating sped up';};
-	if (text == '食用速度减慢') {out = 'Slow down the speed of eating';};
-	if (text == '可以知道地图中大型怪物的濒死状态便于捕获') {out = 'Shows when monster is dying to help with monster capture';};
-	if (text == '可以知道地图中大型怪物的位置') {out = 'Shows location of large monsers';};
-	if (text == '在怪物身上存在染色效果时，可以知道大型怪物什么时候能被捕捉') {out = 'Shows when monster is dying (when marked with paintball) to help with monster capture';};
-	if (text == '极大提升体力上限') {out = 'Greatly increase amount of Health';};
-	if (text == '大幅提升体力上限') {out = 'Dramatically increase amount of Health';};
-	if (text == '显著提升体力上限') {out = 'Significantly increase amount of Health';};
-	if (text == '中量提升体力上限') {out = 'Increase amount of Health';};
-	if (text == '略微提升体力上限') {out = 'Slightly increase amount of Health';};
-	if (text == '略微降低体力上限') {out = 'Slightly reduce amount of Health';};
-	if (text == '中量降低体力上限') {out = 'Reduce amount of Health';};
-	if (text == '显著降低体力上限') {out = 'Significantly reduce amount of Health';};
-	if (text == '大幅降低体力上限') {out = 'Dramatically reduce amount of Health';};
-	if (text == '回复能力大幅增强') {out = 'Greatly increase Rec Speed';};
-	if (text == '回复能力显著增强') {out = 'Significantly increase Rec Speed';};
-	if (text == '回复能力略微增强') {out = 'Slightly increase Rec Speed';};
-	if (text == '回复能力降低') {out = 'Reduce Rec Speed';};
-	if (text == '水属性攻击伤害大幅提升') {out = 'Dramatically increase Water Attack';};
-	if (text == '水属性攻击伤害显著提升') {out = 'Significantly increase Water Attack';};
-	if (text == '水属性攻击伤害略微提升') {out = 'Slightly increase Water Attack';};
-	if (text == '水属性攻击的伤害衰减') {out = 'Reduce Water Attack';};
-	if (text == '火属性攻击伤害大幅提升') {out = 'Dramatically increase Fire Attack';};
-	if (text == '火属性攻击伤害显著提升') {out = 'Significantly increase Fire Attack';};
-	if (text == '火属性攻击伤害略微提升') {out = 'Slightly increase Fire Attack';};
-	if (text == '火属性攻击的伤害衰减') {out = 'Reduce Fire Attack';};
-	if (text == '雷属性攻击伤害大幅提升') {out = 'Dramatically increase Thunder Attack';};
-	if (text == '雷属性攻击伤害显著提升') {out = 'Significantly increase Thunder Attack';};
-	if (text == '雷属性攻击伤害略微提升') {out = 'Slightly increase Thunder Attack';};
-	if (text == '雷属性攻击的伤害衰减') {out = 'Reduce Thunder Attack';};
-	if (text == '龙属性攻击伤害大幅提升') {out = 'Dramatically increase Dragon Attack';};
-	if (text == '龙属性攻击伤害显著提升') {out = 'Significantly increase Dragon Attack';};
-	if (text == '龙属性攻击伤害略微提升') {out = 'Slightly increase Dragon Attack';};
-	if (text == '龙属性攻击的伤害衰减') {out = 'Reduce Dragon Attack';};
-	if (text == '冰属性攻击伤害大幅提升') {out = 'Dramatically increase Ice Attack';};
-	if (text == '冰属性攻击伤害显著提升') {out = 'Significantly increase Ice Attack';};
-	if (text == '冰属性攻击伤害略微提升') {out = 'Slightly increase Ice Attack';};
-	if (text == '水属性攻击的伤害衰减') {out = 'Reduce Ice Attack';};
-	if (text == '不会进入麻痹状态') {out = 'Cannot be Paralysed';};
-	if (text == '麻痹状态的时间增长') {out = 'Paralysis time extended';};
-	if (text == '不会进入气绝状态') {out = 'Cannot be Stunned';};
-	if (text == '气绝状态的时间减半') {out = 'Stun time halved';};
-	if (text == '气绝状态的时间延长') {out = 'Stun time extended';};
-	if (text == '不会进入睡眠状态') {out = 'Cannot be put to Sleep';};
-	if (text == '进入睡眠状态的时间延长') {out = 'Sleep time extended';};
-	if (text == '不会进入中毒状态') {out = 'Cannot be Poisoned';};
-	if (text == '中毒状态的时间减半') {out = 'Poison time halved';};
-	if (text == '进入毒状态的时间延长') {out = 'Poison time extended';};
-	if (text == '大剑、锤、弓蓄力时间缩短20%；双刀鬼人槽积攒效率+50%；太刀练气槽积攒效率+20%') {out = 'Sword, hammer, and bow charge time reduced by 20%; Dual blades Demon gauge accumulation efficiency +50%; Longsword Spirit guage accumulation efficiency +20%';};
-	if (text == '大剑、锤、弓蓄力时间缩短10%；双刀鬼人槽积攒效率+30%；太刀练气槽积攒效率+10%') {out = 'Sword, hammer, and bow charge time reduced by 10%; Dual blades Demon gauge accumulation efficiency +30%; Longsword Spirit guage accumulation efficiency +10%';};
-	if (text == '大剑、锤、弓蓄力时间缩短5%；双刀鬼人槽积攒效率+15%；太刀练气槽积攒效率+5%') {out = 'Sword, hammer, and bow charge time reduced by 5%; Dual blades Demon gauge accumulation efficiency +15%; Longsword Spirit guage accumulation efficiency +5%';};
-	if (text == '大剑和锤蓄力所需时间延长') {out = 'Requirements extended';};
-	if (text == '较大概率受到的伤害值明显降低') {out = 'Greater chance that when recieving damage it gets significantly reduced';};
-	if (text == '一定概率受到的伤害值降低') {out = 'Chance that when recieving damage it gets reduced';};
-	if (text == '一定概率受到的伤害值增加') {out = 'Chance that when recieving damage it gets increased';};
-	if (text == '较大概率受到的伤害值明显增加') {out = 'Greater chance that when recieving damage it gets significantly increased';};
-	if (text == '更容易对怪物造成部位破坏') {out = 'More likely to damage breakable parts of a monster';};
-	if (text == '容易对怪物造成部位破坏') {out = 'Likely to damage breakable parts of a monster';};
-	if (text == '体力较低时，防御力和攻击力得到大幅提升') {out = 'Dramatically increase Defense and Attack when at low health';};
-	if (text == '体力较低时，防御力和攻击力得到提升') {out = 'Increase Defense and Attack when at low health';};
-	if (text == '体力较低时，防御力提升') {out = 'Increase Defense and Attack when at low health';};
-	if (text == '体力降低时，防御力和攻击力减少') {out = 'Decrease Defense and Attack when at low health';};
-	if (text == '攻击时不会弹刀') {out = 'Prevents your attacks from being deflected';};
-	if (text == '击中怪物弱点部位时，有额外伤害加成') {out = 'Increases damage when striking body parts that your attacks are highly effective';};
-	if (text == '使得弩可以使用LV1/LV2/LV3贯通弹，如果已有该子弹，则弹夹变长') {out = 'You can use Pierce S Lvl1/2/3; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1/LV2贯通弹，如果已有该子弹，则弹夹变长') {out = 'You can use Pierce S Lvl1/2; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1贯通弹，如果已有该子弹，则弹夹变长') {out = 'You can use Pierce S Lvl1; if you already have these your clip size is extended';};
-	if (text == '耐力上限值不会减少') {out = 'Stamina bar will not decrease';};
-	if (text == '耐力上限的自然下降速度变慢') {out = 'Stamina bar will decrease slower';};
-	if (text == '耐力上限的自然下降速度变快') {out = 'Stamina bar decreases faster';};
-	if (text == '大幅减少翻滚及受身的耐力消耗') {out = 'Significantly reduce the stamina cost of dodging';};
-	if (text == '显著减少翻滚及受身的耐力消耗') {out = 'Reduce the stamina cost of dodging';};
-	if (text == '略微减少翻滚及受身的耐力消耗') {out = 'Slightly reduce the stamina cost of dodging';};
-	if (text == '略微增加翻滚及受身的耐力消耗') {out = 'Slightly increase the stamina cost of dodging';};
-	if (text == '显著增加翻滚及受身的耐力消耗') {out = 'Significantly increase the stamina cost of dodging';};
-	if (text == '奥义槽全满是增加攻击力和防御力') {out = 'Increases Attack and Defense when Ultimate Guage is charged';};
-	if (text == '使得弩可以使用LV1/LV2/LV3散弹，如果已有该子弹，则弹夹变长') {out = 'You can use Pellet S Lvl1/2/3; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1/LV2散弹，如果已有该子弹，则弹夹变长') {out = 'You can use Pellet S Lvl1/2; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1散弹，如果已有该子弹，则弹夹变长') {out = 'You can use Pellet S Lvl1; if you already have these your clip size is extended';};
-	if (text == '弩子弹装填的速度显著提升') {out = 'Significantly improve speed of Bowgun bullet loading and Bow coat applying';};
-	if (text == '弩子弹装填的速度中等提升') {out = 'Improve speed of Bowgun bullet loading and Bow coat applying';};
-	if (text == '弩子弹装填的速度略微提升') {out = 'Slightly improve speed of Bowgun bullet loading and Bow coat applying';};
-	if (text == '弩子弹装填的速度略微下降') {out = 'slightly decrease speed of Bowgun bullet loading and Bow coat applying';};
-	if (text == '弩子弹装填的速度中等下降') {out = 'Decrease speed of Bowgun bullet loading and Bow coat applying';};
-	if (text == '异常状态攻击的蓄积值大幅增加') {out = 'Dramatically increase Status Attack';};
-	if (text == '异常状态攻击的蓄积值显著增加') {out = 'Significantly increase Status Attack';};
-	if (text == '异常状态攻击的蓄积值少量增加') {out = 'Slightly increase Status Attack';};
-	if (text == '异常状态攻击的蓄积值减少') {out = 'Reduce Status Attack';};
-	if (text == '使得弩可以使用LV1/LV2/LV3榴弹，如果已有该子弹，则弹夹变长') {out = 'You can use Crag S Lvl1/2/3; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1/LV2榴弹，如果已有该子弹，则弹夹变长') {out = 'You can use Crag S Lvl1/2; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1榴弹，如果已有该子弹，则弹夹变长') {out = 'You can use Crag S Lvl1; if you already have these your clip size is extended';};
-	if (text == '使用放置类道具时速度显著加快') {out = 'Speeds up trap-setting and bomb-setting time';};
-	if (text == '增加连射矢和通常弹的伤害') {out = 'Increases the power of Normal S and Rapid-type arrows';};
-	if (text == '增加贯通矢和贯通弹的伤害') {out = 'Increases the power of Pierce S and Pierce-type arrows';};
-	if (text == '增加散弹和散射矢的伤害') {out = 'Increases the power of Pellet S and Sread-type arrows';};
-	if (text == '不受到震地效果的影响') {out = 'Prevents staggering from tremors created by large monsters';};
-	if (text == '受到攻击后15秒内再次受到的首次攻击伤害显著降低，一段时间内仅触发一次') {out = 'Significantly reduce damage after being attacked again within 15 seconds of the first attack; Has a cooldown';};
-	if (text == '受到攻击后10秒内再次受到的首次攻击伤害降低,一段时间内仅触发一次') {out = 'Reduce damage after being attacked again within 10 seconds of the first attack; Has a cooldown';};
-	if (text == '当队伍中存在异性的情况下，攻击力得到一定提升') {out = 'Increases your attack when in party with opposite sex';};
-	if (text == '使用对应类型的远程武器时，可以使用眠瓶或眠弹') {out = 'Can use Sleep C (Bow) or Sleep S (Bowgun)';};
-	if (text == '使用对应类型的远程武器时，可以使用麻瓶或麻弹') {out = 'Can use Para C (Bow) or Para S (Bowgun)';};
-	if (text == '使用对应类型的远程武器时，可以使用毒瓶或毒弹') {out = 'Can use Poison C (Bow) or Poison S (Bowgun)';};
-	if (text == '不容易成为怪物的目标') {out = 'Reduce chance of being targeted by monster';};
-	if (text == '更容易成为怪物的目标') {out = 'Increase chance of being targeted by monster';};
-	if (text == '可以抵御大多数大型怪物的咆哮') {out = 'Can withstand most large monster roars';};
-	if (text == '可以抵御部分大型怪物的咆哮') {out = 'Can withstand some large monster roars';};
-	if (text == '大幅增强防御时可抵御的攻击强度') {out = 'Greatly increase amount of attack you can guard against';};
-	if (text == '显著增强防御时可抵御的攻击强度') {out = 'Significantly increase amount of attack you can guard against';};
-	if (text == '增强防御时可抵御的攻击强度') {out = 'Increase amount of attack you can guard against';};
-	if (text == '增加耐力回复速度') {out = 'Increase Stamina recovery speed';};
-	if (text == '降低耐力回复速度') {out = 'Reduce Stamina recovery speed';};
-	if (text == '大幅降低耐力回复速度') {out = 'Significantly reduce Stamina recovery speed';};
-	if (text == '能够抵抗不可防御招式') {out = 'Causes previously unblockable attacks to become blockable';};
-	if (text == '大幅增加翻滚的移动距离') {out = 'Significantly increase dodge roll distance';};
-	if (text == '增加翻滚的移动距离') {out = 'Increase dodge roll distance';};
-	if (text == '大幅增加翻滚的无敌时间') {out = 'Greatly increase dodge invincible time';};
-	if (text == '显著增加翻滚的无敌时间') {out = 'Significantly increase dodge invincible time';};
-	if (text == '增加翻滚的无敌时间') {out = 'Increase dodge invincible time';};
-	if (text == '在剩余一定体力的情况下，不会被一击必杀') {out = 'Prevents fainting a single time if struck with a lethal blow; except one hit kills';};
-	if (text == '当怪物愤怒时，攻击力提升') {out = 'Increase your Attack when monster is angry';};
-	if (text == '当怪物愤怒时，攻击力小幅提升') {out = 'Slightly increase your Attack when monster is angry';};
-	if (text == '不会进入臭气状态') {out = 'Prevent stench';};
-	if (text == '每次死亡后攻击力和防御力都得到一定的提升（最多提升2次）') {out = 'After each death, attack and defense improved slightly (Stacks twice)';};
-	if (text == '不会进入泥人或雪人状态') {out = 'Prevents being coated in snow or mud';};
-	if (text == '免疫怪物造成的小型和大型风压以及古龙造成的龙风压') {out = 'Immune to small and large wind pressure (including elder dragons)';};
-	if (text == '免疫怪物造成的小型和大型风压') {out = 'Immune to small and large wind pressure';};
-	if (text == '免疫怪物造成的小型风压') {out = 'Immune to small wind pressure';};
-	if (text == '耐力消耗显著降低') {out = 'Significantly reduce consumption cost of Stamina';};
-	if (text == '耐力消耗降低') {out = 'Reduce consumption cost of Stamina';};
-	if (text == '耐力消耗增加') {out = 'Increase consumption cost of Stamina';};
-	if (text == '当血量值较高时，通过降低防御力增加伤害') {out = 'When health is high, increase your Attack by reducing your Defense';};
-	if (text == '当持续一定时间没有触发会心时，下一次攻击增加会心机率') {out = 'After not dealing a critical strike for a while, your next attack will increase critical chance';};
-	if (text == '当自己使用恢复类及肉类时，对同区域内的队员都提供较大比例的效果') {out = 'Transfers a large portion of the effects of certain items to companions in the same area';};
-	if (text == '当自己使用恢复类道具时，对同区域内的队员提供较大比例的效果') {out = 'Transfers a greater portion of the effects of certain items to companions in the same area';};
-	if (text == '当自己使用恢复类道具时，对一定范围内的队员提供一定比例的效果') {out = 'Transfers a portion of the effects of certain items to companions in the same area';};
-	if (text == '非怪物仇恨目标时额外增加伤害，但对怪物的仇恨变高') {out = 'Increases damage to monsters not targeting you, but they will become more likely to target you';};
-	if (text == '攻击时大幅降低斩味消耗') {out = 'Greatly reduce Sharpness consumption';};
-	if (text == '攻击时降低斩味消耗') {out = 'Reduce Sharpness consumption';};
-	if (text == '攻击时增加斩味消耗') {out = 'Increase Sharpness consumption';};
-	if (text == '采集时80%几率多采一次') {out = 'When collecting there is an 80% chance of recieving more items';};
-	if (text == '采集时50%几率多采一次') {out = 'When collecting there is an 50% chance of recieving more items';};
-	if (text == '搬蛋时移动速度增加，并且偷盗免疫') {out = 'Increases movement speed when moving eggs; theft immunity';};
-	if (text == '对飞龙种造成的伤害增加') {out = 'Increase the damage done to certain monster species';};
-	if (text == '对鸟龙种造成的伤害增加') {out = 'Increase the damage done to certain monster species';};
-	if (text == '对甲壳种造成的伤害增加') {out = 'Increase the damage done to certain monster species';};
-	if (text == '对古龙种造成的伤害增加') {out = 'Increase the damage done to certain monster species';};
-	if (text == '对鱼龙种造成的伤害增加') {out = 'Increase the damage done to certain monster species';};
-	if (text == '对牙兽种造成的伤害增加') {out = 'Increase the damage done to certain monster species';};
-	if (text == '增加攻击的气绝效果') {out = 'Makes it easier to Stun monsters';};
-	if (text == '增加攻击的倒地效果') {out = 'Makes it easier to Trip monsters';};
-	if (text == '暑热效果无效') {out = 'Negates Heat effects';};
-	if (text == '寒冷效果无效') {out = 'Negates Cold effects';};
-	if (text == '使得弩可以使用LV1/LV2/LV3通常弹，如果已有该子弹，则弹夹变长') {out = 'You can use Normal S Lvl1/2/3; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1/LV2通常弹，如果已有该子弹，则弹夹变长') {out = 'You can use Normal S Lvl1/2; if you already have these your clip size is extended';};
-	if (text == '使得弩可以使用LV1通常弹，如果已有该子弹，则弹夹变长') {out = 'You can use Normal S Lvl1; if you already have these your clip size is extended';};
-	if (text == '斩味增加一档') {out = 'Adds more sharpness to weapon';};
-	if (text == '吃药品时候有一定几率恢复耐力') {out = 'Increases the effecacy of meat that raises max Stamina';};
-	if (text == '体力满时攻击力增加') {out = 'Increases Attack at full health';};
-	if (text == '弩装填数+1，可以使用弓箭4级蓄力') {out = 'Gives +1 shot to bowgun; Unlocks Bow Lvl4 charge';};
-	if (text == '水属性耐性大幅提升') {out = 'Dramatically increase Water Res';};
-	if (text == '水属性耐性显著提升') {out = 'Significantly increase Water Res';};
-	if (text == '水属性耐性略微提升') {out = 'Slightly increase Water Res';};
-	if (text == '水属性耐性衰减') {out = 'Reduce Water Res';};
-	if (text == '火属性耐性大幅提升') {out = 'Dramatically increase Fire Res';};
-	if (text == '火属性耐性显著提升') {out = 'Significantly increase Fire Res';};
-	if (text == '火属性耐性略微提升') {out = 'Slightly increase Fire Res';};
-	if (text == '火属性耐性衰减') {out = 'Reduce Fire Res';};
-	if (text == '雷属性耐性大幅提升') {out = 'Dramatically increase Thunder Res';};
-	if (text == '雷属性耐性显著提升') {out = 'Significantly increase Thunder Res';};
-	if (text == '雷属性耐性略微提升') {out = 'Slightly increase Thunder Res';};
-	if (text == '雷属性耐性衰减') {out = 'Reduce Thunder Res';};
-	if (text == '龙属性耐性大幅提升') {out = 'Dramatically increase Dragon Res';};
-	if (text == '龙属性耐性显著提升') {out = 'Significantly increase Dragon Res';};
-	if (text == '龙属性耐性略微提升') {out = 'Slightly increase Dragon Res';};
-	if (text == '龙属性耐性衰减') {out = 'Reduce Dragon Res';};
-	if (text == '冰属性耐性大幅提升') {out = 'Dramatically increase Ice Res';};
-	if (text == '冰属性耐性显著提升') {out = 'Significantly increase Ice Res';};
-	if (text == '冰属性耐性略微提升') {out = 'Slightly increase Ice Res';};
-	if (text == '冰属性耐性衰减') {out = 'Reduce Ice Res';};
-	if (text == '能够使砥石进行磨刀的速度达到极速') {out = 'Greatly increases speed of whetstone sharpening';};
-	if (text == '能够大幅加快使用砥石进行磨刀的速度') {out = 'Significantly increases speed of whetstone sharpening';};
-	if (text == '降低使用砥石进行磨刀的速度') {out = 'Reduces the speed of whetstone sharpening';};
-	if (text == '锤横扫重击、片手剑盾二连击、大剑拍击和防御拍击、弩炮近身攻击命中怪物头部将产生\n锁气绝效果，短时内让怪物气绝值停止恢复。') {out = 'Hammer blow, Sword and Shield Bash, Greatsword Slap, and Ranged head hits will lock up the monster. The monster will recover in a short amount of time';};
-	if (text == '大剑或片手剑可以在招式的间隙转入防御状态') {out = 'When equiped with a Greatsword or Sword and Shield, you will automatically guard frontal attacks when not attacking ';};
-	if (text == '使用回复药等道具时，恢复量大幅增加') {out = 'When using health recovery items gain a substantial amount of Recovery';};
-	if (text == '使用回复药等道具时，恢复量增加') {out = 'When using health recovery items gain increased Recovery';};
-	if (text == '使用回复药等道具时，恢复量较少') {out = 'When using health recovery items the amount recovered is lessened';};
-	if (text == '食用草药就可以恢复大量体力') {out = 'Edible herbs can recover a large amount of health';};
-	if (text == '吃蘑菇有不同效果') {out = 'Eating mushrooms have different effects';};
-	if (text == '自动烤肉') {out = 'Auto Barbecue';};
-	if (text == '拔刀攻击时，会心率大幅增加') {out = 'When attacking out of sheathe critical rate is increased substantially';};
-	if (text == '拔刀攻击时，会心率增加') {out = 'When attacking out of sheathe critical rate is increased';};
-	if (text == '弩炮速射时增加一发子弹') {out = 'Increase Rapid-Fire bullet count by one';};
-	if (text == '弩炮射击时，后坐力大幅减少') {out = 'Significantly reduce Bowgun recoil';};
-	if (text == '弩炮射击时，后坐力减少') {out = 'Reduce Bowgun recoil';};
-	if (text == '弩炮射击时，后坐力变大') {out = 'Increase Bowgun recoil';};
-	if (text == '狩猎笛旋律效果持续时间变长') {out = 'Hunting Horn Melody effects last for a longer time';};
-	if (text == '炮击伤害小幅增加，龙击炮CD时间小幅缩减') {out = 'Shelling damage increased slightly, Wyvern Fire Cooldown reduced';};
-	if (text == '炮击伤害略微增加，龙击炮CD时间略微缩减') {out = 'Shelling damage increased slightly, Wyvern Fire Cooldown slightly reduced';};
-	if (text == '不会进入刺伤状态') {out = 'Negates Bleeding condition';};
-//Other Armor
-	if (text == '真晓风') {out = 'True Dawnwind';};
-//Monster Names
-	if (text == '灰晶蝎') {out = '<a href="/monsters/akura-jebia/" target="_blank">Akura Jebia</a>';};
-	if (text == '尾晶蝎') {out = '<a href="/monsters/akura-vashimu/" target="_blank">Akura Vashimu</a>';};
-	if (text == '苍火龙') {out = '<a href="/monsters/azure-rathalos/" target="_blank">Azure Rathalos</a>';};
-	if (text == '鬼狩蛛') {out = '<a href="/monsters/baelidae/" target="_blank">Baelidae</a>';};
-	if (text == '岩龙') {out = '<a href="/monsters/basarios/" target="_blank">Basarios</a>';};
-	if (text == '铠龙') {out = '<a href="/monsters/gravios/" target="_blank">Gravios</a>';};
-	if (text == '雪狮子王') {out = '<a href="/monsters/blangonga/" target="_blank">Blangonga</a>';};
-	if (text == '青怪鸟') {out = '<a href="/monsters/blue-yian-kut-ku/" target="_blank">Blue Yian Kut-Ku</a>';};
-	if (text == '大野猪王') {out = '<a href="/monsters/bulldrome/" target="_blank">Bulldrome</a>';};
-	if (text == '河狸兽') {out = '<a href="/monsters/caeserber/" target="_blank">Caeserber</a>';};
-	if (text == '沙龙王') {out = '<a href="/monsters/cephadrome/" target="_blank">Cephadrome</a>';};
-	if (text == '沙雷鸟') {out = '<a href="/monsters/chramine/" target="_blank">Chramine</a>';};
-	if (text == '烈焰女王') {out = '<a href="/monsters/conflagration-rathian/" target="_blank">Conflagration Rathian</a>';};
-	if (text == '烈焰雌火龙') {out = '<a href="/monsters/conflagration-rathian/" target="_blank">Conflagration Rathian</a>';};
-	if (text == '桃毛兽王') {out = '<a href="/monsters/congalala/" target="_blank">Congalala</a>';};
-	if (text == '晶岩龙') {out = '<a href="/monsters/crystal-basarios/" target="_blank">Crystal Basarios</a>';};
-	if (text == '大名盾蟹') {out = '<a href="/monsters/daimyo-hermitaur/" target="_blank">Daimyo Hermitaur</a>';};
-	if (text == '角龙') {out = '<a href="/monsters/diablos/" target="_blank">Diablos</a>';};
-	if (text == '祸星龙') {out = '<a href="/monsters/doom-estrellian/" target="_blank">Doom Estrellian</a>';};
-	if (text == '骇狩蛛') {out = '<a href="/monsters/dread-baelidae/" target="_blank">Dread Baelidae</a>';};
-	if (text == '星龙') {out = '<a href="/monsters/estrellian/" target="_blank">Estrellian</a>';};
-	if (text == '黄速龙王') {out = '<a href="/monsters/gendrome/" target="_blank">Gendrome</a>';};
-	if (text == '战鬼河狸兽') {out = '<a href="/monsters/ghost-caeserber/" target="_blank">Ghost Caeserber</a>';};
-	if (text == '白速龙王') {out = '<a href="/monsters/giadrome/" target="_blank">Giadrome</a>';};
-	if (text == '金毛兽王') {out = '<a href="/monsters/gold-congalala/" target="_blank">Gold Congalala</a>';};
-	if (text == '金眠鸟') {out = '<a href="/monsters/gold-hypnocatrice/" target="_blank">Gold Hypnocatrice</a>';};
-	if (text == '红莲砦蟹') {out = '<a href="/monsters/guren-shen-gaoren/" target="_blank">Guren Shen Gaoren</a>';};
-	if (text == '毒怪鸟') {out = '<a href="/monsters/gypceros/" target="_blank">Gypceros</a>';};
-	if (text == '眠鸟') {out = '<a href="/monsters/hypnocatrice/" target="_blank">Hypnocatrice</a>';};
-	if (text == '冰雷鸟') {out = '<a href="/monsters/ice-chramine/" target="_blank">Ice Chramine</a>';};
-	if (text == '红速龙王') {out = '<a href="/monsters/iodrome/" target="_blank">Iodrome</a>';};
-	if (text == '电龙') {out = '<a href="/monsters/khezu/" target="_blank">Khezu</a>';};
-	if (text == '钢龙') {out = '<a href="/monsters/kushala-daora/" target="_blank">Kushala Daora</a>';};
-	if (text == '电甲虫') {out = '<a href="/monsters/lightenna/" target="_blank">Lightenna</a>';};
-	if (text == 'NBY') {out = '<a href="/monsters/lightenna/" target="_blank">Lightenna</a>';};
-	if (text == '荒厄龙') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
-	if (text == 'NB5') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
-	if (text == '一角龙') {out = '<a href="/monsters/monoblos/" target="_blank">Monoblos</a>';};
-	if (text == '独耳黑狼鸟') {out = '<a href="/monsters/one-eared-yian-garuga/" target="_blank">One-Eared Yian Garuga</a>';};
-	if (text == '片耳黑狼鸟') {out = '<a href="/monsters/one-eared-yian-garuga/" target="_blank">One-Eared Yian Garuga</a>';};
-	if (text == '樱火龙') {out = '<a href="/monsters/pink-rathian/" target="_blank">Pink Rathian</a>';};
-	if (text == '水龙') {out = '<a href="/monsters/plesioth/" target="_blank">Plesioth</a>';};
-	if (text == '紫毒鸟') {out = '<a href="/monsters/purple-gypceros/" target="_blank">Purple Gypceros</a>';};
-	if (text == '雄火龙') {out = '<a href="/monsters/rathalos/" target="_blank">Rathalos</a>';};
-	if (text == '雌火龙') {out = '<a href="/monsters/rathian/" target="_blank">Rathian</a>';};
-	if (text == '红电龙') {out = '<a href="/monsters/red-khezu/" target="_blank">Red Khezu</a>';};
-	if (text == '砂岩龙') {out = '<a href="/monsters/sandstone-basarios/" target="_blank">Sandstone Basarios</a>';};
-	if (text == '断刃一角龙') {out = '<a href="/monsters/shattered-monoblos/" target="_blank">Shattered Monoblos</a>';};
-	if (text == '断角一角龙') {out = '<a href="/monsters/shattered-monoblos/" target="_blank">Shattered Monoblos</a>';};
-	if (text == '砦蟹') {out = '<a href="/monsters/shen-gaoren/" target="_blank">Shen Gaoren</a>';};
-	if (text == '老山蟹') {out = '<a href="/monsters/shen-gaoren/" target="_blank">Shen Gaoren</a>';};
-	if (text == '将军镰蟹') {out = '<a href="/monsters/shogun-ceanataur/" target="_blank">Shogun Ceanataur</a>';};
-	if (text == '银眠鸟') {out = '<a href="/monsters/silver-hypnocatrice/" target="_blank">Silver Hypnocatrice</a>';};
-	if (text == '剑极狼') {out = '<a href="/monsters/slicemargl/" target="_blank">Slicemargl</a>';};
-	if (text == 'NBX') {out = '<a href="/monsters/slicemargl/" target="_blank">Slicemargl</a>';};
-	if (text == '剑豪镰蟹') {out = '<a href="/monsters/swordmaster-shogun-ceanataur/" target="_blank">Swordmaster Shogun Ceanataur</a>';};
-	if (text == '吞渊龙') {out = '<a href="/monsters/tartaronis/" target="_blank">Tartaronis</a>';};
-	if (text == '初阶吞渊龙') {out = '<a href="/monsters/tartaronis/" target="_blank">Tartaronis</a>';};
-	if (text == '铠岩砦蟹') {out = '<a href="/monsters/tepekki-shen-gaoren/" target="_blank">Tepekki Shen Gaoren</a>';};
-	if (text == '轰龙') {out = '<a href="/monsters/tigrex/" target="_blank">Tigrex</a>';};
-	if (text == '蓝速龙王') {out = '<a href="/monsters/velocidrome/" target="_blank">Velocidrome</a>';};
-	if (text == '沙狸兽') {out = '<a href="/monsters/yellow-caeserber/" target="_blank">Yellow Caeserber</a>';};
-	if (text == '黑狼鸟') {out = '<a href="/monsters/yian-garuga/" target="_blank">Yian Garuga</a>';};
-	if (text == '大怪鸟') {out = '<a href="/monsters/yian-kut-ku/" target="_blank">Yian Kut-Ku</a>';};
-	if (text == '红莲砦蟹，铠岩砦蟹') {out = '<a href="/monsters/guren-shen-gaoren/" target="_blank">Guren Shen Gaoren</a>, <a href="/monsters/tepekki-shen-gaoren/" target="_blank">Tepekki Shen Gaoren</a>';};
-	if (text == '镰蟹') {out = '<a href="/monsters/shogun-ceanataur/" target="_blank">Ceanataur</a>';};
-	if (text == '盾蟹') {out = '<a href="/monsters/daimyo-hermitaur/" target="_blank">Hermitaur</a>';};
-	if (text == '雄火龙，苍火龙') {out = '<a href="/monsters/rathalos/" target="_blank">Rathalos</a>, <a href="/monsters/azure-rathalos/" target="_blank">Azure Rathalos</a>';};
-	if (text == '炎狮子') {out = '<a href="/monsters/flame-blangonga/" target="_blank">Flame Blangonga</a>';};
-	if (text == '白一角龙') {out = '<a href="/monsters/white-monoblos/" target="_blank">White Monoblos</a>';};
-	if (text == '熔岩龙') {out = '<a href="/monsters/lavasioth/" target="_blank">Lavasioth</a>';};
-	if (text == '霞龙') {out = '<a href="/monsters/chameleos/" target="_blank">Chameleos</a>';};
-	if (text == '老山蟹B') {out = '<a href="/monsters/guren-shen-gaoren/" target="_blank">Guren Shen Gaoren</a>';};
-	if (text == 'PVP2') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
-	if (text == '剑极狼亚种') {out = '<a href="/monsters/purple-slicemargl/" target="_blank">Purple Slicemargl</a>';};
-	if (text == '剑刹狼') {out = '<a href="/monsters/purple-slicemargl/" target="_blank">Purple Slicemargl</a>';};
-	
-//Other monster for weapons
-	if (text == '特殊铳枪') {out = 'Yian Kut-Ku + Bulldrome';};
-	if (text == '新手') {out = 'Velociprey';};
-	if (text == '骨') {out = 'Bones';};
-	if (text == '铁') {out = 'Rocks';};
-	if (text == '特殊枪') {out = 'Gendrome + Bulldrome';};
-	if (text == 'sunaku') {out = 'Congalala + Velocidrome';};
-	if (text == '鄂') {out = 'Congalala + Gendrome';};
-	if (text == 'kurimu') {out = 'Gendrome';};
-	if (text == 'subaku') {out = 'Bulldrome + Congalala';};
-	if (text == 'hali') {out = 'Congalala';};
-	if (text == '特殊笛') {out = 'Baelidae + Yian Kut-Ku';};
-	if (text == '野性') {out = 'Congalala';};
-	if (text == '爬虫') {out = 'Bones';};
-	if (text == '十字枪') {out = 'Rocks';};
-//Monster Names No Links
-	if (text == 'nl灰晶蝎') {out = 'Akura Jebia';};
-	if (text == 'nl尾晶蝎') {out = 'Akura Vashimu';};
-	if (text == 'nl苍火龙') {out = 'Azure Rathalos';};
-	if (text == 'nl鬼狩蛛') {out = 'Baelidae';};
-	if (text == 'nl岩龙') {out = 'Basarios';};
-	if (text == 'nl铠龙') {out = 'Gravios';};
-	if (text == 'nl雪狮子王') {out = 'Blangonga';};
-	if (text == 'nl青怪鸟') {out = 'Blue Yian Kut-Ku';};
-	if (text == 'nl大野猪王') {out = 'Bulldrome';};
-	if (text == 'nl河狸兽') {out = 'Caeserber';};
-	if (text == 'nl沙龙王') {out = 'Cephadrome';};
-	if (text == 'nl沙雷鸟') {out = 'Chramine';};
-	if (text == 'nl烈焰女王') {out = 'Conflagration Rathian';};
-	if (text == 'nl桃毛兽王') {out = 'Congalala';};
-	if (text == 'nl晶岩龙') {out = 'Crystal Basarios';};
-	if (text == 'nl大名盾蟹') {out = 'Daimyo Hermitaur';};
-	if (text == 'nl角龙') {out = 'Diablos';};
-	if (text == 'nl祸星龙') {out = 'Doom Estrellian';};
-	if (text == 'nl骇狩蛛') {out = 'Dread Baelidae';};
-	if (text == 'nl星龙') {out = 'Estrellian';};
-	if (text == 'nl黄速龙王') {out = 'Gendrome';};
-	if (text == 'nl战鬼河狸兽') {out = 'Ghost Caeserber';};
-	if (text == 'nl白速龙王') {out = 'Giadrome';};
-	if (text == 'nl金毛兽王') {out = 'Gold Congalala';};
-	if (text == 'nl金眠鸟') {out = 'Gold Hypnocatrice';};
-	if (text == 'nl红莲砦蟹') {out = 'Guren Shen Gaoren';};
-	if (text == 'nl毒怪鸟') {out = 'Gypceros';};
-	if (text == 'nl眠鸟') {out = 'Hypnocatrice';};
-	if (text == 'nl冰雷鸟') {out = 'Ice Chramine';};
-	if (text == 'nl红速龙王') {out = 'Iodrome';};
-	if (text == 'nl电龙') {out = 'Khezu';};
-	if (text == 'nl钢龙') {out = 'Kushala Daora';};
-	if (text == 'nl电甲虫') {out = 'Lightenna';};
-	if (text == 'nl荒厄龙') {out = 'Merphistophelin';};
-	if (text == 'nl一角龙') {out = 'Monoblos';};
-	if (text == 'nl独耳黑狼鸟') {out = 'One-Eared Yian Garuga';};
-	if (text == 'nl樱火龙') {out = 'Pink Rathian';};
-	if (text == 'nl水龙') {out = 'Plesioth';};
-	if (text == 'nl紫毒鸟') {out = 'Purple Gypceros';};
-	if (text == 'nl雄火龙') {out = 'Rathalos';};
-	if (text == 'nl雌火龙') {out = 'Rathian';};
-	if (text == 'nl红电龙') {out = 'Red Khezu';};
-	if (text == 'nl砂岩龙') {out = 'Sandstone Basarios';};
-	if (text == 'nl断刃一角龙') {out = 'Shattered Monoblos';};
-	if (text == 'nl砦蟹') {out = 'Shen Gaoren';};
-	if (text == 'nl将军镰蟹') {out = 'Shogun Ceanataur';};
-	if (text == 'nl银眠鸟') {out = 'Silver Hypnocatrice';};
-	if (text == 'nl剑极狼') {out = 'Slicemargl';};
-	if (text == 'nl剑豪镰蟹') {out = 'Swordmaster Shogun Ceanataur';};
-	if (text == 'nl吞渊龙') {out = 'Tartaronis';};
-	if (text == 'nl铠岩砦蟹') {out = 'Tepekki Shen Gaoren';};
-	if (text == 'nl轰龙') {out = 'Tigrex';};
-	if (text == 'nl蓝速龙王') {out = 'Velocidrome';};
-	if (text == 'nl沙狸兽') {out = 'Yellow Caeserber';};
-	if (text == 'nl黑狼鸟') {out = 'Yian Garuga';};
-	if (text == 'nl大怪鸟') {out = 'Yian Kut-Ku';};
-	if (text == 'nl红莲砦蟹，铠岩砦蟹') {out = 'Tepekki Shen Gaoren';};
-	if (text == 'nl镰蟹') {out = 'Ceanataur';};
-	if (text == 'nl盾蟹') {out = 'Hermitaur';};
-	if (text == 'nl雄火龙，苍火龙') {out = 'Azure Rathalos';};
-	if (text == 'nl炎狮子') {out = 'Flame Blangonga';};
-	if (text == 'nl白一角龙') {out = 'White Monoblos';};
-	if (text == 'nl熔岩龙') {out = 'Lavasioth';};
-	if (text == 'nl霞龙') {out = 'Chameleos';};
-	if (text == 'nl剑极狼亚种') {out = 'Purple Slicemargl';};
-	if (text == 'nl剑刹狼') {out = 'Purple Slicemargl';};
-//Body Parts
-	if (text == '头部') {out = 'Head';};
-	if (text == '腹部') {out = 'Abdomen';};
-	if (text == '左右手（钳）') {out = 'Left and Right Hands (Pincers)';};
-	if (text == '壳') {out = 'Shell';};
-	if (text == '背部') {out = 'Back';};
-	if (text == '躯干（本体/胴体）') {out = 'Torso (Body/Carcass)';};
-	if (text == '面部') {out = 'Face';};
-	if (text == '左右翼') {out = 'Wings';};
-	if (text == '左,右翼') {out = 'Wings';};
-	if (text == '尾部（尻尾）') {out = 'Tail (Rump)';};
-	if (text == '右手（钳）') {out = 'Right Hand (Pincer)';};
-	if (text == '左,右手（钳）') {out = 'Left and Right Hand (Pincers)';};
-	if (text == '左/右臂') {out = 'Arms';};
-	if (text == '左/右翼') {out = 'Wings';};
-	if (text == '躯干') {out = 'Torso';};
-	if (text == '尾巴') {out = 'Tail';};
-	if (text == '左脚') {out = 'Left Foot';};
-	if (text == '左手') {out = 'Left Hand';};
-	if (text == '右脚') {out = 'Right Foot';};
-	if (text == '右手') {out = 'Right Hand';};
-	if (text == '颈部') {out = 'Neck';};
-	if (text == '尾部') {out = 'Tail';};
-	if (text == '左翼') {out = 'Left Wing';};
-	if (text == '右翼') {out = 'Right Wing';};
-	if (text == '翼膜') {out = 'Wing Membrane';};
-	if (text == '左腿') {out = 'Left Leg';};
-	if (text == '右腿') {out = 'Right Leg';};
-	if (text == '角') {out = 'Horn';};
-//Places
-	if (text == '大型怪物狩猎') {out = 'Large Monster Hunting';};
-	if (text == '大型怪物狩猎挑战难度，王立委托，王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting';};
-	if (text == '大型怪物狩猎挑战难度、王立委托、王立精英委托') {out = 'Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting';};
-	if (text == '王立委托，王立精英，极限') {out = 'HR Hunting, HR Elite, Limit Mode';};
-	if (text == '王立委托、王立精英、极限') {out = 'HR Hunting, HR Elite, Limit Mode';};
-	if (text == '王立委托，王立精英委托') {out = 'HR Hunting, HR Elite Hunting';};
-	if (text == '王立委托、王立精英委托') {out = 'HR Hunting, HR Elite Hunting';};
-	if (text == '活动') {out = 'Raid';};
-	if (text == '王立精英委托') {out = 'HR Elite Hunting';};
-	if (text == '王立委托') {out = 'HR Hunting';};
-	if (text == '大湖围猎祭') {out = 'Great Lakes Hunting Festival';};
-	if (text == '50级以上古龙征伐') {out = 'Lvl 50 Large Monster Conquests';};
-	if (text == '50级以上王立委托、王立精英委托') {out = 'Lvl 50 Large Monster Conquests, HR Elite Hunting';};
-	if (text == '大型怪物狩猎、50级以上王立委托、王立精英委托') {out = 'Large Monster Hunting, Lvl 50 Large Monster Conquests, HR Elite Hunting';};
-//Armor Skills
-	if (text == '回复速度+1、观察眼、大胃王') {out = 'Rec Speed +1，Capture Guru，Gourmand';};
-	if (text == '探知、速食') {out = 'Detect，Speed Eating';};
-	if (text == '气绝减半、草药达人') {out = 'Halve Stun，Herbal Daren';};
-	if (text == '砥石使用高速化、防御力提升（小）') {out = 'Speed Sharpening，Defense Up (S)';};
-	if (text == '通常弹&连射矢强化、防御力提升（小）') {out = 'Normal/Rapid Up，Defense Up (S)';};
-	if (text == '攻击力提升（小）、火属性耐性强化+1') {out = 'Attack Up (S)，Fire Res +1';};
-	if (text == '麻痹免疫、状态异常攻击+1') {out = 'Negate Paralysis，Status Atk +1';};
-	if (text == 'KO术、砥石使用高速化、挑衅') {out = 'KO King，Speed Sharpening，Taunt';};
-	if (text == 'KO术、散弹/矢强化、挑衅') {out = 'KO King，Pellet/Spread Up，Taunt';};	
-	if (text == '耐泥雪、陷阱师') {out = 'Mud/Snow，Trap Master';};
-	if (text == '毒减半、雷属性耐性强化+1') {out = 'Halve Poison，Thunder Atk +1';};
-	if (text == '抗菌、速食、饥饿感增加') {out = 'Anti-bacterial，Speed Eating，Raise Hunger';};
-	if (text == '风压（小）无效、无伤') {out = 'Windproof (Lo)，Peak Performance';};
-	if (text == '耐暑、暴击') {out = 'Heat Cancel，Violent Strike';};
-	if (text == '防御力提升（小）、风压（小）无效、雷属性攻击弱化') {out = 'Defense Up (S)，Windproof (Lo)，Thunder Atk Down';};
-	if (text == '见切+1、火属性攻击强化+1、体力弱化-1') {out = 'Critical Eye +1，Fire Atk +1，Health -1';};
-	if (text == '回复速度+3、气绝倍化') {out = 'Rec Speed +3，Double Stun';};
-	if (text == '睡眠免疫、防御等级+1、麻痹倍化') {out = 'Negate Sleep，Guard +1，Double Paralysis';};
-	if (text == '睡眠免疫、上弹速度强化+1、麻痹倍化') {out = 'Negate Sleep，Reload Spd +1，Double Paralysis';};
-	if (text == '睡眠免疫、吸引、耐力回复迟缓-1') {out = 'Negate Sleep，Attract，Stam Recov -1';};
-	if (text == '火事场力+1、破坏王、防御力降低（小）') {out = 'Adrenaline +1，Partbreaker，Defense Down (S)';};
-	if (text == '毒减半、麻痹免疫、睡眠倍化') {out = 'Halve Poison，Negate Paralysis，Double Sleep';};
-	if (text == '气绝免疫、风压（小）无效、恶灵加持') {out = 'Negate Stun，Windproof (Lo)，Evil Blessing';};
-	if (text == '业物、砥石使用高速化、体力弱化-2') {out = 'Sharp，Speed Sharpening，Health -2';};	
-	if (text == '贯通弹/矢强化、上弹速度强化+1、体力弱化-2') {out = 'Pierce/Pierce Up，Reload Spd +1，Health -2';};
-	if (text == '耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化') {out = 'Mud/Snow，Cold Res，Ice Itk +1，Double Stun';};
-	if (text == '化蝶、隐秘、见切-1') {out = 'Butterfly Form，Sneak，Critical Eye -1';};
-	if (text == '通常弹&连射矢强化 、防御力提升（小）') {out = 'Normal/Rapid Up ，Defense Up (S)';};
-	if (text == '体力强化+1、攻击力提升（小）') {out = 'Health +1，Attack Up (S)';};
-	if (text == 'KO术、上弹速度强化+1、挑衅') {out = 'KO King，Reload Spd +1，Taunt';};
-	if (text == '耐泥雪、陷阱师、回复速度+1') {out = 'Mud/Snow，Trap Master，Rec Speed +1';};
-	if (text == '毒无效、雷属性耐性强化+1、饥饿感增加') {out = 'Negate Poison，Thunder Atk +1，Raise Hunger';};
-	if (text == '抗菌、速食、看破+1、饥饿感增加') {out = 'Anti-bacterial，Speed Eating，See Through +1，Raise Hunger';};
-	if (text == '风压（大）无效、无伤、耐力回复迟缓-1') {out = 'Windproof (Hi)，Peak Performance，Stam Recov -1';};
-	if (text == '毒减半、体力强化+2、气绝倍化') {out = 'Halve Poison，Health +2，Double Stun';};
-	if (text == '见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1') {out = 'Critical Eye +1，Status Atk +1，Fire Atk +1，Health -1';};
-	if (text == '回复速度+3、雷属性攻击强化+1、气绝倍化') {out = 'Rec Speed +3，Thunder Atk +1，Double Stun';};
-	if (text == '睡眠免疫、体术+1、吸引、耐力回复迟缓-1') {out = 'Negate Sleep，Constitution +1，Attract，Stam Recov -1';};
-	if (text == '火事场力+1、破坏王、抗菌、防御力降低（小）') {out = 'Adrenaline +1，Partbreaker，Anti-bacterial，Defense Down (S)';};
-	if (text == '毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化') {out = 'Negate Poison，Negate Paralysis，Status Atk +1，Double Sleep';};
-	if (text == '气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持') {out = 'Negate Stun，Windproof (Lo)，Stam Recov +1，Evil Blessing';};
-	if (text == '冰属性攻击强化+1、耐寒、耐震、气绝倍化') {out = 'Ice Itk +1，Cold Res，Tremor Res，Double Stun';};
-	if (text == '耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化') {out = 'Mud/Snow，Detect，Ice Res +1，Fire Res Down';};
-	if (text == '砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化') {out = "Speed Sharpening，Ice Itk +1，Mind's Eye，Double Poison";};
-	if (text == '体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化') {out = "Constitution +1，Ice Itk +2，Assassin Tech +1，Double Poison";};
-	if (text == '睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化') {out = 'Negate Sleep，Attract，Status Atk +1，Fire Res Down';};
-	if (text == '不屈、根性、回复速度+1、耐力回复迟缓-1') {out = 'Fortify，Guts，Rec Speed +1，Stam Recov -1';};
-	if (text == '见切+2、暴击、气绝倍化') {out = 'Critical Eye +2，Violent Strike，Double Stun';};
-	if (text == '防御强化、速食、耐泥雪、攻击力降低（小）') {out = 'Guard Boost，Speed Eating，Mud/Snow，Attack Down (S)';};
-	if (text == '散弹/矢强化、速食、耐泥雪、攻击力降低（小）') {out = 'Pellet/Spread Up，Speed Eating，Mud/Snow，Attack Down (S)';};
-	if (text == '防御等级+1、攻击力提升（小）、状态异常攻击-1') {out = 'Guard +1，Attack Up (S)，Status Atk Down';};
-	if (text == '上弹速度强化+1、攻击力提升（小）、状态异常攻击-1') {out = 'Reload Spd +1，Attack Up (S)，Status Atk Down';};
-	if (text == '业物、见切+1、防御力降低（小）') {out = 'Sharp，Critical Eye +1，Defense Down (S)';};
-	if (text == '贯通弹/矢强化、见切+1、防御力降低（小）') {out = 'Pierce/Pierce Up，Critical Eye +1，Defense Down (S)';};
-	if (text == '广域化+1、耐力急速回复+1、回复速度-1') {out = 'Wide-Range +1，Stam Recov +1，Rec Speed -1';};
-	if (text == '挑战者、火事场力+1、恶灵加持') {out = 'Challenger，Adrenaline +1，Evil Blessing';};
-	if (text == '集中、破坏王、体力弱化-2') {out = 'Concentrate，Partbreaker，Health -2';};
-	if (text == '毒减半、体力强化+2、探知') {out = 'Halve Poison，Health +2，Detect';};
-	if (text == '耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1') {out = 'Earplugs，Status Atk +1，Speed Sharpening，Rec Speed -1';};
-	if (text == '耳栓、状态异常攻击+1、反动减轻+1、回复速度-1') {out = 'Earplugs，Status Atk +1，Recoil Down +1，Rec Speed -1';};
-	if (text == '体术+1、弱点特效、挑衅') {out = 'Constitution +1，Weakness Exploit，Taunt';};
-	if (text == '心眼、火属性攻击强化+2、防御力降低（小）') {out = "Mind's Eye，Fire Atk +2，Defense Down (S)";};
-	if (text == '刺杀术+1、火属性攻击强化+2、防御力降低（小）') {out = 'Assassin Tech +1，Fire Atk +2，Defense Down (S)';};
-	if (text == '火事场力+1、绊术、速食、回复速度-1') {out = 'Adrenaline +1，Tripping Power，Speed Eating，Rec Speed -1';};
-	if (text == '耐震、根性、水属性攻击强化+1、慢食') {out = 'Tremor Res，Guts，Water Atk +1，Slow Eater';};
-	if (text == '攻击力提升（大）、火属性攻击强化+1、体力弱化-1') {out = 'Attack Up (L)，Fire Atk +1，Health -1';};
-	if (text == '心眼、回复速度+1、火属性攻击强化+1、钝刀') {out = "Mind's Eye，Rec Speed +1，Fire Atk +1，Blunt Edge";};
-	if (text == '弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1') {out = 'Weakness Exploit，Rec Speed +1，Fire Atk +1，Reload Spd -1';};
-	if (text == '耳栓、速食、防御力提升（小）、砥石使用低速化') {out = 'Earplugs，Speed Eating，Defense Up (S)，Slow Sharpening';};
-	if (text == '耳栓、速食、防御力提升（小）、反动增大') {out = 'Earplugs，Speed Eating，Defense Up (S)，Recoil Up';};
-	if (text == '回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-1') {out = 'Rec Speed +2，Sharp，Challenger+2，Negate Thorns，Stam Recov -1';};
-	if (text == '回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-6') {out = 'Rec Speed +2，Sharp，Challenger+2，Negate Thorns，Stam Recov -1';};
-	if (text == '不屈，特殊攻击+2，广域化+1') {out = 'Fortify，Status Atk +2，Wide-Range +1';};
-	if (text == '拔刀术，耐震，耐力回复+1，砥石使用低速化') {out = 'Critical Draw，Tremor Res，Stam Recov +1，Slow Sharpening';};
-	if (text == '上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1') {out = 'Reload Spd +1，Pierce/Pierce Up，Stam Recov +1，Status Atk Down';};
-	if (text == '雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化') {out = 'Thunder Atk +1，Evasion，Holy Blessing，Slow Sharpening';};
-	if (text == '雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1') {out = 'Thunder Atk +1，Evasion，Holy Blessing，Reload Spd -1';};
-	if (text == '见切+2，耳栓，业物，体力弱化-1') {out = 'Critical Eye +2，Earplugs，Sharp，Health -1';};
-	if (text == '见切+2，耳栓，通常弹&连射矢强化，体力弱化-1') {out = 'Critical Eye +2，Earplugs，Normal/Rapid Up，Health -1';};
-	if (text == '耳栓，甲壳杀手，回复速度+1，体力弱化-1') {out = 'Earplugs，Crustaceans Killer，Rec Speed +1，Health -1';};
-	if (text == '回避性能+2，集中，毒倍化') {out = 'Evasion +2，Concentrate，Double Poison';};
-	if (text == 'KO术，集中，看破+1，耐力回复-1') {out = 'Knockout King，Concentrate，See Through +1，Stam Recov -1';};
-	if (text == '体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）') {out = 'Constitution +2，Negate Sleep，Bird Dragons Killer，Defense Down (S)';};
-	if (text == '火事场力+2，风压（大）无效，火属性攻击强化+1') {out = 'Adrenaline +2，Windproof (Hi)，Fire Atk +1';};
-	if (text == '破坏王，耐震，弱点特效，耐力回复-1') {out = 'Partbreaker，Tremor Res，Weakness Exploit，Stam Recov -1';};
-	if (text == '业物，气绝减半，回避性能+1，耐暑') {out = 'Sharp，Halve Stun，Evasion +1，Heat Cancel';};
-	if (text == '上弹速度强化+1，气绝减半，回避性能+1，耐暑') {out = 'Reload Spd +1，Halve Stun，Evasion +1，Heat Cancel';};
-	if (text == '火事场力+2，见切+1，恶灵的加护') {out = 'Adrenaline +2，Critical Eye +1，Evil Blessing';};
-	if (text == '集中，根性，火属性攻击强化+1，水属性耐性弱化，') {out = 'Concentrate，Guts，Fire Atk +1，Water Res Down';};
-	if (text == '耳栓，隐秘，风压（大）无效，耐力回复-1') {out = 'Earplugs，Sneak，Windproof (Hi)，Stam Recov -1';};
-	if (text == '防御性能+2，防御强化，体力强化+3，体术-1') {out = 'Guard +2，Guard Boost，Health +3，Constitution -1';};
-	if (text == '快速装填+2，散弹/矢强化，体力强化+3，体术-1') {out = 'Reload Spd +2，Pellet/Spread Up，Health +3，Constitution -1';};
-	if (text == '特殊攻击+2，麻痹免疫，心眼，钝刀') {out = "Status Atk +2，Negate Paralysis，Mind's Eye，Blunt Edge";};
-	if (text == '特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1') {out = 'Status Atk +2，Negate Paralysis，Recoil Down +1，Reload Spd -1';};
-	
-//materials
-	if (text == '山青虫') {out = 'Mountain Budworm';};
-	if (text == '蓝速龙的鳞') {out = 'Velociprey Scale';};
-	if (text == '圆蚂蚱') {out = 'Round Grasshopper';};
-	if (text == '龙骨【小】') {out = 'Monster Bone S';};
-	if (text == '棒状之骨') {out = 'Bone';};
-	if (text == '兽骨【小】') {out = 'Brute Bone S';};
-	if (text == '原盘石') {out = 'Disk Stone';};
-	if (text == '圆盘石') {out = 'Disk Stone';};
-	if (text == '小石子') {out = 'Stone';};
-	if (text == '铁矿石') {out = 'Iron Ore';};
-	if (text == '温暖的毛皮') {out = 'Warm Pelt';};
-	if (text == '河狸兽的爪') {out = 'Caeserber Claw';};
-	if (text == '蓝速龙王的皮') {out = 'Velocidrome Hide';};
-	if (text == '蓝速龙王的爪') {out = 'Velocidrome Claw';};
-	if (text == '大野猪王的鬃') {out = 'Bulldrome Mane';};
-	if (text == '大野猪王的牙') {out = 'Bulldrome Tusk';};
-	if (text == '鬼狩蛛的毛') {out = 'Baelidae Hair';};
-	if (text == '鬼狩蛛的盾爪壳') {out = 'Baelidae Shield Claw';};
-	if (text == '毒怪鸟的头') {out = 'Gypceros Head';};
-	if (text == '变异的光水晶') {out = 'Weird Lightcrystal';};
-	if (text == '低压的电气袋') {out = 'Electro Sac';};
-	if (text == '白化里脊肉') {out = 'Pale Steak';};
-	if (text == '绿色的粘液') {out = 'Green Mucus';};
-	if (text == '沙雷鸟的嗉囊') {out = 'Chramine Crop';};
-	if (text == '青怪鸟的背甲') {out = 'Blue Kut-Ku Shell';};
-	if (text == '青怪鸟的耳') {out = 'Blue Kut-Ku Ear';};
-	if (text == '燕雀石') {out = 'Machalite Ore';};
-	if (text == '岩龙的甲壳') {out = 'Basarios Shell';};
-	if (text == '岩龙的尾巴') {out = 'Basarios Tail';};
-	if (text == '眠鸟的羽毛') {out = 'Hypnocatrice Feather';};
-	if (text == '眠鸟的喙') {out = 'Hypnocatrice Beak';};
-	if (text == '大地结晶') {out = 'Earth Crystal';};
-	if (text == '金毛兽王的大骨') {out = 'G.Congalala Bone';};
-	if (text == '金毛兽王的爪') {out = 'G.Congalala Claw';};
-	if (text == '黏着白蚁') {out = 'Glueglopper';};
-	if (text == '骇狩蛛的毛') {out = 'D.Baelidae Hair';};
-	if (text == '骇狩蛛的盾爪壳') {out = 'D.Baelidae Shield Claw';};
-	if (text == '雪狮子的毛') {out = 'Blango Pelt';};
-	if (text == '雪狮子的尾巴') {out = 'Blangonga Tail';};
-	if (text == '星龙的甲壳') {out = 'Estrellian Shell';};
-	if (text == '星龙的爪') {out = 'Estrellian Claw';};
-	if (text == '杀人蜂幼虫') {out = 'Snakebee Larvae';};
-	if (text == '古龙之血') {out = 'Ancient Blood';};
-	if (text == '吞渊龙的腕甲') {out = 'Tartaronis Wristguards';};
-	if (text == '红角蝶') {out = 'Red-Horned Butterfly';};
-	if (text == '银喵玉') {out = 'Silver Meow Sphere';};
-	if (text == '剑豪镰蟹的坚钳') {out = 'S.Shogun Ceanataur Clamp+';};
-	if (text == '剑豪之锋镰') {out = 'S.Shogun Ceanataur Scythe+';};
-	if (text == '土蜂幼虫') {out = 'Earth Bee Larvae';};
-	if (text == '金喵玉') {out = 'Golden Meow Sphere';};
-	if (text == '亮蓝色的粘液') {out = 'Bright Blue Mucus';};
-	if (text == '冰雷鸟的苍白鼻') {out = 'I.Chramine Pale Beak';};
-	if (text == '兽骨【大】') {out = 'Brute Bone L';};
-	if (text == '强光的电气袋') {out = 'Thunder Sac+';};
-	if (text == '红色霜降肉') {out = 'Red Frosted Meat';};
-	if (text == '龙骨【大】') {out = 'Monster Bone L';};
-	if (text == '断刃一角龙的坚甲') {out = 'S.Monoblos Carapace+';};
-	if (text == '断刃一角龙的靭尾') {out = 'S.Monoblos Tough Tail+';};
-	if (text == '独耳黑狼鸟的韧翼膜') {out = 'One-Eared Garuga Edge Webbing';};
-	if (text == '独耳黑狼鸟的刚翼') {out = 'One-Eared Garuga Wing+';};
-	if (text == '光水晶') {out = 'Lightcrystal';};
-	if (text == '尾晶蝎的紫晶') {out = 'A.Vashimu Amethyst+';};
-	if (text == '尾晶蝎的巨钳') {out = 'A.Vashimu Giant Clamp';};
-	if (text == '银眠鸟的银羽毛') {out = 'S.Hypnocatrice Feather+';};
-	if (text == '银眠鸟的牙喙') {out = 'S.Hypnocatrice Beak+';};
-	if (text == '荒厄龙的鳞') {out = 'Merphistrophelin Scale';};
-	if (text == '荒厄龙的甲壳') {out = 'Merphistrophelin Carapace';};
-	if (text == '荒厄龙的蛮爪') {out = 'Merphistrophelin Claw';};
-	if (text == '荒厄龙的剑鳞') {out = 'Merphistrophelin Sword Scale';};
-	if (text == '荒厄龙的眼') {out = 'Merphistrophelin Eye';};
-	if (text == '荒厄龙的角') {out = 'Merphistrophelin Horn';};
-	if (text == '荒厄龙的剑尾') {out = 'Merphistrophelin Tail';};
-	if (text == '荒厄龙的骨翼') {out = 'Merphistrophelin Bone Wing';};
-	if (text == '荒厄龙的胸壳') {out = 'Merphistrophelin Thorax';};
-	if (text == '灾厄的宝珠') {out = 'Disaster Orb';};
-	if (text == '荒厄龙的厚鳞') {out = 'Merphistrophelin Thick Scale';};
-	if (text == '荒厄龙的重壳') {out = 'Merphistrophelin Heavy Shell';};
-	if (text == '荒厄龙的刚蛮爪') {out = 'Merphistrophelin Hard Claw';};
-	if (text == '荒厄龙的刀剑鳞') {out = 'Merphistrophelin Sword Claw';};
-	if (text == '荒厄龙的凶眼') {out = 'Merphistrophelin Evil Eye';};
-	if (text == '荒厄龙的刚角') {out = 'Merphistrophelin Hard Horn';};
-	if (text == '荒厄龙的绝剑尾') {out = 'Merphistrophelin Absolute Tail';};
-	if (text == '荒厄龙的刚翼') {out = 'Merphistrophelin Hard Wing';};
-	if (text == '荒厄龙的重胸壳') {out = 'Merphistrophelin Heavy Thorax';};
-	if (text == '混沌核心') {out = 'Chaos Heart';};
-	if (text == '钢龙的宝玉') {out = 'Daora Gem';};
-	if (text == '龙骨【中】') {out = 'Monster Bone M';};
-	if (text == '兽骨【中】') {out = 'Brute Bone M';};
-	if (text == '大野猪的皮') {out = 'Bullfango Hide';};
-	if (text == '冰结晶') {out = 'Ice Crystal';};
-	if (text == '迷之骨') {out = 'Mystery Bone';};
-	if (text == '河狸兽的牙') {out = 'Caeserber Fang';};
-	if (text == '河狸兽的皮') {out = 'Caeserber Hide';};
-	if (text == '磨损的门牙') {out = 'Worn Incisor';};
-	if (text == '蓝速龙王的牙') {out = 'Velocidrome Fang';};
-	if (text == '蓝速龙王的头冠') {out = 'Velocidrome Head';};
-	if (text == '大野猪王的蹄') {out = 'Bulldrome Hoof';};
-	if (text == '大野猪王的卷曲牙') {out = 'Bulldrome Curved Fang';};
-	if (text == '怪鸟的背甲') {out = 'Kut-Ku Shell';};
-	if (text == '怪鸟的翼') {out = 'Kut-Ku Wing';};
-	if (text == '怪鸟的耳') {out = 'Kut-Ku Ear';};
-	if (text == '怪鸟的爪') {out = 'Kut-Ku Claw';};
-	if (text == '怪鸟的鳞') {out = 'Kut-Ku Scale';};
-	if (text == '破损的喙') {out = 'Broken Beak';};
-	if (text == '黄速龙王的爪') {out = 'Gendrome Claw';};
-	if (text == '黄速龙的鳞') {out = 'Genprey Scale';};
-	if (text == '黄速龙王的麻痹牙') {out = 'Gendrome Fang';};
-	if (text == '黄速龙王的皮') {out = 'Gendrome Hide';};
-	if (text == '黄速龙王的头冠') {out = 'Gendrome Head';};
-	if (text == '黄速龙王的尾巴') {out = 'Gendrome Tail';};
-	if (text == '鬼狩蛛的爪') {out = 'Baelidae Claw';};
-	if (text == '鬼狩蛛的甲壳') {out = 'Baelidae Shell';};
-	if (text == '鬼狩蛛的体液') {out = 'Baelidae Fluid';};
-	if (text == '鬼狩蛛的复眼') {out = 'Baelidae Eye';};
-	if (text == '鬼狩蛛的蛛丝') {out = 'Baelidae Silk';};
-	if (text == '沙狸兽的爪') {out = 'Y.Caeserber Claw';};
-	if (text == '沙狸兽之皮') {out = 'Y.Caeserber Hide';};
-	if (text == '储沙囊') {out = 'Sand Bladder';};
-	if (text == '沙狸兽的牙') {out = 'Y.Caeserber Fang';};
-	if (text == '沙狸兽的尾甲') {out = 'Y.Caeserber Tail';};
-	if (text == '沙狸兽的门牙') {out = 'Y.Caeserber Worn Incisor';};
-	if (text == '毒怪鸟的皮') {out = 'Gypceros Hide';};
-	if (text == '毒怪鸟的嘴') {out = 'Gypceros Beak';};
-	if (text == '橡胶质的尾巴') {out = 'Gypceros Tail';};
-	if (text == '毒怪鸟的翼') {out = 'Gypceros Wing';};
-	if (text == '桃毛兽王的牙') {out = 'Congalala Fang';};
-	if (text == '桃毛兽王的大骨') {out = 'Congalala Bone';};
-	if (text == '桃毛兽王的爪') {out = 'Congalala Claw';};
-	if (text == '桃毛兽王的皮') {out = 'Congalala Pelt';};
-	if (text == '淡彩色的毛') {out = 'Bright Pelt';};
-	if (text == '桃毛兽的毛') {out = 'Conga Pelt';};
-	if (text == '火红的鬃毛') {out = 'Red Mane';};
-	if (text == '沙雷鸟的皮') {out = 'Chramine Hide';};
-	if (text == '沙雷鸟的翼') {out = 'Chramine Wing';};
-	if (text == '沙雷鸟的红鼻') {out = 'Chramine Red Beak';};
-	if (text == '沙龙王的皮') {out = 'Cephadrome Hide';};
-	if (text == '沙龙的鳞') {out = 'Cephalos Scale';};
-	if (text == '沙龙王的牙') {out = 'Cephadrome Fang';};
-	if (text == '沙龙王的储砂袋') {out = 'Cephadrome Sand Sac';};
-	if (text == '弯月之头冠') {out = 'Cephadrome Head';};
-	if (text == '桃色的鳞') {out = 'Pink Scale';};
-	if (text == '盾蟹的爪') {out = 'Daimyo Hermitaur Claw';};
-	if (text == '盾蟹的甲壳') {out = 'Daimyo Hermitaur Shell';};
-	if (text == '盾蟹的脚') {out = 'Daimyo Hermitaur Leg';};
-	if (text == '黑珍珠') {out = 'Black Pearl';};
-	if (text == '盾蟹的小壳') {out = 'Small Hermitaur Shell';};
-	if (text == '盾蟹的钳') {out = 'Daimyo Hermitaur Clamp';};
-	if (text == '青怪鸟的爪') {out = 'Blue Kut-Ku Claw';};
-	if (text == '青怪鸟的鳞') {out = 'Blue Kut-Ku Scale';};
-	if (text == '青怪鸟的翼') {out = 'Blue Kut-Ku Wing';};
-	if (text == '巨大的青鸟喙') {out = 'Blue Kut-Ku Beak';};
-	if (text == '电龙的牙') {out = 'Khezu Fang';};
-	if (text == '电龙的翼') {out = 'Khezu Wing';};
-	if (text == '柔软的皮') {out = 'Pearly Hide';};
-	if (text == '电龙的吸盘') {out = 'Khezu Sucker';};
-	if (text == '岩龙的头壳') {out = 'Basarios Skull';};
-	if (text == '岩龙的背壳') {out = 'Basarios Carapace';};
-	if (text == '岩龙的泪') {out = 'Basarios Tear';};
-	if (text == '岩龙的翼') {out = 'Basarios Wing';};
-	if (text == '岩龙的腹甲') {out = 'Basarios Breastplate';};
-	if (text == '眠鸟的爪') {out = 'Hypnocatrice Claw';};
-	if (text == '稀释的眠液') {out = 'Diluted Sleep Solution';};
-	if (text == '破损的眠袋') {out = 'Broken Sleep Sac';};
-	if (text == '七色的尾羽') {out = 'Rainbow Feather';};
-	if (text == '眠鸟的胃石') {out = 'Hypnocatrice Gastrolith';};
-	if (text == '金毛兽王的毛') {out = 'G.Congalala Hair+';};
-	if (text == '金毛兽王的皮') {out = 'G.Congalala Pelt';};
-	if (text == '金毛兽王的牙') {out = 'G.Congalala Fang';};
-	if (text == '淡金色的毛') {out = 'Pale Gold Hair';};
-	if (text == '骇狩蛛的甲壳') {out = 'D.Baelidae Shell';};
-	if (text == '骇狩蛛的眼') {out = 'D.Baelidae Eye';};
-	if (text == '骇狩蛛的体液') {out = 'D.Baelidae Fluid';};
-	if (text == '骇狩蛛的爪') {out = 'D.Baelidae Claw';};
-	if (text == '骇狩蛛的蛛丝') {out = 'D.Baelidae Silk';};
-	if (text == '毒鸟的紫翼') {out = 'P.Gypceros Wing';};
-	if (text == '橡胶质的紫皮') {out = 'P.Rubbery Hide';};
-	if (text == '紫毒鸟的嘴') {out = 'P.Gypceros Beak';};
-	if (text == '毒鸟的紫头') {out = 'P.Gypceros Head';};
-	if (text == '诡异的光水晶') {out = 'Strange Lightcrystal';};
-	if (text == '橡胶质的绿尾') {out = 'P.Gypceros Tail';};
-	if (text == '镰蟹的爪') {out = 'Shogun Ceanataur Claw';};
-	if (text == '镰蟹的甲壳') {out = 'Shogun Ceanataur Carapace';};
-	if (text == '镰蟹的脚') {out = 'Shogun Ceanataur Leg';};
-	if (text == '镰蟹的小壳') {out = 'Ceanataur Shell';};
-	if (text == '龙头壳') {out = 'Wyvern Scalp';};
-	if (text == '金真珠') {out = 'Gold Pearl';};
-	if (text == '雪狮子的爪') {out = 'Blangonga Claw';};
-	if (text == '雪狮子的皮') {out = 'Blangonga Hide';};
-	if (text == '雪狮子的大骨') {out = 'Blangonga Large Bone';};
-	if (text == '雪狮子的髭') {out = 'Blangonga Mustache';};
-	if (text == '雪狮子的牙') {out = 'Blangonga Fang';};
-	if (text == '星龙的角') {out = 'Estrellian Horn';};
-	if (text == '星羽蝶的羽翅') {out = 'Estrellian Wing Feather';};
-	if (text == '微光的体液') {out = 'Shimmering Body Fluid';};
-	if (text == '星龙的腹甲') {out = 'Estrellian Breastplate';};
-	if (text == '星之龙鳞') {out = 'Estrellian Scale';};
-	if (text == '河狸兽的尖爪') {out = 'Caeserber Claw+';};
-	if (text == '河狸兽的优质皮') {out = 'Caeserber Hide+';};
-	if (text == '河狸兽的尖牙') {out = 'Caeserber Fang+';};
-	if (text == '历战的门牙') {out = 'Veteran Incisor';};
-	if (text == '辉龙石') {out = 'Dragonite Ore';};
-	if (text == '优质的毛皮') {out = 'High-Quality Pelt';};
-	if (text == '蓝速龙王的尖爪') {out = 'Velocidrome Claw+';};
-	if (text == '蓝速龙的优质鳞') {out = 'Velociprey Scale+';};
-	if (text == '蓝速龙王的尖牙') {out = 'Velocidrome Fang+';};
-	if (text == '蓝速龙王的大头冠') {out = 'Velocidrome Head+';};
-	if (text == '蓝速龙王的优质皮') {out = 'Velocidrome Hide+';};
-	if (text == '大野猪的硬皮') {out = 'Bullfango Hide+';};
-	if (text == '大野猪王的硬蹄') {out = 'Bulldrome Hoof+';};
-	if (text == '大野猪王的曲刚牙') {out = 'Bulldrome Curved Fang+';};
-	if (text == '大野猪王的尖牙') {out = 'Bulldrome Tusk+';};
-	if (text == '大野猪王的硬鬃') {out = 'Bulldrome Mane+';};
-	if (text == '怪鸟的刚翼') {out = 'Kut-Ku Wing+';};
-	if (text == '怪鸟的坚背甲') {out = 'Kut-Ku Carapace';};
-	if (text == '怪鸟的地狱耳') {out = 'Kut-Ku Ear+';};
-	if (text == '怪鸟的尖爪') {out = 'Kut-Ku Claw+';};
-	if (text == '怪鸟的优质鳞') {out = 'Kut-Ku Scale+';};
-	if (text == '漂亮的喙') {out = 'Beautiful Beak';};
-	if (text == '黄速龙王的尖爪') {out = 'Gendrome Claw+';};
-	if (text == '黄速龙的优质鳞') {out = 'Genprey Scale+';};
-	if (text == '黄速龙王的麻痹尖牙') {out = 'Gendrome Fang+';};
-	if (text == '黄速龙王的优质皮') {out = 'Gendrome Hide+';};
-	if (text == '黄速龙王的大头冠') {out = 'Gendrome Head+';};
-	if (text == '黄速龙王的韧尾') {out = 'Gendrome Tail+';};
-	if (text == '鬼狩蛛的尖爪') {out = 'Baelidae Claw+';};
-	if (text == '鬼狩蛛的坚壳') {out = 'Baelidae Shell+';};
-	if (text == '鬼狩蛛的浓液') {out = 'Baelidae Broth';};
-	if (text == '鬼狩蛛的鬼眼') {out = 'Baelidae Eye+';};
-	if (text == '鬼狩蛛的刚毛') {out = 'Baelidae Hair+';};
-	if (text == '鬼狩蛛的韧蛛丝') {out = 'Baelidae Silk+';};
-	if (text == '沙狸兽的坚爪') {out = 'Y.Caeserber Claw+';};
-	if (text == '沙狸兽重皮') {out = 'Y.Caeserber Hide+';};
-	if (text == '沙狸兽的尖牙') {out = 'Y.Caeserber Fang+';};
-	if (text == '厚实的储沙囊') {out = 'Heavy Sand Bladder';};
-	if (text == '沙狸兽的坚尾甲') {out = 'Y.Caeserber Tail+';};
-	if (text == '沙狸兽的尖门牙') {out = 'Y.Caeserber Veteran Incisor';};
-	if (text == '毒怪鸟的刚翼') {out = 'Gypceros Wing+';};
-	if (text == '毒怪鸟的优质皮') {out = 'Gypceros Hide+';};
-	if (text == '毒怪鸟的坚硬嘴') {out = 'Gypceros Beak+';};
-	if (text == '橡胶质的韧尾') {out = 'Gypceros Tail+';};
-	if (text == '变异的新星水晶') {out = 'Weird Novacrystal';};
-	if (text == '毒怪鸟的坚硬头') {out = 'Gypceros Head+';};
-	if (text == '桃毛兽王的尖牙') {out = 'Congalala Fang+';};
-	if (text == '桃毛兽王的坚骨') {out = 'Congalala Bone+';};
-	if (text == '桃毛兽王的尖爪') {out = 'Congalala Claw+';};
-	if (text == '桃毛兽王的优质皮') {out = 'Congalala Pelt+';};
-	if (text == '极彩色的毛') {out = 'Vibrant Pelt';};
-	if (text == '桃毛兽的刚毛') {out = 'Conga Pelt+';};
-	if (text == '赤红的刚鬃') {out = 'Red Mane+';};
-	if (text == '沙雷鸟的优质皮') {out = 'Chramine Hide+';};
-	if (text == '沙雷鸟的刚翼') {out = 'Chramine Wing+';};
-	if (text == '亮绿色的粘液') {out = 'Bright Green Mucus';};
-	if (text == '沙雷鸟的厚实嗉囊') {out = 'Chramine Crop+';};
-	if (text == '沙雷鸟的赤红鼻') {out = 'Chramine Crimson Beak';};
-	if (text == '沙龙的优质鳞') {out = 'Cephalos Scale+';};
-	if (text == '沙龙王的尖牙') {out = 'Cephadrome Fang+';};
-	if (text == '桃色的优质鳞') {out = 'Pink Scale+';};
-	if (text == '沙龙王的优质皮') {out = 'Cephadrome Hide+';};
-	if (text == '沙龙王的大储砂袋') {out = 'Cephadrome Sand Sac+';};
-	if (text == '新月之头冠') {out = 'Cephadrome Head+';};
-	if (text == '盾蟹的尖爪') {out = 'Daimyo Hermitaur Claw+';};
-	if (text == '盾蟹的坚壳') {out = 'Daimyo Hermitaur Shell+';};
-	if (text == '盾蟹的长脚') {out = 'Daimyo Hermitaur Leg+';};
-	if (text == '漆黑大珍珠') {out = 'Black Pearl+';};
-	if (text == '盾蟹的小坚壳') {out = 'Small Hermitaur Shell+';};
-	if (text == '盾蟹的巨钳') {out = 'Daimyo Hermitaur Clamp+';};
-	if (text == '红速龙的优质鳞') {out = 'Iodrome Scale+';};
-	if (text == '红速龙王的尖牙') {out = 'Iodrome Fang+';};
-	if (text == '红速龙王的猛毒腺') {out = 'Iodrome Fierce Venom';};
-	if (text == '红速龙王的尖爪') {out = 'Iodrome Claw+';};
-	if (text == '红速龙王的优质皮') {out = 'Iodrome Hide+';};
-	if (text == '红速龙王的大头冠') {out = 'Iodrome Crown+';};
-	if (text == '青怪鸟的优质翼') {out = 'Blue Kut-Ku Wing+';};
-	if (text == '青怪鸟的坚背甲') {out = 'Blue Kut-Ku Shell+';};
-	if (text == '青怪鸟的地狱耳') {out = 'Blue Kut-Ku Ear+';};
-	if (text == '青怪鸟的尖爪') {out = 'Blue Kut-Ku Claw+';};
-	if (text == '青怪鸟的优质鳞') {out = 'Blue Kut-Ku Scale+';};
-	if (text == '华丽的青鸟喙') {out = 'Blue Kut-Ku Beak+';};
-	if (text == '电龙的优质翼') {out = 'Khezu Patagium+';};
-	if (text == '珍珠色的柔皮') {out = 'Pearly Hide+';};
-	if (text == '电龙的尖牙') {out = 'Khezu Fang+';};
-	if (text == '高压的电气袋') {out = 'High-voltage Electro Sac';};
-	if (text == '白化霜降肉') {out = 'Pearly Frosted Meat';};
-	if (text == '电龙的强力吸盘') {out = 'Khezu Sucker+';};
-	if (text == '岩龙的优质翼') {out = 'Basarios Wing+';};
-	if (text == '岩龙的坚头壳') {out = 'Basarios Skull+';};
-	if (text == '岩龙的坚背壳') {out = 'Basarios Shell+';};
-	if (text == '岩龙的晶泪') {out = 'Basarios Tear+';};
-	if (text == '岩龙的坚壳') {out = 'Basarios Armor+';};
-	if (text == '岩龙的坚腹甲') {out = 'Basarios Breastplate+';};
-	if (text == '完整的眠袋') {out = 'Sleep Sac';};
-	if (text == '眠鸟的橙羽毛') {out = 'Hypnocatrice Orange Feather';};
-	if (text == '多彩的尾羽') {out = 'Colorful Feather';};
-	if (text == '眠鸟的尖爪') {out = 'Hypnocatrice Sharp Claw';};
-	if (text == '浓缩的眠液') {out = 'Concentrated Sleep Solution';};
-	if (text == '眠鸟的稀胃石') {out = 'Rare Bezoar';};
-	if (text == '金毛兽王的刚毛') {out = 'G.Congalala Hair+';};
-	if (text == '金毛兽王的优质皮') {out = 'G.Congalala Pelt+';};
-	if (text == '金毛兽王的尖牙') {out = 'G.Congalala Fang+';};
-	if (text == '金色的毛') {out = 'Golden Hair';};
-	if (text == '金毛兽王的坚骨') {out = 'G.Congalala Bone+';};
-	if (text == '金毛兽王的尖爪') {out = 'G.Congalala Claw+';};
-	if (text == '骇狩蛛的坚壳') {out = 'D.Baelidae Shell+';};
-	if (text == '骇狩蛛的复眼') {out = 'D.Baelidae Eye+';};
-	if (text == '骇狩蛛的浓液') {out = 'D.Baelidae Broth';};
-	if (text == '骇狩蛛的尖爪') {out = 'D.Baelidae Claw+';};
-	if (text == '骇狩蛛的刚毛') {out = 'D.Baelidae Hair+';};
-	if (text == '骇狩蛛的韧蛛丝') {out = 'D.Baelidae Silk+';};
-	if (text == '毒鸟的紫刚翼') {out = 'P.Gypceros Wing+';};
-	if (text == '橡胶质的紫柔皮') {out = 'P.Rubbery Hide+';};
-	if (text == '紫毒鸟的坚硬嘴') {out = 'P.Gypceros Beak+';};
-	if (text == '橡胶质的绿韧尾') {out = 'P.Gypceros Tail+';};
-	if (text == '诡异的新星水晶') {out = 'Strange Novacrystal+';};
-	if (text == '毒鸟的紫坚硬头') {out = 'P.Gypceros Head+';};
-	if (text == '镰蟹的尖爪') {out = 'Shogun Ceanataur Claw+';};
-	if (text == '镰蟹的坚壳') {out = 'Ceanataur Shell+';};
-	if (text == '镰蟹的长脚') {out = 'Shogun Ceanataur Leg+';};
-	if (text == '镰蟹的小坚壳') {out = 'Ceanataur Shell+';};
-	if (text == '坚龙头壳') {out = 'Wyvern Scalp+';};
-	if (text == '极上金真珠') {out = 'Large Gold Pearl+';};
-	if (text == '雪狮子的尖爪') {out = 'Blangonga Claw+';};
-	if (text == '雪狮子的优质皮') {out = 'Blangonga Hide+';};
-	if (text == '雪狮子的坚骨') {out = 'Blangonga Strong Bone';};
-	if (text == '雪狮子的刚髭') {out = 'Blangonga Mustache+';};
-	if (text == '雪狮子的刚毛') {out = 'Blango Pelt+';};
-	if (text == '雪狮子的尖牙') {out = 'Blangonga Fang+';};
-	if (text == '星龙的尖角') {out = 'Estrellian Horn+';};
-	if (text == '星龙的坚壳') {out = 'Estrellian Shell+';};
-	if (text == '星羽蝶的薄羽翅') {out = 'Estrellian Wing Feather+';};
-	if (text == '星光的体液') {out = 'Starlight Body Fluid';};
-	if (text == '星龙的坚腹甲') {out = 'Estrellian Breastplate+';};
-	if (text == '降星之龙鳞') {out = 'Estrellian Scale+';};
-	if (text == '白速龙王的尖爪') {out = 'Giadrome Claw+';};
-	if (text == '白速龙的优质鳞') {out = 'Giaprey Scale+';};
-	if (text == '白速龙王的尖牙') {out = 'Giadrome Fang+';};
-	if (text == '白速龙王的冻结腺') {out = 'Giadrome Frozen Gland';};
-	if (text == '白速龙王的大头冠') {out = 'Giadrome Large Crown+';};
-	if (text == '白速龙王的优质皮') {out = 'Giadrome Hide+';};
-	if (text == '冰雷鸟的优质皮') {out = 'I.Chramine Hide+';};
-	if (text == '冰雷鸟的刚翼') {out = 'I.Chramine Wing+';};
-	if (text == '冰雷鸟的厚实嗉囊') {out = 'I.Chramine Crop+';};
-	if (text == '湛蓝的刚鬃') {out = 'Blue Mane+';};
-	if (text == '银眠鸟的尖爪') {out = 'S.Hypnocatrice Claw+';};
-	if (text == '晶莹的眠液') {out = 'Crystal Clear Sleep Solution';};
-	if (text == '圆鼓鼓的眠袋') {out = 'Bulging Sleep Sac';};
-	if (text == '秘银尾羽') {out = 'Silver Tail+';};
-	if (text == '银眠鸟的稀胃石') {out = 'Rare Silver Bezoar';};
-	if (text == '剑豪镰蟹的尖爪') {out = 'S.Shogun Ceanataur Claw+';};
-	if (text == '剑豪镰蟹的坚壳') {out = 'S.Shogun Ceanataur Hard Shell';};
-	if (text == '剑豪镰蟹的坚脚') {out = 'S.Shogun Ceanataur Leg+';};
-	if (text == '剑豪镰蟹的金色大真珠') {out = 'S.Shogun Ceanataur Gold Pearl+';};
-	if (text == '尾晶蝎的尖爪') {out = 'A.Vashimu Claw+';};
-	if (text == '尾晶蝎的刚毛') {out = 'A.Vashimu Hair+';};
-	if (text == '尾晶蝎的坚壳') {out = 'A.Vashimu Shell+';};
-	if (text == '尾晶蝎的大颚') {out = 'A.Vashimu Giant Jaw+';};
-	if (text == '尾晶蝎的毒刚毛') {out = 'A.Vashimu Poison Hair+';};
-	if (text == '黑狼鸟的优质鳞') {out = 'Garuga Scale+';};
-	if (text == '黑狼鸟的坚壳') {out = 'Garuga Shell+';};
-	if (text == '黑狼鸟的刚髭') {out = 'Garuga Mustache+';};
-	if (text == '黑狼鸟的刚翼爪') {out = 'Garuga Claw+';};
-	if (text == '黑狼鸟的韧翼膜') {out = 'Garuga Webbing+';};
-	if (text == '黑狼鸟的地狱耳') {out = 'Garuga Hell Ear+';};
-	if (text == '红电龙的刚翼') {out = 'R.Khezu Wing+';};
-	if (text == '魅惑色的柔皮') {out = 'Alluring Hide+';};
-	if (text == '红电龙的尖牙') {out = 'R.Khezu Fang+';};
-	if (text == '红电龙的强力吸盘') {out = 'R.Khezu Sucker+';};
-	if (text == '独耳黑狼鸟的刚翼爪') {out = 'One-Eared Garuga Claw+';};
-	if (text == '独耳黑狼鸟的优质鳞') {out = 'One-Eared Garuga Scale+';};
-	if (text == '独耳黑狼鸟的坚壳') {out = 'One-Eared Garuga Shell+';};
-	if (text == '独耳黑狼鸟的刚髭') {out = 'One-Eared Garuga Mustache+';};
-	if (text == '独耳黑狼鸟的地狱耳') {out = 'One-Eared Garuga Hell Ear+';};
-	if (text == '断刃一角龙的坚壳') {out = 'S.Monoblos Hard Shell+';};
-	if (text == '断刃一角龙的延髓') {out = 'S.Monoblos Medulla';};
-	if (text == '断刃一角龙的脉动心脏') {out = 'S.Monoblos Pulsating Heart';};
-	if (text == '断刃一角龙的刚翼') {out = 'S.Monoblos Wing+';};
-	if (text == '剑极狼的刚毛') {out = 'Slicemargl Fur+';};
-	if (text == '剑极狼的上腕甲') {out = 'Slicemargl Wristguard+';};
-	if (text == '剑极狼的锐牙') {out = 'Slicemargl Fang+';};
-	if (text == '剑极狼的凶戾眼') {out = 'Slicemargl Brutal Eye+';};
-	if (text == '剑极狼的尖爪') {out = 'Slicemargl Claw+';};
-	if (text == '剑极狼的獠齿') {out = 'Slicemargl Hunting Tooth';};
-	if (text == '苍火龙的刚翼') {out = 'A.Rathalos Wing+';};
-	if (text == '苍蓝的爆炎袋') {out = 'Pale Azure Flame Sac+';};
-	if (text == '苍火龙的延髓') {out = 'A.Rathalos Medulla';};
-	if (text == '苍火龙的上鳞') {out = 'A.Rathalos Scale+';};
-	if (text == '苍火龙的坚壳') {out = 'A.Rathalos Shell+';};
-	if (text == '苍火龙的逆鳞') {out = 'A.Rathalos Plate+';};
-	if (text == '灰晶蝎的尖爪') {out = 'A.Jebia Claw+';};
-	if (text == '灰晶蝎的刚毛') {out = 'A.Jebia Hair+';};
-	if (text == '灰晶蝎的坚壳') {out = 'A.Jebia Carapace+';};
-	if (text == '灰晶蝎的毒刚毛') {out = 'A.Jebia Poison Hair+';};
-	if (text == '灰晶蝎的辉晶石') {out = 'A.Jebia Spar+';};
-	if (text == '灰晶蝎的大颚') {out = 'A.Jebia Giant Jaw+';};
-	if (text == '砂岩龙的坚头壳') {out = 'S.Basarios Skull+';};
-	if (text == '砂岩龙的坚背壳') {out = 'S.Basarios Armor+';};
-	if (text == '砂岩龙的沙泪') {out = 'S.Basarios Tear+';};
-	if (text == '砂岩龙的坚壳') {out = 'S.Basarios Shell+';};
-	if (text == '砂岩龙的优质翼') {out = 'S.Basarios Wing+';};
-	if (text == '砂岩龙的坚腹甲') {out = 'S.Basarios Breastplate+';};
-	if (text == '樱火龙的上鳞') {out = 'P.Rathian Scale+';};
-	if (text == '樱火龙的坚壳') {out = 'P.Rathian Shell+';};
-	if (text == '樱火龙的上棘') {out = 'P.Rathian Webbing+';};
-	if (text == '樱火龙的逆鳞') {out = 'P.Rathian Spike+';};
-	if (text == '樱红的爆炎袋') {out = 'P.Rathian Inferno Sac';};
-	if (text == '樱火龙的延髓') {out = 'P.Rathian Marrow+';};
-	if (text == '灰晶蝎的靭尾') {out = 'A.Jebia Tough Tail+';};
-	if (text == '灰晶蝎的巨钳') {out = 'A.Jebia Clamp+';};
-	if (text == '强韧的脚蹼') {out = 'Tough Webbed Feet';};
-	if (text == '潮湿的毛皮') {out = 'Wet Fur';};
-	if (text == '河狸兽的尾甲') {out = 'Caeserber Tail';};
-	if (text == '蓝速龙王的锐爪') {out = 'Velocidrome Sharp Claws';};
-	if (text == '短小的喙') {out = 'Short Beak';};
-	if (text == '蓝速龙王的尾巴') {out = 'Velocidrome Tail';};
-	if (text == '粗糙的毛皮') {out = 'Rough Fur';};
-	if (text == '肥美的猪肉') {out = 'Plump Pork';};
-	if (text == '大野猪王尖獠牙') {out = 'Bulldrome Pointed Fangs';};
-	if (text == '粗糙的翼膜') {out = 'Rough Patagium';};
-	if (text == '怪鸟的翼爪') {out = 'Yian Kut-Ku Wing Claw';};
-	if (text == '怪鸟的尾巴') {out = 'Yian Kut-Ku Tail';};
-	if (text == '赤红的小鳞') {out = 'Small Crimson Scale';};
-	if (text == '漆黑的趾甲') {out = 'Dark Nails';};
-	if (text == '黄色的唾液') {out = 'Yellow Saliva';};
-	if (text == '麻痹腺体') {out = 'Paralysis Glands';};
-	if (text == '破损的腺体') {out = 'Damaged Glands';};
-	if (text == '鬼狩蛛的鬼面壳') {out = 'Baelidae Face Shell';};
-	if (text == '不明的体液') {out = 'Unknown Body Fluids';};
-	if (text == '厚实的毒舌') {out = 'Thick Tongue';};
-	if (text == '粘稠的毒液') {out = 'Viscous Venom';};
-	if (text == '完整的大块胶皮') {out = 'Rubber Chunks';};
-	if (text == '丑陋的臼齿') {out = 'Ugly Molars';};
-	if (text == '硬化的脚蹼') {out = 'Hardened Flippers';};
-	if (text == '亮黄的毛') {out = 'Bright Yellow Hair';};
-	if (text == '肥沃的泥巴') {out = 'Fertile Mud';};
-	if (text == '不新鲜的蘑菇') {out = 'Old Mushrooms';};
-	if (text == '发黄的臭牙') {out = 'Smelly Yellow Teeth';};
-	if (text == '异味的腺体') {out = 'Odor Glands';};
-	if (text == '锋利的长趾甲') {out = 'Sharp Long Nails';};
-	if (text == '多彩色之毛') {out = 'Multi-colored Hair';};
-	if (text == '沙雷鸟的臼齿') {out = 'Chramine Molars';};
-	if (text == '猩红之眼') {out = 'Scarlet Eye';};
-	if (text == '粗糙的胶皮') {out = 'Rough Rubber';};
-	if (text == '黯淡的粘液') {out = 'Dark Mucus';};
-	if (text == '沙龙王的鱼尾') {out = 'Cephadrome Tail';};
-	if (text == '被消化的铁砂') {out = 'Digested Iron Ore';};
-	if (text == '坚硬的沙鳞') {out = 'Hard Sand Scales';};
-	if (text == '肥美的蟹黄') {out = 'Plump Crab';};
-	if (text == '盾蟹的鳃') {out = 'Hermitaur Gills';};
-	if (text == '长满霉斑的骨头') {out = 'Mildew Covered Bones';};
-	if (text == '盾蟹的储水袋') {out = 'Hermitaur Water Bag';};
-	if (text == '青色的翼膜') {out = 'Blue Patagium';};
-	if (text == '青怪鸟的翼爪') {out = 'Blue Kut-Ku Claw Wing';};
-	if (text == '青怪鸟的尾巴') {out = 'Blue Kut-Ku Tail';};
-	if (text == '眠鸟的翼羽') {out = 'Hypnocatrice Feathers';};
-	if (text == '橙色的绒毛') {out = 'Orange Hair';};
-	if (text == '眠鸟的尾巴') {out = 'Hypnocatrice Tail';};
-	if (text == '粗壮的鸟腿骨') {out = 'Stout Bird Leg';};
-	if (text == '珍珠色的翼膜') {out = 'Pearly Patagium';};
-	if (text == '破损的电气袋') {out = 'Damaged Electro Sac';};
-	if (text == '珍珠色的脚趾') {out = 'Pearl-colored Toes';};
-	if (text == '珍珠色的环状嘴') {out = 'Pearl Mouth';};
-	if (text == '高级珍珠色的翼膜') {out = 'Pearly Patagium+';};
-//Jewels
-	if (text == '攻击珠【1】') {out = 'Attack Jewel 1'; }
-	if (text == '攻击珠【2】') {out = 'Attack Jewel 2'; }
-	if (text == '攻击珠【3】') {out = 'Attack Jewel 3'; }
-	if (text == '达人珠【1】') {out = 'Expert Jewel 1'; }
-	if (text == '达人珠【2】') {out = 'Expert Jewel 2'; }
-	if (text == '达人珠【3】') {out = 'Expert Jewel 3'; }
-	if (text == '特攻珠【1】') {out = 'Disabler Jewel 1'; }
-	if (text == '特攻珠【2】') {out = 'Disabler Jewel 2'; }
-	if (text == '火炎珠【1】') {out = 'Blaze Jewel 1'; }
-	if (text == '火炎珠【2】') {out = 'Blaze Jewel 2'; }
-	if (text == '流水珠【1】') {out = 'Stream Jewel 1'; }
-	if (text == '流水珠【2】') {out = 'Stream Jewel 2'; }
-	if (text == '雷光珠【1】') {out = 'Bolt Jewel 1'; }
-	if (text == '雷光珠【2】') {out = 'Bolt Jewel 2'; }
-	if (text == '冰结珠【1】') {out = 'Frost Jewel 1'; }
-	if (text == '冰结珠【2】') {out = 'Frost Jewel 2'; }
-	if (text == '破龙珠【1】') {out = 'Dragon Jewel 1'; }
-	if (text == '破龙珠【2】') {out = 'Dragon Jewel 2'; }
-	if (text == '痛击珠【1】') {out = 'Tenderizer Jewel 1'; }
-	if (text == '痛击珠【3】') {out = 'Tenderizer Jewel 3'; }
-	if (text == '重击珠【1】') {out = 'Destroyer Jewel 1'; }
-	if (text == '重击珠【3】') {out = 'Destroyer Jewel 3'; }
-	if (text == 'KO珠【1】') {out = 'KO Jewel 1'; }
-	if (text == 'KO珠【3】') {out = 'KO Jewel 3'; }
-	if (text == '底力珠【1】') {out = 'Potential Jewel 1'; }
-	if (text == '底力珠【2】') {out = 'Potential Jewel 2'; }
-	if (text == '逆境珠【1】') {out = 'Fortitude Jewel 1'; }
-	if (text == '逆境珠【2】') {out = 'Fortitude Jewel 2'; }
-	if (text == '斗魂珠【1】') {out = 'Spirit Jewel 1'; }
-	if (text == '斗魂珠【2】') {out = 'Spirit Jewel 2'; }
-	if (text == '看破珠【1】') {out = 'Hardy Jewel 1'; }
-	if (text == '看破珠【2】') {out = 'Hardy Jewel 2'; }
-	if (text == '无伤珠【1】') {out = 'Flawless Jewel 1'; }
-	if (text == '无伤珠【2】') {out = 'Flawless Jewel 2'; }
-	if (text == '吸引珠【1】') {out = 'Attraction Jewel 1'; }
-	if (text == '吸引珠【2】') {out = 'Attraction Jewel 2'; }
-	if (text == '背水珠【1】') {out = 'High Stakes Jewel 1'; }
-	if (text == '背水珠【2】') {out = 'High Stakes Jewel 2'; }
-	if (text == '倒地珠【1】') {out = 'Trip Jewel 1'; }
-	if (text == '刺杀珠【1】') {out = 'Ambush Jewel 1'; }
-	if (text == '刺杀珠【3】') {out = 'Ambush Jewel 3'; }
-	if (text == '鼓笛珠【1】') {out = 'Sonorous Jewel 1'; }
-	if (text == '炮术珠【1】') {out = 'Artillery Jewel 1'; }
-	if (text == '防御珠【1】') {out = 'Defense Jewel 1'; }
-	if (text == '防御珠【2】') {out = 'Defense Jewel 2'; }
-	if (text == '防御珠【3】') {out = 'Defense Jewel 3'; }
-	if (text == '耐火珠【1】') {out = 'Fire Res Jewel 1'; }
-	if (text == '制火珠【1】') {out = 'Nul-Fire Jewel 1'; }
-	if (text == '耐水珠【1】') {out = 'Water Res Jewel 1'; }
-	if (text == '制水珠【1】') {out = 'Nul-Water Jewel 1'; }
-	if (text == '耐雷珠【1】') {out = 'Thunder Res Jewel 1'; }
-	if (text == '制雷珠【1】') {out = 'Nul-Thunder Jewel 1'; }
-	if (text == '耐冰珠【1】') {out = 'Ice Res Jewel 1'; }
-	if (text == '制冰珠【1】') {out = 'Nul-Ice Jewel 1'; }
-	if (text == '耐龙珠【1】') {out = 'Dragon Res Jewel 1'; }
-	if (text == '加护珠【1】') {out = 'Nul-Dragon Jewel 1'; }
-	if (text == '体力珠【1】') {out = 'Vitality Jewel 1'; }
-	if (text == '早复珠【1】') {out = 'Recovery Jewel 1'; }
-	if (text == '早复珠【2】') {out = 'Recovery Jewel 2'; }
-	if (text == '体术珠【1】') {out = 'Physique Jewel 1'; }
-	if (text == '体术珠【2】') {out = 'Physique Jewel 2'; }
-	if (text == '早气珠【1】') {out = 'Refresh Jewel 1'; }
-	if (text == '早气珠【2】') {out = 'Refresh Jewel 2'; }
-	if (text == '无食珠【1】') {out = 'Hungerless Jewel 1'; }
-	if (text == '无食珠【2】') {out = 'Hungerless Jewel 2'; }
-	if (text == '食汉珠【1】') {out = 'Metabolism Jewel 1'; }
-	if (text == '根性珠【1】') {out = 'Guts Jewel 1'; }
-	if (text == '根性珠【2】') {out = 'Guts Jewel 2'; }
-	if (text == '治愈珠【1】') {out = 'Medicine Jewel 1'; }
-	if (text == '治愈珠【2】') {out = 'Medicine Jewel 2'; }
-	if (text == '短缩珠【1】') {out = 'Charger Jewel 1'; }
-	if (text == '短缩珠【3】') {out = 'Charger Jewel 3'; }
-	if (text == '匠珠【2】') {out = 'Handicraft Jewel 2'; }
-	if (text == '剑术珠【1】') {out = 'Fencer Jewel 1'; }
-	if (text == '剑术珠【3】') {out = 'Fencer Jewel 3'; }
-	if (text == '斩铁珠【1】') {out = 'Razor Jewel 1'; }
-	if (text == '斩铁珠【3】') {out = 'Razor Jewel 3'; }
-	if (text == '铁壁珠【1】') {out = 'Ironwall Jewel 1'; }
-	if (text == '铁壁珠【2】') {out = 'Ironwall Jewel 2'; }
-	if (text == '强壁珠【1】') {out = 'Shield Jewel 1'; }
-	if (text == '强壁珠【2】') {out = 'Shield Jewel 2'; }
-	if (text == '研磨珠【1】') {out = 'Grinder Jewel 1'; }
-	if (text == '锁气珠【1】') {out = 'Stun Lock Jewel 1'; }
-	if (text == '锁气珠【3】') {out = 'Stun Lock Jewel 3'; }
-	if (text == '拔刀珠【1】') {out = 'Draw Jewel 1'; }
-	if (text == '拔刀珠【2】') {out = 'Draw Jewel 2'; }
-	if (text == '装填珠【2】') {out = 'Capacity Jewel 2'; }
-	if (text == '强弹珠【1】') {out = 'Forceshot Jewel 1'; }
-	if (text == '贯通珠【1】') {out = 'Pierce Jewel 1'; }
-	if (text == '散弹珠【1】') {out = 'Pellet Jewel 1'; }
-	if (text == '加弹珠【1】') {out = 'ShotPlus Jewel 1'; }
-	if (text == '加贯珠【1】') {out = 'PiercePlus Jewel 1'; }
-	if (text == '加散珠【1】') {out = 'PelletPlus Jewel 1'; }
-	if (text == '早填珠【1】') {out = 'Quickload Jewel 1'; }
-	if (text == '毒瓶珠【1】') {out = 'PoisonPlus Jewel 1'; }
-	if (text == '眠瓶珠【1】') {out = 'SleepPlus Jewel 1'; }
-	if (text == '麻瓶珠【1】') {out = 'ParaPlus Jewel 1'; }
-	if (text == '加榴珠【1】') {out = 'ClustPlus Jewel 1'; }
-	if (text == '反动珠【1】') {out = 'Absorber Jewel 1'; }
-	if (text == '速射珠【1】') {out = 'Salvo Jewel 1'; }
-	if (text == '回避珠【1】') {out = 'Evasion Jewel 1'; }
-	if (text == '回避珠【2】') {out = 'Evasion Jewel 2'; }
-	if (text == '跳跃珠【1】') {out = 'Jumping Jewel 1'; }
-	if (text == '陷阱珠【1】') {out = 'Trapmaster Jewel 1'; }
-	if (text == '早食珠【1】') {out = 'Gobbler Jewel 1'; }
-	if (text == '耐绝珠【1】') {out = 'Steadfast Jewel 1'; }
-	if (text == '耐痹珠【1】') {out = 'Paralysis Jewel 1'; }
-	if (text == '耐眠珠【1】') {out = 'Pep Jewel 1'; }
-	if (text == '耐毒珠【1】') {out = 'Antidote Jewel 1'; }
-	if (text == '耐粘珠【1】') {out = 'Tracker Jewel 1'; }
-	if (text == '耐震珠【1】') {out = 'Tectonic Jewel 1'; }
-	if (text == '抗震珠【1】') {out = 'Quake Jewel 1'; }
-	if (text == '耐暑珠【1】') {out = 'Heat Res Jewel 1'; }
-	if (text == '耐暑珠【2】') {out = 'Heat Res Jewel 2'; }
-	if (text == '耐寒珠【1】') {out = 'Cold Res Jewel 1'; }
-	if (text == '耐寒珠【2】') {out = 'Cold Res Jewel 2'; }
-	if (text == '防音珠【1】') {out = 'Earplug Jewel 1'; }
-	if (text == '防音珠【3】') {out = 'Earplug Jewel 3'; }
-	if (text == '防风珠【1】') {out = 'Wind Res Jewel 1'; }
-	if (text == '防风珠【2】') {out = 'Wind Res Jewel 2'; }
-	if (text == '广域珠【1】') {out = 'Friendship Jewel 1'; }
-	if (text == '广域珠【2】') {out = 'Friendship Jewel 2'; }
-	if (text == '忍脚珠【1】') {out = 'Ninja Jewel 1'; }
-	if (text == '耐菌珠【1】') {out = 'Antibacterial Jewel 1'; }
-	if (text == '抗棘珠【1】') {out = 'Staunch Jewel 1'; }
-	if (text == '草药珠【1】') {out = 'Herb Jewel 1'; }
-	if (text == '名药珠【1】') {out = 'Herbalism Jewel 1'; }
-	if (text == '千里珠【1】') {out = 'Psychic Jewel 1'; }
-	if (text == '观察珠【1】') {out = 'Perception Jewel 1'; }
-	if (text == '生存珠【1】') {out = 'Ranger Jewel 1'; }
-	if (text == '飞龙珠【1】') {out = 'Flying Wyvern Jewel 1'; }
-	if (text == '鸟龙珠【1】') {out = 'Bird Wyvern Jewel 1'; }
-	if (text == '鸟龙珠【2】') {out = 'Bird Wyvern Jewel 2'; }
-	if (text == '牙兽珠【1】') {out = 'Fanged Beast Jewel 1'; }
-	if (text == '牙兽珠【2】') {out = 'Fanged Beast Jewel 2'; }
-	if (text == '甲壳珠【1】') {out = 'Carapacean Jewel 1'; }
-	if (text == '甲壳珠【2】') {out = 'Carapacean Jewel 2'; }
-	if (text == '古龙珠【1】') {out = 'Elder Dragon Jewel 1'; }
-	if (text == '鱼龙珠【1】') {out = 'Piscine Wyvern Jewel 1'; }
-	if (text == '鱼龙珠【2】') {out = 'Piscine Wyvern Jewel 2'; }
+    // if found, return translation
+    if (text in translations) {
+        return translations[text];
+    }
 
-	if (text == '') {out = '';};
-
-	return out;
+    // otherwise the original text
+    return text;
 }
