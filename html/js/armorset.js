@@ -19,79 +19,30 @@ var mosaic13Skills = []; var mosaicSkills14ID; var mosaic14Skills = []; var mosa
 var skillNames = skillnamesjs(); var skills = skillsjs();
 var positiveSkills = [];
 var negativeSkills = [];
-
-$(document).on('change', 'select#necklaceSelect', function() {
-    console.log($(this).val()); updateurl('6', $(this).val()); displayData();
-});
-$(document).on('change', 'select#ringSelect', function() {
-    console.log($(this).val()); updateurl('7', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSelect', function() {
-    console.log($(this).val()); updateurl('8', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSkill1Select', function() {
-    console.log($(this).val()); updateurl('9', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSkill1vSelect', function() {
-    console.log($(this).val()); updateurl('10', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSkill2Select', function() {
-    console.log($(this).val()); updateurl('11', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSkill2vSelect', function() {
-    console.log($(this).val()); updateurl('12', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSkill3Select', function() {
-    console.log($(this).val()); updateurl('13', $(this).val()); displayData();
-});
-$(document).on('change', 'select#talismanSkill3vSelect', function() {
-    console.log($(this).val()); updateurl('14', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic1Select1', function() {
-    console.log($(this).val()); updateurl('15', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic1Select2', function() {
-    console.log($(this).val()); updateurl('16', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic1Select3', function() {
-    console.log($(this).val()); updateurl('17', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic2Select1', function() {
-    console.log($(this).val()); updateurl('18', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic2Select2', function() {
-    console.log($(this).val()); updateurl('19', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic2Select3', function() {
-    console.log($(this).val()); updateurl('20', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic3Select1', function() {
-    console.log($(this).val()); updateurl('21', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic3Select2', function() {
-    console.log($(this).val()); updateurl('22', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic3Select3', function() {
-    console.log($(this).val()); updateurl('23', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic4Select1', function() {
-    console.log($(this).val()); updateurl('24', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic4Select2', function() {
-    console.log($(this).val()); updateurl('25', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic4Select3', function() {
-    console.log($(this).val()); updateurl('26', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic5Select1', function() {
-    console.log($(this).val()); updateurl('27', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic5Select2', function() {
-    console.log($(this).val()); updateurl('28', $(this).val()); displayData();
-});
-$(document).on('change', 'select#mosaic5Select3', function() {
-    console.log($(this).val()); updateurl('29', $(this).val()); displayData();
-});
+$(document).on('change', 'select#necklaceSelect', function() {console.log($(this).val()); updateurl('6', $(this).val()); displayData();});
+$(document).on('change', 'select#ringSelect', function() {console.log($(this).val()); updateurl('7', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSelect', function() {console.log($(this).val()); updateurl('8', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSkill1Select', function() {console.log($(this).val()); updateurl('9', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSkill1vSelect', function() {console.log($(this).val()); updateurl('10', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSkill2Select', function() {console.log($(this).val()); updateurl('11', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSkill2vSelect', function() {console.log($(this).val()); updateurl('12', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSkill3Select', function() {console.log($(this).val()); updateurl('13', $(this).val()); displayData();});
+$(document).on('change', 'select#talismanSkill3vSelect', function() {console.log($(this).val()); updateurl('14', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic1Select1', function() {console.log($(this).val()); updateurl('15', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic1Select2', function() {console.log($(this).val()); updateurl('16', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic1Select3', function() {console.log($(this).val()); updateurl('17', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic2Select1', function() {console.log($(this).val()); updateurl('18', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic2Select2', function() {console.log($(this).val()); updateurl('19', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic2Select3', function() {console.log($(this).val()); updateurl('20', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic3Select1', function() {console.log($(this).val()); updateurl('21', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic3Select2', function() {console.log($(this).val()); updateurl('22', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic3Select3', function() {console.log($(this).val()); updateurl('23', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic4Select1', function() {console.log($(this).val()); updateurl('24', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic4Select2', function() {console.log($(this).val()); updateurl('25', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic4Select3', function() {console.log($(this).val()); updateurl('26', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic5Select1', function() {console.log($(this).val()); updateurl('27', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic5Select2', function() {console.log($(this).val()); updateurl('28', $(this).val()); displayData();});
+$(document).on('change', 'select#mosaic5Select3', function() {console.log($(this).val()); updateurl('29', $(this).val()); displayData();});
 function displayData() {
 // grap parameters from URL
 	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5');
@@ -212,28 +163,13 @@ function displayData() {
 		document.getElementById("ringSkills").innerHTML = '<span class="no'+ring[0].data[10]+'">Defense: '+ring[0].data[10]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[11]+'">Critical Rate: '+ring[0].data[11]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[20]+'">Water Def: '+ring[0].data[20]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[21]+'">Fire Def: '+ring[0].data[21]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[22]+'">Thunder Def: '+ring[0].data[22]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[23]+'">Dragon Def: '+ring[0].data[23]+'&nbsp;&nbsp;</span><span class="no'+ring[0].data[24]+'">Ice Def: '+ring[0].data[24]+'</span>';
 	};
 // write HTML to IDs if URL Parameters are VALID
-	if (typeof talisman[0] !== 'undefined') {
-		document.getElementById("talismanImg").innerHTML = '<img src="../images/item/'+talisman[0].data[6]+'.png">';
-		document.getElementById("talisman").innerHTML = talisman[0].data[1];
-	};
-	if (typeof talismanSkill1ID !== 'undefined') {
-		document.getElementById("talismanSkills1").innerHTML = skillNames[parseInt(talismanSkill1ID)]+': ';
-	};
-	if (typeof talismanSkill1vID !== 'undefined') {
-		document.getElementById("talismanSkills1Value").innerHTML = talismanSkill1vID;
-	};
-	if (typeof talismanSkill2ID !== 'undefined') {
-		document.getElementById("talismanSkills2").innerHTML = skillNames[parseInt(talismanSkill2ID)]+': ';
-	};
-	if (typeof talismanSkill2vID !== 'undefined') {
-		document.getElementById("talismanSkills2Value").innerHTML = talismanSkill2vID;
-	};
-	if (typeof talismanSkill3ID !== 'undefined') {
-		document.getElementById("talismanSkills3").innerHTML = skillNames[parseInt(talismanSkill3ID)]+': ';
-	};
-	if (typeof talismanSkill3vID !== 'undefined') {
-		document.getElementById("talismanSkills3Value").innerHTML = talismanSkill3vID;
-	};
+	if (typeof talisman[0] !== 'undefined') {document.getElementById("talismanImg").innerHTML = '<img src="../images/item/'+talisman[0].data[6]+'.png">'; document.getElementById("talisman").innerHTML = talisman[0].data[1];};
+	if (typeof talismanSkill1ID !== 'undefined') {document.getElementById("talismanSkills1").innerHTML = skillNames[parseInt(talismanSkill1ID)]+': ';};
+	if (typeof talismanSkill1vID !== 'undefined') {document.getElementById("talismanSkills1Value").innerHTML = talismanSkill1vID;};
+	if (typeof talismanSkill2ID !== 'undefined') {document.getElementById("talismanSkills2").innerHTML = skillNames[parseInt(talismanSkill2ID)]+': ';};
+	if (typeof talismanSkill2vID !== 'undefined') {document.getElementById("talismanSkills2Value").innerHTML = talismanSkill2vID;};
+	if (typeof talismanSkill3ID !== 'undefined') {document.getElementById("talismanSkills3").innerHTML = skillNames[parseInt(talismanSkill3ID)]+': ';};
+	if (typeof talismanSkill3vID !== 'undefined') {document.getElementById("talismanSkills3Value").innerHTML = talismanSkill3vID;};
 	helmCount = 0
 	if (typeof mosaic1Skills[0] !== 'undefined') {
 		document.getElementById("mosaic1Img").innerHTML = '<img src="../images/item/'+mosaic1Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic1Skills[2])+' - ';
@@ -373,22 +309,8 @@ function displayData() {
 	};
 	document.getElementById("talismanSkill3Select").innerHTML = talismanSkill3Selection;
 };
-function filter(aID) {
-// initialize array
-	var arr = armorArray;
-// grep filter for ID
-	filterArmor = $.grep(arr, function(element, index) {return element.iID == aID;});
-// output new array
-	return filterArmor;
-};
-function filterj(aID) {
-// initialize array
-	var arr = jewelryArray;
-// grep filter for ID
-	filterJewelry = $.grep(arr, function(element, index) {return element.iID == aID;});
-// output new array
-	return filterJewelry;
-};
+function filter(aID) {var arr = armorArray; filterArmor = $.grep(arr, function(element, index) {return element.iID == aID;}); return filterArmor;};
+function filterj(aID) {var arr = jewelryArray; filterJewelry = $.grep(arr, function(element, index) {return element.iID == aID;}); return filterJewelry;};
 function storeArmor() {
 // create arrays with filter(aID)
 	helmet = filter(helmetID); vambraces = filter(vambracesID); armor = filter(armorID); waist = filter(waistID); greaves = filter(greavesID); necklace = filterj(necklaceID); ring = filterj(ringID); talisman = filterj(talismanID);
@@ -458,12 +380,12 @@ function getPassive(sname, value) {
 };
 
 function skillnamesjs() {
-	var tempArr = []
+	var tempArr = [];
 	for(i = 0; i < skillsArray.length; i ++) {
 		var skillTemp = translate(skillsArray[i].data[3])
 		tempArr.push(skillTemp)
 	}
-	var tempArr2 = []
+	var tempArr2 = [];
 	$.each(tempArr, function(i, el) {
 		if ($.inArray(el, tempArr2) === -1) tempArr2.push(el);
 	});
@@ -471,8 +393,6 @@ function skillnamesjs() {
 };
 function skillsjs() {
 	var tempArr = {};
-	for(i = 0; i < skillNames.length; i ++) {
-		tempArr[translate(skillNames[i])] = 0;
-	}
+	for(i = 0; i < skillNames.length; i ++) {tempArr[translate(skillNames[i])] = 0;}
 	return tempArr
 };
