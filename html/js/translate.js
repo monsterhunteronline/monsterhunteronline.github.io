@@ -817,7 +817,9 @@ function translate(text) {
 	if (text == '王立精英委托') {out = 'HR Elite Hunting';};
 	if (text == '王立委托') {out = 'HR Hunting';};
 	if (text == '大湖围猎祭') {out = 'Great Lakes Hunting Festival';};
-	if (text == '50级以上古龙征伐') {out = 'Lvl 50 and above Elder Dragon Conquests';};
+	if (text == '50级以上古龙征伐') {out = 'Lvl 50 Large Monster Conquests';};
+	if (text == '50级以上王立委托、王立精英委托') {out = 'Lvl 50 Large Monster Conquests, HR Elite Hunting';};
+	if (text == '大型怪物狩猎、50级以上王立委托、王立精英委托') {out = 'Large Monster Hunting, Lvl 50 Large Monster Conquests, HR Elite Hunting';};
 //Armor Skills
 	if (text == '回复速度+1、观察眼、大胃王') {out = 'Rec Speed +1，Capture Guru，Gourmand';};
 	if (text == '探知、速食') {out = 'Detect，Speed Eating';};

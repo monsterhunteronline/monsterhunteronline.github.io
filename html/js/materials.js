@@ -20160,6 +20160,7 @@ $('#inputText').keyup(function(event) {
 });
 $('#clear').on('click', function() {
 	$('#inputText').val('');
+    removeParam('search');
 	$('#button').click();
 });
 var matString;

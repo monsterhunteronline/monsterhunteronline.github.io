@@ -59,6 +59,7 @@ $('#button').on('click', function() {
 	var ii;
 $('#clear').on('click', function() {
 	$('#inputText').val('');
+    removeParam('search');
 	$('#button').click();
 });
 	for(i = 0; i < arr.length; i += 5) {
