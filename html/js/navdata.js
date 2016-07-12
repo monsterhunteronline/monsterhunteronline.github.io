@@ -375,14 +375,14 @@ flyingWyvernArray = [
 					"轰龙",
 				]
 			},
-//			{
-//				"data": [
-//					"Gravios",
-//					"gravios",
-//					"gravios.png",
-//					"",
-//				]
-//			},
+			{
+				"data": [
+					"Gravios",
+					"gravios",
+					"gravios.png",
+					"铠龙",
+				]
+			},
 ];
 fangedBeastArray = [
 			{
@@ -457,14 +457,14 @@ fangedBeastArray = [
 					"剑极狼",
 				]
 			},
-//			{
-//				"data": [
-//					"Purple Slicemargl",
-//					"purple-slicemargl",
-//					"slicemargl2.png",
-//					"",
-//				]
-//			},
+			{
+				"data": [
+					"Purple Slicemargl",
+					"purple-slicemargl",
+					"slicemargl2.png",
+					"剑极狼亚种",
+				]
+			},
 //			{
 //				"data": [
 //					"Rajang",

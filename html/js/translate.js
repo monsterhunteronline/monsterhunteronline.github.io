@@ -692,6 +692,8 @@ function translate(text) {
 	if (text == '老山蟹B') {out = '<a href="/monsters/guren-shen-gaoren/" target="_blank">Guren Shen Gaoren</a>';};
 	if (text == 'PVP2') {out = '<a href="/monsters/merphistophelin/" target="_blank">Merphistophelin</a>';};
 	if (text == '剑极狼亚种') {out = '<a href="/monsters/purple-slicemargl/" target="_blank">Purple Slicemargl</a>';};
+	if (text == '剑刹狼') {out = '<a href="/monsters/purple-slicemargl/" target="_blank">Purple Slicemargl</a>';};
+	
 //Other monster for weapons
 	if (text == '特殊铳枪') {out = 'Yian Kut-Ku + Bulldrome';};
 	if (text == '新手') {out = 'Velociprey';};
@@ -773,6 +775,7 @@ function translate(text) {
 	if (text == 'nl熔岩龙') {out = 'Lavasioth';};
 	if (text == 'nl霞龙') {out = 'Chameleos';};
 	if (text == 'nl剑极狼亚种') {out = 'Purple Slicemargl';};
+	if (text == 'nl剑刹狼') {out = 'Purple Slicemargl';};
 //Body Parts
 	if (text == '头部') {out = 'Head';};
 	if (text == '腹部') {out = 'Abdomen';};
@@ -906,6 +909,11 @@ function translate(text) {
 	if (text == '火事场力+2，见切+1，恶灵的加护') {out = 'Adrenaline +2，Critical Eye +1，Evil Blessing';};
 	if (text == '集中，根性，火属性攻击强化+1，水属性耐性弱化，') {out = 'Concentrate，Guts，Fire Atk +1，Water Res Down';};
 	if (text == '耳栓，隐秘，风压（大）无效，耐力回复-1') {out = 'Earplugs，Sneak，Windproof (Hi)，Stam Recov -1';};
+	if (text == '防御性能+2，防御强化，体力强化+3，体术-1') {out = 'Guard +2，Guard Boost，Health +3，Constitution -1';};
+	if (text == '快速装填+2，散弹/矢强化，体力强化+3，体术-1') {out = 'Reload Spd +2，Pellet/Spread Up，Health +3，Constitution -1';};
+	if (text == '特殊攻击+2，麻痹免疫，心眼，钝刀') {out = "Status Atk +2，Negate Paralysis，Mind's Eye，Blunt Edge";};
+	if (text == '特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1') {out = 'Status Atk +2，Negate Paralysis，Recoil Down +1，Reload Spd -1';};
+	
 //materials
 	if (text == '山青虫') {out = 'Mountain Budworm';};
 	if (text == '蓝速龙的鳞') {out = 'Velociprey Scale';};
