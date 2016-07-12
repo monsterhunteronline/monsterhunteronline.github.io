@@ -140,4 +140,5 @@ $('#clear').on('click', function() {
 		out+= '<li><div class="collapsible-header"><div><div class="left"><img src="../images/item/'+arr[i].data[13]+'.png" class="armorimage">&nbsp;&nbsp;&nbsp;&nbsp;<span class="type'+arr[i].data[3]+'">'+typeArray[arr[i].data[3]].type+'</span>&nbsp;&nbsp;</div><div class="truncate-small"><span class="Lv'+arr[i].data[57].substring(3,5)+'">Prototype </span>'+translate(arr[i].data[2])+' Armor</div><span class="right">'+arr[i].data[57]+'</span></div><span class="bold">'+translate(arr[i].data[56])+'</span></div><div class="collapsible-body grey lighten-2"><div class="row">'+largescreen+mediumscreenrow1+'</div><div class="row">'+mediumscreenrow2+'</div></div></li>';
 	}
 document.getElementById("armorlist").innerHTML = out;
+initializeMosaicOptions();
 });
