@@ -64,7 +64,7 @@ function displayData() {
 	if (typeof helmet[0] !== 'undefined') {
 		helmetType = helmet[0].data[3];
 		document.getElementById("helmetImg").innerHTML = '<img src="../images/item/'+helmet[0].data[13]+'.png">';
-		document.getElementById("helmet").innerHTML = helmet[0].data[1]+'<br>'+translate('nl'+helmet[0].data[2]);
+		document.getElementById("helmet").innerHTML = helmet[0].data[1]+'<br>'+translate('nl'+helmet[0].data[2])+' '+helmet[0].data[57];
 		document.getElementById("helmetSkills").innerHTML = ''+
 		'<span class="'+helmet[0].data[38]+' skill'+helmet[0].data[39]+'">'+translate(helmet[0].data[38])+': <span class="skillamount">'+helmet[0].data[39]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[40]+' skill'+helmet[0].data[41]+'">'+translate(helmet[0].data[40])+': <span class="skillamount">'+helmet[0].data[41]+'</span></span>'+
@@ -82,7 +82,7 @@ function displayData() {
 	if (typeof vambraces[0] !== 'undefined') {
 		vambracesType = vambraces[0].data[3];
 		document.getElementById("vambracesImg").innerHTML = '<img src="../images/item/'+vambraces[0].data[13]+'.png">';
-		document.getElementById("vambraces").innerHTML = vambraces[0].data[1]+'<br>'+translate('nl'+vambraces[0].data[2]);
+		document.getElementById("vambraces").innerHTML = vambraces[0].data[1]+'<br>'+translate('nl'+vambraces[0].data[2])+' '+vambraces[0].data[57];
 		document.getElementById("vambracesSkills").innerHTML = ''+
 		'<span class="'+vambraces[0].data[38]+' skill'+vambraces[0].data[39]+'">'+translate(vambraces[0].data[38])+': <span class="skillamount">'+vambraces[0].data[39]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[40]+' skill'+vambraces[0].data[41]+'">'+translate(vambraces[0].data[40])+': <span class="skillamount">'+vambraces[0].data[41]+'</span></span>'+
@@ -100,7 +100,7 @@ function displayData() {
 	if (typeof armor[0] !== 'undefined') {
 		armorType = armor[0].data[3];
 		document.getElementById("armorImg").innerHTML = '<img src="../images/item/'+armor[0].data[13]+'.png">';
-		document.getElementById("armor").innerHTML = armor[0].data[1]+'<br>'+translate('nl'+armor[0].data[2]);
+		document.getElementById("armor").innerHTML = armor[0].data[1]+'<br>'+translate('nl'+armor[0].data[2])+' '+armor[0].data[57];
 		document.getElementById("armorSkills").innerHTML = ''+
 		'<span class="'+armor[0].data[38]+' skill'+armor[0].data[39]+'">'+translate(armor[0].data[38])+': <span class="skillamount">'+armor[0].data[39]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+armor[0].data[40]+' skill'+armor[0].data[41]+'">'+translate(armor[0].data[40])+': <span class="skillamount">'+armor[0].data[41]+'</span></span>'+
@@ -118,7 +118,7 @@ function displayData() {
 	if (typeof waist[0] !== 'undefined') {
 		waistType = waist[0].data[3];
 		document.getElementById("waistImg").innerHTML = '<img src="../images/item/'+waist[0].data[13]+'.png">';
-		document.getElementById("waist").innerHTML = waist[0].data[1]+'<br>'+translate('nl'+waist[0].data[2]);
+		document.getElementById("waist").innerHTML = waist[0].data[1]+'<br>'+translate('nl'+waist[0].data[2])+' '+waist[0].data[57];
 		document.getElementById("waistSkills").innerHTML = ''+
 		'<span class="'+waist[0].data[38]+' skill'+waist[0].data[39]+'">'+translate(waist[0].data[38])+': <span class="skillamount">'+waist[0].data[39]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+waist[0].data[40]+' skill'+waist[0].data[41]+'">'+translate(waist[0].data[40])+': <span class="skillamount">'+waist[0].data[41]+'</span></span>'+
@@ -136,7 +136,7 @@ function displayData() {
 	if (typeof greaves[0] !== 'undefined') {
 		greavesType = greaves[0].data[3];
 		document.getElementById("greavesImg").innerHTML = '<img src="../images/item/'+greaves[0].data[13]+'.png">';
-		document.getElementById("greaves").innerHTML = greaves[0].data[1]+'<br>'+translate('nl'+greaves[0].data[2]);
+		document.getElementById("greaves").innerHTML = greaves[0].data[1]+'<br>'+translate('nl'+greaves[0].data[2])+' '+greaves[0].data[57];
 		document.getElementById("greavesSkills").innerHTML = ''+
 		'<span class="'+greaves[0].data[38]+' skill'+greaves[0].data[39]+'">'+translate(greaves[0].data[38])+': <span class="skillamount">'+greaves[0].data[39]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+greaves[0].data[40]+' skill'+greaves[0].data[41]+'">'+translate(greaves[0].data[40])+': <span class="skillamount">'+greaves[0].data[41]+'</span></span>'+
