@@ -1579,7 +1579,7 @@ var translations = {
     "飞龙珠【1】":"Flying Wyvern Jewel 1",
     "食汉珠【1】":"Metabolism Jewel 1",
     "鱼龙珠【1】":"Piscine Wyvern Jewel 1",
-    "鱼龙珠【2】":"Piscine Wyvern Jewel 2"
+    "鱼龙珠【2】":"Piscine Wyvern Jewel 2",
     "鸟龙珠【1】":"Bird Wyvern Jewel 1",
     "鸟龙珠【2】":"Bird Wyvern Jewel 2",
     "麻瓶珠【1】":"ParaPlus Jewel 1",
