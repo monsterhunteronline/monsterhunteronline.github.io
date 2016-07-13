@@ -913,7 +913,6 @@ var translations = {
     "风压（小）无效、无伤":"Windproof (Lo)，Peak Performance",
     "麻痹免疫、状态异常攻击+1":"Negate Paralysis，Status Atk +1",
 
-
     "七色的尾羽":"Rainbow Feather",
     "不新鲜的蘑菇":"Old Mushrooms",
     "不明的体液":"Unknown Body Fluids",
@@ -1592,7 +1591,6 @@ function translate(text) {
     if (text in translations) {
         return translations[text];
     }
-
     // otherwise the original text
     return text;
 }
