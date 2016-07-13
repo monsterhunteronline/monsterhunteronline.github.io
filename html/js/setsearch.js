@@ -1,5 +1,4 @@
 var page = "setsearch";
-
 function setsearchjs() {
 	filtered = [];
 	for(i = 0; i < skillsArray.length; i ++) {
