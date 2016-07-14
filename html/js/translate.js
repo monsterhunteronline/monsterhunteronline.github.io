@@ -1491,7 +1491,7 @@ var translations = {
     "霞龙的宝玉":"Chameleos Gem",
     "霞龙的特上皮":"Chameleos Hide+",
     "霞龙的刚爪":"Chameleos Sharp Claw+",
-    "霞龙的重牙":"Chameleos Sharp Fang",
+    "霞龙的重牙":"Chameleos Sharp Fang+",
     "霞龙的刚翼":"Chameleos Wing+",
     "霞龙的极长舌":"Chameleos Tongue+",
     "霞龙的刚角":"Chameleos Horn+",
