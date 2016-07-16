@@ -2,8 +2,12 @@ var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up
 var page = "monsters";
 function monsterjs() {
 	filtered = [];
+	searchstring = weaknessArray[0].data[1]
+	if (searchstring == "红莲砦蟹" || searchstring == "铠岩砦蟹") {
+		searchstring = "红莲砦蟹,铠岩砦蟹"
+	}
 	for(i = 0; i < materialArray.length; i ++) {
-		if (materialArray[i].data[6]==weaknessArray[0].data[1]) {
+		if (materialArray[i].data[6]==searchstring) {
 			filtered.push(materialArray[i])
 		}
 	}

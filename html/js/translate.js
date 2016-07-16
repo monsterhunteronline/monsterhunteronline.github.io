@@ -666,6 +666,7 @@ var translations = {
     "红电龙":"<a href='/monsters/red-khezu/' target='_blank'>Red Khezu</a>",
     "红莲砦蟹":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>",
     "红莲砦蟹，铠岩砦蟹":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>, <a href='/monsters/tepekki-shen-gaoren/' target='_blank'>Tepekki Shen Gaoren</a>",
+    "红莲砦蟹,铠岩砦蟹":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>, <a href='/monsters/tepekki-shen-gaoren/' target='_blank'>Tepekki Shen Gaoren</a>",
     "红速龙王":"<a href='/monsters/iodrome/' target='_blank'>Iodrome</a>",
     "老山蟹":"<a href='/monsters/shen-gaoren/' target='_blank'>Shen Gaoren</a>",
     "老山蟹B":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>",
