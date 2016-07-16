@@ -1,10 +1,14 @@
+var page = "armor";
 var typeArray = [
 {"type": "(B)"}, 
 {"type": "(G)"}
 ];
-var page = "armor";
 function armorjs() {
 	helmetMosaicjs(0);
+	vambracesMosaicjs(0);
+	armorMosaicjs(0);
+	waistMosaicjs(0);
+	greavesMosaicjs(0);
 	armortype = "";
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {
@@ -27,6 +31,11 @@ $('#gunner').on('click', function() {
 });
 $('#both').on('click', function() {
 	armortype = "";
+	$('#button').click();
+});
+$('#clear').on('click', function() {
+	$('#inputText').val('');
+    removeParam('search');
 	$('#button').click();
 });
 $('#button').on('click', function() {
@@ -57,11 +66,6 @@ $('#button').on('click', function() {
 	var out = "";
 	var i;
 	var ii;
-$('#clear').on('click', function() {
-	$('#inputText').val('');
-    removeParam('search');
-	$('#button').click();
-});
 	for(i = 0; i < arr.length; i += 5) {
 		var largescreen = "";
 		for(ii = 0; ii < 5; ii ++) {
