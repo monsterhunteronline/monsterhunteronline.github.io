@@ -14,31 +14,34 @@ function armorjs() {
 	if (typeof url !== 'undefined') {
 	$('#inputText').val(url);
 	}
-	$('#button').click();
+	displayArmor();
 };
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
-		$('#button').click();
+		displayArmor();
 	}
 });
 $('#blademaster').on('click', function() {
 	armortype = "0";
-	$('#button').click();
+	displayArmor();
 });
 $('#gunner').on('click', function() {
 	armortype = "1";
-	$('#button').click();
+	displayArmor();
 });
 $('#both').on('click', function() {
 	armortype = "";
-	$('#button').click();
+	displayArmor();
 });
 $('#clear').on('click', function() {
 	$('#inputText').val('');
     removeParam('search');
-	$('#button').click();
+	displayArmor();
 });
 $('#button').on('click', function() {
+	displayArmor();
+});
+function displayArmor() {
 	var search = $('#inputText').val();
 	if (search == "") {
 		var arr = armorArray
@@ -146,4 +149,4 @@ $('#button').on('click', function() {
 	}
 document.getElementById("armorlist").innerHTML = out;
 initializeMosaicOptions();
-});
+};
