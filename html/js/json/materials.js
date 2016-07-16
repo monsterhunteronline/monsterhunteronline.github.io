@@ -1813,7 +1813,7 @@ var materialArray = [
     "iID": "15125",
     "data": [
         "15125",
-        "�黄的毛",
+        "亮黄的毛",
         "<FONT COLOR=\"#6285C6\" >来源：沙狸兽(大型怪物狩猎挑战难度、王立委托、王立精英委托)</FONT><BR><FONT COLOR=\"#C6B262\">沙狸兽身上亮黄色的毛。</FONT><BR><FONT COLOR=\"#FF0000\" >可以制作：底力珠【1】</FONT>",
         "素材",
         "mat_hair_01_YEL",
