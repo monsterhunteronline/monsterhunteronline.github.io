@@ -400,7 +400,6 @@ function removeAll() {
   removeParam("1"); removeParam("2"); removeParam("3"); removeParam("4"); removeParam("5"); removeParam("6"); removeParam("7"); removeParam("8"); removeParam("9"); removeParam("10"); removeParam("11"); removeParam("12"); removeParam("13"); removeParam("14"); removeMosaics("1"); removeMosaics("2"); removeMosaics("3"); removeMosaics("4"); removeMosaics("5");
   delete helmetType; delete vambracesType; delete armorType; delete waistType; delete greavesType;
   var helmetType; var vambracesType; var armorType; var waistType; var greavesType;
-  displayData();
   document.getElementById("helmetImg").innerHTML = '';
   document.getElementById("helmet").innerHTML = 'No Helmet';
   document.getElementById("helmetSkills").innerHTML = '';
@@ -471,6 +470,7 @@ function removeAll() {
   armorMosaicjs(0);
   waistMosaicjs(0);
   greavesMosaicjs(0);
+  displayData();
 }
 function removeMosaics(type) {
   if(type=="1"){
