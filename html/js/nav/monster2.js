@@ -465,14 +465,14 @@ fangedBeastArray = [
 					"剑极狼亚种",
 				]
 			},
-//			{
-//				"data": [
-//					"Rajang",
-//					"rajang",
-//					"rajang.png",
-//					"",
-//				]
-//			},
+			{
+				"data": [
+					"Rajang",
+					"rajang",
+					"rajang.png",
+					"金狮子",
+				]
+			},
 ];
 piscineWyvernArray = [
 			{
