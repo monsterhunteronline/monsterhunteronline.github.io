@@ -1,23 +1,16 @@
 # mhowebsite
-MHO Site for Discord
+MHO Site for Discord http://monsterhunteronline.in
+
+The wiki is currently being hosted on github for easier updates and free hosting.  If there are too many issues with loading times I will switch back to namecheap.  Please pm me if you have any problems.
 
 ##Current projects
-- [x] ~~Make the armor set builder better~~
 - [ ] Finish gathering maps
-- [x] ~~Cat Food page out of date~~
 - [ ] Translate weapon skill books
-- [x] ~~Tutorial for Hunter Sets~~
-- [x] ~~Add Chinese for Hunter Sets~~
 - [ ] Tutorial for Pirate quests
-- [x] ~~Make quest page better, and possibly split up into multiple pages~~
-- [x] ~~Add pictures of new quest boards~~
-- [x] ~~Weapon trees need new background lines~~
 - [ ] Make a sitemap page
-- [x] ~~Catagorize monsters into their types on the navigation~~
 - [ ] Make Jewelry page not suck as bad and add tutorials for necklace/rings
 - [ ] Fix Crafting page
 - [ ] Update Cats page to include new cat types and colors
-- [x] ~~Put the Other guides in an easier to find location~~
 
 If you notice inaccuracies with the wiki please open an issue.
 
