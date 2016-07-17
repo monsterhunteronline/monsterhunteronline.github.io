@@ -112,6 +112,94 @@ var sliderArray = [
 		""
 		]
 	},
+	{
+	"data": [
+		"left",
+		"1.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"Screenshot0089_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"2.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"qyW8C3K.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"3.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"4.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"Screenshot0006_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"Screenshot0012_mh.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"5.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"6.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"7.png",
+		"",
+		""
+		]
+	},
 ];
 function shuffle (array) {
   var i = 0
