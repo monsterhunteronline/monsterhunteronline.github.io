@@ -1377,7 +1377,7 @@ var translations = {
     "炎狮子的豪刚毛":"F.Blangonga Bristle+",
     "炎狮子的豪头冠":"F.Blangonga Crown+",
     "炎狮子的豪尾":"F.Blangonga Tough Tail+",
-    "炎狮子的重牙":"F.Blangonga Sharp Fang+",
+    "炎狮子的重牙":"F.Blangonga Heavy Fang+",
     "炎狮子的重骨":"F.Blangonga Heavy Bone",
     "炎狮子的靭尾":"F.Blangonga Tough Tail",
     "炮钢砂":"Steel Grit",
