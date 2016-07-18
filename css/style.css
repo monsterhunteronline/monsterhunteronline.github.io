@@ -85,6 +85,7 @@ hr { color: #241C17; background-color: #241C17; text-align: center; margin: 0 au
 .Rapid-fire { display: none !important; }
 .Charge { display: none !important; }
 .no { display: none !important; }
+.noundefined { display: none !important; }
 .no0 { display: none !important; }
 .no00000 { display: none !important; }
 .poison { color: #b722ff !important; }
