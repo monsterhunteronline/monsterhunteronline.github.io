@@ -40,6 +40,9 @@ var page;
     if (page == "setsearch") {
         setsearchjs();
     }
+    if (page == "cats") {
+        catbookjs();
+    }
 // materialize functions
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible({accordion : false});
