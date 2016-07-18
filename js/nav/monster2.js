@@ -36,7 +36,7 @@ elderDragonArray = [
 //					"Merphistophelin",
 //					"-merphistophelin",
 //					"merphistophelin2.png",
-//					"",
+//					"荒厄龙完全体",
 //				]
 //			},
 ];
