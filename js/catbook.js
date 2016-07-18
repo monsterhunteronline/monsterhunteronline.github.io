@@ -1,11 +1,22 @@
 var page = "cats";
 var catbookArray = catbookArray.result.rows
 function catbookjs() {
-	var url = getUrlParameter('search');
-	if (typeof url !== 'undefined') {
-	$('#inputText').val(url);
+	var arr = catbookArray;
+	var out = '';
+	var i;
+	for(i = 0; i < arr.length; i ++) {
+		out += ''+
+	'<tr>'+
+		'<td>'+translate(arr[i].data[2])+'</td>'+
+	'</tr>';
 	}
-	$('#button').click();
+	document.getElementById("skillbooktable").innerHTML = out;
+
+//	var url = getUrlParameter('search');
+//	if (typeof url !== 'undefined') {
+//	$('#inputText').val(url);
+//	}
+//	$('#button').click();
 };
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
