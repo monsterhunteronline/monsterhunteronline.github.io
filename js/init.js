@@ -43,6 +43,9 @@ var page;
     if (page == "cats") {
         catbookjs();
     }
+    if (page == "crafting") {
+        craftingjs();
+    }
 // materialize functions
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible({accordion : false});
