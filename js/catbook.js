@@ -36,7 +36,7 @@ $('#button').on('click', function() {
 		out += ''+
 	'<tr>'+
 		'<td>'+
-			'<img src="../images/item/'+getimages(arr[i].data[1])+'.png">'+
+			'<img src="../images/item/catskill_book_'+getimages(arr[i].data[1])+'.png">'+
 		'</td>'+
 		'<td><a href="/cats/?search='+translate(arr[i].data[1])+'">'+translate(arr[i].data[1])+'</a><br><a href="/cats/?search='+arr[i].data[1]+'">'+arr[i].data[1]+'</a></td>'+
 		'<td>'+translate(arr[i].data[2])+'</td>'+
