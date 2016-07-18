@@ -1,4 +1,5 @@
 var page = "armor";
+var armorArray = armorArray.result.rows;
 var typeArray = [
 {"type": "(B)"}, 
 {"type": "(G)"}
