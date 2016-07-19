@@ -46,6 +46,9 @@ var page;
     if (page == "crafting") {
         craftingjs();
     }
+    if (page == "gathering") {
+        gatheringjs();
+    }
 // materialize functions
     $('.button-collapse').sideNav();
     $('.collapsible').collapsible({accordion : false});
