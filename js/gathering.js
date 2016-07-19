@@ -14,7 +14,6 @@ function gatheringjs() {
 	'<tr>'+
 		'<td>'+arr[i].data[2]+'</td>'+
 		'<td>'+arr[i].data[3]+'</td>'+
-		'<td>'+arr[i].data[4]+'</td>'+
 		'<td>'+translate(arr[i].data[7])+'</td>'+
 		'<td>'+translate(arr[i].data[17])+'</td>'+
 		'<td>'+
