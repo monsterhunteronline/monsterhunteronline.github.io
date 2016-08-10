@@ -9,6 +9,14 @@ elderDragonArray = [
 			},
 			{
 				"data": [
+					"Burning Tartaronis",
+					"burning-tartaronis",
+					"tartaronis2.png",
+					"燎渊龙",
+				]
+			},
+			{
+				"data": [
 					"Kushala Daora",
 					"kushala-daora",
 					"kushaladora.png",
@@ -25,18 +33,18 @@ elderDragonArray = [
 			},
 			{
 				"data": [
-					"Chameleos",
-					"chameleos",
-					"chameleos.png",
-					"霞龙",
+					"Elemental Merphistophelin",
+					"elemental-merphistophelin",
+					"merphistophelin2.png",
+					"御五相",
 				]
 			},
 			{
 				"data": [
-					"Elemental Merphistophelin",
-					"elemental-merphistophelin",
-					"merphistophelin2.png",
-					"荒厄龙完全体",
+					"Chameleos",
+					"chameleos",
+					"chameleos.png",
+					"霞龙",
 				]
 			},
 ];
