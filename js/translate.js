@@ -2049,6 +2049,7 @@ var translations = {
     "霞龙的锐牙":"Chameleos Sharp Fang",
     "霞龙的长舌":"Chameleos Tongue",
     "霞龙的靭尾":"Chameleos Tail",
+    "古龙的大宝玉":"Chameleos Gem+"
     "霸之苍曜角":"Tyrant Horn",
     "青怪鸟的优质翼":"Blue Kut-Ku Wing+",
     "青怪鸟的优质鳞":"Blue Kut-Ku Scale+",
