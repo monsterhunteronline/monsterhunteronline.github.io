@@ -31,14 +31,14 @@ elderDragonArray = [
 					"霞龙",
 				]
 			},
-//			{
-//				"data": [
-//					"Merphistophelin",
-//					"-merphistophelin",
-//					"merphistophelin2.png",
-//					"荒厄龙完全体",
-//				]
-//			},
+			{
+				"data": [
+					"Elemental Merphistophelin",
+					"elemental-merphistophelin",
+					"merphistophelin2.png",
+					"荒厄龙完全体",
+				]
+			},
 ];
 beetleArray = [
 			{
