@@ -12,6 +12,9 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [ ] Fix Crafting page
 - [ ] Update Cats page to include new cat types and colors
 
+##Needs Updated
+- [ ] 
+
 If you notice inaccuracies with the wiki please open an issue.
 
 
