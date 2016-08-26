@@ -13,7 +13,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [ ] Update Cats page to include new cat types and colors
 
 ##Needs Updated
-- [ ] Fix for the Burning Tartaronis and Elemental Merph in the Monster Section the Links are broken.
+- [ ] Fix for the Burning Tartaronis in the Monster Section the Links are broken.
 - [ ] Weapon Trees need to be Updated for the new ilvl. And maybe including a similar function to the one in chinese wiki with info for Weapon Upgrade from 70~84 as exampel.
 - [ ] Armor Section needs to added the new Armors Elemental Merph , Rajang, Burning Tartaronis.
 - [ ] The Quest Section need Pictures of new Elites and Story Chapters after Chapter 25 added.
