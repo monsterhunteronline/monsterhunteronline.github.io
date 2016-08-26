@@ -13,8 +13,7 @@ function updateurl(zname, value) {
     else
     	window.history.pushState("object or string", "Title", href + "?" + zname + "=" + value);
   }
-};
-
+}
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
         sURLVariables = sPageURL.split('&'),
@@ -41,9 +40,9 @@ function removeParam(key) {
             param = params_arr[i].split("=")[0];
             if (param === key) {
                 params_arr.splice(i, 1);
-            };
-        };
+            }
+        }
         rtn = rtn + "?" + params_arr.join("&");
-    };
+    }
     window.history.pushState("object or string", "Title", rtn);
-};
+}

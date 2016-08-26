@@ -5,7 +5,7 @@ function mosaicjs() {
 	$('#inputText').val(url);
 	}
 	$('#button').click();
-};
+}
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();
@@ -22,12 +22,11 @@ $('#button').on('click', function() {
 	var out = '';
 	var i;
 	var search = $('#inputText').val();
-	console.log(search);
 	filtered = [];
 	for(i = 0; i < mosaicArray.length; i ++) {
     	jewelryString = arr[i].data[2]+' '+translate(arr[i].data[2])+' '+arr[i].data[5]+' '+translate(arr[i].data[5])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[13]+' '+translate(arr[i].data[13])+' '+arr[i].data[15]+' '+translate(arr[i].data[15])+' '+arr[i].data[17]+' '+translate(arr[i].data[17]);
     	if (jewelryString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-    		filtered.push(mosaicArray[i])
+    		filtered.push(mosaicArray[i]);
     	}
 	}
 	arr = filtered;

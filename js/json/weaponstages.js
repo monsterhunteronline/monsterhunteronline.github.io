@@ -1,4 +1,4 @@
-var weaponStageArray =
+var weaponStageArray = 
 {
   "errCode": 0,
   "msg": "success",

@@ -5,7 +5,7 @@ function jewelryjs() {
 	$('#inputText').val(url);
 	}
 	$('#button').click();
-};
+}
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();
@@ -18,16 +18,16 @@ $('#clear').on('click', function() {
 });
 var matString;
 $('#button').on('click', function() {
-	var arr = jewelryArray;
-	var out = '';
-	var i;
-	var search = $('#inputText').val();
-	console.log(search);
+	var arr = jewelryArray,
+		out = '',
+		i,
+		search = $('#inputText').val();
+	//console.log(search);
 	filtered = [];
 	for(i = 0; i < jewelryArray.length; i ++) {
     	jewelryString = arr[i].data[1]+' '+arr[i].data[2];
     	if (jewelryString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-    		filtered.push(jewelryArray[i])
+    		filtered.push(jewelryArray[i]);
     	}
 	}
 	arr = filtered;

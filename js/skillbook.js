@@ -5,7 +5,7 @@ function skillbookjs() {
 	$('#inputText').val(url);
 	}
 	$('#button').click();
-};
+}
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();
@@ -22,12 +22,12 @@ $('#button').on('click', function() {
 	var out = '';
 	var i;
 	var search = $('#inputText').val();
-	console.log(search);
+	//console.log(search);
 	filtered = [];
 	for(i = 0; i < skillbookArray.length; i ++) {
-    	skillString = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2];+' '+arr[i].data[3]+' '+translate(arr[i].data[3])
+    	skillString = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2];+' '+arr[i].data[3]+' '+translate(arr[i].data[3]);
     	if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-    		filtered.push(skillbookArray[i])
+    		filtered.push(skillbookArray[i]);
     	}
 	}
 	arr = filtered;

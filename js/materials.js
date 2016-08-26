@@ -1,12 +1,12 @@
 var page = "materials";
-var materialArray = materialArray.result.rows
+var materialArray = materialArray.result.rows;
 function materialsjs() {
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {
 	$('#inputText').val(url);
 	}
 	$('#button').click();
-};
+}
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();
@@ -23,12 +23,11 @@ $('#button').on('click', function() {
 	var out = '';
 	var i;
   var search = $('#inputText').val();
-  console.log(search);
   filtered = [];
   for(i = 0; i < materialArray.length; i ++) {
     matString = arr[i].data[6]+' '+translate(arr[i].data[6])+' '+arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[8]+' '+translate(arr[i].data[8])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
     if (matString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-      filtered.push(materialArray[i])
+      filtered.push(materialArray[i]);
     }
   }
   arr = filtered;

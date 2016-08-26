@@ -1,12 +1,12 @@
 var page = "crafting";
-var combiningArray1 = combiningArray1.result.rows
-var combiningArray2 = combiningArray2.result.rows
+var combiningArray1 = combiningArray1.result.rows;
+var combiningArray2 = combiningArray2.result.rows;
 function craftingjs() {
-	var arr = combiningArray1;
-	var arr2 = combiningArray2;
-	var out = '';
-	var out2 = '';
-	var i;
+	var arr = combiningArray1,
+	arr2 = combiningArray2,
+	out = '',
+	out2 = '',
+	i;
 	for(i = 0; i < arr.length; i ++) {
 		out += ''+
 	'<tr>'+
@@ -31,4 +31,4 @@ function craftingjs() {
 	'</tr>';
 	}
 	document.getElementById("pharmacytable").innerHTML = out2;
-};
+}

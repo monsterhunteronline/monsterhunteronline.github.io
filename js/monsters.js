@@ -1,14 +1,17 @@
-var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up", "grade",];
+var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up", "grade"];
 var page = "monsters";
 function monsterjs() {
 	filtered = [];
-	searchstring = weaknessArray[0].data[1]
-	if (searchstring == "红莲砦蟹" || searchstring == "铠岩砦蟹") {
-		searchstring = "红莲砦蟹,铠岩砦蟹"
+	searchstring = weaknessArray[0].data[1];
+	if (searchstring === "红莲砦蟹" || searchstring === "铠岩砦蟹") {
+		searchstring = "红莲砦蟹,铠岩砦蟹";
+	}
+	if (searchstring === "荒厄龙完全体") {
+		searchstring = "御五相";
 	}
 	for(i = 0; i < materialArray.length; i ++) {
 		if (materialArray[i].data[6]==searchstring) {
-			filtered.push(materialArray[i])
+			filtered.push(materialArray[i]);
 		}
 	}
 	arr = filtered;
@@ -28,8 +31,7 @@ function monsterjs() {
 	document.getElementById("material-drops").innerHTML = out;
 	document.getElementById("monsterName").innerHTML = weaknessArray[0].data[1]+' | '+translate('nl'+weaknessArray[0].data[1]);
 	var arr = weaknessArray;
-	var out = '';
-	var i;
+	out = '';
 	for(i = 0; i < arr.length; i ++) {
 		out += ''+
 	'<tr>'+
@@ -45,7 +47,7 @@ function monsterjs() {
 	'</tr>';
 	}
 	document.getElementById("monster1").innerHTML = out;
-	var out = '<tr>'+
+	out = '<tr>'+
 		'<td><i class="weak'+arr[0].data[11]+' material-icons flow-text">'+materialIcons[arr[0].data[11]]+'</i></td>'+
 		'<td><i class="weak'+arr[0].data[12]+' material-icons flow-text">'+materialIcons[arr[0].data[12]]+'</i></td>'+
 		'<td><i class="weak'+arr[0].data[13]+' material-icons flow-text">'+materialIcons[arr[0].data[13]]+'</i></td>'+
@@ -58,4 +60,4 @@ function monsterjs() {
 	'</tr>';
 	document.getElementById("monster2").innerHTML = out;
 	document.getElementById("monster3").innerHTML = arr[0].data[19];
-};
+}

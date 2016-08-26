@@ -1,5 +1,5 @@
 var page = "armor";
-var armorArray = armorArray.result.rows;
+var armorArray = armorArray.result;
 var typeArray = [
 {"type": "(B)"}, 
 {"type": "(G)"}
@@ -16,7 +16,7 @@ function armorjs() {
 	$('#inputText').val(url);
 	}
 	displayArmor();
-};
+}
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		displayArmor();
@@ -44,13 +44,13 @@ $('#button').on('click', function() {
 });
 function displayArmor() {
 	var search = $('#inputText').val();
-	if (search == "") {
-		var arr = armorArray
+	if (search === "") {
+		var arr = armorArray;
 	} else {
 		var filtered = [];
 		for(i = 0; i < armorArray.length; i ++) {
 			if (armorArray[i].data[3].toUpperCase().indexOf(armortype.toUpperCase()) >= 0) {
-				filtered.push(armorArray[i])
+				filtered.push(armorArray[i]);
 			}
 		}
 		var filtered1 = filtered;
@@ -58,14 +58,14 @@ function displayArmor() {
 		for(i = 0; i < filtered1.length; i += 5) {
 			var skillstring = filtered1[i].data[57].toUpperCase()+' '+translate(filtered1[i].data[2]).toUpperCase()+' '+translate(filtered1[i].data[56]).toUpperCase()+' '+translate(filtered1[i].data[38]).toUpperCase()+' '+translate(filtered1[i].data[40]).toUpperCase()+' '+translate(filtered1[i].data[42]).toUpperCase()+' '+translate(filtered1[i].data[44]).toUpperCase()+' '+translate(filtered1[i].data[46]).toUpperCase()+' '+translate(filtered1[i+1].data[38]).toUpperCase()+' '+translate(filtered1[i+1].data[40]).toUpperCase()+' '+translate(filtered1[i+1].data[42]).toUpperCase()+' '+translate(filtered1[i+1].data[44]).toUpperCase()+' '+translate(filtered1[i+1].data[46]).toUpperCase()+' '+translate(filtered1[i+2].data[38]).toUpperCase()+' '+translate(filtered1[i+2].data[40]).toUpperCase()+' '+translate(filtered1[i+2].data[42]).toUpperCase()+' '+translate(filtered1[i+2].data[44]).toUpperCase()+' '+translate(filtered1[i+2].data[46]).toUpperCase()+' '+translate(filtered1[i+3].data[38]).toUpperCase()+' '+translate(filtered1[i+3].data[40]).toUpperCase()+' '+translate(filtered1[i+3].data[42]).toUpperCase()+' '+translate(filtered1[i+3].data[44]).toUpperCase()+' '+translate(filtered1[i+3].data[46]).toUpperCase()+' '+translate(filtered1[i+4].data[38]).toUpperCase()+' '+translate(filtered1[i+4].data[40]).toUpperCase()+' '+translate(filtered1[i+4].data[42]).toUpperCase()+' '+translate(filtered1[i+4].data[44]).toUpperCase()+' '+translate(filtered1[i+4].data[46]).toUpperCase()+' '+filtered1[i].data[57].toUpperCase()+' '+filtered1[i].data[2].toUpperCase()+' '+filtered1[i].data[56].toUpperCase()+' '+filtered1[i].data[38].toUpperCase()+' '+filtered1[i].data[40].toUpperCase()+' '+filtered1[i].data[42].toUpperCase()+' '+filtered1[i].data[44].toUpperCase()+' '+filtered1[i].data[46].toUpperCase()+' '+filtered1[i+1].data[38].toUpperCase()+' '+filtered1[i+1].data[40].toUpperCase()+' '+filtered1[i+1].data[42].toUpperCase()+' '+filtered1[i+1].data[44].toUpperCase()+' '+filtered1[i+1].data[46].toUpperCase()+' '+filtered1[i+2].data[38].toUpperCase()+' '+filtered1[i+2].data[40].toUpperCase()+' '+filtered1[i+2].data[42].toUpperCase()+' '+filtered1[i+2].data[44].toUpperCase()+' '+filtered1[i+2].data[46].toUpperCase()+' '+filtered1[i+3].data[38].toUpperCase()+' '+filtered1[i+3].data[40].toUpperCase()+' '+filtered1[i+3].data[42].toUpperCase()+' '+filtered1[i+3].data[44].toUpperCase()+' '+filtered1[i+3].data[46].toUpperCase()+' '+filtered1[i+4].data[38].toUpperCase()+' '+filtered1[i+4].data[40].toUpperCase()+' '+filtered1[i+4].data[42].toUpperCase()+' '+filtered1[i+4].data[44].toUpperCase()+' '+filtered1[i+4].data[46].toUpperCase();
 			if (skillstring.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-				filtered.push(filtered1[i])
-				filtered.push(filtered1[i+1])
-				filtered.push(filtered1[i+2])
-				filtered.push(filtered1[i+3])
-				filtered.push(filtered1[i+4])
+				filtered.push(filtered1[i]);
+				filtered.push(filtered1[i+1]);
+				filtered.push(filtered1[i+2]);
+				filtered.push(filtered1[i+3]);
+				filtered.push(filtered1[i+4]);
 			}
 		}
-		var arr = filtered
+		arr = filtered;
 	}
 	var out = "";
 	var i;
@@ -150,4 +150,4 @@ function displayArmor() {
 	}
 document.getElementById("armorlist").innerHTML = out;
 initializeMosaicOptions();
-};
+}

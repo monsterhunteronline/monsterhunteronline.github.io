@@ -314,4 +314,6 @@ tr.nohide { display: none !important; border-collapse: collapse !important; }
 #greavesMosaic1 { display: none; }
 #greavesMosaic2 { display: none; }
 #greavesMosaic3 { display: none; }
+.stagesContainer { height: 150px; overflow-y: scroll; }
+tr.lvl90 td div div ul li img { opacity: 0.5; }
 .mosaicImage { height: 20px; width: 20px }

@@ -1,12 +1,12 @@
 var page = "cats";
-var catbookArray = catbookArray.result.rows
+var catbookArray = catbookArray.result.rows;
 function catbookjs() {
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {
 	$('#inputText').val(url);
 	}
 	$('#button').click();
-};
+}
 $('#inputText').keyup(function(event) {
 	if(event.keyCode == 13){
 		$('#button').click();
@@ -23,12 +23,12 @@ $('#button').on('click', function() {
 	var out = '';
 	var i;
   var search = $('#inputText').val();
-  console.log(search);
+  //console.log(search);
   filtered = [];
   for(i = 0; i < catbookArray.length; i ++) {
     bookstring = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2]+' '+translate(arr[i].data[2]);
     if (bookstring.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-      filtered.push(catbookArray[i])
+      filtered.push(catbookArray[i]);
     }
   }
   arr = filtered;
