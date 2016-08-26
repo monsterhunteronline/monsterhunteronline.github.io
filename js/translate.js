@@ -935,6 +935,7 @@ var translations = {
     "麻痹免疫、状态异常攻击+1":"Negate Paralysis，Status Atk +1",
     "绊术，耐震，全属攻强化+2，状态异常攻击-1":"Tripping Power，Element Atk +2，Status Atk Down",
     "精灵王的加护、弱点特效、高级耳栓、飞龙杀手":"Divine Blessing，Weakness Exploit，HG Earplugs，Flying Wyvern Killer",
+    "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅":"Concentrate，Evade Dist +1，Challenger +1，Dragon Res +1，Taunt",
 
     "一角龙的刚翼":"Monoblos Wing+",
     "一角龙的坚壳":"Monoblos Shell+",
