@@ -683,7 +683,7 @@ var translations = {
     "老山蟹B":"<a href='/monsters/guren-shen-gaoren/' target='_blank'>Guren Shen Gaoren</a>",
     "苍火龙":"<a href='/monsters/azure-rathalos/' target='_blank'>Azure Rathalos</a>",
     "荒厄龙":"<a href='/monsters/merphistophelin/' target='_blank'>Merphistophelin</a>",
-    "荒厄龙完全体":"<a href='/monsters/elemental-merphistophelin/' target='_blank'>E.Merphistophelin</a>",
+    "荒厄龙完全体":"<a href='/monsters/elemental-merphistophelin/' target='_blank'>Elemental Merphistophelin</a>",
     "蓝速龙王":"<a href='/monsters/velocidrome/' target='_blank'>Velocidrome</a>",
     "角龙":"<a href='/monsters/diablos/' target='_blank'>Diablos</a>",
     "轰龙":"<a href='/monsters/tigrex/' target='_blank'>Tigrex</a>",
