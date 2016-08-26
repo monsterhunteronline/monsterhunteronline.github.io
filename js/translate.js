@@ -642,7 +642,7 @@ var translations = {
     "将军镰蟹":"<a href='/monsters/shogun-ceanataur/' target='_blank'>Shogun Ceanataur</a>",
     "尾晶蝎":"<a href='/monsters/akura-vashimu/' target='_blank'>Akura Vashimu</a>",
     "岩龙":"<a href='/monsters/basarios/' target='_blank'>Basarios</a>",
-    "御五相":"<a href='/monsters/elemental-merphistophelin/' target='_blank'>E.Merphistophelin</a>",
+    "御五相":"<a href='/monsters/elemental-merphistophelin/' target='_blank'>Elemental Merphistophelin</a>",
     "战鬼河狸兽":"<a href='/monsters/ghost-caeserber/' target='_blank'>Ghost Caeserber</a>",
     "断刃一角龙":"<a href='/monsters/shattered-monoblos/' target='_blank'>Shattered Monoblos</a>",
     "断角一角龙":"<a href='/monsters/shattered-monoblos/' target='_blank'>Shattered Monoblos</a>",
@@ -661,6 +661,7 @@ var translations = {
     "烈焰女王":"<a href='/monsters/conflagration-rathian/' target='_blank'>Conflagration Rathian</a>",
     "烈焰雌火龙":"<a href='/monsters/conflagration-rathian/' target='_blank'>Conflagration Rathian</a>",
     "熔岩龙":"<a href='/monsters/lavasioth/' target='_blank'>Lavasioth</a>",
+    "燎渊龙":"<a href='/monsters/burning-tartaronis/' target='_blank'>Burning Tartaronis</a>",
     "片耳黑狼鸟":"<a href='/monsters/one-eared-yian-garuga/' target='_blank'>One-Eared Yian Garuga</a>",
     "独耳黑狼鸟":"<a href='/monsters/one-eared-yian-garuga/' target='_blank'>One-Eared Yian Garuga</a>",
     "电甲虫":"<a href='/monsters/lightenna/' target='_blank'>Lightenna</a>",
@@ -704,7 +705,6 @@ var translations = {
     "鬼狩蛛":"<a href='/monsters/baelidae/' target='_blank'>Baelidae</a>",
     "黄速龙王":"<a href='/monsters/gendrome/' target='_blank'>Gendrome</a>",
     "黑狼鸟":"<a href='/monsters/yian-garuga/' target='_blank'>Yian Garuga</a>",
-    "燎渊龙":"<a href='/monsters/burning-tartaronis/' target='_blank'>Burning Tartaronis</a>",
 
     "hali":"Congalala",
     "kurimu":"Gendrome",
@@ -933,6 +933,8 @@ var translations = {
     "风压（大）无效、无伤、耐力回复迟缓-1":"Windproof (Hi)，Peak Performance，Stam Recov -1",
     "风压（小）无效、无伤":"Windproof (Lo)，Peak Performance",
     "麻痹免疫、状态异常攻击+1":"Negate Paralysis，Status Atk +1",
+    "绊术，耐震，全属攻强化+2，状态异常攻击-1":"Tripping Power，Element Atk +2，Status Atk Down",
+    "精灵王的加护、弱点特效、高级耳栓、飞龙杀手":"Divine Blessing，Weakness Exploit，HG Earplugs，Flying Wyvern Killer",
 
     "一角龙的刚翼":"Monoblos Wing+",
     "一角龙的坚壳":"Monoblos Shell+",
