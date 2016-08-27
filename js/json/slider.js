@@ -3,7 +3,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0020_mh.jpg",
+		"ss01.jpg",
 		"",
 		""
 		]
@@ -11,7 +11,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0037_mh.jpg",
+		"ss02.png",
 		"",
 		""
 		]
@@ -19,7 +19,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0059_mh.jpg",
+		"ss03.jpg",
 		"",
 		""
 		]
@@ -27,7 +27,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0079_mh.jpg",
+		"ss04.png",
 		"",
 		""
 		]
@@ -35,7 +35,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"unknown.png",
+		"ss05.jpg",
 		"",
 		""
 		]
@@ -43,7 +43,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"unknown1.png",
+		"ss06.png",
 		"",
 		""
 		]
@@ -51,7 +51,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0409_mh.jpg",
+		"ss07.jpg",
 		"",
 		""
 		]
@@ -59,7 +59,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0068_mh.jpg",
+		"ss08.png",
 		"",
 		""
 		]
@@ -67,7 +67,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0069_mh.jpg",
+		"ss09.jpg",
 		"",
 		""
 		]
@@ -75,7 +75,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0074_mh.jpg",
+		"ss10.png",
 		"",
 		""
 		]
@@ -83,7 +83,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0076_mh.jpg",
+		"ss11.jpg",
 		"",
 		""
 		]
@@ -91,7 +91,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"unknown3.png",
+		"ss12.png",
 		"",
 		""
 		]
@@ -99,7 +99,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0002_mh.jpg",
+		"ss13.jpg",
 		"",
 		""
 		]
@@ -107,7 +107,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"face2.jpg",
+		"ss14.png",
 		"",
 		""
 		]
@@ -115,7 +115,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"1.png",
+		"ss15.jpg",
 		"",
 		""
 		]
@@ -123,7 +123,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0089_mh.jpg",
+		"ss16.png",
 		"",
 		""
 		]
@@ -131,7 +131,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"2.png",
+		"ss17.jpg",
 		"",
 		""
 		]
@@ -139,7 +139,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"qyW8C3K.png",
+		"ss18.png",
 		"",
 		""
 		]
@@ -147,7 +147,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"3.png",
+		"ss19.jpg",
 		"",
 		""
 		]
@@ -155,7 +155,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"4.png",
+		"ss20.png",
 		"",
 		""
 		]
@@ -163,7 +163,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0006_mh.jpg",
+		"ss21.jpg",
 		"",
 		""
 		]
@@ -171,7 +171,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"Screenshot0012_mh.jpg",
+		"ss22.png",
 		"",
 		""
 		]
@@ -179,7 +179,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"5.png",
+		"ss23.jpg",
 		"",
 		""
 		]
@@ -187,7 +187,7 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"6.png",
+		"ss24.png",
 		"",
 		""
 		]
@@ -195,44 +195,314 @@ var sliderArray = [
 	{
 	"data": [
 		"left",
-		"7.png",
+		"ss25.jpg",
 		"",
 		""
 		]
 	},
+	{
+	"data": [
+		"left",
+		"ss26.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss27.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss28.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss29.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss30.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss31.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss32.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss33.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss34.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss35.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss36.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss37.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss38.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss39.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss40.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss41.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss42.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss43.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss44.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss45.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss46.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss47.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss48.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss49.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss50.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss51.JPG",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss52.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss53.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss54.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss55.JPG",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss56.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss57.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss58.png",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss59.jpg",
+		"",
+		""
+		]
+	},
+	{
+	"data": [
+		"left",
+		"ss60.png",
+		"",
+		""
+		]
+	}
 ];
 function shuffle (array) {
-  var i = 0
-    , j = 0
-    , temp = null
-
+  var i = 0, j = 0, temp = null;
   for (i = array.length - 1; i > 0; i -= 1) {
-    j = Math.floor(Math.random() * (i + 1))
-    temp = array[i]
-    array[i] = array[j]
-    array[j] = temp
+    j = Math.floor(Math.random() * (i + 1));
+    temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
   }
 }
 
 function sliderjs() {
-
-	array = sliderArray
-	var i = 0
-	  , j = 0
-      , temp = null
-
+	array = sliderArray;
+	var i = 0, j = 0, temp = null;
 	for (i = array.length - 1; i > 0; i -= 1) {
-    	j = Math.floor(Math.random() * (i + 1))
-    	temp = array[i]
-    	array[i] = array[j]
-    	array[j] = temp
+    	j = Math.floor(Math.random() * (i + 1));
+    	temp = array[i];
+    	array[i] = array[j];
+    	array[j] = temp;
 	}
-
-	sliderArray = array
-
-	var out = ''
-	var i
-
+	sliderArray = array;
+	out = '';
+	i;
 	for(i = 0; i < sliderArray.length; i ++) {
 		out += ''+
           '<li>'+
@@ -244,4 +514,4 @@ function sliderjs() {
           '</li>';
     }
     document.getElementById("communitypics").innerHTML = out;
-};
+}
