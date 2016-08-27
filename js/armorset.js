@@ -102,8 +102,6 @@ $(document).on('change', 'select#mosaic5Select1', function() {updateurl('27', $(
 $(document).on('change', 'select#mosaic5Select2', function() {updateurl('28', $(this).val()); displayData();});
 $(document).on('change', 'select#mosaic5Select3', function() {updateurl('29', $(this).val()); displayData();});
 function displayData() {
-	,
-
 	// grap parameters from URL
 	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5');
 	necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8');
