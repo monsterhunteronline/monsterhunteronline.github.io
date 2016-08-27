@@ -1,4 +1,3 @@
-skillsArray = skillsArray.result.rows;
 // initialize global variables
 var armor,
 	armorCount,
@@ -57,6 +56,7 @@ var armor,
 	positiveSkills = [],
 	ring,
 	ringID,
+	skillsArray = skillsArray.result.rows,
 	skillNames = skillnamesjs(),
 	skills = skillsjs(),
 	talisman,
@@ -76,7 +76,7 @@ var armor,
 	waistID,
 	waistMosaic,
 	waistMosaicNum,
-	waistType;
+	waistType; 
 $(document).on('change', 'select#necklaceSelect', function() {updateurl('6', $(this).val()); displayData();});
 $(document).on('change', 'select#ringSelect', function() {updateurl('7', $(this).val()); displayData();});
 $(document).on('change', 'select#talismanSelect', function() {updateurl('8', $(this).val()); displayData();});
@@ -102,7 +102,7 @@ $(document).on('change', 'select#mosaic5Select1', function() {updateurl('27', $(
 $(document).on('change', 'select#mosaic5Select2', function() {updateurl('28', $(this).val()); displayData();});
 $(document).on('change', 'select#mosaic5Select3', function() {updateurl('29', $(this).val()); displayData();});
 function displayData() {
-	// grap parameters from URL
+// grap parameters from URL
 	helmetID = getUrlParameter('1'); vambracesID = getUrlParameter('2'); armorID = getUrlParameter('3'); waistID = getUrlParameter('4'); greavesID = getUrlParameter('5');
 	necklaceID = getUrlParameter('6'); ringID = getUrlParameter('7'); talismanID = getUrlParameter('8');
 	talismanSkill1ID = getUrlParameter('9'); talismanSkill1vID = getUrlParameter('10'); talismanSkill2ID = getUrlParameter('11'); talismanSkill2vID = getUrlParameter('12'); talismanSkill3ID = getUrlParameter('13'); talismanSkill3vID = getUrlParameter('14');
@@ -116,9 +116,9 @@ function displayData() {
 	mosaic7Skills = getMosaicSkills(mosaicSkills7ID); mosaic8Skills = getMosaicSkills(mosaicSkills8ID); mosaic9Skills = getMosaicSkills(mosaicSkills9ID);
 	mosaic10Skills = getMosaicSkills(mosaicSkills10ID); mosaic11Skills = getMosaicSkills(mosaicSkills11ID); mosaic12Skills = getMosaicSkills(mosaicSkills12ID);
 	mosaic13Skills = getMosaicSkills(mosaicSkills13ID); mosaic14Skills = getMosaicSkills(mosaicSkills14ID); mosaic15Skills = getMosaicSkills(mosaicSkills15ID);
-	// get armor
+// get armor
 	storeArmor();
-	// write HTML to IDs if URL parameters are VALID
+// write HTML to IDs if URL parameters are VALID
 	if (typeof helmet[0] !== 'undefined') {
 		helmetType = helmet[0].data[3];
 		document.getElementById("helmetImg").innerHTML = '<img src="../images/item/'+helmet[0].data[13]+'.png">';
@@ -129,14 +129,14 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[42]+' skill'+helmet[0].data[43]+'">'+translate(helmet[0].data[42])+': <span class="skillamount">'+helmet[0].data[43]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[44]+' skill'+helmet[0].data[45]+'">'+translate(helmet[0].data[44])+': <span class="skillamount">'+helmet[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+helmet[0].data[46]+' skill'+helmet[0].data[47]+'">'+translate(helmet[0].data[46])+': <span class="skillamount">'+helmet[0].data[47]+'</span></span>';
-	// calculate and output mosaic slots
+// calculate and output mosaic slots
 		helmetMosaic = "";
-		for (i = helmet[0].data[5] - 1; i >= 0; i--) {helmetMosaic += "o";}
+		for (var i = helmet[0].data[5] - 1; i >= 0; i--) {helmetMosaic += "o";}
 		helmetMosaicNum = helmetMosaic.length;
 		helmetMosaicjs(helmetMosaicNum);
 		document.getElementById("helmetMosaic").innerHTML = mosaicdrop(helmetMosaic);
 	}
-	// write HTML to IDs if URL Parameters are VALID
+// write HTML to IDs if URL Parameters are VALID
 	if (typeof vambraces[0] !== 'undefined') {
 		vambracesType = vambraces[0].data[3];
 		document.getElementById("vambracesImg").innerHTML = '<img src="../images/item/'+vambraces[0].data[13]+'.png">';
@@ -147,14 +147,14 @@ function displayData() {
 		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[42]+' skill'+vambraces[0].data[43]+'">'+translate(vambraces[0].data[42])+': <span class="skillamount">'+vambraces[0].data[43]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[44]+' skill'+vambraces[0].data[45]+'">'+translate(vambraces[0].data[44])+': <span class="skillamount">'+vambraces[0].data[45]+'</span></span>'+
 		'&nbsp;&nbsp;&nbsp;<span class="'+vambraces[0].data[46]+' skill'+vambraces[0].data[47]+'">'+translate(vambraces[0].data[46])+': <span class="skillamount">'+vambraces[0].data[47]+'</span></span>';
-		// calculate and output mosaic slots
+// calculate and output mosaic slots
 		vambracesMosaic = "";
 		for (i = vambraces[0].data[5] - 1; i >= 0; i--) {vambracesMosaic += "o";}
 		vambracesMosaicNum = vambracesMosaic.length;
 		vambracesMosaicjs(vambracesMosaicNum);
 		document.getElementById("vambracesMosaic").innerHTML = mosaicdrop(vambracesMosaic);
 	}
-	// write HTML to IDs if URL Parameters are VALID
+// write HTML to IDs if URL Parameters are VALID
 	if (typeof armor[0] !== 'undefined') {
 		armorType = armor[0].data[3];
 		document.getElementById("armorImg").innerHTML = '<img src="../images/item/'+armor[0].data[13]+'.png">';
@@ -231,82 +231,82 @@ function displayData() {
 	helmCount = 0;
 	if (typeof mosaic1Skills[0] !== 'undefined') {
 		document.getElementById("mosaic1Img").innerHTML = '<img src="../images/item/'+mosaic1Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic1Skills[2])+' - ';
-		document.getElementById("mosaic1Skills").innerHTML = '<span class"no'+mosaic1Skills[5]+'"><span class="skill'+mosaic1Skills[6]+'">'+translate(mosaic1Skills[5])+': '+mosaic1Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic1Skills[8]+' skill'+mosaic1Skills[9]+'">'+translate(mosaic1Skills[8])+': '+mosaic1Skills[9]+'</span><br></span>';
-		helmCount += parseInt(mosaic1Skills[3], 10);
+	    document.getElementById("mosaic1Skills").innerHTML = '<span class"no'+mosaic1Skills[5]+'"><span class="skill'+mosaic1Skills[6]+'">'+translate(mosaic1Skills[5])+': '+mosaic1Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic1Skills[8]+' skill'+mosaic1Skills[9]+'">'+translate(mosaic1Skills[8])+': '+mosaic1Skills[9]+'</span><br></span>';
+	    helmCount += parseInt(mosaic1Skills[3], 10);
 	}
 	if (typeof mosaic2Skills[0] !== 'undefined') {
 		document.getElementById("mosaic2Img").innerHTML = '<img src="../images/item/'+mosaic2Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic2Skills[2])+' - ';
-		document.getElementById("mosaic2Skills").innerHTML = '<span class"no'+mosaic2Skills[5]+'"><span class="skill'+mosaic2Skills[6]+'">'+translate(mosaic2Skills[5])+': '+mosaic2Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic2Skills[8]+' skill'+mosaic2Skills[9]+'">'+translate(mosaic2Skills[8])+': '+mosaic2Skills[9]+'</span><br></span>';
-		helmCount += parseInt(mosaic2Skills[3], 10);
+	    document.getElementById("mosaic2Skills").innerHTML = '<span class"no'+mosaic2Skills[5]+'"><span class="skill'+mosaic2Skills[6]+'">'+translate(mosaic2Skills[5])+': '+mosaic2Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic2Skills[8]+' skill'+mosaic2Skills[9]+'">'+translate(mosaic2Skills[8])+': '+mosaic2Skills[9]+'</span><br></span>';
+	    helmCount += parseInt(mosaic2Skills[3], 10);
 	}
 	if (typeof mosaic3Skills[0] !== 'undefined') {
 		document.getElementById("mosaic3Img").innerHTML = '<img src="../images/item/'+mosaic3Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic3Skills[2])+' - ';
-		document.getElementById("mosaic3Skills").innerHTML = '<span class"no'+mosaic3Skills[5]+'"><span class="skill'+mosaic3Skills[6]+'">'+translate(mosaic3Skills[5])+': '+mosaic3Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic3Skills[8]+' skill'+mosaic3Skills[9]+'">'+translate(mosaic3Skills[8])+': '+mosaic3Skills[9]+'</span><br></span>';
-		helmCount += parseInt(mosaic3Skills[3], 10);
+	    document.getElementById("mosaic3Skills").innerHTML = '<span class"no'+mosaic3Skills[5]+'"><span class="skill'+mosaic3Skills[6]+'">'+translate(mosaic3Skills[5])+': '+mosaic3Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic3Skills[8]+' skill'+mosaic3Skills[9]+'">'+translate(mosaic3Skills[8])+': '+mosaic3Skills[9]+'</span><br></span>';
+	    helmCount += parseInt(mosaic3Skills[3], 10);
 	}
 	vambracesCount = 0;
 	if (typeof mosaic4Skills[0] !== 'undefined') {
 		document.getElementById("mosaic4Img").innerHTML = '<img src="../images/item/'+mosaic4Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic4Skills[2])+' - ';
-		document.getElementById("mosaic4Skills").innerHTML = '<span class"no'+mosaic4Skills[5]+'"><span class="skill'+mosaic4Skills[6]+'">'+translate(mosaic4Skills[5])+': '+mosaic4Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic4Skills[8]+' skill'+mosaic4Skills[9]+'">'+translate(mosaic4Skills[8])+': '+mosaic4Skills[9]+'</span><br></span>';
-		vambracesCount += parseInt(mosaic4Skills[3], 10);
+	    document.getElementById("mosaic4Skills").innerHTML = '<span class"no'+mosaic4Skills[5]+'"><span class="skill'+mosaic4Skills[6]+'">'+translate(mosaic4Skills[5])+': '+mosaic4Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic4Skills[8]+' skill'+mosaic4Skills[9]+'">'+translate(mosaic4Skills[8])+': '+mosaic4Skills[9]+'</span><br></span>';
+	    vambracesCount += parseInt(mosaic4Skills[3], 10);
 	}
 	if (typeof mosaic5Skills[0] !== 'undefined') {
 		document.getElementById("mosaic5Img").innerHTML = '<img src="../images/item/'+mosaic5Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic5Skills[2])+' - ';
-		document.getElementById("mosaic5Skills").innerHTML = '<span class"no'+mosaic5Skills[5]+'"><span class="skill'+mosaic5Skills[6]+'">'+translate(mosaic5Skills[5])+': '+mosaic5Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic5Skills[8]+' skill'+mosaic5Skills[9]+'">'+translate(mosaic5Skills[8])+': '+mosaic5Skills[9]+'</span><br></span>';
-		vambracesCount += parseInt(mosaic5Skills[3], 10);
+	    document.getElementById("mosaic5Skills").innerHTML = '<span class"no'+mosaic5Skills[5]+'"><span class="skill'+mosaic5Skills[6]+'">'+translate(mosaic5Skills[5])+': '+mosaic5Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic5Skills[8]+' skill'+mosaic5Skills[9]+'">'+translate(mosaic5Skills[8])+': '+mosaic5Skills[9]+'</span><br></span>';
+	    vambracesCount += parseInt(mosaic5Skills[3], 10);
 	}
 	if (typeof mosaic6Skills[0] !== 'undefined') {
 		document.getElementById("mosaic6Img").innerHTML = '<img src="../images/item/'+mosaic6Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic6Skills[2])+' - ';
-		document.getElementById("mosaic6Skills").innerHTML = '<span class"no'+mosaic6Skills[5]+'"><span class="skill'+mosaic6Skills[6]+'">'+translate(mosaic6Skills[5])+': '+mosaic6Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic6Skills[8]+' skill'+mosaic6Skills[9]+'">'+translate(mosaic6Skills[8])+': '+mosaic6Skills[9]+'</span><br></span>';
-		vambracesCount += parseInt(mosaic6Skills[3], 10);
+	    document.getElementById("mosaic6Skills").innerHTML = '<span class"no'+mosaic6Skills[5]+'"><span class="skill'+mosaic6Skills[6]+'">'+translate(mosaic6Skills[5])+': '+mosaic6Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic6Skills[8]+' skill'+mosaic6Skills[9]+'">'+translate(mosaic6Skills[8])+': '+mosaic6Skills[9]+'</span><br></span>';
+	    vambracesCount += parseInt(mosaic6Skills[3], 10);
 	}
 	armorCount = 0;
 	if (typeof mosaic7Skills[0] !== 'undefined') {
 		document.getElementById("mosaic7Img").innerHTML = '<img src="../images/item/'+mosaic7Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic7Skills[2])+' - ';
-		document.getElementById("mosaic7Skills").innerHTML = '<span class"no'+mosaic7Skills[5]+'"><span class="skill'+mosaic7Skills[6]+'">'+translate(mosaic7Skills[5])+': '+mosaic7Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic7Skills[8]+' skill'+mosaic7Skills[9]+'">'+translate(mosaic7Skills[8])+': '+mosaic7Skills[9]+'</span><br></span>';
-		armorCount += parseInt(mosaic7Skills[3], 10);
+	    document.getElementById("mosaic7Skills").innerHTML = '<span class"no'+mosaic7Skills[5]+'"><span class="skill'+mosaic7Skills[6]+'">'+translate(mosaic7Skills[5])+': '+mosaic7Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic7Skills[8]+' skill'+mosaic7Skills[9]+'">'+translate(mosaic7Skills[8])+': '+mosaic7Skills[9]+'</span><br></span>';
+	    armorCount += parseInt(mosaic7Skills[3], 10);
 	}
 	if (typeof mosaic8Skills[0] !== 'undefined') {
 		document.getElementById("mosaic8Img").innerHTML = '<img src="../images/item/'+mosaic8Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic8Skills[2])+' - ';
-		document.getElementById("mosaic8Skills").innerHTML = '<span class"no'+mosaic8Skills[5]+'"><span class="skill'+mosaic8Skills[6]+'">'+translate(mosaic8Skills[5])+': '+mosaic8Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic8Skills[8]+' skill'+mosaic8Skills[9]+'">'+translate(mosaic8Skills[8])+': '+mosaic8Skills[9]+'</span><br></span>';
-		armorCount += parseInt(mosaic8Skills[3], 10);
+	    document.getElementById("mosaic8Skills").innerHTML = '<span class"no'+mosaic8Skills[5]+'"><span class="skill'+mosaic8Skills[6]+'">'+translate(mosaic8Skills[5])+': '+mosaic8Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic8Skills[8]+' skill'+mosaic8Skills[9]+'">'+translate(mosaic8Skills[8])+': '+mosaic8Skills[9]+'</span><br></span>';
+	    armorCount += parseInt(mosaic8Skills[3], 10);
 	}
 	if (typeof mosaic9Skills[0] !== 'undefined') {
 		document.getElementById("mosaic9Img").innerHTML = '<img src="../images/item/'+mosaic9Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic9Skills[2])+' - ';
-		document.getElementById("mosaic9Skills").innerHTML = '<span class"no'+mosaic9Skills[5]+'"><span class="skill'+mosaic9Skills[6]+'">'+translate(mosaic9Skills[5])+': '+mosaic9Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic9Skills[8]+' skill'+mosaic9Skills[9]+'">'+translate(mosaic9Skills[8])+': '+mosaic9Skills[9]+'</span><br></span>';
-		armorCount += parseInt(mosaic9Skills[3], 10);
+	    document.getElementById("mosaic9Skills").innerHTML = '<span class"no'+mosaic9Skills[5]+'"><span class="skill'+mosaic9Skills[6]+'">'+translate(mosaic9Skills[5])+': '+mosaic9Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic9Skills[8]+' skill'+mosaic9Skills[9]+'">'+translate(mosaic9Skills[8])+': '+mosaic9Skills[9]+'</span><br></span>';
+	    armorCount += parseInt(mosaic9Skills[3], 10);
 	}
 	waistCount = 0;
 	if (typeof mosaic10Skills[0] !== 'undefined') {
 		document.getElementById("mosaic10Img").innerHTML = '<img src="../images/item/'+mosaic10Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic10Skills[2])+' - ';
-		document.getElementById("mosaic10Skills").innerHTML = '<span class"no'+mosaic10Skills[5]+'"><span class="skill'+mosaic10Skills[6]+'">'+translate(mosaic10Skills[5])+': '+mosaic10Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic10Skills[8]+' skill'+mosaic10Skills[9]+'">'+translate(mosaic10Skills[8])+': '+mosaic10Skills[9]+'</span><br></span>';
-		waistCount += parseInt(mosaic10Skills[3], 10);
+	    document.getElementById("mosaic10Skills").innerHTML = '<span class"no'+mosaic10Skills[5]+'"><span class="skill'+mosaic10Skills[6]+'">'+translate(mosaic10Skills[5])+': '+mosaic10Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic10Skills[8]+' skill'+mosaic10Skills[9]+'">'+translate(mosaic10Skills[8])+': '+mosaic10Skills[9]+'</span><br></span>';
+	    waistCount += parseInt(mosaic10Skills[3], 10);
 	}
 	if (typeof mosaic11Skills[0] !== 'undefined') {
 		document.getElementById("mosaic11Img").innerHTML = '<img src="../images/item/'+mosaic11Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic11Skills[2])+' - ';
-		document.getElementById("mosaic11Skills").innerHTML = '<span class"no'+mosaic11Skills[5]+'"><span class="skill'+mosaic11Skills[6]+'">'+translate(mosaic11Skills[5])+': '+mosaic11Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic11Skills[8]+' skill'+mosaic11Skills[9]+'">'+translate(mosaic11Skills[8])+': '+mosaic11Skills[9]+'</span><br></span>';
-		waistCount += parseInt(mosaic11Skills[3], 10);
+	    document.getElementById("mosaic11Skills").innerHTML = '<span class"no'+mosaic11Skills[5]+'"><span class="skill'+mosaic11Skills[6]+'">'+translate(mosaic11Skills[5])+': '+mosaic11Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic11Skills[8]+' skill'+mosaic11Skills[9]+'">'+translate(mosaic11Skills[8])+': '+mosaic11Skills[9]+'</span><br></span>';
+	    waistCount += parseInt(mosaic11Skills[3], 10);
 	}
 	if (typeof mosaic12Skills[0] !== 'undefined') {
 		document.getElementById("mosaic12Img").innerHTML = '<img src="../images/item/'+mosaic12Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic12Skills[2])+' - ';
-		document.getElementById("mosaic12Skills").innerHTML = '<span class"no'+mosaic12Skills[5]+'"><span class="skill'+mosaic12Skills[6]+'">'+translate(mosaic12Skills[5])+': '+mosaic12Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic12Skills[8]+' skill'+mosaic12Skills[9]+'">'+translate(mosaic12Skills[8])+': '+mosaic12Skills[9]+'</span><br></span>';
-		waistCount += parseInt(mosaic12Skills[3], 10);
+	    document.getElementById("mosaic12Skills").innerHTML = '<span class"no'+mosaic12Skills[5]+'"><span class="skill'+mosaic12Skills[6]+'">'+translate(mosaic12Skills[5])+': '+mosaic12Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic12Skills[8]+' skill'+mosaic12Skills[9]+'">'+translate(mosaic12Skills[8])+': '+mosaic12Skills[9]+'</span><br></span>';
+	    waistCount += parseInt(mosaic12Skills[3], 10);
 	}
 	greavesCount = 0;
 	if (typeof mosaic13Skills[0] !== 'undefined') {
 		document.getElementById("mosaic13Img").innerHTML = '<img src="../images/item/'+mosaic13Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic13Skills[2])+' - ';
-		document.getElementById("mosaic13Skills").innerHTML = '<span class"no'+mosaic13Skills[5]+'"><span class="skill'+mosaic13Skills[6]+'">'+translate(mosaic13Skills[5])+': '+mosaic13Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic13Skills[8]+' skill'+mosaic13Skills[9]+'">'+translate(mosaic13Skills[8])+': '+mosaic13Skills[9]+'</span><br></span>';
-		greavesCount += parseInt(mosaic13Skills[3], 10);
+	    document.getElementById("mosaic13Skills").innerHTML = '<span class"no'+mosaic13Skills[5]+'"><span class="skill'+mosaic13Skills[6]+'">'+translate(mosaic13Skills[5])+': '+mosaic13Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic13Skills[8]+' skill'+mosaic13Skills[9]+'">'+translate(mosaic13Skills[8])+': '+mosaic13Skills[9]+'</span><br></span>';
+	greavesCount += parseInt(mosaic13Skills[3], 10);
 	}
 	if (typeof mosaic14Skills[0] !== 'undefined') {
 		document.getElementById("mosaic14Img").innerHTML = '<img src="../images/item/'+mosaic14Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic14Skills[2])+' - ';
-		document.getElementById("mosaic14Skills").innerHTML = '<span class"no'+mosaic14Skills[5]+'"><span class="skill'+mosaic14Skills[6]+'">'+translate(mosaic14Skills[5])+': '+mosaic14Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic14Skills[8]+' skill'+mosaic14Skills[9]+'">'+translate(mosaic14Skills[8])+': '+mosaic14Skills[9]+'</span><br></span>';
-		greavesCount += parseInt(mosaic14Skills[3], 10);
+	    document.getElementById("mosaic14Skills").innerHTML = '<span class"no'+mosaic14Skills[5]+'"><span class="skill'+mosaic14Skills[6]+'">'+translate(mosaic14Skills[5])+': '+mosaic14Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic14Skills[8]+' skill'+mosaic14Skills[9]+'">'+translate(mosaic14Skills[8])+': '+mosaic14Skills[9]+'</span><br></span>';
+	greavesCount += parseInt(mosaic14Skills[3], 10);
 	}
 	if (typeof mosaic15Skills[0] !== 'undefined') {
 		document.getElementById("mosaic15Img").innerHTML = '<img src="../images/item/'+mosaic15Skills[10]+'.png" class="mosaicImage"> '+translate(mosaic15Skills[2])+' - ';
-		document.getElementById("mosaic15Skills").innerHTML = '<span class"no'+mosaic15Skills[5]+'"><span class="skill'+mosaic15Skills[6]+'">'+translate(mosaic15Skills[5])+': '+mosaic15Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic15Skills[8]+' skill'+mosaic15Skills[9]+'">'+translate(mosaic15Skills[8])+': '+mosaic15Skills[9]+'</span><br></span>';
-		greavesCount += parseInt(mosaic15Skills[3], 10);
+	    document.getElementById("mosaic15Skills").innerHTML = '<span class"no'+mosaic15Skills[5]+'"><span class="skill'+mosaic15Skills[6]+'">'+translate(mosaic15Skills[5])+': '+mosaic15Skills[6]+'</span>&nbsp;&nbsp;&nbsp;<span class="no'+mosaic15Skills[8]+' skill'+mosaic15Skills[9]+'">'+translate(mosaic15Skills[8])+': '+mosaic15Skills[9]+'</span><br></span>';
+	greavesCount += parseInt(mosaic15Skills[3], 10);
 	}
 
 // checks armor type of all armors by adding the strings together and checking them for differences. If the set is not complete it will not output as error, rather the border will be black
@@ -321,7 +321,7 @@ function displayData() {
 	if (waistCount > waistMosaicNum) {document.getElementById('typecolor').style.borderColor = '#f44336';}
 	if (greavesCount > greavesMosaicNum) {document.getElementById('typecolor').style.borderColor = '#f44336';}
 // output skill values and get passive skill activation with getPassive(sname, value)
-	var out = '';
+		var out = '';
 	for (i = 0; i < skillNames.length; i++) {
 		out += '<tr class="skill'+skills[skillNames[i]]+'"><td>'+skillNames[i]+':</td><td>'+skills[skillNames[i]]+'</td><td>'+getPassive(skillNames[i], skills[skillNames[i]])+'</td></tr>';
 		document.getElementById("skillTotals").innerHTML = out;
@@ -329,51 +329,51 @@ function displayData() {
 	arr = necklaceArray;
 	var necklaceSelection = '<option value="" disabled selected>Necklace</option>';
 	for(i = 0; i < arr.length; i ++) {
-		necklaceSelection += ''+
-		'<option value="'+arr[i].data[0]+'" data-icon="../images/item/'+arr[i].data[6]+'.png" class="left">'+arr[i].data[1]+'</option>';
+	necklaceSelection += ''+
+	'<option value="'+arr[i].data[0]+'" data-icon="../images/item/'+arr[i].data[6]+'.png" class="left">'+arr[i].data[1]+'</option>';
 	}
 	document.getElementById("necklaceSelect").innerHTML = necklaceSelection;
 	arr = ringArray;
 	var ringSelection = '<option value="" disabled selected>Ring</option>';
 	for(i = 0; i < arr.length; i ++) {
-		ringSelection += ''+
-		'<option value="'+arr[i].data[0]+'" data-icon="../images/item/'+arr[i].data[6]+'.png" class="left">'+arr[i].data[1]+'</option>';
+	ringSelection += ''+
+	'<option value="'+arr[i].data[0]+'" data-icon="../images/item/'+arr[i].data[6]+'.png" class="left">'+arr[i].data[1]+'</option>';
 	}
 	document.getElementById("ringSelect").innerHTML = ringSelection;
 	arr = talismanArray;
 	var talismanSelection = '<option value="" disabled selected>Talisman</option>';
 	for(i = 0; i < arr.length; i ++) {
-		talismanSelection += ''+
-		'<option value="'+arr[i].data[0]+'" data-icon="../images/item/'+arr[i].data[6]+'.png" class="left">'+arr[i].data[1]+'</option>';
+	talismanSelection += ''+
+	'<option value="'+arr[i].data[0]+'" data-icon="../images/item/'+arr[i].data[6]+'.png" class="left">'+arr[i].data[1]+'</option>';
 	}
 	document.getElementById("talismanSelect").innerHTML = talismanSelection;
 	var talismanSkill1Selection = '<option value="" disabled selected>Skill 1</option>';
 	for(i = 0; i < skillNames.length; i ++) {
-		talismanSkill1Selection += ''+
-		'<option value="'+i+'">'+skillNames[i]+'</option>';
+	talismanSkill1Selection += ''+
+	'<option value="'+i+'">'+skillNames[i]+'</option>';
 	}
 	document.getElementById("talismanSkill1Select").innerHTML = talismanSkill1Selection;
 	var talismanSkill2Selection = '<option value="" disabled selected>Skill 2</option>';
 	for(i = 0; i < skillNames.length; i ++) {
-		talismanSkill2Selection += ''+
-		'<option value="'+i+'">'+skillNames[i]+'</option>';
+	talismanSkill2Selection += ''+
+	'<option value="'+i+'">'+skillNames[i]+'</option>';
 	}
 	document.getElementById("talismanSkill2Select").innerHTML = talismanSkill2Selection;
 	var talismanSkill3Selection = '<option value="" disabled selected>Skill 3</option>';
 	for(i = 0; i < skillNames.length; i ++) {
-		talismanSkill3Selection += ''+
-		'<option value="'+i+'">'+skillNames[i]+'</option>';
+	talismanSkill3Selection += ''+
+	'<option value="'+i+'">'+skillNames[i]+'</option>';
 	}
 	document.getElementById("talismanSkill3Select").innerHTML = talismanSkill3Selection;
 }
 function filter(aID) {arr = armorArray; filterArmor = $.grep(arr, function(element, index) {return element.iID == aID;}); return filterArmor;}
 function filterj(aID) {arr = jewelryArray; filterJewelry = $.grep(arr, function(element, index) {return element.iID == aID;}); return filterJewelry;}
 function storeArmor() {
-	// create arrays with filter(aID)
+// create arrays with filter(aID)
 	helmet = filter(helmetID); vambraces = filter(vambracesID); armor = filter(armorID); waist = filter(waistID); greaves = filter(greavesID); necklace = filterj(necklaceID); ring = filterj(ringID); talisman = filterj(talismanID);
-	// clear skills to recalculate on armor addition
+// clear skills to recalculate on armor addition
 	skills = skillsjs();
-	// if URL parameter exists parse new array values as integers and add to skills array
+// if URL parameter exists parse new array values as integers and add to skills array
 	if (typeof helmet[0] !== 'undefined') {skills[translate(helmet[0].data[38])] = skills[translate(helmet[0].data[38])] + parseInt(helmet[0].data[39], 10); skills[translate(helmet[0].data[40])] = skills[translate(helmet[0].data[40])] + parseInt(helmet[0].data[41], 10); skills[translate(helmet[0].data[42])] = skills[translate(helmet[0].data[42])] + parseInt(helmet[0].data[43], 10); skills[translate(helmet[0].data[44])] = skills[translate(helmet[0].data[44])] + parseInt(helmet[0].data[45], 10); skills[translate(helmet[0].data[46])] = skills[translate(helmet[0].data[46])] + parseInt(helmet[0].data[47], 10);}
 	if (typeof vambraces[0] !== 'undefined') {skills[translate(vambraces[0].data[38])] = skills[translate(vambraces[0].data[38])] + parseInt(vambraces[0].data[39], 10); skills[translate(vambraces[0].data[40])] = skills[translate(vambraces[0].data[40])] + parseInt(vambraces[0].data[41], 10); skills[translate(vambraces[0].data[42])] = skills[translate(vambraces[0].data[42])] + parseInt(vambraces[0].data[43], 10); skills[translate(vambraces[0].data[44])] = skills[translate(vambraces[0].data[44])] + parseInt(vambraces[0].data[45], 10); skills[translate(vambraces[0].data[46])] = skills[translate(vambraces[0].data[46])] + parseInt(vambraces[0].data[47], 10);}
 	if (typeof armor[0] !== 'undefined') {skills[translate(armor[0].data[38])] = skills[translate(armor[0].data[38])] + parseInt(armor[0].data[39], 10); skills[translate(armor[0].data[40])] = skills[translate(armor[0].data[40])] + parseInt(armor[0].data[41], 10); skills[translate(armor[0].data[42])] = skills[translate(armor[0].data[42])] + parseInt(armor[0].data[43], 10); skills[translate(armor[0].data[44])] = skills[translate(armor[0].data[44])] + parseInt(armor[0].data[45], 10); skills[translate(armor[0].data[46])] = skills[translate(armor[0].data[46])] + parseInt(armor[0].data[47], 10);}
@@ -414,7 +414,7 @@ function storeArmor() {
 	if (typeof mosaic15Skills[8] !== 'undefined') {skills[translate(mosaic15Skills[8])] = skills[translate(mosaic15Skills[8])] + parseInt(mosaic15Skills[9], 10);}
 }
 function getPassive(sname, value) {
-	// check skill value and store passive if it meets the criteria
+// check skill value and store passive if it meets the criteria
 	passive = '';
 	var positiveSkills = [];
 	var negativeSkills = [];
@@ -454,125 +454,125 @@ function skillsjs() {
 	return tempArr;
 }
 function removeAll() {
-	removeParam("1"); removeParam("2"); removeParam("3"); removeParam("4"); removeParam("5"); removeParam("6"); removeParam("7"); removeParam("8"); removeParam("9"); removeParam("10"); removeParam("11"); removeParam("12"); removeParam("13"); removeParam("14"); removeMosaics("1"); removeMosaics("2"); removeMosaics("3"); removeMosaics("4"); removeMosaics("5");
-	delete helmetType; delete vambracesType; delete armorType; delete waistType; delete greavesType;
-	var helmetType; var vambracesType; var armorType; var waistType; var greavesType;
-	document.getElementById("helmetImg").innerHTML = '';
-	document.getElementById("helmet").innerHTML = 'No Helmet';
-	document.getElementById("helmetSkills").innerHTML = '';
-	document.getElementById("helmetMosaic").innerHTML = '';
-	document.getElementById("vambracesImg").innerHTML = '';
-	document.getElementById("vambraces").innerHTML = 'No Vambraces';
-	document.getElementById("vambracesSkills").innerHTML = '';
-	document.getElementById("vambracesMosaic").innerHTML = '';
-	document.getElementById("armorImg").innerHTML = '';
-	document.getElementById("armor").innerHTML = 'No Armor';
-	document.getElementById("armorSkills").innerHTML = '';
-	document.getElementById("armorMosaic").innerHTML = '';
-	document.getElementById("waistImg").innerHTML = '';
-	document.getElementById("waist").innerHTML = 'No Waist';
-	document.getElementById("waistSkills").innerHTML = '';
-	document.getElementById("waistMosaic").innerHTML = '';
-	document.getElementById("greavesImg").innerHTML = '';
-	document.getElementById("greaves").innerHTML = 'No Greaves';
-	document.getElementById("greavesSkills").innerHTML = '';
-	document.getElementById("greavesMosaic").innerHTML = '';
-	document.getElementById("mosaic1Img").innerHTML = '';
-	document.getElementById("mosaic1Skills").innerHTML = '';
-	document.getElementById("mosaic2Img").innerHTML = '';
-	document.getElementById("mosaic2Skills").innerHTML = '';
-	document.getElementById("mosaic3Img").innerHTML = '';
-	document.getElementById("mosaic3Skills").innerHTML = '';
-	document.getElementById("mosaic4Img").innerHTML = '';
-	document.getElementById("mosaic4Skills").innerHTML = '';
-	document.getElementById("mosaic5Img").innerHTML = '';
-	document.getElementById("mosaic5Skills").innerHTML = '';
-	document.getElementById("mosaic6Img").innerHTML = '';
-	document.getElementById("mosaic6Skills").innerHTML = '';
-	document.getElementById("mosaic7Img").innerHTML = '';
-	document.getElementById("mosaic7Skills").innerHTML = '';
-	document.getElementById("mosaic8Img").innerHTML = '';
-	document.getElementById("mosaic8Skills").innerHTML = '';
-	document.getElementById("mosaic9Img").innerHTML = '';
-	document.getElementById("mosaic9Skills").innerHTML = '';
-	document.getElementById("mosaic10Img").innerHTML = '';
-	document.getElementById("mosaic10Skills").innerHTML = '';
-	document.getElementById("mosaic11Img").innerHTML = '';
-	document.getElementById("mosaic11Skills").innerHTML = '';
-	document.getElementById("mosaic12Img").innerHTML = '';
-	document.getElementById("mosaic12Skills").innerHTML = '';
-	document.getElementById("mosaic13Img").innerHTML = '';
-	document.getElementById("mosaic13Skills").innerHTML = '';
-	document.getElementById("mosaic14Img").innerHTML = '';
-	document.getElementById("mosaic14Skills").innerHTML = '';
-	document.getElementById("mosaic15Img").innerHTML = '';
-	document.getElementById("mosaic15Skills").innerHTML = '';
-	document.getElementById("talismanImg").innerHTML = '';
-	document.getElementById("talisman").innerHTML = 'No Talisman';
-	document.getElementById("talismanSkills1").innerHTML = '';
-	document.getElementById("talismanSkills1Value").innerHTML = '';
-	document.getElementById("talismanSkills2").innerHTML = '';
-	document.getElementById("talismanSkills2Value").innerHTML = '';
-	document.getElementById("talismanSkills3").innerHTML = '';
-	document.getElementById("talismanSkills3Value").innerHTML = '';
-	document.getElementById("necklaceImg").innerHTML = '';
-	document.getElementById("necklace").innerHTML = 'No Necklace';
-	document.getElementById("necklaceSkills").innerHTML = '';
-	document.getElementById("ringImg").innerHTML = '';
-	document.getElementById("ring").innerHTML = 'No Ring';
-	document.getElementById("ringSkills").innerHTML = '';
-	document.getElementById('typecolor').style.borderColor = '#000000';
-	helmetMosaicjs(0);
-	vambracesMosaicjs(0);
-	armorMosaicjs(0);
-	waistMosaicjs(0);
-	greavesMosaicjs(0);
-	displayData();
+  removeParam("1"); removeParam("2"); removeParam("3"); removeParam("4"); removeParam("5"); removeParam("6"); removeParam("7"); removeParam("8"); removeParam("9"); removeParam("10"); removeParam("11"); removeParam("12"); removeParam("13"); removeParam("14"); removeMosaics("1"); removeMosaics("2"); removeMosaics("3"); removeMosaics("4"); removeMosaics("5");
+  delete helmetType; delete vambracesType; delete armorType; delete waistType; delete greavesType;
+  var helmetType; var vambracesType; var armorType; var waistType; var greavesType;
+  document.getElementById("helmetImg").innerHTML = '';
+  document.getElementById("helmet").innerHTML = 'No Helmet';
+  document.getElementById("helmetSkills").innerHTML = '';
+  document.getElementById("helmetMosaic").innerHTML = '';
+  document.getElementById("vambracesImg").innerHTML = '';
+  document.getElementById("vambraces").innerHTML = 'No Vambraces';
+  document.getElementById("vambracesSkills").innerHTML = '';
+  document.getElementById("vambracesMosaic").innerHTML = '';
+  document.getElementById("armorImg").innerHTML = '';
+  document.getElementById("armor").innerHTML = 'No Armor';
+  document.getElementById("armorSkills").innerHTML = '';
+  document.getElementById("armorMosaic").innerHTML = '';
+  document.getElementById("waistImg").innerHTML = '';
+  document.getElementById("waist").innerHTML = 'No Waist';
+  document.getElementById("waistSkills").innerHTML = '';
+  document.getElementById("waistMosaic").innerHTML = '';
+  document.getElementById("greavesImg").innerHTML = '';
+  document.getElementById("greaves").innerHTML = 'No Greaves';
+  document.getElementById("greavesSkills").innerHTML = '';
+  document.getElementById("greavesMosaic").innerHTML = '';
+  document.getElementById("mosaic1Img").innerHTML = '';
+  document.getElementById("mosaic1Skills").innerHTML = '';
+  document.getElementById("mosaic2Img").innerHTML = '';
+  document.getElementById("mosaic2Skills").innerHTML = '';
+  document.getElementById("mosaic3Img").innerHTML = '';
+  document.getElementById("mosaic3Skills").innerHTML = '';
+  document.getElementById("mosaic4Img").innerHTML = '';
+  document.getElementById("mosaic4Skills").innerHTML = '';
+  document.getElementById("mosaic5Img").innerHTML = '';
+  document.getElementById("mosaic5Skills").innerHTML = '';
+  document.getElementById("mosaic6Img").innerHTML = '';
+  document.getElementById("mosaic6Skills").innerHTML = '';
+  document.getElementById("mosaic7Img").innerHTML = '';
+  document.getElementById("mosaic7Skills").innerHTML = '';
+  document.getElementById("mosaic8Img").innerHTML = '';
+  document.getElementById("mosaic8Skills").innerHTML = '';
+  document.getElementById("mosaic9Img").innerHTML = '';
+  document.getElementById("mosaic9Skills").innerHTML = '';
+  document.getElementById("mosaic10Img").innerHTML = '';
+  document.getElementById("mosaic10Skills").innerHTML = '';
+  document.getElementById("mosaic11Img").innerHTML = '';
+  document.getElementById("mosaic11Skills").innerHTML = '';
+  document.getElementById("mosaic12Img").innerHTML = '';
+  document.getElementById("mosaic12Skills").innerHTML = '';
+  document.getElementById("mosaic13Img").innerHTML = '';
+  document.getElementById("mosaic13Skills").innerHTML = '';
+  document.getElementById("mosaic14Img").innerHTML = '';
+  document.getElementById("mosaic14Skills").innerHTML = '';
+  document.getElementById("mosaic15Img").innerHTML = '';
+  document.getElementById("mosaic15Skills").innerHTML = '';
+  document.getElementById("talismanImg").innerHTML = '';
+  document.getElementById("talisman").innerHTML = 'No Talisman';
+  document.getElementById("talismanSkills1").innerHTML = '';
+  document.getElementById("talismanSkills1Value").innerHTML = '';
+  document.getElementById("talismanSkills2").innerHTML = '';
+  document.getElementById("talismanSkills2Value").innerHTML = '';
+  document.getElementById("talismanSkills3").innerHTML = '';
+  document.getElementById("talismanSkills3Value").innerHTML = '';
+  document.getElementById("necklaceImg").innerHTML = '';
+  document.getElementById("necklace").innerHTML = 'No Necklace';
+  document.getElementById("necklaceSkills").innerHTML = '';
+  document.getElementById("ringImg").innerHTML = '';
+  document.getElementById("ring").innerHTML = 'No Ring';
+  document.getElementById("ringSkills").innerHTML = '';
+  document.getElementById('typecolor').style.borderColor = '#000000';
+  helmetMosaicjs(0);
+  vambracesMosaicjs(0);
+  armorMosaicjs(0);
+  waistMosaicjs(0);
+  greavesMosaicjs(0);
+  displayData();
 }
 function removeMosaics(type) {
-	if(type=="1"){
-		removeParam("15"); removeParam("16"); removeParam("17");
-		document.getElementById("mosaic1Img").innerHTML = '';
-		document.getElementById("mosaic1Skills").innerHTML = '';
-		document.getElementById("mosaic2Img").innerHTML = '';
-		document.getElementById("mosaic2Skills").innerHTML = '';
-		document.getElementById("mosaic3Img").innerHTML = '';
-		document.getElementById("mosaic3Skills").innerHTML = '';
-	}
-	if(type=="2"){
-		removeParam("18"); removeParam("19"); removeParam("20");
-		document.getElementById("mosaic4Img").innerHTML = '';
-		document.getElementById("mosaic4Skills").innerHTML = '';
-		document.getElementById("mosaic5Img").innerHTML = '';
-		document.getElementById("mosaic5Skills").innerHTML = '';
-		document.getElementById("mosaic6Img").innerHTML = '';
-		document.getElementById("mosaic6Skills").innerHTML = '';
-	}
-	if(type=="3"){
-		removeParam("21"); removeParam("22"); removeParam("23");
-		document.getElementById("mosaic7Img").innerHTML = '';
-		document.getElementById("mosaic7Skills").innerHTML = '';
-		document.getElementById("mosaic8Img").innerHTML = '';
-		document.getElementById("mosaic8Skills").innerHTML = '';
-		document.getElementById("mosaic9Img").innerHTML = '';
-		document.getElementById("mosaic9Skills").innerHTML = '';
-	}
-	if(type=="4"){
-		removeParam("24"); removeParam("25"); removeParam("26");
-		document.getElementById("mosaic10Img").innerHTML = '';
-		document.getElementById("mosaic10Skills").innerHTML = '';
-		document.getElementById("mosaic11Img").innerHTML = '';
-		document.getElementById("mosaic11Skills").innerHTML = '';
-		document.getElementById("mosaic12Img").innerHTML = '';
-		document.getElementById("mosaic12Skills").innerHTML = '';
-	}
-	if(type=="5"){
-		removeParam("27"); removeParam("28"); removeParam("29");
-		document.getElementById("mosaic13Img").innerHTML = '';
-		document.getElementById("mosaic13Skills").innerHTML = '';
-		document.getElementById("mosaic14Img").innerHTML = '';
-		document.getElementById("mosaic14Skills").innerHTML = '';
-		document.getElementById("mosaic15Img").innerHTML = '';
-		document.getElementById("mosaic15Skills").innerHTML = '';
-	}
+  if(type=="1"){
+    removeParam("15"); removeParam("16"); removeParam("17");
+    document.getElementById("mosaic1Img").innerHTML = '';
+    document.getElementById("mosaic1Skills").innerHTML = '';
+    document.getElementById("mosaic2Img").innerHTML = '';
+    document.getElementById("mosaic2Skills").innerHTML = '';
+    document.getElementById("mosaic3Img").innerHTML = '';
+    document.getElementById("mosaic3Skills").innerHTML = '';
+  }
+  if(type=="2"){
+    removeParam("18"); removeParam("19"); removeParam("20");
+    document.getElementById("mosaic4Img").innerHTML = '';
+    document.getElementById("mosaic4Skills").innerHTML = '';
+    document.getElementById("mosaic5Img").innerHTML = '';
+    document.getElementById("mosaic5Skills").innerHTML = '';
+    document.getElementById("mosaic6Img").innerHTML = '';
+    document.getElementById("mosaic6Skills").innerHTML = '';
+  }
+  if(type=="3"){
+    removeParam("21"); removeParam("22"); removeParam("23");
+    document.getElementById("mosaic7Img").innerHTML = '';
+    document.getElementById("mosaic7Skills").innerHTML = '';
+    document.getElementById("mosaic8Img").innerHTML = '';
+    document.getElementById("mosaic8Skills").innerHTML = '';
+    document.getElementById("mosaic9Img").innerHTML = '';
+    document.getElementById("mosaic9Skills").innerHTML = '';
+  }
+  if(type=="4"){
+    removeParam("24"); removeParam("25"); removeParam("26");
+    document.getElementById("mosaic10Img").innerHTML = '';
+    document.getElementById("mosaic10Skills").innerHTML = '';
+    document.getElementById("mosaic11Img").innerHTML = '';
+    document.getElementById("mosaic11Skills").innerHTML = '';
+    document.getElementById("mosaic12Img").innerHTML = '';
+    document.getElementById("mosaic12Skills").innerHTML = '';
+  }
+  if(type=="5"){
+    removeParam("27"); removeParam("28"); removeParam("29");
+    document.getElementById("mosaic13Img").innerHTML = '';
+    document.getElementById("mosaic13Skills").innerHTML = '';
+    document.getElementById("mosaic14Img").innerHTML = '';
+    document.getElementById("mosaic14Skills").innerHTML = '';
+    document.getElementById("mosaic15Img").innerHTML = '';
+    document.getElementById("mosaic15Skills").innerHTML = '';
+  }
 }
