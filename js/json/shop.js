@@ -18097,4 +18097,4 @@ var shopArray =
     ],
     "total": 1005
   }
-}
+};

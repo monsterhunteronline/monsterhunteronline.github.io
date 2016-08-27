@@ -2417,4 +2417,4 @@ var necklaceArray = [
         "XYNW"
             ]
         }
-        ]
+        ];
