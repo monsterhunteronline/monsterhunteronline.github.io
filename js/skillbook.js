@@ -13,7 +13,7 @@ $('#inputText').keyup(function(event) {
 });
 $('#clear').on('click', function() {
 	$('#inputText').val('');
-    removeParam('search');
+	removeParam('search');
 	$('#button').click();
 });
 var matString;
@@ -25,10 +25,10 @@ $('#button').on('click', function() {
 	//console.log(search);
 	filtered = [];
 	for(i = 0; i < skillbookArray.length; i ++) {
-    	skillString = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2];+' '+arr[i].data[3]+' '+translate(arr[i].data[3]);
-    	if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
-    		filtered.push(skillbookArray[i]);
-    	}
+		skillString = arr[i].data[1]+' '+translate(arr[i].data[1])+' '+arr[i].data[2];+' '+arr[i].data[3]+' '+translate(arr[i].data[3]);
+		if (skillString.toUpperCase().indexOf(search.toUpperCase()) >= 0) {
+			filtered.push(skillbookArray[i]);
+		}
 	}
 	arr = filtered;
 	for(i = 0; i < arr.length; i ++) {

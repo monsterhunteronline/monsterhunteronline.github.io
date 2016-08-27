@@ -1,9 +1,4 @@
-var page = "armor";
-var armorArray = armorArray.result;
-var typeArray = [
-{"type": "(B)"}, 
-{"type": "(G)"}
-];
+var page = "armor", armorArray = armorArray.result, typeArray = [{"type": "(B)"}, {"type": "(G)"}];
 function armorjs() {
 	helmetMosaicjs(0);
 	vambracesMosaicjs(0);
@@ -13,7 +8,7 @@ function armorjs() {
 	armortype = "";
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {
-	$('#inputText').val(url);
+		$('#inputText').val(url);
 	}
 	displayArmor();
 }
@@ -36,7 +31,7 @@ $('#both').on('click', function() {
 });
 $('#clear').on('click', function() {
 	$('#inputText').val('');
-    removeParam('search');
+		removeParam('search');
 	displayArmor();
 });
 $('#button').on('click', function() {
@@ -67,13 +62,11 @@ function displayArmor() {
 		}
 		arr = filtered;
 	}
-	var out = "";
-	var i;
-	var ii;
+	var out = "", i, ii;
 	for(i = 0; i < arr.length; i += 5) {
 		var largescreen = "";
 		for(ii = 0; ii < 5; ii ++) {
-//Large Screen and Small Screen
+			//Large Screen and Small Screen
 			largescreen += '<div class="col s12 hide-on-med-only l2-10"><table class="left-margin"><thead><tr><th><img onclick="updateurl('+arr[i+ii].data[54]+', '+arr[i+ii].data[0]+'); removeMosaics('+arr[i+ii].data[54]+'); Materialize.toast(`'+arr[i+ii].data[1]+' Added!`, 3000); displayData();" src="../images/item/'+arr[i+ii].data[13]+'.png" class="armorimage img-link"></th><th class="bold">'+arr[i+ii].data[1]+'</th></tr></thead></table><table class="armorinfo left-margin"><tbody><tr>'+
 			//defense
 			'<td>Defense: '+arr[i+ii].data[6]+'</td></tr><tr class="attrib'+arr[i+ii].data[7]+arr[i+ii].data[8]+arr[i+ii].data[9]+arr[i+ii].data[10]+arr[i+ii].data[11]+'">'+
@@ -96,7 +89,7 @@ function displayArmor() {
 			//forging mats
 			'<td colspan="2">[Forging Material]</td></tr><tr class="no'+arr[i+ii].data[21]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[21])+'" target="_blank">'+translate(arr[i+ii].data[21])+'</a> x'+arr[i+ii].data[22]+'</td></tr><tr class="no'+arr[i+ii].data[24]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[24])+'" target="_blank">'+translate(arr[i+ii].data[24])+'</a> x'+arr[i+ii].data[25]+'</td></tr><tr class="no'+arr[i+ii].data[27]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[27])+'" target="_blank">'+translate(arr[i+ii].data[27])+'</a> x'+arr[i+ii].data[28]+'</td></tr><tr class="no'+arr[i+ii].data[30]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[30])+'" target="_blank">'+translate(arr[i+ii].data[30])+'</a> x'+arr[i+ii].data[31]+'</td></tr><tr class="no'+arr[i+ii].data[33]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[33])+'" target="_blank">'+translate(arr[i+ii].data[33])+'</a> x'+arr[i+ii].data[34]+'</td></tr><tr class="no'+arr[i+ii].data[37]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[36])+'" target="_blank">'+translate(arr[i+ii].data[36])+'</a> x'+arr[i+ii].data[37]+'</td></tr></tbody></table></div>';
 		}
-//Medium Screens 1
+		//Medium Screens 1
 		var mediumscreenrow1 = "";
 		for(ii = 0; ii < 3; ii ++) {
 			mediumscreenrow1 += '<div class="col hide-on-small-only m4 hide-on-large-only"><table class="left-margin"><thead><tr><th><img onclick="updateurl('+arr[i+ii].data[54]+', '+arr[i+ii].data[0]+'); removeMosaics('+arr[i+ii].data[54]+'); Materialize.toast(`'+arr[i+ii].data[1]+' Added!`, 3000); displayData();" src="../images/item/'+arr[i+ii].data[13]+'.png" class="armorimage img-link"></th><th class="bold">'+arr[i+ii].data[1]+'</th></tr></thead></table><table class="armorinfo left-margin"><tbody><tr>'+
@@ -121,7 +114,7 @@ function displayArmor() {
 			//forging mats
 			'<td colspan="2">[Forging Material]</td></tr><tr class="no'+arr[i+ii].data[21]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[21])+'" target="_blank">'+translate(arr[i+ii].data[21])+'</a> x'+arr[i+ii].data[22]+'</td></tr><tr class="no'+arr[i+ii].data[24]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[24])+'" target="_blank">'+translate(arr[i+ii].data[24])+'</a> x'+arr[i+ii].data[25]+'</td></tr><tr class="no'+arr[i+ii].data[27]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[27])+'" target="_blank">'+translate(arr[i+ii].data[27])+'</a> x'+arr[i+ii].data[28]+'</td></tr><tr class="no'+arr[i+ii].data[30]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[30])+'" target="_blank">'+translate(arr[i+ii].data[30])+'</a> x'+arr[i+ii].data[31]+'</td></tr><tr class="no'+arr[i+ii].data[33]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[33])+'" target="_blank">'+translate(arr[i+ii].data[33])+'</a> x'+arr[i+ii].data[34]+'</td></tr><tr class="no'+arr[i+ii].data[37]+'"><td><a href="/materials/?search='+translate(arr[i+ii].data[36])+'" target="_blank">'+translate(arr[i+ii].data[36])+'</a> x'+arr[i+ii].data[37]+'</td></tr></tbody></table></div>';
 		}
-//Medium screens 2
+		//Medium screens 2
 		var mediumscreenrow2 = "";
 		for(ii = 3; ii < 5; ii ++) {
 			mediumscreenrow2 += '<div class="col hide-on-small-only m4 hide-on-large-only"><table class="left-margin"><thead><tr><th><img onclick="updateurl('+arr[i+ii].data[54]+', '+arr[i+ii].data[0]+'); removeMosaics('+arr[i+ii].data[54]+'); Materialize.toast(`'+arr[i+ii].data[1]+' Added!`, 3000); displayData();" src="../images/item/'+arr[i+ii].data[13]+'.png" class="armorimage img-link"></th><th class="bold">'+arr[i+ii].data[1]+'</th></tr></thead></table><table class="armorinfo left-margin"><tbody><tr>'+

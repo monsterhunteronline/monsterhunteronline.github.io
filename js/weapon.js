@@ -4,15 +4,15 @@ var weaponStageArray = weaponStageArray.result.rows;
 $(document).on('change', 'input#extraSharp', function() {
 	var arr = weaponArray;
 	if($("#extraSharp").is(':checked')){
-	    //console.log('checked');  // checked
-	    for(i = 0; i < arr.length; i ++) {
+		//console.log('checked');  // checked
+		for(i = 0; i < arr.length; i ++) {
 			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-cut-set').width(1000 / parseInt($('#id'+arr[i].data[0]).find('span.leaveBar').attr('data-i'), 10) + '%');
 			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-hav-set').width(99-1000 / parseInt($('#id'+arr[i].data[0]).find('span.leaveBar').attr('data-i'), 10) + '%');
 		}
 	}
 	else {
-	    //console.log('unchecked');  // unchecked
-	    for(i = 0; i < arr.length; i ++) {
+		//console.log('unchecked');  // unchecked
+		for(i = 0; i < arr.length; i ++) {
 			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-cut-set').width('0%');
 			$('#id'+arr[i].data[0]).find('span.leaveBar .oth-hav-set').width('100%');
 		}

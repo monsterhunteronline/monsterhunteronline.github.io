@@ -1,3 +1,4 @@
+//http://gamer.qq.com/mhocsvdata/getbytype?iType=22&iPageNum=0&iPageSize=50000000
 var catbookArray = 
 {
   "errCode": 0,

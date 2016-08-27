@@ -1,591 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <meta name="description" content="Information repository for Tencent/Capcom's Monster Hunter Online MMO. Provided for the Discord community by Reaver01">
-  <meta name="keywords" content="Discord, Monster Hunter Online, MHOnline, Tencent, CAPCOM, QQ, Hobby">
-  <meta name="author" content="Monster Hunter Online Wiki">
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <title>MHOnline - Armor</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<meta name="description" content="Information repository for Tencent/Capcom's Monster Hunter Online MMO. Provided for the Discord community by Reaver01">
+	<meta name="keywords" content="Discord, Monster Hunter Online, MHOnline, Tencent, CAPCOM, QQ, Hobby">
+	<meta name="author" content="Monster Hunter Online Wiki">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<title>MHOnline - Armor</title>
 <!--CSS-->
-  <link href="/css/icon.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="/css/icon.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div id="loadingMask" class="centered">
-    <div class="progress">
-      <div class="indeterminate"></div>
-    </div>
-  </div>
+	<div id="loadingMask" class="centered">
+		<div class="progress">
+			<div class="indeterminate"></div>
+		</div>
+	</div>
 <!--Dropdowns-->
-  <ul id="dropdownitems" class="dropdown-content">
-    <li><a href="/armor/">Armor</a></li>
-    <li><a href="/hunter-set/">Hunter Set</a></li>
-    <li><a href="/weapons/">Weapons</a></li>
-    <li><a href="/jewelry/">Jewelry</a></li>
-    <li><a href="/mosaics/">Mosaics</a></li>
-    <li><a href="/talismans/">Talismans</a></li>
-    <li><a href="/crafting/">Crafting</a></li>
-    <li><a href="/materials/">Materials</a></li>
-    <li class="divider"></li>
-  </ul>
-  <ul id="dropdownhunting" class="dropdown-content">
-    <li><a href="/quests/">Quests</a></li>
-    <li><a href="/monsters/">Monsters</a></li>
-    <li><a href="/gathering/">Gathering</a></li>
-    <li><a href="/hunting-groups/">Hunting Groups</a></li>
-  </ul>
-  <ul id="dropdownnpc" class="dropdown-content">
-    <li><a href="/npcs/">Main NPCs</a></li>
-    <li><a href="/cats/">Cats</a></li>
-    <li><a href="/food/">Food</a></li>
-  </ul>
-  <ul id="dropdownother" class="dropdown-content">
-    <li><a href="/install/">Install Guide</a></li>
-    <li><a href="/translation/">Translation Guide</a></li>
-    <li><a href="/vip/">VIP Guide</a></li>
-  </ul>
+	<ul id="dropdownitems" class="dropdown-content">
+		<li><a href="/armor/">Armor</a></li>
+		<li><a href="/hunter-set/">Hunter Set</a></li>
+		<li><a href="/weapons/">Weapons</a></li>
+		<li><a href="/jewelry/">Jewelry</a></li>
+		<li><a href="/mosaics/">Mosaics</a></li>
+		<li><a href="/talismans/">Talismans</a></li>
+		<li><a href="/crafting/">Crafting</a></li>
+		<li><a href="/materials/">Materials</a></li>
+		<li class="divider"></li>
+	</ul>
+	<ul id="dropdownhunting" class="dropdown-content">
+		<li><a href="/quests/">Quests</a></li>
+		<li><a href="/monsters/">Monsters</a></li>
+		<li><a href="/gathering/">Gathering</a></li>
+		<li><a href="/hunting-groups/">Hunting Groups</a></li>
+	</ul>
+	<ul id="dropdownnpc" class="dropdown-content">
+		<li><a href="/npcs/">Main NPCs</a></li>
+		<li><a href="/cats/">Cats</a></li>
+		<li><a href="/food/">Food</a></li>
+	</ul>
+	<ul id="dropdownother" class="dropdown-content">
+		<li><a href="/install/">Install Guide</a></li>
+		<li><a href="/translation/">Translation Guide</a></li>
+		<li><a href="/vip/">VIP Guide</a></li>
+	</ul>
 <!--Navigation-->
-  <nav class="blue" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="/images/logo.png" alt="MHOnline"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="/">Home</a></li>
-        <li><a href="/skills/">Skills</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdownother">Other<i class="material-icons right">arrow_drop_down</i></a></li>
-      </ul>
+	<nav class="blue" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="#" class="brand-logo"><img src="/images/logo.png" alt="MHOnline"></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="/">Home</a></li>
+				<li><a href="/skills/">Skills</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdownother">Other<i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
 <!--Mobile navigation-->
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="/" class="bold">Home</a></li>
-        <li><a href="/skills/" class="bold">Skills</a></li>
-        <li class="no-padding">
-          <ul class="collapsible" data-collapsible="accordion">
-            <li>
-            <a class="collapsible-header bold" href="#">Items</a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="/armor/">Armor</a></li>
-                <li><a href="/hunter-set/">Hunter Set</a></li>
-                <li><a href="/weapons/">Weapons</a></li>
-                <li><a href="/jewelry/">Jewelry</a></li>
-                <li><a href="/mosaics/">Mosaics</a></li>
-                <li><a href="/talismans/">Talismans</a></li>
-                <li><a href="/crafting/">Crafting</a></li>
-                <li><a href="/materials/">Materials</a></li><li class="divider"></li>
-              </ul>
-            </div>
-            </li>
-        </li>
-            <li>
-              <a class="collapsible-header bold" href="#">Hunting</a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="/quests/">Quests</a></li>
-                  <li><a href="/monsters/">Monsters</a></li>
-                  <li><a href="/gathering/">Gathering</a></li>
-                  <li><a href="/hunting-groups/">Hunting Groups</a></li>
-                </ul>
-              </div>
-            </li>
-        </li>
-            <li>
-              <a class="collapsible-header bold" href="#">NPCs</a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="/npcs/">Main NPCs</a></li>
-                  <li><a href="/cats/">Cats</a></li>
-                  <li><a href="/food/">Food</a></li>
-                </ul>
-              </div>
-            </li>
-        </li>
-            <li>
-              <a class="collapsible-header bold" href="#">Other</a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="/install/">Install Guide</a></li>
-                  <li><a href="/translation/">Translation Guide</a></li>
-                  <li><a href="/vip/">VIP Guide</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="/" class="bold">Home</a></li>
+				<li><a href="/skills/" class="bold">Skills</a></li>
+				<li class="no-padding">
+					<ul class="collapsible" data-collapsible="accordion">
+						<li>
+						<a class="collapsible-header bold" href="#">Items</a>
+						<div class="collapsible-body">
+							<ul>
+								<li><a href="/armor/">Armor</a></li>
+								<li><a href="/hunter-set/">Hunter Set</a></li>
+								<li><a href="/weapons/">Weapons</a></li>
+								<li><a href="/jewelry/">Jewelry</a></li>
+								<li><a href="/mosaics/">Mosaics</a></li>
+								<li><a href="/talismans/">Talismans</a></li>
+								<li><a href="/crafting/">Crafting</a></li>
+								<li><a href="/materials/">Materials</a></li><li class="divider"></li>
+							</ul>
+						</div>
+						</li>
+				</li>
+						<li>
+							<a class="collapsible-header bold" href="#">Hunting</a>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="/quests/">Quests</a></li>
+									<li><a href="/monsters/">Monsters</a></li>
+									<li><a href="/gathering/">Gathering</a></li>
+									<li><a href="/hunting-groups/">Hunting Groups</a></li>
+								</ul>
+							</div>
+						</li>
+				</li>
+						<li>
+							<a class="collapsible-header bold" href="#">NPCs</a>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="/npcs/">Main NPCs</a></li>
+									<li><a href="/cats/">Cats</a></li>
+									<li><a href="/food/">Food</a></li>
+								</ul>
+							</div>
+						</li>
+				</li>
+						<li>
+							<a class="collapsible-header bold" href="#">Other</a>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="/install/">Install Guide</a></li>
+									<li><a href="/translation/">Translation Guide</a></li>
+									<li><a href="/vip/">VIP Guide</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
 <!--Page container-->
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container">
+			<br><br>
 <!--Content-->
 <ul class="collapsible white" data-collapsible="expandable">
 <li>
-  <div class="collapsible-header white">Set Builder</div>
-    <div class="collapsible-body white">
-      <div class="card z-depth-0">
-        <div id="typecolor" class="card-content">
+	<div class="collapsible-header white">Set Builder</div>
+		<div class="collapsible-body white">
+			<div class="card z-depth-0">
+				<div id="typecolor" class="card-content">
 <!--Weapon-->
-          <div class="row white">
-            <div class="col s1">
-              <div id="weaponImg"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="weapon"><a onclick="removeAll();">Clear</a></div>
-            <div class="col s12 m8" id="weaponSkills"></div>
-          </div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="weaponImg"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="weapon"><a onclick="removeAll();">Clear</a></div>
+						<div class="col s12 m8" id="weaponSkills"></div>
+					</div>
 <!--Armor-->
-          <div class="row white">
-            <div class="col s1">
-              <div id="helmetImg"></div>
-              <div id="helmetMosaic"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="helmet">No Helmet</div>
-            <div class="col s12 m8">
-              <span id="helmetSkills"></span>
-              <br>
-              <span id="mosaic1Img"></span>
-              <span id="mosaic1Skills"></span>
-              <span id="mosaic2Img"></span>
-              <span id="mosaic2Skills"></span>
-              <span id="mosaic3Img"></span>
-              <span id="mosaic3Skills"></span>
-            </div>
-          </div>
-          <div class="row white">
-            <div class="col s1">
-              <div id="vambracesImg"></div>
-              <div id="vambracesMosaic"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="vambraces">No Vambraces</div>
-            <div class="col s12 m8">
-              <span id="vambracesSkills"></span>
-              <br>
-              <span id="mosaic4Img"></span>
-              <span id="mosaic4Skills"></span>
-              <span id="mosaic5Img"></span>
-              <span id="mosaic5Skills"></span>
-              <span id="mosaic6Img"></span>
-              <span id="mosaic6Skills"></span>
-            </div>
-          </div>
-          <div class="row white">
-            <div class="col s1">
-              <div id="armorImg"></div>
-              <div id="armorMosaic"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="armor">No Armor</div>
-            <div class="col s12 m8">
-              <span id="armorSkills"></span>
-              <br>
-              <span id="mosaic7Img"></span>
-              <span id="mosaic7Skills"></span>
-              <span id="mosaic8Img"></span>
-              <span id="mosaic8Skills"></span>
-              <span id="mosaic9Img"></span>
-              <span id="mosaic9Skills"></span>
-            </div>
-          </div>
-          <div class="row white">
-            <div class="col s1">
-              <div id="waistImg"></div>
-              <div id="waistMosaic"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="waist">No Waist</div>
-            <div class="col s12 m8">
-              <span id="waistSkills"></span>
-              <br>
-              <span id="mosaic10Img"></span>
-              <span id="mosaic10Skills"></span>
-              <span id="mosaic11Img"></span>
-              <span id="mosaic11Skills"></span>
-              <span id="mosaic12Img"></span>
-              <span id="mosaic12Skills"></span>
-            </div>
-          </div>
-          <div class="row white">
-            <div class="col s1">
-              <div id="greavesImg"></div>
-              <div id="greavesMosaic"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="greaves">No Greaves</div>
-            <div class="col s12 m8">
-              <span id="greavesSkills"></span>
-              <br>
-              <span id="mosaic13Img"></span>
-              <span id="mosaic13Skills"></span>
-              <span id="mosaic14Img"></span>
-              <span id="mosaic14Skills"></span>
-              <span id="mosaic15Img"></span>
-              <span id="mosaic15Skills"></span>
-            </div>
-          </div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="helmetImg"></div>
+							<div id="helmetMosaic"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="helmet">No Helmet</div>
+						<div class="col s12 m8">
+							<span id="helmetSkills"></span>
+							<br>
+							<span id="mosaic1Img"></span>
+							<span id="mosaic1Skills"></span>
+							<span id="mosaic2Img"></span>
+							<span id="mosaic2Skills"></span>
+							<span id="mosaic3Img"></span>
+							<span id="mosaic3Skills"></span>
+						</div>
+					</div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="vambracesImg"></div>
+							<div id="vambracesMosaic"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="vambraces">No Vambraces</div>
+						<div class="col s12 m8">
+							<span id="vambracesSkills"></span>
+							<br>
+							<span id="mosaic4Img"></span>
+							<span id="mosaic4Skills"></span>
+							<span id="mosaic5Img"></span>
+							<span id="mosaic5Skills"></span>
+							<span id="mosaic6Img"></span>
+							<span id="mosaic6Skills"></span>
+						</div>
+					</div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="armorImg"></div>
+							<div id="armorMosaic"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="armor">No Armor</div>
+						<div class="col s12 m8">
+							<span id="armorSkills"></span>
+							<br>
+							<span id="mosaic7Img"></span>
+							<span id="mosaic7Skills"></span>
+							<span id="mosaic8Img"></span>
+							<span id="mosaic8Skills"></span>
+							<span id="mosaic9Img"></span>
+							<span id="mosaic9Skills"></span>
+						</div>
+					</div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="waistImg"></div>
+							<div id="waistMosaic"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="waist">No Waist</div>
+						<div class="col s12 m8">
+							<span id="waistSkills"></span>
+							<br>
+							<span id="mosaic10Img"></span>
+							<span id="mosaic10Skills"></span>
+							<span id="mosaic11Img"></span>
+							<span id="mosaic11Skills"></span>
+							<span id="mosaic12Img"></span>
+							<span id="mosaic12Skills"></span>
+						</div>
+					</div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="greavesImg"></div>
+							<div id="greavesMosaic"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="greaves">No Greaves</div>
+						<div class="col s12 m8">
+							<span id="greavesSkills"></span>
+							<br>
+							<span id="mosaic13Img"></span>
+							<span id="mosaic13Skills"></span>
+							<span id="mosaic14Img"></span>
+							<span id="mosaic14Skills"></span>
+							<span id="mosaic15Img"></span>
+							<span id="mosaic15Skills"></span>
+						</div>
+					</div>
 <!--Jewelry-->
-          <div class="row white">
-            <div class="col s1">
-              <div id="necklaceImg"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="necklace">No Necklace</div>
-            <div class="col s12 m8" id="necklaceSkills"></div>
-          </div>
-          <div class="row white">
-            <div class="col s1">
-              <div id="ringImg"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="ring">No Ring</div>
-            <div class="col s12 m8" id="ringSkills"></div>
-          </div>
-          <div class="row white">
-            <div class="col s1">
-              <div id="talismanImg"></div>
-            </div>
-            <div class="col s1 hide-on-med-and-up">&nbsp;</div>
-            <div class="col s10 m3" id="talisman">No Talisman</div>
-            <div class="col s12 m8" id="talismanSkills"><span id="talismanSkills1"></span><span id="talismanSkills1Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills2"></span><span id="talismanSkills2Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills3"></span><span id="talismanSkills3Value"></span></div>
-          </div>
-          </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Skill</th>
-                    <th>Total</th>
-                    <th>Passive</th>
-                  </tr>
-                </thead>
-                <tbody id="skillTotals"></tbody>
-              </table>
-            </div>
-          </div>
-    </div>
-  </li>
-  <li>
-    <div class="collapsible-header white">Jewelry</div>
-    <div class="collapsible-body white">
-      
-      <div class="row">
-        <div class="input-field col s12 m6 l4">
-          <select class="icons" name="necklaceSelect" id="necklaceSelect">
-          </select>
-          <label>Necklaces</label>
-        </div>
-        <div class="input-field col s12 m6 l4">
-          <select class="icons" name="ringSelect" id="ringSelect">
-          </select>
-          <label>Rings</label>
-        </div>
-        <div class="input-field col s12 m12 l4">
-          <select class="icons" name="talismanSelect" id="talismanSelect">
-            <option value="" disabled selected>Talisman Type</option>
-          </select>
-          <label>Talismans</label>
-        </div>
-        <div class="input-field col s8 m4 l4">
-          <select name="talismanSkill1Select" id="talismanSkill1Select">
-          </select>
-          <label>Talisman Skill 1</label>
-        </div>
-        <div class="input-field col s4 m2 l2">
-          <select name="talismanSkill1vSelect" id="talismanSkill1vSelect">
-            <option value="" disabled selected>Skill 1 Value</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-          </select>
-          <label>Talisman Skill 1 Value</label>
-        </div>
-        <div class="input-field col s8 m4 l4">
-          <select name="talismanSkill2Select" id="talismanSkill2Select">
-          </select>
-          <label>Talisman Skill 2</label>
-        </div>
-        <div class="input-field col s4 m2 l2">
-          <select name="talismanSkill2vSelect" id="talismanSkill2vSelect">
-            <option value="" disabled selected>Skill 2 Value</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-          </select>
-          <label>Talisman Skill 2 Value</label>
-        </div>
-        <div class="input-field col s8 m4 l4">
-          <select name="talismanSkill3Select" id="talismanSkill3Select">
-          </select>
-          <label>Talisman Skill 3</label>
-        </div>
-        <div class="input-field col s4 m2 l2">
-          <select name="talismanSkill3vSelect" id="talismanSkill3vSelect">
-            <option value="" disabled selected>Skill 3 Value</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-          </select>
-          <label>Talisman Skill 3 Value</label>
-        </div>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="collapsible-header white">Mosaics</div>
-    <div class="collapsible-body white">
-      <div class="row">
-        <div class="input-field col s12 m6 l4" id="helmetMosaic1">
-          <select class="icons" name="mosaic1Select1" id="mosaic1Select1">
-          </select>
-          <label>Helm Mosaic 1</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="helmetMosaic2">
-          <select class="icons" name="mosaic1Select2" id="mosaic1Select2">
-          </select>
-          <label>Helm Mosaic 2</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="helmetMosaic3">
-          <select class="icons" name="mosaic1Select3" id="mosaic1Select3">
-          </select>
-          <label>Helm Mosaic 3</label>
-        </div>
-      </div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="necklaceImg"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="necklace">No Necklace</div>
+						<div class="col s12 m8" id="necklaceSkills"></div>
+					</div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="ringImg"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="ring">No Ring</div>
+						<div class="col s12 m8" id="ringSkills"></div>
+					</div>
+					<div class="row white">
+						<div class="col s1">
+							<div id="talismanImg"></div>
+						</div>
+						<div class="col s1 hide-on-med-and-up">&nbsp;</div>
+						<div class="col s10 m3" id="talisman">No Talisman</div>
+						<div class="col s12 m8" id="talismanSkills"><span id="talismanSkills1"></span><span id="talismanSkills1Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills2"></span><span id="talismanSkills2Value"></span>&nbsp;&nbsp;&nbsp;<span id="talismanSkills3"></span><span id="talismanSkills3Value"></span></div>
+					</div>
+					</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<table>
+								<thead>
+									<tr>
+										<th>Skill</th>
+										<th>Total</th>
+										<th>Passive</th>
+									</tr>
+								</thead>
+								<tbody id="skillTotals"></tbody>
+							</table>
+						</div>
+					</div>
+		</div>
+	</li>
+	<li>
+		<div class="collapsible-header white">Jewelry</div>
+		<div class="collapsible-body white">
+			
+			<div class="row">
+				<div class="input-field col s12 m6 l4">
+					<select class="icons" name="necklaceSelect" id="necklaceSelect">
+					</select>
+					<label>Necklaces</label>
+				</div>
+				<div class="input-field col s12 m6 l4">
+					<select class="icons" name="ringSelect" id="ringSelect">
+					</select>
+					<label>Rings</label>
+				</div>
+				<div class="input-field col s12 m12 l4">
+					<select class="icons" name="talismanSelect" id="talismanSelect">
+						<option value="" disabled selected>Talisman Type</option>
+					</select>
+					<label>Talismans</label>
+				</div>
+				<div class="input-field col s8 m4 l4">
+					<select name="talismanSkill1Select" id="talismanSkill1Select">
+					</select>
+					<label>Talisman Skill 1</label>
+				</div>
+				<div class="input-field col s4 m2 l2">
+					<select name="talismanSkill1vSelect" id="talismanSkill1vSelect">
+						<option value="" disabled selected>Skill 1 Value</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					<label>Talisman Skill 1 Value</label>
+				</div>
+				<div class="input-field col s8 m4 l4">
+					<select name="talismanSkill2Select" id="talismanSkill2Select">
+					</select>
+					<label>Talisman Skill 2</label>
+				</div>
+				<div class="input-field col s4 m2 l2">
+					<select name="talismanSkill2vSelect" id="talismanSkill2vSelect">
+						<option value="" disabled selected>Skill 2 Value</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					<label>Talisman Skill 2 Value</label>
+				</div>
+				<div class="input-field col s8 m4 l4">
+					<select name="talismanSkill3Select" id="talismanSkill3Select">
+					</select>
+					<label>Talisman Skill 3</label>
+				</div>
+				<div class="input-field col s4 m2 l2">
+					<select name="talismanSkill3vSelect" id="talismanSkill3vSelect">
+						<option value="" disabled selected>Skill 3 Value</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					<label>Talisman Skill 3 Value</label>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="collapsible-header white">Mosaics</div>
+		<div class="collapsible-body white">
+			<div class="row">
+				<div class="input-field col s12 m6 l4" id="helmetMosaic1">
+					<select class="icons" name="mosaic1Select1" id="mosaic1Select1">
+					</select>
+					<label>Helm Mosaic 1</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="helmetMosaic2">
+					<select class="icons" name="mosaic1Select2" id="mosaic1Select2">
+					</select>
+					<label>Helm Mosaic 2</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="helmetMosaic3">
+					<select class="icons" name="mosaic1Select3" id="mosaic1Select3">
+					</select>
+					<label>Helm Mosaic 3</label>
+				</div>
+			</div>
 
 
-      <div class="row">
-        <div class="input-field col s12 m6 l4" id="vambracesMosaic1">
-          <select class="icons" name="mosaic2Select1" id="mosaic2Select1">
-          </select>
-          <label>Vambraces Mosaic 1</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="vambracesMosaic2">
-          <select class="icons" name="mosaic2Select2" id="mosaic2Select2">
-          </select>
-          <label>Vambraces Mosaic 2</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="vambracesMosaic3">
-          <select class="icons" name="mosaic2Select3" id="mosaic2Select3">
-          </select>
-          <label>Vambraces Mosaic 3</label>
-        </div>
-      </div>
+			<div class="row">
+				<div class="input-field col s12 m6 l4" id="vambracesMosaic1">
+					<select class="icons" name="mosaic2Select1" id="mosaic2Select1">
+					</select>
+					<label>Vambraces Mosaic 1</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="vambracesMosaic2">
+					<select class="icons" name="mosaic2Select2" id="mosaic2Select2">
+					</select>
+					<label>Vambraces Mosaic 2</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="vambracesMosaic3">
+					<select class="icons" name="mosaic2Select3" id="mosaic2Select3">
+					</select>
+					<label>Vambraces Mosaic 3</label>
+				</div>
+			</div>
 
 
-      <div class="row">
-        <div class="input-field col s12 m6 l4" id="armorMosaic1">
-          <select class="icons" name="mosaic3Select1" id="mosaic3Select1">
-          </select>
-          <label>Armor Mosaic 1</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="armorMosaic2">
-          <select class="icons" name="mosaic3Select2" id="mosaic3Select2">
-          </select>
-          <label>Armor Mosaic 2</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="armorMosaic3">
-          <select class="icons" name="mosaic3Select3" id="mosaic3Select3">
-          </select>
-          <label>Armor Mosaic 3</label>
-        </div>
-      </div>
+			<div class="row">
+				<div class="input-field col s12 m6 l4" id="armorMosaic1">
+					<select class="icons" name="mosaic3Select1" id="mosaic3Select1">
+					</select>
+					<label>Armor Mosaic 1</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="armorMosaic2">
+					<select class="icons" name="mosaic3Select2" id="mosaic3Select2">
+					</select>
+					<label>Armor Mosaic 2</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="armorMosaic3">
+					<select class="icons" name="mosaic3Select3" id="mosaic3Select3">
+					</select>
+					<label>Armor Mosaic 3</label>
+				</div>
+			</div>
 
 
-      <div class="row">
-        <div class="input-field col s12 m6 l4" id="waistMosaic1">
-          <select class="icons" name="mosaic4Select1" id="mosaic4Select1">
-          </select>
-          <label>Waist Mosaic 1</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="waistMosaic2">
-          <select class="icons" name="mosaic4Select2" id="mosaic4Select2">
-          </select>
-          <label>Waist Mosaic 2</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="waistMosaic3">
-          <select class="icons" name="mosaic4Select3" id="mosaic4Select3">
-          </select>
-          <label>Waist Mosaic 3</label>
-        </div>
-      </div>
+			<div class="row">
+				<div class="input-field col s12 m6 l4" id="waistMosaic1">
+					<select class="icons" name="mosaic4Select1" id="mosaic4Select1">
+					</select>
+					<label>Waist Mosaic 1</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="waistMosaic2">
+					<select class="icons" name="mosaic4Select2" id="mosaic4Select2">
+					</select>
+					<label>Waist Mosaic 2</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="waistMosaic3">
+					<select class="icons" name="mosaic4Select3" id="mosaic4Select3">
+					</select>
+					<label>Waist Mosaic 3</label>
+				</div>
+			</div>
 
 
-      <div class="row">
-        <div class="input-field col s12 m6 l4" id="greavesMosaic1">
-          <select class="icons" name="mosaic5Select1" id="mosaic5Select1">
-          </select>
-          <label>Greaves Mosaic 1</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="greavesMosaic2">
-          <select class="icons" name="mosaic5Select2" id="mosaic5Select2">
-          </select>
-          <label>Greaves Mosaic 2</label>
-        </div>
-        <div class="input-field col s12 m6 l4" id="greavesMosaic3">
-          <select class="icons" name="mosaic5Select3" id="mosaic5Select3">
-          </select>
-          <label>Greaves Mosaic 3</label>
-        </div>
-      </div>
+			<div class="row">
+				<div class="input-field col s12 m6 l4" id="greavesMosaic1">
+					<select class="icons" name="mosaic5Select1" id="mosaic5Select1">
+					</select>
+					<label>Greaves Mosaic 1</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="greavesMosaic2">
+					<select class="icons" name="mosaic5Select2" id="mosaic5Select2">
+					</select>
+					<label>Greaves Mosaic 2</label>
+				</div>
+				<div class="input-field col s12 m6 l4" id="greavesMosaic3">
+					<select class="icons" name="mosaic5Select3" id="mosaic5Select3">
+					</select>
+					<label>Greaves Mosaic 3</label>
+				</div>
+			</div>
 
-    </div>
-  </li>
+		</div>
+	</li>
 </ul>
-      <div class="row">
-        <div class="col s12">
-          <label>Search Armors</label>
-          <input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
-          <input type="button" id="button" value="Search Armors"></input>
-          <input type="button" id="blademaster" value="Blademaster"></input>
-          <input type="button" id="gunner" value="Gunner"></input>
-          <input type="button" id="both" value="Both"></input>
-          <input type="button" id="clear" value="Clear"></input>
-        </div>
-      </div>
-      <ul id="armorlist" class="collapsible" data-collapsible="expandable">
-      </ul>
-      <br><br>
-    </div>
-  </div>
+			<div class="row">
+				<div class="col s12">
+					<label>Search Armors</label>
+					<input placeholder="Armor Name or Skill" type="text" id="inputText"></input>
+					<input type="button" id="button" value="Search Armors"></input>
+					<input type="button" id="blademaster" value="Blademaster"></input>
+					<input type="button" id="gunner" value="Gunner"></input>
+					<input type="button" id="both" value="Both"></input>
+					<input type="button" id="clear" value="Clear"></input>
+				</div>
+			</div>
+			<ul id="armorlist" class="collapsible" data-collapsible="expandable">
+			</ul>
+			<br><br>
+		</div>
+	</div>
 <!--Spacer-->
-  <div class="container">
-    <div class="section">
-    <p><a href="http://gamer.qq.com/p/resource/armor/iProductID/39" target="_blank">Info gathered from here</a></p>
-    </div>
-    <br><br>
-    <div class="section">
-    </div>
-  </div>
+	<div class="container">
+		<div class="section">
+		<p><a href="http://gamer.qq.com/p/resource/armor/iProductID/39" target="_blank">Info gathered from here</a></p>
+		</div>
+		<br><br>
+		<div class="section">
+		</div>
+	</div>
 <!--Footer-->
-  <footer class="page-footer light-blue lighten-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Site Info</h5>
-          <p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
-          <script language="javascript"> 
-            months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
-            var d=new Date();
-            var weekday=new Array(7);
-            weekday[0]="Sunday";
-            weekday[1]="Monday";
-            weekday[2]="Tuesday";
-            weekday[3]="Wednesday";
-            weekday[4]="Thursday";
-            weekday[5]="Friday";
-            weekday[6]="Saturday";
+	<footer class="page-footer light-blue lighten-2">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Site Info</h5>
+					<p class="grey-text text-lighten-4">This site is paid for and maintained by @Reaver01.  If you would like to contribute to the development of this site, you can make a donation, or message me on our Discord channel.</p>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="CRDPXKLXJTTY2">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+					<script language="javascript"> 
+						months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+						var d=new Date();
+						var weekday=new Array(7);
+						weekday[0]="Sunday";
+						weekday[1]="Monday";
+						weekday[2]="Tuesday";
+						weekday[3]="Wednesday";
+						weekday[4]="Thursday";
+						weekday[5]="Friday";
+						weekday[6]="Saturday";
 
-            var d = new Date();
-            (d.getFullYear());
+						var d = new Date();
+						(d.getFullYear());
 
-            var theDate = new Date(document.lastModified); 
-            theDate.setTime((theDate.getTime()+(60*60)) ) 
-            with (theDate) { 
-            document.write("<i class='white-text'>Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+" GMT</i>") 
-            } 
-            </script>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Other</h5>
-          <ul>
-            <li><a class="white-text" href="http://www.kogath.com/TeamHD/">TeamHD Patch Site</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Discord</h5>
-          <ul>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
-            <li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
-  <!--Scripts-->
-  <script src="/js/jquery-2.1.1.min.js"></script>
-  <script src="/js/materialize.js"></script>
-  <script src="/js/json/armor.js"></script>
-  <script src="/js/json/skills.js"></script>
-  <script src="/js/json/jewelry.js"></script>
-  <script src="/js/json/mosaics.js"></script>
-  <script src="/js/armormosaics.js"></script>
-  <script src="/js/json/necklace.js"></script>
-  <script src="/js/json/ring.js"></script>
-  <script src="/js/json/talismans.js"></script>
-  <script src="/js/translate.js"></script>
-  <script src="/js/armor.js"></script>
-  <script src="/js/armorset.js"></script>
-  <script src="/js/url.js"></script>
-  <script src="/js/init.js"></script>
-  </body>
+						var theDate = new Date(document.lastModified); 
+						theDate.setTime((theDate.getTime()+(60*60)) ) 
+						with (theDate) { 
+						document.write("<i class='white-text'>Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+" GMT</i>") 
+						} 
+						</script>
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Other</h5>
+					<ul>
+						<li><a class="white-text" href="http://www.kogath.com/TeamHD/">TeamHD Patch Site</a></li>
+					</ul>
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Discord</h5>
+					<ul>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFJfKJEm">#newsupdate</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFLryNm6">#faq</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFJDbIsh">#mhodiscussion</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFJEjyOT">#raid-search</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFMmU5h7">#help</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFJ30fhg">#off-topic</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFJFX0Rg">#hello-world</a></li>
+						<li><a class="white-text" href="https://discord.gg/0gQrOfuthFJpYd7H">#gatheringhall</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Made by @Reaver01 with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+			</div>
+		</div>
+	</footer>
+	<!--Scripts-->
+	<script src="/js/jquery-2.1.1.min.js"></script>
+	<script src="/js/materialize.js"></script>
+	<script src="/js/json/armor.js"></script>
+	<script src="/js/json/skills.js"></script>
+	<script src="/js/json/jewelry.js"></script>
+	<script src="/js/json/mosaics.js"></script>
+	<script src="/js/armormosaics.js"></script>
+	<script src="/js/json/necklace.js"></script>
+	<script src="/js/json/ring.js"></script>
+	<script src="/js/json/talismans.js"></script>
+	<script src="/js/translate.js"></script>
+	<script src="/js/armor.js"></script>
+	<script src="/js/armorset.js"></script>
+	<script src="/js/url.js"></script>
+	<script src="/js/init.js"></script>
+	</body>
 </html>

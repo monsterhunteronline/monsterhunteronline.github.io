@@ -1,3 +1,4 @@
+//http://gamer.qq.com/mhocsvdata/getbytype?iType=27&iPageNum=0&iPageSize=50000000
 var weaponStageArray = 
 {
   "errCode": 0,
