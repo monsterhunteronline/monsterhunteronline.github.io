@@ -49,8 +49,8 @@ function weaponjs() {
 				'<tr class="white-text no'+stages[a].data[15]+'"><td><a href="/materials/?search='+translate(stages[a].data[15])+'" target="_blank">'+translate(stages[a].data[15])+'</a> x'+stages[a].data[14]+'</td></tr>'+
 				'<tr class="white-text no'+stages[a].data[18]+'"><td><a href="/materials/?search='+translate(stages[a].data[18])+'" target="_blank">'+translate(stages[a].data[18])+'</a> x'+stages[a].data[17]+'</td></tr>'+
 				'<tr class="white-text no'+stages[a].data[21]+'"><td><a href="/materials/?search='+translate(stages[a].data[21])+'" target="_blank">'+translate(stages[a].data[21])+'</a> x'+stages[a].data[20]+'</td></tr>'+
-				'<tr class="white-text no'+stages[a].data[26]+'"><td><a href="/materials/?search='+translate(stages[a].data[26])+'" target="_blank">'+translate(stages[a].data[26])+'</a> x'+stages[a].data[27]+'</td></tr>'+
-				'<tr class="white-text no'+stages[a].data[29]+'"><td><a href="/materials/?search='+translate(stages[a].data[26])+'" target="_blank">'+translate(stages[a].data[29])+'</a> x'+stages[a].data[30]+'</td></tr>'+
+				'<tr class="white-text no'+stages[a].data[26]+'"><td>'+translate(stages[a].data[26])+' x'+stages[a].data[27]+'</td></tr>'+
+				'<tr class="white-text no'+stages[a].data[29]+'"><td>'+translate(stages[a].data[29])+' x'+stages[a].data[30]+'</td></tr>'+
 				'</table>';
 			}
 				stagesOut += '</div></td></tr>'; //<tr><td><a>&#60;&#60;&#60;&#60;</a></td><td><a>&#62;&#62;&#62;&#62;</a></td></tr>';
