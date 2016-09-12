@@ -1,5 +1,5 @@
 var page = "mosaic";
-mosaicArray = mosaicArray.results.rows;
+mosaicArray = mosaicArray.result.rows;
 function mosaicjs() {
 	var url = getUrlParameter('search');
 	if (typeof url !== 'undefined') {
