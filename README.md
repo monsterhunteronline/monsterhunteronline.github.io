@@ -10,6 +10,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [ ] Make Jewelry page not suck as bad and add tutorials for necklace/rings
 - [ ] Fix Crafting page
 - [ ] Update Cats page to include new cat types and colors
+- [ ] Fix icons for weapon talents. Done: Bow, HH, Hammer
 
 ##Needs Updated
 - [ ] The Quest Section need Pictures of new Elites and Story Chapters after Chapter 25 added.
