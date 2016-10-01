@@ -733,6 +733,8 @@ var translations = {
 	"燎渊龙素材":"Burning Tartaronis Materials",
 	"古龙种素材":"Elder Dragon Materials",
 	"鱼龙种素材":"Piscine Wyvern Materials",
+	"熔岩龙素材":"Lavasioth Materials",
+	"铠龙素材":"Gravios Materials",
 
 	"nl一角龙":"Monoblos",
 	"nl冰雷鸟":"Ice Chramine",
