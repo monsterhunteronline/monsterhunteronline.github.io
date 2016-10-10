@@ -692,6 +692,7 @@ var translations = {
 	"金狮子":"<a href='/monsters/rajang/' target='_blank'>Rajang</a>",
 	"金眠鸟":"<a href='/monsters/gold-hypnocatrice/' target='_blank'>Gold Hypnocatrice</a>",
 	"钢龙":"<a href='/monsters/kushala-daora/' target='_blank'>Kushala Daora</a>",
+	"锈钢龙":"<a href='/monsters/rusted-kushala-daora/' target='_blank'>Rusted Kushala Daora</a>",
 	"铠岩砦蟹":"<a href='/monsters/tepekki-shen-gaoren/' target='_blank'>Tepekki Shen Gaoren</a>",
 	"铠龙":"<a href='/monsters/gravios/' target='_blank'>Gravios</a>",
 	"银眠鸟":"<a href='/monsters/silver-hypnocatrice/' target='_blank'>Silver Hypnocatrice</a>",
@@ -794,6 +795,7 @@ var translations = {
 	"nl金狮子":"Rajang",
 	"nl金眠鸟":"Gold Hypnocatrice",
 	"nl钢龙":"Kushala Daora",
+	"nl锈钢龙":"Rusted Kushala Daora",
 	"nl铠岩砦蟹":"Tepekki Shen Gaoren",
 	"nl铠龙":"Gravios",
 	"nl银眠鸟":"Silver Hypnocatrice",
@@ -840,6 +842,7 @@ var translations = {
 	"躯干（本体/胴体）":"Torso (Body/Carcass)",
 	"面部":"Face",
 	"颈部":"Neck",
+	"爪":"Claw",
 
 	"50级以上古龙征伐":"Lvl 50 Large Monster Conquests",
 	"50级以上王立委托、王立精英委托":"Lvl 50 Large Monster Conquests, HR Elite Hunting",
