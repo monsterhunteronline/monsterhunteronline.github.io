@@ -855,6 +855,7 @@ var translations = {
 	"王立委托，王立精英委托":"HR Hunting, HR Elite Hunting",
 	"王立委托，王立精英，极限":"HR Hunting, HR Elite, Limit Mode",
 	"王立精英委托":"HR Elite Hunting",
+	"燎渊龙(大规模紧急讨伐)":"Inferno Abyss(Raid)",
 
 	"KO术、上弹速度强化+1、挑衅":"KO King，Reload Spd +1，Taunt",
 	"KO术、散弹/矢强化、挑衅":"KO King，Pellet/Spread Up，Taunt",
