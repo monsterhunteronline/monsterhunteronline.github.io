@@ -25,6 +25,14 @@ elderDragonArray = [
 },
 {
 	"data": [
+		"Rusted Kushala Daora",
+		"rusted-kushala-daora",
+		"kushaladora2.png",
+		"锈钢龙"
+	]
+},
+{
+	"data": [
 		"Merphistophelin",
 		"merphistophelin",
 		"merphistophelin.png",
@@ -81,6 +89,14 @@ carapaceArray = [
 		"daimyo-hermitaur",
 		"daimyohermitaur.png",
 		"大名盾蟹"
+	]
+},
+{
+	"data": [
+		"GonnGenn Hermitaur",
+		"gonngenn-hermitaur",
+		"gonngennhermitaur.png",
+		"葵盾蟹"
 	]
 },
 {

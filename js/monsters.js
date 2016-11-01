@@ -1,4 +1,5 @@
 var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up", "grade"];
+var weaknessArray = weaknessArray.result.rows;
 var page = "monsters";
 function monsterjs() {
 	filtered = [];
@@ -59,5 +60,5 @@ function monsterjs() {
 		'<td><i class="weak'+arr[0].data[20]+' material-icons flow-text">'+materialIcons[arr[0].data[20]]+'</i></td>'+
 	'</tr>';
 	document.getElementById("monster2").innerHTML = out;
-	document.getElementById("monster3").innerHTML = arr[0].data[19];
+	document.getElementById("monster3").innerHTML = translate(arr[0].data[19]);
 }

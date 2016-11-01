@@ -843,6 +843,9 @@ var translations = {
 	"面部":"Face",
 	"颈部":"Neck",
 	"爪":"Claw",
+	"前左右手":"Front Hands",
+	"后左右脚":"Rear Feet",
+	"尾":"Tail",
 
 	"50级以上古龙征伐":"Lvl 50 Large Monster Conquests",
 	"50级以上王立委托、王立精英委托":"Lvl 50 Large Monster Conquests, HR Elite Hunting",

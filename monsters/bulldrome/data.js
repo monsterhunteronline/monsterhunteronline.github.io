@@ -1,10 +1,15 @@
-var weaknessArray = [
+var weaknessArray = 
+{
+  "errCode": 0,
+  "msg": "success",
+  "result": {
+    "rows": [
       {
         "iID": "8000001",
         "data": [
           "8000001",
           "大野猪王",
-          "Whole Body",
+          "全身",
           "4",
           "4",
           "4",
@@ -12,7 +17,7 @@ var weaknessArray = [
           "4",
           "4",
           "4",
-          "3",
+          "4",
           "3",
           "3",
           "3",
@@ -22,7 +27,11 @@ var weaknessArray = [
           "3",
           "0",
           "",
+          "0",
           "0"
         ]
       }
-        ];
+    ],
+    "total": 1
+  }
+};

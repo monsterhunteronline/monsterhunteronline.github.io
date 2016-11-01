@@ -1,4 +1,9 @@
-var weaknessArray = [
+var weaknessArray = 
+{
+  "errCode": 0,
+  "msg": "success",
+  "result": {
+    "rows": [
       {
         "iID": "8000591",
         "data": [
@@ -22,7 +27,7 @@ var weaknessArray = [
           "3",
           "0",
           "",
-          "3",
+          "0",
           "0"
         ]
       },
@@ -188,4 +193,7 @@ var weaknessArray = [
           "0"
         ]
       }
-];
+    ],
+    "total": 7
+  }
+};

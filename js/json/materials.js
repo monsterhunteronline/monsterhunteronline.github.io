@@ -2389,7 +2389,7 @@ var materialArray =
         "data": [
           "15189",
           "新月之头冠",
-          "<FONT COLOR=\"#6285C6\" >来源：沙龙王(王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">沙龙王的上等头冠，锐利无比，直接拿来做为刃来进行基本的攻击也不为过。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：沙龙王(王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">沙龙王的上等头冠，锐利无比，直接拿来做为刀刃来进行基本的攻击也不为过。</FONT>",
           "素材",
           "mat_head_09_YEL",
           "XYZTG",
@@ -3789,7 +3789,7 @@ var materialArray =
         "data": [
           "15396",
           "镰蟹的巨钳",
-          "<FONT COLOR=\"#6285C6\" >来源：将军镰蟹(王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">更为坚硬巨大的将军镰蟹大钳，非常锋利，一�两段。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：将军镰蟹(王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">更为坚硬巨大的将军镰蟹大钳，非常锋利，一刀两段。</FONT>",
           "素材",
           "mat_clamp_02",
           "LXDJQ",
@@ -4293,7 +4293,7 @@ var materialArray =
         "data": [
           "15465",
           "骇狩蛛的眼",
-          "<FONT COLOR=\"#6285C6\" >来源：骇狩蛛(大型怪物狩猎)</FONT><BR><BR><FONT COLOR=\"#C6B262\">骇狩蛛的眼�，特殊材质能用来打造装备。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：骇狩蛛(大型怪物狩猎)</FONT><BR><BR><FONT COLOR=\"#C6B262\">骇狩蛛的眼球，特殊材质能用来打造装备。</FONT>",
           "素材",
           "item_icon_73",
           "HZZDY",
@@ -5007,7 +5007,7 @@ var materialArray =
         "data": [
           "15555",
           "萎缩的眠袋",
-          "<FONT COLOR=\"#6285C6\" >来源：银眠鸟(大型怪物狩猎)</FONT><BR><BR><FONT COLOR=\"#C6B262\">存有银眠鸟能使怪物睡眠的物质的内�，能在危难时保护自己。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：银眠鸟(大型怪物狩猎)</FONT><BR><BR><FONT COLOR=\"#C6B262\">存有银眠鸟能使怪物睡眠的物质的内脏，能在危难时保护自己。</FONT>",
           "素材",
           "mat_visceral_02_GRY",
           "WSDMD",
@@ -8731,7 +8731,7 @@ var materialArray =
         "data": [
           "21018",
           "曼陀罗花",
-          "<FONT COLOR=\"#6285C6\" >来源：2、3级种子概率产出；直接种植曼陀罗花可产出；狩猎场采集。</FONT><BR><BR><FONT COLOR=\"#C6B262\">据说会夺取人生命的植物，��常危险。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：2、3级种子概率产出；直接种植曼陀罗花可产出；狩猎场采集。</FONT><BR><BR><FONT COLOR=\"#C6B262\">据说会夺取人生命的植物，非常危险。</FONT>",
           "素材",
           "prop_herbs_11",
           "MTLH",
@@ -10957,7 +10957,7 @@ var materialArray =
         "data": [
           "21287",
           "雌火龙的翼膜",
-          "<FONT COLOR=\"#6285C6\" >来源：雌火龙(大型怪物狩猎挑战难度、王立委托、王立精英委托)</FONT><BR><FONT COLOR=\"#C6B262\">雌火龙的��膜，防音效果非常好，可以用来制作素材。</FONT><BR><FONT COLOR=\"#FF0000\" >可以制作：防音珠【3】</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：雌火龙(大型怪物狩猎挑战难度、王立委托、王立精英委托)</FONT><BR><FONT COLOR=\"#C6B262\">雌火龙的翼膜，防音效果非常好，可以用来制作素材。</FONT><BR><FONT COLOR=\"#FF0000\" >可以制作：防音珠【3】</FONT>",
           "素材",
           "mat_membrane_01_GRN",
           "",
@@ -11363,7 +11363,7 @@ var materialArray =
         "data": [
           "21397",
           "扩散金鱼",
-          "<FONT COLOR=\"#6285C6\" >来源：2级庄园鱼塘；20~39级狩猎场。</FONT><BR><BR><FONT COLOR=\"#C6B262\">死亡后会飞溅在各处的鱼，会很难收拾。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >来源：2级庄园鱼塘；20~39级狩猎场。</FONT><BR><BR><FONT COLOR=\"#C6B262\">死亡后会飞溅在各处的鱼，会很难收拾</FONT>",
           "素材",
           "prop_fish_05",
           "KSJY",
@@ -13589,7 +13589,7 @@ var materialArray =
         "data": [
           "22306",
           "熔岩龙的上鳞",
-          "<FONT COLOR=\"#6285C6\" >主要来源：熔�龙(大型怪物狩猎)</FONT><BR><BR><FONT COLOR=\"#C6B262\">熔岩龙的鳞片，剥下凝固的熔岩，可以看到闪着金光的鳞片。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >主要来源：熔岩龙(大型怪物狩猎)</FONT><BR><BR><FONT COLOR=\"#C6B262\">熔岩龙的鳞片，剥下凝固的熔岩，可以看到闪着金光的鳞片。</FONT>",
           "素材",
           "mat_scale_05",
           "",
@@ -15689,7 +15689,7 @@ var materialArray =
         "data": [
           "22456",
           "烈焰的体液",
-          "<FONT COLOR=\"#6285C6\" >主要来源：烈焰雌火龙(50级以上�立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">通过先进的剥取技术获得素材，容易着火的特性使得其加工起来非常困难。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >主要来源：烈焰雌火龙(50级以上王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">通过先进的剥取技术获得素材，容易着火的特性使得其加工起来非常困难。</FONT>",
           "素材",
           "prop_bone_07_grn",
           "",
@@ -15703,7 +15703,7 @@ var materialArray =
         "data": [
           "22457",
           "樱火龙的厚鳞",
-          "<FONT COLOR=\"#6285C6\" >主要来源：樱火龙(50级以上王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">飞龙种��火龙的厚重鳞片，硬度更高，是锻造和加工的首选素材。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >主要来源：樱火龙(50级以上王立委托、王立精英委托)</FONT><BR><BR><FONT COLOR=\"#C6B262\">飞龙种樱火龙的厚重鳞片，硬度更高，是锻造和加工的首选素材。</FONT>",
           "素材",
           "mat_scale_02_PINK",
           "",
@@ -17887,7 +17887,7 @@ var materialArray =
         "data": [
           "22755",
           "银岭之冠",
-          "<FONT COLOR=\"#6285C6\" >主要来源：锈钢龙(50级以上古龙征伐)</FONT><BR><BR><FONT COLOR=\"#C6B262\">在生锈鳞片下方等待光明的钢龙之角，清�的钢色光芒为大自然带来了丰饶。</FONT>",
+          "<FONT COLOR=\"#6285C6\" >主要来源：锈钢龙(50级以上古龙征伐)</FONT><BR><BR><FONT COLOR=\"#C6B262\">在生锈鳞片下方等待光明的钢龙之角，清澄的钢色光芒为大自然带来了丰饶。</FONT>",
           "素材",
           "mat_horn_01_BRN",
           "",
@@ -18109,4 +18109,4 @@ var materialArray =
     ],
     "total": 1293
   }
-}
+};

@@ -22,7 +22,7 @@ function monsternav() {
 	elderDragonArray[i].data[0]+
 	'">'+
 	elderDragonArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 
 	for(i = 0; i < beetleArray.length; i ++) {
@@ -37,7 +37,7 @@ function monsternav() {
 	beetleArray[i].data[0]+
 	'">'+
 	beetleArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	
 	for(i = 0; i < carapaceArray.length; i ++) {
@@ -52,7 +52,7 @@ function monsternav() {
 	carapaceArray[i].data[0]+
 	'">'+
 	carapaceArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	
 	for(i = 0; i < birdWyvernArray.length; i ++) {
@@ -67,7 +67,7 @@ function monsternav() {
 	birdWyvernArray[i].data[0]+
 	'">'+
 	birdWyvernArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	
 	for(i = 0; i < flyingWyvernArray.length; i ++) {
@@ -82,7 +82,7 @@ function monsternav() {
 	flyingWyvernArray[i].data[0]+
 	'">'+
 	flyingWyvernArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	
 	for(i = 0; i < fangedBeastArray.length; i ++) {
@@ -97,7 +97,7 @@ function monsternav() {
 	fangedBeastArray[i].data[0]+
 	'">'+
 	fangedBeastArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	
 	for(i = 0; i < piscineWyvernArray.length; i ++) {
@@ -112,7 +112,7 @@ function monsternav() {
 	piscineWyvernArray[i].data[0]+
 	'">'+
 	piscineWyvernArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	
 	for(i = 0; i < unknownArray.length; i ++) {
@@ -127,7 +127,7 @@ function monsternav() {
 	unknownArray[i].data[0]+
 	'">'+
 	unknownArray[i].data[3]+
-	'</div></a>'
+	'</div></a>';
 	}
 	document.getElementById("elderDragon").innerHTML = outED;
 	document.getElementById("beetle").innerHTML = outB;
@@ -137,4 +137,4 @@ function monsternav() {
 	document.getElementById("fangedBeast").innerHTML = outFB;
 	document.getElementById("piscineWyvern").innerHTML = outPW;
 	document.getElementById("unknown").innerHTML = outU;
-};
+}
