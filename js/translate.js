@@ -891,6 +891,7 @@ var translations = {
 	"第一阶段":"Stage 1",
 	"第二阶段":"Stage 2",
 	"第三阶段":"Stage 3",
+	"防御状态":"Defending State",
 
 	"50级以上古龙征伐":"Lvl 50 Large Monster Conquests",
 	"50级以上王立委托、王立精英委托":"Lvl 50 Large Monster Conquests, HR Elite Hunting",
