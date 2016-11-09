@@ -316,6 +316,8 @@ tr.nohide { display: none !important; border-collapse: collapse !important; }
 #greavesMosaic3 { display: none; }
 .stagesContainer { height: 150px; overflow-y: scroll; }
 tr.lvl90 td div div ul li img { opacity: 0.5; }
+tr.lvlmax td div div ul li img { opacity: 0.5; }
+tr.lvlblank { height: 32px !important; }
 .mosaicImage { height: 20px; width: 20px }
 ul.indicators { display: none !important; }
 li.indicator-item { display: none !important; }

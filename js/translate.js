@@ -894,7 +894,7 @@ var translations = {
 	"防御状态":"Defending State",
 
 	"50级以上古龙征伐":"Lvl 50 Large Monster Conquests",
-	"50级以上王立委托、王立精英委托":"Lvl 50 Large Monster Conquests, HR Elite Hunting",
+	"50级以上王立委托、王立精英委托":"Lvl 50 HR Hunting, HR Elite Hunting",
 	"大型怪物狩猎":"Large Monster Hunting",
 	"大型怪物狩猎、50级以上王立委托、王立精英委托":"Large Monster Hunting, Lvl 50 Large Monster Conquests, HR Elite Hunting",
 	"大型怪物狩猎挑战难度、王立委托、王立精英委托":"Large Monster Hunting Difficult Challenge, HR Hunting, HR Elite Hunting",
