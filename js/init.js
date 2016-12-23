@@ -37,9 +37,6 @@ var page;
 	if (page == "weapons2") {
 		skillbookjs();
 	}
-	if (page == "setsearch") {
-		setsearchjs();
-	}
 	if (page == "cats") {
 		catbookjs();
 	}
