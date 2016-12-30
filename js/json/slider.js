@@ -487,6 +487,14 @@ var sliderArray = [
 		"",
 		""
 		]
+	},
+	{
+	"data": [
+		"left",
+		"ss62.png",
+		"",
+		""
+		]
 	}
 ];
 function shuffle (array) {
