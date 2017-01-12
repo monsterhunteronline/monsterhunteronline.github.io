@@ -15,6 +15,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 ##Needs Updated
 - [ ] The Quest Section need Pictures of new Elites and Story Chapters after Chapter 25 added.
 - [ ] New Section or adding to a Section for the Weapon Rank Feature that got added latly. (Need maybe gather detailed info for it first just a sidenote).
+- [ ] With all the updates Tencent has been pushing, there isn't a lot that doesn't need updated at the moment.
 
 If you notice inaccuracies with the wiki please open an issue.
 
