@@ -36,6 +36,10 @@
 		</div>
 	</div>
 <!--Dropdowns-->
+	<ul id="dropdownskills" class="dropdown-content">
+		<li><a href="/skills/">Skills</a></li>
+		<li><a href="/weapon-stone/">Weapon Stone</a></li>
+	</ul>
 	<ul id="dropdownitems" class="dropdown-content">
 		<li><a href="/armor/">Armor</a></li>
 		<li><a href="/hunter-set/">Hunter Set</a></li>
@@ -45,7 +49,6 @@
 		<li><a href="/talismans/">Talismans</a></li>
 		<li><a href="/crafting/">Crafting</a></li>
 		<li><a href="/materials/">Materials</a></li>
-		<li class="divider"></li>
 	</ul>
 	<ul id="dropdownhunting" class="dropdown-content">
 		<li><a href="/quests/">Quests</a></li>
@@ -69,7 +72,7 @@
 			<a id="logo-container" href="#" class="brand-logo"><img src="/images/logo.png" alt="MHOnline"></a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="/">Home</a></li>
-				<li><a href="/skills/">Skills</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdownskills">Skills<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="#!" data-activates="dropdownitems">Items<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="#!" data-activates="dropdownhunting">Hunting<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="#!" data-activates="dropdownnpc">NPCs<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -78,25 +81,34 @@
 <!--Mobile navigation-->
 			<ul id="nav-mobile" class="side-nav">
 				<li><a href="/" class="bold">Home</a></li>
-				<li><a href="/skills/" class="bold">Skills</a></li>
 				<li class="no-padding">
 					<ul class="collapsible" data-collapsible="accordion">
 						<li>
-						<a class="collapsible-header bold" href="#">Items</a>
-						<div class="collapsible-body">
-							<ul>
-								<li><a href="/armor/">Armor</a></li>
-								<li><a href="/hunter-set/">Hunter Set</a></li>
-								<li><a href="/weapons/">Weapons</a></li>
-								<li><a href="/jewelry/">Jewelry</a></li>
-								<li><a href="/mosaics/">Mosaics</a></li>
-								<li><a href="/talismans/">Talismans</a></li>
-								<li><a href="/crafting/">Crafting</a></li>
-								<li><a href="/materials/">Materials</a></li><li class="divider"></li>
-							</ul>
-						</div>
+							<a class="collapsible-header bold" href="#">Skills</a>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="/skills/">Skills</a></li>
+									<li><a href="/weapon-stone/">Weapon Stone</a></li>
+								<li class="divider"></li>
+								</ul>
+							</div>
 						</li>
-				</li>
+						<li>
+							<a class="collapsible-header bold" href="#">Items</a>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="/armor/">Armor</a></li>
+									<li><a href="/hunter-set/">Hunter Set</a></li>
+									<li><a href="/weapons/">Weapons</a></li>
+									<li><a href="/jewelry/">Jewelry</a></li>
+									<li><a href="/mosaics/">Mosaics</a></li>
+									<li><a href="/talismans/">Talismans</a></li>
+									<li><a href="/crafting/">Crafting</a></li>
+									<li><a href="/materials/">Materials</a></li>
+									<li class="divider"></li>
+								</ul>
+							</div>
+						</li>
 						<li>
 							<a class="collapsible-header bold" href="#">Hunting</a>
 							<div class="collapsible-body">
@@ -105,10 +117,10 @@
 									<li><a href="/monsters/">Monsters</a></li>
 									<li><a href="/gathering/">Gathering</a></li>
 									<li><a href="/hunting-groups/">Hunting Groups</a></li>
+								<li class="divider"></li>
 								</ul>
 							</div>
 						</li>
-				</li>
 						<li>
 							<a class="collapsible-header bold" href="#">NPCs</a>
 							<div class="collapsible-body">
@@ -116,10 +128,10 @@
 									<li><a href="/npcs/">Main NPCs</a></li>
 									<li><a href="/cats/">Cats</a></li>
 									<li><a href="/food/">Food</a></li>
+								<li class="divider"></li>
 								</ul>
 							</div>
 						</li>
-				</li>
 						<li>
 							<a class="collapsible-header bold" href="#">Other</a>
 							<div class="collapsible-body">
@@ -127,6 +139,7 @@
 									<li><a href="/install/">Install Guide</a></li>
 									<li><a href="/translation/">Translation Guide</a></li>
 									<li><a href="/vip/">VIP Guide</a></li>
+								<li class="divider"></li>
 								</ul>
 							</div>
 						</li>
@@ -143,9 +156,34 @@
 <!--Content-->
 			<div class="card">
 				<div class="card-content">
+					<b>Setting up a QQ account</b><br>
+						<ol>
+						<li>
+							Go <a href="https://ssl.zc.qq.com/en/index.html">Here</a> to get to this screen. Fill out the form and click sign up
+							<img class="responsive-img" src="../images/install/QQguide1.PNG">
+							<br>
+							</li>
+						<li>
+							You will be taken to the phone verification screen (althought I have heard of lucky souls who skip this process)
+							<br>
+							Click on the red box to change the country for phone verification, then enter your phone to get the verification code via SMS
+							<br>
+							<img class="responsive-img" src="../images/install/QQguide2.PNG">
+							<br>
+							<img class="responsive-img" src="../images/install/QQguide3.PNG">
+							<br>
+							</li>
+						<li>
+							After the phone verification, you will get a verification email with a link in it. That will show you your QQ ID (it's completely made of numbers, and be sure to write it down or save it somewhere because finding it later can be a little convoluted)
+							</li>
+						<li>
+							Follow <a href="http://bns.mmosite.com/news/10232013/tencent_qq_account_identity_verification_guide.shtml">this guide</a> to verify your account as an 18 year+ (althought you can do this step latter, you won't be able to play the game without this step)
+							<br>
+							</li>
+						</ol>
+							
 					<b>Installation guide via TGP</b><br>
-					This guide assumes that you have already set up a QQ account.
-					<ol>
+						<ol>
 						<li>
 							Go <a href="http://tgp.qq.com" target="_blank">Here</a> and download TGP (Click the big blue button).
 							<br>
