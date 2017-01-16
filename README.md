@@ -18,6 +18,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [ ] Update NPC Page. Transfer reaver's npc thing. add description and location in clicky thingy.(http://imgur.com/a/8SPjW)
 - [ ] Update Cats page 
 - [ ] Finish Install Guide Screenshot Renovation
+- [ ] Auction House Guide
 - [ ] Initiate transfer of translated content with a Table of Contents for ease of access
 - [ ] Weapons Guide. Hariaka: HH Rest: Pending
 
