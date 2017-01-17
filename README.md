@@ -3,26 +3,31 @@ MHO Site for Discord http://monsterhunteronline.in
 
 The wiki is currently being hosted on github for easier updates and free hosting.  If there are too many issues with loading times I will switch back to namecheap.  Please pm me if you have any problems.
 
-##Current projects
+##Ongoing Projects
+- [x] N menu Updates (missing pictures and name translations)
+- [x] Update Cats page 
+
+##Priority Projects
+- [ ] Make a end game guide? new player guide?
 - [ ] Add Tutorials for necklace/rings
 - [ ] Update Talisman Section
 - [ ] Make a Weapon rank section
 - [ ] Make a Sitemap page
 - [ ] Make Jewelry page not suck as bad  
-- [x] Update Hunting > Ticket Section
-- [ ] Update Hunting > monster Section (replace with N menu?)
-- [x] Add note to Hunting > bounty about stacking bounties (6 max)
-- [x] Elaborate on benefits of unstable hunts and daily limit (hunting > unstable)
 - [ ] Redo/Remove Elite Monster section.
 - [ ] Expand Hunting > Raid section
 - [ ] Update NPC Page. Transfer reaver's npc thing. add description and location in clicky thingy.(http://imgur.com/a/8SPjW)
-- [ ] Update Cats page 
 - [ ] Finish Install Guide Screenshot Renovation
 - [ ] Auction House Guide
 - [ ] Initiate transfer of translated content with a Table of Contents for ease of access
 - [ ] Weapons Guide. Hariaka: HH Rest: Pending
 
-##Less Priority projects
+##Finished Projects
+- [x] Update Hunting > Ticket Section
+- [x] Add note to Hunting > bounty about stacking bounties (6 max)
+- [x] Elaborate on benefits of unstable hunts and daily limit (hunting > unstable)
+
+##BackBurner Projects
 - [ ] Add pictures and details to Hunting > arena page
 
 ##Needs Updated
