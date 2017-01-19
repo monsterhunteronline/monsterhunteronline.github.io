@@ -8,7 +8,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [x] Update Cats page (more useful skills)
 
 ##Priority Projects
-- [ ] Make a end game guide? new player guide?
+- [ ] Make a end game guide? new player guide? Currency Guide?
 - [ ] Make Hunter sets more foolproof
 - [ ] Add Tutorials for necklace/rings
 - [ ] Update Talisman Section
@@ -22,6 +22,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [ ] Auction House Guide
 - [ ] Initiate transfer of translated content with a Table of Contents for ease of access
 - [ ] Weapons Guide. Hariaka: HH Rest: Pending
+- [ ] Recommended equipments and skills section. Include both general info and weapon specific info
 
 ##Finished Projects
 - [x] Update Hunting > Ticket Section
