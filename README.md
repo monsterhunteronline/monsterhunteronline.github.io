@@ -6,10 +6,10 @@ The wiki is currently being hosted on github for easier updates and free hosting
 ##Ongoing Projects
 - [x] N menu Updates (missing pictures and name translations)
 - [x] Update Cats page (more useful skills)
+- [x] Initiate transfer of translated content with a Table of Contents for ease of access
 
 ##Priority Projects
 - [ ] Make a end game guide? new player guide? Currency Guide?
-- [ ] Make Hunter sets more foolproof
 - [ ] Add Tutorials for necklace/rings
 - [ ] Update Talisman Section
 - [ ] Make a Weapon rank section
@@ -20,11 +20,11 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [ ] Update NPC Page. Transfer reaver's npc thing. add description and location in clicky thingy.(http://imgur.com/a/8SPjW)
 - [ ] Finish Install Guide Screenshot Renovation
 - [ ] Auction House Guide
-- [ ] Initiate transfer of translated content with a Table of Contents for ease of access
 - [ ] Weapons Guide. Hariaka: HH Rest: Pending
 - [ ] Recommended equipments and skills section. Include both general info and weapon specific info
 
 ##Finished Projects
+- [x] Make Hunter sets more foolproof
 - [x] Update Hunting > Ticket Section
 - [x] Add note to Hunting > bounty about stacking bounties (6 max)
 - [x] Elaborate on benefits of unstable hunts and daily limit (hunting > unstable)
