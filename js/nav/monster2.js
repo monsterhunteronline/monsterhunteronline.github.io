@@ -1,61 +1,3 @@
-elderDragonArray = [
-{
-	"data": [
-		"Tartaronis",
-		"tartaronis",
-		"tartaronis.png",
-		"吞渊龙"
-	]
-},
-{
-	"data": [
-		"Burning Tartaronis",
-		"burning-tartaronis",
-		"tartaronis2.png",
-		"燎渊龙"
-	]
-},
-{
-	"data": [
-		"Kushala Daora",
-		"kushala-daora",
-		"kushaladora.png",
-		"钢龙"
-	]
-},
-{
-	"data": [
-		"Rusted Kushala Daora",
-		"rusted-kushala-daora",
-		"kushaladora2.png",
-		"锈钢龙"
-	]
-},
-{
-	"data": [
-		"Merphistophelin",
-		"merphistophelin",
-		"merphistophelin.png",
-		"荒厄龙"
-	]
-},
-{
-	"data": [
-		"Elemental Merphistophelin",
-		"elemental-merphistophelin",
-		"merphistophelin2.png",
-		"御五相"
-	]
-},
-{
-	"data": [
-		"Chameleos",
-		"chameleos",
-		"chameleos.png",
-		"霞龙"
-	]
-}
-];
 beetleArray = [
 {
 	"data": [
@@ -63,96 +5,6 @@ beetleArray = [
 		"lightenna",
 		"lightenna.png",
 		"电甲虫"
-	]
-}
-];
-carapaceArray = [
-{
-	"data": [
-		"Baelidae",
-		"baelidae",
-		"baelidae.png",
-		"鬼狩蛛"
-	]
-},
-{
-	"data": [
-		"Dread Baelidae",
-		"dread-baelidae",
-		"baelidae2.png",
-		"骇狩蛛"
-	]
-},
-{
-	"data": [
-		"Daimyo Hermitaur",
-		"daimyo-hermitaur",
-		"daimyohermitaur.png",
-		"大名盾蟹"
-	]
-},
-{
-	"data": [
-		"GonnGenn Hermitaur",
-		"gonngenn-hermitaur",
-		"gonngennhermitaur.png",
-		"葵盾蟹"
-	]
-},
-{
-	"data": [
-		"Shogun Ceanataur",
-		"shogun-ceanataur",
-		"shogunceanataur.png",
-		"将军镰蟹"
-	]
-},
-{
-	"data": [
-		"Swordmaster Shogun Ceanataur",
-		"swordmaster-shogun-ceanataur",
-		"shogunceanataur.png",
-		"剑豪镰蟹"
-	]
-},
-{
-	"data": [
-		"Akura Vashimu",
-		"akura-vashimu",
-		"akuravashimu.png",
-		"尾晶蝎"
-	]
-},
-{
-	"data": [
-		"Akura Jebia",
-		"akura-jebia",
-		"akurajebia.png",
-		"灰晶蝎"
-	]
-},
-{
-	"data": [
-		"Shen Gaoren",
-		"shen-gaoren",
-		"shengaoren.png",
-		"砦蟹"
-	]
-},
-{
-	"data": [
-		"Guren Shen Gaoren",
-		"guren-shen-gaoren",
-		"shengaoren2.png",
-		"红莲砦蟹"
-	]
-},
-{
-	"data": [
-		"Tepekki Shen Gaoren",
-		"tepekki-shen-gaoren",
-		"shengaoren3.png",
-		"铠岩砦蟹"
 	]
 }
 ];
@@ -275,6 +127,296 @@ birdWyvernArray = [
 		"one-eared-yian-garuga",
 		"yiangaruga.png",
 		"独耳黑狼鸟"
+	]
+}
+];
+bruteWyvernArray = [
+{
+	"data": [
+		"Deviljho",
+		"deviljho",
+		"deviljho.png",
+		"恐暴龙"
+	]
+}
+];
+carapaceArray = [
+{
+	"data": [
+		"Baelidae",
+		"baelidae",
+		"baelidae.png",
+		"鬼狩蛛"
+	]
+},
+{
+	"data": [
+		"Dread Baelidae",
+		"dread-baelidae",
+		"baelidae2.png",
+		"骇狩蛛"
+	]
+},
+{
+	"data": [
+		"Daimyo Hermitaur",
+		"daimyo-hermitaur",
+		"daimyohermitaur.png",
+		"大名盾蟹"
+	]
+},
+{
+	"data": [
+		"GonnGenn Hermitaur",
+		"gonngenn-hermitaur",
+		"gonngennhermitaur.png",
+		"葵盾蟹"
+	]
+},
+{
+	"data": [
+		"Shogun Ceanataur",
+		"shogun-ceanataur",
+		"shogunceanataur.png",
+		"将军镰蟹"
+	]
+},
+{
+	"data": [
+		"Swordmaster Shogun Ceanataur",
+		"swordmaster-shogun-ceanataur",
+		"shogunceanataur.png",
+		"剑豪镰蟹"
+	]
+},
+{
+	"data": [
+		"Akura Vashimu",
+		"akura-vashimu",
+		"akuravashimu.png",
+		"尾晶蝎"
+	]
+},
+{
+	"data": [
+		"Akura Jebia",
+		"akura-jebia",
+		"akurajebia.png",
+		"灰晶蝎"
+	]
+},
+{
+	"data": [
+		"Shen Gaoren",
+		"shen-gaoren",
+		"shengaoren.png",
+		"砦蟹"
+	]
+},
+{
+	"data": [
+		"Guren Shen Gaoren",
+		"guren-shen-gaoren",
+		"shengaoren2.png",
+		"红莲砦蟹"
+	]
+},
+{
+	"data": [
+		"Tepekki Shen Gaoren",
+		"tepekki-shen-gaoren",
+		"shengaoren3.png",
+		"铠岩砦蟹"
+	]
+},
+{
+	"data": [
+		"Onimusha",
+		"onimusha",
+		"onimusha.png",
+		"铠岩砦蟹"
+	]
+}
+];
+elderDragonArray = [
+{
+	"data": [
+		"Tartaronis",
+		"tartaronis",
+		"tartaronis.png",
+		"吞渊龙"
+	]
+},
+{
+	"data": [
+		"Burning Tartaronis",
+		"burning-tartaronis",
+		"tartaronis2.png",
+		"燎渊龙"
+	]
+},
+{
+	"data": [
+		"Kushala Daora",
+		"kushala-daora",
+		"kushaladora.png",
+		"钢龙"
+	]
+},
+{
+	"data": [
+		"Rusted Kushala Daora",
+		"rusted-kushala-daora",
+		"kushaladora2.png",
+		"锈钢龙"
+	]
+},
+{
+	"data": [
+		"Merphistophelin",
+		"merphistophelin",
+		"merphistophelin.png",
+		"荒厄龙"
+	]
+},
+{
+	"data": [
+		"Elemental Merphistophelin",
+		"elemental-merphistophelin",
+		"merphistophelin2.png",
+		"御五相"
+	]
+},
+{
+	"data": [
+		"Chameleos",
+		"chameleos",
+		"chameleos.png",
+		"霞龙"
+	]
+},
+{
+	"data": [
+		"Kirin",
+		"kirin",
+		"kirin.png",
+		"麒麟"
+	]
+},
+{
+	"data": [
+		"Yama Tsukami",
+		"yama-tsukami",
+		"yama.png",
+		"麒麟"
+	]
+}
+];
+fangedWyvernArray = [
+{
+	"data": [
+		"Zinogre",
+		"zinogre",
+		"zinogre.png",
+		"雷狼龙"
+	]
+}
+];
+fangedBeastArray = [
+{
+	"data": [
+		"Bulldrome",
+		"bulldrome",
+		"bulldrome.png",
+		"野猪王"
+	]
+},
+{
+	"data": [
+		"Caeserber",
+		"caeserber",
+		"caeserber.png",
+		"河狸兽"
+	]
+},
+{
+	"data": [
+		"Yellow Caeserber",
+		"yellow-caeserber",
+		"caeserber2.png",
+		"沙狸兽"
+	]
+},
+{
+	"data": [
+		"Ghost Caeserber",
+		"ghost-caeserber",
+		"caeserber.png",
+		"战鬼河狸兽"
+	]
+},
+{
+	"data": [
+		"Congalala",
+		"congalala",
+		"congalala.png",
+		"桃毛兽王"
+	]
+},
+{
+	"data": [
+		"Gold Congalala",
+		"gold-congalala",
+		"congalala2.png",
+		"金毛兽王"
+	]
+},
+{
+	"data": [
+		"Blangonga",
+		"blangonga",
+		"blangonga.png",
+		"雪狮子王"
+	]
+},
+{
+	"data": [
+		"Flame Blangonga",
+		"flame-blangonga",
+		"blangonga2.png",
+		"炎狮子"
+	]
+},
+{
+	"data": [
+		"Slicemargl",
+		"slicemargl",
+		"slicemargl.png",
+		"剑极狼"
+	]
+},
+{
+	"data": [
+		"Purple Slicemargl",
+		"purple-slicemargl",
+		"slicemargl2.png",
+		"剑极狼亚种"
+	]
+},
+{
+	"data": [
+		"Rajang",
+		"rajang",
+		"rajang.png",
+		"金狮子"
+	]
+},
+{
+	"data": [
+		"Berioros",
+		"berioros",
+		"berioros.png",
+		"冰牙龙"
 	]
 }
 ];
@@ -408,96 +550,6 @@ flyingWyvernArray = [
 	]
 }
 ];
-fangedBeastArray = [
-{
-	"data": [
-		"Bulldrome",
-		"bulldrome",
-		"bulldrome.png",
-		"野猪王"
-	]
-},
-{
-	"data": [
-		"Caeserber",
-		"caeserber",
-		"caeserber.png",
-		"河狸兽"
-	]
-},
-{
-	"data": [
-		"Yellow Caeserber",
-		"yellow-caeserber",
-		"caeserber2.png",
-		"沙狸兽"
-	]
-},
-{
-	"data": [
-		"Ghost Caeserber",
-		"ghost-caeserber",
-		"caeserber.png",
-		"战鬼河狸兽"
-	]
-},
-{
-	"data": [
-		"Congalala",
-		"congalala",
-		"congalala.png",
-		"桃毛兽王"
-	]
-},
-{
-	"data": [
-		"Gold Congalala",
-		"gold-congalala",
-		"congalala2.png",
-		"金毛兽王"
-	]
-},
-{
-	"data": [
-		"Blangonga",
-		"blangonga",
-		"blangonga.png",
-		"雪狮子王"
-	]
-},
-{
-	"data": [
-		"Flame Blangonga",
-		"flame-blangonga",
-		"blangonga2.png",
-		"炎狮子"
-	]
-},
-{
-	"data": [
-		"Slicemargl",
-		"slicemargl",
-		"slicemargl.png",
-		"剑极狼"
-	]
-},
-{
-	"data": [
-		"Purple Slicemargl",
-		"purple-slicemargl",
-		"slicemargl2.png",
-		"剑极狼亚种"
-	]
-},
-{
-	"data": [
-		"Rajang",
-		"rajang",
-		"rajang.png",
-		"金狮子"
-	]
-}
-];
 piscineWyvernArray = [
 {
 	"data": [
@@ -540,34 +592,29 @@ unknownArray = [
 		"estrellian2.png",
 		"祸星龙"
 	]
+},
+{
+	"data": [
+		"Arbiter Estrellian",
+		"arbiter-estrellian",
+		"estrellian3.png",
+		"祸星龙"
+	]
 }
 ];
 
 function navdata() {
-	var outED = '<span class="card-title">Elder Dragon Type</span><br>';
 	var outB = '<span class="card-title">Beetle Type</span><br>';
-	var outC = '<span class="card-title">Carapace Type</span><br>';
 	var outBW = '<span class="card-title">Bird Wyvern Type</span><br>';
-	var outFW = '<span class="card-title">Flying Wyvern Type</span><br>';
+	var outBrW = '<span class="card-title">Brute Wyvern Type</span><br>';
+	var outC = '<span class="card-title">Carapace Type</span><br>';
+	var outED = '<span class="card-title">Elder Dragon Type</span><br>';
 	var outFB = '<span class="card-title">Fanged Beast Type</span><br>';
+	var outFaW = '<span class="card-title">Fanged Wyvern Type</span><br>';
+	var outFW = '<span class="card-title">Flying Wyvern Type</span><br>';
 	var outPW = '<span class="card-title">Piscine Wyvern Type</span><br>';
 	var outU = '<span class="card-title">Unknown Type</span><br>';
 	var i;
-
-	for(i = 0; i < elderDragonArray.length; i ++) {
-		outED += ''+
-	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
-	elderDragonArray[i].data[0]+
-	'" href="../'+
-	elderDragonArray[i].data[1]+
-	'/"><div class="chip"><img src="../images/'+
-	elderDragonArray[i].data[2]+
-	'" alt="'+
-	elderDragonArray[i].data[0]+
-	'">'+
-	elderDragonArray[i].data[3]+
-	'</div></a>';
-	}
 
 	for(i = 0; i < beetleArray.length; i ++) {
 		outB += ''+
@@ -581,21 +628,6 @@ function navdata() {
 	beetleArray[i].data[0]+
 	'">'+
 	beetleArray[i].data[3]+
-	'</div></a>';
-	}
-	
-	for(i = 0; i < carapaceArray.length; i ++) {
-		outC += ''+
-	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
-	carapaceArray[i].data[0]+
-	'" href="../'+
-	carapaceArray[i].data[1]+
-	'/"><div class="chip"><img src="../images/'+
-	carapaceArray[i].data[2]+
-	'" alt="'+
-	carapaceArray[i].data[0]+
-	'">'+
-	carapaceArray[i].data[3]+
 	'</div></a>';
 	}
 	
@@ -614,18 +646,48 @@ function navdata() {
 	'</div></a>';
 	}
 	
-	for(i = 0; i < flyingWyvernArray.length; i ++) {
-		outFW += ''+
+	for(i = 0; i < bruteWyvernArray.length; i ++) {
+		outBrW += ''+
 	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
-	flyingWyvernArray[i].data[0]+
+	bruteWyvernArray[i].data[0]+
 	'" href="../'+
-	flyingWyvernArray[i].data[1]+
+	bruteWyvernArray[i].data[1]+
 	'/"><div class="chip"><img src="../images/'+
-	flyingWyvernArray[i].data[2]+
+	bruteWyvernArray[i].data[2]+
 	'" alt="'+
-	flyingWyvernArray[i].data[0]+
+	bruteWyvernArray[i].data[0]+
 	'">'+
-	flyingWyvernArray[i].data[3]+
+	bruteWyvernArray[i].data[3]+
+	'</div></a>';
+	}
+	
+	for(i = 0; i < carapaceArray.length; i ++) {
+		outC += ''+
+	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
+	carapaceArray[i].data[0]+
+	'" href="../'+
+	carapaceArray[i].data[1]+
+	'/"><div class="chip"><img src="../images/'+
+	carapaceArray[i].data[2]+
+	'" alt="'+
+	carapaceArray[i].data[0]+
+	'">'+
+	carapaceArray[i].data[3]+
+	'</div></a>';
+	}
+
+	for(i = 0; i < elderDragonArray.length; i ++) {
+		outED += ''+
+	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
+	elderDragonArray[i].data[0]+
+	'" href="../'+
+	elderDragonArray[i].data[1]+
+	'/"><div class="chip"><img src="../images/'+
+	elderDragonArray[i].data[2]+
+	'" alt="'+
+	elderDragonArray[i].data[0]+
+	'">'+
+	elderDragonArray[i].data[3]+
 	'</div></a>';
 	}
 	
@@ -641,6 +703,36 @@ function navdata() {
 	fangedBeastArray[i].data[0]+
 	'">'+
 	fangedBeastArray[i].data[3]+
+	'</div></a>';
+	}
+	
+	for(i = 0; i < fangedWyvernArray.length; i ++) {
+		outFaW += ''+
+	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
+	fangedWyvernArray[i].data[0]+
+	'" href="../'+
+	fangedWyvernArray[i].data[1]+
+	'/"><div class="chip"><img src="../images/'+
+	fangedWyvernArray[i].data[2]+
+	'" alt="'+
+	fangedWyvernArray[i].data[0]+
+	'">'+
+	fangedWyvernArray[i].data[3]+
+	'</div></a>';
+	}
+	
+	for(i = 0; i < flyingWyvernArray.length; i ++) {
+		outFW += ''+
+	'<a class="tooltipped" data-position="right" data-delay="10" data-tooltip="'+
+	flyingWyvernArray[i].data[0]+
+	'" href="../'+
+	flyingWyvernArray[i].data[1]+
+	'/"><div class="chip"><img src="../images/'+
+	flyingWyvernArray[i].data[2]+
+	'" alt="'+
+	flyingWyvernArray[i].data[0]+
+	'">'+
+	flyingWyvernArray[i].data[3]+
 	'</div></a>';
 	}
 	
@@ -673,12 +765,15 @@ function navdata() {
 	unknownArray[i].data[3]+
 	'</div></a>';
 	}
-	document.getElementById("elderDragon").innerHTML = outED;
+
 	document.getElementById("beetle").innerHTML = outB;
-	document.getElementById("carapace").innerHTML = outC;
 	document.getElementById("birdWyvern").innerHTML = outBW;
-	document.getElementById("flyingWyvern").innerHTML = outFW;
+	document.getElementById("bruteWyvern").innerHTML = outBrW;
+	document.getElementById("carapace").innerHTML = outC;
+	document.getElementById("elderDragon").innerHTML = outED;
 	document.getElementById("fangedBeast").innerHTML = outFB;
+	document.getElementById("fangedWyvern").innerHTML = outFaW;
+	document.getElementById("flyingWyvern").innerHTML = outFW;
 	document.getElementById("piscineWyvern").innerHTML = outPW;
 	document.getElementById("unknown").innerHTML = outU;
 }
