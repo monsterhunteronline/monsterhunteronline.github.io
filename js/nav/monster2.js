@@ -234,7 +234,7 @@ carapaceArray = [
 		"Onimusha",
 		"onimusha",
 		"onimusha.png",
-		"铠岩砦蟹"
+		"武镰蟹"
 	]
 }
 ];
