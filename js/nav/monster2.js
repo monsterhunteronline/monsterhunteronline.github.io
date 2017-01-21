@@ -598,7 +598,7 @@ unknownArray = [
 		"Arbiter Estrellian",
 		"arbiter-estrellian",
 		"estrellian3.png",
-		"祸星龙"
+		"灭星龙"
 	]
 }
 ];
