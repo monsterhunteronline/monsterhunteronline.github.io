@@ -6,10 +6,16 @@ The wiki is currently being hosted on github for easier updates and free hosting
 ##Ongoing Projects
 - [x] N menu Updates (missing pictures and name translations)
 - [x] Update Cats page (more useful skills)
-- [x] Initiate transfer of translated content with a Table of Contents for ease of access
+- [x] Initiate transfer of translated content with a Table of Contents for ease of access 
+
+##Decipher Game Mechanis
+- [ ] Farm Coin Machines
+- [ ] Loot Drops
+- [ ] Talisman Melding
 
 ##Priority Projects
 - [ ] Make a end game guide? new player guide? Currency Guide?
+- [ ] Write about guild quests
 - [ ] Add Tutorials for necklace/rings
 - [ ] Update Talisman Section
 - [ ] Make a Weapon rank section
@@ -30,6 +36,7 @@ The wiki is currently being hosted on github for easier updates and free hosting
 - [x] Elaborate on benefits of unstable hunts and daily limit (hunting > unstable)
 
 ##BackBurner Projects
+- [ ] Categorize gathering objects by map
 - [ ] Hunter Stars Thingy
 - [ ] Achievements thingy
 - [ ] Add pictures and details to Hunting > arena page
