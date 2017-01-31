@@ -413,9 +413,9 @@ fangedBeastArray = [
 },
 {
 	"data": [
-		"Berioros",
-		"berioros",
-		"berioros.png",
+		"Barioth",
+		"barioth",
+		"barioth.png",
 		"冰牙龙"
 	]
 }

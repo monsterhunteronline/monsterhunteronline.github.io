@@ -638,7 +638,7 @@ var translations = {
 	"NBY":"<a href='/monsters/lightenna/' target='_blank'>Lightenna</a>",
 	"PVP2":"<a href='/monsters/merphistophelin/' target='_blank'>Merphistophelin</a>",
 	"一角龙":"<a href='/monsters/monoblos/' target='_blank'>Monoblos</a>",
-	"冰牙龙":"<a href='/monsters/berioros/' target='_blank'>Berioros</a>",
+	"冰牙龙":"<a href='/monsters/barioth/' target='_blank'>Barioth</a>",
 	"冰雷鸟":"<a href='/monsters/ice-chramine/' target='_blank'>Ice Chramine</a>",
 	"初阶吞渊龙":"<a href='/monsters/tartaronis/' target='_blank'>Tartaronis</a>",
 	"剑刹狼":"<a href='/monsters/purple-slicemargl/' target='_blank'>Purple Slicemargl</a>",
@@ -763,7 +763,7 @@ var translations = {
 	"鸟龙种素材":"Bird Wyvern Materials",
 
 	"nl一角龙":"Monoblos",
-	"nl冰牙龙":"Berioros",
+	"nl冰牙龙":"Barioth",
 	"nl冰雷鸟":"Ice Chramine",
 	"nl剑刹狼":"Purple Slicemargl",
 	"nl剑极狼":"Slicemargl",
