@@ -40,7 +40,13 @@ $('#button').on('click', function() {
 function displayArmor() {
 	var search = $('#inputText').val();
 	if (search === "") {
-		var arr = armorArray;
+		var filtered = [];
+		for(i = 0; i < armorArray.length; i ++) {
+			if (armorArray[i].data[3].toUpperCase().indexOf(armortype.toUpperCase()) >= 0) {
+				filtered.push(armorArray[i]);
+			}
+		}
+		var arr = filtered;
 	} else {
 		var filtered = [];
 		for(i = 0; i < armorArray.length; i ++) {
