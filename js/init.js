@@ -29,7 +29,7 @@ var page;
 		skillsjs();
 	}
 	if (page == "weapons") {
-		weaponjs();
+		// weaponjs();
 	}
 	if (page == "mosaic") {
 		mosaicjs();
