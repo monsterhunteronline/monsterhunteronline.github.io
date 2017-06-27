@@ -17,7 +17,7 @@ var page;
 	}
 	if (page == "monsters") {
 		navdata();
-		monsterjs();
+		// monsterjs();
 	}
 	if (page == "materials") {
 		materialsjs();

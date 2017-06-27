@@ -1,10 +1,10 @@
 var materialIcons = ["not_interested", "thumb_down", "thumbs_up_down", "thumb_up", "grade"];
-var weaknessArray = weaknessArray.result.rows;
+var monsterArray = monsterArray;
 var stagesArray = [];
 var page = "monsters";
 function monsterjs() {
 	filtered = [];
-	searchstring = weaknessArray[0].data[1];
+	searchstring = monsterArray.name;
 	if (searchstring === "红莲砦蟹" || searchstring === "铠岩砦蟹") {
 		searchstring = "红莲砦蟹,铠岩砦蟹";
 	}
@@ -31,28 +31,28 @@ function monsterjs() {
 	'</tr>';
 	}
 	document.getElementById("material-drops").innerHTML = out;
-	document.getElementById("monsterName").innerHTML = weaknessArray[0].data[1]+' | '+translate('nl'+weaknessArray[0].data[1]);
-	var arr = weaknessArray;
+	document.getElementById("monsterName").innerHTML = monsterArray.name+' | '+translate('nl'+monsterArray.name);
+	var arr = monsterArray;
 	out = '';
-	if (arr[0].data[21] === "0") {
-		for(i = 0; i < arr.length; i ++) {
+	if (arr.weakness[0].data[10] === "0") {
+		for(i = 0; i < arr.weakness.length; i ++) {
 			out += ''+
 		'<tr>'+
-			'<td>'+translate(arr[i].data[2])+'</td>'+
-			'<td><i class="weak'+arr[i].data[3]+' material-icons flow-text">'+materialIcons[arr[i].data[3]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[4]+' material-icons flow-text">'+materialIcons[arr[i].data[4]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[5]+' material-icons flow-text">'+materialIcons[arr[i].data[5]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[6]+' material-icons flow-text">'+materialIcons[arr[i].data[6]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[7]+' material-icons flow-text">'+materialIcons[arr[i].data[7]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[8]+' material-icons flow-text">'+materialIcons[arr[i].data[8]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[9]+' material-icons flow-text">'+materialIcons[arr[i].data[9]]+'</i></td>'+
-			'<td><i class="weak'+arr[i].data[10]+' material-icons flow-text">'+materialIcons[arr[i].data[10]]+'</i></td>'+
+			'<td>'+translate(arr.weakness[i].data[0])+'</td>'+
+			'<td><i class="weak'+arr.weakness[i].data[1]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[1]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[2]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[2]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[3]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[3]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[4]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[4]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[5]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[5]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[6]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[6]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[7]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[7]]+'</i></td>'+
+			'<td><i class="weak'+arr.weakness[i].data[8]+' material-icons flow-text">'+materialIcons[arr.weakness[i].data[8]]+'</i></td>'+
 		'</tr>';
 		}
 	} else {
-		for(i = 0; i < arr.length; i ++) {
-			if (stagesArray.indexOf(arr[i].data[21]) === -1) {
-				stagesArray.push(arr[i].data[21]);
+		for(i = 0; i < arr.weakness.length; i ++) {
+			if (stagesArray.indexOf(arr.weakness[i].data[10]) === -1) {
+				stagesArray.push(arr.weakness[i].data[10]);
 			}
 		}
 		for(i = 0; i < stagesArray.length; i ++) {
@@ -60,19 +60,19 @@ function monsterjs() {
 			'<tr>'+
 				'<th colspan="9">'+translate(stagesArray[i])+'</th>'+
 			'</tr>';
-			for(x = 0; x < arr.length; x ++) {
-				if (arr[x].data[21] === stagesArray[i]) {
+			for(x = 0; x < arr.weakness.length; x ++) {
+				if (arr.weakness[x].data[10] === stagesArray[i]) {
 					out += ''+
 				'<tr>'+
-					'<td>'+translate(arr[x].data[2])+'</td>'+
-					'<td><i class="weak'+arr[x].data[3]+' material-icons flow-text">'+materialIcons[arr[x].data[3]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[4]+' material-icons flow-text">'+materialIcons[arr[x].data[4]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[5]+' material-icons flow-text">'+materialIcons[arr[x].data[5]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[6]+' material-icons flow-text">'+materialIcons[arr[x].data[6]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[7]+' material-icons flow-text">'+materialIcons[arr[x].data[7]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[8]+' material-icons flow-text">'+materialIcons[arr[x].data[8]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[9]+' material-icons flow-text">'+materialIcons[arr[x].data[9]]+'</i></td>'+
-					'<td><i class="weak'+arr[x].data[10]+' material-icons flow-text">'+materialIcons[arr[x].data[10]]+'</i></td>'+
+					'<td>'+translate(arr.weakness[x].data[0])+'</td>'+
+					'<td><i class="weak'+arr.weakness[x].data[1]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[1]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[2]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[2]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[3]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[3]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[4]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[4]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[5]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[5]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[6]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[6]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[7]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[7]]+'</i></td>'+
+					'<td><i class="weak'+arr.weakness[x].data[8]+' material-icons flow-text">'+materialIcons[arr.weakness[x].data[8]]+'</i></td>'+
 				'</tr>';
 						}
 			}
@@ -82,16 +82,16 @@ function monsterjs() {
 
 	document.getElementById("monster1").innerHTML = out;
 	out = '<tr>'+
-		'<td><i class="weak'+arr[0].data[11]+' material-icons flow-text">'+materialIcons[arr[0].data[11]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[12]+' material-icons flow-text">'+materialIcons[arr[0].data[12]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[13]+' material-icons flow-text">'+materialIcons[arr[0].data[13]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[14]+' material-icons flow-text">'+materialIcons[arr[0].data[14]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[15]+' material-icons flow-text">'+materialIcons[arr[0].data[15]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[16]+' material-icons flow-text">'+materialIcons[arr[0].data[16]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[17]+' material-icons flow-text">'+materialIcons[arr[0].data[17]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[18]+' material-icons flow-text">'+materialIcons[arr[0].data[18]]+'</i></td>'+
-		'<td><i class="weak'+arr[0].data[20]+' material-icons flow-text">'+materialIcons[arr[0].data[20]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[11]+' material-icons flow-text">'+materialIcons[arr.other[0]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[12]+' material-icons flow-text">'+materialIcons[arr.other[1]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[13]+' material-icons flow-text">'+materialIcons[arr.other[2]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[14]+' material-icons flow-text">'+materialIcons[arr.other[3]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[15]+' material-icons flow-text">'+materialIcons[arr.other[4]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[16]+' material-icons flow-text">'+materialIcons[arr.other[5]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[17]+' material-icons flow-text">'+materialIcons[arr.other[6]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[18]+' material-icons flow-text">'+materialIcons[arr.other[7]]+'</i></td>'+
+		'<td><i class="weak'+arr.other[20]+' material-icons flow-text">'+materialIcons[arr.other[8]]+'</i></td>'+
 	'</tr>';
 	document.getElementById("monster2").innerHTML = out;
-	document.getElementById("monster3").innerHTML = translate(arr[0].data[19]);
+	document.getElementById("monster3").innerHTML = translate(arr.other[9]);
 }
