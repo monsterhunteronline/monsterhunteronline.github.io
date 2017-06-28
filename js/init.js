@@ -6,8 +6,8 @@ var page;
 		sliderjs();
 	}
 	if (page == "armor") {
-		// armorjs();
-		// displayData();
+		armorjs();
+		displayData();
 	}
 	if (page == "jewelry") {
 		jewelryjs();
@@ -29,7 +29,7 @@ var page;
 		skillsjs();
 	}
 	if (page == "weapons") {
-		// weaponjs();
+		displayWeapons();
 	}
 	if (page == "mosaic") {
 		mosaicjs();
