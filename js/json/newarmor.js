@@ -22,6 +22,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61412"
@@ -45,6 +47,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61413"
@@ -68,6 +72,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61414"
@@ -91,6 +97,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61415"
@@ -114,6 +122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61416"
@@ -137,6 +147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61417"
@@ -160,6 +172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61418"
@@ -183,6 +197,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61419"
@@ -206,6 +222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "61420"
@@ -229,6 +247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回复速度+1、观察眼、大胃王"
   },
   {
     "id": "60011"
@@ -252,6 +272,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60012"
@@ -275,6 +297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60013"
@@ -298,6 +322,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60014"
@@ -321,6 +347,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60015"
@@ -344,6 +372,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60016"
@@ -367,6 +397,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60017"
@@ -390,6 +422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60018"
@@ -413,6 +447,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60019"
@@ -436,6 +472,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60020"
@@ -459,6 +497,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "探知、速食"
   },
   {
     "id": "60021"
@@ -482,6 +522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60022"
@@ -505,6 +547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60023"
@@ -528,6 +572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60024"
@@ -551,6 +597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60025"
@@ -574,6 +622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60026"
@@ -597,6 +647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60027"
@@ -620,6 +672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60028"
@@ -643,6 +697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60029"
@@ -666,6 +722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60030"
@@ -689,6 +747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "60031"
@@ -712,6 +772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "60032"
@@ -735,6 +797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "60033"
@@ -758,6 +822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "60034"
@@ -781,6 +847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "60035"
@@ -804,6 +872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "60036"
@@ -827,6 +897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "通常弹&连射矢强化、防御力提升（小）"
   },
   {
     "id": "60037"
@@ -850,6 +922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "通常弹&连射矢强化、防御力提升（小）"
   },
   {
     "id": "60038"
@@ -873,6 +947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "通常弹&连射矢强化、防御力提升（小）"
   },
   {
     "id": "60039"
@@ -896,6 +972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "通常弹&连射矢强化、防御力提升（小）"
   },
   {
     "id": "60040"
@@ -919,6 +997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "通常弹&连射矢强化、防御力提升（小）"
   },
   {
     "id": "60041"
@@ -942,6 +1022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60042"
@@ -965,6 +1047,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60043"
@@ -988,6 +1072,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60044"
@@ -1011,6 +1097,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60045"
@@ -1034,6 +1122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60046"
@@ -1057,6 +1147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60047"
@@ -1080,6 +1172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60048"
@@ -1103,6 +1197,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60049"
@@ -1126,6 +1222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60050"
@@ -1149,6 +1247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "攻击力提升（小）、火属性耐性强化+1"
   },
   {
     "id": "60051"
@@ -1172,6 +1272,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60052"
@@ -1195,6 +1297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60053"
@@ -1218,6 +1322,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60054"
@@ -1241,6 +1347,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60055"
@@ -1264,6 +1372,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60056"
@@ -1287,6 +1397,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60057"
@@ -1310,6 +1422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60058"
@@ -1333,6 +1447,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60059"
@@ -1356,6 +1472,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60060"
@@ -1379,6 +1497,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "60061"
@@ -1402,6 +1522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "60062"
@@ -1425,6 +1547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "60063"
@@ -1448,6 +1572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "60064"
@@ -1471,6 +1597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "60065"
@@ -1494,6 +1622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "60066"
@@ -1517,6 +1647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "KO术、散弹/矢强化、挑衅"
   },
   {
     "id": "60067"
@@ -1540,6 +1672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "KO术、散弹/矢强化、挑衅"
   },
   {
     "id": "60068"
@@ -1563,6 +1697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "KO术、散弹/矢强化、挑衅"
   },
   {
     "id": "60069"
@@ -1586,6 +1722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "KO术、散弹/矢强化、挑衅"
   },
   {
     "id": "60070"
@@ -1609,6 +1747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "KO术、散弹/矢强化、挑衅"
   },
   {
     "id": "60071"
@@ -1632,6 +1772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60072"
@@ -1655,6 +1797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60073"
@@ -1678,6 +1822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60074"
@@ -1701,6 +1847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60075"
@@ -1724,6 +1872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60076"
@@ -1747,6 +1897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60077"
@@ -1770,6 +1922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60078"
@@ -1793,6 +1947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60079"
@@ -1816,6 +1972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60080"
@@ -1839,6 +1997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐泥雪、陷阱师"
   },
   {
     "id": "60081"
@@ -1862,6 +2022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60082"
@@ -1885,6 +2047,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60083"
@@ -1908,6 +2072,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60084"
@@ -1931,6 +2097,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60085"
@@ -1954,6 +2122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60086"
@@ -1977,6 +2147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60087"
@@ -2000,6 +2172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60088"
@@ -2023,6 +2197,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60089"
@@ -2046,6 +2222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60090"
@@ -2069,6 +2247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、雷属性耐性强化+1"
   },
   {
     "id": "60091"
@@ -2092,6 +2272,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60092"
@@ -2115,6 +2297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60093"
@@ -2138,6 +2322,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60094"
@@ -2161,6 +2347,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60095"
@@ -2184,6 +2372,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60096"
@@ -2207,6 +2397,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60097"
@@ -2230,6 +2422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60098"
@@ -2253,6 +2447,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60099"
@@ -2276,6 +2472,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60100"
@@ -2299,6 +2497,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "抗菌、速食、饥饿感增加"
   },
   {
     "id": "60101"
@@ -2322,6 +2522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60102"
@@ -2345,6 +2547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60103"
@@ -2368,6 +2572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60104"
@@ -2391,6 +2597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60105"
@@ -2414,6 +2622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60106"
@@ -2437,6 +2647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60107"
@@ -2460,6 +2672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60108"
@@ -2483,6 +2697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60109"
@@ -2506,6 +2722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60110"
@@ -2529,6 +2747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "风压（小）无效、无伤"
   },
   {
     "id": "60111"
@@ -2552,6 +2772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60112"
@@ -2575,6 +2797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60113"
@@ -2598,6 +2822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60114"
@@ -2621,6 +2847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60115"
@@ -2644,6 +2872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60116"
@@ -2667,6 +2897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60117"
@@ -2690,6 +2922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60118"
@@ -2713,6 +2947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60119"
@@ -2736,6 +2972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60120"
@@ -2759,6 +2997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "60121"
@@ -2782,6 +3022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60122"
@@ -2805,6 +3047,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60123"
@@ -2828,6 +3072,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60124"
@@ -2851,6 +3097,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60125"
@@ -2874,6 +3122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60126"
@@ -2897,6 +3147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60127"
@@ -2920,6 +3172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60128"
@@ -2943,6 +3197,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60129"
@@ -2966,6 +3222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60130"
@@ -2989,6 +3247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "60131"
@@ -3012,6 +3272,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60132"
@@ -3035,6 +3297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60133"
@@ -3058,6 +3322,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60134"
@@ -3081,6 +3347,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60135"
@@ -3104,6 +3372,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60136"
@@ -3127,6 +3397,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60137"
@@ -3150,6 +3422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60138"
@@ -3173,6 +3447,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60139"
@@ -3196,6 +3472,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60140"
@@ -3219,6 +3497,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "60141"
@@ -3242,6 +3522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60142"
@@ -3265,6 +3547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60143"
@@ -3288,6 +3572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60144"
@@ -3311,6 +3597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60145"
@@ -3334,6 +3622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60146"
@@ -3357,6 +3647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60147"
@@ -3380,6 +3672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60148"
@@ -3403,6 +3697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60149"
@@ -3426,6 +3722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60150"
@@ -3449,6 +3747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回复速度+3、气绝倍化"
   },
   {
     "id": "60151"
@@ -3472,6 +3772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "60152"
@@ -3495,6 +3797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "60153"
@@ -3518,6 +3822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "60154"
@@ -3541,6 +3847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "60155"
@@ -3564,6 +3872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "60156"
@@ -3587,6 +3897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、上弹速度强化+1、麻痹倍化"
   },
   {
     "id": "60157"
@@ -3610,6 +3922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、上弹速度强化+1、麻痹倍化"
   },
   {
     "id": "60158"
@@ -3633,6 +3947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、上弹速度强化+1、麻痹倍化"
   },
   {
     "id": "60159"
@@ -3656,6 +3972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、上弹速度强化+1、麻痹倍化"
   },
   {
     "id": "60160"
@@ -3679,6 +3997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、上弹速度强化+1、麻痹倍化"
   },
   {
     "id": "60161"
@@ -3702,6 +4022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60162"
@@ -3725,6 +4047,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60163"
@@ -3748,6 +4072,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60164"
@@ -3771,6 +4097,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60165"
@@ -3794,6 +4122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60166"
@@ -3817,6 +4147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60167"
@@ -3840,6 +4172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60168"
@@ -3863,6 +4197,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60169"
@@ -3886,6 +4222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60170"
@@ -3909,6 +4247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、吸引、耐力回复迟缓-1"
   },
   {
     "id": "60171"
@@ -3932,6 +4272,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60172"
@@ -3955,6 +4297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60173"
@@ -3978,6 +4322,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60174"
@@ -4001,6 +4347,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60175"
@@ -4024,6 +4372,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60176"
@@ -4047,6 +4397,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60177"
@@ -4070,6 +4422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60178"
@@ -4093,6 +4447,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60179"
@@ -4116,6 +4472,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60180"
@@ -4139,6 +4497,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+1、破坏王、防御力降低（小）"
   },
   {
     "id": "60181"
@@ -4162,6 +4522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60182"
@@ -4185,6 +4547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60183"
@@ -4208,6 +4572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60184"
@@ -4231,6 +4597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60185"
@@ -4254,6 +4622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60186"
@@ -4277,6 +4647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60187"
@@ -4300,6 +4672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60188"
@@ -4323,6 +4697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60189"
@@ -4346,6 +4722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60190"
@@ -4369,6 +4747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、麻痹免疫、睡眠倍化"
   },
   {
     "id": "60191"
@@ -4392,6 +4772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60192"
@@ -4415,6 +4797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60193"
@@ -4438,6 +4822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60194"
@@ -4461,6 +4847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60195"
@@ -4484,6 +4872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60196"
@@ -4507,6 +4897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60197"
@@ -4530,6 +4922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60198"
@@ -4553,6 +4947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60199"
@@ -4576,6 +4972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60200"
@@ -4599,6 +4997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝免疫、风压（小）无效、恶灵加持"
   },
   {
     "id": "60201"
@@ -4622,6 +5022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "60202"
@@ -4645,6 +5047,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "60203"
@@ -4668,6 +5072,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "60204"
@@ -4691,6 +5097,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "60205"
@@ -4714,6 +5122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "60206"
@@ -4737,6 +5147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "60207"
@@ -4760,6 +5172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "60208"
@@ -4783,6 +5197,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "60209"
@@ -4806,6 +5222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "60210"
@@ -4829,6 +5247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "60211"
@@ -4852,6 +5272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60212"
@@ -4875,6 +5297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60213"
@@ -4898,6 +5322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60214"
@@ -4921,6 +5347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60215"
@@ -4944,6 +5372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60216"
@@ -4967,6 +5397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60217"
@@ -4990,6 +5422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60218"
@@ -5013,6 +5447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60219"
@@ -5036,6 +5472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60220"
@@ -5059,6 +5497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐泥雪、耐寒、冰属性攻击强化+1、气绝倍化"
   },
   {
     "id": "60221"
@@ -5082,6 +5522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60222"
@@ -5105,6 +5547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60223"
@@ -5128,6 +5572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60224"
@@ -5151,6 +5597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60225"
@@ -5174,6 +5622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60226"
@@ -5197,6 +5647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60227"
@@ -5220,6 +5672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60228"
@@ -5243,6 +5697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60229"
@@ -5266,6 +5722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "60230"
@@ -5289,6 +5747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61001"
@@ -5312,6 +5772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61002"
@@ -5335,6 +5797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61003"
@@ -5358,6 +5822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61004"
@@ -5381,6 +5847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61005"
@@ -5404,6 +5872,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61006"
@@ -5427,6 +5897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61007"
@@ -5450,6 +5922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61008"
@@ -5473,6 +5947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61009"
@@ -5496,6 +5972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61010"
@@ -5519,6 +5997,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "探知、速食"
   },
   {
     "id": "61011"
@@ -5542,6 +6022,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61012"
@@ -5565,6 +6047,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-1"
+    "armortype": "2"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61013"
@@ -5588,6 +6072,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61014"
@@ -5611,6 +6097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61015"
@@ -5634,6 +6122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61016"
@@ -5657,6 +6147,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61017"
@@ -5680,6 +6172,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-1"
+    "armortype": "2"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61018"
@@ -5703,6 +6197,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61019"
@@ -5726,6 +6222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61020"
@@ -5749,6 +6247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝减半、草药达人"
   },
   {
     "id": "61021"
@@ -5772,6 +6272,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "饥饿感"
     "skill5value": "-1"
+    "armortype": "1"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "61022"
@@ -5795,6 +6297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "61023"
@@ -5818,6 +6322,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "61024"
@@ -5841,6 +6347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "61025"
@@ -5864,6 +6372,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "饥饿感"
     "skill5value": "-1"
+    "armortype": "5"
+    "skilllist": "砥石使用高速化、防御力提升（小）"
   },
   {
     "id": "61026"
@@ -5887,6 +6397,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "饥饿感"
     "skill5value": "-1"
+    "armortype": "1"
+    "skilllist": "通常弹&连射矢强化 、防御力提升（小）"
   },
   {
     "id": "61027"
@@ -5910,6 +6422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "通常弹&连射矢强化 、防御力提升（小）"
   },
   {
     "id": "61028"
@@ -5933,6 +6447,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "通常弹&连射矢强化 、防御力提升（小）"
   },
   {
     "id": "61029"
@@ -5956,6 +6472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "通常弹&连射矢强化 、防御力提升（小）"
   },
   {
     "id": "61030"
@@ -5979,6 +6497,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "饥饿感"
     "skill5value": "-1"
+    "armortype": "5"
+    "skilllist": "通常弹&连射矢强化 、防御力提升（小）"
   },
   {
     "id": "61031"
@@ -6002,6 +6522,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61032"
@@ -6025,6 +6547,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61033"
@@ -6048,6 +6572,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61034"
@@ -6071,6 +6597,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61035"
@@ -6094,6 +6622,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61036"
@@ -6117,6 +6647,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61037"
@@ -6140,6 +6672,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61038"
@@ -6163,6 +6697,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61039"
@@ -6186,6 +6722,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61040"
@@ -6209,6 +6747,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体力强化+1、攻击力提升（小）"
   },
   {
     "id": "61041"
@@ -6232,6 +6772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61042"
@@ -6255,6 +6797,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61043"
@@ -6278,6 +6822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61044"
@@ -6301,6 +6847,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61045"
@@ -6324,6 +6872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61046"
@@ -6347,6 +6897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61047"
@@ -6370,6 +6922,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61048"
@@ -6393,6 +6947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61049"
@@ -6416,6 +6972,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61050"
@@ -6439,6 +6997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "麻痹免疫、状态异常攻击+1"
   },
   {
     "id": "61051"
@@ -6462,6 +7022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "61052"
@@ -6485,6 +7047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "61053"
@@ -6508,6 +7072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "61054"
@@ -6531,6 +7097,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "61055"
@@ -6554,6 +7122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "KO术、砥石使用高速化、挑衅"
   },
   {
     "id": "61056"
@@ -6577,6 +7147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "KO术、上弹速度强化+1、挑衅"
   },
   {
     "id": "61057"
@@ -6600,6 +7172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "KO术、上弹速度强化+1、挑衅"
   },
   {
     "id": "61058"
@@ -6623,6 +7197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "KO术、上弹速度强化+1、挑衅"
   },
   {
     "id": "61059"
@@ -6646,6 +7222,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "KO术、上弹速度强化+1、挑衅"
   },
   {
     "id": "61060"
@@ -6669,6 +7247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "KO术、上弹速度强化+1、挑衅"
   },
   {
     "id": "61061"
@@ -6692,6 +7272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61062"
@@ -6715,6 +7297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61063"
@@ -6738,6 +7322,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61064"
@@ -6761,6 +7347,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61065"
@@ -6784,6 +7372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61066"
@@ -6807,6 +7397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61067"
@@ -6830,6 +7422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61068"
@@ -6853,6 +7447,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61069"
@@ -6876,6 +7472,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61070"
@@ -6899,6 +7497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐泥雪、陷阱师、回复速度+1"
   },
   {
     "id": "61071"
@@ -6922,6 +7522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61072"
@@ -6945,6 +7547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61073"
@@ -6968,6 +7572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61074"
@@ -6991,6 +7597,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61075"
@@ -7014,6 +7622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61076"
@@ -7037,6 +7647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61077"
@@ -7060,6 +7672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61078"
@@ -7083,6 +7697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61079"
@@ -7106,6 +7722,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61080"
@@ -7129,6 +7747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒无效、雷属性耐性强化+1、饥饿感增加"
   },
   {
     "id": "61081"
@@ -7152,6 +7772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61082"
@@ -7175,6 +7797,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61083"
@@ -7198,6 +7822,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61084"
@@ -7221,6 +7847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61085"
@@ -7244,6 +7872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61086"
@@ -7267,6 +7897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61087"
@@ -7290,6 +7922,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61088"
@@ -7313,6 +7947,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61089"
@@ -7336,6 +7972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61090"
@@ -7359,6 +7997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "抗菌、速食、看破+1、饥饿感增加"
   },
   {
     "id": "61091"
@@ -7382,6 +8022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61092"
@@ -7405,6 +8047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61093"
@@ -7428,6 +8072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61094"
@@ -7451,6 +8097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61095"
@@ -7474,6 +8122,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61096"
@@ -7497,6 +8147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61097"
@@ -7520,6 +8172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61098"
@@ -7543,6 +8197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61099"
@@ -7566,6 +8222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61100"
@@ -7589,6 +8247,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "风压（大）无效、无伤、耐力回复迟缓-1"
   },
   {
     "id": "61101"
@@ -7612,6 +8272,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61102"
@@ -7635,6 +8297,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61103"
@@ -7658,6 +8322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61104"
@@ -7681,6 +8347,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61105"
@@ -7704,6 +8372,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61106"
@@ -7727,6 +8397,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61107"
@@ -7750,6 +8422,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61108"
@@ -7773,6 +8447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61109"
@@ -7796,6 +8472,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61110"
@@ -7819,6 +8497,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐暑、暴击"
   },
   {
     "id": "61111"
@@ -7842,6 +8522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61112"
@@ -7865,6 +8547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61113"
@@ -7888,6 +8572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61114"
@@ -7911,6 +8597,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61115"
@@ -7934,6 +8622,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61116"
@@ -7957,6 +8647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61117"
@@ -7980,6 +8672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61118"
@@ -8003,6 +8697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61119"
@@ -8026,6 +8722,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61120"
@@ -8049,6 +8747,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御力提升（小）、风压（小）无效、雷属性攻击弱化"
   },
   {
     "id": "61121"
@@ -8072,6 +8772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61122"
@@ -8095,6 +8797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61123"
@@ -8118,6 +8822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61124"
@@ -8141,6 +8847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61125"
@@ -8164,6 +8872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61126"
@@ -8187,6 +8897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61127"
@@ -8210,6 +8922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61128"
@@ -8233,6 +8947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61129"
@@ -8256,6 +8972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61130"
@@ -8279,6 +8997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、体力强化+2、气绝倍化"
   },
   {
     "id": "61131"
@@ -8302,6 +9022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61132"
@@ -8325,6 +9047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61133"
@@ -8348,6 +9072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61134"
@@ -8371,6 +9097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61135"
@@ -8394,6 +9122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61136"
@@ -8417,6 +9147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61137"
@@ -8440,6 +9172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61138"
@@ -8463,6 +9197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61139"
@@ -8486,6 +9222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61140"
@@ -8509,6 +9247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+1、状态异常攻击+1、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61141"
@@ -8532,6 +9272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61142"
@@ -8555,6 +9297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61143"
@@ -8578,6 +9322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61144"
@@ -8601,6 +9347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61145"
@@ -8624,6 +9372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61146"
@@ -8647,6 +9397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61147"
@@ -8670,6 +9422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61148"
@@ -8693,6 +9447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61149"
@@ -8716,6 +9472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61150"
@@ -8739,6 +9497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回复速度+3、雷属性攻击强化+1、气绝倍化"
   },
   {
     "id": "61151"
@@ -8762,6 +9522,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61152"
@@ -8785,6 +9547,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61153"
@@ -8808,6 +9572,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61154"
@@ -8831,6 +9597,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61155"
@@ -8854,6 +9622,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61156"
@@ -8877,6 +9647,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61157"
@@ -8900,6 +9672,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61158"
@@ -8923,6 +9697,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61159"
@@ -8946,6 +9722,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61160"
@@ -8969,6 +9747,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "麻痹抵抗"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、防御等级+1、麻痹倍化"
   },
   {
     "id": "61161"
@@ -8992,6 +9772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61162"
@@ -9015,6 +9797,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61163"
@@ -9038,6 +9822,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61164"
@@ -9061,6 +9847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61165"
@@ -9084,6 +9872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61166"
@@ -9107,6 +9897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61167"
@@ -9130,6 +9922,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61168"
@@ -9153,6 +9947,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61169"
@@ -9176,6 +9972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61170"
@@ -9199,6 +9997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、体术+1、吸引、耐力回复迟缓-1"
   },
   {
     "id": "61171"
@@ -9222,6 +10022,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61172"
@@ -9245,6 +10047,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61173"
@@ -9268,6 +10072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61174"
@@ -9291,6 +10097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61175"
@@ -9314,6 +10122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61176"
@@ -9337,6 +10147,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61177"
@@ -9360,6 +10172,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61178"
@@ -9383,6 +10197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61179"
@@ -9406,6 +10222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61180"
@@ -9429,6 +10247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+1、破坏王、抗菌、防御力降低（小）"
   },
   {
     "id": "61181"
@@ -9452,6 +10272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61182"
@@ -9475,6 +10297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61183"
@@ -9498,6 +10322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61184"
@@ -9521,6 +10347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61185"
@@ -9544,6 +10372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61186"
@@ -9567,6 +10397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61187"
@@ -9590,6 +10422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61188"
@@ -9613,6 +10447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61189"
@@ -9636,6 +10472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61190"
@@ -9659,6 +10497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒无效、麻痹免疫、状态异常攻击+1、睡眠倍化"
   },
   {
     "id": "61191"
@@ -9682,6 +10522,8 @@ var armorArray =
     "skill4value": "-4"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61192"
@@ -9705,6 +10547,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61193"
@@ -9728,6 +10572,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61194"
@@ -9751,6 +10597,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61195"
@@ -9774,6 +10622,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61196"
@@ -9797,6 +10647,8 @@ var armorArray =
     "skill4value": "-4"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61197"
@@ -9820,6 +10672,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61198"
@@ -9843,6 +10697,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61199"
@@ -9866,6 +10722,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61200"
@@ -9889,6 +10747,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "气绝免疫、风压（小）无效、耐力急速回复+1、恶灵加持"
   },
   {
     "id": "61201"
@@ -9912,6 +10772,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "61202"
@@ -9935,6 +10797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "61203"
@@ -9958,6 +10822,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "61204"
@@ -9981,6 +10847,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "61205"
@@ -10004,6 +10872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "业物、砥石使用高速化、体力弱化-2"
   },
   {
     "id": "61206"
@@ -10027,6 +10897,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "61207"
@@ -10050,6 +10922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "61208"
@@ -10073,6 +10947,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "61209"
@@ -10096,6 +10972,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "61210"
@@ -10119,6 +10997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "贯通弹/矢强化、上弹速度强化+1、体力弱化-2"
   },
   {
     "id": "61211"
@@ -10142,6 +11022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61212"
@@ -10165,6 +11047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61213"
@@ -10188,6 +11072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61214"
@@ -10211,6 +11097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61215"
@@ -10234,6 +11122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61216"
@@ -10257,6 +11147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61217"
@@ -10280,6 +11172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61218"
@@ -10303,6 +11197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61219"
@@ -10326,6 +11222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61220"
@@ -10349,6 +11247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "冰属性攻击强化+1、耐寒、耐震、气绝倍化"
   },
   {
     "id": "61221"
@@ -10372,6 +11272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61222"
@@ -10395,6 +11297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61223"
@@ -10418,6 +11322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61224"
@@ -10441,6 +11347,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61225"
@@ -10464,6 +11372,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61226"
@@ -10487,6 +11397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61227"
@@ -10510,6 +11422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61228"
@@ -10533,6 +11447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61229"
@@ -10556,6 +11472,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61230"
@@ -10579,6 +11497,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "化蝶、隐秘、见切-1"
   },
   {
     "id": "61231"
@@ -10602,6 +11522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61232"
@@ -10625,6 +11547,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "火耐性"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61233"
@@ -10648,6 +11572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61234"
@@ -10671,6 +11597,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61235"
@@ -10694,6 +11622,8 @@ var armorArray =
     "skill4value": "4"
     "skill5name": "火耐性"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61236"
@@ -10717,6 +11647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61237"
@@ -10740,6 +11672,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "火耐性"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61238"
@@ -10763,6 +11697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61239"
@@ -10786,6 +11722,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61240"
@@ -10809,6 +11747,8 @@ var armorArray =
     "skill4value": "4"
     "skill5name": "火耐性"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "耐泥雪、探知、冰属性耐性强化+1、火属性耐性弱化"
   },
   {
     "id": "61241"
@@ -10832,6 +11772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化"
   },
   {
     "id": "61242"
@@ -10855,6 +11797,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化"
   },
   {
     "id": "61243"
@@ -10878,6 +11822,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化"
   },
   {
     "id": "61244"
@@ -10901,6 +11847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化"
   },
   {
     "id": "61245"
@@ -10924,6 +11872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "砥石使用高速化、冰属性攻击强化+1、心眼、毒倍化"
   },
   {
     "id": "61246"
@@ -10947,6 +11897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化"
   },
   {
     "id": "61247"
@@ -10970,6 +11922,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化"
   },
   {
     "id": "61248"
@@ -10993,6 +11947,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化"
   },
   {
     "id": "61249"
@@ -11016,6 +11972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化"
   },
   {
     "id": "61250"
@@ -11039,6 +11997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体术+1、冰属性攻击强化+2、刺杀术+1、毒倍化"
   },
   {
     "id": "61251"
@@ -11062,6 +12022,8 @@ var armorArray =
     "skill4value": "-5"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61252"
@@ -11085,6 +12047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61253"
@@ -11108,6 +12072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61254"
@@ -11131,6 +12097,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61255"
@@ -11154,6 +12122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61256"
@@ -11177,6 +12147,8 @@ var armorArray =
     "skill4value": "-5"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61257"
@@ -11200,6 +12172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61258"
@@ -11223,6 +12197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61259"
@@ -11246,6 +12222,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61260"
@@ -11269,6 +12247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "睡眠免疫、吸引、状态异常攻击+1、火属性耐性弱化"
   },
   {
     "id": "61261"
@@ -11292,6 +12272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61262"
@@ -11315,6 +12297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61263"
@@ -11338,6 +12322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61264"
@@ -11361,6 +12347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61265"
@@ -11384,6 +12372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61266"
@@ -11407,6 +12397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61267"
@@ -11430,6 +12422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61268"
@@ -11453,6 +12447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61269"
@@ -11476,6 +12472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61270"
@@ -11499,6 +12497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "不屈、根性、回复速度+1、耐力回复迟缓-1"
   },
   {
     "id": "61271"
@@ -11522,6 +12522,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61272"
@@ -11545,6 +12547,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61273"
@@ -11568,6 +12572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61274"
@@ -11591,6 +12597,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61275"
@@ -11614,6 +12622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61276"
@@ -11637,6 +12647,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61277"
@@ -11660,6 +12672,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61278"
@@ -11683,6 +12697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61279"
@@ -11706,6 +12722,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61280"
@@ -11729,6 +12747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+2、暴击、气绝倍化"
   },
   {
     "id": "61281"
@@ -11752,6 +12772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61282"
@@ -11775,6 +12797,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61283"
@@ -11798,6 +12822,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61284"
@@ -11821,6 +12847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61285"
@@ -11844,6 +12872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61286"
@@ -11867,6 +12897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "散弹/矢强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61287"
@@ -11890,6 +12922,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "散弹/矢强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61288"
@@ -11913,6 +12947,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "散弹/矢强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61289"
@@ -11936,6 +12972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "散弹/矢强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61290"
@@ -11959,6 +12997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "散弹/矢强化、速食、耐泥雪、攻击力降低（小）"
   },
   {
     "id": "61291"
@@ -11982,6 +13022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御等级+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61292"
@@ -12005,6 +13047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御等级+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61293"
@@ -12028,6 +13072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御等级+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61294"
@@ -12051,6 +13097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御等级+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61295"
@@ -12074,6 +13122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御等级+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61296"
@@ -12097,6 +13147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "上弹速度强化+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61297"
@@ -12120,6 +13172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "上弹速度强化+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61298"
@@ -12143,6 +13197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "上弹速度强化+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61299"
@@ -12166,6 +13222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "上弹速度强化+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61300"
@@ -12189,6 +13247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "上弹速度强化+1、攻击力提升（小）、状态异常攻击-1"
   },
   {
     "id": "61301"
@@ -12212,6 +13272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "业物、见切+1、防御力降低（小）"
   },
   {
     "id": "61302"
@@ -12235,6 +13297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "业物、见切+1、防御力降低（小）"
   },
   {
     "id": "61303"
@@ -12258,6 +13322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "业物、见切+1、防御力降低（小）"
   },
   {
     "id": "61304"
@@ -12281,6 +13347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "业物、见切+1、防御力降低（小）"
   },
   {
     "id": "61305"
@@ -12304,6 +13372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "业物、见切+1、防御力降低（小）"
   },
   {
     "id": "61306"
@@ -12327,6 +13397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "贯通弹/矢强化、见切+1、防御力降低（小）"
   },
   {
     "id": "61307"
@@ -12350,6 +13422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "贯通弹/矢强化、见切+1、防御力降低（小）"
   },
   {
     "id": "61308"
@@ -12373,6 +13447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "贯通弹/矢强化、见切+1、防御力降低（小）"
   },
   {
     "id": "61309"
@@ -12396,6 +13472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "贯通弹/矢强化、见切+1、防御力降低（小）"
   },
   {
     "id": "61310"
@@ -12419,6 +13497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "贯通弹/矢强化、见切+1、防御力降低（小）"
   },
   {
     "id": "61311"
@@ -12442,6 +13522,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61312"
@@ -12465,6 +13547,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61313"
@@ -12488,6 +13572,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61314"
@@ -12511,6 +13597,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61315"
@@ -12534,6 +13622,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61316"
@@ -12557,6 +13647,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61317"
@@ -12580,6 +13672,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61318"
@@ -12603,6 +13697,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61319"
@@ -12626,6 +13722,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61320"
@@ -12649,6 +13747,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "广域化+1、耐力急速回复+1、回复速度-1"
   },
   {
     "id": "61321"
@@ -12672,6 +13772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61322"
@@ -12695,6 +13797,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61323"
@@ -12718,6 +13822,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61324"
@@ -12741,6 +13847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61325"
@@ -12764,6 +13872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61326"
@@ -12787,6 +13897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61327"
@@ -12810,6 +13922,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61328"
@@ -12833,6 +13947,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61329"
@@ -12856,6 +13972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61330"
@@ -12879,6 +13997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "挑战者、火事场力+1、恶灵加持"
   },
   {
     "id": "61331"
@@ -12902,6 +14022,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61332"
@@ -12925,6 +14047,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61333"
@@ -12948,6 +14072,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61334"
@@ -12971,6 +14097,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61335"
@@ -12994,6 +14122,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61336"
@@ -13017,6 +14147,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61337"
@@ -13040,6 +14172,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61338"
@@ -13063,6 +14197,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61339"
@@ -13086,6 +14222,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61340"
@@ -13109,6 +14247,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "集中、破坏王、体力弱化-2"
   },
   {
     "id": "61341"
@@ -13132,6 +14272,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61342"
@@ -13155,6 +14297,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61343"
@@ -13178,6 +14322,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61344"
@@ -13201,6 +14347,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61345"
@@ -13224,6 +14372,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61346"
@@ -13247,6 +14397,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61347"
@@ -13270,6 +14422,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61348"
@@ -13293,6 +14447,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61349"
@@ -13316,6 +14472,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61350"
@@ -13339,6 +14497,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "毒减半、体力强化+2、探知"
   },
   {
     "id": "61351"
@@ -13362,6 +14522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1"
   },
   {
     "id": "61352"
@@ -13385,6 +14547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1"
   },
   {
     "id": "61353"
@@ -13408,6 +14572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1"
   },
   {
     "id": "61354"
@@ -13431,6 +14597,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1"
   },
   {
     "id": "61355"
@@ -13454,6 +14622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耳栓、状态异常攻击+1、砥石使用高速化、回复速度-1"
   },
   {
     "id": "61356"
@@ -13477,6 +14647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耳栓、状态异常攻击+1、反动减轻+1、回复速度-1"
   },
   {
     "id": "61357"
@@ -13500,6 +14672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耳栓、状态异常攻击+1、反动减轻+1、回复速度-1"
   },
   {
     "id": "61358"
@@ -13523,6 +14697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耳栓、状态异常攻击+1、反动减轻+1、回复速度-1"
   },
   {
     "id": "61359"
@@ -13546,6 +14722,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓、状态异常攻击+1、反动减轻+1、回复速度-1"
   },
   {
     "id": "61360"
@@ -13569,6 +14747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耳栓、状态异常攻击+1、反动减轻+1、回复速度-1"
   },
   {
     "id": "61361"
@@ -13592,6 +14772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61362"
@@ -13615,6 +14797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61363"
@@ -13638,6 +14822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61364"
@@ -13661,6 +14847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61365"
@@ -13684,6 +14872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61366"
@@ -13707,6 +14897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61367"
@@ -13730,6 +14922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61368"
@@ -13753,6 +14947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61369"
@@ -13776,6 +14972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61370"
@@ -13799,6 +14997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体术+1、弱点特效、挑衅"
   },
   {
     "id": "61371"
@@ -13822,6 +15022,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "心眼、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61372"
@@ -13845,6 +15047,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "心眼、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61373"
@@ -13868,6 +15072,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "心眼、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61374"
@@ -13891,6 +15097,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "心眼、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61375"
@@ -13914,6 +15122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "心眼、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61376"
@@ -13937,6 +15147,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "刺杀术+1、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61377"
@@ -13960,6 +15172,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "刺杀术+1、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61378"
@@ -13983,6 +15197,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "刺杀术+1、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61379"
@@ -14006,6 +15222,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "刺杀术+1、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61380"
@@ -14029,6 +15247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "刺杀术+1、火属性攻击强化+2、防御力降低（小）"
   },
   {
     "id": "61381"
@@ -14052,6 +15272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61382"
@@ -14075,6 +15297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61383"
@@ -14098,6 +15322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61384"
@@ -14121,6 +15347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61385"
@@ -14144,6 +15372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61386"
@@ -14167,6 +15397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61387"
@@ -14190,6 +15422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61388"
@@ -14213,6 +15447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61389"
@@ -14236,6 +15472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61390"
@@ -14259,6 +15497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+1、绊术、速食、回复速度-1"
   },
   {
     "id": "61391"
@@ -14282,6 +15522,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "食事"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61392"
@@ -14305,6 +15547,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "食事"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61393"
@@ -14328,6 +15572,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "食事"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61394"
@@ -14351,6 +15597,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61395"
@@ -14374,6 +15622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61396"
@@ -14397,6 +15647,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "食事"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61397"
@@ -14420,6 +15672,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "食事"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61398"
@@ -14443,6 +15697,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "食事"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61399"
@@ -14466,6 +15722,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61400"
@@ -14489,6 +15747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耐震、根性、水属性攻击强化+1、慢食"
   },
   {
     "id": "61451"
@@ -14512,6 +15772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61452"
@@ -14535,6 +15797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61453"
@@ -14558,6 +15822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61454"
@@ -14581,6 +15847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61455"
@@ -14604,6 +15872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61456"
@@ -14627,6 +15897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61457"
@@ -14650,6 +15922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61458"
@@ -14673,6 +15947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61459"
@@ -14696,6 +15972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61460"
@@ -14719,6 +15997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "攻击力提升（大）、火属性攻击强化+1、体力弱化-1"
   },
   {
     "id": "61401"
@@ -14742,6 +16022,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "锋利度"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "心眼、回复速度+1、火属性攻击强化+1、钝刀"
   },
   {
     "id": "61402"
@@ -14765,6 +16047,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "心眼、回复速度+1、火属性攻击强化+1、钝刀"
   },
   {
     "id": "61403"
@@ -14788,6 +16072,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "锋利度"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "心眼、回复速度+1、火属性攻击强化+1、钝刀"
   },
   {
     "id": "61404"
@@ -14811,6 +16097,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "锋利度"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "心眼、回复速度+1、火属性攻击强化+1、钝刀"
   },
   {
     "id": "61405"
@@ -14834,6 +16122,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "锋利度"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "心眼、回复速度+1、火属性攻击强化+1、钝刀"
   },
   {
     "id": "61406"
@@ -14857,6 +16147,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1"
   },
   {
     "id": "61407"
@@ -14880,6 +16172,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1"
   },
   {
     "id": "61408"
@@ -14903,6 +16197,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1"
   },
   {
     "id": "61409"
@@ -14926,6 +16222,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1"
   },
   {
     "id": "61410"
@@ -14949,6 +16247,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "弱点特效、回复速度+1、火属性攻击强化+1、上弹速度强化-1"
   },
   {
     "id": "61461"
@@ -14972,6 +16272,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "耳栓、速食、防御力提升（小）、砥石使用低速化"
   },
   {
     "id": "61462"
@@ -14995,6 +16297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耳栓、速食、防御力提升（小）、砥石使用低速化"
   },
   {
     "id": "61463"
@@ -15018,6 +16322,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "耳栓、速食、防御力提升（小）、砥石使用低速化"
   },
   {
     "id": "61464"
@@ -15041,6 +16347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓、速食、防御力提升（小）、砥石使用低速化"
   },
   {
     "id": "61465"
@@ -15064,6 +16372,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "耳栓、速食、防御力提升（小）、砥石使用低速化"
   },
   {
     "id": "61466"
@@ -15087,6 +16397,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "反动"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "耳栓、速食、防御力提升（小）、反动增大"
   },
   {
     "id": "61467"
@@ -15110,6 +16422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耳栓、速食、防御力提升（小）、反动增大"
   },
   {
     "id": "61468"
@@ -15133,6 +16447,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "反动"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "耳栓、速食、防御力提升（小）、反动增大"
   },
   {
     "id": "61469"
@@ -15156,6 +16472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓、速食、防御力提升（小）、反动增大"
   },
   {
     "id": "61470"
@@ -15179,6 +16497,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "反动"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "耳栓、速食、防御力提升（小）、反动增大"
   },
   {
     "id": "61421"
@@ -15202,6 +16522,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-1"
   },
   {
     "id": "61422"
@@ -15225,6 +16547,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-2"
   },
   {
     "id": "61423"
@@ -15248,6 +16572,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-3"
   },
   {
     "id": "61424"
@@ -15271,6 +16597,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-4"
   },
   {
     "id": "61425"
@@ -15294,6 +16622,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-5"
   },
   {
     "id": "61426"
@@ -15317,6 +16647,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-6"
   },
   {
     "id": "61427"
@@ -15340,6 +16672,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-7"
   },
   {
     "id": "61428"
@@ -15363,6 +16697,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-8"
   },
   {
     "id": "61429"
@@ -15386,6 +16722,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-9"
   },
   {
     "id": "61430"
@@ -15409,6 +16747,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "回复速度+2、业物、挑战者+2、刺伤无效、降低耐力回复速度-10"
   },
   {
     "id": "61471"
@@ -15432,6 +16772,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61472"
@@ -15455,6 +16797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61473"
@@ -15478,6 +16822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61474"
@@ -15501,6 +16847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61475"
@@ -15524,6 +16872,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61476"
@@ -15547,6 +16897,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61477"
@@ -15570,6 +16922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61478"
@@ -15593,6 +16947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61479"
@@ -15616,6 +16972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61480"
@@ -15639,6 +16997,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "不屈，特殊攻击+2，广域化+1"
   },
   {
     "id": "61481"
@@ -15662,6 +17022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "拔刀术，耐震，耐力回复+1，砥石使用低速化"
   },
   {
     "id": "61482"
@@ -15685,6 +17047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "拔刀术，耐震，耐力回复+1，砥石使用低速化"
   },
   {
     "id": "61483"
@@ -15708,6 +17072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "拔刀术，耐震，耐力回复+1，砥石使用低速化"
   },
   {
     "id": "61484"
@@ -15731,6 +17097,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "拔刀术，耐震，耐力回复+1，砥石使用低速化"
   },
   {
     "id": "61485"
@@ -15754,6 +17122,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "拔刀术，耐震，耐力回复+1，砥石使用低速化"
   },
   {
     "id": "61486"
@@ -15777,6 +17147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1"
   },
   {
     "id": "61487"
@@ -15800,6 +17172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1"
   },
   {
     "id": "61488"
@@ -15823,6 +17197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1"
   },
   {
     "id": "61489"
@@ -15846,6 +17222,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1"
   },
   {
     "id": "61490"
@@ -15869,6 +17247,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "上弹速度强化+1，贯通弹/矢强化，耐力回复+1，状态异常攻击-1"
   },
   {
     "id": "61431"
@@ -15892,6 +17272,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "研磨师"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化"
   },
   {
     "id": "61432"
@@ -15915,6 +17297,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化"
   },
   {
     "id": "61433"
@@ -15938,6 +17322,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化"
   },
   {
     "id": "61434"
@@ -15961,6 +17347,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-3"
+    "armortype": "4"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化"
   },
   {
     "id": "61435"
@@ -15984,6 +17372,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，砥石使用低速化"
   },
   {
     "id": "61436"
@@ -16007,6 +17397,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "快速装填"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1"
   },
   {
     "id": "61437"
@@ -16030,6 +17422,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1"
   },
   {
     "id": "61438"
@@ -16053,6 +17447,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1"
   },
   {
     "id": "61439"
@@ -16076,6 +17472,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-3"
+    "armortype": "4"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1"
   },
   {
     "id": "61440"
@@ -16099,6 +17497,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "雷属性攻击强化+1，回避性能，精灵的守护，上弹速度强化-1"
   },
   {
     "id": "61491"
@@ -16122,6 +17522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+2，耳栓，业物，体力弱化-1"
   },
   {
     "id": "61492"
@@ -16145,6 +17547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+2，耳栓，业物，体力弱化-1"
   },
   {
     "id": "61493"
@@ -16168,6 +17572,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+2，耳栓，业物，体力弱化-1"
   },
   {
     "id": "61494"
@@ -16191,6 +17597,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+2，耳栓，业物，体力弱化-1"
   },
   {
     "id": "61495"
@@ -16214,6 +17622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+2，耳栓，业物，体力弱化-1"
   },
   {
     "id": "61496"
@@ -16237,6 +17647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "见切+2，耳栓，通常弹&连射矢强化，体力弱化-1"
   },
   {
     "id": "61497"
@@ -16260,6 +17672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "见切+2，耳栓，通常弹&连射矢强化，体力弱化-1"
   },
   {
     "id": "61498"
@@ -16283,6 +17697,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "见切+2，耳栓，通常弹&连射矢强化，体力弱化-1"
   },
   {
     "id": "61499"
@@ -16306,6 +17722,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "见切+2，耳栓，通常弹&连射矢强化，体力弱化-1"
   },
   {
     "id": "61500"
@@ -16329,6 +17747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "见切+2，耳栓，通常弹&连射矢强化，体力弱化-1"
   },
   {
     "id": "61501"
@@ -16352,6 +17772,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61502"
@@ -16375,6 +17797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61503"
@@ -16398,6 +17822,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61504"
@@ -16421,6 +17847,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61505"
@@ -16444,6 +17872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61506"
@@ -16467,6 +17897,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61507"
@@ -16490,6 +17922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61508"
@@ -16513,6 +17947,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61509"
@@ -16536,6 +17972,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61510"
@@ -16559,6 +17997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耳栓，甲壳杀手，回复速度+1，体力弱化-1"
   },
   {
     "id": "61511"
@@ -16582,6 +18022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61512"
@@ -16605,6 +18047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61513"
@@ -16628,6 +18072,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61514"
@@ -16651,6 +18097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61515"
@@ -16674,6 +18122,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61516"
@@ -16697,6 +18147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61517"
@@ -16720,6 +18172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61518"
@@ -16743,6 +18197,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61519"
@@ -16766,6 +18222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61520"
@@ -16789,6 +18247,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "回避性能+2，集中，毒倍化"
   },
   {
     "id": "61521"
@@ -16812,6 +18272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61522"
@@ -16835,6 +18297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61523"
@@ -16858,6 +18322,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61524"
@@ -16881,6 +18347,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61525"
@@ -16904,6 +18372,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61526"
@@ -16927,6 +18397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61527"
@@ -16950,6 +18422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61528"
@@ -16973,6 +18447,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61529"
@@ -16996,6 +18472,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61530"
@@ -17019,6 +18497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "KO术，集中，看破+1，耐力回复-1"
   },
   {
     "id": "61541"
@@ -17042,6 +18522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61542"
@@ -17065,6 +18547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61543"
@@ -17088,6 +18572,8 @@ var armorArray =
     "skill4value": "4"
     "skill5name": "防御"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61544"
@@ -17111,6 +18597,8 @@ var armorArray =
     "skill4value": "4"
     "skill5name": "防御"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61545"
@@ -17134,6 +18622,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61546"
@@ -17157,6 +18647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61547"
@@ -17180,6 +18672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61548"
@@ -17203,6 +18697,8 @@ var armorArray =
     "skill4value": "4"
     "skill5name": "防御"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61549"
@@ -17226,6 +18722,8 @@ var armorArray =
     "skill4value": "4"
     "skill5name": "防御"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61550"
@@ -17249,6 +18747,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "体术+2，睡眠免疫，鸟龙杀手，防御力降低（小）"
   },
   {
     "id": "61551"
@@ -17272,6 +18772,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61552"
@@ -17295,6 +18797,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61553"
@@ -17318,6 +18822,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61554"
@@ -17341,6 +18847,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61555"
@@ -17364,6 +18872,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61556"
@@ -17387,6 +18897,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61557"
@@ -17410,6 +18922,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61558"
@@ -17433,6 +18947,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61559"
@@ -17456,6 +18972,8 @@ var armorArray =
     "skill4value": "0"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61560"
@@ -17479,6 +18997,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+2，风压（大）无效，火属性攻击强化+1"
   },
   {
     "id": "61561"
@@ -17502,6 +19022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61562"
@@ -17525,6 +19047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61563"
@@ -17548,6 +19072,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61564"
@@ -17571,6 +19097,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61565"
@@ -17594,6 +19122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61566"
@@ -17617,6 +19147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61567"
@@ -17640,6 +19172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61568"
@@ -17663,6 +19197,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61569"
@@ -17686,6 +19222,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61570"
@@ -17709,6 +19247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "破坏王，耐震，弱点特效，耐力回复-1"
   },
   {
     "id": "61571"
@@ -17732,6 +19272,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "业物，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61572"
@@ -17755,6 +19297,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-3"
+    "armortype": "2"
+    "skilllist": "业物，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61573"
@@ -17778,6 +19322,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "业物，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61574"
@@ -17801,6 +19347,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "业物，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61575"
@@ -17824,6 +19372,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "业物，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61576"
@@ -17847,6 +19397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "上弹速度强化+1，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61577"
@@ -17870,6 +19422,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-3"
+    "armortype": "2"
+    "skilllist": "上弹速度强化+1，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61578"
@@ -17893,6 +19447,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "上弹速度强化+1，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61579"
@@ -17916,6 +19472,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "上弹速度强化+1，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61580"
@@ -17939,6 +19497,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐寒"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "上弹速度强化+1，气绝减半，回避性能+1，耐暑"
   },
   {
     "id": "61601"
@@ -17962,6 +19522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61602"
@@ -17985,6 +19547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61603"
@@ -18008,6 +19572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61604"
@@ -18031,6 +19597,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61605"
@@ -18054,6 +19622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61606"
@@ -18077,6 +19647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61607"
@@ -18100,6 +19672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61608"
@@ -18123,6 +19697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61609"
@@ -18146,6 +19722,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61610"
@@ -18169,6 +19747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "火事场力+2，见切+1，恶灵的加护"
   },
   {
     "id": "61591"
@@ -18192,6 +19772,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "水耐性"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61592"
@@ -18215,6 +19797,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61593"
@@ -18238,6 +19822,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61594"
@@ -18261,6 +19847,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61595"
@@ -18284,6 +19872,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61596"
@@ -18307,6 +19897,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "水耐性"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61597"
@@ -18330,6 +19922,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61598"
@@ -18353,6 +19947,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61599"
@@ -18376,6 +19972,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61600"
@@ -18399,6 +19997,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "集中，根性，火属性攻击强化+1，水属性耐性弱化，"
   },
   {
     "id": "61581"
@@ -18422,6 +20022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61582"
@@ -18445,6 +20047,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61583"
@@ -18468,6 +20072,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61584"
@@ -18491,6 +20097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61585"
@@ -18514,6 +20122,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61586"
@@ -18537,6 +20147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61587"
@@ -18560,6 +20172,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61588"
@@ -18583,6 +20197,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61589"
@@ -18606,6 +20222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61590"
@@ -18629,6 +20247,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "耳栓，隐秘，风压（大）无效，耐力回复-1"
   },
   {
     "id": "61531"
@@ -18652,6 +20272,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "防御性能+2，防御强化，体力强化+3，体术-1"
   },
   {
     "id": "61532"
@@ -18675,6 +20297,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "防御性能+2，防御强化，体力强化+3，体术-1"
   },
   {
     "id": "61533"
@@ -18698,6 +20322,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "防御性能+2，防御强化，体力强化+3，体术-1"
   },
   {
     "id": "61534"
@@ -18721,6 +20347,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "防御性能+2，防御强化，体力强化+3，体术-1"
   },
   {
     "id": "61535"
@@ -18744,6 +20372,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "防御性能+2，防御强化，体力强化+3，体术-1"
   },
   {
     "id": "61536"
@@ -18767,6 +20397,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "快速装填+2，散弹/矢强化，体力强化+3，体术-1"
   },
   {
     "id": "61537"
@@ -18790,6 +20422,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "快速装填+2，散弹/矢强化，体力强化+4，体术-1"
   },
   {
     "id": "61538"
@@ -18813,6 +20447,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "快速装填+2，散弹/矢强化，体力强化+4，体术-1"
   },
   {
     "id": "61539"
@@ -18836,6 +20472,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "快速装填+2，散弹/矢强化，体力强化+4，体术-1"
   },
   {
     "id": "61540"
@@ -18859,6 +20497,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "快速装填+2，散弹/矢强化，体力强化+4，体术-1"
   },
   {
     "id": "61631"
@@ -18882,6 +20522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "特殊攻击+2，麻痹免疫，心眼，钝刀"
   },
   {
     "id": "61632"
@@ -18905,6 +20547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "特殊攻击+2，麻痹免疫，心眼，钝刀"
   },
   {
     "id": "61633"
@@ -18928,6 +20572,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "锋利度"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "特殊攻击+2，麻痹免疫，心眼，钝刀"
   },
   {
     "id": "61634"
@@ -18951,6 +20597,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "锋利度"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "特殊攻击+2，麻痹免疫，心眼，钝刀"
   },
   {
     "id": "61635"
@@ -18974,6 +20622,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "锋利度"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "特殊攻击+2，麻痹免疫，心眼，钝刀"
   },
   {
     "id": "61636"
@@ -18997,6 +20647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1"
   },
   {
     "id": "61637"
@@ -19020,6 +20672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1"
   },
   {
     "id": "61638"
@@ -19043,6 +20697,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-3"
+    "armortype": "3"
+    "skilllist": "特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1"
   },
   {
     "id": "61639"
@@ -19066,6 +20722,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1"
   },
   {
     "id": "61640"
@@ -19089,6 +20747,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "特殊攻击+2，麻痹免疫，反动减轻+1，上弹速度强化-1"
   },
   {
     "id": "61641"
@@ -19112,6 +20772,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61642"
@@ -19135,6 +20797,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61643"
@@ -19158,6 +20822,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61644"
@@ -19181,6 +20847,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61645"
@@ -19204,6 +20872,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61646"
@@ -19227,6 +20897,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61647"
@@ -19250,6 +20922,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61648"
@@ -19273,6 +20947,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61649"
@@ -19296,6 +20972,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "特殊攻击"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61650"
@@ -19319,6 +20997,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "绊术，耐震，全属攻强化+2，状态异常攻击-1"
   },
   {
     "id": "61651"
@@ -19342,6 +21022,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61652"
@@ -19365,6 +21047,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-1"
+    "armortype": "2"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61653"
@@ -19388,6 +21072,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-4"
+    "armortype": "3"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61654"
@@ -19411,6 +21097,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61655"
@@ -19434,6 +21122,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-1"
+    "armortype": "5"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61656"
@@ -19457,6 +21147,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61657"
@@ -19480,6 +21172,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-1"
+    "armortype": "2"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61658"
@@ -19503,6 +21197,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-4"
+    "armortype": "3"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61659"
@@ -19526,6 +21222,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61660"
@@ -19549,6 +21247,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-1"
+    "armortype": "5"
+    "skilllist": "集中、回避距离+1、挑战者+1、龙属性耐性强化+1、挑衅"
   },
   {
     "id": "61661"
@@ -19572,6 +21272,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61662"
@@ -19595,6 +21297,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61663"
@@ -19618,6 +21322,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61664"
@@ -19641,6 +21347,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61665"
@@ -19664,6 +21372,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61666"
@@ -19687,6 +21397,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61667"
@@ -19710,6 +21422,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61668"
@@ -19733,6 +21447,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61669"
@@ -19756,6 +21472,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61670"
@@ -19779,6 +21497,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "精灵王的加护、弱点特效、高级耳栓、飞龙杀手"
   },
   {
     "id": "61671"
@@ -19802,6 +21522,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "防御性能+1、水属性耐心强化+2、业物、炮术师、砥石使用低速化"
   },
   {
     "id": "61672"
@@ -19825,6 +21547,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "防御性能+1、水属性耐心强化+2、业物、炮术师、砥石使用低速化"
   },
   {
     "id": "61673"
@@ -19848,6 +21572,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "防御性能+1、水属性耐心强化+2、业物、炮术师、砥石使用低速化"
   },
   {
     "id": "61674"
@@ -19871,6 +21597,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "防御性能+1、水属性耐心强化+2、业物、炮术师、砥石使用低速化"
   },
   {
     "id": "61675"
@@ -19894,6 +21622,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "研磨师"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "防御性能+1、水属性耐心强化+2、业物、炮术师、砥石使用低速化"
   },
   {
     "id": "61676"
@@ -19917,6 +21647,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "贯通弹/矢强化、水属性耐心强化+2、反动减轻+1、速射子弹+1、上弹速度强化-1"
   },
   {
     "id": "61677"
@@ -19940,6 +21672,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "贯通弹/矢强化、水属性耐心强化+2、反动减轻+1、速射子弹+1、上弹速度强化-1"
   },
   {
     "id": "61678"
@@ -19963,6 +21697,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "贯通弹/矢强化、水属性耐心强化+2、反动减轻+1、速射子弹+1、上弹速度强化-1"
   },
   {
     "id": "61679"
@@ -19986,6 +21722,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-3"
+    "armortype": "4"
+    "skilllist": "贯通弹/矢强化、水属性耐心强化+2、反动减轻+1、速射子弹+1、上弹速度强化-1"
   },
   {
     "id": "61680"
@@ -20009,6 +21747,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "快速装填"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "贯通弹/矢强化、水属性耐心强化+2、反动减轻+1、速射子弹+1、上弹速度强化-1"
   },
   {
     "id": "61681"
@@ -20032,6 +21772,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "毒抵抗"
     "skill5value": "-1"
+    "armortype": "1"
+    "skilllist": "业物、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61682"
@@ -20055,6 +21797,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "业物、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61683"
@@ -20078,6 +21822,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "毒抵抗"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "业物、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61684"
@@ -20101,6 +21847,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "业物、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61685"
@@ -20124,6 +21872,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "业物、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61686"
@@ -20147,6 +21897,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "毒抵抗"
     "skill5value": "-1"
+    "armortype": "1"
+    "skilllist": "散弹/矢强化、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61687"
@@ -20170,6 +21922,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "散弹/矢强化、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61688"
@@ -20193,6 +21947,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "毒抵抗"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "散弹/矢强化、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61689"
@@ -20216,6 +21972,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "散弹/矢强化、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61690"
@@ -20239,6 +21997,8 @@ var armorArray =
     "skill4value": "-1"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "散弹/矢强化、回避距离+1、无伤、体术+1、毒倍化"
   },
   {
     "id": "61691"
@@ -20262,6 +22022,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "心眼/速食/斩味等级+1/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61692"
@@ -20285,6 +22047,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "3"
+    "armortype": "2"
+    "skilllist": "心眼/速食/斩味等级+1/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61693"
@@ -20308,6 +22072,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "1"
+    "armortype": "3"
+    "skilllist": "心眼/速食/斩味等级+1/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61694"
@@ -20331,6 +22097,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "3"
+    "armortype": "4"
+    "skilllist": "心眼/速食/斩味等级+1/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61695"
@@ -20354,6 +22122,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "3"
+    "armortype": "5"
+    "skilllist": "心眼/速食/斩味等级+1/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61696"
@@ -20377,6 +22147,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "上弹速度强化+2/速食/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61697"
@@ -20400,6 +22172,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "3"
+    "armortype": "2"
+    "skilllist": "上弹速度强化+2/速食/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61698"
@@ -20423,6 +22197,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "2"
+    "armortype": "3"
+    "skilllist": "上弹速度强化+2/速食/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61699"
@@ -20446,6 +22222,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "2"
+    "armortype": "4"
+    "skilllist": "上弹速度强化+2/速食/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61700"
@@ -20469,6 +22247,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "麻痹抵抗"
     "skill5value": "3"
+    "armortype": "5"
+    "skilllist": "上弹速度强化+2/速食/麻痹免疫/恶灵的加护"
   },
   {
     "id": "61701"
@@ -20492,6 +22272,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61702"
@@ -20515,6 +22297,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61703"
@@ -20538,6 +22322,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61704"
@@ -20561,6 +22347,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61705"
@@ -20584,6 +22372,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61706"
@@ -20607,6 +22397,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "耐力回复"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61707"
@@ -20630,6 +22422,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61708"
@@ -20653,6 +22447,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61709"
@@ -20676,6 +22472,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61710"
@@ -20699,6 +22497,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "耐力回复"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "飞人+1/冰属性攻击强化+2/体术+1/耐泥雪/耐力回复-1"
   },
   {
     "id": "61711"
@@ -20722,6 +22522,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "匠/业物/探知/饥饿感增加"
   },
   {
     "id": "61712"
@@ -20745,6 +22547,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "匠/业物/探知/饥饿感增加"
   },
   {
     "id": "61713"
@@ -20768,6 +22572,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "匠/业物/探知/饥饿感增加"
   },
   {
     "id": "61714"
@@ -20791,6 +22597,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "匠/业物/探知/饥饿感增加"
   },
   {
     "id": "61715"
@@ -20814,6 +22622,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "匠/业物/探知/饥饿感增加"
   },
   {
     "id": "61716"
@@ -20837,6 +22647,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "装填术/反动减轻+1/探知/饥饿感增加"
   },
   {
     "id": "61717"
@@ -20860,6 +22672,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "装填术/反动减轻+2/探知/饥饿感增加"
   },
   {
     "id": "61718"
@@ -20883,6 +22697,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "装填术/反动减轻+3/探知/饥饿感增加"
   },
   {
     "id": "61719"
@@ -20906,6 +22722,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "装填术/反动减轻+4/探知/饥饿感增加"
   },
   {
     "id": "61720"
@@ -20929,6 +22747,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "装填术/反动减轻+5/探知/饥饿感增加"
   },
   {
     "id": "61721"
@@ -20952,6 +22772,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61722"
@@ -20975,6 +22797,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-1"
+    "armortype": "2"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61723"
@@ -20998,6 +22822,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "体力"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61724"
@@ -21021,6 +22847,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "体力"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61725"
@@ -21044,6 +22872,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61726"
@@ -21067,6 +22897,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61727"
@@ -21090,6 +22922,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-1"
+    "armortype": "2"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61728"
@@ -21113,6 +22947,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "体力"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61729"
@@ -21136,6 +22972,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "体力"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61730"
@@ -21159,6 +22997,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "体力"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "全属攻强化+1/飞人+1/全耐性+1/体力弱化-1"
   },
   {
     "id": "61731"
@@ -21182,6 +23022,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61732"
@@ -21205,6 +23047,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61733"
@@ -21228,6 +23072,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61734"
@@ -21251,6 +23097,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61735"
@@ -21274,6 +23122,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61736"
@@ -21297,6 +23147,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "1"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61737"
@@ -21320,6 +23172,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "2"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61738"
@@ -21343,6 +23197,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "3"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61739"
@@ -21366,6 +23222,8 @@ var armorArray =
     "skill4value": "-2"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "4"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61740"
@@ -21389,6 +23247,8 @@ var armorArray =
     "skill4value": "-3"
     "skill5name": "#N/A"
     "skill5value": "0"
+    "armortype": "5"
+    "skilllist": "羽化/化蝶/专注/攻击力降低（小）"
   },
   {
     "id": "61741"
@@ -21412,6 +23272,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "攻击"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61742"
@@ -21435,6 +23297,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "攻击"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61743"
@@ -21458,6 +23322,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "攻击"
     "skill5value": "-1"
+    "armortype": "3"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61744"
@@ -21481,6 +23347,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "攻击"
     "skill5value": "-3"
+    "armortype": "4"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61745"
@@ -21504,6 +23372,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "攻击"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61746"
@@ -21527,6 +23397,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "攻击"
     "skill5value": "-3"
+    "armortype": "1"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61747"
@@ -21550,6 +23422,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "攻击"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61748"
@@ -21573,6 +23447,8 @@ var armorArray =
     "skill4value": "1"
     "skill5name": "攻击"
     "skill5value": "-1"
+    "armortype": "3"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61749"
@@ -21596,6 +23472,8 @@ var armorArray =
     "skill4value": "3"
     "skill5name": "攻击"
     "skill5value": "-3"
+    "armortype": "4"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61750"
@@ -21619,6 +23497,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "攻击"
     "skill5value": "-3"
+    "armortype": "5"
+    "skilllist": "见切+2/弱点特效/毒无效/回避距离+1/攻击力降低（小）"
   },
   {
     "id": "61751"
@@ -21642,6 +23522,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/业物/牙兽杀手/挑衅"
   },
   {
     "id": "61752"
@@ -21665,6 +23547,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/业物/牙兽杀手/挑衅"
   },
   {
     "id": "61753"
@@ -21688,6 +23572,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/业物/牙兽杀手/挑衅"
   },
   {
     "id": "61754"
@@ -21711,6 +23597,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/业物/牙兽杀手/挑衅"
   },
   {
     "id": "61755"
@@ -21734,6 +23622,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/业物/牙兽杀手/挑衅"
   },
   {
     "id": "61756"
@@ -21757,6 +23647,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "1"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/专注/牙兽杀手/挑衅"
   },
   {
     "id": "61757"
@@ -21780,6 +23672,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "2"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/专注/牙兽杀手/挑衅"
   },
   {
     "id": "61758"
@@ -21803,6 +23697,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "3"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/专注/牙兽杀手/挑衅"
   },
   {
     "id": "61759"
@@ -21826,6 +23722,8 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "4"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/专注/牙兽杀手/挑衅"
   },
   {
     "id": "61760"
@@ -21849,5 +23747,7 @@ var armorArray =
     "skill4value": "2"
     "skill5name": "气息"
     "skill5value": "-2"
+    "armortype": "5"
+    "skilllist": "力之解禁+2/雷属性攻击强化+2/专注/牙兽杀手/挑衅"
   }
 ]
